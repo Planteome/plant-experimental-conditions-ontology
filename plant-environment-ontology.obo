@@ -1,5 +1,5 @@
 format-version: 1.0
-date: 27:11:2006 15:07
+date: 09:01:2009 13:22
 saved-by: Pankaj Jaiswal
 auto-generated-by: DAG-Edit 1.419 rev 3
 default-namespace: plant_environment_ontology
@@ -1212,7 +1212,7 @@ is_a: EO:0007107 ! Ascomycota
 id: EO:0007191
 name: abiotic environment
 def: "The treatment involving an exposure to the abiotic/non-biological factors such as chemicals\, location\, growth conditions etc." [GR:pj]
-is_a: EO:0007359 ! environment ontology
+is_a: EO:0007359 ! plant environment ontology
 
 [Term]
 id: EO:0007192
@@ -1468,7 +1468,7 @@ is_a: EO:0007047 ! other nutrient regimen
 id: EO:0007231
 name: study type
 def: "The treatment suggesting what kind of growth facility was used." [GR:pj]
-is_a: EO:0007359 ! environment ontology
+is_a: EO:0007359 ! plant environment ontology
 
 [Term]
 id: EO:0007232
@@ -1867,8 +1867,11 @@ is_a: EO:0007066 ! cytokinin regimen
 [Term]
 id: EO:0007291
 name: benzyladenine regimen
-def: "The treatment involving use of benzyladenine a cytokinin homolog to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj, CAS:\[1214-39-7\]]
+def: "It is a first-generation synthetic cytokinin which elicits plant growth and development responses\, setting blossoms and stimulating fruit richness by stimulating cell division. It is an inhibitor of respiratory kinase in plants\, and increases post-harvest life of green vegetables. \[From http\://en.wikipedia.org/wiki/6-Benzylaminopurine\]" [GR:pj, CAS:\[1214-39-7\], web:http\://en.wikipedia.org/wiki/6-Benzylaminopurine]
+comment: The treatment involving use of benzyladenine a cytokinin homolog to study various types of responses on its extrinsic and/or intrinsic application.
 synonym: "6-benzylaminopurine" []
+synonym: "BAP" []
+synonym: "Benzylaminopurine" []
 synonym: "N-(Phenylmethyl)-1H-purin-6-amine" []
 synonym: "N-benzyl-adenine" []
 synonym: "verdan senescence inhibitor" []
@@ -2312,7 +2315,7 @@ is_a: EO:0007111 ! ssRNA negative-strand virus
 id: EO:0007357
 name: biotic environment
 def: "The treatment involving an exposure to the biotic/biological factors such as pest\, pathogens\, plants\, etc." [GR:pj]
-is_a: EO:0007359 ! environment ontology
+is_a: EO:0007359 ! plant environment ontology
 
 [Term]
 id: EO:0007358
@@ -2325,8 +2328,8 @@ is_a: EO:0007111 ! ssRNA negative-strand virus
 id: EO:0007359
 name: plant environment ontology
 def: "A set of standardized controlled vocabularies to describe various types of treatments given to an individual plant / a population or a cultured tissue and/or cell type sample to evaluate the response on its exposure. It also includes the study types\, where the terms can be used to identify the growth study facility. Each growth facility such as field study\, growth chamber\, green house etc is a environment on its own it may also involve instances of biotic and abiotic environments as supplemental treatments used in these studies. " [GR:pj]
-synonym: "treatment ontology" []
 synonym: "plant treatment ontology" []
+synonym: "treatment ontology" []
 
 [Term]
 id: EO:0007360
@@ -2625,7 +2628,7 @@ is_a: EO:0007189 ! chemical regimen
 [Term]
 id: EO:0007403
 name: unknown environment
-is_a: EO:0007359 ! environment ontology
+is_a: EO:0007359 ! plant environment ontology
 
 [Term]
 id: EO:0007404
@@ -2661,6 +2664,42 @@ is_a: EO:0007165 ! growth hormone regimen
 id: EO:0007410
 name: cerebroside elicitor
 is_a: EO:0007402 ! fungal elicitor
+
+[Term]
+id: EO:0007411
+name: Pseudomonas fluorescens
+synonym: "Bacillus fluorescens" []
+synonym: "Bacillus fluorescens liquefaciens" []
+synonym: "Bacterium fluorescen" []
+synonym: "Liquidomonas fluorescens" []
+xref_analog: NCBI_taxid:294
+is_a: EO:0007144 ! Pseudomonas spp.
+
+[Term]
+id: EO:0007412
+name: zinc sulphate regimen
+def: "The treatment involving exposure of plant to micronutrient zinc by adding ZnSO4 as supplement to study various types of responses." [GR:pj]
+synonym: "ZnSO4" []
+is_a: EO:0007309 ! zinc nutrient regimen
+
+[Term]
+id: EO:0007413
+name: manganese sulfate regimen
+def: "The treatment involving exposure of plant to micronutrient manganese by adding MnSO4  supplement to study various types of responses." [GR:pj]
+synonym: "MnSO4" []
+is_a: EO:0007387 ! manganese nutrient regimen
+
+[Term]
+id: EO:0007414
+name: peroxide regimen
+def: "The treatment involving exposure of plant to a peroxide to study various types of oxidative stress responses." [GR:pj]
+is_a: EO:0007189 ! chemical regimen
+
+[Term]
+id: EO:0007415
+name: hydrogen peroxide
+def: "The treatment involving exposure of plant to H2O2 to study various types of oxidative stress responses." [GR:pj]
+is_a: EO:0007414 ! peroxide regimen
 
 [Term]
 id: EO:0007503

@@ -1,7 +1,7 @@
-format-version: 1.0
-date: 09:01:2009 13:22
-saved-by: Pankaj Jaiswal
-auto-generated-by: DAG-Edit 1.419 rev 3
+format-version: 1.2
+date: 10:04:2013 17:02
+saved-by: cooperl
+auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
 
 [Term]
@@ -19,7 +19,7 @@ is_a: EO:0007222 ! UV light regimen
 [Term]
 id: EO:0007003
 name: temperate region
-def: "Exposure to the regions with a temperate climate\, which are usually characterized by having roughly equally long winters and summers." [GR:pj]
+def: "Exposure to the regions with a temperate climate, which are usually characterized by having roughly equally long winters and summers." [GR:pj]
 is_a: EO:0007064 ! ecological environment
 
 [Term]
@@ -30,8 +30,8 @@ is_a: EO:0007050 ! soil texture
 [Term]
 id: EO:0007005
 name: Viridiplantae
-def: "Suggests the exposure of plant to other plants found in its growth environment. These plants may be growing as a weed or as part of normal farming practices. This treatmnet is part of an assay of any direct or indirect\, harmful or beneficial effect of one plant on another through the production of chemical compounds (allelochemicals) that escape in the environment." [GR:pj, Virdiplantae:33090]
-synonym: "green plant" []
+def: "Suggests the exposure of plant to other plants found in its growth environment. These plants may be growing as a weed or as part of normal farming practices. This treatmnet is part of an assay of any direct or indirect, harmful or beneficial effect of one plant on another through the production of chemical compounds (allelochemicals) that escape in the environment." [GR:pj, Virdiplantae:33090]
+synonym: "green plant" RELATED []
 is_a: EO:0007124 ! pest/pathogen/animal/plant environment
 
 [Term]
@@ -49,56 +49,56 @@ is_obsolete: true
 [Term]
 id: EO:0007008
 name: Monochoria vaginalis
-def: "The exposure of reference/experimental plant to monocot plant Monochoria vaginalis\, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:44972]
-synonym: "Asian pickerel weed" []
-synonym: "heartshape false pickerelweed" []
+def: "The exposure of reference/experimental plant to monocot plant Monochoria vaginalis, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:44972]
+synonym: "Asian pickerel weed" RELATED []
+synonym: "heartshape false pickerelweed" RELATED []
 is_a: EO:0007022 ! Liliopsida
 
 [Term]
 id: EO:0007009
 name: Eudicotyledon
 def: "The exposure of reference/experimental plant to dicot plants found in its growth environment. These plants may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:71240]
-synonym: "Eudicot" []
-synonym: "dicot" []
+synonym: "dicot" RELATED []
+synonym: "Eudicot" RELATED []
 is_a: EO:0007005 ! Viridiplantae
 
 [Term]
 id: EO:0007010
 name: Sagittaria montevidensis
-def: "The exposure of reference/experimental plant to monocot plant Sagittaria montevidensis\, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:118780]
-synonym: "giant arrowhead" []
+def: "The exposure of reference/experimental plant to monocot plant Sagittaria montevidensis, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:118780]
+synonym: "giant arrowhead" RELATED []
 is_a: EO:0007139 ! Sagittaria spp.
 
 [Term]
 id: EO:0007011
 name: Sagittaria longiloba
-def: "The exposure of reference/experimental plant to monocot plant Sagittaria longiloba\, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
-synonym: "Flecha de Agua" []
-synonym: "longlobe arrowhead" []
-synonym: "narrow-leaf arrowhead" []
+def: "The exposure of reference/experimental plant to monocot plant Sagittaria longiloba, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
+synonym: "Flecha de Agua" RELATED []
+synonym: "longlobe arrowhead" RELATED []
+synonym: "narrow-leaf arrowhead" RELATED []
 is_a: EO:0007139 ! Sagittaria spp.
 
 [Term]
 id: EO:0007012
 name: Heteranthera limosa
-def: "The exposure of reference/experimental plant to monocot plant Heteranthera limosa\, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:44958]
-synonym: "blue mud-plantain" []
-synonym: "ducksalad" []
+def: "The exposure of reference/experimental plant to monocot plant Heteranthera limosa, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:44958]
+synonym: "blue mud-plantain" RELATED []
+synonym: "ducksalad" RELATED []
 is_a: EO:0007022 ! Liliopsida
 
 [Term]
 id: EO:0007013
 name: Echinodorus berteroi
-def: "The exposure of reference/experimental plant to monocot plant Echinodorus berteroi\, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
-synonym: "upright burhead" []
+def: "The exposure of reference/experimental plant to monocot plant Echinodorus berteroi, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
+synonym: "upright burhead" RELATED []
 is_a: EO:0007138 ! Echinodorus spp.
 
 [Term]
 id: EO:0007014
 name: Echinodorus cordifolius
-def: "The exposure of reference/experimental plant to monocot plant Echinodorus cordifolius\, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:13048]
-synonym: "Texas mudbaby" []
-synonym: "creeping burhead" []
+def: "The exposure of reference/experimental plant to monocot plant Echinodorus cordifolius, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:13048]
+synonym: "creeping burhead" RELATED []
+synonym: "Texas mudbaby" RELATED []
 is_a: EO:0007138 ! Echinodorus spp.
 
 [Term]
@@ -116,45 +116,45 @@ is_a: EO:0007009 ! Eudicotyledon
 [Term]
 id: EO:0007017
 name: Cyperus difformis
-def: "The exposure of reference/experimental plant to monocot plant Cyperus difformis\, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
-synonym: "flatsedge" []
-synonym: "smallflower umbrellaplant" []
+def: "The exposure of reference/experimental plant to monocot plant Cyperus difformis, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
+synonym: "flatsedge" RELATED []
+synonym: "smallflower umbrellaplant" RELATED []
 is_a: EO:0007141 ! Cyperus spp.
 
 [Term]
 id: EO:0007018
 name: Scirpus fluviatilis
-def: "The exposure of reference/experimental plant to monocot plant Scirpus fluviatilis\, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
-synonym: "river bulrush" []
+def: "The exposure of reference/experimental plant to monocot plant Scirpus fluviatilis, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
+synonym: "river bulrush" RELATED []
 is_a: EO:0007140 ! Scirpus spp.
 
 [Term]
 id: EO:0007019
 name: Cyperus iria
-def: "The exposure of reference/experimental plant to monocot plant Cyperus difformis\, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
-synonym: "rice field flatsedge" []
+def: "The exposure of reference/experimental plant to monocot plant Cyperus difformis, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
+synonym: "rice field flatsedge" RELATED []
 is_a: EO:0007141 ! Cyperus spp.
 
 [Term]
 id: EO:0007020
 name: Scirpus mucronatus
-def: "The exposure of reference/experimental plant to monocot plant Scirpus mucronatus\, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
-synonym: "ricefield bulrush" []
+def: "The exposure of reference/experimental plant to monocot plant Scirpus mucronatus, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
+synonym: "ricefield bulrush" RELATED []
 is_a: EO:0007140 ! Scirpus spp.
 
 [Term]
 id: EO:0007021
 name: Alisma plantago-aquatica
 def: "The exposure of reference/experimental plant to monocot plant Alisma plantago-aquatica found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:15000]
-synonym: "water plantain" []
+synonym: "water plantain" RELATED []
 is_a: EO:0007022 ! Liliopsida
 
 [Term]
 id: EO:0007022
 name: Liliopsida
 def: "The exposure of reference/experimental plant to monocot plants found in its growth environment. These plants may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:4447]
-synonym: "monocot" []
-synonym: "monocotyledon" []
+synonym: "monocot" RELATED []
+synonym: "monocotyledon" RELATED []
 is_a: EO:0007005 ! Viridiplantae
 
 [Term]
@@ -179,7 +179,7 @@ is_a: EO:0007023 ! gaseous environment
 id: EO:0007026
 name: Echinochloa glabrescens
 def: "The exposure of reference/experimental plant to monocot plant Echinochloa glabrescens found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
-synonym: "barnyardgrass" []
+synonym: "barnyardgrass" RELATED []
 is_a: EO:0007137 ! Echinochloa spp.
 
 [Term]
@@ -191,30 +191,30 @@ is_a: EO:0007191 ! abiotic environment
 [Term]
 id: EO:0007028
 name: Echinochloa crus-galli
-def: "The exposure of reference/experimental plant to monocot plant Echinochloa crus-galli\, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:90397]
-synonym: "barnyardgrass" []
-synonym: "cockspur grass" []
+def: "The exposure of reference/experimental plant to monocot plant Echinochloa crus-galli, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:90397]
+synonym: "barnyardgrass" RELATED []
+synonym: "cockspur grass" RELATED []
 is_a: EO:0007137 ! Echinochloa spp.
 
 [Term]
 id: EO:0007029
 name: Typha spp.
-def: "The exposure of reference/experimental plant to monocot plant Typha spp.\, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:4732]
-synonym: "cattail" []
+def: "The exposure of reference/experimental plant to monocot plant Typha spp., found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:4732]
+synonym: "cattail" RELATED []
 is_a: EO:0007022 ! Liliopsida
 
 [Term]
 id: EO:0007030
 name: Leptochloa fascicularis
 def: "The exposure of reference/experimental plant to monocot plant Leptochloa fascicularis found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
-synonym: "bearded sprangeltop" []
+synonym: "bearded sprangeltop" RELATED []
 is_a: EO:0007022 ! Liliopsida
 
 [Term]
 id: EO:0007031
 name: Mammalia
 def: "The exposure of plant to the anilmals of higher order that may be resopnsible for damaging the plant due to grazing or feeding practices." [GR:pj, NCBI_taxid:40674]
-synonym: "mammal" []
+synonym: "mammal" RELATED []
 is_a: EO:0007349 ! Metazoa
 
 [Term]
@@ -286,13 +286,13 @@ is_a: EO:0007241 ! nutrient regimen
 [Term]
 id: EO:0007045
 name: primary macronutrient
-def: "Treatment involving the use of macronutrients (N\, P\, K) as supplement to study various types of responses. These macronutrients comprise the elements N\, P and K that are required by the plant in greatest quantities for normal growth." [GR:pj]
+def: "Treatment involving the use of macronutrients (N, P, K) as supplement to study various types of responses. These macronutrients comprise the elements N, P and K that are required by the plant in greatest quantities for normal growth." [GR:pj]
 is_a: EO:0007240 ! macronutrient regimen
 
 [Term]
 id: EO:0007046
 name: secondary macronutrient
-def: "Treatment involving the use of macronutrients (Ca\, Mg\, S) as supplement to study various types of responses. These macronutrients are used less often as fertilizers than the primary elements." [GR:pj]
+def: "Treatment involving the use of macronutrients (Ca, Mg, S) as supplement to study various types of responses. These macronutrients are used less often as fertilizers than the primary elements." [GR:pj]
 is_a: EO:0007240 ! macronutrient regimen
 
 [Term]
@@ -305,7 +305,7 @@ is_a: EO:0007241 ! nutrient regimen
 id: EO:0007048
 name: sodium chloride regimen
 def: "Treatment involving the use of sodium chloride salt as supplement to liquid and soil growth media to study various types of responses on its application." [GR:pj]
-synonym: "NaCl treatment" []
+synonym: "NaCl treatment" RELATED []
 is_a: EO:0007185 ! salt regimen
 
 [Term]
@@ -375,14 +375,14 @@ is_a: EO:0007134 ! acidic pH growth media environment
 id: EO:0007060
 name: Sphaerulina oryzina
 def: "Treatment involving the exposure of plant to the pathogen Sphaerulina oryzina. It is a causal agent for rice Narrow Brown Leaf Spot disease." [GR:ivy, NCBI_taxid:237189]
-synonym: "Cercospora janseana" []
-synonym: "Cercospora oryzae" []
+synonym: "Cercospora janseana" RELATED []
+synonym: "Cercospora oryzae" RELATED []
 is_a: EO:0007233 ! Fungi
 
 [Term]
 id: EO:0007061
 name: tropical region
-def: "Exposure to the geographical region of the Earth limited in latitude by the two tropics namely\,  the Tropic of Cancer and the Tropic of Capricorn\, and thus centered on the equator.. This area lies approximately between 23.5 N latitude and 23.5 S latitude\, and includes all the parts of the Earth where the sun reaches a point directly overhead at least once during the solar year (north of the Tropic of Cancer and south of the Tropic of Capricorn the sun never reaches an azimuth of 90 or directly overhead)." [GR:pj]
+def: "Exposure to the geographical region of the Earth limited in latitude by the two tropics namely,  the Tropic of Cancer and the Tropic of Capricorn, and thus centered on the equator.. This area lies approximately between 23.5 N latitude and 23.5 S latitude, and includes all the parts of the Earth where the sun reaches a point directly overhead at least once during the solar year (north of the Tropic of Cancer and south of the Tropic of Capricorn the sun never reaches an azimuth of 90 or directly overhead)." [GR:pj]
 is_a: EO:0007064 ! ecological environment
 
 [Term]
@@ -396,9 +396,9 @@ is_a: EO:0007133 ! basic pH growth media environment
 id: EO:0007063
 name: DCMU regimen
 def: "It blocks the reduction of plastoquinone in the photosynthetic light reaction and keeps the plastoquinone pool oxidized." [GR:pj]
-synonym: "3-(3\,4-dichloro-phenyl)-1\,1-dimethylurea" []
-synonym: "dichlorophenyldimethyl urea" []
-synonym: "diuron" []
+synonym: "3-(3,4-dichloro-phenyl)-1,1-dimethylurea" RELATED []
+synonym: "dichlorophenyldimethyl urea" RELATED []
+synonym: "diuron" RELATED []
 is_a: EO:0007183 ! herbicide regimen
 
 [Term]
@@ -411,24 +411,24 @@ is_a: EO:0007191 ! abiotic environment
 id: EO:0007065
 name: Entyloma oryzae
 def: "Treatment involving the exposure of plant to the pathogen Entyloma oryzae. It is a causal agent for rice Leaf Smut disease." [GR:ivy]
-synonym: "Entyloma dactylidis" []
-synonym: "Entyloma lineatum" []
+synonym: "Entyloma dactylidis" RELATED []
+synonym: "Entyloma lineatum" RELATED []
 is_a: EO:0007073 ! Basidiomycota
 
 [Term]
 id: EO:0007066
 name: cytokinin regimen
 def: "Treatment involving the use of cytokinin (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
-synonym: "6-benzylaminopurine" []
-synonym: "N-benzyl-adenine" []
-synonym: "verdan senescence" []
+synonym: "6-benzylaminopurine" RELATED []
+synonym: "N-benzyl-adenine" RELATED []
+synonym: "verdan senescence" RELATED []
 is_a: EO:0007165 ! growth hormone regimen
 
 [Term]
 id: EO:0007067
 name: hydroponic plant culture media
 def: "The treatment suggesting the use of liquid growth media for growing the plants. " [GR:pj]
-synonym: "soilless pant culture media" []
+synonym: "soilless pant culture media" RELATED []
 is_a: EO:0007265 ! liquid growth media
 
 [Term]
@@ -442,14 +442,14 @@ is_a: EO:0007165 ! growth hormone regimen
 id: EO:0007069
 name: gibberellic acid regimen
 def: "Treatment involving the use of GA (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
-synonym: "GA regimen" []
+synonym: "GA regimen" RELATED []
 is_a: EO:0007165 ! growth hormone regimen
 
 [Term]
 id: EO:0007070
 name: indole acetic acid regimen
 def: "Treatment involving the use of IAA (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
-synonym: "IAA regimen" []
+synonym: "IAA regimen" RELATED []
 is_a: EO:0007074 ! auxin regimen
 
 [Term]
@@ -461,15 +461,15 @@ is_a: EO:0007265 ! liquid growth media
 [Term]
 id: EO:0007072
 name: Microdochium oryzae
-def: "Treatment involving the exposure of plant to the pathogen Microdochium oryzae. It is a causal agent for rice various forms of Leaf scald disease such as Brown Leaf Blight Disease \, Leaf Sheath Browning Disease\, Leaf Tip Blight Disease and Leaf Tip Dying Disease." [GR:ivy]
-synonym: "Rhynchosporium oryzae" []
+def: "Treatment involving the exposure of plant to the pathogen Microdochium oryzae. It is a causal agent for rice various forms of Leaf scald disease such as Brown Leaf Blight Disease , Leaf Sheath Browning Disease, Leaf Tip Blight Disease and Leaf Tip Dying Disease." [GR:ivy]
+synonym: "Rhynchosporium oryzae" RELATED []
 is_a: EO:0007107 ! Ascomycota
 
 [Term]
 id: EO:0007073
 name: Basidiomycota
 def: "Treatment involving the exposure of plant to the pathogen  belonging to Basidiomycetes class." [GR:ivy, NCBI_taxid:5204]
-synonym: "basidiomycetes" []
+synonym: "basidiomycetes" RELATED []
 is_a: EO:0007233 ! Fungi
 
 [Term]
@@ -492,14 +492,14 @@ is_a: EO:0007224 ! light intensity regimen
 id: EO:0007077
 name: Tilletia barclayana
 def: "Treatment involving the exposure of plant to the pathogen Tilletia barclayana. It is a causal agent for rice Kernel Smut disease." [GR:ivy, NCBI_taxid:157178]
-synonym: "Neovossia horrida" []
+synonym: "Neovossia horrida" RELATED []
 is_a: EO:0007073 ! Basidiomycota
 
 [Term]
 id: EO:0007078
 name: light quantity regimen
 def: "In biological experiments often it refer to the length of the exposure time. The treatment also includes the quantity of light falling on a per unit area. This may be expressed either in terms of hours for which teh radiation was available or in the units of luminous flux or the lumens." [GR:pj]
-synonym: "photoperiod regimen" []
+synonym: "photoperiod regimen" RELATED []
 is_a: EO:0007153 ! radiation quantity regimen
 
 [Term]
@@ -512,7 +512,7 @@ is_a: EO:0007086 ! chemical fertilizer regimen
 id: EO:0007080
 name: jasmonic acid regimen
 def: "Treatment involving the use of JA (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
-synonym: "JA regimen" []
+synonym: "JA regimen" RELATED []
 is_a: EO:0007165 ! growth hormone regimen
 
 [Term]
@@ -529,13 +529,13 @@ is_a: EO:0007396 ! flood prone region
 id: EO:0007083
 name: Phoma sorghina
 def: "Treatment involving the exposure of plant to the pathogen Phoma sorghina. It is a causal agent for rice Glume Blight Disease disease." [GR:ivy, NCBI_taxid:73005]
-xref_analog: NCBI_taxid:73005
+xref: NCBI_taxid:73005
 is_a: EO:0007107 ! Ascomycota
 
 [Term]
 id: EO:0007084
 name: other animals
-def: "Treatment involving the exposure of plant to the pests that do not falll under the well known classes of birds\, mammals\, insects\, nematode and molluscs." [GR:pj]
+def: "Treatment involving the exposure of plant to the pests that do not falll under the well known classes of birds, mammals, insects, nematode and molluscs." [GR:pj]
 is_a: EO:0007349 ! Metazoa
 
 [Term]
@@ -554,16 +554,16 @@ is_a: EO:0007085 ! fertilizer regimen
 id: EO:0007087
 name: natural fertilizer regimen
 def: "Treatment involving the use of organic fertilizer and its component as supplements to study various types of responses." [GR:pj]
-synonym: "organic fertilizer regimen" []
+synonym: "organic fertilizer regimen" RELATED []
 is_a: EO:0007085 ! fertilizer regimen
 
 [Term]
 id: EO:0007088
 name: Ceratobasidium oryzae-sativae
-def: "Treatment involving the exposure of plant to the pathogen Ceratobasidium oryzae-sativae. It is a causal agent for rice Aggregate Sheath Spot disease\, which is also known as Brown Sclerotial disease." [GR:ivy, NCBI_taxid:63189]
-synonym: "Ceratobasidium oryzae-sativae" []
-synonym: "Ceratobasidium sativae" []
-synonym: "Rhizoctonia oryzae-sativae" []
+def: "Treatment involving the exposure of plant to the pathogen Ceratobasidium oryzae-sativae. It is a causal agent for rice Aggregate Sheath Spot disease, which is also known as Brown Sclerotial disease." [GR:ivy, NCBI_taxid:63189]
+synonym: "Ceratobasidium oryzae-sativae" RELATED []
+synonym: "Ceratobasidium sativae" RELATED []
+synonym: "Rhizoctonia oryzae-sativae" RELATED []
 is_a: EO:0007073 ! Basidiomycota
 
 [Term]
@@ -656,7 +656,7 @@ is_a: EO:0007086 ! chemical fertilizer regimen
 [Term]
 id: EO:0007104
 name: NPK fertilizer regimen
-def: "Treatment involving the use of nitrogen\, phosphorus and potassium supplements to study various types of responses." [GR:pj]
+def: "Treatment involving the use of nitrogen, phosphorus and potassium supplements to study various types of responses." [GR:pj]
 is_a: EO:0007102 ! nitrogen fertilizer regimen
 is_a: EO:0007103 ! phosphate fertilizer regimen
 
@@ -664,29 +664,29 @@ is_a: EO:0007103 ! phosphate fertilizer regimen
 id: EO:0007105
 name: abscisic acid regimen
 def: "STreatment involving the use of abscisic acid (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
-synonym: "ABA regimen" []
+synonym: "ABA regimen" RELATED []
 is_a: EO:0007165 ! growth hormone regimen
 
 [Term]
 id: EO:0007106
 name: Stramenopiles
 def: "Treatment involving the exposure of plant to the Stramenopiles (heterokonts) present in the gorowth environment." [GR:pj, NCBI_taxid:33634]
-synonym: "chromophyta" []
-synonym: "heterokont" []
+synonym: "chromophyta" RELATED []
+synonym: "heterokont" RELATED []
 is_a: EO:0007124 ! pest/pathogen/animal/plant environment
 
 [Term]
 id: EO:0007107
 name: Ascomycota
 def: "Treatment involving the exposure of plant to the pathogen belonging to Ascomycetes class." [GR:ivy, NCBI_taxid:4890]
-synonym: "ascomycetes" []
+synonym: "ascomycetes" RELATED []
 is_a: EO:0007233 ! Fungi
 
 [Term]
 id: EO:0007108
 name: Proteobacteria
 def: "Treatment involving the exposure of plant to the pathogenic purple bacteria." [GR:ivy, NCBI_taxid:1224]
-synonym: "purple bacteria" []
+synonym: "purple bacteria" RELATED []
 is_a: EO:0007246 ! Bacteria
 
 [Term]
@@ -699,7 +699,7 @@ is_a: EO:0007210 ! Virus
 id: EO:0007110
 name: dsRNA virus
 def: "Treatment involving the exposure of plant to the pathogenic double stranded RNA virus." [GR:pj, NCBI_taxid:35325]
-synonym: "dsRNA nonenveloped viruses" []
+synonym: "dsRNA nonenveloped viruses" RELATED []
 is_a: EO:0007210 ! Virus
 
 [Term]
@@ -719,16 +719,16 @@ id: EO:0007113
 name: rice necrosis mosaic virus
 alt_id: EO:0007354
 def: "Treatment involving the exposure of plant to the rice necrosis mosaic virus. It is a causal agent for rice necrosis mosaic disease." [GR:ivy, NCBI_taxid:59500]
-synonym: "RNMV" []
-synonym: "rice necrosis mosaic virus" []
+synonym: "rice necrosis mosaic virus" RELATED []
+synonym: "RNMV" RELATED []
 is_a: EO:0007109 ! ssRNA positive-strand virus with no DNA stage
 
 [Term]
 id: EO:0007114
 name: Lepidoptera
 def: "Treatment involving the exposure of plant to the pest of lepidoptera class." [GR:pj, NCBI_taxid:7088]
-synonym: "butterfly" []
-synonym: "moth" []
+synonym: "butterfly" RELATED []
+synonym: "moth" RELATED []
 is_a: EO:0007333 ! Insecta
 
 [Term]
@@ -741,14 +741,14 @@ is_a: EO:0007114 ! Lepidoptera
 id: EO:0007116
 name: Hemiptera
 def: "Treatment involving the exposure of plant to the pest of hemiptera class." [GR:pj, NCBI_taxid:7524]
-synonym: "bug" []
+synonym: "bug" RELATED []
 is_a: EO:0007333 ! Insecta
 
 [Term]
 id: EO:0007117
 name: Pseudaletia spp.
 def: "Treatment involving the exposure of plant to the pest rice army worm." [GR:pj, NCBI_taxid:7104]
-synonym: "armyworm" []
+synonym: "armyworm" RELATED []
 is_a: EO:0007114 ! Lepidoptera
 
 [Term]
@@ -761,36 +761,36 @@ is_a: EO:0007107 ! Ascomycota
 id: EO:0007119
 name: Diptera
 def: "Treatment involving the exposure of plant to the pest of Diptera class." [GR:pj, NCBI_taxid:7147]
-synonym: "fly" []
+synonym: "fly" RELATED []
 is_a: EO:0007333 ! Insecta
 
 [Term]
 id: EO:0007120
 name: Coleoptera
 def: "Treatment involving the exposure of plant to the pest commonly called as beetles or Coleoptera." [GR:pj, NCBI_taxid:7041]
-synonym: "beetle" []
+synonym: "beetle" RELATED []
 is_a: EO:0007333 ! Insecta
 
 [Term]
 id: EO:0007121
 name: Thysanoptera
 def: "Treatment involving the exposure of plant to the pest of Thysanoptera class." [GR:pj, NCBI_taxid:30262]
-synonym: "thrips" []
+synonym: "thrips" RELATED []
 is_a: EO:0007333 ! Insecta
 
 [Term]
 id: EO:0007122
 name: Chilo
 def: "Treatment involving the exposure of plant to the pest Chilo." [GR:pj, NCBI_taxid:168630]
-synonym: "stalk borer" []
-synonym: "stemborer" []
+synonym: "stalk borer" RELATED []
+synonym: "stemborer" RELATED []
 is_a: EO:0007114 ! Lepidoptera
 
 [Term]
 id: EO:0007123
 name: Eysarcoris trimaculatus
 def: "Treatment involving the exposure of plant to the pest rice spotting bug." [GR:pj]
-synonym: "rice spotting bug" []
+synonym: "rice spotting bug" RELATED []
 is_a: EO:0007116 ! Hemiptera
 
 [Term]
@@ -815,7 +815,7 @@ is_a: EO:0007337 ! Nematoda
 id: EO:0007127
 name: Meloidogyne spp.
 def: "Treatment involving the exposure of plant to the pest Meloidogyne spp. It is a causal agent for rice root knot nematode disease." [GR:pj, NCBI_taxid:189290]
-synonym: "root-knot nematode" []
+synonym: "root-knot nematode" RELATED []
 is_a: EO:0007337 ! Nematoda
 
 [Term]
@@ -833,8 +833,8 @@ is_a: EO:0007222 ! UV light regimen
 [Term]
 id: EO:0007130
 name: near infra-red light regimen
-def: "The treatment using infra-red light either exclusively or as part of a supplemental light of near IR band that contains energy in the range of wavelengths 750-1300nm\, which is closest to the visible light." [GR:pj]
-synonym: "near IR light regimen" []
+def: "The treatment using infra-red light either exclusively or as part of a supplemental light of near IR band that contains energy in the range of wavelengths 750-1300nm, which is closest to the visible light." [GR:pj]
+synonym: "near IR light regimen" RELATED []
 is_a: EO:0007202 ! IR light regimen
 
 [Term]
@@ -854,7 +854,7 @@ id: EO:0007133
 name: basic pH growth media environment
 alt_id: EO:0007169
 def: "The treatment involving an exposure to basic pH levels of the growth media." [GR:pj]
-synonym: "basic pH environment" []
+synonym: "basic pH environment" RELATED []
 is_a: EO:0007171 ! pH regimen
 
 [Term]
@@ -862,7 +862,7 @@ id: EO:0007134
 name: acidic pH growth media environment
 alt_id: EO:0007170
 def: "The treatment involving an exposure to acidic pH levels of the growth media." [GR:pj]
-synonym: "acidic pH environment" []
+synonym: "acidic pH environment" RELATED []
 is_a: EO:0007171 ! pH regimen
 
 [Term]
@@ -886,21 +886,21 @@ is_a: EO:0007022 ! Liliopsida
 [Term]
 id: EO:0007138
 name: Echinodorus spp.
-def: "The treatment involving an exposure of reference/experimental plant to monocot plant Echinodorus spp.\, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:13047]
-synonym: "burhead" []
+def: "The treatment involving an exposure of reference/experimental plant to monocot plant Echinodorus spp., found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:13047]
+synonym: "burhead" RELATED []
 is_a: EO:0007022 ! Liliopsida
 
 [Term]
 id: EO:0007139
 name: Sagittaria spp.
 def: "The treatment involving an exposure of reference/experimental plant to monocot plant Sagittaria spp. found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:4450]
-synonym: "arrowhead" []
+synonym: "arrowhead" RELATED []
 is_a: EO:0007022 ! Liliopsida
 
 [Term]
 id: EO:0007140
 name: Scirpus spp.
-def: "The treatment involving an exposure of reference/experimental plant to monocot plant Scirpus spp.\, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:46334]
+def: "The treatment involving an exposure of reference/experimental plant to monocot plant Scirpus spp., found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:46334]
 is_a: EO:0007022 ! Liliopsida
 
 [Term]
@@ -936,7 +936,7 @@ is_a: EO:0007108 ! Proteobacteria
 [Term]
 id: EO:0007146
 name: gravity
-def: "The treatment involving use of gravity factor to study various types of responses in presence\, absence or modified levels of gravity." [GR:pj]
+def: "The treatment involving use of gravity factor to study various types of responses in presence, absence or modified levels of gravity." [GR:pj]
 is_a: EO:0007316 ! physical environment
 
 [Term]
@@ -949,7 +949,7 @@ is_a: EO:0007191 ! abiotic environment
 id: EO:0007148
 name: Xanthomonas oryzae
 def: "The treatment involving an exposure of plant to the pathogen Xanthomonas oryzae. It is a causal agent for rice bacterial blight disease." [GR:ivy, NCBI_taxid:347]
-synonym: "Pseudomonas oryzae" []
+synonym: "Pseudomonas oryzae" RELATED []
 is_a: EO:0007145 ! Xanthomonas spp.
 
 [Term]
@@ -967,14 +967,14 @@ is_obsolete: true
 [Term]
 id: EO:0007151
 name: radiation regimen
-def: "The treatment involving an exposure with a radiation type\, intesity or quantity." [GR:pj]
-synonym: "light regimen" []
+def: "The treatment involving an exposure with a radiation type, intesity or quantity." [GR:pj]
+synonym: "light regimen" RELATED []
 is_a: EO:0007191 ! abiotic environment
 
 [Term]
 id: EO:0007152
 name: radiation intensity regimen
-def: "The treatment involving amount of energy of any radiation incident upon (or flowing through) unit area\, perpendicular to the radiation source\, in unit time." [GR:pj]
+def: "The treatment involving amount of energy of any radiation incident upon (or flowing through) unit area, perpendicular to the radiation source, in unit time." [GR:pj]
 is_a: EO:0007151 ! radiation regimen
 
 [Term]
@@ -986,7 +986,7 @@ is_a: EO:0007151 ! radiation regimen
 [Term]
 id: EO:0007154
 name: radiation quality regimen
-def: "The treatment involving an exposure to a given type of radiation. Often it is in the form of electromagnetic and ionizing radiation such as light (infrared\, visible or ultraviolet)\, x-rays\, gamma rays\, etc." [GR:pj]
+def: "The treatment involving an exposure to a given type of radiation. Often it is in the form of electromagnetic and ionizing radiation such as light (infrared, visible or ultraviolet), x-rays, gamma rays, etc." [GR:pj]
 is_a: EO:0007151 ! radiation regimen
 
 [Term]
@@ -1018,14 +1018,14 @@ is_a: EO:0007155 ! soil type
 [Term]
 id: EO:0007160
 name: water temperature regimen
-def: "The treatment involving an exposure to water with varying degree of temperature\, which may depend on regional environment." [GR:pj]
+def: "The treatment involving an exposure to water with varying degree of temperature, which may depend on regional environment." [GR:pj]
 is_a: EO:0007175 ! temperature environment
 is_a: EO:0007198 ! water environment
 
 [Term]
 id: EO:0007161
 name: air temperature regimen
-def: "The treatment involving an exposure to wind with varying degree of temperature\, which may depend on the study type or the regional environment." [GR:pj]
+def: "The treatment involving an exposure to wind with varying degree of temperature, which may depend on the study type or the regional environment." [GR:pj]
 is_a: EO:0007175 ! temperature environment
 is_a: EO:0007382 ! wind environment
 
@@ -1069,8 +1069,8 @@ is_a: EO:0007189 ! chemical regimen
 id: EO:0007168
 name: hygromycin regimen
 def: "The treatment involving use of hygromycin B antibiotic for selection purposes." [GR:pj]
-synonym: "Antibiotic A-396-II" []
-synonym: "hygromycin B regimen" []
+synonym: "Antibiotic A-396-II" RELATED []
+synonym: "hygromycin B regimen" RELATED []
 is_a: EO:0007041 ! antibiotic regimen
 
 [Term]
@@ -1088,19 +1088,19 @@ is_a: EO:0007282 ! standing water
 [Term]
 id: EO:0007173
 name: warm/hot temperature regimen
-def: "The treatment involving an exposure to above optimal temperature\, which may depend on the study type or the regional environment." [GR:pj]
+def: "The treatment involving an exposure to above optimal temperature, which may depend on the study type or the regional environment." [GR:pj]
 is_a: EO:0007175 ! temperature environment
 
 [Term]
 id: EO:0007174
 name: cold temperature regimen
-def: "The treatment involving an exposure to cold or sub-optimal temperature\, which may depend on the study type or the regional environment." [GR:pj]
+def: "The treatment involving an exposure to cold or sub-optimal temperature, which may depend on the study type or the regional environment." [GR:pj]
 is_a: EO:0007175 ! temperature environment
 
 [Term]
 id: EO:0007175
 name: temperature environment
-def: "The treatment involving an exposure to varying degree of temperature\, which may depend on regional environment." [GR:pj]
+def: "The treatment involving an exposure to varying degree of temperature, which may depend on regional environment." [GR:pj]
 is_a: EO:0007191 ! abiotic environment
 
 [Term]
@@ -1119,7 +1119,7 @@ is_a: EO:0007328 ! Pythium spp.
 id: EO:0007178
 name: atmospheric pressure
 def: "The treatment involving an exposure to a given pressure of the atmosphere at a given point. Its measurement can be expressed in several ways. One is in millibars. Another is in inches or millimeters of mercury (Hg)." [GR:pj]
-synonym: "barometric pressure" []
+synonym: "barometric pressure" RELATED []
 is_a: EO:0007064 ! ecological environment
 
 [Term]
@@ -1131,17 +1131,17 @@ is_a: EO:0007328 ! Pythium spp.
 [Term]
 id: EO:0007180
 name: 2,4-dichlorophenoxyacetic acid
-def: "The treatment involving use of 2\,4-D growth hormone/herbicide to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj, CAS:94-75-7]
-synonym: "2\,4-D regimen" []
-synonym: "Amidox" [CAS:94-75-7]
-synonym: "B-Selektonon" [CAS:94-75-7]
-synonym: "Crotilin" [CAS:94-75-7]
-synonym: "Decamine" [CAS:94-75-7]
-synonym: "Dicopur" [CAS:94-75-7]
-synonym: "U-5043" [CAS:94-75-7]
-synonym: "Weed Tox" [CAS:94-75-7]
-synonym: "Weedar 64A" [CAS:94-75-7]
-synonym: "Weedone-2\,4-DP" [CAS:94-75-7]
+def: "The treatment involving use of 2,4-D growth hormone/herbicide to study various types of responses on its extrinsic and/or intrinsic application." [CAS:94-75-7, GR:pj]
+synonym: "2,4-D regimen" RELATED []
+synonym: "Amidox" RELATED [CAS:94-75-7]
+synonym: "B-Selektonon" RELATED [CAS:94-75-7]
+synonym: "Crotilin" RELATED [CAS:94-75-7]
+synonym: "Decamine" RELATED [CAS:94-75-7]
+synonym: "Dicopur" RELATED [CAS:94-75-7]
+synonym: "U-5043" RELATED [CAS:94-75-7]
+synonym: "Weed Tox" RELATED [CAS:94-75-7]
+synonym: "Weedar 64A" RELATED [CAS:94-75-7]
+synonym: "Weedone-2,4-DP" RELATED [CAS:94-75-7]
 is_a: EO:0007074 ! auxin regimen
 is_a: EO:0007183 ! herbicide regimen
 
@@ -1199,7 +1199,7 @@ id: EO:0007189
 name: chemical regimen
 alt_id: EO:0007042
 def: "The treatment involving use of chemical(s) to study various types of responses on their extrinsic and/or intrinsic application." [GR:pj]
-synonym: "other chemical regimen" []
+synonym: "other chemical regimen" RELATED []
 is_a: EO:0007191 ! abiotic environment
 
 [Term]
@@ -1211,8 +1211,8 @@ is_a: EO:0007107 ! Ascomycota
 [Term]
 id: EO:0007191
 name: abiotic environment
-def: "The treatment involving an exposure to the abiotic/non-biological factors such as chemicals\, location\, growth conditions etc." [GR:pj]
-is_a: EO:0007359 ! plant environment ontology
+def: "The treatment involving an exposure to the abiotic/non-biological factors such as chemicals, location, growth conditions etc." [GR:pj]
+is_a: EO:0007359 ! plant environment
 
 [Term]
 id: EO:0007192
@@ -1229,7 +1229,7 @@ is_a: EO:0007224 ! light intensity regimen
 id: EO:0007194
 name: Sclerospora macrospora
 def: "The treatment involving exposure of plant to the pathogen Sclerophthora macrospora. It is a causal agent for rice Downy Mildew disease." [GR:ivy]
-synonym: "Sclerophthora macrospora" []
+synonym: "Sclerophthora macrospora" RELATED []
 is_a: EO:0007630 ! Sclerospora spp.
 
 [Term]
@@ -1237,9 +1237,9 @@ id: EO:0007195
 name: rice ragged stunt virus
 alt_id: EO:0007352
 def: "The treatment involving exposure of plant to the rice ragged stunt virus. It is a causal agent for rice ragged stunt disease." [GR:ivy, NCBI_taxid:42475]
-synonym: "RRSV" []
-synonym: "rice ragged stunt oryzavirus" []
-synonym: "rice ragged stunt virus" []
+synonym: "rice ragged stunt oryzavirus" RELATED []
+synonym: "rice ragged stunt virus" RELATED []
+synonym: "RRSV" RELATED []
 is_a: EO:0007110 ! dsRNA virus
 
 [Term]
@@ -1247,24 +1247,24 @@ id: EO:0007196
 name: light regimen
 alt_id: EO:0007201
 def: "The treatment involving day light as the light of the sun or the artificial light in a growth chamber." [GR:pj]
-comment: A type of light used in a commercial light box to simulate natural daylight. For experiments carried out in growth chambers\, the daylight is a light source providing a color temperature of 6500+/-200 K at an illumination of 90 to 120 ft/candles. This source is typically provided by fluorescent\,  tungsten or halogen lamps.
-synonym: "artificial daylight" []
-synonym: "artificial light" []
-synonym: "day light" []
-synonym: "natural light" []
-synonym: "sun light" []
+comment: A type of light used in a commercial light box to simulate natural daylight. For experiments carried out in growth chambers, the daylight is a light source providing a color temperature of 6500+/-200 K at an illumination of 90 to 120 ft/candles. This source is typically provided by fluorescent,  tungsten or halogen lamps.
+synonym: "artificial daylight" RELATED []
+synonym: "artificial light" RELATED []
+synonym: "day light" RELATED []
+synonym: "natural light" RELATED []
+synonym: "sun light" RELATED []
 is_a: EO:0007154 ! radiation quality regimen
 
 [Term]
 id: EO:0007197
 name: humidity regimen
-def: "The treatment involving an exposure to varying degree of humidity\, which may depend on regional environment." [GR:pj]
+def: "The treatment involving an exposure to varying degree of humidity, which may depend on regional environment." [GR:pj]
 is_a: EO:0007198 ! water environment
 
 [Term]
 id: EO:0007198
 name: water environment
-def: "The treatment involving an exposure of varying amount of water and watering frequncies\, which may depend on regional environment." [GR:pj]
+def: "The treatment involving an exposure of varying amount of water and watering frequncies, which may depend on regional environment." [GR:pj]
 is_a: EO:0007191 ! abiotic environment
 
 [Term]
@@ -1289,42 +1289,42 @@ is_a: EO:0007196 ! light regimen
 id: EO:0007203
 name: far red light regimen
 def: "The treatment using far red light either exclusively or as part of a supplemental light treatment involving red color light in the wavelength range of 800-700 nM." [GR:pj]
-synonym: "Pfr light" []
+synonym: "Pfr light" RELATED []
 is_a: EO:0007196 ! light regimen
 
 [Term]
 id: EO:0007204
 name: 1-naphthaleneacetic acid
-def: "The treatment involving use of 1-naphthaleneacetic acid growth hormone/herbicide to study various types of responses on its extrinsic and/or intrinsic application." [CAS:\[68-87-3\], GR:pj]
-synonym: "NAA" []
-synonym: "Naphthylacetic acid" []
+def: "The treatment involving use of 1-naphthaleneacetic acid growth hormone/herbicide to study various types of responses on its extrinsic and/or intrinsic application." [CAS:[68-87-3\], GR:pj]
+synonym: "NAA" RELATED []
+synonym: "Naphthylacetic acid" RELATED []
 is_a: EO:0007074 ! auxin regimen
 
 [Term]
 id: EO:0007205
 name: rice grassy stunt 2 virus
 def: "The treatment involving exposure of plant to the rice grassy stunt 2 virus. It is a causal agent for rice grassy stunt disease." [GR:ivy, NCBI_taxid:66266]
-synonym: "RGSV-2" []
+synonym: "RGSV-2" RELATED []
 is_a: EO:0007358 ! rice grassy stunt virus
 
 [Term]
 id: EO:0007206
 name: Gaeumannomyces graminis
-def: "The treatment involving exposure of plant to the pathogen Gaeumannomyces graminis. It is a causal agent for rice Crown Sheath Rot Disease also called as Arkansas Foot Rot Disease\, Black Sheath Rot Disease and Brown Sheath Rot Disease." [GR:ivy, NCBI_taxid:29850]
+def: "The treatment involving exposure of plant to the pathogen Gaeumannomyces graminis. It is a causal agent for rice Crown Sheath Rot Disease also called as Arkansas Foot Rot Disease, Black Sheath Rot Disease and Brown Sheath Rot Disease." [GR:ivy, NCBI_taxid:29850]
 is_a: EO:0007107 ! Ascomycota
 
 [Term]
 id: EO:0007207
 name: red light regimen
 def: "The treatment using red light either exclusively or as part of a supplemental light treatment involving red color light in the wavelength range of 780-622 nM." [GR:pj]
-synonym: "Pr light" []
+synonym: "Pr light" RELATED []
 is_a: EO:0007221 ! visible light regimen
 
 [Term]
 id: EO:0007208
 name: rice grassy stunt 1 virus
 def: "The treatment involving exposure of plant to the rice grassy stunt 1 virus. It is a causal agent for rice grassy stunt disease." [GR:ivy, NCBI_taxid:66266]
-synonym: "RGSV-1" []
+synonym: "RGSV-1" RELATED []
 is_a: EO:0007358 ! rice grassy stunt virus
 
 [Term]
@@ -1343,9 +1343,9 @@ is_a: EO:0007124 ! pest/pathogen/animal/plant environment
 id: EO:0007211
 name: Cochliobolus miyabeanus
 def: "The treatment involving exposure of plant to the pathogen Cochliobolus miyabeanus. It is a causal agent for rice Brown Spot diseaseand/or Seedling Blight (Fungal) disease." [GR:ivy, NCBI_taxid:101162]
-synonym: "Bipolaris oryzae" []
-synonym: "Dreschlera oryzae" []
-synonym: "Helminthosporium oryzae" []
+synonym: "Bipolaris oryzae" RELATED []
+synonym: "Dreschlera oryzae" RELATED []
+synonym: "Helminthosporium oryzae" RELATED []
 is_a: EO:0007055 ! Cochliobolus spp.
 
 [Term]
@@ -1399,7 +1399,7 @@ is_a: EO:0007221 ! visible light regimen
 [Term]
 id: EO:0007221
 name: visible light regimen
-def: "The treatment using visible light in the wavelength range of 380-780 nM. is the portion of the electromagnetic spectrum that is visible to the human eye. The optical spectrum is a composite\, or mixture\, of the various colors." [GR:pj]
+def: "The treatment using visible light in the wavelength range of 380-780 nM. is the portion of the electromagnetic spectrum that is visible to the human eye. The optical spectrum is a composite, or mixture, of the various colors." [GR:pj]
 is_a: EO:0007196 ! light regimen
 
 [Term]
@@ -1412,13 +1412,13 @@ is_a: EO:0007196 ! light regimen
 id: EO:0007223
 name: cadmium chloride
 def: "The treatment involving use of CdCl2 to assess response against the heavy metals." [GR:pj]
-synonym: "CdCl2" []
+synonym: "CdCl2" RELATED []
 is_a: EO:0007189 ! chemical regimen
 
 [Term]
 id: EO:0007224
 name: light intensity regimen
-def: "The treatment involving exposure of plant or a plant part to the amount of light energy incident upon (or flowing through) unit area\, perpendicular to the radiation source\, in unit time." [GR:pj]
+def: "The treatment involving exposure of plant or a plant part to the amount of light energy incident upon (or flowing through) unit area, perpendicular to the radiation source, in unit time." [GR:pj]
 is_a: EO:0007152 ! radiation intensity regimen
 
 [Term]
@@ -1430,11 +1430,11 @@ is_a: EO:0007047 ! other nutrient regimen
 [Term]
 id: EO:0007226
 name: Magnaporthe grisea
-def: "The treatment involving exposure of plant to the pathogen Magnaporthe grisea. It is a causal agent for rice various forms of Blast diseases such as Collar Blast\, Leaf Blast\, Neck Blast\, Panicle Blast and Nodal Blast disease." [GR:ivy, NCBI_taxid:148305]
-synonym: "Piricularia grisea" []
-synonym: "Pyricularia grisea" []
-synonym: "Pyricularia oryzae" []
-synonym: "rice blast fungus" []
+def: "The treatment involving exposure of plant to the pathogen Magnaporthe grisea. It is a causal agent for rice various forms of Blast diseases such as Collar Blast, Leaf Blast, Neck Blast, Panicle Blast and Nodal Blast disease." [GR:ivy, NCBI_taxid:148305]
+synonym: "Piricularia grisea" RELATED []
+synonym: "Pyricularia grisea" RELATED []
+synonym: "Pyricularia oryzae" RELATED []
+synonym: "rice blast fungus" RELATED []
 is_a: EO:0007135 ! Magnaporthe spp.
 
 [Term]
@@ -1454,8 +1454,8 @@ id: EO:0007229
 name: Gibberella fujikuroi
 alt_id: EO:0007299
 def: "The treatment involving exposure of plant to the pathogen Gibberella fujikuroi. It is a causal agent for rice Bakanae disease and also for a form of rice Seedling Blight (Fungal) Disease disease." [GR:ivy, NCBI_taxid:5127]
-synonym: "Fusarium fujikuroi" []
-synonym: "Fusarium moniliforme" []
+synonym: "Fusarium fujikuroi" RELATED []
+synonym: "Fusarium moniliforme" RELATED []
 is_a: EO:0007118 ! Gibberella spp.
 
 [Term]
@@ -1468,7 +1468,7 @@ is_a: EO:0007047 ! other nutrient regimen
 id: EO:0007231
 name: study type
 def: "The treatment suggesting what kind of growth facility was used." [GR:pj]
-is_a: EO:0007359 ! plant environment ontology
+is_a: EO:0007359 ! plant environment
 
 [Term]
 id: EO:0007232
@@ -1486,8 +1486,8 @@ is_a: EO:0007124 ! pest/pathogen/animal/plant environment
 id: EO:0007234
 name: Pseudomonas fuscovaginae
 def: "The treatment involving exposure of plant to the pathogen Pseudomonas fuscovaginae. It is a causal agent for rice Sheath Brown Rot disease." [GR:ivy, NCBI_taxid:50340]
-synonym: "Pseudomonas fuscivaginae" []
-xref_analog: NCBI_taxid:50340
+synonym: "Pseudomonas fuscivaginae" RELATED []
+xref: NCBI_taxid:50340
 is_a: EO:0007144 ! Pseudomonas spp.
 
 [Term]
@@ -1500,8 +1500,8 @@ is_a: EO:0007047 ! other nutrient regimen
 id: EO:0007236
 name: Pseudomonas plantarii
 def: "The treatment involving exposure of plant to the pathogen Pseudomonas plantarii. It is a causal agent for rice Seedling Blight (Bacterial) disease." [GR:ivy, NCBI_taxid:41899]
-synonym: "Burkholderia plantarii" []
-synonym: "Burkholderia vandii" []
+synonym: "Burkholderia plantarii" RELATED []
+synonym: "Burkholderia vandii" RELATED []
 is_a: EO:0007144 ! Pseudomonas spp.
 
 [Term]
@@ -1519,8 +1519,8 @@ is_obsolete: true
 [Term]
 id: EO:0007239
 name: micronutrient regimen
-def: "The treatment involving exposure of plant to elements that are required in tiny quantities for growth\, as supplement to study various types of responses." [GR:pj]
-synonym: "trace element regimen" []
+def: "The treatment involving exposure of plant to elements that are required in tiny quantities for growth, as supplement to study various types of responses." [GR:pj]
+synonym: "trace element regimen" RELATED []
 is_a: EO:0007044 ! mineral nutrient regimen
 
 [Term]
@@ -1545,7 +1545,7 @@ is_a: EO:0007239 ! micronutrient regimen
 id: EO:0007243
 name: Pseudomonas glumae
 def: "The treatment involving exposure of plant to the pathogen Pseudomonas glumae. It is a causal agent for rice Grain Rot disease." [GR:ivy, NCBI_taxid:337]
-synonym: "Burkholderia glumae" []
+synonym: "Burkholderia glumae" RELATED []
 is_a: EO:0007144 ! Pseudomonas spp.
 
 [Term]
@@ -1564,14 +1564,14 @@ is_a: EO:0007143 ! Erwinia spp.
 id: EO:0007246
 name: Bacteria
 def: "The treatment involving exposure of plant to the pathogenic bacteria." [GR:ivy, NCBI_taxid:2]
-synonym: "eubacteria" []
+synonym: "eubacteria" RELATED []
 is_a: EO:0007124 ! pest/pathogen/animal/plant environment
 
 [Term]
 id: EO:0007247
 name: Erwinia herbicola
 def: "The treatment involving exposure of plant to the pathogen Erwinia herbicola. The susceptible plants suffer from Bacterial Palea Browning disease." [GR:ivy, NCBI_taxid:549]
-synonym: "Pantoea agglomerans" []
+synonym: "Pantoea agglomerans" RELATED []
 is_a: EO:0007143 ! Erwinia spp.
 
 [Term]
@@ -1584,14 +1584,14 @@ is_a: EO:0007231 ! study type
 id: EO:0007249
 name: Xanthomonas oryzae pv. oryzicola
 def: "The treatment involving exposure of plant to the pathogen Xanthomonas oryzae pv. oryzicola. It is a causal agent for rice bacterial blight disease." [GR:ivy, NCBI_taxid:129394]
-synonym: "Xanthomonas campestris pv. oryzicola" []
+synonym: "Xanthomonas campestris pv. oryzicola" RELATED []
 is_a: EO:0007148 ! Xanthomonas oryzae
 
 [Term]
 id: EO:0007250
 name: Recilia dorsalis
 def: "The treatment involving exposure of plant to the pest zigzag leafhopper." [GR:pj]
-synonym: "zigzag leafhopper" []
+synonym: "zigzag leafhopper" RELATED []
 is_a: EO:0007116 ! Hemiptera
 
 [Term]
@@ -1604,7 +1604,7 @@ is_a: EO:0007144 ! Pseudomonas spp.
 id: EO:0007252
 name: Sogatella furcifera
 def: "The treatment involving exposure of plant to the pest white-backed planthopper." [GR:pj, NCBI_taxid:113103]
-synonym: "white-backed planthopper" []
+synonym: "white-backed planthopper" RELATED []
 is_a: EO:0007116 ! Hemiptera
 
 [Term]
@@ -1617,34 +1617,34 @@ is_a: EO:0007239 ! micronutrient regimen
 id: EO:0007254
 name: Pseudomonas avenae
 def: "The treatment involving exposure of plant to the pathogen Pseudomonas avenae. It is a causal agent for rice Bacterial Brown Stripe disease" [GR:ivy, NCBI_taxid:80867]
-synonym: "Acidovorax avenae" []
+synonym: "Acidovorax avenae" RELATED []
 is_a: EO:0007144 ! Pseudomonas spp.
 
 [Term]
 id: EO:0007255
 name: laboratory study
-def: "The treatment where the plants were grown under laboratory / open room conditions\, with very few controlled parameters. This may involve supplemantal treatments in addition to any naturally occurring conditions." [GR:pj]
+def: "The treatment where the plants were grown under laboratory / open room conditions, with very few controlled parameters. This may involve supplemantal treatments in addition to any naturally occurring conditions." [GR:pj]
 is_a: EO:0007231 ! study type
 
 [Term]
 id: EO:0007256
 name: field study
 def: "The treatment where the plants were grown under field conditions. This may involve supplemantal treatments in addition to any naturally occurring conditions." [GR:pj]
-synonym: "open field study" []
+synonym: "open field study" RELATED []
 is_a: EO:0007231 ! study type
 
 [Term]
 id: EO:0007257
 name: Xanthomonas oryzae pv. oryzae
 def: "The treatment involving exposure of plant to the pathogen Xanthomonas oryzae pv. oryzae. It is a causal agent for rice bacterial blight disease." [GR:ivy, NCBI_taxid:64187]
-synonym: "Xanthomonas campestris pv. oryza" []
+synonym: "Xanthomonas campestris pv. oryza" RELATED []
 is_a: EO:0007148 ! Xanthomonas oryzae
 
 [Term]
 id: EO:0007258
 name: Oebalus pugnax
 def: "The treatment involving exposure of plant to the pest rice stink bug" [GR:pj]
-synonym: "rice stink bug" []
+synonym: "rice stink bug" RELATED []
 is_a: EO:0007116 ! Hemiptera
 
 [Term]
@@ -1658,8 +1658,8 @@ is_a: EO:0007198 ! water environment
 id: EO:0007260
 name: Diopsis macrophthalma
 def: "The treatment involving exposure of plant to the pest commonly calles as rice stem borer." [GR:pj]
-synonym: "rice stem borer" []
-synonym: "stalked-eyed fly" []
+synonym: "rice stem borer" RELATED []
+synonym: "stalked-eyed fly" RELATED []
 is_a: EO:0007119 ! Diptera
 
 [Term]
@@ -1678,24 +1678,24 @@ is_a: EO:0007147 ! growth media
 id: EO:0007263
 name: Maliarpha separatella
 def: "The treatment involving exposure of plant to the pest white rice borer" [GR:pj]
-synonym: "African white stemborer" []
-synonym: "African whiteheads" []
-synonym: "white rice borer" []
+synonym: "African white stemborer" RELATED []
+synonym: "African whiteheads" RELATED []
+synonym: "white rice borer" RELATED []
 is_a: EO:0007114 ! Lepidoptera
 
 [Term]
 id: EO:0007264
 name: Sesamia inferens
 def: "The treatment involving exposure of plant to the pest purple stem borer." [GR:pj]
-synonym: "pink stem borer" []
-synonym: "purple borer" []
-synonym: "purple stem borer" []
+synonym: "pink stem borer" RELATED []
+synonym: "purple borer" RELATED []
+synonym: "purple stem borer" RELATED []
 is_a: EO:0007114 ! Lepidoptera
 
 [Term]
 id: EO:0007265
 name: liquid growth media
-def: "The treatment involving use of liquid growth media for growing the plants\, cell or tissue cultured samples." [GR:pj]
+def: "The treatment involving use of liquid growth media for growing the plants, cell or tissue cultured samples." [GR:pj]
 is_a: EO:0007147 ! growth media
 
 [Term]
@@ -1726,7 +1726,7 @@ is_a: EO:0007231 ! study type
 id: EO:0007270
 name: continuous dark (no light) regimen
 def: "The treatment involving continuous exposure to darkness (no light) to the plant. " [GR:pj]
-synonym: "continuous night regimen" []
+synonym: "continuous night regimen" RELATED []
 is_a: EO:0007078 ! light quantity regimen
 
 [Term]
@@ -1738,9 +1738,9 @@ is_a: EO:0007224 ! light intensity regimen
 id: EO:0007272
 name: Scirpophaga innotata
 def: "The treatment involving exposure of plant to the pest Scirpophaga innotata" [GR:pj]
-synonym: "Tipanaea sericea" []
-synonym: "white rice stemborer" []
-synonym: "white stemborer" []
+synonym: "Tipanaea sericea" RELATED []
+synonym: "white rice stemborer" RELATED []
+synonym: "white stemborer" RELATED []
 is_a: EO:0007142 ! Scirpophaga spp.
 
 [Term]
@@ -1753,15 +1753,15 @@ is_a: EO:0007239 ! micronutrient regimen
 id: EO:0007274
 name: Scirpophaga incertulas
 def: "The treatment involving exposure of plant to the pest Scirpophaga incertulas." [GR:pj]
-synonym: "yellow stem borer" []
-xref_analog: NCBI_taxid:72366
+synonym: "yellow stem borer" RELATED []
+xref: NCBI_taxid:72366
 is_a: EO:0007142 ! Scirpophaga spp.
 
 [Term]
 id: EO:0007275
 name: Rupela albinella
-def: "The treatment involving exposure of plant to the pest rice stemborer\, Rupela albinella" [GR:pj]
-synonym: "rice stemborer" []
+def: "The treatment involving exposure of plant to the pest rice stemborer, Rupela albinella" [GR:pj]
+synonym: "rice stemborer" RELATED []
 is_a: EO:0007114 ! Lepidoptera
 
 [Term]
@@ -1774,7 +1774,7 @@ is_a: EO:0007047 ! other nutrient regimen
 id: EO:0007277
 name: Chilo polychrysus
 def: "The treatment involving exposure of plant to the pest dark-headed stemborer." [GR:pj]
-synonym: "dark-headed stemborer" []
+synonym: "dark-headed stemborer" RELATED []
 is_a: EO:0007122 ! Chilo
 
 [Term]
@@ -1787,8 +1787,8 @@ is_a: EO:0007043 ! non-mineral nutrient regimen
 id: EO:0007279
 name: Chilo suppressalis
 def: "The treatment involving exposure of plant to the pest rice striped stemborer." [GR:pj, NCBI_taxid:168631]
-synonym: "Asiatic rice borer" []
-synonym: "striped stemborer" []
+synonym: "Asiatic rice borer" RELATED []
+synonym: "striped stemborer" RELATED []
 is_a: EO:0007122 ! Chilo
 
 [Term]
@@ -1813,8 +1813,8 @@ is_a: EO:0007198 ! water environment
 id: EO:0007283
 name: Stenchaetothrips biformis
 def: "The treatment involving exposure of plant to the pest commonly called as oriental rice thrips." [GR:pj]
-synonym: "oriental rice thrips" []
-synonym: "rice thrips" []
+synonym: "oriental rice thrips" RELATED []
+synonym: "rice thrips" RELATED []
 is_a: EO:0007121 ! Thysanoptera
 
 [Term]
@@ -1828,8 +1828,8 @@ id: EO:0007285
 name: rainy season
 alt_id: EO:0007032
 def: "The treatment involving an exposure to the wet or the rainy season." [GR:pj]
-synonym: "monsoon season" []
-synonym: "wet season" []
+synonym: "monsoon season" RELATED []
+synonym: "wet season" RELATED []
 is_a: EO:0007027 ! seasonal environment
 
 [Term]
@@ -1842,7 +1842,7 @@ is_a: EO:0007027 ! seasonal environment
 id: EO:0007287
 name: DBMIB regimen
 def: "The treatment involving use of DBMIB. It blocks the oxidation of plastoquinol in the photosynthetic light reaction and keeps the plastoquinone pool reduced. " [GR:pj]
-synonym: "2\,5-dibromo -6-isopropyl-3-methyl-1\,4-benzoquinone" []
+synonym: "2,5-dibromo -6-isopropyl-3-methyl-1,4-benzoquinone" RELATED []
 is_a: EO:0007183 ! herbicide regimen
 
 [Term]
@@ -1855,33 +1855,33 @@ is_a: EO:0007046 ! secondary macronutrient
 id: EO:0007289
 name: Hydrellia philippina
 def: "The treatment involving exposure of plant to the pest rice whorl maggot." [GR:pj]
-synonym: "rice whorl maggot" []
+synonym: "rice whorl maggot" RELATED []
 is_a: EO:0007119 ! Diptera
 
 [Term]
 id: EO:0007290
 name: kinetin regimen
-def: "The treatment involving use of kinetin\, a cytokinin homolog to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
+def: "The treatment involving use of kinetin, a cytokinin homolog to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
 is_a: EO:0007066 ! cytokinin regimen
 
 [Term]
 id: EO:0007291
 name: benzyladenine regimen
-def: "It is a first-generation synthetic cytokinin which elicits plant growth and development responses\, setting blossoms and stimulating fruit richness by stimulating cell division. It is an inhibitor of respiratory kinase in plants\, and increases post-harvest life of green vegetables. \[From http\://en.wikipedia.org/wiki/6-Benzylaminopurine\]" [GR:pj, CAS:\[1214-39-7\], web:http\://en.wikipedia.org/wiki/6-Benzylaminopurine]
+def: "It is a first-generation synthetic cytokinin which elicits plant growth and development responses, setting blossoms and stimulating fruit richness by stimulating cell division. It is an inhibitor of respiratory kinase in plants, and increases post-harvest life of green vegetables. [From http://en.wikipedia.org/wiki/6-Benzylaminopurine]" [CAS:[1214-39-7\], GR:pj, web:http\://en.wikipedia.org/wiki/6-Benzylaminopurine]
 comment: The treatment involving use of benzyladenine a cytokinin homolog to study various types of responses on its extrinsic and/or intrinsic application.
-synonym: "6-benzylaminopurine" []
-synonym: "BAP" []
-synonym: "Benzylaminopurine" []
-synonym: "N-(Phenylmethyl)-1H-purin-6-amine" []
-synonym: "N-benzyl-adenine" []
-synonym: "verdan senescence inhibitor" []
+synonym: "6-benzylaminopurine" RELATED []
+synonym: "BAP" RELATED []
+synonym: "Benzylaminopurine" RELATED []
+synonym: "N-(Phenylmethyl)-1H-purin-6-amine" RELATED []
+synonym: "N-benzyl-adenine" RELATED []
+synonym: "verdan senescence inhibitor" RELATED []
 is_a: EO:0007066 ! cytokinin regimen
 
 [Term]
 id: EO:0007292
 name: CCP
-synonym: "carbonyl cyanide phenylhydrazone" []
-synonym: "carbonylcyanide-m-chlorophenylhydrazone" []
+synonym: "carbonyl cyanide phenylhydrazone" RELATED []
+synonym: "carbonylcyanide-m-chlorophenylhydrazone" RELATED []
 is_a: EO:0007183 ! herbicide regimen
 
 [Term]
@@ -1894,9 +1894,9 @@ is_a: EO:0007045 ! primary macronutrient
 id: EO:0007294
 name: Pelopidas mathias
 def: "The treatment involving exposure of plant to the pest Pelopidas mathias." [GR:pj]
-synonym: "black branded swift" []
-synonym: "lesser millet skipper" []
-synonym: "small branded swift" []
+synonym: "black branded swift" RELATED []
+synonym: "lesser millet skipper" RELATED []
+synonym: "small branded swift" RELATED []
 is_a: EO:0007114 ! Lepidoptera
 
 [Term]
@@ -1909,7 +1909,7 @@ is_a: EO:0007046 ! secondary macronutrient
 id: EO:0007296
 name: Dicladispa armigera
 def: "The treatment involving exposure of plant to the pest Dicladispa armigera." [GR:pj, NCBI_taxid:111238]
-synonym: "rice hispa" []
+synonym: "rice hispa" RELATED []
 is_a: EO:0007120 ! Coleoptera
 
 [Term]
@@ -1922,16 +1922,16 @@ is_a: EO:0007046 ! secondary macronutrient
 id: EO:0007298
 name: Sogatodes oryzicola
 def: "The treatment involving exposure of plant to the pest rice delpahcid." [GR:pj]
-synonym: "Tagosodes orizicolus" []
-synonym: "rice delpahcid" []
+synonym: "rice delpahcid" RELATED []
+synonym: "Tagosodes orizicolus" RELATED []
 is_a: EO:0007116 ! Hemiptera
 
 [Term]
 id: EO:0007300
 name: Leptocorisa oratorius
 def: "The treatment involving exposure of plant to the pest paddy bug." [GR:pj]
-synonym: "paddy bug" []
-synonym: "rice bug" []
+synonym: "paddy bug" RELATED []
+synonym: "rice bug" RELATED []
 is_a: EO:0007116 ! Hemiptera
 
 [Term]
@@ -1950,16 +1950,16 @@ is_a: EO:0007043 ! non-mineral nutrient regimen
 id: EO:0007304
 name: Marasmia patnalis
 def: "The treatment involving exposure of plant to the pest Marasmia patnalis ." [GR:pj]
-synonym: "leaffolder" []
+synonym: "leaffolder" RELATED []
 is_a: EO:0007114 ! Lepidoptera
 
 [Term]
 id: EO:0007305
 name: Cnaphalocrocis medinalis
 def: "The treatment involving exposure of plant to the pest Cnaphalocrocis medinalis." [GR:pj]
-synonym: "defloiator" []
-synonym: "leaffolder" []
-synonym: "rice leaffolder" []
+synonym: "defloiator" RELATED []
+synonym: "leaffolder" RELATED []
+synonym: "rice leaffolder" RELATED []
 is_a: EO:0007114 ! Lepidoptera
 
 [Term]
@@ -1972,14 +1972,14 @@ is_a: EO:0007047 ! other nutrient regimen
 id: EO:0007307
 name: transposable element insert
 def: "The treatment involving use of transposable element as an insert for mutagenesis process." [GR:pj]
-synonym: "TE insert" []
+synonym: "TE insert" RELATED []
 is_a: EO:0007532 ! DNA
 
 [Term]
 id: EO:0007308
 name: Nephotettix spp
 def: "The treatment involving exposure of plant to the pest green leaf hopper." [GR:pj, NCBI_taxid:94399]
-synonym: "green leafhopper" []
+synonym: "green leafhopper" RELATED []
 is_a: EO:0007116 ! Hemiptera
 
 [Term]
@@ -1998,8 +1998,8 @@ is_a: EO:0007307 ! transposable element insert
 id: EO:0007311
 name: Orseolia oryzae
 def: "The treatment involving exposure of plant to the pest rice gall midge." [GR:pj, NCBI_taxid:33408]
-synonym: "Asian rice gall midge" []
-synonym: "gall midge" []
+synonym: "Asian rice gall midge" RELATED []
+synonym: "gall midge" RELATED []
 is_a: EO:0007119 ! Diptera
 
 [Term]
@@ -2012,16 +2012,16 @@ is_a: EO:0007307 ! transposable element insert
 id: EO:0007313
 name: Pseudaletia separata
 def: "The treatment involving exposure of plant to the pest Pseudaletia separata" [GR:pj]
-synonym: "armyworm" []
-xref_analog: NCBI_taxid:7105
+synonym: "armyworm" RELATED []
+xref: NCBI_taxid:7105
 is_a: EO:0007117 ! Pseudaletia spp.
 
 [Term]
 id: EO:0007314
 name: Nymphula depunctalis
 def: "The treatment involving exposure of plant to the pest rice caseworm" [GR:pj]
-synonym: "caseworm" []
-synonym: "rice caseworm" []
+synonym: "caseworm" RELATED []
+synonym: "rice caseworm" RELATED []
 is_a: EO:0007114 ! Lepidoptera
 
 [Term]
@@ -2039,20 +2039,20 @@ is_a: EO:0007191 ! abiotic environment
 id: EO:0007317
 name: Nilaparvata lugens
 def: "The treatment involving exposure of plant to the pest brown planthopper" [GR:pj, NCBI_taxid:108931]
-synonym: "brown planthopper" []
+synonym: "brown planthopper" RELATED []
 is_a: EO:0007116 ! Hemiptera
 
 [Term]
 id: EO:0007318
 name: rice yellow mottle virus
 def: "The treatment involving exposure of plant to the rice yellow mottle virus. It is a causal agent for rice yellow mottle disease." [GR:ivy, NCBI_taxid:31744]
-synonym: "RYMV" []
+synonym: "RYMV" RELATED []
 is_a: EO:0007109 ! ssRNA positive-strand virus with no DNA stage
 
 [Term]
 id: EO:0007319
 name: warm/hot air temperature regimen
-def: "The treatment involving an exposure to above optimal air temperature\, which may depend on the study type or the regional environment." [GR:pj]
+def: "The treatment involving an exposure to above optimal air temperature, which may depend on the study type or the regional environment." [GR:pj]
 is_a: EO:0007161 ! air temperature regimen
 is_a: EO:0007173 ! warm/hot temperature regimen
 
@@ -2084,7 +2084,7 @@ is_a: EO:0007126 ! Hirschmaniella spp.
 id: EO:0007324
 name: Hirschmaniella imamuri
 def: "The treatment involving exposure of plant to the pest Hirschmaniella imamuri. It is a causal agent for rice rice root nematode disease." [GR:pj]
-synonym: "rice root nematode" []
+synonym: "rice root nematode" RELATED []
 is_a: EO:0007126 ! Hirschmaniella spp.
 
 [Term]
@@ -2097,14 +2097,14 @@ is_a: EO:0007126 ! Hirschmaniella spp.
 id: EO:0007326
 name: mycoplasma like organism
 def: "The treatment involving exposure of plant to the pest mycoplasma like organism." [GR:pj]
-synonym: "MLO" []
+synonym: "MLO" RELATED []
 is_a: EO:0007212 ! Mycoplasma
 
 [Term]
 id: EO:0007327
 name: Mycovellosiella oryzae
 def: "The treatment involving exposure of plant to the pathogen Mycovellosiella oryzae. It is a causal agent for rice White Leaf Streak Disease." [GR:ivy]
-synonym: "Ramularia oryzae" []
+synonym: "Ramularia oryzae" RELATED []
 is_a: EO:0007107 ! Ascomycota
 
 [Term]
@@ -2117,29 +2117,29 @@ is_a: EO:0007106 ! Stramenopiles
 id: EO:0007329
 name: Spodoptera praefica
 def: "The treatment involving exposure of plant to the pest commonly called as western yellowstriped armyworm." [GR:pj]
-synonym: "western yellowstriped armyworm" []
+synonym: "western yellowstriped armyworm" RELATED []
 is_a: EO:0007115 ! Spodoptera spp.
 
 [Term]
 id: EO:0007330
 name: Spodoptera mauritia
 def: "The treatment involving exposure of plant to the pest commonly calles as lawn armyworm." [GR:pj]
-synonym: "Prodenia acronyctoides" []
-synonym: "lawn armyworm" []
+synonym: "lawn armyworm" RELATED []
+synonym: "Prodenia acronyctoides" RELATED []
 is_a: EO:0007115 ! Spodoptera spp.
 
 [Term]
 id: EO:0007331
 name: Pseudaletia unipuncta
 def: "The treatment involving exposure of plant to the pest Pseudaletia unipuncta" [GR:pj]
-synonym: "armyworm" []
-xref_analog: NCBI_taxid:42880
+synonym: "armyworm" RELATED []
+xref: NCBI_taxid:42880
 is_a: EO:0007117 ! Pseudaletia spp.
 
 [Term]
 id: EO:0007332
 name: cold air temperature regimen
-def: "The treatment involving an exposure to cold or sub-optimal air temperature\, which may depend on the study type or the regional environment." [GR:pj]
+def: "The treatment involving an exposure to cold or sub-optimal air temperature, which may depend on the study type or the regional environment." [GR:pj]
 is_a: EO:0007161 ! air temperature regimen
 is_a: EO:0007174 ! cold temperature regimen
 
@@ -2147,60 +2147,60 @@ is_a: EO:0007174 ! cold temperature regimen
 id: EO:0007333
 name: Insecta
 def: "The treatment involving exposure of plant to the pests." [GR:pj, NCBI_taxid:50557]
-synonym: "insect" []
-synonym: "true insects" []
+synonym: "insect" RELATED []
+synonym: "true insects" RELATED []
 is_a: EO:0007349 ! Metazoa
 
 [Term]
 id: EO:0007334
 name: Pomacea canaliculata
 def: "The treatment involving exposure of plant to the pest Pomacea canaliculata" [GR:pj]
-synonym: "apple snail" []
-synonym: "golden apple snail" []
+synonym: "apple snail" RELATED []
+synonym: "golden apple snail" RELATED []
 is_a: EO:0007335 ! Mollusca
 
 [Term]
 id: EO:0007335
 name: Mollusca
 def: "The treatment involving exposure of plant to the pest molluscs." [GR:pj, NCBI_taxid:6447]
-synonym: "mollusc" []
-synonym: "mollusk" []
+synonym: "mollusc" RELATED []
+synonym: "mollusk" RELATED []
 is_a: EO:0007349 ! Metazoa
 
 [Term]
 id: EO:0007336
 name: Ditylenchus angustus
 def: "The treatment involving exposure of plant to the pest Ditylenchus angustus. It is a causal agent for rice Ufra disease." [GR:ivy]
-synonym: "rice stem nematode" []
-synonym: "ufra nematode" []
+synonym: "rice stem nematode" RELATED []
+synonym: "ufra nematode" RELATED []
 is_a: EO:0007337 ! Nematoda
 
 [Term]
 id: EO:0007337
 name: Nematoda
 def: "The treatment involving exposure of plant to the nematode pests." [GR:pj, NCBI_taxid:6231]
-synonym: "round worm" []
-synonym: "roundworm" []
+synonym: "round worm" RELATED []
+synonym: "roundworm" RELATED []
 is_a: EO:0007349 ! Metazoa
 
 [Term]
 id: EO:0007338
 name: cold water temperature regimen
-def: "The treatment involving an exposure to cold or sub-optimal water temperature\, which may depend on the study type or the regional environment." [GR:pj]
+def: "The treatment involving an exposure to cold or sub-optimal water temperature, which may depend on the study type or the regional environment." [GR:pj]
 is_a: EO:0007160 ! water temperature regimen
 is_a: EO:0007174 ! cold temperature regimen
 
 [Term]
 id: EO:0007339
 name: rice tungro spherical virus
-def: "The treatment involving exposure of plant to the rice tungro spherical virus. It is a causal agent for rice tungro disease\, which is also called as Mentek or Waika diease." [GR:ivy, NCBI_taxid:35287]
-synonym: "RTSV" []
-synonym: "rice leaf yellowing virus" []
-synonym: "rice penyakit mentek virus" []
-synonym: "rice tungro spherical waikavirus" []
-synonym: "rice waika virus" []
-synonym: "rice yellow leaf virus" []
-synonym: "tungro virus" []
+def: "The treatment involving exposure of plant to the rice tungro spherical virus. It is a causal agent for rice tungro disease, which is also called as Mentek or Waika diease." [GR:ivy, NCBI_taxid:35287]
+synonym: "rice leaf yellowing virus" RELATED []
+synonym: "rice penyakit mentek virus" RELATED []
+synonym: "rice tungro spherical waikavirus" RELATED []
+synonym: "rice waika virus" RELATED []
+synonym: "rice yellow leaf virus" RELATED []
+synonym: "RTSV" RELATED []
+synonym: "tungro virus" RELATED []
 is_a: EO:0007109 ! ssRNA positive-strand virus with no DNA stage
 
 [Term]
@@ -2214,7 +2214,7 @@ id: EO:0007341
 name: Fusarium
 alt_id: EO:0007301
 def: "The treatment involving exposure of plant to the pathogenic Fusarium spp. It is a causal agent for rice Water Mold disease also called as Seed Rot Disease or Seedling Damping-off Disease." [GR:ivy, NCBI_taxid:5506]
-synonym: "Fusarium spp." []
+synonym: "Fusarium spp." RELATED []
 is_a: EO:0007118 ! Gibberella spp.
 
 [Term]
@@ -2227,62 +2227,62 @@ is_a: EO:0007136 ! Achlya spp.
 id: EO:0007343
 name: Bovinae
 def: "The treatment involving exposure of plant to the cattle." [GR:pj, NCBI_taxid:27592]
-synonym: "cattle" []
+synonym: "cattle" RELATED []
 is_a: EO:0007031 ! Mammalia
 
 [Term]
 id: EO:0007344
 name: rice tungro bacilliform virus
 def: "The treatment involving exposure of plant to the rice tungro bacilliform virus. It is a causal agent for rice tungra disease which is also called as Mentek or Waika disease." [GR:ivy, NCBI_taxid:10654]
-synonym: "RTBV" []
-synonym: "rice yellow orange leaf virus" []
+synonym: "rice yellow orange leaf virus" RELATED []
+synonym: "RTBV" RELATED []
 is_a: EO:0007112 ! retroid virus
 
 [Term]
 id: EO:0007345
 name: Rodentia
 def: "The treatment involving exposure of plant to the pest rats and mouse." [GR:pj, NCBI_taxid:9989]
-synonym: "mouse" []
-synonym: "rat" []
-synonym: "rodent" []
+synonym: "mouse" RELATED []
+synonym: "rat" RELATED []
+synonym: "rodent" RELATED []
 is_a: EO:0007031 ! Mammalia
 
 [Term]
 id: EO:0007346
 name: rice yellow stunt virus
 def: "The treatment involving exposure of plant to the rice yellow stunt virus. It is a causal agent for rice transitory yellowing disease." [GR:ivy, NCBI_taxid:59380]
-synonym: "RTYV" []
-synonym: "RYSV" []
-synonym: "rice transitory yellowing virus" []
-synonym: "rice yellow stunt rhabdovirus" []
+synonym: "rice transitory yellowing virus" RELATED []
+synonym: "rice yellow stunt rhabdovirus" RELATED []
+synonym: "RTYV" RELATED []
+synonym: "RYSV" RELATED []
 is_a: EO:0007111 ! ssRNA negative-strand virus
 
 [Term]
 id: EO:0007347
 name: Aves
 def: "The treatment involving exposure of plants to the birds." [GR:pj, NCBI_taxid:8782]
-synonym: "bird" []
+synonym: "bird" RELATED []
 is_a: EO:0007349 ! Metazoa
 
 [Term]
 id: EO:0007348
 name: rice stripe necrosis virus
 def: "The treatment involving exposure of plant to the rice stripe necrosis virus. It is a causal agent for rice stripe necrosis disease." [GR:ivy]
-synonym: "RSNV" []
+synonym: "RSNV" RELATED []
 is_a: EO:0007109 ! ssRNA positive-strand virus with no DNA stage
 
 [Term]
 id: EO:0007349
 name: Metazoa
 def: "The treatment involving exposure of plant to the pests and weeds of higher order." [GR:pj, NCBI_taxid:33208]
-synonym: "Animalia" []
+synonym: "Animalia" RELATED []
 is_a: EO:0007124 ! pest/pathogen/animal/plant environment
 
 [Term]
 id: EO:0007350
 name: rice stripe virus
 def: "The treatment involving exposure of plant to the rice stripe virus. It is a causal agent for rice stripe disease." [GR:ivy, NCBI_taxid:12331]
-synonym: "RSV" []
+synonym: "RSV" RELATED []
 is_a: EO:0007111 ! ssRNA negative-strand virus
 
 [Term]
@@ -2307,51 +2307,53 @@ is_obsolete: true
 id: EO:0007356
 name: rice hoja blanca virus
 def: "The treatment involving exposure of plant to the rice hoja blanca virus. It is a causal agent for rice hoja blanca disease." [GR:ivy, NCBI_taxid:12332]
-synonym: "hoja blanca" []
-synonym: "rice hoja blanca tenuivirus" []
+synonym: "hoja blanca" RELATED []
+synonym: "rice hoja blanca tenuivirus" RELATED []
 is_a: EO:0007111 ! ssRNA negative-strand virus
 
 [Term]
 id: EO:0007357
 name: biotic environment
-def: "The treatment involving an exposure to the biotic/biological factors such as pest\, pathogens\, plants\, etc." [GR:pj]
-is_a: EO:0007359 ! plant environment ontology
+def: "The treatment involving an exposure to the biotic/biological factors such as pest, pathogens, plants, etc." [GR:pj]
+is_a: EO:0007359 ! plant environment
 
 [Term]
 id: EO:0007358
 name: rice grassy stunt virus
 def: "The treatment involving exposure of plant to the rice grassy stunt virus. It is a causal agent for rice grassy stunt disease." [GR:ivy, NCBI_taxid:66266]
-synonym: "RGSV" []
+synonym: "RGSV" RELATED []
 is_a: EO:0007111 ! ssRNA negative-strand virus
 
 [Term]
 id: EO:0007359
-name: plant environment ontology
-def: "A set of standardized controlled vocabularies to describe various types of treatments given to an individual plant / a population or a cultured tissue and/or cell type sample to evaluate the response on its exposure. It also includes the study types\, where the terms can be used to identify the growth study facility. Each growth facility such as field study\, growth chamber\, green house etc is a environment on its own it may also involve instances of biotic and abiotic environments as supplemental treatments used in these studies. " [GR:pj]
-synonym: "plant treatment ontology" []
-synonym: "treatment ontology" []
+name: plant environment
+def: "A plant treatment, growing condition, and/or study type applied to a whole plant (PO:0000003), a plant structure (PO:00090119), and/or a plant population to evaluate the plant response." [GR:pj, PO:cooperl]
+comment: The Plant Environment Ontology describes the treatments,\ngrowing conditions, and/or study types used in various types of plant\nbiology experiments. The subjects of the studies may also include in vitro\nplant structures (PO:0000004). A plant treatment is the most specific,\nand may be a component of a plant growing condition, and the plant study\ntype. The broadest classes are the plant study types where the terms can be\nused to identify the growth study facility. Each growth facility such as\nfield study, growth chamber, green house etc is a environment on its own\nand it may also involve instances of biotic and abiotic treatments and\ndifferent growing conditions.
+synonym: "plant treatment ontology" RELATED []
+synonym: "treatment ontology" RELATED []
+xref: OBO_SF_EO:3604734
 
 [Term]
 id: EO:0007360
 name: barley yellow dwarf virus
 def: "The treatment involving exposure of plant to the barley yellow dwarf virus. It is a causal agent for rice Giallume disease." [GR:ivy, NCBI_taxid:12037]
-synonym: "BYDV" []
+synonym: "BYDV" RELATED []
 is_a: EO:0007109 ! ssRNA positive-strand virus with no DNA stage
 
 [Term]
 id: EO:0007361
 name: rice gall dwarf virus
 def: "The treatment involving exposure of plant to the rice gall dwarf virus. It is a causal agent for rice gall dwarf disease." [GR:ivy]
-synonym: "RGDV" []
-synonym: "rice gall dwarf virus RGDV" []
+synonym: "RGDV" RELATED []
+synonym: "rice gall dwarf virus RGDV" RELATED []
 is_a: EO:0007110 ! dsRNA virus
 
 [Term]
 id: EO:0007362
 name: Balansia oryzae-sativae
-def: "The treatment involving exposure of plant to the pathogen Balansia oryzae-sativae. It is a causal agent for rice Udbatta diesase which is also called as Black Choke Disease\, False Ergot Disease\, Incense Rod Disease." [GR:ivy, NCBI_taxid:116609]
-synonym: "Ephelis japonica" []
-synonym: "Ephelis oryzae" []
+def: "The treatment involving exposure of plant to the pathogen Balansia oryzae-sativae. It is a causal agent for rice Udbatta diesase which is also called as Black Choke Disease, False Ergot Disease, Incense Rod Disease." [GR:ivy, NCBI_taxid:116609]
+synonym: "Ephelis japonica" RELATED []
+synonym: "Ephelis oryzae" RELATED []
 is_a: EO:0007107 ! Ascomycota
 
 [Term]
@@ -2359,53 +2361,53 @@ id: EO:0007363
 name: Magnaporthe salvinii
 alt_id: EO:0007213
 def: "The treatment involving exposure of plant to the pathogen Magnaporthe salvinii. It is a causal agent for rice stem rot disease and Seedling Blight (Fungal) Disease." [GR:ivy, NCBI_taxid:165778]
-synonym: "Helminthosporium sigmoideum" []
-synonym: "Helminthosporium sigmoideum var.irregulare." []
-synonym: "Leptosphaeria salvinii" []
-synonym: "Nakataea sigmoidae" []
-synonym: "Sclerotium oryzae" []
+synonym: "Helminthosporium sigmoideum" RELATED []
+synonym: "Helminthosporium sigmoideum var.irregulare." RELATED []
+synonym: "Leptosphaeria salvinii" RELATED []
+synonym: "Nakataea sigmoidae" RELATED []
+synonym: "Sclerotium oryzae" RELATED []
 is_a: EO:0007135 ! Magnaporthe spp.
 
 [Term]
 id: EO:0007364
 name: Rhizoctonia oryzae
-def: "The treatment involving exposure of plant to the pathogen Rhizoctonia oryzae. It is a causal agent for rice Sheath Spot disease such as Bordered Sheath Spot Disease\, Red Sclerotial Disease and Rhizoctonia Sheath Spot Disease." [GR:ivy, NCBI_taxid:63190]
-synonym: "Rhizoctonia zeae" []
-synonym: "Waitea circinata" []
+def: "The treatment involving exposure of plant to the pathogen Rhizoctonia oryzae. It is a causal agent for rice Sheath Spot disease such as Bordered Sheath Spot Disease, Red Sclerotial Disease and Rhizoctonia Sheath Spot Disease." [GR:ivy, NCBI_taxid:63190]
+synonym: "Rhizoctonia zeae" RELATED []
+synonym: "Waitea circinata" RELATED []
 is_a: EO:0007073 ! Basidiomycota
 
 [Term]
 id: EO:0007365
 name: rice dwarf virus
 def: "The treatment involving exposure of plant to the pathogen rice dwarf virus. It is a causal agent for rice dwarf phytoreo virus disease." [GR:ivy, NCBI_taxid:10991]
-synonym: "RDV" []
-synonym: "rice dwarf phytoreovirus" []
-synonym: "rice dwarf phytoreovirus RDV" []
-xref_analog: NCBI_taxid:10991
+synonym: "RDV" RELATED []
+synonym: "rice dwarf phytoreovirus" RELATED []
+synonym: "rice dwarf phytoreovirus RDV" RELATED []
+xref: NCBI_taxid:10991
 is_a: EO:0007110 ! dsRNA virus
 
 [Term]
 id: EO:0007366
 name: rice black streak dwarf virus
 def: "The treatment involving exposure of plant to the pathogen rice black streak dwarf virus. It is a causal agent for rice blast steak dwarf disease." [GR:ivy, NCBI_taxid:10990]
-synonym: "RBSDV" []
-synonym: "Rice black streak virus" []
-synonym: "Rice black-streaked dwarf virus" []
-synonym: "rice black-streaked dwarf fijivirus" []
-synonym: "rice black-streaked dwarf virus RBSDV" []
+synonym: "RBSDV" RELATED []
+synonym: "Rice black streak virus" RELATED []
+synonym: "rice black-streaked dwarf fijivirus" RELATED []
+synonym: "Rice black-streaked dwarf virus" RELATED []
+synonym: "rice black-streaked dwarf virus RBSDV" RELATED []
 is_a: EO:0007110 ! dsRNA virus
 
 [Term]
 id: EO:0007367
 name: Aphelenchoides besseyi
 def: "The treatment involving exposure of plant to the pest Aphelenchoides besseyi. It is a causal agent for rice white tip nematode disease." [GR:pj]
-synonym: "rice white-tip nematode" []
+synonym: "rice white-tip nematode" RELATED []
 is_a: EO:0007337 ! Nematoda
 
 [Term]
 id: EO:0007368
 name: warm/hot water temperature regimen
-def: "The treatment involving an exposure to above optimal water temperature\, which may depend on the study type or the regional environment." [GR:pj]
+def: "The treatment involving an exposure to above optimal water temperature, which may depend on the study type or the regional environment." [GR:pj]
 is_a: EO:0007160 ! water temperature regimen
 is_a: EO:0007173 ! warm/hot temperature regimen
 
@@ -2425,29 +2427,29 @@ is_a: EO:0007127 ! Meloidogyne spp.
 id: EO:0007371
 name: Meloidogyne javanica
 def: "The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease." [GR:pj, NCBI_taxid:6303]
-synonym: "root-knot nematode" []
+synonym: "root-knot nematode" RELATED []
 is_a: EO:0007127 ! Meloidogyne spp.
 
 [Term]
 id: EO:0007372
 name: Meloidogyne incognita
 def: "The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease." [GR:pj, NCBI_taxid:6306]
-synonym: "southern root-knot nematode" []
+synonym: "southern root-knot nematode" RELATED []
 is_a: EO:0007127 ! Meloidogyne spp.
 
 [Term]
 id: EO:0007373
 name: mechanical damage
-synonym: "wound" []
-synonym: "wound treatment" []
-synonym: "wounding" []
+synonym: "wound" RELATED []
+synonym: "wound treatment" RELATED []
+synonym: "wounding" RELATED []
 is_a: EO:0007316 ! physical environment
 
 [Term]
 id: EO:0007374
 name: Cylindrocladium scoparium
 def: "The treatment involving exposure of plant to the pathogen Cylindrocladium scoparium. It is a causal agent for rice Sheath Net Blotch Disease." [GR:ivy, NCBI_taxid:40624]
-synonym: "Calonectria morganii" []
+synonym: "Calonectria morganii" RELATED []
 is_a: EO:0007107 ! Ascomycota
 
 [Term]
@@ -2466,24 +2468,24 @@ is_a: EO:0007107 ! Ascomycota
 id: EO:0007377
 name: Athelia rolfsii
 def: "The treatment involving exposure of plant to the pathogen Athelia rolfsii. It is a causal agent for rice Seedling Blight (Fungal) disease." [GR:ivy, NCBI_taxid:109385]
-synonym: "Sclerotium rolfsii" []
+synonym: "Sclerotium rolfsii" RELATED []
 is_a: EO:0007073 ! Basidiomycota
 
 [Term]
 id: EO:0007378
 name: Sarocladium oryzae
 def: "The treatment involving exposure of plant to the pathogen Sarocladium oryzae. It is a causal agent for rice Seedling Blight (Fungal) disease and/or Sheath Rot disease." [GR:ivy]
-synonym: "Acrocylindrium oryzae" []
+synonym: "Acrocylindrium oryzae" RELATED []
 is_a: EO:0007233 ! Fungi
 
 [Term]
 id: EO:0007379
 name: Thanatephorus cucumeris
 def: "The treatment involving exposure of plant to the pathogen Thanatephorus cucumeris. It is a causal agent for rice Sheath Blight diseases  such as Brown-bordered Leaf and Sheath Spot disease and/or Oriental Leaf and Sheath Blight disease" [GR:ivy, NCBI_taxid:107832]
-synonym: "Rhizoctonia praticola" []
-synonym: "Rhizoctonia solani" []
-synonym: "Thanatephorus praticola" []
-synonym: "black scurf of potato" []
+synonym: "black scurf of potato" RELATED []
+synonym: "Rhizoctonia praticola" RELATED []
+synonym: "Rhizoctonia solani" RELATED []
+synonym: "Thanatephorus praticola" RELATED []
 is_a: EO:0007073 ! Basidiomycota
 
 [Term]
@@ -2501,7 +2503,7 @@ is_obsolete: true
 [Term]
 id: EO:0007382
 name: wind environment
-def: "The treatment involving an exposure to wind\, which may depend on regional environment." [GR:pj]
+def: "The treatment involving an exposure to wind, which may depend on regional environment." [GR:pj]
 is_a: EO:0007064 ! ecological environment
 is_a: EO:0007316 ! physical environment
 
@@ -2514,21 +2516,21 @@ is_a: EO:0007198 ! water environment
 [Term]
 id: EO:0007384
 name: freezing air temperature regimen
-def: "The treatment involving an exposure to frost or freezing air temperature\, which may depend on the study type or the regional environment. This temperature is either below or around 4C." [GR:pj]
+def: "The treatment involving an exposure to frost or freezing air temperature, which may depend on the study type or the regional environment. This temperature is either below or around 4C." [GR:pj]
 is_a: EO:0007332 ! cold air temperature regimen
 
 [Term]
 id: EO:0007385
 name: irrigated land region
-def: "The treatment to plants or the populations grown in the regions where the land is leveled\, may have bunded fields with water control\, shallow. For rice flooded with anaoerobic soil during crop growth." [IRIS:SES]
+def: "The treatment to plants or the populations grown in the regions where the land is leveled, may have bunded fields with water control, shallow. For rice flooded with anaoerobic soil during crop growth." [IRIS:SES]
 is_a: EO:0007064 ! ecological environment
 
 [Term]
 id: EO:0007386
 name: Gerlachia oryzae
 def: "The treatment involving exposure of plant to the pathogen Gerlachia oryzae. It is a causal agent for a form of rice Seedling Blight (Fungal) disease." [GR:ivy, NCBI_taxid:87749]
-synonym: "Monographella albescens" []
-synonym: "rice leaf scald" []
+synonym: "Monographella albescens" RELATED []
+synonym: "rice leaf scald" RELATED []
 is_a: EO:0007107 ! Ascomycota
 
 [Term]
@@ -2541,28 +2543,28 @@ is_a: EO:0007239 ! micronutrient regimen
 id: EO:0007388
 name: Alternaria padwickii
 def: "The treatment involving exposure of plant to the pathogen Alternaria padwickii. It is a causal agent for rice seedling blight (fungal) disease and/or stackburn disease also called as Alternaria Leaf Spot Disease." [GR:ivy]
-synonym: "Trichoconis padwickii" []
+synonym: "Trichoconis padwickii" RELATED []
 is_a: EO:0007214 ! Alternaria spp.
 
 [Term]
 id: EO:0007389
 name: Gibberella zeae
 def: "The treatment involving exposure of plant to the pathogen Gibberella zeae. It is a causal agent for rice Scab disease." [GR:ivy, NCBI_taxid:5518]
-synonym: "Fusarium graminearum" []
+synonym: "Fusarium graminearum" RELATED []
 is_a: EO:0007118 ! Gibberella spp.
 
 [Term]
 id: EO:0007391
 name: lowland region
 alt_id: EO:0007390
-def: "The treatment involving the plant or the populations grown in regions where the land level is slightly steep\, noncontinuous flooding of variable depth and duration. Alternatingconditions of aerobic to anaerobic soil." [IRIS:SES]
-synonym: "rainfed lowland region" []
+def: "The treatment involving the plant or the populations grown in regions where the land level is slightly steep, noncontinuous flooding of variable depth and duration. Alternatingconditions of aerobic to anaerobic soil." [IRIS:SES]
+synonym: "rainfed lowland region" RELATED []
 is_a: EO:0007064 ! ecological environment
 
 [Term]
 id: EO:0007392
 name: upland region
-def: "The treatment involving the plant or the populations grown in regions where the land level is steep\, rarely flodded and has aerobic soil." [IRIS:SES]
+def: "The treatment involving the plant or the populations grown in regions where the land level is steep, rarely flodded and has aerobic soil." [IRIS:SES]
 is_a: EO:0007064 ! ecological environment
 
 [Term]
@@ -2585,9 +2587,9 @@ is_a: EO:0007396 ! flood prone region
 [Term]
 id: EO:0007396
 name: flood prone region
-def: "A treatment in terms of plant's exposure to the regional conditions found in the vicinity of the water bodies like\, sea\, river\, lake etc. Growth conditions may include aerobic to anaerobic soil\,  salinity or toxicity in tidal areas. Treatment may include standing or flash flooding." [GR:pj]
-synonym: "deep water" []
-synonym: "flooding" []
+def: "A treatment in terms of plant's exposure to the regional conditions found in the vicinity of the water bodies like, sea, river, lake etc. Growth conditions may include aerobic to anaerobic soil,  salinity or toxicity in tidal areas. Treatment may include standing or flash flooding." [GR:pj]
+synonym: "deep water" RELATED []
+synonym: "flooding" RELATED []
 is_a: EO:0007064 ! ecological environment
 
 [Term]
@@ -2599,13 +2601,13 @@ is_a: EO:0007045 ! primary macronutrient
 [Term]
 id: EO:0007398
 name: sub-tropical region
-def: "The treatment involving the plant or the populations grown in regions that are adjacent to the tropics\, usually roughly defined as the ranges 25-40 N and 25-40 S latitude. These areas typically have hot tropical summers\, but non-tropical winters." [GR:pj]
+def: "The treatment involving the plant or the populations grown in regions that are adjacent to the tropics, usually roughly defined as the ranges 25-40 N and 25-40 S latitude. These areas typically have hot tropical summers, but non-tropical winters." [GR:pj]
 is_a: EO:0007064 ! ecological environment
 
 [Term]
 id: EO:0007399
 name: freezing water temperature regimen
-def: "The treatment involving an exposure to frost or  freezing water temperature\, which may depend on the study type or the regional environment. This temperature is either below or around 4C." [GR:pj]
+def: "The treatment involving an exposure to frost or  freezing water temperature, which may depend on the study type or the regional environment. This temperature is either below or around 4C." [GR:pj]
 is_a: EO:0007338 ! cold water temperature regimen
 
 [Term]
@@ -2628,7 +2630,7 @@ is_a: EO:0007189 ! chemical regimen
 [Term]
 id: EO:0007403
 name: unknown environment
-is_a: EO:0007359 ! plant environment ontology
+is_a: EO:0007359 ! plant environment
 
 [Term]
 id: EO:0007404
@@ -2668,25 +2670,25 @@ is_a: EO:0007402 ! fungal elicitor
 [Term]
 id: EO:0007411
 name: Pseudomonas fluorescens
-synonym: "Bacillus fluorescens" []
-synonym: "Bacillus fluorescens liquefaciens" []
-synonym: "Bacterium fluorescen" []
-synonym: "Liquidomonas fluorescens" []
-xref_analog: NCBI_taxid:294
+synonym: "Bacillus fluorescens" RELATED []
+synonym: "Bacillus fluorescens liquefaciens" RELATED []
+synonym: "Bacterium fluorescen" RELATED []
+synonym: "Liquidomonas fluorescens" RELATED []
+xref: NCBI_taxid:294
 is_a: EO:0007144 ! Pseudomonas spp.
 
 [Term]
 id: EO:0007412
 name: zinc sulphate regimen
 def: "The treatment involving exposure of plant to micronutrient zinc by adding ZnSO4 as supplement to study various types of responses." [GR:pj]
-synonym: "ZnSO4" []
+synonym: "ZnSO4" RELATED []
 is_a: EO:0007309 ! zinc nutrient regimen
 
 [Term]
 id: EO:0007413
 name: manganese sulfate regimen
 def: "The treatment involving exposure of plant to micronutrient manganese by adding MnSO4  supplement to study various types of responses." [GR:pj]
-synonym: "MnSO4" []
+synonym: "MnSO4" RELATED []
 is_a: EO:0007387 ! manganese nutrient regimen
 
 [Term]
@@ -2704,219 +2706,219 @@ is_a: EO:0007414 ! peroxide regimen
 [Term]
 id: EO:0007503
 name: 1,2-dibromoethane
-def: "The treatment involving use of 1\,2-dibromoethane for mutagenesis process." [GR:pj, CAS:\[106-93-4\]]
-synonym: "DBE" []
+def: "The treatment involving use of 1,2-dibromoethane for mutagenesis process." [CAS:[106-93-4\], GR:pj]
+synonym: "DBE" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007504
 name: 1,2-dichloroethane
-def: "The treatment involving use of 1\,2-dichloroethane for mutagenesis process." [GR:pj, CAS:\[107-06-2\]]
-synonym: "DCE" []
+def: "The treatment involving use of 1,2-dichloroethane for mutagenesis process." [CAS:[107-06-2\], GR:pj]
+synonym: "DCE" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007505
 name: 1,2:5,6-dibenzanthracene
-def: "The treatment involving use of 1\,2\:5\,6-dibenzanthracene for mutagenesis process." [GR:pj, CAS:\[53-70-3\]]
+def: "The treatment involving use of 1,2:5,6-dibenzanthracene for mutagenesis process." [CAS:[53-70-3\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007506
 name: 1,4-dimethanesulfonoxy-1:4-dimethylbutane
-def: "The treatment involving use of 1\,4-dimethanesulfonoxy-1\:4-dimethylbutane for mutagenesis process." [GR:pj, CAS:\[2514-83-2\]]
-synonym: "CB2348" []
+def: "The treatment involving use of 1,4-dimethanesulfonoxy-1:4-dimethylbutane for mutagenesis process." [CAS:[2514-83-2\], GR:pj]
+synonym: "CB2348" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007507
 name: 1,4-dimethanesulfonoxybut-2-yne
-def: "The treatment involving use of 1\,4-dimethanesulfonoxybut-2-yne for mutagenesis process." [GR:pj, CAS:\[2917-96-6\]]
-synonym: "CB2058" []
+def: "The treatment involving use of 1,4-dimethanesulfonoxybut-2-yne for mutagenesis process." [CAS:[2917-96-6\], GR:pj]
+synonym: "CB2058" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007508
 name: 1,4-dimethanesulfonoxybutane
-def: "The treatment involving use of 1\,4-dimethanesulfonoxybutane for mutagenesis process." [GR:pj, CAS:\[55-98-1\]]
-synonym: "CB2041" []
-synonym: "busulfan" []
+def: "The treatment involving use of 1,4-dimethanesulfonoxybutane for mutagenesis process." [CAS:[55-98-1\], GR:pj]
+synonym: "busulfan" RELATED []
+synonym: "CB2041" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007509
 name: 1,6-dimethylsulfonoxy D-mannitol
-def: "The treatment involving use of 1\,6-dimethylsulfonoxy D-mannitol for mutagenesis process." [GR:pj, CAS:\[1187-00-4\]]
-synonym: "CB2511" []
+def: "The treatment involving use of 1,6-dimethylsulfonoxy D-mannitol for mutagenesis process." [CAS:[1187-00-4\], GR:pj]
+synonym: "CB2511" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007510
 name: 1,6-dimethylsulfonoxy L-mannitol
-def: "The treatment involving use of 1\,6-dimethylsulfonoxy L-mannitol for mutagenesis process." [GR:pj, CAS:\[2514-83-2\]]
-synonym: "CB2628" []
+def: "The treatment involving use of 1,6-dimethylsulfonoxy L-mannitol for mutagenesis process." [CAS:[2514-83-2\], GR:pj]
+synonym: "CB2628" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007511
 name: 1-amino-2-naphthol-4-sulfonic acid
-def: "The treatment involving use of 1-amino-2-naphthol-4-sulfonic acid for mutagenesis process." [GR:pj, CAS:\[116-63-2\]]
+def: "The treatment involving use of 1-amino-2-naphthol-4-sulfonic acid for mutagenesis process." [CAS:[116-63-2\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007512
 name: 1-bromo-2-chloroethane
-def: "The treatment involving use of 1-bromo-2-chloroethane for mutagenesis process." [GR:pj, CAS:\[107-04-0\]]
-synonym: "BCE" []
+def: "The treatment involving use of 1-bromo-2-chloroethane for mutagenesis process." [CAS:[107-04-0\], GR:pj]
+synonym: "BCE" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007513
 name: 1-diethylaminoethylethylamino-4-methyl-thioxanthenone
-def: "The treatment involving use of 1-diethylaminoethylethylamino-4-methyl-thioxanthenone for mutagenesis process." [GR:pj, CAS:\[479-50-5\]]
+def: "The treatment involving use of 1-diethylaminoethylethylamino-4-methyl-thioxanthenone for mutagenesis process." [CAS:[479-50-5\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007514
 name: 2,5,-bisethylene-imine-1,4-benzoquinone
-def: "The treatment involving use of 2\,5\,-bisethylene-imine-1\,4-benzoquinone for mutagenesis process." [GR:pj, CAS:\[526-62-5\]]
+def: "The treatment involving use of 2,5,-bisethylene-imine-1,4-benzoquinone for mutagenesis process." [CAS:[526-62-5\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007515
 name: 2-chloroethyl methanesulfonate
-def: "The treatment involving use of 2-chloroethyl methanesulfonate for mutagenesis process." [GR:pj, CAS:\[3570-58-9\]]
-synonym: "CB1506" []
+def: "The treatment involving use of 2-chloroethyl methanesulfonate for mutagenesis process." [CAS:[3570-58-9\], GR:pj]
+synonym: "CB1506" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007516
 name: 2-fluoroethyl methanesulfonate
-def: "The treatment involving use of 2-fluoroethyl methanesulfonate for mutagenesis process." [GR:pj, CAS:\[461-31-4\]]
-synonym: "CB1522" []
+def: "The treatment involving use of 2-fluoroethyl methanesulfonate for mutagenesis process." [CAS:[461-31-4\], GR:pj]
+synonym: "CB1522" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007517
 name: 2-methoxyethanol
-def: "The treatment involving use of 2-methoxyethanol for mutagenesis process." [GR:pj, CAS:\[109-86-4\]]
+def: "The treatment involving use of 2-methoxyethanol for mutagenesis process." [CAS:[109-86-4\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007518
 name: 5-bromouracil
-def: "The treatment involving use of 5-bromouracil for mutagenesis process." [GR:pj, CAS:\[51-20-7\]]
+def: "The treatment involving use of 5-bromouracil for mutagenesis process." [CAS:[51-20-7\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007519
 name: 5-bromouridine
-def: "The treatment involving use of 5-bromouridine for mutagenesis process." [GR:pj, CAS:\[957-75-5\]]
+def: "The treatment involving use of 5-bromouridine for mutagenesis process." [CAS:[957-75-5\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007520
 name: 7-bromomethyl 12 methyl benz or agr/anthracine
-def: "The treatment involving use of 7-bromomethyl 12 methyl benz or agr/anthracine for mutagenesis process." [GR:pj, CAS:\[16238-56-5\]]
+def: "The treatment involving use of 7-bromomethyl 12 methyl benz or agr/anthracine for mutagenesis process." [CAS:[16238-56-5\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007521
 name: actinomycin D
-def: "The treatment involving use of actinomycin D for mutagenesis process." [GR:pj, CAS:\[50-76-0\]]
+def: "The treatment involving use of actinomycin D for mutagenesis process." [CAS:[50-76-0\], GR:pj]
 is_a: EO:0007041 ! antibiotic regimen
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007522
 name: aminopterin
-def: "The treatment involving use of aminopterin for mutagenesis process." [GR:pj, CAS:\[54-62-6\]]
+def: "The treatment involving use of aminopterin for mutagenesis process." [CAS:[54-62-6\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007523
 name: benzo (or agr)pyrene
-def: "The treatment involving use of benzo (or agr)pyrene for mutagenesis process." [GR:pj, CAS:\[50-32-8\]]
+def: "The treatment involving use of benzo (or agr)pyrene for mutagenesis process." [CAS:[50-32-8\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007524
 name: caffeine
-def: "The treatment involving use of caffeine for mutagenesis process." [GR:pj, CAS:\[58-08-2\]]
+def: "The treatment involving use of caffeine for mutagenesis process." [CAS:[58-08-2\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007525
 name: cisplatin
-def: "The treatment involving use of cisplatin for mutagenesis process." [GR:pj, CAS:\[15663-27-1\]]
-synonym: "cis-dichlorodiammineplatinum(II)" []
+def: "The treatment involving use of cisplatin for mutagenesis process." [CAS:[15663-27-1\], GR:pj]
+synonym: "cis-dichlorodiammineplatinum(II)" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007526
 name: colchicine
-def: "The treatment involving use of colchicine for mutagenesis process." [GR:pj, CAS:\[64-86-8\]]
+def: "The treatment involving use of colchicine for mutagenesis process." [CAS:[64-86-8\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007527
 name: cupric sulfate
-def: "The treatment involving use of cupric sulfate for mutagenesis process." [GR:pj, CAS:\[7758-98-7\]]
+def: "The treatment involving use of cupric sulfate for mutagenesis process." [CAS:[7758-98-7\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007528
 name: diepoxybutane
-def: "The treatment involving use of diepoxybutane for mutagenesis process." [GR:pj, CAS:\[1464-53-5\]]
-synonym: "DEB" []
-synonym: "erythritol anhydride" []
+def: "The treatment involving use of diepoxybutane for mutagenesis process." [CAS:[1464-53-5\], GR:pj]
+synonym: "DEB" RELATED []
+synonym: "erythritol anhydride" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007529
 name: diepoxyoctane
-def: "The treatment involving use of diepoxyoctane for mutagenesis process." [GR:pj, CAS:\[2426-07-5\]]
+def: "The treatment involving use of diepoxyoctane for mutagenesis process." [CAS:[2426-07-5\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007530
 name: diethyl sulfate
-def: "The treatment involving use of diethyl sulfate for mutagenesis process." [GR:pj, CAS:\[64-67-5\]]
-synonym: "DES" []
+def: "The treatment involving use of diethyl sulfate for mutagenesis process." [CAS:[64-67-5\], GR:pj]
+synonym: "DES" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007531
 name: dimethyl sulfoxide
-def: "The treatment involving use of dimthyl sulfate for mutagenesis process." [GR:pj, CAS:\[67-68-5\]]
+def: "The treatment involving use of dimthyl sulfate for mutagenesis process." [CAS:[67-68-5\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007532
 name: DNA
-def: "The treatment involving use of DNA fragment insertion or deletion as part of mutagenesis." [GR:pj, CAS:\[9007-49-2\]]
+def: "The treatment involving use of DNA fragment insertion or deletion as part of mutagenesis." [CAS:[9007-49-2\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007533
 name: ethyl ether
-def: "The treatment involving use of ethyl ether for mutagenesis process." [GR:pj, CAS:\[60-29-7\]]
+def: "The treatment involving use of ethyl ether for mutagenesis process." [CAS:[60-29-7\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007534
 name: ethyl methanesulfonate
-def: "The treatment involving use of EMS as a mutagen by damaging DNA and is used experimentally for that effect." [GR:pj, CAS:\[62-50-0\]]
-synonym: "CB1528" []
-synonym: "EMS" []
-synonym: "Methanesulfonic acid ethyl ester" []
+def: "The treatment involving use of EMS as a mutagen by damaging DNA and is used experimentally for that effect." [CAS:[62-50-0\], GR:pj]
+synonym: "CB1528" RELATED []
+synonym: "EMS" RELATED []
+synonym: "Methanesulfonic acid ethyl ester" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007535
 name: ethyl nitrosourea
-def: "The treatment involving use of ethyl nitrosourea for mutagenesis process." [GR:pj, CAS:\[759-73-9\]]
-synonym: "ENU" []
+def: "The treatment involving use of ethyl nitrosourea for mutagenesis process." [CAS:[759-73-9\], GR:pj]
+synonym: "ENU" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
@@ -2928,8 +2930,8 @@ is_a: EO:0007149 ! chemical mutagen
 [Term]
 id: EO:0007537
 name: ethylenimine
-def: "The treatment involving use of ethylenimine for mutagenesis process." [GR:pj, CAS:\[151-56-4\]]
-synonym: "EI" []
+def: "The treatment involving use of ethylenimine for mutagenesis process." [CAS:[151-56-4\], GR:pj]
+synonym: "EI" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
@@ -2941,69 +2943,69 @@ is_a: EO:0007149 ! chemical mutagen
 [Term]
 id: EO:0007539
 name: formaldehyde
-def: "The treatment involving use of formaldehyde for mutagenesis process." [GR:pj, CAS:\[50-00-0\]]
+def: "The treatment involving use of formaldehyde for mutagenesis process." [CAS:[50-00-0\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007540
 name: boric acid
 def: "The treatment involving use of boric acid for mutagenesis process." [GR:pj]
-synonym: "H3BO3" []
+synonym: "H3BO3" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007541
 name: hesperidine
-def: "The treatment involving use of hesperidine for mutagenesis process." [GR:pj, CAS:\[520-26-3\]]
+def: "The treatment involving use of hesperidine for mutagenesis process." [CAS:[520-26-3\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007542
 name: hexamethylmelamine
-def: "The treatment involving use of hexamethylmelamine for mutagenesis process." [GR:pj, CAS:\[645-05-6\]]
-synonym: "HMM" []
-synonym: "altretamine" []
+def: "The treatment involving use of hexamethylmelamine for mutagenesis process." [CAS:[645-05-6\], GR:pj]
+synonym: "altretamine" RELATED []
+synonym: "HMM" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007543
 name: hexamethylphosphoramide
-def: "The treatment involving use of hexamethylphosphoramide for mutagenesis process." [GR:pj, CAS:\[680-31-9\]]
-synonym: "HMPA" []
+def: "The treatment involving use of hexamethylphosphoramide for mutagenesis process." [CAS:[680-31-9\], GR:pj]
+synonym: "HMPA" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007544
 name: hycanthon methanesulfonate
-def: "The treatment involving use of hycanthon methanesulfonate for mutagenesis process." [GR:pj, CAS:\[23255-93-8\]]
-synonym: "HMS" []
+def: "The treatment involving use of hycanthon methanesulfonate for mutagenesis process." [CAS:[23255-93-8\], GR:pj]
+synonym: "HMS" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007545
 name: ICR 100
-def: "The treatment involving use of ICR 100 for mutagenesis process." [GR:pj, CAS:\[4213-45-0\]]
-synonym: "2-methoxy-6-\[3-(ethyl-2-chloroethyl)aminopropylamino\]acridine" []
-synonym: "quinacrine mustard" []
+def: "The treatment involving use of ICR 100 for mutagenesis process." [CAS:[4213-45-0\], GR:pj]
+synonym: "2-methoxy-6-[3-(ethyl-2-chloroethyl)aminopropylamino]acridine" RELATED []
+synonym: "quinacrine mustard" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007546
 name: ICR 170
-def: "The treatment involving use of ICR 170 for mutagenesis process." [GR:pj, CAS:\[146-59-8\]]
-synonym: "2-methoxy-6-dichloro-9-(3-ethyl-2-chloroethyl-aminopropylamino)acridine-dihydrochloride" []
+def: "The treatment involving use of ICR 170 for mutagenesis process." [CAS:[146-59-8\], GR:pj]
+synonym: "2-methoxy-6-dichloro-9-(3-ethyl-2-chloroethyl-aminopropylamino)acridine-dihydrochloride" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007547
 name: iodine
-def: "The treatment involving use of iodine for mutagenesis process." [GR:pj, CAS:\[7553-56-2\]]
+def: "The treatment involving use of iodine for mutagenesis process." [CAS:[7553-56-2\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007548
 name: Janus green B
-def: "The treatment involving use of Janus green B for mutagenesis process." [GR:pj, CAS:\[2869-83-2\]]
+def: "The treatment involving use of Janus green B for mutagenesis process." [CAS:[2869-83-2\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
@@ -3015,38 +3017,38 @@ is_a: EO:0007149 ! chemical mutagen
 [Term]
 id: EO:0007550
 name: methyl methanesulfonate
-def: "The treatment involving use of methyl methanesulfonate for mutagenesis process." [GR:pj, CAS:\[66-27-3\]]
-synonym: "CB1540" []
-synonym: "MMS" []
+def: "The treatment involving use of methyl methanesulfonate for mutagenesis process." [CAS:[66-27-3\], GR:pj]
+synonym: "CB1540" RELATED []
+synonym: "MMS" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007551
 name: mitomycin C
-def: "The treatment involving use of mitomycin C for mutagenesis process." [GR:pj, CAS:\[50-07-7\]]
+def: "The treatment involving use of mitomycin C for mutagenesis process." [CAS:[50-07-7\], GR:pj]
 is_a: EO:0007041 ! antibiotic regimen
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007552
 name: mustard gas
-def: "The treatment involving use of mustard gas for mutagenesis process." [GR:pj, CAS:\[505-60-2\]]
-synonym: "1\,1'-thiobis\[2-chloroethane" []
+def: "The treatment involving use of mustard gas for mutagenesis process." [CAS:[505-60-2\], GR:pj]
+synonym: "1,1'-thiobis[2-chloroethane" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007553
 name: N-methyl-N'-nitro-N-nitrosoguanidine
-def: "The treatment involving use of N-methyl-N'-nitro-N-nitrosoguanidine for mutagenesis process." [GR:pj, CAS:\[70-25-7\]]
-synonym: "MNNG" []
-synonym: "NNG" []
+def: "The treatment involving use of N-methyl-N'-nitro-N-nitrosoguanidine for mutagenesis process." [CAS:[70-25-7\], GR:pj]
+synonym: "MNNG" RELATED []
+synonym: "NNG" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007554
 name: N-nitrosodimethylamine
-def: "The treatment involving use of N-nitrosodimethylamine for mutagenesis process." [GR:pj, CAS:\[62-75-9\]]
-synonym: "DMN" []
+def: "The treatment involving use of N-nitrosodimethylamine for mutagenesis process." [CAS:[62-75-9\], GR:pj]
+synonym: "DMN" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
@@ -3058,141 +3060,141 @@ is_a: EO:0007149 ! chemical mutagen
 [Term]
 id: EO:0007556
 name: nitrogen mustard
-def: "The treatment involving use of nitrogen mustard for mutagenesis process." [GR:pj, CAS:\[51-75-2\]]
-synonym: "2-chloro-N-(2-chloroethyl)-N-methylethanamine" []
-synonym: "CB1414" []
-synonym: "HN2" []
-synonym: "mechlorethamine" []
+def: "The treatment involving use of nitrogen mustard for mutagenesis process." [CAS:[51-75-2\], GR:pj]
+synonym: "2-chloro-N-(2-chloroethyl)-N-methylethanamine" RELATED []
+synonym: "CB1414" RELATED []
+synonym: "HN2" RELATED []
+synonym: "mechlorethamine" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007557
 name: nitrosomethyl urea
-def: "The treatment involving use of nitrosomethyl urea for mutagenesis process." [GR:pj, CAS:\[684-93-5\]]
-synonym: "MNU" []
-synonym: "N-methyl-N-nitrosourea" []
+def: "The treatment involving use of nitrosomethyl urea for mutagenesis process." [CAS:[684-93-5\], GR:pj]
+synonym: "MNU" RELATED []
+synonym: "N-methyl-N-nitrosourea" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007558
 name: p-N,N-di(2-chloroethyl)aminophenylvaleric acid
-def: "The treatment involving use of p-N\,N-di(2-chloroethyl)aminophenylvaleric acid for mutagenesis process." [GR:pj, CAS:\[64508-90-3\]]
-synonym: "CB1356" []
+def: "The treatment involving use of p-N,N-di(2-chloroethyl)aminophenylvaleric acid for mutagenesis process." [CAS:[64508-90-3\], GR:pj]
+synonym: "CB1356" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007559
 name: p-N,N-di-(2-chloroethyl)amino-D-phenylalanine
-def: "The treatment involving use of p-N\,N-di-(2-chloroethyl)amino-D-phenylalanine for mutagenesis process." [GR:pj, CAS:\[13045-94-8\]]
-synonym: "CB3026" []
+def: "The treatment involving use of p-N,N-di-(2-chloroethyl)amino-D-phenylalanine for mutagenesis process." [CAS:[13045-94-8\], GR:pj]
+synonym: "CB3026" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007560
 name: p-N,N-di-(2-chloroethyl)amino-DL-phenylalanine
-def: "The treatment involving use of p-N\,N-di-(2-chloroethyl)amino-DL-phenylalanine for mutagenesis process." [GR:pj, CAS:\[148-82-3\]]
-synonym: "CB3007" []
-synonym: "melphalan" []
+def: "The treatment involving use of p-N,N-di-(2-chloroethyl)amino-DL-phenylalanine for mutagenesis process." [CAS:[148-82-3\], GR:pj]
+synonym: "CB3007" RELATED []
+synonym: "melphalan" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007561
 name: p-N,N-di-(2-chloroethyl)amino-L-phenylalanine
-def: "The treatment involving use of p-N\,N-di-(2-chloroethyl)amino-L-phenylalanine for mutagenesis process." [GR:pj]
-synonym: "CB3025" []
+def: "The treatment involving use of p-N,N-di-(2-chloroethyl)amino-L-phenylalanine for mutagenesis process." [GR:pj]
+synonym: "CB3025" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007562
 name: p-N,N-di-(2-chloroethyl)aminophenylbutyric acid
-def: "The treatment involving use of p-N\,N-di-(2-chloroethyl)aminophenylbutyric acid for mutagenesis process." [GR:pj, CAS:\[305-03-3\]]
-synonym: "CB1348" []
-synonym: "chlorambucil" []
+def: "The treatment involving use of p-N,N-di-(2-chloroethyl)aminophenylbutyric acid for mutagenesis process." [CAS:[305-03-3\], GR:pj]
+synonym: "CB1348" RELATED []
+synonym: "chlorambucil" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007563
 name: p-N,N-di-(2-chloroethyl)aminophenylethylamine
-def: "The treatment involving use of p-N\,N-di-(2-chloroethyl)aminophenylethylamine for mutagenesis process." [GR:pj, CAS:\[58880-18-5\]]
-synonym: "CB3034" []
+def: "The treatment involving use of p-N,N-di-(2-chloroethyl)aminophenylethylamine for mutagenesis process." [CAS:[58880-18-5\], GR:pj]
+synonym: "CB3034" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007564
 name: p-p'-N,N-di(2-chloroethyl)aminophenoxyphenylalanine
-def: "The treatment involving use of p-p'-N\,N-di(2-chloroethyl)aminophenoxyphenylalanine for mutagenesis process." [GR:pj, CAS:\[857-95-4\]]
-synonym: "CB3051" []
+def: "The treatment involving use of p-p'-N,N-di(2-chloroethyl)aminophenoxyphenylalanine for mutagenesis process." [CAS:[857-95-4\], GR:pj]
+synonym: "CB3051" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007565
 name: quinhydrone
-def: "The treatment involving use of quinhydrone for mutagenesis process." [GR:pj, CAS:\[106-34-3\]]
+def: "The treatment involving use of quinhydrone for mutagenesis process." [CAS:[106-34-3\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007566
 name: S-2-chloroethylcysteine
-def: "The treatment involving use of S-2-chloroethylcysteine for mutagenesis process." [GR:pj, CAS:\[28361-96-8\]]
-synonym: "CB1592" []
+def: "The treatment involving use of S-2-chloroethylcysteine for mutagenesis process." [CAS:[28361-96-8\], GR:pj]
+synonym: "CB1592" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007567
 name: sodium bisulfite
-def: "The treatment involving use of sodium bisulfite for mutagenesis process." [GR:pj, CAS:\[7631-90-5\]]
+def: "The treatment involving use of sodium bisulfite for mutagenesis process." [CAS:[7631-90-5\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007568
 name: sodium fluoride
-def: "The treatment involving use of sodium fluoride for mutagenesis process." [GR:pj, CAS:\[7681-49-4\]]
+def: "The treatment involving use of sodium fluoride for mutagenesis process." [CAS:[7681-49-4\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007569
 name: styryl quinoline
 def: "The treatment involving use of styryl quinoline for mutagenesis process." [GR:pj]
-synonym: "CB3086" []
+synonym: "CB3086" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007570
 name: sulfur mustard
-def: "The treatment involving use of sulfur mustard for mutagenesis process." [GR:pj, CAS:\[505-60-2\]]
-synonym: "CB1735" []
+def: "The treatment involving use of sulfur mustard for mutagenesis process." [CAS:[505-60-2\], GR:pj]
+synonym: "CB1735" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007571
 name: triaziquone
-def: "The treatment involving use of triaziquone for mutagenesis process." [GR:pj, CAS:\[68-76-8\]]
+def: "The treatment involving use of triaziquone for mutagenesis process." [CAS:[68-76-8\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007572
 name: triethylenemelamine
-def: "The treatment involving use of triethylenemelamine for mutagenesis process." [GR:pj, CAS:\[51-18-3\]]
-synonym: "CB1246" []
-synonym: "TEM" []
+def: "The treatment involving use of triethylenemelamine for mutagenesis process." [CAS:[51-18-3\], GR:pj]
+synonym: "CB1246" RELATED []
+synonym: "TEM" RELATED []
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007573
 name: urethane
-def: "The treatment involving use of urethane for mutagenesis process." [GR:pj, CAS:\[51-79-6\]]
+def: "The treatment involving use of urethane for mutagenesis process." [CAS:[51-79-6\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007574
 name: vinyl carbamate
-def: "The treatment involving use of vinyl carbamate for mutagenesis process." [GR:pj, CAS:\[15805-73-9\]]
+def: "The treatment involving use of vinyl carbamate for mutagenesis process." [CAS:[15805-73-9\], GR:pj]
 is_a: EO:0007149 ! chemical mutagen
 
 [Term]
 id: EO:0007610
 name: 3-H
-synonym: "tritium" []
+synonym: "tritium" RELATED []
 is_a: EO:0007154 ! radiation quality regimen
 
 [Term]
@@ -3238,7 +3240,7 @@ is_a: EO:0007617 ! ggr ray
 [Term]
 id: EO:0007619
 name: 226-Ra or agr ray
-synonym: "radium" []
+synonym: "radium" RELATED []
 is_a: EO:0007617 ! ggr ray
 
 [Term]
@@ -3309,7 +3311,7 @@ is_a: EO:0007167 ! pesticide regimen
 [Term]
 id: EO:0007633
 name: imidazolinone
-def: "This type of herbicides are taken up by plant root and leaf tissue and transported to the meristems via both phloem and xylem. The herbicide stops the activity of the enzyme\, acetolactate synthase (ALS)\, which is involved in branch chain amino acid (valine\, leucine and isoleucine) synthesis." [web:http\://corn.agronomy.wisc.edu/AAdvice/1994/A001.html]
+def: "This type of herbicides are taken up by plant root and leaf tissue and transported to the meristems via both phloem and xylem. The herbicide stops the activity of the enzyme, acetolactate synthase (ALS), which is involved in branch chain amino acid (valine, leucine and isoleucine) synthesis." [web:http\://corn.agronomy.wisc.edu/AAdvice/1994/A001.html]
 is_a: EO:0007183 ! herbicide regimen
 
 [Term]

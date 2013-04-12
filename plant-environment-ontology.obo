@@ -1,8 +1,135 @@
 format-version: 1.2
-date: 10:04:2013 17:02
+date: 12:04:2013 10:16
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
+
+[Term]
+id: EO:0001001
+name: plant treatment
+def: "A plant environment (EO:0007359) involving the  application of an abiotic or biotic  treatment." [LC+LM:test]
+is_a: EO:0007359 ! plant environment
+created_by: cooperl
+creation_date: 2013-04-10T13:21:11Z
+
+[Term]
+id: EO:0001002
+name: plant growing conditions
+def: "A plant environment (EO:0007359) involving a combination of one or more plant treatments (EO:0001001) as well as natural conditions." [LC+LM:test]
+is_a: EO:0007359 ! plant environment
+created_by: cooperl
+creation_date: 2013-04-10T13:28:27Z
+
+[Term]
+id: EO:0001003
+name: organic chemical treatments
+def: "A chemical treatment (EO:0007189) involving the application of organic chemical(s)." [LC+LM:test]
+is_a: EO:0007189 ! chemical treatment
+created_by: cooperl
+creation_date: 2013-04-10T13:58:52Z
+
+[Term]
+id: EO:0001004
+name: inorganic chemical treatment
+def: "A chemical treatment (EO:0007189) involving the application of inorganic chemical(s)." [LC+LM:test]
+is_a: EO:0007189 ! chemical treatment
+created_by: cooperl
+creation_date: 2013-04-10T14:03:18Z
+
+[Term]
+id: EO:0001005
+name: nickel treatment
+def: "A mineral treatment (EO:0007044) involving exposure of plant to nickel (ChEBI:28112)." [ChEBI:28112, LC+LM:test]
+is_a: EO:0007044 ! mineral treatment
+created_by: cooperl
+creation_date: 2013-04-10T14:35:26Z
+
+[Term]
+id: EO:0001006
+name: phosphate treatment
+def: "An inorganic anion treatment (EO:0001009) involving the application of phosphate (ChEBI:18367)." [ChEBI:18367, LC+LM:test]
+is_a: EO:0001009 ! inorganic anion treatment
+created_by: cooperl
+creation_date: 2013-04-10T14:54:09Z
+
+[Term]
+id: EO:0001007
+name: mineral salt treatment
+def: "A mineral treatment (EO:0007044) involving exposure of the plant(s) to mineral salts (CHEBI:24866)." [LC+LM:test]
+comment: A salt (CHEBI:24866) is defined as an assembly of cations and anions.   This is a genral term to include the salts of various minerals.
+is_a: EO:0007044 ! mineral treatment
+created_by: cooperl
+creation_date: 2013-04-10T15:26:58Z
+
+[Term]
+id: EO:0001008
+name: sulfate treatment
+def: "An inorganic anion treatment (EO:0001009) involving the application of sulfate (CHEBI:35175)." [CHEBI:35175, LC+LM:test]
+is_a: EO:0001009 ! inorganic anion treatment
+created_by: cooperl
+creation_date: 2013-04-10T15:29:20Z
+
+[Term]
+id: EO:0001009
+name: inorganic anion treatment
+def: "An inorganic chemical treatment (EO:0001004) involving the application of inorganic anion(s)(CHEBI:22563)." [CHEBI:22563, LC+LM:test]
+comment: An anion (ChEBI:22653) is defined as a monoatomic or polyatomic species having one or more elementary charges of the electron.
+is_a: EO:0001004 ! inorganic chemical treatment
+created_by: cooperl
+creation_date: 2013-04-11T12:29:25Z
+
+[Term]
+id: EO:0001010
+name: carbohydrate treatment
+def: "An organic chemical treatment (EO:0001003) involving the application of carbohydrate(s)(CHEBI:16646)." [CHEBI:16646, LC+LM:test]
+comment: Carbohydrate (CHEBI:16646) is defined as the generic term 'carbohydrate' includes monosaccharides, oligosaccharides and polysaccharides as well as substances derived from monosaccharides by reduction of the carbonyl group (alditols), by oxidation of one or more hydroxy groups to afford the corresponding aldehydes, ketones, or carboxylic acids, or by replacement of one or more hydroxy group(s) by a hydrogen atom. Cyclitols are generally not regarded as carbohydrates.
+is_a: EO:0001003 ! organic chemical treatments
+created_by: moorel
+creation_date: 2013-04-11T13:43:22Z
+
+[Term]
+id: EO:0001011
+name: monosaccharide treatment 
+def: "A carbohydrate treatment (EO:0001010) involving the application of monosaccharide(s)(CHEBI:35381)." [CHEBI:35381, LC+LM:test]
+comment: Monosaccharides (CHEBI:35381) are defined as polyhydroxy aldehydes H[CH(OH)]nC(=O)H or polyhydroxy ketones H-[CHOH]n-C(=O)[CHOH]m-H with three or more carbon atoms. The generic term 'monosaccharide' (as opposed to oligosaccharide or polysaccharide) denotes a single unit, without glycosidic connection to other such units. It includes aldoses, dialdoses, aldoketoses, ketoses and diketoses, as well as deoxy sugars, provided that the parent compound has a (potential) carbonyl group.
+is_a: EO:0001010 ! carbohydrate treatment
+created_by: moorel
+creation_date: 2013-04-11T13:49:05Z
+
+[Term]
+id: EO:0001012
+name: hexose treatment
+def: "A monosaccharide treatment (EO:0001011) involving the application of hexose (CHEBI:18133) sugar(s)." [CHEBI:18133, LC+LM:test]
+comment: Hexose (CHEBI:18133) is defined as any six-carbon monosaccharide which in its linear form contains either an aldehyde group at position 1 (aldohexose) or a ketone group at position 2 (ketohexose).
+is_a: EO:0001011 ! monosaccharide treatment 
+created_by: moorel
+creation_date: 2013-04-11T13:55:09Z
+
+[Term]
+id: EO:0001013
+name: glucose treatment
+def: "A hexose treatment (EO:0001012) involving the application of glucose (CHEBI:17234)." [CHEBI:17234, LC+LM:test]
+is_a: EO:0001012 ! hexose treatment
+created_by: moorel
+creation_date: 2013-04-11T13:59:21Z
+
+[Term]
+id: EO:0001014
+name: disaccharide treatment
+def: "A carbohydrate treatment (EO:0001010) involving the application of disaccharide(s)(CHEBI:36233)." [CHEBI:36233, LC+LM:test]
+comment: Disaccharide (CHEBI:36233) is defined as a compound in which two monosaccharides are joined by a glycosidic bond.
+is_a: EO:0001010 ! carbohydrate treatment
+created_by: moorel
+creation_date: 2013-04-11T14:02:57Z
+
+[Term]
+id: EO:0001015
+name: sucrose treatment
+def: "A disaccharide treatment (EO:0001014) involving the application of sucrose (CHEBI:17992)." [CHEBI:17992, LC+LM:test]
+comment: Sucrose (CHEBI:17992) is defined as a disaccharide formed by glucose and fructose units joined by an acetal oxygen bridge from hemiacetal of glucose to the hemiketal of the fructose.
+is_a: EO:0001014 ! disaccharide treatment
+created_by: moorel
+creation_date: 2013-04-11T14:07:07Z
 
 [Term]
 id: EO:0007001
@@ -161,7 +288,7 @@ is_a: EO:0007005 ! Viridiplantae
 id: EO:0007023
 name: gaseous environment
 def: "The use of gasses in a given environment to study various types of responses on their extrinsic and/or intrinsic stimulus." [GR:pj]
-is_a: EO:0007191 ! abiotic environment
+is_a: EO:0007191 ! abiotic treatment
 
 [Term]
 id: EO:0007024
@@ -186,7 +313,7 @@ is_a: EO:0007137 ! Echinochloa spp.
 id: EO:0007027
 name: seasonal environment
 def: "The treatment involving an exposure to a given conditions of regional seasons." [GR:pj]
-is_a: EO:0007191 ! abiotic environment
+is_a: EO:0007191 ! abiotic treatment
 
 [Term]
 id: EO:0007028
@@ -279,9 +406,9 @@ is_a: EO:0007241 ! nutrient regimen
 
 [Term]
 id: EO:0007044
-name: mineral nutrient regimen
-def: "Treatment involving the use of mineral supplement to study various types of responses." [GR:pj]
-is_a: EO:0007241 ! nutrient regimen
+name: mineral treatment
+def: "An inorganic chemical treatment (EO:0001004) involving the application of a mineral or a combination of minerals." [GR:pj, LC+LM:test]
+is_a: EO:0001004 ! inorganic chemical treatment
 
 [Term]
 id: EO:0007045
@@ -405,7 +532,7 @@ is_a: EO:0007183 ! herbicide regimen
 id: EO:0007064
 name: ecological environment
 def: "The treatment involving an exposure to the various factors that comprise a geographical/regional location." [GR:pj]
-is_a: EO:0007191 ! abiotic environment
+is_a: EO:0007191 ! abiotic treatment
 
 [Term]
 id: EO:0007065
@@ -943,7 +1070,7 @@ is_a: EO:0007316 ! physical environment
 id: EO:0007147
 name: growth media
 def: "The treatment involving use of growth media for growing the plants or tissue cultured samples." [GR:pj]
-is_a: EO:0007191 ! abiotic environment
+is_a: EO:0007191 ! abiotic treatment
 
 [Term]
 id: EO:0007148
@@ -969,7 +1096,7 @@ id: EO:0007151
 name: radiation regimen
 def: "The treatment involving an exposure with a radiation type, intesity or quantity." [GR:pj]
 synonym: "light regimen" RELATED []
-is_a: EO:0007191 ! abiotic environment
+is_a: EO:0007191 ! abiotic treatment
 
 [Term]
 id: EO:0007152
@@ -1101,7 +1228,7 @@ is_a: EO:0007175 ! temperature environment
 id: EO:0007175
 name: temperature environment
 def: "The treatment involving an exposure to varying degree of temperature, which may depend on regional environment." [GR:pj]
-is_a: EO:0007191 ! abiotic environment
+is_a: EO:0007191 ! abiotic treatment
 
 [Term]
 id: EO:0007176
@@ -1196,11 +1323,11 @@ is_a: EO:0007328 ! Pythium spp.
 
 [Term]
 id: EO:0007189
-name: chemical regimen
+name: chemical treatment
 alt_id: EO:0007042
-def: "The treatment involving use of chemical(s) to study various types of responses on their extrinsic and/or intrinsic application." [GR:pj]
+def: "An abiotic treatment (EO:0007191) involving the application of chemical(s)." [GR:pj, LC+LM:test]
 synonym: "other chemical regimen" RELATED []
-is_a: EO:0007191 ! abiotic environment
+is_a: EO:0007191 ! abiotic treatment
 
 [Term]
 id: EO:0007190
@@ -1210,9 +1337,10 @@ is_a: EO:0007107 ! Ascomycota
 
 [Term]
 id: EO:0007191
-name: abiotic environment
-def: "The treatment involving an exposure to the abiotic/non-biological factors such as chemicals, location, growth conditions etc." [GR:pj]
-is_a: EO:0007359 ! plant environment
+name: abiotic treatment
+def: "A plant treatment (EO:0001001) involving the application of non-biological chemical or physical factors." [GR:pj, PO:cooperl]
+xref: OBO_SF_EO:3610612
+is_a: EO:0001001 ! plant treatment
 
 [Term]
 id: EO:0007192
@@ -1265,7 +1393,7 @@ is_a: EO:0007198 ! water environment
 id: EO:0007198
 name: water environment
 def: "The treatment involving an exposure of varying amount of water and watering frequncies, which may depend on regional environment." [GR:pj]
-is_a: EO:0007191 ! abiotic environment
+is_a: EO:0007191 ! abiotic treatment
 
 [Term]
 id: EO:0007199
@@ -2033,7 +2161,7 @@ is_a: EO:0007146 ! gravity
 [Term]
 id: EO:0007316
 name: physical environment
-is_a: EO:0007191 ! abiotic environment
+is_a: EO:0007191 ! abiotic treatment
 
 [Term]
 id: EO:0007317
@@ -2313,9 +2441,9 @@ is_a: EO:0007111 ! ssRNA negative-strand virus
 
 [Term]
 id: EO:0007357
-name: biotic environment
+name: biotic treatment
 def: "The treatment involving an exposure to the biotic/biological factors such as pest, pathogens, plants, etc." [GR:pj]
-is_a: EO:0007359 ! plant environment
+is_a: EO:0001001 ! plant treatment
 
 [Term]
 id: EO:0007358
@@ -2328,7 +2456,7 @@ is_a: EO:0007111 ! ssRNA negative-strand virus
 id: EO:0007359
 name: plant environment
 def: "A plant treatment, growing condition, and/or study type applied to a whole plant (PO:0000003), a plant structure (PO:00090119), and/or a plant population to evaluate the plant response." [GR:pj, PO:cooperl]
-comment: The Plant Environment Ontology describes the treatments,\ngrowing conditions, and/or study types used in various types of plant\nbiology experiments. The subjects of the studies may also include in vitro\nplant structures (PO:0000004). A plant treatment is the most specific,\nand may be a component of a plant growing condition, and the plant study\ntype. The broadest classes are the plant study types where the terms can be\nused to identify the growth study facility. Each growth facility such as\nfield study, growth chamber, green house etc is a environment on its own\nand it may also involve instances of biotic and abiotic treatments and\ndifferent growing conditions.
+comment: The Plant Environment Ontology describes the treatments,growing conditions, and/or study types used in various types of plant biology experiments. The subjects of the studies may also include in vitro\nplant structures (PO:0000004). A plant treatment is the most specific,and may be a component of a plant growing condition, and the plant study type. The broadest classes are the plant study types where the terms can be used to identify the growth study facility. Each growth facility such as field study, growth chamber, green house etc is a environment on its own and it may also involve instances of biotic and abiotic treatments and different growing conditions.
 synonym: "plant treatment ontology" RELATED []
 synonym: "treatment ontology" RELATED []
 xref: OBO_SF_EO:3604734

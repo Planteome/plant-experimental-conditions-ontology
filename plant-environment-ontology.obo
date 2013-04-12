@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:04:2013 12:18
+date: 12:04:2013 13:11
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
@@ -153,9 +153,41 @@ creation_date: 2013-04-12T11:48:32Z
 id: EO:0001018
 name: cadmium treatment
 def: "A mineral treatment (EO:0007044) involving exposure of plant to cadmium (CHEBI:22977)." [CHEBI:22977, PO:cooperl]
+xref: OBO_SF_EO:3609210
 is_a: EO:0007044 ! mineral treatment
 created_by: cooperl
 creation_date: 2013-04-12T12:14:55Z
+
+[Term]
+id: EO:0001019
+name: organic gas treatment
+def: "An organic chemical treatment (EO:0001003) involving the application of a gas or mixture of gases." [PO:cooperl]
+is_a: EO:0001003 ! organic chemical treatments
+created_by: cooperl
+creation_date: 2013-04-12T12:38:49Z
+
+[Term]
+id: EO:0001020
+name: carbon dioxide treatment
+def: "An organic gas treatment (EO:0001019) that involves the application of carbon dioxide (CHEBI:16526)." [CHEBI:16526, PO:cooperl]
+is_a: EO:0001019 ! organic gas treatment
+created_by: cooperl
+creation_date: 2013-04-12T12:41:25Z
+
+[Term]
+id: EO:0001021
+name: ozone treatment
+def: "An inorganic anion treatment (EO:0001009) involving the application of ozone (CHEBI:29382)" [CHEBI:29382, PO:cooperl]
+is_a: EO:0001009 ! inorganic anion treatment
+created_by: cooperl
+creation_date: 2013-04-12T13:04:10Z
+
+[Term]
+id: EO:0001022
+name: <new term>
+is_a: EO:0001021 ! ozone treatment
+created_by: cooperl
+creation_date: 2013-04-12T13:05:50Z
 
 [Term]
 id: EO:0007001
@@ -588,7 +620,7 @@ is_a: EO:0007265 ! liquid growth media
 id: EO:0007068
 name: ethylene regimen
 def: "Treatment involving the use of ethylene (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
-is_a: EO:0007023 ! gaseous environment
+is_a: EO:0001019 ! organic gas treatment
 is_a: EO:0007165 ! growth hormone regimen
 
 [Term]
@@ -1090,7 +1122,7 @@ is_a: EO:0007108 ! Proteobacteria
 id: EO:0007146
 name: gravity
 def: "The treatment involving use of gravity factor to study various types of responses in presence, absence or modified levels of gravity." [GR:pj]
-is_a: EO:0007316 ! environment
+is_a: EO:0007316 ! physical environment
 
 [Term]
 id: EO:0007147
@@ -2186,7 +2218,7 @@ is_a: EO:0007146 ! gravity
 
 [Term]
 id: EO:0007316
-name: environment
+name: physical environment
 is_a: EO:0007191 ! abiotic treatment
 
 [Term]
@@ -2468,7 +2500,7 @@ is_a: EO:0007111 ! ssRNA negative-strand virus
 [Term]
 id: EO:0007357
 name: biotic treatment
-def: "The treatment involving an exposure to the biotic/biological factors such as pest, pathogens, plants, etc." [GR:pj]
+def: "A plant treatment (EO:0001001) involving the application of biotic or biological factors such as microbes, insects, animals, or other plants." [GR:pj]
 is_a: EO:0001001 ! plant treatment
 
 [Term]
@@ -2597,7 +2629,7 @@ name: mechanical damage
 synonym: "wound" RELATED []
 synonym: "wound treatment" RELATED []
 synonym: "wounding" RELATED []
-is_a: EO:0007316 ! environment
+is_a: EO:0007316 ! physical environment
 
 [Term]
 id: EO:0007374
@@ -2659,7 +2691,7 @@ id: EO:0007382
 name: wind environment
 def: "The treatment involving an exposure to wind, which may depend on regional environment." [GR:pj]
 is_a: EO:0007064 ! ecological environment
-is_a: EO:0007316 ! environment
+is_a: EO:0007316 ! physical environment
 
 [Term]
 id: EO:0007383

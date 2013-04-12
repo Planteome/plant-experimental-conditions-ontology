@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:04:2013 13:11
+date: 12:04:2013 13:59
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
@@ -177,15 +177,17 @@ creation_date: 2013-04-12T12:41:25Z
 [Term]
 id: EO:0001021
 name: ozone treatment
-def: "An inorganic anion treatment (EO:0001009) involving the application of ozone (CHEBI:29382)" [CHEBI:29382, PO:cooperl]
+def: "An inorganic anion treatment (EO:0001009) involving the application of ozone (CHEBI:29382)." [CHEBI:29382, PO:cooperl]
 is_a: EO:0001009 ! inorganic anion treatment
 created_by: cooperl
 creation_date: 2013-04-12T13:04:10Z
 
 [Term]
 id: EO:0001022
-name: <new term>
-is_a: EO:0001021 ! ozone treatment
+name: gamma radiation treatment
+def: "A radiation quality treatment (EO:0007154) involving the exposure to gamma radiation." [PO:cooperl]
+synonym: "gamma rays" EXACT []
+is_a: EO:0007154 ! radiation quality treatment
 created_by: cooperl
 creation_date: 2013-04-12T13:05:50Z
 
@@ -1122,7 +1124,7 @@ is_a: EO:0007108 ! Proteobacteria
 id: EO:0007146
 name: gravity
 def: "The treatment involving use of gravity factor to study various types of responses in presence, absence or modified levels of gravity." [GR:pj]
-is_a: EO:0007316 ! physical environment
+is_a: EO:0007316 ! physical treatment
 
 [Term]
 id: EO:0007147
@@ -1152,9 +1154,10 @@ is_obsolete: true
 [Term]
 id: EO:0007151
 name: radiation regimen
-def: "The treatment involving an exposure with a radiation type, intesity or quantity." [GR:pj]
+def: "The treatment involving an exposure with a radiation type, intensity or quantity." [GR:pj]
+comment: EMR is classified according to the frequency of its wave. The electromagnetic spectrum, in order of increasing frequency and decreasing wavelength, consists of radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays and gamma rays. (from Wikipedia)
 synonym: "light regimen" RELATED []
-is_a: EO:0007191 ! abiotic treatment
+is_a: EO:0007316 ! physical treatment
 
 [Term]
 id: EO:0007152
@@ -1170,7 +1173,7 @@ is_a: EO:0007151 ! radiation regimen
 
 [Term]
 id: EO:0007154
-name: radiation quality regimen
+name: radiation quality treatment
 def: "The treatment involving an exposure to a given type of radiation. Often it is in the form of electromagnetic and ionizing radiation such as light (infrared, visible or ultraviolet), x-rays, gamma rays, etc." [GR:pj]
 is_a: EO:0007151 ! radiation regimen
 
@@ -1286,7 +1289,7 @@ is_a: EO:0007175 ! temperature environment
 id: EO:0007175
 name: temperature environment
 def: "The treatment involving an exposure to varying degree of temperature, which may depend on regional environment." [GR:pj]
-is_a: EO:0007191 ! abiotic treatment
+is_a: EO:0007316 ! physical treatment
 
 [Term]
 id: EO:0007176
@@ -1439,7 +1442,7 @@ synonym: "artificial light" RELATED []
 synonym: "day light" RELATED []
 synonym: "natural light" RELATED []
 synonym: "sun light" RELATED []
-is_a: EO:0007154 ! radiation quality regimen
+is_a: EO:0007154 ! radiation quality treatment
 
 [Term]
 id: EO:0007197
@@ -1451,7 +1454,7 @@ is_a: EO:0007198 ! water environment
 id: EO:0007198
 name: water environment
 def: "The treatment involving an exposure of varying amount of water and watering frequncies, which may depend on regional environment." [GR:pj]
-is_a: EO:0007191 ! abiotic treatment
+is_a: EO:0001002 ! plant growth environment
 
 [Term]
 id: EO:0007199
@@ -2218,7 +2221,8 @@ is_a: EO:0007146 ! gravity
 
 [Term]
 id: EO:0007316
-name: physical environment
+name: physical treatment
+def: "An abiotic treatment (EO:0007191) involving the application of a physical factor such as gravity, wind, radiation, or a combination thereof." [PO:cooperl]
 is_a: EO:0007191 ! abiotic treatment
 
 [Term]
@@ -2629,7 +2633,7 @@ name: mechanical damage
 synonym: "wound" RELATED []
 synonym: "wound treatment" RELATED []
 synonym: "wounding" RELATED []
-is_a: EO:0007316 ! physical environment
+is_a: EO:0007316 ! physical treatment
 
 [Term]
 id: EO:0007374
@@ -2691,7 +2695,7 @@ id: EO:0007382
 name: wind environment
 def: "The treatment involving an exposure to wind, which may depend on regional environment." [GR:pj]
 is_a: EO:0007064 ! ecological environment
-is_a: EO:0007316 ! physical environment
+is_a: EO:0007316 ! physical treatment
 
 [Term]
 id: EO:0007383
@@ -3381,42 +3385,42 @@ is_a: EO:0007149 ! chemical mutagen
 id: EO:0007610
 name: 3-H
 synonym: "tritium" RELATED []
-is_a: EO:0007154 ! radiation quality regimen
+is_a: EO:0007154 ! radiation quality treatment
 
 [Term]
 id: EO:0007611
 name: 3-H-deoxycytidine
-is_a: EO:0007154 ! radiation quality regimen
+is_a: EO:0007154 ! radiation quality treatment
 
 [Term]
 id: EO:0007612
 name: 3-H-thymidine
-is_a: EO:0007154 ! radiation quality regimen
+is_a: EO:0007154 ! radiation quality treatment
 
 [Term]
 id: EO:0007613
 name: 32-P
-is_a: EO:0007154 ! radiation quality regimen
+is_a: EO:0007154 ! radiation quality treatment
 
 [Term]
 id: EO:0007614
 name: agr ray
-is_a: EO:0007154 ! radiation quality regimen
+is_a: EO:0007154 ! radiation quality treatment
 
 [Term]
 id: EO:0007615
 name: Bevatron irradiation
-is_a: EO:0007154 ! radiation quality regimen
+is_a: EO:0007154 ! radiation quality treatment
 
 [Term]
 id: EO:0007616
 name: deuteron irradiation
-is_a: EO:0007154 ! radiation quality regimen
+is_a: EO:0007154 ! radiation quality treatment
 
 [Term]
 id: EO:0007617
 name: ggr ray
-is_a: EO:0007154 ! radiation quality regimen
+is_a: EO:0007154 ! radiation quality treatment
 
 [Term]
 id: EO:0007618
@@ -3437,12 +3441,12 @@ is_a: EO:0007617 ! ggr ray
 [Term]
 id: EO:0007621
 name: magnetic field
-is_a: EO:0007154 ! radiation quality regimen
+is_a: EO:0007154 ! radiation quality treatment
 
 [Term]
 id: EO:0007622
 name: neutrons
-is_a: EO:0007154 ! radiation quality regimen
+is_a: EO:0007154 ! radiation quality treatment
 
 [Term]
 id: EO:0007623
@@ -3452,23 +3456,23 @@ is_a: EO:0007622 ! neutrons
 [Term]
 id: EO:0007624
 name: radio wave
-is_a: EO:0007154 ! radiation quality regimen
+is_a: EO:0007154 ! radiation quality treatment
 
 [Term]
 id: EO:0007625
 name: stratosphere exposure
-is_a: EO:0007154 ! radiation quality regimen
+is_a: EO:0007154 ! radiation quality treatment
 
 [Term]
 id: EO:0007626
 name: supersonic-treatment
-is_a: EO:0007154 ! radiation quality regimen
+is_a: EO:0007154 ! radiation quality treatment
 
 [Term]
 id: EO:0007628
 name: X-ray
 def: "The treatment using X-ray either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 5pm-10nm." [GR:pj]
-is_a: EO:0007154 ! radiation quality regimen
+is_a: EO:0007154 ! radiation quality treatment
 
 [Term]
 id: EO:0007629

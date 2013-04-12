@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:04:2013 10:16
+date: 12:04:2013 11:32
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
@@ -14,8 +14,10 @@ creation_date: 2013-04-10T13:21:11Z
 
 [Term]
 id: EO:0001002
-name: plant growing conditions
-def: "A plant environment (EO:0007359) involving a combination of one or more plant treatments (EO:0001001) as well as natural conditions." [LC+LM:test]
+name: plant growth environment
+def: "A plant environment (EO:0007359) involving a combination of one or more plant treatments (EO:0001001) as well as natural conditions for plant growth." [LC+LM:test]
+synonym: "plant growing conditions" EXACT []
+xref: OBO_SF_EO:3610697
 is_a: EO:0007359 ! plant environment
 created_by: cooperl
 creation_date: 2013-04-10T13:28:27Z
@@ -89,7 +91,7 @@ creation_date: 2013-04-11T13:43:22Z
 
 [Term]
 id: EO:0001011
-name: monosaccharide treatment 
+name: monosaccharide treatment
 def: "A carbohydrate treatment (EO:0001010) involving the application of monosaccharide(s)(CHEBI:35381)." [CHEBI:35381, LC+LM:test]
 comment: Monosaccharides (CHEBI:35381) are defined as polyhydroxy aldehydes H[CH(OH)]nC(=O)H or polyhydroxy ketones H-[CHOH]n-C(=O)[CHOH]m-H with three or more carbon atoms. The generic term 'monosaccharide' (as opposed to oligosaccharide or polysaccharide) denotes a single unit, without glycosidic connection to other such units. It includes aldoses, dialdoses, aldoketoses, ketoses and diketoses, as well as deoxy sugars, provided that the parent compound has a (potential) carbonyl group.
 is_a: EO:0001010 ! carbohydrate treatment
@@ -101,7 +103,7 @@ id: EO:0001012
 name: hexose treatment
 def: "A monosaccharide treatment (EO:0001011) involving the application of hexose (CHEBI:18133) sugar(s)." [CHEBI:18133, LC+LM:test]
 comment: Hexose (CHEBI:18133) is defined as any six-carbon monosaccharide which in its linear form contains either an aldehyde group at position 1 (aldohexose) or a ketone group at position 2 (ketohexose).
-is_a: EO:0001011 ! monosaccharide treatment 
+is_a: EO:0001011 ! monosaccharide treatment
 created_by: moorel
 creation_date: 2013-04-11T13:55:09Z
 
@@ -288,7 +290,7 @@ is_a: EO:0007005 ! Viridiplantae
 id: EO:0007023
 name: gaseous environment
 def: "The use of gasses in a given environment to study various types of responses on their extrinsic and/or intrinsic stimulus." [GR:pj]
-is_a: EO:0007191 ! abiotic treatment
+is_a: EO:0001002 ! plant growth environment
 
 [Term]
 id: EO:0007024
@@ -313,7 +315,7 @@ is_a: EO:0007137 ! Echinochloa spp.
 id: EO:0007027
 name: seasonal environment
 def: "The treatment involving an exposure to a given conditions of regional seasons." [GR:pj]
-is_a: EO:0007191 ! abiotic treatment
+is_a: EO:0001002 ! plant growth environment
 
 [Term]
 id: EO:0007028
@@ -396,7 +398,7 @@ is_obsolete: true
 id: EO:0007041
 name: antibiotic regimen
 def: "Treatment involving the use of antibiotic for selection purposes." [GR:pj]
-is_a: EO:0007189 ! chemical regimen
+is_a: EO:0007189 ! chemical treatment
 
 [Term]
 id: EO:0007043
@@ -532,7 +534,7 @@ is_a: EO:0007183 ! herbicide regimen
 id: EO:0007064
 name: ecological environment
 def: "The treatment involving an exposure to the various factors that comprise a geographical/regional location." [GR:pj]
-is_a: EO:0007191 ! abiotic treatment
+is_a: EO:0001002 ! plant growth environment
 
 [Term]
 id: EO:0007065
@@ -924,7 +926,7 @@ is_a: EO:0007116 ! Hemiptera
 id: EO:0007124
 name: pest/pathogen/animal/plant environment
 def: "Treatment involving the exposure of plant to the pest/pathogen/animal/plants present as part of its growth environment." [GR:pj]
-is_a: EO:0007357 ! biotic environment
+is_a: EO:0007357 ! biotic treatment
 
 [Term]
 id: EO:0007125
@@ -1064,13 +1066,13 @@ is_a: EO:0007108 ! Proteobacteria
 id: EO:0007146
 name: gravity
 def: "The treatment involving use of gravity factor to study various types of responses in presence, absence or modified levels of gravity." [GR:pj]
-is_a: EO:0007316 ! physical environment
+is_a: EO:0007316 ! environment
 
 [Term]
 id: EO:0007147
 name: growth media
 def: "The treatment involving use of growth media for growing the plants or tissue cultured samples." [GR:pj]
-is_a: EO:0007191 ! abiotic treatment
+is_a: EO:0001002 ! plant growth environment
 
 [Term]
 id: EO:0007148
@@ -1083,7 +1085,7 @@ is_a: EO:0007145 ! Xanthomonas spp.
 id: EO:0007149
 name: chemical mutagen
 def: "The treatment involving use of mutagen for the mutagenesis process." [GR:pj]
-is_a: EO:0007189 ! chemical regimen
+is_a: EO:0007189 ! chemical treatment
 
 [Term]
 id: EO:0007150
@@ -1178,7 +1180,7 @@ is_a: EO:0007282 ! standing water
 id: EO:0007165
 name: growth hormone regimen
 def: "The treatment involving use of growth hormones to study various types of responses on their extrinsic and/or intrinsic application." [GR:pj]
-is_a: EO:0007189 ! chemical regimen
+is_a: EO:0007189 ! chemical treatment
 
 [Term]
 id: EO:0007166
@@ -1190,7 +1192,7 @@ is_a: EO:0007328 ! Pythium spp.
 id: EO:0007167
 name: pesticide regimen
 def: "The treatment involving use of pesticides to study various types of responses on their application." [GR:pj]
-is_a: EO:0007189 ! chemical regimen
+is_a: EO:0007189 ! chemical treatment
 
 [Term]
 id: EO:0007168
@@ -1301,7 +1303,7 @@ is_a: EO:0007328 ! Pythium spp.
 id: EO:0007185
 name: salt regimen
 def: "The treatment involving use of salts as supplement to liquid and soil growth media to study various types of responses on their application. This treatment may be used to simulate the growth conditions of sea coast regions and saline/sodic soils." [GR:pj]
-is_a: EO:0007189 ! chemical regimen
+is_a: EO:0007189 ! chemical treatment
 
 [Term]
 id: EO:0007186
@@ -1313,7 +1315,7 @@ is_a: EO:0007328 ! Pythium spp.
 id: EO:0007187
 name: salicylic acid regimen
 def: "The treatment involving use of salicylic acid to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
-is_a: EO:0007189 ! chemical regimen
+is_a: EO:0007189 ! chemical treatment
 
 [Term]
 id: EO:0007188
@@ -1338,7 +1340,7 @@ is_a: EO:0007107 ! Ascomycota
 [Term]
 id: EO:0007191
 name: abiotic treatment
-def: "A plant treatment (EO:0001001) involving the application of non-biological chemical or physical factors." [GR:pj, PO:cooperl]
+def: "A plant treatment (EO:0001001) involving the application of non-biological chemical or  factors." [GR:pj, PO:cooperl]
 xref: OBO_SF_EO:3610612
 is_a: EO:0001001 ! plant treatment
 
@@ -1541,7 +1543,7 @@ id: EO:0007223
 name: cadmium chloride
 def: "The treatment involving use of CdCl2 to assess response against the heavy metals." [GR:pj]
 synonym: "CdCl2" RELATED []
-is_a: EO:0007189 ! chemical regimen
+is_a: EO:0007189 ! chemical treatment
 
 [Term]
 id: EO:0007224
@@ -1649,19 +1651,19 @@ id: EO:0007239
 name: micronutrient regimen
 def: "The treatment involving exposure of plant to elements that are required in tiny quantities for growth, as supplement to study various types of responses." [GR:pj]
 synonym: "trace element regimen" RELATED []
-is_a: EO:0007044 ! mineral nutrient regimen
+is_a: EO:0007044 ! mineral treatment
 
 [Term]
 id: EO:0007240
 name: macronutrient regimen
 def: "The treatment involving use of element as supplement to study various types of responses. The macronutrients comprise the elements required by the plant in relatively large quantities for normal growth." [GR:pj]
-is_a: EO:0007044 ! mineral nutrient regimen
+is_a: EO:0007044 ! mineral treatment
 
 [Term]
 id: EO:0007241
 name: nutrient regimen
 def: "The treatment involving use of nutrients to study various types of responses on their extrinsic and/or intrinsic application." [GR:pj]
-is_a: EO:0007189 ! chemical regimen
+is_a: EO:0001002 ! plant growth environment
 
 [Term]
 id: EO:0007242
@@ -2160,7 +2162,7 @@ is_a: EO:0007146 ! gravity
 
 [Term]
 id: EO:0007316
-name: physical environment
+name: environment
 is_a: EO:0007191 ! abiotic treatment
 
 [Term]
@@ -2455,7 +2457,7 @@ is_a: EO:0007111 ! ssRNA negative-strand virus
 [Term]
 id: EO:0007359
 name: plant environment
-def: "A plant treatment, growing condition, and/or study type applied to a whole plant (PO:0000003), a plant structure (PO:00090119), and/or a plant population to evaluate the plant response." [GR:pj, PO:cooperl]
+def: "A plant treatment, growth environment, and/or study type applied to a whole plant (PO:0000003), a plant structure (PO:00090119), and/or a plant population to evaluate the plant response." [GR:pj, PO:cooperl]
 comment: The Plant Environment Ontology describes the treatments,growing conditions, and/or study types used in various types of plant biology experiments. The subjects of the studies may also include in vitro\nplant structures (PO:0000004). A plant treatment is the most specific,and may be a component of a plant growing condition, and the plant study type. The broadest classes are the plant study types where the terms can be used to identify the growth study facility. Each growth facility such as field study, growth chamber, green house etc is a environment on its own and it may also involve instances of biotic and abiotic treatments and different growing conditions.
 synonym: "plant treatment ontology" RELATED []
 synonym: "treatment ontology" RELATED []
@@ -2571,7 +2573,7 @@ name: mechanical damage
 synonym: "wound" RELATED []
 synonym: "wound treatment" RELATED []
 synonym: "wounding" RELATED []
-is_a: EO:0007316 ! physical environment
+is_a: EO:0007316 ! environment
 
 [Term]
 id: EO:0007374
@@ -2633,7 +2635,7 @@ id: EO:0007382
 name: wind environment
 def: "The treatment involving an exposure to wind, which may depend on regional environment." [GR:pj]
 is_a: EO:0007064 ! ecological environment
-is_a: EO:0007316 ! physical environment
+is_a: EO:0007316 ! environment
 
 [Term]
 id: EO:0007383
@@ -2753,7 +2755,7 @@ is_a: EO:0007064 ! ecological environment
 [Term]
 id: EO:0007402
 name: fungal elicitor
-is_a: EO:0007189 ! chemical regimen
+is_a: EO:0007189 ! chemical treatment
 
 [Term]
 id: EO:0007403
@@ -2778,12 +2780,12 @@ is_a: EO:0007102 ! nitrogen fertilizer regimen
 [Term]
 id: EO:0007407
 name: methyl jasmonate
-is_a: EO:0007189 ! chemical regimen
+is_a: EO:0007189 ! chemical treatment
 
 [Term]
 id: EO:0007408
 name: 5-methyltryptophan
-is_a: EO:0007189 ! chemical regimen
+is_a: EO:0007189 ! chemical treatment
 
 [Term]
 id: EO:0007409
@@ -2823,7 +2825,7 @@ is_a: EO:0007387 ! manganese nutrient regimen
 id: EO:0007414
 name: peroxide regimen
 def: "The treatment involving exposure of plant to a peroxide to study various types of oxidative stress responses." [GR:pj]
-is_a: EO:0007189 ! chemical regimen
+is_a: EO:0007189 ! chemical treatment
 
 [Term]
 id: EO:0007415

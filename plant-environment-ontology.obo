@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:04:2013 11:32
+date: 12:04:2013 11:55
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
@@ -74,7 +74,7 @@ creation_date: 2013-04-10T15:29:20Z
 [Term]
 id: EO:0001009
 name: inorganic anion treatment
-def: "An inorganic chemical treatment (EO:0001004) involving the application of inorganic anion(s)(CHEBI:22563)." [CHEBI:22563, LC+LM:test]
+def: "An inorganic chemical treatment (EO:0001004) involving the application of an anion or a mixture of anions (CHEBI:22563)." [CHEBI:22563, PO:cooperl]
 comment: An anion (ChEBI:22653) is defined as a monoatomic or polyatomic species having one or more elementary charges of the electron.
 is_a: EO:0001004 ! inorganic chemical treatment
 created_by: cooperl
@@ -83,7 +83,7 @@ creation_date: 2013-04-11T12:29:25Z
 [Term]
 id: EO:0001010
 name: carbohydrate treatment
-def: "An organic chemical treatment (EO:0001003) involving the application of carbohydrate(s)(CHEBI:16646)." [CHEBI:16646, LC+LM:test]
+def: "An organic chemical treatment (EO:0001003) involving the application of a carbohydrate (CHEBI:16646) or mixture of carbohydrates." [CHEBI:16646, PO:cooperl]
 comment: Carbohydrate (CHEBI:16646) is defined as the generic term 'carbohydrate' includes monosaccharides, oligosaccharides and polysaccharides as well as substances derived from monosaccharides by reduction of the carbonyl group (alditols), by oxidation of one or more hydroxy groups to afford the corresponding aldehydes, ketones, or carboxylic acids, or by replacement of one or more hydroxy group(s) by a hydrogen atom. Cyclitols are generally not regarded as carbohydrates.
 is_a: EO:0001003 ! organic chemical treatments
 created_by: moorel
@@ -132,6 +132,22 @@ comment: Sucrose (CHEBI:17992) is defined as a disaccharide formed by glucose an
 is_a: EO:0001014 ! disaccharide treatment
 created_by: moorel
 creation_date: 2013-04-11T14:07:07Z
+
+[Term]
+id: EO:0001016
+name: inorganic cation treatment
+def: "An inorganic chemical treatment (EO:0001004) involving the application of a cation (CHEBI:36916) or mixture of cations ." [CHEBI:36916, PO:cooperl]
+is_a: EO:0001004 ! inorganic chemical treatment
+created_by: cooperl
+creation_date: 2013-04-12T11:42:16Z
+
+[Term]
+id: EO:0001017
+name: ammonium treatment
+def: "An inorganic cation treatment (EO:0001016) involving the application of ammonium (NH4+) (CHEBI:28938)." [CHEBI:28938, PO:cooperl]
+is_a: EO:0001016 ! inorganic cation treatment
+created_by: cooperl
+creation_date: 2013-04-12T11:48:32Z
 
 [Term]
 id: EO:0007001

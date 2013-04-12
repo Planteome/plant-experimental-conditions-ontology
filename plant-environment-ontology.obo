@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:04:2013 11:55
+date: 12:04:2013 12:18
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
@@ -148,6 +148,14 @@ def: "An inorganic cation treatment (EO:0001016) involving the application of am
 is_a: EO:0001016 ! inorganic cation treatment
 created_by: cooperl
 creation_date: 2013-04-12T11:48:32Z
+
+[Term]
+id: EO:0001018
+name: cadmium treatment
+def: "A mineral treatment (EO:0007044) involving exposure of plant to cadmium (CHEBI:22977)." [CHEBI:22977, PO:cooperl]
+is_a: EO:0007044 ! mineral treatment
+created_by: cooperl
+creation_date: 2013-04-12T12:14:55Z
 
 [Term]
 id: EO:0007001
@@ -1667,13 +1675,13 @@ id: EO:0007239
 name: micronutrient regimen
 def: "The treatment involving exposure of plant to elements that are required in tiny quantities for growth, as supplement to study various types of responses." [GR:pj]
 synonym: "trace element regimen" RELATED []
-is_a: EO:0007044 ! mineral treatment
+is_a: EO:0007241 ! nutrient regimen
 
 [Term]
 id: EO:0007240
 name: macronutrient regimen
 def: "The treatment involving use of element as supplement to study various types of responses. The macronutrients comprise the elements required by the plant in relatively large quantities for normal growth." [GR:pj]
-is_a: EO:0007044 ! mineral treatment
+is_a: EO:0007241 ! nutrient regimen
 
 [Term]
 id: EO:0007241

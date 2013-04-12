@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:04:2013 13:59
+date: 12:04:2013 15:36
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
@@ -219,7 +219,7 @@ id: EO:0007005
 name: Viridiplantae
 def: "Suggests the exposure of plant to other plants found in its growth environment. These plants may be growing as a weed or as part of normal farming practices. This treatmnet is part of an assay of any direct or indirect, harmful or beneficial effect of one plant on another through the production of chemical compounds (allelochemicals) that escape in the environment." [GR:pj, Virdiplantae:33090]
 synonym: "green plant" RELATED []
-is_a: EO:0007124 ! pest/pathogen/animal/plant environment
+is_a: EO:0007357 ! biotic treatment
 
 [Term]
 id: EO:0007006
@@ -860,7 +860,7 @@ name: Stramenopiles
 def: "Treatment involving the exposure of plant to the Stramenopiles (heterokonts) present in the gorowth environment." [GR:pj, NCBI_taxid:33634]
 synonym: "chromophyta" RELATED []
 synonym: "heterokont" RELATED []
-is_a: EO:0007124 ! pest/pathogen/animal/plant environment
+is_a: EO:0007357 ! biotic treatment
 
 [Term]
 id: EO:0007107
@@ -984,7 +984,7 @@ is_a: EO:0007116 ! Hemiptera
 id: EO:0007124
 name: pest/pathogen/animal/plant environment
 def: "Treatment involving the exposure of plant to the pest/pathogen/animal/plants present as part of its growth environment." [GR:pj]
-is_a: EO:0007357 ! biotic treatment
+is_obsolete: true
 
 [Term]
 id: EO:0007125
@@ -1153,7 +1153,7 @@ is_obsolete: true
 
 [Term]
 id: EO:0007151
-name: radiation regimen
+name: radiation treatment
 def: "The treatment involving an exposure with a radiation type, intensity or quantity." [GR:pj]
 comment: EMR is classified according to the frequency of its wave. The electromagnetic spectrum, in order of increasing frequency and decreasing wavelength, consists of radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays and gamma rays. (from Wikipedia)
 synonym: "light regimen" RELATED []
@@ -1163,19 +1163,19 @@ is_a: EO:0007316 ! physical treatment
 id: EO:0007152
 name: radiation intensity regimen
 def: "The treatment involving amount of energy of any radiation incident upon (or flowing through) unit area, perpendicular to the radiation source, in unit time." [GR:pj]
-is_a: EO:0007151 ! radiation regimen
+is_a: EO:0007151 ! radiation treatment
 
 [Term]
 id: EO:0007153
 name: radiation quantity regimen
 def: "In biological experiments it refer to the treatment involving radiation in terms of length of the exposure time. It also includes the quantity of radiation falling on a per unit area. This is expressed in the units of luminous flux or the lumens." [GR:pj]
-is_a: EO:0007151 ! radiation regimen
+is_a: EO:0007151 ! radiation treatment
 
 [Term]
 id: EO:0007154
 name: radiation quality treatment
 def: "The treatment involving an exposure to a given type of radiation. Often it is in the form of electromagnetic and ionizing radiation such as light (infrared, visible or ultraviolet), x-rays, gamma rays, etc." [GR:pj]
-is_a: EO:0007151 ! radiation regimen
+is_a: EO:0007151 ! radiation treatment
 
 [Term]
 id: EO:0007155
@@ -1226,7 +1226,7 @@ is_a: EO:0007078 ! light quantity regimen
 [Term]
 id: EO:0007163
 name: day light regimen
-def: "The treatment involving an exposure of plant to the scheduled or natural exposure of day light and night cycles to the plant. " [GR:pj]
+def: "The treatment involving an exposure of plant to the scheduled or natural exposure of day light and night cycles to the plant." [GR:pj]
 is_a: EO:0007128 ! intermittent light regimen
 
 [Term]
@@ -1526,7 +1526,7 @@ is_a: EO:0007107 ! Ascomycota
 id: EO:0007210
 name: Virus
 def: "The treatment involving exposure of plant to the pathogenic virus." [GR:pj, NCBI_taxid:10239]
-is_a: EO:0007124 ! pest/pathogen/animal/plant environment
+is_a: EO:0007357 ! biotic treatment
 
 [Term]
 id: EO:0007211
@@ -1541,7 +1541,7 @@ is_a: EO:0007055 ! Cochliobolus spp.
 id: EO:0007212
 name: Mycoplasma
 def: "The treatment involving exposure of plant to the mycoplasma pest." [GR:pj, NCBI_taxid:2093]
-is_a: EO:0007124 ! pest/pathogen/animal/plant environment
+is_a: EO:0007357 ! biotic treatment
 
 [Term]
 id: EO:0007214
@@ -1669,7 +1669,7 @@ is_a: EO:0007047 ! other nutrient regimen
 id: EO:0007233
 name: Fungi
 def: "The treatment involving exposure of plant to the pathogenic fungus." [GR:ivy, NCBI_taxid:4751]
-is_a: EO:0007124 ! pest/pathogen/animal/plant environment
+is_a: EO:0007357 ! biotic treatment
 
 [Term]
 id: EO:0007234
@@ -1754,7 +1754,7 @@ id: EO:0007246
 name: Bacteria
 def: "The treatment involving exposure of plant to the pathogenic bacteria." [GR:ivy, NCBI_taxid:2]
 synonym: "eubacteria" RELATED []
-is_a: EO:0007124 ! pest/pathogen/animal/plant environment
+is_a: EO:0007357 ! biotic treatment
 
 [Term]
 id: EO:0007247
@@ -1914,7 +1914,7 @@ is_a: EO:0007231 ! study type
 [Term]
 id: EO:0007270
 name: continuous dark (no light) regimen
-def: "The treatment involving continuous exposure to darkness (no light) to the plant. " [GR:pj]
+def: "The treatment involving continuous exposure to darkness (no light) to the plant." [GR:pj]
 synonym: "continuous night regimen" RELATED []
 is_a: EO:0007078 ! light quantity regimen
 
@@ -2056,7 +2056,7 @@ is_a: EO:0007066 ! cytokinin regimen
 [Term]
 id: EO:0007291
 name: benzyladenine regimen
-def: "It is a first-generation synthetic cytokinin which elicits plant growth and development responses, setting blossoms and stimulating fruit richness by stimulating cell division. It is an inhibitor of respiratory kinase in plants, and increases post-harvest life of green vegetables. [From http://en.wikipedia.org/wiki/6-Benzylaminopurine]" [CAS:[1214-39-7\], GR:pj, web:http\://en.wikipedia.org/wiki/6-Benzylaminopurine]
+def: "It is a first-generation synthetic cytokinin which elicits plant growth and development responses, setting blossoms and stimulating fruit richness by stimulating cell division. It is an inhibitor of respiratory kinase in plants, and increases post-harvest life of green vegetables." [CAS:[1214-39-7\], GR:pj, web:http\://en.wikipedia.org/wiki/6-Benzylaminopurine]
 comment: The treatment involving use of benzyladenine a cytokinin homolog to study various types of responses on its extrinsic and/or intrinsic application.
 synonym: "6-benzylaminopurine" RELATED []
 synonym: "BAP" RELATED []
@@ -2466,7 +2466,7 @@ id: EO:0007349
 name: Metazoa
 def: "The treatment involving exposure of plant to the pests and weeds of higher order." [GR:pj, NCBI_taxid:33208]
 synonym: "Animalia" RELATED []
-is_a: EO:0007124 ! pest/pathogen/animal/plant environment
+is_a: EO:0007357 ! biotic treatment
 
 [Term]
 id: EO:0007350
@@ -2504,7 +2504,7 @@ is_a: EO:0007111 ! ssRNA negative-strand virus
 [Term]
 id: EO:0007357
 name: biotic treatment
-def: "A plant treatment (EO:0001001) involving the application of biotic or biological factors such as microbes, insects, animals, or other plants." [GR:pj]
+def: "A plant treatment (EO:0001001) involving the application of a biotic or biological factor such as a microbe, insect, animal, or plant or a combination thereof." [GR:pj, PO:cooperl]
 is_a: EO:0001001 ! plant treatment
 
 [Term]

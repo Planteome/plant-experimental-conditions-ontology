@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:04:2013 19:46
+date: 13:04:2013 08:19
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
@@ -264,6 +264,14 @@ created_by: cooperl
 creation_date: 2013-04-12T19:41:18Z
 
 [Term]
+id: EO:0001032
+name: insect plant treatment
+def: "A biotic plant treatment (EO:0007357) involving exposure of a plant to an insect." [PO:cooperl]
+is_a: EO:0007357 ! biotic plant treatment
+created_by: cooperl
+creation_date: 2013-04-13T08:01:41Z
+
+[Term]
 id: EO:0007001
 name: UV-B light regimen
 def: "The treatment using UV-B light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 315-280nm." [GR:pj]
@@ -288,10 +296,11 @@ is_a: EO:0007050 ! soil texture
 
 [Term]
 id: EO:0007005
-name: Viridiplantae
-def: "Suggests the exposure of plant to other plants found in its growth environment. These plants may be growing as a weed or as part of normal farming practices. This treatmnet is part of an assay of any direct or indirect, harmful or beneficial effect of one plant on another through the production of chemical compounds (allelochemicals) that escape in the environment." [GR:pj, Virdiplantae:33090]
+name: Viridiplantae plant treatment
+def: "A biotic plant treatment (EO:0007357) involving exposure of a plant to another plant." [GR:pj, Virdiplantae:33090]
+comment: Suggests the exposure of plant to other plants found in its growth environment. These plants may be growing as a weed or as part of normal farming practices. This treatmnet is part of an assay of any direct or indirect, harmful or beneficial effect of one plant on another through the production of chemical compounds (allelochemicals) that escape in the environment.  Viridiplantae include all plants from algae through angiosperms.
 synonym: "green plant" RELATED []
-is_a: EO:0007357 ! biotic treatment
+is_a: EO:0007357 ! biotic plant treatment
 
 [Term]
 id: EO:0007006
@@ -319,7 +328,7 @@ name: Eudicotyledon
 def: "The exposure of reference/experimental plant to dicot plants found in its growth environment. These plants may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:71240]
 synonym: "dicot" RELATED []
 synonym: "Eudicot" RELATED []
-is_a: EO:0007005 ! Viridiplantae
+is_a: EO:0007005 ! Viridiplantae plant treatment
 
 [Term]
 id: EO:0007010
@@ -414,7 +423,7 @@ name: Liliopsida
 def: "The exposure of reference/experimental plant to monocot plants found in its growth environment. These plants may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:4447]
 synonym: "monocot" RELATED []
 synonym: "monocotyledon" RELATED []
-is_a: EO:0007005 ! Viridiplantae
+is_a: EO:0007005 ! Viridiplantae plant treatment
 
 [Term]
 id: EO:0007023
@@ -637,7 +646,7 @@ name: Sphaerulina oryzina
 def: "Treatment involving the exposure of plant to the pathogen Sphaerulina oryzina. It is a causal agent for rice Narrow Brown Leaf Spot disease." [GR:ivy, NCBI_taxid:237189]
 synonym: "Cercospora janseana" RELATED []
 synonym: "Cercospora oryzae" RELATED []
-is_a: EO:0007233 ! Fungi
+is_a: EO:0007233 ! fungal plant treatment 
 
 [Term]
 id: EO:0007061
@@ -730,7 +739,7 @@ id: EO:0007073
 name: Basidiomycota
 def: "Treatment involving the exposure of plant to the pathogen  belonging to Basidiomycetes class." [GR:ivy, NCBI_taxid:5204]
 synonym: "basidiomycetes" RELATED []
-is_a: EO:0007233 ! Fungi
+is_a: EO:0007233 ! fungal plant treatment 
 
 [Term]
 id: EO:0007074
@@ -933,46 +942,46 @@ name: Stramenopiles
 def: "Treatment involving the exposure of plant to the Stramenopiles (heterokonts) present in the gorowth environment." [GR:pj, NCBI_taxid:33634]
 synonym: "chromophyta" RELATED []
 synonym: "heterokont" RELATED []
-is_a: EO:0007357 ! biotic treatment
+is_a: EO:0007357 ! biotic plant treatment
 
 [Term]
 id: EO:0007107
 name: Ascomycota
 def: "Treatment involving the exposure of plant to the pathogen belonging to Ascomycetes class." [GR:ivy, NCBI_taxid:4890]
 synonym: "ascomycetes" RELATED []
-is_a: EO:0007233 ! Fungi
+is_a: EO:0007233 ! fungal plant treatment 
 
 [Term]
 id: EO:0007108
 name: Proteobacteria
 def: "Treatment involving the exposure of plant to the pathogenic purple bacteria." [GR:ivy, NCBI_taxid:1224]
 synonym: "purple bacteria" RELATED []
-is_a: EO:0007246 ! Bacteria
+is_a: EO:0007246 ! bacterial plant treatment
 
 [Term]
 id: EO:0007109
 name: ssRNA positive-strand virus with no DNA stage
 def: "Treatment involving the exposure of plant to the pathogenic single strand RNA positive stand virus." [GR:pj]
-is_a: EO:0007210 ! Virus
+is_a: EO:0007210 ! virus plant treatment 
 
 [Term]
 id: EO:0007110
 name: dsRNA virus
 def: "Treatment involving the exposure of plant to the pathogenic double stranded RNA virus." [GR:pj, NCBI_taxid:35325]
 synonym: "dsRNA nonenveloped viruses" RELATED []
-is_a: EO:0007210 ! Virus
+is_a: EO:0007210 ! virus plant treatment 
 
 [Term]
 id: EO:0007111
 name: ssRNA negative-strand virus
 def: "Treatment involving the exposure of plant to the pathogenic single strand RNA negative stand virus." [GR:pj]
-is_a: EO:0007210 ! Virus
+is_a: EO:0007210 ! virus plant treatment 
 
 [Term]
 id: EO:0007112
 name: retroid virus
 def: "Treatment involving the exposure of plant to the pathogenic retroid virus." [GR:pj, NCBI_taxid:35268]
-is_a: EO:0007210 ! Virus
+is_a: EO:0007210 ! virus plant treatment 
 
 [Term]
 id: EO:0007113
@@ -1461,7 +1470,7 @@ name: chemical treatment
 alt_id: EO:0007042
 def: "An abiotic treatment (EO:0007191) involving the application of chemical(s)." [GR:pj, LC+LM:test]
 synonym: "other chemical regimen" RELATED []
-is_a: EO:0007191 ! abiotic treatment
+is_a: EO:0007191 ! abiotic plant treatment
 
 [Term]
 id: EO:0007190
@@ -1471,7 +1480,7 @@ is_a: EO:0007107 ! Ascomycota
 
 [Term]
 id: EO:0007191
-name: abiotic treatment
+name: abiotic plant treatment
 def: "A plant treatment (EO:0001001) involving the application of non-biological chemical or  factors." [GR:pj, PO:cooperl]
 xref: OBO_SF_EO:3610612
 is_a: EO:0001001 ! plant treatment
@@ -1597,9 +1606,9 @@ is_a: EO:0007107 ! Ascomycota
 
 [Term]
 id: EO:0007210
-name: Virus
-def: "The treatment involving exposure of plant to the pathogenic virus." [GR:pj, NCBI_taxid:10239]
-is_a: EO:0007357 ! biotic treatment
+name: virus plant treatment 
+def: "A biotic plant treatment (EO:0007357) involving exposure of a plant to a virus or a combination of two or more viruses." [GR:pj, NCBI_taxid:10239, PO:cooperl]
+is_a: EO:0007357 ! biotic plant treatment
 
 [Term]
 id: EO:0007211
@@ -1614,7 +1623,7 @@ is_a: EO:0007055 ! Cochliobolus spp.
 id: EO:0007212
 name: Mycoplasma
 def: "The treatment involving exposure of plant to the mycoplasma pest." [GR:pj, NCBI_taxid:2093]
-is_a: EO:0007357 ! biotic treatment
+is_a: EO:0007357 ! biotic plant treatment
 
 [Term]
 id: EO:0007214
@@ -1740,9 +1749,9 @@ is_a: EO:0007047 ! other nutrient regimen
 
 [Term]
 id: EO:0007233
-name: Fungi
-def: "The treatment involving exposure of plant to the pathogenic fungus." [GR:ivy, NCBI_taxid:4751]
-is_a: EO:0007357 ! biotic treatment
+name: fungal plant treatment 
+def: "A biotic plant treatment (EO:0007357) involving exposure of a plant to a fungus or a combination of fungi." [GR:ivy, NCBI_taxid:4751]
+is_a: EO:0007357 ! biotic plant treatment
 
 [Term]
 id: EO:0007234
@@ -1826,10 +1835,10 @@ is_a: EO:0007143 ! Erwinia spp.
 
 [Term]
 id: EO:0007246
-name: Bacteria
-def: "The treatment involving exposure of plant to the pathogenic bacteria." [GR:ivy, NCBI_taxid:2]
+name: bacterial plant treatment
+def: "A biotic plant treatment (EO:0007357) involving exposure of a plant to bacteria." [GR:ivy, NCBI_taxid:2, PO:cooperl]
 synonym: "eubacteria" RELATED []
-is_a: EO:0007357 ! biotic treatment
+is_a: EO:0007357 ! biotic plant treatment
 
 [Term]
 id: EO:0007247
@@ -2298,7 +2307,7 @@ is_a: EO:0007146 ! gravity
 id: EO:0007316
 name: physical treatment
 def: "An abiotic treatment (EO:0007191) involving the application of a physical factor such as gravity, wind, radiation, or a combination thereof." [PO:cooperl]
-is_a: EO:0007191 ! abiotic treatment
+is_a: EO:0007191 ! abiotic plant treatment
 
 [Term]
 id: EO:0007317
@@ -2541,7 +2550,7 @@ id: EO:0007349
 name: Metazoa
 def: "The treatment involving exposure of plant to the pests and weeds of higher order." [GR:pj, NCBI_taxid:33208]
 synonym: "Animalia" RELATED []
-is_a: EO:0007357 ! biotic treatment
+is_a: EO:0007357 ! biotic plant treatment
 
 [Term]
 id: EO:0007350
@@ -2578,7 +2587,7 @@ is_a: EO:0007111 ! ssRNA negative-strand virus
 
 [Term]
 id: EO:0007357
-name: biotic treatment
+name: biotic plant treatment
 def: "A plant treatment (EO:0001001) involving the application of a biotic or biological factor such as a microbe, insect, animal, or plant or a combination thereof." [GR:pj, PO:cooperl]
 is_a: EO:0001001 ! plant treatment
 
@@ -2741,7 +2750,7 @@ id: EO:0007378
 name: Sarocladium oryzae
 def: "The treatment involving exposure of plant to the pathogen Sarocladium oryzae. It is a causal agent for rice Seedling Blight (Fungal) disease and/or Sheath Rot disease." [GR:ivy]
 synonym: "Acrocylindrium oryzae" RELATED []
-is_a: EO:0007233 ! Fungi
+is_a: EO:0007233 ! fungal plant treatment 
 
 [Term]
 id: EO:0007379

@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:04:2013 08:19
+date: 13:04:2013 15:17
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
@@ -265,11 +265,28 @@ creation_date: 2013-04-12T19:41:18Z
 
 [Term]
 id: EO:0001032
-name: insect plant treatment
-def: "A biotic plant treatment (EO:0007357) involving exposure of a plant to an insect." [PO:cooperl]
-is_a: EO:0007357 ! biotic plant treatment
+name: Hymenoptera insect plant treatment
+def: "An insect plant treatment (EO:0007333) involving the exposure of a plant to an insect(s) of the Hymenoptera order." [PO:cooperl]
+is_a: EO:0007333 ! insect plant treatment
 created_by: cooperl
 creation_date: 2013-04-13T08:01:41Z
+
+[Term]
+id: EO:0001033
+name: parasitic wasp insect plant treatment
+def: "A Hymenoptera insect plant treatment (EO:0001032) that involves exposure to parasitic wasps." [:<new dbxref>, PO:cooperl]
+comment: Parasitic wasp (or parasitoid wasp) refers to a large evolutionary grade of hymenopteran superfamilies, mainly in the Apocrita (http://en.wikipedia.org/wiki/Parasitoid_wasp).
+is_a: EO:0001032 ! Hymenoptera insect plant treatment
+created_by: cooperl
+creation_date: 2013-04-13T13:38:41Z
+
+[Term]
+id: EO:0001034
+name: Pseudomonas syringae plant treatment
+def: "A Pseudomonas plant treatment (EO:0007144) involving the exposure to bacteria of the Pseudomonas syringae group." [NCBI:136849, PO:cooperl]
+is_a: EO:0007144 ! Pseudomonas plant treatment
+created_by: cooperl
+creation_date: 2013-04-13T14:56:13Z
 
 [Term]
 id: EO:0007001
@@ -483,7 +500,7 @@ id: EO:0007031
 name: Mammalia
 def: "The exposure of plant to the anilmals of higher order that may be resopnsible for damaging the plant due to grazing or feeding practices." [GR:pj, NCBI_taxid:40674]
 synonym: "mammal" RELATED []
-is_a: EO:0007349 ! Metazoa
+is_a: EO:0007349 ! metazoan plant treatment
 
 [Term]
 id: EO:0007033
@@ -646,7 +663,7 @@ name: Sphaerulina oryzina
 def: "Treatment involving the exposure of plant to the pathogen Sphaerulina oryzina. It is a causal agent for rice Narrow Brown Leaf Spot disease." [GR:ivy, NCBI_taxid:237189]
 synonym: "Cercospora janseana" RELATED []
 synonym: "Cercospora oryzae" RELATED []
-is_a: EO:0007233 ! fungal plant treatment 
+is_a: EO:0007233 ! fungal plant treatment
 
 [Term]
 id: EO:0007061
@@ -739,7 +756,7 @@ id: EO:0007073
 name: Basidiomycota
 def: "Treatment involving the exposure of plant to the pathogen  belonging to Basidiomycetes class." [GR:ivy, NCBI_taxid:5204]
 synonym: "basidiomycetes" RELATED []
-is_a: EO:0007233 ! fungal plant treatment 
+is_a: EO:0007233 ! fungal plant treatment
 
 [Term]
 id: EO:0007074
@@ -805,7 +822,7 @@ is_a: EO:0007107 ! Ascomycota
 id: EO:0007084
 name: other animals
 def: "Treatment involving the exposure of plant to the pests that do not falll under the well known classes of birds, mammals, insects, nematode and molluscs." [GR:pj]
-is_a: EO:0007349 ! Metazoa
+is_a: EO:0007349 ! metazoan plant treatment
 
 [Term]
 id: EO:0007085
@@ -949,39 +966,39 @@ id: EO:0007107
 name: Ascomycota
 def: "Treatment involving the exposure of plant to the pathogen belonging to Ascomycetes class." [GR:ivy, NCBI_taxid:4890]
 synonym: "ascomycetes" RELATED []
-is_a: EO:0007233 ! fungal plant treatment 
+is_a: EO:0007233 ! fungal plant treatment
 
 [Term]
 id: EO:0007108
-name: Proteobacteria
-def: "Treatment involving the exposure of plant to the pathogenic purple bacteria." [GR:ivy, NCBI_taxid:1224]
+name: Proteobacterial plant treatment
+def: "A bacterial plant treatment (EO:0007246) involving the exposure of bacteria of the Proteobacteria." [GR:ivy, NCBI:1224]
 synonym: "purple bacteria" RELATED []
-is_a: EO:0007246 ! bacterial plant treatment
+is_obsolete: true
 
 [Term]
 id: EO:0007109
 name: ssRNA positive-strand virus with no DNA stage
 def: "Treatment involving the exposure of plant to the pathogenic single strand RNA positive stand virus." [GR:pj]
-is_a: EO:0007210 ! virus plant treatment 
+is_a: EO:0007210 ! virus plant treatment
 
 [Term]
 id: EO:0007110
 name: dsRNA virus
 def: "Treatment involving the exposure of plant to the pathogenic double stranded RNA virus." [GR:pj, NCBI_taxid:35325]
 synonym: "dsRNA nonenveloped viruses" RELATED []
-is_a: EO:0007210 ! virus plant treatment 
+is_a: EO:0007210 ! virus plant treatment
 
 [Term]
 id: EO:0007111
 name: ssRNA negative-strand virus
 def: "Treatment involving the exposure of plant to the pathogenic single strand RNA negative stand virus." [GR:pj]
-is_a: EO:0007210 ! virus plant treatment 
+is_a: EO:0007210 ! virus plant treatment
 
 [Term]
 id: EO:0007112
 name: retroid virus
 def: "Treatment involving the exposure of plant to the pathogenic retroid virus." [GR:pj, NCBI_taxid:35268]
-is_a: EO:0007210 ! virus plant treatment 
+is_a: EO:0007210 ! virus plant treatment
 
 [Term]
 id: EO:0007113
@@ -998,7 +1015,7 @@ name: Lepidoptera
 def: "Treatment involving the exposure of plant to the pest of lepidoptera class." [GR:pj, NCBI_taxid:7088]
 synonym: "butterfly" RELATED []
 synonym: "moth" RELATED []
-is_a: EO:0007333 ! Insecta
+is_a: EO:0007333 ! insect plant treatment
 
 [Term]
 id: EO:0007115
@@ -1008,10 +1025,11 @@ is_a: EO:0007114 ! Lepidoptera
 
 [Term]
 id: EO:0007116
-name: Hemiptera
-def: "Treatment involving the exposure of plant to the pest of hemiptera class." [GR:pj, NCBI_taxid:7524]
+name: Hemiptera insect plant treatment
+def: "An insect plant treatment (EO:0007333) involving the exposure of a plant to an insect(s) of the Hemiptera order." [GR:pj, NCBI_taxid:7524, PO:cooperl]
+comment: Insects of the Hemiptera order include aphids, planthoppers, bugs\nwhiteflies, scale insects, psyllids and jumping plant lice.
 synonym: "bug" RELATED []
-is_a: EO:0007333 ! Insecta
+is_a: EO:0007333 ! insect plant treatment
 
 [Term]
 id: EO:0007117
@@ -1028,24 +1046,24 @@ is_a: EO:0007107 ! Ascomycota
 
 [Term]
 id: EO:0007119
-name: Diptera
-def: "Treatment involving the exposure of plant to the pest of Diptera class." [GR:pj, NCBI_taxid:7147]
+name: Dipteran insect plant treatment
+def: "An insect plant treatment (EO:0007333) involving the exposure of a plant to an insect(s) of the Diptera order." [GR:pj, NCBI_taxid:7147]
 synonym: "fly" RELATED []
-is_a: EO:0007333 ! Insecta
+is_a: EO:0007333 ! insect plant treatment
 
 [Term]
 id: EO:0007120
 name: Coleoptera
 def: "Treatment involving the exposure of plant to the pest commonly called as beetles or Coleoptera." [GR:pj, NCBI_taxid:7041]
 synonym: "beetle" RELATED []
-is_a: EO:0007333 ! Insecta
+is_a: EO:0007333 ! insect plant treatment
 
 [Term]
 id: EO:0007121
 name: Thysanoptera
 def: "Treatment involving the exposure of plant to the pest of Thysanoptera class." [GR:pj, NCBI_taxid:30262]
 synonym: "thrips" RELATED []
-is_a: EO:0007333 ! Insecta
+is_a: EO:0007333 ! insect plant treatment
 
 [Term]
 id: EO:0007122
@@ -1060,7 +1078,7 @@ id: EO:0007123
 name: Eysarcoris trimaculatus
 def: "Treatment involving the exposure of plant to the pest rice spotting bug." [GR:pj]
 synonym: "rice spotting bug" RELATED []
-is_a: EO:0007116 ! Hemiptera
+is_a: EO:0007116 ! Hemiptera insect plant treatment
 
 [Term]
 id: EO:0007124
@@ -1186,21 +1204,21 @@ is_a: EO:0007114 ! Lepidoptera
 
 [Term]
 id: EO:0007143
-name: Erwinia spp.
-def: "The treatment involving an exposure of plant to the pathogen sof Genus Erwinia." [GR:ivy, NCBI_taxid:551]
-is_a: EO:0007108 ! Proteobacteria
+name: Erwinia plant treatment
+def: "A bacterial plant treatment (EO:0007246) involving the exposure to bacteria of the genus Erwinia." [GR:ivy, NCBI:551]
+is_a: EO:0007246 ! bacterial plant treatment
 
 [Term]
 id: EO:0007144
-name: Pseudomonas spp.
-def: "The treatment involving an exposure of plant to the pathogenic Pseudomonas sp." [GR:ivy, NCBI_taxid:286]
-is_a: EO:0007108 ! Proteobacteria
+name: Pseudomonas plant treatment
+def: "A bacterial plant treatment (EO:0007246) involving the exposure to bacteria of the genus Pseudomonas." [GR:ivy, NCBI:286]
+is_a: EO:0007246 ! bacterial plant treatment
 
 [Term]
 id: EO:0007145
-name: Xanthomonas spp.
-def: "The treatment involving an exposure of plant to the pathogenic Xanthomonas sp." [GR:ivy, NCBI_taxid:338]
-is_a: EO:0007108 ! Proteobacteria
+name: Xanthomonas plant treatment
+def: "A bacterial plant treatment (EO:0007246) involving the exposure to bacteria of the genus Xanthomonas." [GR:ivy, NCBI:338]
+is_a: EO:0007246 ! bacterial plant treatment
 
 [Term]
 id: EO:0007146
@@ -1219,7 +1237,7 @@ id: EO:0007148
 name: Xanthomonas oryzae
 def: "The treatment involving an exposure of plant to the pathogen Xanthomonas oryzae. It is a causal agent for rice bacterial blight disease." [GR:ivy, NCBI_taxid:347]
 synonym: "Pseudomonas oryzae" RELATED []
-is_a: EO:0007145 ! Xanthomonas spp.
+is_a: EO:0007145 ! Xanthomonas plant treatment
 
 [Term]
 id: EO:0007149
@@ -1606,7 +1624,7 @@ is_a: EO:0007107 ! Ascomycota
 
 [Term]
 id: EO:0007210
-name: virus plant treatment 
+name: virus plant treatment
 def: "A biotic plant treatment (EO:0007357) involving exposure of a plant to a virus or a combination of two or more viruses." [GR:pj, NCBI_taxid:10239, PO:cooperl]
 is_a: EO:0007357 ! biotic plant treatment
 
@@ -1749,7 +1767,7 @@ is_a: EO:0007047 ! other nutrient regimen
 
 [Term]
 id: EO:0007233
-name: fungal plant treatment 
+name: fungal plant treatment
 def: "A biotic plant treatment (EO:0007357) involving exposure of a plant to a fungus or a combination of fungi." [GR:ivy, NCBI_taxid:4751]
 is_a: EO:0007357 ! biotic plant treatment
 
@@ -1759,7 +1777,7 @@ name: Pseudomonas fuscovaginae
 def: "The treatment involving exposure of plant to the pathogen Pseudomonas fuscovaginae. It is a causal agent for rice Sheath Brown Rot disease." [GR:ivy, NCBI_taxid:50340]
 synonym: "Pseudomonas fuscivaginae" RELATED []
 xref: NCBI_taxid:50340
-is_a: EO:0007144 ! Pseudomonas spp.
+is_a: EO:0007144 ! Pseudomonas plant treatment
 
 [Term]
 id: EO:0007235
@@ -1773,7 +1791,7 @@ name: Pseudomonas plantarii
 def: "The treatment involving exposure of plant to the pathogen Pseudomonas plantarii. It is a causal agent for rice Seedling Blight (Bacterial) disease." [GR:ivy, NCBI_taxid:41899]
 synonym: "Burkholderia plantarii" RELATED []
 synonym: "Burkholderia vandii" RELATED []
-is_a: EO:0007144 ! Pseudomonas spp.
+is_a: EO:0007144 ! Pseudomonas plant treatment
 
 [Term]
 id: EO:0007237
@@ -1819,7 +1837,7 @@ id: EO:0007243
 name: Pseudomonas glumae
 def: "The treatment involving exposure of plant to the pathogen Pseudomonas glumae. It is a causal agent for rice Grain Rot disease." [GR:ivy, NCBI_taxid:337]
 synonym: "Burkholderia glumae" RELATED []
-is_a: EO:0007144 ! Pseudomonas spp.
+is_a: EO:0007144 ! Pseudomonas plant treatment
 
 [Term]
 id: EO:0007244
@@ -1831,12 +1849,12 @@ is_a: EO:0007239 ! micronutrient regimen
 id: EO:0007245
 name: Erwinia chrysanthemi
 def: "The treatment involving exposure of plant to the pathogen Erwinia chrysanthemi. It is a causal agent for rice Foot Rot disease." [GR:ivy, NCBI_taxid:556]
-is_a: EO:0007143 ! Erwinia spp.
+is_a: EO:0007143 ! Erwinia plant treatment
 
 [Term]
 id: EO:0007246
 name: bacterial plant treatment
-def: "A biotic plant treatment (EO:0007357) involving exposure of a plant to bacteria." [GR:ivy, NCBI_taxid:2, PO:cooperl]
+def: "A biotic plant treatment (EO:0007357) involving exposure of a plant to bacteria." [GR:ivy, NCBI:2, PO:cooperl]
 synonym: "eubacteria" RELATED []
 is_a: EO:0007357 ! biotic plant treatment
 
@@ -1845,7 +1863,7 @@ id: EO:0007247
 name: Erwinia herbicola
 def: "The treatment involving exposure of plant to the pathogen Erwinia herbicola. The susceptible plants suffer from Bacterial Palea Browning disease." [GR:ivy, NCBI_taxid:549]
 synonym: "Pantoea agglomerans" RELATED []
-is_a: EO:0007143 ! Erwinia spp.
+is_a: EO:0007143 ! Erwinia plant treatment
 
 [Term]
 id: EO:0007248
@@ -1865,20 +1883,20 @@ id: EO:0007250
 name: Recilia dorsalis
 def: "The treatment involving exposure of plant to the pest zigzag leafhopper." [GR:pj]
 synonym: "zigzag leafhopper" RELATED []
-is_a: EO:0007116 ! Hemiptera
+is_a: EO:0007116 ! Hemiptera insect plant treatment
 
 [Term]
 id: EO:0007251
 name: Pseudomonas syringae pv. panici
 def: "The treatment involving exposure of plant to the pathogen Pseudomonas syringae pv. panici. It is a causal agent for rice Bacterial Brown Stripe disease." [GR:ivy]
-is_a: EO:0007144 ! Pseudomonas spp.
+is_a: EO:0001034 ! Pseudomonas syringae plant treatment
 
 [Term]
 id: EO:0007252
 name: Sogatella furcifera
 def: "The treatment involving exposure of plant to the pest white-backed planthopper." [GR:pj, NCBI_taxid:113103]
 synonym: "white-backed planthopper" RELATED []
-is_a: EO:0007116 ! Hemiptera
+is_a: EO:0007116 ! Hemiptera insect plant treatment
 
 [Term]
 id: EO:0007253
@@ -1891,7 +1909,7 @@ id: EO:0007254
 name: Pseudomonas avenae
 def: "The treatment involving exposure of plant to the pathogen Pseudomonas avenae. It is a causal agent for rice Bacterial Brown Stripe disease" [GR:ivy, NCBI_taxid:80867]
 synonym: "Acidovorax avenae" RELATED []
-is_a: EO:0007144 ! Pseudomonas spp.
+is_a: EO:0007144 ! Pseudomonas plant treatment
 
 [Term]
 id: EO:0007255
@@ -1918,7 +1936,7 @@ id: EO:0007258
 name: Oebalus pugnax
 def: "The treatment involving exposure of plant to the pest rice stink bug" [GR:pj]
 synonym: "rice stink bug" RELATED []
-is_a: EO:0007116 ! Hemiptera
+is_a: EO:0007116 ! Hemiptera insect plant treatment
 
 [Term]
 id: EO:0007259
@@ -1933,7 +1951,7 @@ name: Diopsis macrophthalma
 def: "The treatment involving exposure of plant to the pest commonly calles as rice stem borer." [GR:pj]
 synonym: "rice stem borer" RELATED []
 synonym: "stalked-eyed fly" RELATED []
-is_a: EO:0007119 ! Diptera
+is_a: EO:0007119 ! Dipteran insect plant treatment
 
 [Term]
 id: EO:0007261
@@ -2129,7 +2147,7 @@ id: EO:0007289
 name: Hydrellia philippina
 def: "The treatment involving exposure of plant to the pest rice whorl maggot." [GR:pj]
 synonym: "rice whorl maggot" RELATED []
-is_a: EO:0007119 ! Diptera
+is_a: EO:0007119 ! Dipteran insect plant treatment
 
 [Term]
 id: EO:0007290
@@ -2197,7 +2215,7 @@ name: Sogatodes oryzicola
 def: "The treatment involving exposure of plant to the pest rice delpahcid." [GR:pj]
 synonym: "rice delpahcid" RELATED []
 synonym: "Tagosodes orizicolus" RELATED []
-is_a: EO:0007116 ! Hemiptera
+is_a: EO:0007116 ! Hemiptera insect plant treatment
 
 [Term]
 id: EO:0007300
@@ -2205,7 +2223,7 @@ name: Leptocorisa oratorius
 def: "The treatment involving exposure of plant to the pest paddy bug." [GR:pj]
 synonym: "paddy bug" RELATED []
 synonym: "rice bug" RELATED []
-is_a: EO:0007116 ! Hemiptera
+is_a: EO:0007116 ! Hemiptera insect plant treatment
 
 [Term]
 id: EO:0007302
@@ -2253,7 +2271,7 @@ id: EO:0007308
 name: Nephotettix spp
 def: "The treatment involving exposure of plant to the pest green leaf hopper." [GR:pj, NCBI_taxid:94399]
 synonym: "green leafhopper" RELATED []
-is_a: EO:0007116 ! Hemiptera
+is_a: EO:0007116 ! Hemiptera insect plant treatment
 
 [Term]
 id: EO:0007309
@@ -2273,7 +2291,7 @@ name: Orseolia oryzae
 def: "The treatment involving exposure of plant to the pest rice gall midge." [GR:pj, NCBI_taxid:33408]
 synonym: "Asian rice gall midge" RELATED []
 synonym: "gall midge" RELATED []
-is_a: EO:0007119 ! Diptera
+is_a: EO:0007119 ! Dipteran insect plant treatment
 
 [Term]
 id: EO:0007312
@@ -2314,7 +2332,7 @@ id: EO:0007317
 name: Nilaparvata lugens
 def: "The treatment involving exposure of plant to the pest brown planthopper" [GR:pj, NCBI_taxid:108931]
 synonym: "brown planthopper" RELATED []
-is_a: EO:0007116 ! Hemiptera
+is_a: EO:0007116 ! Hemiptera insect plant treatment
 
 [Term]
 id: EO:0007318
@@ -2419,11 +2437,11 @@ is_a: EO:0007174 ! cold temperature regimen
 
 [Term]
 id: EO:0007333
-name: Insecta
-def: "The treatment involving exposure of plant to the pests." [GR:pj, NCBI_taxid:50557]
+name: insect plant treatment
+def: "A metazoan plant treatment  (EO:0007349) involving exposure of a plant to an insect or a mixture of insects." [GR:pj, NCBI_taxid:50557, PO:cooperl]
 synonym: "insect" RELATED []
 synonym: "true insects" RELATED []
-is_a: EO:0007349 ! Metazoa
+is_a: EO:0007349 ! metazoan plant treatment
 
 [Term]
 id: EO:0007334
@@ -2439,7 +2457,7 @@ name: Mollusca
 def: "The treatment involving exposure of plant to the pest molluscs." [GR:pj, NCBI_taxid:6447]
 synonym: "mollusc" RELATED []
 synonym: "mollusk" RELATED []
-is_a: EO:0007349 ! Metazoa
+is_a: EO:0007349 ! metazoan plant treatment
 
 [Term]
 id: EO:0007336
@@ -2455,7 +2473,7 @@ name: Nematoda
 def: "The treatment involving exposure of plant to the nematode pests." [GR:pj, NCBI_taxid:6231]
 synonym: "round worm" RELATED []
 synonym: "roundworm" RELATED []
-is_a: EO:0007349 ! Metazoa
+is_a: EO:0007349 ! metazoan plant treatment
 
 [Term]
 id: EO:0007338
@@ -2536,7 +2554,7 @@ id: EO:0007347
 name: Aves
 def: "The treatment involving exposure of plants to the birds." [GR:pj, NCBI_taxid:8782]
 synonym: "bird" RELATED []
-is_a: EO:0007349 ! Metazoa
+is_a: EO:0007349 ! metazoan plant treatment
 
 [Term]
 id: EO:0007348
@@ -2547,8 +2565,8 @@ is_a: EO:0007109 ! ssRNA positive-strand virus with no DNA stage
 
 [Term]
 id: EO:0007349
-name: Metazoa
-def: "The treatment involving exposure of plant to the pests and weeds of higher order." [GR:pj, NCBI_taxid:33208]
+name: metazoan plant treatment
+def: "A biotic plant treatment (EO:0007357) involving exposure of a plant to a metazoan organism (animal)." [GR:pj, NCBI_taxid:33208, PO:cooperl]
 synonym: "Animalia" RELATED []
 is_a: EO:0007357 ! biotic plant treatment
 
@@ -2750,7 +2768,7 @@ id: EO:0007378
 name: Sarocladium oryzae
 def: "The treatment involving exposure of plant to the pathogen Sarocladium oryzae. It is a causal agent for rice Seedling Blight (Fungal) disease and/or Sheath Rot disease." [GR:ivy]
 synonym: "Acrocylindrium oryzae" RELATED []
-is_a: EO:0007233 ! fungal plant treatment 
+is_a: EO:0007233 ! fungal plant treatment
 
 [Term]
 id: EO:0007379
@@ -2949,7 +2967,7 @@ synonym: "Bacillus fluorescens liquefaciens" RELATED []
 synonym: "Bacterium fluorescen" RELATED []
 synonym: "Liquidomonas fluorescens" RELATED []
 xref: NCBI_taxid:294
-is_a: EO:0007144 ! Pseudomonas spp.
+is_a: EO:0007144 ! Pseudomonas plant treatment
 
 [Term]
 id: EO:0007412

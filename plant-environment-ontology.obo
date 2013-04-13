@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:04:2013 15:36
+date: 12:04:2013 18:10
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
@@ -190,6 +190,14 @@ synonym: "gamma rays" EXACT []
 is_a: EO:0007154 ! radiation quality treatment
 created_by: cooperl
 creation_date: 2013-04-12T13:05:50Z
+
+[Term]
+id: EO:0001023
+name: agar in vitro solid growth media
+def: "An in vitro solid growth media (EO:0007262) composed of agar." [:<new dbxref>]
+is_a: EO:0007262 ! in vitro solid growth media
+created_by: cooperl
+creation_date: 2013-04-12T18:01:37Z
 
 [Term]
 id: EO:0007001
@@ -499,7 +507,7 @@ is_a: EO:0007185 ! salt regimen
 id: EO:0007049
 name: soil environment
 def: "The treatment involving growing plants and exposing them to soil growth media with varying contents." [GR:pj]
-is_a: EO:0007262 ! solid growth media
+is_a: EO:0007147 ! growth media environment
 
 [Term]
 id: EO:0007050
@@ -616,7 +624,7 @@ id: EO:0007067
 name: hydroponic plant culture media
 def: "The treatment suggesting the use of liquid growth media for growing the plants. " [GR:pj]
 synonym: "soilless pant culture media" RELATED []
-is_a: EO:0007265 ! liquid growth media
+is_a: EO:0007265 ! in vitro liquid growth media
 
 [Term]
 id: EO:0007068
@@ -643,7 +651,7 @@ is_a: EO:0007074 ! auxin regimen
 id: EO:0007071
 name: suspension cell culture media
 def: "The treatment suggesting the use of liquid growth media for cell cultured samples." [GR:pj]
-is_a: EO:0007265 ! liquid growth media
+is_a: EO:0007265 ! in vitro liquid growth media
 
 [Term]
 id: EO:0007072
@@ -1128,8 +1136,8 @@ is_a: EO:0007316 ! physical treatment
 
 [Term]
 id: EO:0007147
-name: growth media
-def: "The treatment involving use of growth media for growing the plants or tissue cultured samples." [GR:pj]
+name: growth media environment
+def: "A plant growth environment (EO:0001002) involving the use of growth media for growing the plants or tissue cultured samples." [GR:pj, PO:cooperl]
 is_a: EO:0001002 ! plant growth environment
 
 [Term]
@@ -1265,7 +1273,7 @@ is_a: EO:0007041 ! antibiotic regimen
 id: EO:0007171
 name: pH regimen
 def: "The treatment involving exposure of plants to varying levels of pH of the growth media." [GR:pj]
-is_a: EO:0007147 ! growth media
+is_a: EO:0007316 ! physical treatment
 
 [Term]
 id: EO:0007172
@@ -1859,9 +1867,9 @@ is_a: EO:0007239 ! micronutrient regimen
 
 [Term]
 id: EO:0007262
-name: solid growth media
-def: "The treatment suggesting the use of solid growth media for growing the plants or tissue cultured samples." [GR:pj]
-is_a: EO:0007147 ! growth media
+name: in vitro solid growth media
+def: "An in vitro growth media (EO:0007266) involving use of  solid growth media as a substrate." [GR:pj, PO:cooperl]
+is_a: EO:0007266 ! in vitro growth media
 
 [Term]
 id: EO:0007263
@@ -1883,15 +1891,15 @@ is_a: EO:0007114 ! Lepidoptera
 
 [Term]
 id: EO:0007265
-name: liquid growth media
-def: "The treatment involving use of liquid growth media for growing the plants, cell or tissue cultured samples." [GR:pj]
-is_a: EO:0007147 ! growth media
+name: in vitro liquid growth media
+def: "An in vitro growth media (EO:0007265) involving use of liquid culture media as a substrate." [GR:pj, PO:cooperl]
+is_a: EO:0007266 ! in vitro growth media
 
 [Term]
 id: EO:0007266
-name: tissue culture growth media
-def: "The treatment involving use of solid growth media for growing the plants or tissue cultured samples." [GR:pj]
-is_a: EO:0007262 ! solid growth media
+name: in vitro growth media
+def: "A growth media environment (EO:0007147) for in vitro culture, involving use of solid or liquid substrate and which may include nutrients." [GR:pj, PO:cooperl]
+is_a: EO:0007147 ! growth media environment
 
 [Term]
 id: EO:0007267

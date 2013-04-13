@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:04:2013 18:10
+date: 12:04:2013 18:38
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
@@ -198,6 +198,14 @@ def: "An in vitro solid growth media (EO:0007262) composed of agar." [:<new dbxr
 is_a: EO:0007262 ! in vitro solid growth media
 created_by: cooperl
 creation_date: 2013-04-12T18:01:37Z
+
+[Term]
+id: EO:0001024
+name: vertical in vitro solid growth media
+def: "An in vitro solid growth media (EO:0007266) involving use of solid growth media in a vertical orientation." []
+is_a: EO:0007262 ! in vitro solid growth media
+created_by: cooperl
+creation_date: 2013-04-12T18:30:23Z
 
 [Term]
 id: EO:0007001
@@ -1898,7 +1906,7 @@ is_a: EO:0007266 ! in vitro growth media
 [Term]
 id: EO:0007266
 name: in vitro growth media
-def: "A growth media environment (EO:0007147) for in vitro culture, involving use of solid or liquid substrate and which may include nutrients." [GR:pj, PO:cooperl]
+def: "A growth media environment (EO:0007147) for in vitro culture, involving use of solid or liquid substrate and which may include nutrients and other amendments." [GR:pj, PO:cooperl]
 is_a: EO:0007147 ! growth media environment
 
 [Term]

@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:04:2013 15:57
+date: 13:04:2013 16:13
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
@@ -287,6 +287,13 @@ def: "A Pseudomonas plant treatment (EO:0007144) involving the exposure to bacte
 is_a: EO:0007144 ! Pseudomonas plant treatment
 created_by: cooperl
 creation_date: 2013-04-13T14:56:13Z
+
+[Term]
+id: EO:0001035
+name: <new term>
+is_a: EO:0001002 ! plant growth environment
+created_by: cooperl
+creation_date: 2013-04-13T16:13:27Z
 
 [Term]
 id: EO:0007001
@@ -668,7 +675,8 @@ is_a: EO:0007233 ! fungal plant treatment
 [Term]
 id: EO:0007061
 name: tropical region
-def: "Exposure to the geographical region of the Earth limited in latitude by the two tropics namely,  the Tropic of Cancer and the Tropic of Capricorn, and thus centered on the equator.. This area lies approximately between 23.5 N latitude and 23.5 S latitude, and includes all the parts of the Earth where the sun reaches a point directly overhead at least once during the solar year (north of the Tropic of Cancer and south of the Tropic of Capricorn the sun never reaches an azimuth of 90 or directly overhead)." [GR:pj]
+def: "Exposure to the geographical region of the Earth limited in latitude by the two tropics namely,  the Tropic of Cancer and the Tropic of Capricorn, and thus centered on the equator." [GR:pj]
+comment: This area lies approximately between 23.5 N latitude and 23.5 S latitude, and includes all the parts of the Earth where the sun reaches a point directly overhead at least once during the solar year (north of the Tropic of Cancer and south of the Tropic of Capricorn the sun never reaches an azimuth of 90 or directly overhead).
 is_a: EO:0007064 ! ecological environment
 
 [Term]
@@ -814,7 +822,8 @@ is_a: EO:0007396 ! flood prone region
 [Term]
 id: EO:0007083
 name: Phoma sorghina
-def: "Treatment involving the exposure of plant to the pathogen Phoma sorghina. It is a causal agent for rice Glume Blight Disease disease." [GR:ivy, NCBI_taxid:73005]
+def: "Treatment involving the exposure of plant to the pathogen Phoma sorghina." [GR:ivy, NCBI_taxid:73005]
+comment: It is a causal agent for rice Glume Blight Disease.
 xref: NCBI_taxid:73005
 is_a: EO:0007107 ! Ascomycota
 
@@ -1180,14 +1189,14 @@ is_a: EO:0007022 ! Liliopsida
 [Term]
 id: EO:0007139
 name: Sagittaria spp.
-def: "The treatment involving an exposure of reference/experimental plant to monocot plant Sagittaria spp. found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:4450]
+def: "The treatment involving an exposure of reference/experimental plant to monocot plant genus Sagittaria found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:4450]
 synonym: "arrowhead" RELATED []
 is_a: EO:0007022 ! Liliopsida
 
 [Term]
 id: EO:0007140
 name: Scirpus spp.
-def: "The treatment involving an exposure of reference/experimental plant to monocot plant Scirpus spp., found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:46334]
+def: "The treatment involving an exposure of reference/experimental plant to monocot plant genus Scirpus found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:46334]
 is_a: EO:0007022 ! Liliopsida
 
 [Term]
@@ -1255,7 +1264,7 @@ is_obsolete: true
 id: EO:0007151
 name: radiation treatment
 def: "The treatment involving an exposure with a radiation type, intensity or quantity." [GR:pj]
-comment: EMR is classified according to the frequency of its wave. The electromagnetic spectrum, in order of increasing frequency and decreasing wavelength, consists of radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays and gamma rays. (from Wikipedia)
+comment: EMR is classified according to the frequency of its wave. The electromagnetic spectrum, in order of increasing frequency and decreasing wavelength, consists of radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays and gamma rays. (from Wikipedia).
 synonym: "light regimen" RELATED []
 is_a: EO:0007316 ! physical treatment
 
@@ -1565,7 +1574,7 @@ is_a: EO:0007128 ! intermittent light regimen
 [Term]
 id: EO:0007200
 name: short day length regimen
-def: "The treatment involving exposure of plant to short day light duration followed by a long night cycle. " [GR:pj]
+def: "The treatment involving exposure of plant to short day light duration followed by a long night cycle." [GR:pj]
 is_a: EO:0007128 ! intermittent light regimen
 
 [Term]
@@ -1619,7 +1628,8 @@ is_a: EO:0007358 ! rice grassy stunt virus
 [Term]
 id: EO:0007209
 name: Phomopsis oryzae-sativae
-def: "The treatment involving exposure of plant to the pathogen Phomopsis oryzae-sativae. It is a causal agent for rice Collar Rot Disease disease." [GR:ivy, NCBI_taxid:107452]
+def: "The treatment involving exposure of plant to the pathogen Phomopsis oryzae-sativae." [GR:ivy, NCBI_taxid:107452]
+comment: It is a causal agent for rice Collar Rot Disease.
 is_a: EO:0007107 ! Ascomycota
 
 [Term]
@@ -1890,7 +1900,8 @@ is_a: EO:0007116 ! Hemiptera insect plant treatment
 [Term]
 id: EO:0007251
 name: Pseudomonas syringae pv. panici
-def: "The treatment involving exposure of plant to the pathogen Pseudomonas syringae pv. panici. It is a causal agent for rice Bacterial Brown Stripe disease." [GR:ivy]
+def: "The treatment involving exposure of plant to the pathogen Pseudomonas syringae pathovar panici." [GR:ivy]
+comment: It is a causal agent for rice Bacterial Brown Stripe disease.
 is_a: EO:0001034 ! Pseudomonas syringae plant treatment
 
 [Term]
@@ -1909,7 +1920,7 @@ is_a: EO:0007239 ! micronutrient regimen
 [Term]
 id: EO:0007254
 name: Pseudomonas avenae
-def: "The treatment involving exposure of plant to the pathogen Pseudomonas avenae. It is a causal agent for rice Bacterial Brown Stripe disease" [GR:ivy, NCBI_taxid:80867]
+def: "The treatment involving exposure of plant to the pathogen Pseudomonas avenae. It is a causal agent for rice Bacterial Brown Stripe disease." [GR:ivy, NCBI_taxid:80867]
 synonym: "Acidovorax avenae" RELATED []
 is_a: EO:0007144 ! Pseudomonas plant treatment
 
@@ -2030,7 +2041,7 @@ is_a: EO:0007224 ! light intensity regimen
 [Term]
 id: EO:0007272
 name: Scirpophaga innotata
-def: "The treatment involving exposure of plant to the pest Scirpophaga innotata" [GR:pj]
+def: "The treatment involving exposure of plant to the pest Scirpophaga innotata." [GR:pj]
 synonym: "Tipanaea sericea" RELATED []
 synonym: "white rice stemborer" RELATED []
 synonym: "white stemborer" RELATED []
@@ -2053,7 +2064,7 @@ is_a: EO:0007142 ! Scirpophaga spp.
 [Term]
 id: EO:0007275
 name: Rupela albinella
-def: "The treatment involving exposure of plant to the pest rice stemborer, Rupela albinella" [GR:pj]
+def: "The treatment involving exposure of plant to the pest rice stemborer, Rupela albinella." [GR:pj]
 synonym: "rice stemborer" RELATED []
 is_a: EO:0007114 ! Lepidoptera
 
@@ -2304,7 +2315,7 @@ is_a: EO:0007307 ! transposable element insert
 [Term]
 id: EO:0007313
 name: Pseudaletia separata
-def: "The treatment involving exposure of plant to the pest Pseudaletia separata" [GR:pj]
+def: "The treatment involving exposure of plant to the pest Pseudaletia separata." [GR:pj]
 synonym: "armyworm" RELATED []
 xref: NCBI_taxid:7105
 is_a: EO:0007117 ! Pseudaletia spp.
@@ -2425,7 +2436,7 @@ is_a: EO:0007115 ! Spodoptera spp.
 [Term]
 id: EO:0007331
 name: Pseudaletia unipuncta
-def: "The treatment involving exposure of plant to the pest Pseudaletia unipuncta" [GR:pj]
+def: "The treatment involving exposure of plant to the pest Pseudaletia unipuncta." [GR:pj]
 synonym: "armyworm" RELATED []
 xref: NCBI_taxid:42880
 is_a: EO:0007117 ! Pseudaletia spp.
@@ -2448,7 +2459,7 @@ is_a: EO:0007349 ! metazoan plant treatment
 [Term]
 id: EO:0007334
 name: Pomacea canaliculata
-def: "The treatment involving exposure of plant to the pest Pomacea canaliculata" [GR:pj]
+def: "The treatment involving exposure of plant to the pest Pomacea canaliculata." [GR:pj]
 synonym: "apple snail" RELATED []
 synonym: "golden apple snail" RELATED []
 is_a: EO:0007335 ! Mollusca
@@ -2775,7 +2786,8 @@ is_a: EO:0007233 ! fungal plant treatment
 [Term]
 id: EO:0007379
 name: Thanatephorus cucumeris
-def: "The treatment involving exposure of plant to the pathogen Thanatephorus cucumeris. It is a causal agent for rice Sheath Blight diseases  such as Brown-bordered Leaf and Sheath Spot disease and/or Oriental Leaf and Sheath Blight disease" [GR:ivy, NCBI_taxid:107832]
+def: "The treatment involving exposure of plant to the pathogen Thanatephorus cucumeris." [GR:ivy, NCBI_taxid:107832]
+comment: It is a causal agent for rice Sheath Blight diseases  such as Brown-bordered Leaf and Sheath Spot disease and/or Oriental Leaf and Sheath Blight disease.
 synonym: "black scurf of potato" RELATED []
 synonym: "Rhizoctonia praticola" RELATED []
 synonym: "Rhizoctonia solani" RELATED []
@@ -2913,7 +2925,7 @@ is_a: EO:0007394 ! desert like region
 [Term]
 id: EO:0007401
 name: semiarid region
-def: "The treatment involving the plant or the populations grown in regions where the total annual rainfall received in in the range of 25-50cm (10-20inches)." [GR:pj]
+def: "The treatment involving the plant or the populations grown in regions where the total annual rainfall received in the range of 25-50cm (10-20 inches)." [GR:pj]
 is_a: EO:0007064 ! ecological environment
 
 [Term]

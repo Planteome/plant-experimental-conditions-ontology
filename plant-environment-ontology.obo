@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:04:2013 18:38
+date: 12:04:2013 19:46
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
@@ -15,7 +15,7 @@ creation_date: 2013-04-10T13:21:11Z
 [Term]
 id: EO:0001002
 name: plant growth environment
-def: "A plant environment (EO:0007359) involving a combination of one or more plant treatments (EO:0001001) as well as natural conditions for plant growth." [LC+LM:test]
+def: "A plant environment (EO:0007359) involving a plant treatment (EO:0001001), or a combination plant treatments, as well as natural conditions for plant growth." [LC+LM:test]
 synonym: "plant growing conditions" EXACT []
 xref: OBO_SF_EO:3610697
 is_a: EO:0007359 ! plant environment
@@ -206,6 +206,62 @@ def: "An in vitro solid growth media (EO:0007266) involving use of solid growth 
 is_a: EO:0007262 ! in vitro solid growth media
 created_by: cooperl
 creation_date: 2013-04-12T18:30:23Z
+
+[Term]
+id: EO:0001025
+name: urea nitrogen regimen
+def: "A nitrogen macronutrient regimen (EO:0007284)  involving exposure of plant to urea (CHEBI:16199) as the primary or sole source of nitrogen." [POC:cooperl]
+is_a: EO:0007284 ! nitrogen macronutrient regimen
+created_by: cooperl
+creation_date: 2013-04-12T19:19:27Z
+
+[Term]
+id: EO:0001026
+name: MTA nitrogen regimen
+def: "A nitrogen macronutrient regimen (EO:0007284) involving exposure of plant to 5'-S-methyl-5'-thioadenosine (MTA; CHEBI:17509) as the primary or sole source of nitrogen." [CHEBI:17509, PO:cooperl]
+is_a: EO:0007284 ! nitrogen macronutrient regimen
+created_by: cooperl
+creation_date: 2013-04-12T19:23:02Z
+
+[Term]
+id: EO:0001027
+name: alanine nitrogen regimen
+def: "A nitrogen macronutrient regimen (EO:0007284)  involving exposure of plant to alanine (CHEBI:16449) as the primary or sole source of nitrogen." [CHEBI:16449, PO:cooperl]
+is_a: EO:0007284 ! nitrogen macronutrient regimen
+created_by: cooperl
+creation_date: 2013-04-12T19:23:17Z
+
+[Term]
+id: EO:0001028
+name: glutamate nitrogen regimen
+def: "A nitrogen macronutrient regimen (EO:0007284)  involving exposure of plant to glutamate (CHEBI:29987) as the primary or sole source of nitrogen." [CHEBI:29987, PO:cooperl]
+is_a: EO:0007284 ! nitrogen macronutrient regimen
+created_by: cooperl
+creation_date: 2013-04-12T19:35:46Z
+
+[Term]
+id: EO:0001029
+name: arginine nitrogen regimen
+def: "A nitrogen macronutrient regimen (EO:0007284)  involving exposure of plant to arginine (CHEBI:29016) as the primary or sole source of nitrogen." [CHEBI:29016, PO:cooperl]
+is_a: EO:0007284 ! nitrogen macronutrient regimen
+created_by: cooperl
+creation_date: 2013-04-12T19:36:14Z
+
+[Term]
+id: EO:0001030
+name: ornithine nitrogen regimen
+def: "A nitrogen macronutrient regimen (EO:0007284)  involving exposure of plant to ornithine (CHEBI:18257)as the primary or sole source of nitrogen." [CHEBI:18257, PO:cooperl]
+is_a: EO:0007284 ! nitrogen macronutrient regimen
+created_by: cooperl
+creation_date: 2013-04-12T19:40:51Z
+
+[Term]
+id: EO:0001031
+name: glutamine nitrogen regimen
+def: "A nitrogen macronutrient regimen (EO:0007284)  involving exposure of plant to glutamine (CHEBI:28300) as the primary or sole source of nitrogen." [CHEBI:28300, PO:cooperl]
+is_a: EO:0007284 ! nitrogen macronutrient regimen
+created_by: cooperl
+creation_date: 2013-04-12T19:41:18Z
 
 [Term]
 id: EO:0007001
@@ -478,7 +534,7 @@ is_a: EO:0007189 ! chemical treatment
 id: EO:0007043
 name: non-mineral nutrient regimen
 def: "Treatment involving the exposure of plant to molecular forms of nutrient as supplement to study various types of responses." [GR:pj]
-is_a: EO:0007241 ! nutrient regimen
+is_a: EO:0007241 ! plant nutrient environment
 
 [Term]
 id: EO:0007044
@@ -488,21 +544,22 @@ is_a: EO:0001004 ! inorganic chemical treatment
 
 [Term]
 id: EO:0007045
-name: primary macronutrient
-def: "Treatment involving the use of macronutrients (N, P, K) as supplement to study various types of responses. These macronutrients comprise the elements N, P and K that are required by the plant in greatest quantities for normal growth." [GR:pj]
-is_a: EO:0007240 ! macronutrient regimen
+name: primary plant macronutrient regimen
+def: "A plant macronutrient regimen (EO:0007240)  involving the use of the primary plant macronutrients nitrogen (N), phosphorus (P), and potassium (K)." [GR:pj, PO:cooperl]
+comment: These plant macronutrients are required by the plant in greatest quantities for normal growth.
+is_a: EO:0007240 ! plant macronutrient regimen
 
 [Term]
 id: EO:0007046
 name: secondary macronutrient
 def: "Treatment involving the use of macronutrients (Ca, Mg, S) as supplement to study various types of responses. These macronutrients are used less often as fertilizers than the primary elements." [GR:pj]
-is_a: EO:0007240 ! macronutrient regimen
+is_a: EO:0007240 ! plant macronutrient regimen
 
 [Term]
 id: EO:0007047
 name: other nutrient regimen
 def: "Treatment involving the exposure of plant to elemental forms of nutrient as supplement to study various types of responses. These are not considered essential elements." [GR:pj]
-is_a: EO:0007241 ! nutrient regimen
+is_a: EO:0007241 ! plant nutrient environment
 
 [Term]
 id: EO:0007048
@@ -744,8 +801,8 @@ is_a: EO:0007349 ! Metazoa
 [Term]
 id: EO:0007085
 name: fertilizer regimen
-def: "Treatment involving the use of fertilier to study various types of responses." [GR:pj]
-is_a: EO:0007241 ! nutrient regimen
+def: "A plant nutrient environment (EO:0007241)  involving the use of  a fertilizer, a combination of plant nutrients." [GR:pj]
+is_a: EO:0007241 ! plant nutrient environment
 
 [Term]
 id: EO:0007086
@@ -1726,18 +1783,20 @@ id: EO:0007239
 name: micronutrient regimen
 def: "The treatment involving exposure of plant to elements that are required in tiny quantities for growth, as supplement to study various types of responses." [GR:pj]
 synonym: "trace element regimen" RELATED []
-is_a: EO:0007241 ! nutrient regimen
+is_a: EO:0007241 ! plant nutrient environment
 
 [Term]
 id: EO:0007240
-name: macronutrient regimen
-def: "The treatment involving use of element as supplement to study various types of responses. The macronutrients comprise the elements required by the plant in relatively large quantities for normal growth." [GR:pj]
-is_a: EO:0007241 ! nutrient regimen
+name: plant macronutrient regimen
+def: "A plant nutrient environment (EO:0007241)  involving the use of a plant macronutrient or combination of plant macronutrients." [GR:pj, PO:cooperl]
+comment: The macronutrients comprise the elements required by the plant in relatively large quantities for normal growth.
+is_a: EO:0007241 ! plant nutrient environment
 
 [Term]
 id: EO:0007241
-name: nutrient regimen
-def: "The treatment involving use of nutrients to study various types of responses on their extrinsic and/or intrinsic application." [GR:pj]
+name: plant nutrient environment
+def: "A plant growth environment (EO:0001002) involving a  plant nutrient or a combination of plant nutrients." [GR:pj, PO:cooperl]
+synonym: "fertilizer regimen" EXACT []
 is_a: EO:0001002 ! plant growth environment
 
 [Term]
@@ -2024,9 +2083,9 @@ is_a: EO:0007121 ! Thysanoptera
 
 [Term]
 id: EO:0007284
-name: nitrogen nutrient regimen
-def: "The treatment involving exposure of plant to macronutrient nitrogen as supplement to study various types of responses." [GR:pj]
-is_a: EO:0007045 ! primary macronutrient
+name: nitrogen macronutrient regimen
+def: "A primary plant macronutrient regimen (EO:0007045) involving the application of nitrogen." [GR:pj, PO:cooperl]
+is_a: EO:0007045 ! primary plant macronutrient regimen
 
 [Term]
 id: EO:0007285
@@ -2093,7 +2152,7 @@ is_a: EO:0007183 ! herbicide regimen
 id: EO:0007293
 name: potassium nutrient regimen
 def: "The treatment involving exposure of plant to macronutrient potassium as supplement to study various types of responses." [GR:pj]
-is_a: EO:0007045 ! primary macronutrient
+is_a: EO:0007045 ! primary plant macronutrient regimen
 
 [Term]
 id: EO:0007294
@@ -2802,7 +2861,7 @@ is_a: EO:0007064 ! ecological environment
 id: EO:0007397
 name: phosphorus nutrient regimen
 def: "The treatment involving exposure of plant to macronutrient phosphorus as supplement to study various types of responses." [GR:pj]
-is_a: EO:0007045 ! primary macronutrient
+is_a: EO:0007045 ! primary plant macronutrient regimen
 
 [Term]
 id: EO:0007398

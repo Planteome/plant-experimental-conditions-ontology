@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:04:2013 15:17
+date: 13:04:2013 15:57
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
@@ -194,7 +194,7 @@ creation_date: 2013-04-12T13:05:50Z
 [Term]
 id: EO:0001023
 name: agar in vitro solid growth media
-def: "An in vitro solid growth media (EO:0007262) composed of agar." [:<new dbxref>]
+def: "An in vitro solid growth media (EO:0007262) composed of agar." [PO:cooperl]
 is_a: EO:0007262 ! in vitro solid growth media
 created_by: cooperl
 creation_date: 2013-04-12T18:01:37Z
@@ -202,7 +202,7 @@ creation_date: 2013-04-12T18:01:37Z
 [Term]
 id: EO:0001024
 name: vertical in vitro solid growth media
-def: "An in vitro solid growth media (EO:0007266) involving use of solid growth media in a vertical orientation." []
+def: "An in vitro solid growth media (EO:0007266) involving use of solid growth media in a vertical orientation." [PO:cooperl]
 is_a: EO:0007262 ! in vitro solid growth media
 created_by: cooperl
 creation_date: 2013-04-12T18:30:23Z
@@ -274,8 +274,8 @@ creation_date: 2013-04-13T08:01:41Z
 [Term]
 id: EO:0001033
 name: parasitic wasp insect plant treatment
-def: "A Hymenoptera insect plant treatment (EO:0001032) that involves exposure to parasitic wasps." [:<new dbxref>, PO:cooperl]
-comment: Parasitic wasp (or parasitoid wasp) refers to a large evolutionary grade of hymenopteran superfamilies, mainly in the Apocrita (http://en.wikipedia.org/wiki/Parasitoid_wasp).
+def: "A Hymenoptera insect plant treatment (EO:0001032) that involves exposure to parasitic wasps." [PO:cooperl]
+comment: Parasitic wasp (or parasitoid wasp) refers to a large evolutionary grade of hymenopteran superfamilies, mainly in the Apocrita (from wikipedia).
 is_a: EO:0001032 ! Hymenoptera insect plant treatment
 created_by: cooperl
 creation_date: 2013-04-13T13:38:41Z
@@ -389,13 +389,13 @@ is_a: EO:0007138 ! Echinodorus spp.
 [Term]
 id: EO:0007015
 name: Ammannia spp.
-def: "The exposure of reference/experimental plant to dicot plant Ammannia spp. found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
+def: "The exposure of reference/experimental plant to dicot plant genus Ammannia found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
 is_a: EO:0007009 ! Eudicotyledon
 
 [Term]
 id: EO:0007016
 name: Bacopa spp.
-def: "The exposure of reference/experimental plant to dicot plant Bacopa spp. found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
+def: "The exposure of reference/experimental plant to dicot plant genus Bacopa found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
 is_a: EO:0007009 ! Eudicotyledon
 
 [Term]
@@ -484,7 +484,7 @@ is_a: EO:0007137 ! Echinochloa spp.
 [Term]
 id: EO:0007029
 name: Typha spp.
-def: "The exposure of reference/experimental plant to monocot plant Typha spp., found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:4732]
+def: "The exposure of reference/experimental plant to monocot plant of genus Typha spp found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:4732]
 synonym: "cattail" RELATED []
 is_a: EO:0007022 ! Liliopsida
 
@@ -713,9 +713,9 @@ is_a: EO:0007165 ! growth hormone regimen
 [Term]
 id: EO:0007067
 name: hydroponic plant culture media
-def: "The treatment suggesting the use of liquid growth media for growing the plants. " [GR:pj]
+def: "The treatment suggesting the use of liquid growth media for growing the plants." [GR:pj]
 synonym: "soilless pant culture media" RELATED []
-is_a: EO:0007265 ! in vitro liquid growth media
+is_a: EO:0007147 ! growth media environment
 
 [Term]
 id: EO:0007068
@@ -1108,7 +1108,7 @@ is_a: EO:0007337 ! Nematoda
 [Term]
 id: EO:0007128
 name: intermittent light regimen
-def: "In biological experiments it refer to the intermittent exposure of plant to the cycles of light and dark or one light Vs the another type of light " [GR:pj]
+def: "In biological experiments it refer to the intermittent exposure of plant to the cycles of light and dark or one light Vs the another type of light." [GR:pj]
 is_a: EO:0007078 ! light quantity regimen
 
 [Term]
@@ -1167,13 +1167,13 @@ is_a: EO:0007106 ! Stramenopiles
 [Term]
 id: EO:0007137
 name: Echinochloa spp.
-def: "The treatment involving an exposure of reference/experimental plant to monocot plant Echinochloa spp. found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:45618]
+def: "The treatment involving an exposure of reference/experimental plant to monocot plant genus Echinochloa found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:45618]
 is_a: EO:0007022 ! Liliopsida
 
 [Term]
 id: EO:0007138
 name: Echinodorus spp.
-def: "The treatment involving an exposure of reference/experimental plant to monocot plant Echinodorus spp., found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:13047]
+def: "The treatment involving an exposure of reference/experimental plant to monocot plant genus Echinodorus found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:13047]
 synonym: "burhead" RELATED []
 is_a: EO:0007022 ! Liliopsida
 
@@ -1193,7 +1193,7 @@ is_a: EO:0007022 ! Liliopsida
 [Term]
 id: EO:0007141
 name: Cyperus spp.
-def: "The treatment involving an exposure of reference/experimental plant to monocot plant Cyperus spp. found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:4610]
+def: "The treatment involving an exposure of reference/experimental plant to monocot plant genus Cyperus found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:4610]
 is_a: EO:0007022 ! Liliopsida
 
 [Term]
@@ -1320,7 +1320,7 @@ is_a: EO:0007382 ! wind environment
 [Term]
 id: EO:0007162
 name: continuous light regimen
-def: "The treatment involving continuous exposure of light to the plant. " [GR:pj]
+def: "The treatment involving continuous exposure of light to the plant." [GR:pj]
 is_a: EO:0007078 ! light quantity regimen
 
 [Term]
@@ -1559,7 +1559,7 @@ is_a: EO:0001002 ! plant growth environment
 [Term]
 id: EO:0007199
 name: long day length regimen
-def: "The treatment involving exposure of plant to long day light duration followed by a short night cycle. " [GR:pj]
+def: "The treatment involving exposure of plant to long day light duration followed by a short night cycle." [GR:pj]
 is_a: EO:0007128 ! intermittent light regimen
 
 [Term]
@@ -1688,7 +1688,8 @@ is_a: EO:0007221 ! visible light regimen
 [Term]
 id: EO:0007221
 name: visible light regimen
-def: "The treatment using visible light in the wavelength range of 380-780 nM. is the portion of the electromagnetic spectrum that is visible to the human eye. The optical spectrum is a composite, or mixture, of the various colors." [GR:pj]
+def: "The treatment using visible light in the wavelength range of 380-780 nM." [GR:pj]
+comment: Visible light  is the portion of the electromagnetic spectrum that is visible to the human eye. The optical spectrum is a composite, or mixture, of the various colors.
 is_a: EO:0007196 ! light regimen
 
 [Term]
@@ -1742,7 +1743,8 @@ is_a: EO:0007047 ! other nutrient regimen
 id: EO:0007229
 name: Gibberella fujikuroi
 alt_id: EO:0007299
-def: "The treatment involving exposure of plant to the pathogen Gibberella fujikuroi. It is a causal agent for rice Bakanae disease and also for a form of rice Seedling Blight (Fungal) Disease disease." [GR:ivy, NCBI_taxid:5127]
+def: "The treatment involving exposure of plant to the pathogen Gibberella fujikuroi." [GR:ivy, NCBI_taxid:5127]
+comment: It is a causal agent for rice Bakanae disease and also for a form of rice Seedling Blight (Fungal) Disease.
 synonym: "Fusarium fujikuroi" RELATED []
 synonym: "Fusarium moniliforme" RELATED []
 is_a: EO:0007118 ! Gibberella spp.
@@ -1823,7 +1825,7 @@ is_a: EO:0007241 ! plant nutrient environment
 id: EO:0007241
 name: plant nutrient environment
 def: "A plant growth environment (EO:0001002) involving a  plant nutrient or a combination of plant nutrients." [GR:pj, PO:cooperl]
-synonym: "fertilizer regimen" EXACT []
+synonym: "fertilizer regimen" BROAD []
 is_a: EO:0001002 ! plant growth environment
 
 [Term]
@@ -1934,7 +1936,7 @@ is_a: EO:0007148 ! Xanthomonas oryzae
 [Term]
 id: EO:0007258
 name: Oebalus pugnax
-def: "The treatment involving exposure of plant to the pest rice stink bug" [GR:pj]
+def: "The treatment involving exposure of plant to the pest rice stink bug." [GR:pj]
 synonym: "rice stink bug" RELATED []
 is_a: EO:0007116 ! Hemiptera insect plant treatment
 
@@ -1968,7 +1970,7 @@ is_a: EO:0007266 ! in vitro growth media
 [Term]
 id: EO:0007263
 name: Maliarpha separatella
-def: "The treatment involving exposure of plant to the pest white rice borer" [GR:pj]
+def: "The treatment involving exposure of plant to the pest white rice borer." [GR:pj]
 synonym: "African white stemborer" RELATED []
 synonym: "African whiteheads" RELATED []
 synonym: "white rice borer" RELATED []
@@ -2010,7 +2012,7 @@ is_a: EO:0007167 ! pesticide regimen
 [Term]
 id: EO:0007269
 name: growth chamber study
-def: "The treatment involving study type in which plants were grown in growth chambers. " [GR:pj]
+def: "The treatment involving study type in which plants were grown in growth chambers." [GR:pj]
 is_a: EO:0007231 ! study type
 
 [Term]
@@ -2132,7 +2134,7 @@ is_a: EO:0007027 ! seasonal environment
 [Term]
 id: EO:0007287
 name: DBMIB regimen
-def: "The treatment involving use of DBMIB. It blocks the oxidation of plastoquinol in the photosynthetic light reaction and keeps the plastoquinone pool reduced. " [GR:pj]
+def: "The treatment involving use of DBMIB. It blocks the oxidation of plastoquinol in the photosynthetic light reaction and keeps the plastoquinone pool reduced." [GR:pj]
 synonym: "2,5-dibromo -6-isopropyl-3-methyl-1,4-benzoquinone" RELATED []
 is_a: EO:0007183 ! herbicide regimen
 
@@ -2310,7 +2312,7 @@ is_a: EO:0007117 ! Pseudaletia spp.
 [Term]
 id: EO:0007314
 name: Nymphula depunctalis
-def: "The treatment involving exposure of plant to the pest rice caseworm" [GR:pj]
+def: "The treatment involving exposure of plant to the pest rice caseworm." [GR:pj]
 synonym: "caseworm" RELATED []
 synonym: "rice caseworm" RELATED []
 is_a: EO:0007114 ! Lepidoptera
@@ -2330,7 +2332,7 @@ is_a: EO:0007191 ! abiotic plant treatment
 [Term]
 id: EO:0007317
 name: Nilaparvata lugens
-def: "The treatment involving exposure of plant to the pest brown planthopper" [GR:pj, NCBI_taxid:108931]
+def: "The treatment involving exposure of plant to the pest brown planthopper." [GR:pj, NCBI_taxid:108931]
 synonym: "brown planthopper" RELATED []
 is_a: EO:0007116 ! Hemiptera insect plant treatment
 
@@ -2357,32 +2359,32 @@ is_a: EO:0007127 ! Meloidogyne spp.
 [Term]
 id: EO:0007321
 name: Hirschmaniella spinicaudata
-def: "The treatment involving exposure of plant to the pest Hirschmaniella spinicaudata. It is a causal agent for rice rice root nematode disease." [GR:pj]
+def: "The treatment involving exposure of plant to the pest Hirschmaniella spinicaudata. It is a causal agent for rice root nematode disease." [GR:pj]
 is_a: EO:0007126 ! Hirschmaniella spp.
 
 [Term]
 id: EO:0007322
 name: Hirschmaniella oryzae
-def: "The treatment involving exposure of plant to the pest Hirschmaniella oryzae. It is a causal agent for rice rice root nematode disease." [GR:pj]
+def: "The treatment involving exposure of plant to the pest Hirschmaniella oryzae. It is a causal agent for rice root nematode disease." [GR:pj]
 is_a: EO:0007126 ! Hirschmaniella spp.
 
 [Term]
 id: EO:0007323
 name: Hirschmaniella mucronata
-def: "The treatment involving exposure of plant to the pest Hirschmaniella mucronata. It is a causal agent for rice rice root nematode disease." [GR:pj]
+def: "The treatment involving exposure of plant to the pest Hirschmaniella mucronata. It is a causal agent for rice root nematode disease." [GR:pj]
 is_a: EO:0007126 ! Hirschmaniella spp.
 
 [Term]
 id: EO:0007324
 name: Hirschmaniella imamuri
-def: "The treatment involving exposure of plant to the pest Hirschmaniella imamuri. It is a causal agent for rice rice root nematode disease." [GR:pj]
+def: "The treatment involving exposure of plant to the pest Hirschmaniella imamuri. It is a causal agent for rice root nematode disease." [GR:pj]
 synonym: "rice root nematode" RELATED []
 is_a: EO:0007126 ! Hirschmaniella spp.
 
 [Term]
 id: EO:0007325
 name: Hirschmaniella caudacrena
-def: "The treatment involving exposure of plant to the pest Hirschmaniella imamuri. It is a causal agent for rice rice root nematode disease." [GR:pj]
+def: "The treatment involving exposure of plant to the pest Hirschmaniella imamuri. It is a causal agent for rice root nematode disease." [GR:pj]
 is_a: EO:0007126 ! Hirschmaniella spp.
 
 [Term]

@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:04:2013 16:13
+date: 15:04:2013 13:11
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
@@ -24,7 +24,7 @@ creation_date: 2013-04-10T13:28:27Z
 
 [Term]
 id: EO:0001003
-name: organic chemical treatments
+name: organic chemical treatment
 def: "A chemical treatment (EO:0007189) involving the application of organic chemical(s)." [LC+LM:test]
 is_a: EO:0007189 ! chemical treatment
 created_by: cooperl
@@ -85,7 +85,7 @@ id: EO:0001010
 name: carbohydrate treatment
 def: "An organic chemical treatment (EO:0001003) involving the application of a carbohydrate (CHEBI:16646) or mixture of carbohydrates." [CHEBI:16646, PO:cooperl]
 comment: Carbohydrate (CHEBI:16646) is defined as the generic term 'carbohydrate' includes monosaccharides, oligosaccharides and polysaccharides as well as substances derived from monosaccharides by reduction of the carbonyl group (alditols), by oxidation of one or more hydroxy groups to afford the corresponding aldehydes, ketones, or carboxylic acids, or by replacement of one or more hydroxy group(s) by a hydrogen atom. Cyclitols are generally not regarded as carbohydrates.
-is_a: EO:0001003 ! organic chemical treatments
+is_a: EO:0001003 ! organic chemical treatment
 created_by: moorel
 creation_date: 2013-04-11T13:43:22Z
 
@@ -162,7 +162,7 @@ creation_date: 2013-04-12T12:14:55Z
 id: EO:0001019
 name: organic gas treatment
 def: "An organic chemical treatment (EO:0001003) involving the application of a gas or mixture of gases." [PO:cooperl]
-is_a: EO:0001003 ! organic chemical treatments
+is_a: EO:0001003 ! organic chemical treatment
 created_by: cooperl
 creation_date: 2013-04-12T12:38:49Z
 
@@ -1483,7 +1483,7 @@ is_a: EO:0007328 ! Pythium spp.
 id: EO:0007187
 name: salicylic acid regimen
 def: "The treatment involving use of salicylic acid to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
-is_a: EO:0007189 ! chemical treatment
+is_a: EO:0001003 ! organic chemical treatment
 
 [Term]
 id: EO:0007188
@@ -1711,9 +1711,11 @@ is_a: EO:0007196 ! light regimen
 [Term]
 id: EO:0007223
 name: cadmium chloride
-def: "The treatment involving use of CdCl2 to assess response against the heavy metals." [GR:pj]
+def: "A cadmium treatment (EO:0001018) involving use of CdCl2 (CHEBI:35456)." [CHEBI:35456, GR:pj, PO:cooperl]
+comment: Can be used to assess plant response to cadmium, a heavy metal.
 synonym: "CdCl2" RELATED []
-is_a: EO:0007189 ! chemical treatment
+xref: OBO_SF_EO:3610957
+is_a: EO:0001018 ! cadmium treatment
 
 [Term]
 id: EO:0007224
@@ -2955,13 +2957,17 @@ is_a: EO:0007102 ! nitrogen fertilizer regimen
 
 [Term]
 id: EO:0007407
-name: methyl jasmonate
-is_a: EO:0007189 ! chemical treatment
+name: methyl jasmonate treatment
+def: "An organic chemical treatment (EO:0001003) invloving the application of  methyl jasmonate (MeJa; CHEBI:15929)." [CHEBI:15929, PO:Cooperl]
+comment: Plants produce jasmonic acid and methyl jasmonate in response to many biotic and abiotic stresses (in particular, herbivory and wounding), which build up in the damaged parts of the plant. The methyl jasmonate can be used to signal the original plant’s defense systems or it can be spread by physical contact or through the air to produce a defensive reaction in unharmed plants. The unharmed plants absorb the airborne MeJA through either the stomata or diffusion through the leaf cell cytoplasm. An herbivorous attack on a plant causes it to produce MeJA both for internal defense and for a signaling compound to other plants (http://en.wikipedia.org/wiki/Methyl_jasmonate).
+is_a: EO:0001003 ! organic chemical treatment
 
 [Term]
 id: EO:0007408
-name: 5-methyltryptophan
-is_a: EO:0007189 ! chemical treatment
+name: 5-methyltryptophan treatment
+def: "An organic chemical treatment (EO:0001003) involving the application of the tryptophan (Trp) analog 5-methyltryptophan (5MT; CHEBI: 52446)." [CHEBI:52446, PO:cooperl]
+xref: OBO_SF_EO:3610973
+is_a: EO:0001003 ! organic chemical treatment
 
 [Term]
 id: EO:0007409

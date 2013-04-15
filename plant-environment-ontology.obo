@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 15:04:2013 13:11
+date: 15:04:2013 13:19
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
@@ -25,7 +25,7 @@ creation_date: 2013-04-10T13:28:27Z
 [Term]
 id: EO:0001003
 name: organic chemical treatment
-def: "A chemical treatment (EO:0007189) involving the application of organic chemical(s)." [LC+LM:test]
+def: "A chemical treatment (EO:0007189) involving the application of organic chemical(s)." [PO:cooperl]
 is_a: EO:0007189 ! chemical treatment
 created_by: cooperl
 creation_date: 2013-04-10T13:58:52Z
@@ -1481,8 +1481,10 @@ is_a: EO:0007328 ! Pythium spp.
 
 [Term]
 id: EO:0007187
-name: salicylic acid regimen
-def: "The treatment involving use of salicylic acid to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
+name: salicylic acid treatment
+def: "An organic chemical treatment (EO:0001003) invloving the application of salicylic acid (CHEBI:16914)." [CHEBI:16914, GR:pj, PO:cooperl]
+comment: An organic chemical treatment (EO:0001003) invloving the application of salicylic acid (CHEBI:16914).
+xref: OBO_SF_EO:3610976
 is_a: EO:0001003 ! organic chemical treatment
 
 [Term]
@@ -2960,6 +2962,7 @@ id: EO:0007407
 name: methyl jasmonate treatment
 def: "An organic chemical treatment (EO:0001003) invloving the application of  methyl jasmonate (MeJa; CHEBI:15929)." [CHEBI:15929, PO:Cooperl]
 comment: Plants produce jasmonic acid and methyl jasmonate in response to many biotic and abiotic stresses (in particular, herbivory and wounding), which build up in the damaged parts of the plant. The methyl jasmonate can be used to signal the original plant’s defense systems or it can be spread by physical contact or through the air to produce a defensive reaction in unharmed plants. The unharmed plants absorb the airborne MeJA through either the stomata or diffusion through the leaf cell cytoplasm. An herbivorous attack on a plant causes it to produce MeJA both for internal defense and for a signaling compound to other plants (http://en.wikipedia.org/wiki/Methyl_jasmonate).
+xref: OBO_SF_EO:3610974
 is_a: EO:0001003 ! organic chemical treatment
 
 [Term]

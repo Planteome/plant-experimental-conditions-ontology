@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 15:04:2013 13:19
-saved-by: cooperl
+date: 16:04:2013 15:26
+saved-by: moorel
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
 
@@ -294,6 +294,46 @@ name: <new term>
 is_a: EO:0001002 ! plant growth environment
 created_by: cooperl
 creation_date: 2013-04-13T16:13:27Z
+
+[Term]
+id: EO:0001036
+name: chemical stress treatment
+def: "A chemical treatment (EO:0007189) that induces stress." [LC+LM:test]
+is_a: EO:0007189 ! chemical treatment
+created_by: moorel
+creation_date: 2013-04-16T13:48:41Z
+
+[Term]
+id: EO:0001037
+name: oxidative stress treatment
+def: "A chemical stress treatment (EO:0001036) involving use of oxidative stress-inducing chemicals." [LC+LM:test]
+is_a: EO:0001036 ! chemical stress treatment
+created_by: moorel
+creation_date: 2013-04-16T13:54:16Z
+
+[Term]
+id: EO:0001038
+name: osmotic stress treatment
+def: "A chemical stress treatment (EO:0001036) involving use of osmotic stress-inducing chemicals." [LC+LM:test]
+is_a: EO:0001036 ! chemical stress treatment
+created_by: moorel
+creation_date: 2013-04-16T14:11:36Z
+
+[Term]
+id: EO:0001039
+name: radiation mutagen treatment
+def: "A radiation treatment (EO:0007151) involving exposure of plant to chemicals or radiation resulting in perturbations to the genome." [LC+LM:test]
+is_a: EO:0007151 ! radiation treatment
+created_by: moorel
+creation_date: 2013-04-16T14:19:13Z
+
+[Term]
+id: EO:0001040
+name: light-induced photooxidative stress treatment
+def: "A light intensity regimen (EO:0007224) involving use of light-dependent generations of reactive oxygen species." [LC+LM:test]
+is_a: EO:0007224 ! light intensity regimen
+created_by: moorel
+creation_date: 2013-04-16T14:22:02Z
 
 [Term]
 id: EO:0007001
@@ -1251,8 +1291,8 @@ is_a: EO:0007145 ! Xanthomonas plant treatment
 [Term]
 id: EO:0007149
 name: chemical mutagen
-def: "The treatment involving use of mutagen for the mutagenesis process." [GR:pj]
-is_a: EO:0007189 ! chemical treatment
+def: "A chemical stress treatment (EO:0001036) involving use of mutagen for the mutagenesis process." [GR:pj]
+is_a: EO:0001036 ! chemical stress treatment
 
 [Term]
 id: EO:0007150
@@ -2960,8 +3000,7 @@ is_a: EO:0007102 ! nitrogen fertilizer regimen
 [Term]
 id: EO:0007407
 name: methyl jasmonate treatment
-def: "An organic chemical treatment (EO:0001003) invloving the application of  methyl jasmonate (MeJa; CHEBI:15929)." [CHEBI:15929, PO:Cooperl]
-comment: Plants produce jasmonic acid and methyl jasmonate in response to many biotic and abiotic stresses (in particular, herbivory and wounding), which build up in the damaged parts of the plant. The methyl jasmonate can be used to signal the original plant’s defense systems or it can be spread by physical contact or through the air to produce a defensive reaction in unharmed plants. The unharmed plants absorb the airborne MeJA through either the stomata or diffusion through the leaf cell cytoplasm. An herbivorous attack on a plant causes it to produce MeJA both for internal defense and for a signaling compound to other plants (http://en.wikipedia.org/wiki/Methyl_jasmonate).
+def: "An organic chemical treatment (EO:0001003) involving the application of  methyl jasmonate (MeJa; CHEBI:15929)." [CHEBI:15929, PO:Cooperl]
 xref: OBO_SF_EO:3610974
 is_a: EO:0001003 ! organic chemical treatment
 

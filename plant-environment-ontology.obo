@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 17:04:2013 20:25
-saved-by: cooperl
+date: 18:04:2013 15:25
+saved-by: moorel
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
 
@@ -334,6 +334,30 @@ def: "A light intensity regimen (EO:0007224) involving use of light-dependent ge
 is_a: EO:0007224 ! light intensity regimen
 created_by: moorel
 creation_date: 2013-04-16T14:22:02Z
+
+[Term]
+id: EO:0001041
+name: limited zinc treatment
+def: "A zinc nutrient treatment (EO:0007309) involving exposure to limiting amounts or absence of zinc (CHEBI:27363)." [CHEBI:27363, LC+LM:test]
+is_a: EO:0007309 ! zinc nutrient regimen
+created_by: moorel
+creation_date: 2013-04-18T15:08:50Z
+
+[Term]
+id: EO:0001042
+name: limited boron treatment
+def: "A boron nutrient regimen (EO:0007273) involving exposure to limiting amounts or absence of boron (CHEBI:27560)." [CHEBI:27560, LC+LM:test]
+is_a: EO:0007273 ! boron nutrient regimen
+created_by: moorel
+creation_date: 2013-04-18T15:16:27Z
+
+[Term]
+id: EO:0001043
+name: limited glucose treatment
+def: "A glucose treatment (EO:0001013) involving exposure to limiting amounts or the absence of glucose (CHEBI:17234)." [CHEBI:17234, LC+LM:test]
+is_a: EO:0001013 ! glucose treatment
+created_by: moorel
+creation_date: 2013-04-18T15:21:57Z
 
 [Term]
 id: EO:0007001

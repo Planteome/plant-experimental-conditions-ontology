@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 16:04:2013 15:26
-saved-by: moorel
+date: 17:04:2013 20:25
+saved-by: cooperl
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
 
@@ -1291,7 +1291,7 @@ is_a: EO:0007145 ! Xanthomonas plant treatment
 [Term]
 id: EO:0007149
 name: chemical mutagen
-def: "A chemical stress treatment (EO:0001036) involving use of mutagen for the mutagenesis process." [GR:pj]
+def: "A chemical stress treatment (EO:0001036) involving use of mutagen for the mutagenesis process." [GR:pj, PO:cooperl]
 is_a: EO:0001036 ! chemical stress treatment
 
 [Term]

@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 18:04:2013 15:25
+date: 24:04:2013 13:37
 saved-by: moorel
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
@@ -49,7 +49,7 @@ creation_date: 2013-04-10T14:35:26Z
 [Term]
 id: EO:0001006
 name: phosphate treatment
-def: "An inorganic anion treatment (EO:0001009) involving the application of phosphate (ChEBI:18367)." [ChEBI:18367, LC+LM:test]
+def: "An inorganic anion treatment (EO:0001009) involving the application of phosphate (CHEBI:18367)." [CHEBI:18367, LC+LM:test]
 is_a: EO:0001009 ! inorganic anion treatment
 created_by: cooperl
 creation_date: 2013-04-10T14:54:09Z
@@ -358,6 +358,54 @@ def: "A glucose treatment (EO:0001013) involving exposure to limiting amounts or
 is_a: EO:0001013 ! glucose treatment
 created_by: moorel
 creation_date: 2013-04-18T15:21:57Z
+
+[Term]
+id: EO:0001044
+name: limited carbon regimen
+def: "A carbon nutrient regimen (EO:0007303) involving exposure to limiting amounts or the absence of carbon (CHEBI:27594)." [CHEBI:27594, LC+LM:test]
+is_a: EO:0007303 ! carbon nutrient regimen
+created_by: moorel
+creation_date: 2013-04-24T12:22:51Z
+
+[Term]
+id: EO:0001045
+name: limited sulfate treatment
+def: "A sulfate treatment (EO:0001008) involving exposure to limiting amounts or the absence of sulfate (CHEBI:35175)." [CHEBI:35175, LC+LM:test]
+is_a: EO:0001008 ! sulfate treatment
+created_by: moorel
+creation_date: 2013-04-24T12:37:29Z
+
+[Term]
+id: EO:0001046
+name: limited phosphate treatment
+def: "A phosphate treatment (EO:0001006) involving exposure to limiting amounts or absence of phosphate (CHEBI:18367)." [CHEBI:18367, LC+LM:test]
+is_a: EO:0001006 ! phosphate treatment
+created_by: moorel
+creation_date: 2013-04-24T12:43:48Z
+
+[Term]
+id: EO:0001047
+name: limited iron regimen
+def: "An iron nutrient regimen (EO:0007242) involving exposure to limiting amounts or the absence of iron (CHEBI:18248)." [CHEBI:18248, LC+LM:test]
+is_a: EO:0007242 ! iron nutrient regimen
+created_by: moorel
+creation_date: 2013-04-24T13:10:33Z
+
+[Term]
+id: EO:0001048
+name: limited molybdenum regimen
+def: "A molybdenum nutrient regimen (EO:0007253) involving exposure to limiting amounts or the absence of molybdenum (CHEBI:28685)." [CHEBI:28685, LC+LM:test]
+is_a: EO:0007253 ! molybdenum nutrient regimen
+created_by: moorel
+creation_date: 2013-04-24T13:21:03Z
+
+[Term]
+id: EO:0001049
+name: limited magnesium regimen
+def: "A magnesium nutrient regimen (EO:0007288) involving exposure to limiting amounts or the absence of magnesium (CHEBI:25107)." [CHEBI:25107, LC+LM:test]
+is_a: EO:0007288 ! magnesium nutrient regimen
+created_by: moorel
+creation_date: 2013-04-24T13:31:00Z
 
 [Term]
 id: EO:0007001

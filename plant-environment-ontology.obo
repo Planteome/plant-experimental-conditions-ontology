@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 24:04:2013 13:37
+date: 24:04:2013 14:31
 saved-by: moorel
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
@@ -406,6 +406,46 @@ def: "A magnesium nutrient regimen (EO:0007288) involving exposure to limiting a
 is_a: EO:0007288 ! magnesium nutrient regimen
 created_by: moorel
 creation_date: 2013-04-24T13:31:00Z
+
+[Term]
+id: EO:0001050
+name: limited nitrogen regimen
+def: "A nitrogen macronutrient regimen (EO:0007284) involving exposure to limiting amounts or the absence of nitrogen (CHEBI:25555)." [CHEBI:25555, LC+LM:test]
+is_a: EO:0007284 ! nitrogen macronutrient regimen
+created_by: moorel
+creation_date: 2013-04-24T13:45:43Z
+
+[Term]
+id: EO:0001051
+name: limited potassium regimen
+def: "A potassium nutrient regimen (EO:0007293) involving exposure to limiting amounts or the absence of potassium (CHEBI:26216)." [CHEBI:26216, LC+LM:test]
+is_a: EO:0007293 ! potassium nutrient regimen
+created_by: moorel
+creation_date: 2013-04-24T13:54:39Z
+
+[Term]
+id: EO:0001052
+name: limited sulfur regimen
+def: "A sulfur nutrient regimen (EO:0007295) involving exposure to limiting amounts or the absence of sulfur (CHEBI:26833)." [CHEBI:26833, LC+LM:test]
+is_a: EO:0007295 ! sulfur nutrient regimen
+created_by: moorel
+creation_date: 2013-04-24T14:06:32Z
+
+[Term]
+id: EO:0001053
+name: limited manganese regimen
+def: "A manganese nutrient regimen (EO:0007387) involving exposure to limiting amounts or the absence of manganese (CHEBI:18291)." [CHEBI:18291, LC+LM:test]
+is_a: EO:0007387 ! manganese nutrient regimen
+created_by: moorel
+creation_date: 2013-04-24T14:16:15Z
+
+[Term]
+id: EO:0001054
+name: limited nitrate regimen
+def: "A nitrate regimen (EO:0007406) involving exposure to limiting amounts or the absence of nitrate (CHEBI:17632)." [CHEBI:17632, LC+LM:test]
+is_a: EO:0007406 ! nitrate regimen
+created_by: moorel
+creation_date: 2013-04-24T14:28:43Z
 
 [Term]
 id: EO:0007001

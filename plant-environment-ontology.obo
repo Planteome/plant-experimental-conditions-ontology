@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 25:04:2013 12:22
-saved-by: cooperl
+date: 25:04:2013 13:01
+saved-by: moorel
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
 
@@ -207,7 +207,7 @@ creation_date: 2013-04-12T13:05:50Z
 [Term]
 id: EO:0001023
 name: agar growth medium
-def: "An in vitro solid growth media (EO:0007262) composed of agar." [PO:cooperl]
+def: "An in vitro solid growth medium (EO:0007262) composed of agar." [PO:cooperl]
 xref: OBO_SF_EO:3609229
 is_a: EO:0007262 ! in vitro solid growth medium
 created_by: cooperl
@@ -215,8 +215,9 @@ creation_date: 2013-04-12T18:01:37Z
 
 [Term]
 id: EO:0001024
-name: vertical agar growth media
-def: "An in vitro solid growth media (EO:0007266) involving use of solid growth media in a vertical orientation." [PO:cooperl]
+name: vertical agar growth medium
+def: "An agar growth medium (EO:0001023) involving use of solid growth media in a vertical orientation." [PO:cooperl]
+xref: OBO_SF_EO:3609230
 is_a: EO:0001023 ! agar growth medium
 created_by: cooperl
 creation_date: 2013-04-12T18:30:23Z
@@ -933,9 +934,9 @@ is_a: EO:0007074 ! auxin regimen
 
 [Term]
 id: EO:0007071
-name: suspension cell culture media
-def: "The treatment suggesting the use of liquid growth media for cell cultured samples." [GR:pj]
-is_a: EO:0007265 ! in vitro liquid growth media
+name: suspension cell culture medium
+def: "The treatment suggesting the use of liquid growth medium for cell cultured samples." [GR:pj]
+is_a: EO:0007265 ! in vitro liquid growth medium
 
 [Term]
 id: EO:0007072
@@ -2167,6 +2168,7 @@ is_a: EO:0007239 ! micronutrient regimen
 id: EO:0007262
 name: in vitro solid growth medium
 def: "An in vitro growth medium (EO:0007266) involving use of  a solid growth medium as a substrate." [GR:pj, PO:cooperl]
+xref: OBO_SF_EO:3611865
 is_a: EO:0007266 ! in vitro growth medium
 
 [Term]
@@ -2189,14 +2191,16 @@ is_a: EO:0007114 ! Lepidoptera
 
 [Term]
 id: EO:0007265
-name: in vitro liquid growth media
-def: "An in vitro growth media (EO:0007265) involving use of liquid culture media as a substrate." [GR:pj, PO:cooperl]
+name: in vitro liquid growth medium
+def: "An in vitro growth medium (EO:0007265) involving use of liquid culture media as a substrate." [GR:pj, PO:cooperl]
+xref: OBO_SF_EO:3611865
 is_a: EO:0007266 ! in vitro growth medium
 
 [Term]
 id: EO:0007266
 name: in vitro growth medium
-def: "A growth media environment (EO:0007147) for in vitro culture, involving use of a solid or liquid substrate and which may include nutrients and other amendments." [GR:pj, PO:cooperl]
+def: "A growth medium environment (EO:0007147) for in vitro culture, involving use of a solid or liquid substrate and which may include nutrients and other amendments." [GR:pj, PO:cooperl]
+xref: OBO_SF_EO:3611865
 is_a: EO:0007147 ! growth medium environment
 
 [Term]

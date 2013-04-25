@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:04:2013 14:41
+date: 25:04:2013 15:49
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
@@ -183,7 +183,7 @@ creation_date: 2013-04-12T12:38:49Z
 id: EO:0001020
 name: carbon dioxide treatment
 def: "An inorganic gas treatment (EO:0001055) that involves the application of carbon dioxide (CHEBI:16526)." [CHEBI:16526, PO:cooperl]
-xref: OBO_SF_EO:3604172
+xref: OBO_SF_EO:3609208
 is_a: EO:0001055 ! inorganic gas treatment
 created_by: cooperl
 creation_date: 2013-04-12T12:41:25Z
@@ -201,6 +201,7 @@ id: EO:0001022
 name: gamma radiation treatment
 def: "A radiation quality treatment (EO:0007154) involving the exposure to gamma radiation." [PO:cooperl]
 synonym: "gamma rays" EXACT []
+xref: OBO_SF_EO:3609225
 is_a: EO:0007154 ! radiation quality treatment
 created_by: cooperl
 creation_date: 2013-04-12T13:05:50Z
@@ -227,6 +228,7 @@ creation_date: 2013-04-12T18:30:23Z
 id: EO:0001025
 name: urea nitrogen regimen
 def: "A nitrogen macronutrient regimen (EO:0007284)  involving exposure of plant to urea (CHEBI:16199) as the primary or sole source of nitrogen." [POC:cooperl]
+xref: OBO_SF_EO:3604407
 is_a: EO:0007284 ! nitrogen macronutrient regimen
 created_by: cooperl
 creation_date: 2013-04-12T19:19:27Z
@@ -235,6 +237,7 @@ creation_date: 2013-04-12T19:19:27Z
 id: EO:0001026
 name: MTA nitrogen regimen
 def: "A nitrogen macronutrient regimen (EO:0007284) involving exposure of plant to 5'-S-methyl-5'-thioadenosine (MTA; CHEBI:17509) as the primary or sole source of nitrogen." [CHEBI:17509, PO:cooperl]
+xref: OBO_SF_EO:3604407
 is_a: EO:0007284 ! nitrogen macronutrient regimen
 created_by: cooperl
 creation_date: 2013-04-12T19:23:02Z
@@ -243,6 +246,7 @@ creation_date: 2013-04-12T19:23:02Z
 id: EO:0001027
 name: alanine nitrogen regimen
 def: "A nitrogen macronutrient regimen (EO:0007284)  involving exposure of plant to alanine (CHEBI:16449) as the primary or sole source of nitrogen." [CHEBI:16449, PO:cooperl]
+xref: OBO_SF_EO:3604407
 is_a: EO:0007284 ! nitrogen macronutrient regimen
 created_by: cooperl
 creation_date: 2013-04-12T19:23:17Z
@@ -251,6 +255,7 @@ creation_date: 2013-04-12T19:23:17Z
 id: EO:0001028
 name: glutamate nitrogen regimen
 def: "A nitrogen macronutrient regimen (EO:0007284)  involving exposure of plant to glutamate (CHEBI:29987) as the primary or sole source of nitrogen." [CHEBI:29987, PO:cooperl]
+xref: OBO_SF_EO:3604407
 is_a: EO:0007284 ! nitrogen macronutrient regimen
 created_by: cooperl
 creation_date: 2013-04-12T19:35:46Z
@@ -259,6 +264,7 @@ creation_date: 2013-04-12T19:35:46Z
 id: EO:0001029
 name: arginine nitrogen regimen
 def: "A nitrogen macronutrient regimen (EO:0007284)  involving exposure of plant to arginine (CHEBI:29016) as the primary or sole source of nitrogen." [CHEBI:29016, PO:cooperl]
+xref: OBO_SF_EO:3604407
 is_a: EO:0007284 ! nitrogen macronutrient regimen
 created_by: cooperl
 creation_date: 2013-04-12T19:36:14Z
@@ -266,7 +272,8 @@ creation_date: 2013-04-12T19:36:14Z
 [Term]
 id: EO:0001030
 name: ornithine nitrogen regimen
-def: "A nitrogen macronutrient regimen (EO:0007284)  involving exposure of plant to ornithine (CHEBI:18257)as the primary or sole source of nitrogen." [CHEBI:18257, PO:cooperl]
+def: "A nitrogen macronutrient regimen (EO:0007284)  involving exposure of plant to ornithine (CHEBI:18257) as the primary or sole source of nitrogen." [CHEBI:18257, PO:cooperl]
+xref: OBO_SF_EO:3604407
 is_a: EO:0007284 ! nitrogen macronutrient regimen
 created_by: cooperl
 creation_date: 2013-04-12T19:40:51Z
@@ -275,6 +282,7 @@ creation_date: 2013-04-12T19:40:51Z
 id: EO:0001031
 name: glutamine nitrogen regimen
 def: "A nitrogen macronutrient regimen (EO:0007284)  involving exposure of plant to glutamine (CHEBI:28300) as the primary or sole source of nitrogen." [CHEBI:28300, PO:cooperl]
+xref: OBO_SF_EO:3604407
 is_a: EO:0007284 ! nitrogen macronutrient regimen
 created_by: cooperl
 creation_date: 2013-04-12T19:41:18Z
@@ -292,6 +300,7 @@ id: EO:0001033
 name: parasitic wasp insect plant treatment
 def: "A Hymenoptera insect plant treatment (EO:0001032) that involves exposure to parasitic wasps." [PO:cooperl]
 comment: Parasitic wasp (or parasitoid wasp) refers to a large evolutionary grade of hymenopteran superfamilies, mainly in the Apocrita (from wikipedia).
+xref: OBO_SF_EO:3609222
 is_a: EO:0001032 ! Hymenoptera insect plant treatment
 created_by: cooperl
 creation_date: 2013-04-13T13:38:41Z
@@ -300,6 +309,7 @@ creation_date: 2013-04-13T13:38:41Z
 id: EO:0001034
 name: Pseudomonas syringae plant treatment
 def: "A Pseudomonas plant treatment (EO:0007144) involving the exposure to bacteria of the Pseudomonas syringae group." [NCBI:136849, PO:cooperl]
+xref: OBO_SF_EO:3609224
 is_a: EO:0007144 ! Pseudomonas plant treatment
 created_by: cooperl
 creation_date: 2013-04-13T14:56:13Z
@@ -496,7 +506,7 @@ creation_date: 2013-04-25T13:16:47Z
 [Term]
 id: EO:0001056
 name: elevated carbon dioxide treatment
-def: "A carbon dioxide treatment (EO:0001020) involving the manipulation of increasing the carbon dioxide (CHEBI:16526) concentration." [CHEBI:16526, LC+LM:test]
+def: "A carbon dioxide treatment (EO:0001020) involving an increased concentration of carbon dioxide (CHEBI:16526)." [CHEBI:16526, POC:cooperl]
 xref: OBO_SF_EO:3604172
 is_a: EO:0001020 ! carbon dioxide treatment
 created_by: moorel

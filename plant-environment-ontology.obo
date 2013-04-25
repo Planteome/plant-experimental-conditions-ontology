@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:04:2013 13:01
+date: 25:04:2013 13:25
 saved-by: moorel
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
@@ -182,8 +182,9 @@ creation_date: 2013-04-12T12:38:49Z
 [Term]
 id: EO:0001020
 name: carbon dioxide treatment
-def: "An organic gas treatment (EO:0001019) that involves the application of carbon dioxide (CHEBI:16526)." [CHEBI:16526, PO:cooperl]
-is_a: EO:0001019 ! organic gas treatment
+def: "An inorganic gas treatment (EO:0001055) that involves the application of carbon dioxide (CHEBI:16526)." [CHEBI:16526, PO:cooperl]
+xref: OBO_SF_EO:3604172
+is_a: EO:0001055 ! inorganic gas treatment
 created_by: cooperl
 creation_date: 2013-04-12T12:41:25Z
 
@@ -479,6 +480,24 @@ def: "A nitrate regimen (EO:0007406) involving exposure to limiting amounts or t
 is_a: EO:0007406 ! nitrate regimen
 created_by: moorel
 creation_date: 2013-04-24T14:28:43Z
+
+[Term]
+id: EO:0001055
+name: inorganic gas treatment
+def: "An inorganic chemical treatment (EO:0001004) involving the application of a gas or mixture of gases." [LC+LM:test]
+xref: OBO_SF_EO:3611866
+is_a: EO:0001004 ! inorganic chemical treatment
+created_by: moorel
+creation_date: 2013-04-25T13:16:47Z
+
+[Term]
+id: EO:0001056
+name: elevated carbon dioxide treatment
+def: "A carbon dioxide treatment (EO:0001020) involving the manipulation of increasing the carbon dioxide (CHEBI:16526) concentration." [CHEBI:16526, LC+LM:test]
+xref: OBO_SF_EO:3604172
+is_a: EO:0001020 ! carbon dioxide treatment
+created_by: moorel
+creation_date: 2013-04-25T13:18:08Z
 
 [Term]
 id: EO:0007001

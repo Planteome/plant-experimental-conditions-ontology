@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 24:04:2013 15:11
-saved-by: moorel
+date: 25:04:2013 12:22
+saved-by: cooperl
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
 
@@ -206,17 +206,18 @@ creation_date: 2013-04-12T13:05:50Z
 
 [Term]
 id: EO:0001023
-name: agar in vitro solid growth media
+name: agar growth medium
 def: "An in vitro solid growth media (EO:0007262) composed of agar." [PO:cooperl]
-is_a: EO:0007262 ! in vitro solid growth media
+xref: OBO_SF_EO:3609229
+is_a: EO:0007262 ! in vitro solid growth medium
 created_by: cooperl
 creation_date: 2013-04-12T18:01:37Z
 
 [Term]
 id: EO:0001024
-name: vertical in vitro solid growth media
+name: vertical agar growth media
 def: "An in vitro solid growth media (EO:0007266) involving use of solid growth media in a vertical orientation." [PO:cooperl]
-is_a: EO:0007262 ! in vitro solid growth media
+is_a: EO:0001023 ! agar growth medium
 created_by: cooperl
 creation_date: 2013-04-12T18:30:23Z
 
@@ -789,7 +790,7 @@ is_a: EO:0007185 ! salt regimen
 id: EO:0007049
 name: soil environment
 def: "The treatment involving growing plants and exposing them to soil growth media with varying contents." [GR:pj]
-is_a: EO:0007147 ! growth media environment
+is_a: EO:0007147 ! growth medium environment
 
 [Term]
 id: EO:0007050
@@ -907,7 +908,7 @@ id: EO:0007067
 name: hydroponic plant culture media
 def: "The treatment suggesting the use of liquid growth media for growing the plants." [GR:pj]
 synonym: "soilless pant culture media" RELATED []
-is_a: EO:0007147 ! growth media environment
+is_a: EO:0007147 ! growth medium environment
 
 [Term]
 id: EO:0007068
@@ -1421,8 +1422,9 @@ is_a: EO:0007316 ! physical treatment
 
 [Term]
 id: EO:0007147
-name: growth media environment
-def: "A plant growth environment (EO:0001002) involving the use of growth media for growing the plants or tissue cultured samples." [GR:pj, PO:cooperl]
+name: growth medium environment
+def: "A plant growth environment (EO:0001002) involving the use of a growth medium for growing plants or tissue cultured samples." [GR:pj, PO:cooperl]
+xref: OBO_SF_EO:xxxx
 is_a: EO:0001002 ! plant growth environment
 
 [Term]
@@ -2163,9 +2165,9 @@ is_a: EO:0007239 ! micronutrient regimen
 
 [Term]
 id: EO:0007262
-name: in vitro solid growth media
-def: "An in vitro growth media (EO:0007266) involving use of  solid growth media as a substrate." [GR:pj, PO:cooperl]
-is_a: EO:0007266 ! in vitro growth media
+name: in vitro solid growth medium
+def: "An in vitro growth medium (EO:0007266) involving use of  a solid growth medium as a substrate." [GR:pj, PO:cooperl]
+is_a: EO:0007266 ! in vitro growth medium
 
 [Term]
 id: EO:0007263
@@ -2189,13 +2191,13 @@ is_a: EO:0007114 ! Lepidoptera
 id: EO:0007265
 name: in vitro liquid growth media
 def: "An in vitro growth media (EO:0007265) involving use of liquid culture media as a substrate." [GR:pj, PO:cooperl]
-is_a: EO:0007266 ! in vitro growth media
+is_a: EO:0007266 ! in vitro growth medium
 
 [Term]
 id: EO:0007266
-name: in vitro growth media
-def: "A growth media environment (EO:0007147) for in vitro culture, involving use of solid or liquid substrate and which may include nutrients and other amendments." [GR:pj, PO:cooperl]
-is_a: EO:0007147 ! growth media environment
+name: in vitro growth medium
+def: "A growth media environment (EO:0007147) for in vitro culture, involving use of a solid or liquid substrate and which may include nutrients and other amendments." [GR:pj, PO:cooperl]
+is_a: EO:0007147 ! growth medium environment
 
 [Term]
 id: EO:0007267

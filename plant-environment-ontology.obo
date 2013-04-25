@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:04:2013 13:25
+date: 25:04:2013 13:29
 saved-by: moorel
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
@@ -303,13 +303,6 @@ def: "A Pseudomonas plant treatment (EO:0007144) involving the exposure to bacte
 is_a: EO:0007144 ! Pseudomonas plant treatment
 created_by: cooperl
 creation_date: 2013-04-13T14:56:13Z
-
-[Term]
-id: EO:0001035
-name: <new term>
-is_a: EO:0001002 ! plant growth environment
-created_by: cooperl
-creation_date: 2013-04-13T16:13:27Z
 
 [Term]
 id: EO:0001036

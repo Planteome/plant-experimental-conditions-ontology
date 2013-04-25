@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 25:04:2013 13:29
-saved-by: moorel
+date: 25:04:2013 14:41
+saved-by: cooperl
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
 
@@ -305,6 +305,16 @@ created_by: cooperl
 creation_date: 2013-04-13T14:56:13Z
 
 [Term]
+id: EO:0001035
+name: stratification treatment
+def: "A physical treatment (EO:0007316) involving both low temperature and moist conditions to overcome seed dormancy." [PO:cooperl]
+comment: A stratification process is used to pretreat seeds to simulate natural winter conditions in order to overcome dormancy and allow germination.
+xref: OBO_SF_EO:3609231
+is_a: EO:0007316 ! physical treatment
+created_by: cooperl
+creation_date: 2013-04-25T14:11:44Z
+
+[Term]
 id: EO:0001036
 name: chemical stress treatment
 def: "A chemical treatment (EO:0007189) that induces stress." [LC+LM:test]
@@ -491,6 +501,15 @@ xref: OBO_SF_EO:3604172
 is_a: EO:0001020 ! carbon dioxide treatment
 created_by: moorel
 creation_date: 2013-04-25T13:18:08Z
+
+[Term]
+id: EO:0001057
+name: abnormal stratification treatment
+def: "A stratification treatment (EO:0001035) involving the absence of, or non-standard exposure to temperature or moisture conditions utilized in the breaking of seed dormancy." [POC:cooperl]
+xref: OBO_SF_EO:3609231
+is_a: EO:0001035 ! stratification treatment
+created_by: cooperl
+creation_date: 2013-04-25T14:21:09Z
 
 [Term]
 id: EO:0007001

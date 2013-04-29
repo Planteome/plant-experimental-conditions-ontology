@@ -7,7 +7,7 @@ default-namespace: plant_environment_ontology
 [Term]
 id: EO:0001001
 name: plant treatment
-def: "A plant environment (EO:0007359) involving the  application of an abiotic or biotic  treatment." [LC+LM:test]
+def: "A plant environment (EO:0007359) involving the  application of an abiotic or biotic  treatment." [PO:cooperl]
 is_a: EO:0007359 ! plant environment
 created_by: cooperl
 creation_date: 2013-04-10T13:21:11Z
@@ -15,7 +15,7 @@ creation_date: 2013-04-10T13:21:11Z
 [Term]
 id: EO:0001002
 name: plant growth environment
-def: "A plant environment (EO:0007359) involving a plant treatment (EO:0001001), or a combination plant treatments, as well as natural conditions for plant growth." [LC+LM:test]
+def: "A plant environment (EO:0007359) involving a plant treatment (EO:0001001), or a combination plant treatments, as well as natural conditions for plant growth." [PO:cooperl]
 synonym: "plant growing conditions" EXACT []
 xref: OBO_SF_EO:3610697
 is_a: EO:0007359 ! plant environment
@@ -34,7 +34,7 @@ creation_date: 2013-04-10T13:58:52Z
 [Term]
 id: EO:0001004
 name: inorganic chemical treatment
-def: "A chemical treatment (EO:0007189) involving the application of inorganic chemical(s)." [LC+LM:test]
+def: "A chemical treatment (EO:0007189) involving the application of inorganic chemical(s)." [PO:cooperl]
 xref: OBO_SF_EO:3610614
 is_a: EO:0007189 ! chemical treatment
 created_by: cooperl
@@ -43,7 +43,7 @@ creation_date: 2013-04-10T14:03:18Z
 [Term]
 id: EO:0001005
 name: nickel treatment
-def: "A mineral treatment (EO:0007044) involving exposure of plant to nickel (ChEBI:28112)." [ChEBI:28112, LC+LM:test]
+def: "A mineral treatment (EO:0007044) involving exposure of plant to nickel (ChEBI:28112)." [ChEBI:28112, PO:cooperl]
 xref: OBO_SF_EO:3609186
 is_a: EO:0007044 ! mineral treatment
 created_by: cooperl
@@ -52,7 +52,7 @@ creation_date: 2013-04-10T14:35:26Z
 [Term]
 id: EO:0001006
 name: phosphate treatment
-def: "An inorganic anion treatment (EO:0001009) involving the application of phosphate (CHEBI:18367)." [CHEBI:18367, LC+LM:test]
+def: "An inorganic anion treatment (EO:0001009) involving the application of phosphate (CHEBI:18367)." [CHEBI:18367, PO:cooperl]
 xref: OBO_SF_EO:3609187
 is_a: EO:0001009 ! inorganic anion treatment
 created_by: cooperl
@@ -61,7 +61,7 @@ creation_date: 2013-04-10T14:54:09Z
 [Term]
 id: EO:0001007
 name: mineral salt treatment
-def: "A mineral treatment (EO:0007044) involving exposure of the plant(s) to mineral salts (CHEBI:24866)." [LC+LM:test]
+def: "A mineral treatment (EO:0007044) involving exposure of the plant(s) to mineral salts (CHEBI:24866)." [PO:cooperl]
 comment: A salt (CHEBI:24866) is defined as an assembly of cations and anions.   This is a genral term to include the salts of various minerals.
 xref: OBO_SF_EO:3610620
 is_a: EO:0007044 ! mineral treatment
@@ -71,7 +71,7 @@ creation_date: 2013-04-10T15:26:58Z
 [Term]
 id: EO:0001008
 name: sulfate treatment
-def: "An inorganic anion treatment (EO:0001009) involving the application of sulfate (CHEBI:35175)." [CHEBI:35175, LC+LM:test]
+def: "An inorganic anion treatment (EO:0001009) involving the application of sulfate (CHEBI:35175)." [CHEBI:35175, PO:cooperl]
 xref: OBO_SF_EO:3609188
 is_a: EO:0001009 ! inorganic anion treatment
 created_by: cooperl
@@ -100,7 +100,7 @@ creation_date: 2013-04-11T13:43:22Z
 [Term]
 id: EO:0001011
 name: monosaccharide treatment
-def: "A carbohydrate treatment (EO:0001010) involving the application of monosaccharide(s)(CHEBI:35381)." [CHEBI:35381, LC+LM:test]
+def: "A carbohydrate treatment (EO:0001010) involving the application of monosaccharide(s)(CHEBI:35381)." [CHEBI:35381, PO:cooperl]
 comment: Monosaccharides (CHEBI:35381) are defined as polyhydroxy aldehydes H[CH(OH)]nC(=O)H or polyhydroxy ketones H-[CHOH]n-C(=O)[CHOH]m-H with three or more carbon atoms. The generic term 'monosaccharide' (as opposed to oligosaccharide or polysaccharide) denotes a single unit, without glycosidic connection to other such units. It includes aldoses, dialdoses, aldoketoses, ketoses and diketoses, as well as deoxy sugars, provided that the parent compound has a (potential) carbonyl group.
 xref: OBO_SF_EO:3610626
 is_a: EO:0001010 ! carbohydrate treatment
@@ -110,7 +110,7 @@ creation_date: 2013-04-11T13:49:05Z
 [Term]
 id: EO:0001012
 name: hexose treatment
-def: "A monosaccharide treatment (EO:0001011) involving the application of hexose (CHEBI:18133) sugar(s)." [CHEBI:18133, LC+LM:test]
+def: "A monosaccharide treatment (EO:0001011) involving the application of hexose (CHEBI:18133) sugar(s)." [CHEBI:18133, PO:cooperl]
 comment: Hexose (CHEBI:18133) is defined as any six-carbon monosaccharide which in its linear form contains either an aldehyde group at position 1 (aldohexose) or a ketone group at position 2 (ketohexose).
 xref: OBO_SF_EO:3610627
 is_a: EO:0001011 ! monosaccharide treatment
@@ -120,7 +120,7 @@ creation_date: 2013-04-11T13:55:09Z
 [Term]
 id: EO:0001013
 name: glucose treatment
-def: "A hexose treatment (EO:0001012) involving the application of glucose (CHEBI:17234)." [CHEBI:17234, LC+LM:test]
+def: "A hexose treatment (EO:0001012) involving the application of glucose (CHEBI:17234)." [CHEBI:17234, PO:cooperl]
 xref: OBO_SF_EO:3609190
 is_a: EO:0001012 ! hexose treatment
 created_by: moorel
@@ -129,7 +129,7 @@ creation_date: 2013-04-11T13:59:21Z
 [Term]
 id: EO:0001014
 name: disaccharide treatment
-def: "A carbohydrate treatment (EO:0001010) involving the application of disaccharide(s)(CHEBI:36233)." [CHEBI:36233, LC+LM:test]
+def: "A carbohydrate treatment (EO:0001010) involving the application of disaccharide(s)(CHEBI:36233)." [CHEBI:36233, PO:cooperl]
 comment: Disaccharide (CHEBI:36233) is defined as a compound in which two monosaccharides are joined by a glycosidic bond.
 xref: OBO_SF_EO:3610629
 is_a: EO:0001010 ! carbohydrate treatment
@@ -139,7 +139,7 @@ creation_date: 2013-04-11T14:02:57Z
 [Term]
 id: EO:0001015
 name: sucrose treatment
-def: "A disaccharide treatment (EO:0001014) involving the application of sucrose (CHEBI:17992)." [CHEBI:17992, LC+LM:test]
+def: "A disaccharide treatment (EO:0001014) involving the application of sucrose (CHEBI:17992)." [CHEBI:17992, PO:cooperl]
 comment: Sucrose (CHEBI:17992) is defined as a disaccharide formed by glucose and fructose units joined by an acetal oxygen bridge from hemiacetal of glucose to the hemiketal of the fructose.
 xref: OBO_SF_EO:3609191
 is_a: EO:0001014 ! disaccharide treatment
@@ -328,7 +328,7 @@ creation_date: 2013-04-25T14:11:44Z
 [Term]
 id: EO:0001036
 name: chemical stress treatment
-def: "A chemical treatment (EO:0007189) that induces stress." [LC+LM:test]
+def: "A chemical treatment (EO:0007189) that induces stress." [PO:cooperl]
 xref: OBO_SF_EO:3611234
 is_a: EO:0007189 ! chemical treatment
 created_by: moorel
@@ -337,7 +337,7 @@ creation_date: 2013-04-16T13:48:41Z
 [Term]
 id: EO:0001037
 name: oxidative stress treatment
-def: "A chemical stress treatment (EO:0001036) involving use of oxidative stress-inducing chemicals." [LC+LM:test]
+def: "A chemical stress treatment (EO:0001036) involving use of oxidative stress-inducing chemicals." [PO:cooperl]
 xref: OBO_SF_EO:3609216
 is_a: EO:0001036 ! chemical stress treatment
 created_by: moorel
@@ -346,7 +346,7 @@ creation_date: 2013-04-16T13:54:16Z
 [Term]
 id: EO:0001038
 name: osmotic stress treatment
-def: "A chemical stress treatment (EO:0001036) involving use of osmotic stress-inducing chemicals." [LC+LM:test]
+def: "A chemical stress treatment (EO:0001036) involving use of osmotic stress-inducing chemicals." [PO:cooperl]
 xref: OBO_SF_EO:3609213
 is_a: EO:0001036 ! chemical stress treatment
 created_by: moorel
@@ -355,7 +355,7 @@ creation_date: 2013-04-16T14:11:36Z
 [Term]
 id: EO:0001039
 name: radiation mutagen treatment
-def: "A radiation treatment (EO:0007151) involving exposure of plant to chemicals or radiation resulting in perturbations to the genome." [LC+LM:test]
+def: "A radiation treatment (EO:0007151) involving exposure of plant to chemicals or radiation resulting in perturbations to the genome." [PO:cooperl]
 xref: OBO_SF_EO:3609226
 is_a: EO:0007151 ! radiation treatment
 created_by: moorel
@@ -364,7 +364,7 @@ creation_date: 2013-04-16T14:19:13Z
 [Term]
 id: EO:0001040
 name: light-induced photooxidative stress treatment
-def: "A light intensity regimen (EO:0007224) involving use of light-dependent generations of reactive oxygen species." [LC+LM:test]
+def: "A light intensity regimen (EO:0007224) involving use of light-dependent generations of reactive oxygen species." [PO:cooperl]
 xref: OBO_SF_EO:3609228
 is_a: EO:0007224 ! light intensity regimen
 created_by: moorel
@@ -373,7 +373,7 @@ creation_date: 2013-04-16T14:22:02Z
 [Term]
 id: EO:0001041
 name: limited zinc treatment
-def: "A zinc nutrient treatment (EO:0007309) involving exposure to limiting amounts or absence of zinc (CHEBI:27363)." [CHEBI:27363, LC+LM:test]
+def: "A zinc nutrient treatment (EO:0007309) involving exposure to limiting amounts or absence of zinc (CHEBI:27363)." [CHEBI:27363, PO:cooperl]
 xref: OBO_SF_EO:3609203
 is_a: EO:0007309 ! zinc nutrient regimen
 created_by: moorel
@@ -382,7 +382,7 @@ creation_date: 2013-04-18T15:08:50Z
 [Term]
 id: EO:0001042
 name: limited boron treatment
-def: "A boron nutrient regimen (EO:0007273) involving exposure to limiting amounts or absence of boron (CHEBI:27560)." [CHEBI:27560, LC+LM:test]
+def: "A boron nutrient regimen (EO:0007273) involving exposure to limiting amounts or absence of boron (CHEBI:27560)." [CHEBI:27560, PO:cooperl]
 xref: OBO_SF_EO:3609195
 is_a: EO:0007273 ! boron nutrient regimen
 created_by: moorel
@@ -391,7 +391,7 @@ creation_date: 2013-04-18T15:16:27Z
 [Term]
 id: EO:0001043
 name: limited glucose treatment
-def: "A glucose treatment (EO:0001013) involving exposure to limiting amounts or the absence of glucose (CHEBI:17234)." [CHEBI:17234, LC+LM:test]
+def: "A glucose treatment (EO:0001013) involving exposure to limiting amounts or the absence of glucose (CHEBI:17234)." [CHEBI:17234, PO:cooperl]
 xref: OBO_SF_EO:3609196
 is_a: EO:0001013 ! glucose treatment
 created_by: moorel
@@ -400,7 +400,7 @@ creation_date: 2013-04-18T15:21:57Z
 [Term]
 id: EO:0001044
 name: limited carbon regimen
-def: "A carbon nutrient regimen (EO:0007303) involving exposure to limiting amounts or the absence of carbon (CHEBI:27594)." [CHEBI:27594, LC+LM:test]
+def: "A carbon nutrient regimen (EO:0007303) involving exposure to limiting amounts or the absence of carbon (CHEBI:27594)." [CHEBI:27594, PO:cooperl]
 xref: OBO_SF_EO:3609193
 is_a: EO:0007303 ! carbon nutrient regimen
 created_by: moorel
@@ -409,7 +409,7 @@ creation_date: 2013-04-24T12:22:51Z
 [Term]
 id: EO:0001045
 name: limited sulfate treatment
-def: "A sulfate treatment (EO:0001008) involving exposure to limiting amounts or the absence of sulfate (CHEBI:35175)." [CHEBI:35175, LC+LM:test]
+def: "A sulfate treatment (EO:0001008) involving exposure to limiting amounts or the absence of sulfate (CHEBI:35175)." [CHEBI:35175, PO:cooperl]
 xref: OBO_SF_EO:3609207
 is_a: EO:0001008 ! sulfate treatment
 created_by: moorel
@@ -418,7 +418,7 @@ creation_date: 2013-04-24T12:37:29Z
 [Term]
 id: EO:0001046
 name: limited phosphate treatment
-def: "A phosphate treatment (EO:0001006) involving exposure to limiting amounts or absence of phosphate (CHEBI:18367)." [CHEBI:18367, LC+LM:test]
+def: "A phosphate treatment (EO:0001006) involving exposure to limiting amounts or absence of phosphate (CHEBI:18367)." [CHEBI:18367, PO:cooperl]
 xref: OBO_SF_EO:3609200
 is_a: EO:0001006 ! phosphate treatment
 created_by: moorel
@@ -427,7 +427,7 @@ creation_date: 2013-04-24T12:43:48Z
 [Term]
 id: EO:0001047
 name: limited iron regimen
-def: "An iron nutrient regimen (EO:0007242) involving exposure to limiting amounts or the absence of iron (CHEBI:18248)." [CHEBI:18248, LC+LM:test]
+def: "An iron nutrient regimen (EO:0007242) involving exposure to limiting amounts or the absence of iron (CHEBI:18248)." [CHEBI:18248, PO:cooperl]
 xref: OBO_SF_EO:3609194
 is_a: EO:0007242 ! iron nutrient regimen
 created_by: moorel
@@ -436,7 +436,7 @@ creation_date: 2013-04-24T13:10:33Z
 [Term]
 id: EO:0001048
 name: limited molybdenum regimen
-def: "A molybdenum nutrient regimen (EO:0007253) involving exposure to limiting amounts or the absence of molybdenum (CHEBI:28685)." [CHEBI:28685, LC+LM:test]
+def: "A molybdenum nutrient regimen (EO:0007253) involving exposure to limiting amounts or the absence of molybdenum (CHEBI:28685)." [CHEBI:28685, PO:cooperl]
 xref: OBO_SF_EO:3609198
 is_a: EO:0007253 ! molybdenum nutrient regimen
 created_by: moorel
@@ -445,7 +445,7 @@ creation_date: 2013-04-24T13:21:03Z
 [Term]
 id: EO:0001049
 name: limited magnesium regimen
-def: "A magnesium nutrient regimen (EO:0007288) involving exposure to limiting amounts or the absence of magnesium (CHEBI:25107)." [CHEBI:25107, LC+LM:test]
+def: "A magnesium nutrient regimen (EO:0007288) involving exposure to limiting amounts or the absence of magnesium (CHEBI:25107)." [CHEBI:25107, PO:cooperl]
 xref: OBO_SF_EO:3609197
 is_a: EO:0007288 ! magnesium nutrient regimen
 created_by: moorel
@@ -454,7 +454,7 @@ creation_date: 2013-04-24T13:31:00Z
 [Term]
 id: EO:0001050
 name: limited nitrogen regimen
-def: "A nitrogen macronutrient regimen (EO:0007284) involving exposure to limiting amounts or the absence of nitrogen (CHEBI:25555)." [CHEBI:25555, LC+LM:test]
+def: "A nitrogen macronutrient regimen (EO:0007284) involving exposure to limiting amounts or the absence of nitrogen (CHEBI:25555)." [CHEBI:25555, PO:cooperl]
 xref: OBO_SF_EO:3609199
 is_a: EO:0007284 ! nitrogen macronutrient regimen
 created_by: moorel
@@ -463,7 +463,7 @@ creation_date: 2013-04-24T13:45:43Z
 [Term]
 id: EO:0001051
 name: limited potassium regimen
-def: "A potassium nutrient regimen (EO:0007293) involving exposure to limiting amounts or the absence of potassium (CHEBI:26216)." [CHEBI:26216, LC+LM:test]
+def: "A potassium nutrient regimen (EO:0007293) involving exposure to limiting amounts or the absence of potassium (CHEBI:26216)." [CHEBI:26216, PO:cooperl]
 xref: OBO_SF_EO:3609201
 is_a: EO:0007293 ! potassium nutrient regimen
 created_by: moorel
@@ -472,7 +472,7 @@ creation_date: 2013-04-24T13:54:39Z
 [Term]
 id: EO:0001052
 name: limited sulfur regimen
-def: "A sulfur nutrient regimen (EO:0007295) involving exposure to limiting amounts or the absence of sulfur (CHEBI:26833)." [CHEBI:26833, LC+LM:test]
+def: "A sulfur nutrient regimen (EO:0007295) involving exposure to limiting amounts or the absence of sulfur (CHEBI:26833)." [CHEBI:26833, PO:cooperl]
 xref: OBO_SF_EO:3609202
 is_a: EO:0007295 ! sulfur nutrient regimen
 created_by: moorel
@@ -481,7 +481,7 @@ creation_date: 2013-04-24T14:06:32Z
 [Term]
 id: EO:0001053
 name: limited manganese regimen
-def: "A manganese nutrient regimen (EO:0007387) involving exposure to limiting amounts or the absence of manganese (CHEBI:18291)." [CHEBI:18291, LC+LM:test]
+def: "A manganese nutrient regimen (EO:0007387) involving exposure to limiting amounts or the absence of manganese (CHEBI:18291)." [CHEBI:18291, PO:cooperl]
 xref: OBO_SF_EO:3609204
 is_a: EO:0007387 ! manganese nutrient regimen
 created_by: moorel
@@ -490,7 +490,7 @@ creation_date: 2013-04-24T14:16:15Z
 [Term]
 id: EO:0001054
 name: limited nitrate regimen
-def: "A nitrate regimen (EO:0007406) involving exposure to limiting amounts or the absence of nitrate (CHEBI:17632)." [CHEBI:17632, LC+LM:test]
+def: "A nitrate regimen (EO:0007406) involving exposure to limiting amounts or the absence of nitrate (CHEBI:17632)." [CHEBI:17632, PO:cooperl]
 is_a: EO:0007406 ! nitrate regimen
 created_by: moorel
 creation_date: 2013-04-24T14:28:43Z
@@ -498,7 +498,7 @@ creation_date: 2013-04-24T14:28:43Z
 [Term]
 id: EO:0001055
 name: inorganic gas treatment
-def: "An inorganic chemical treatment (EO:0001004) involving the application of a gas or mixture of gases." [LC+LM:test]
+def: "An inorganic chemical treatment (EO:0001004) involving the application of a gas or mixture of gases." [PO:cooperl]
 xref: OBO_SF_EO:3611866
 is_a: EO:0001004 ! inorganic chemical treatment
 created_by: moorel
@@ -799,7 +799,7 @@ is_a: EO:0007241 ! plant nutrient environment
 [Term]
 id: EO:0007044
 name: mineral treatment
-def: "An inorganic chemical treatment (EO:0001004) involving the application of a mineral or a combination of minerals." [GR:pj, LC+LM:test]
+def: "An inorganic chemical treatment (EO:0001004) involving the application of a mineral or a combination of minerals." [GR:pj, PO:cooperl]
 xref: OBO_SF_EO:3610616
 is_a: EO:0001004 ! inorganic chemical treatment
 
@@ -1726,7 +1726,7 @@ is_a: EO:0007328 ! Pythium spp.
 id: EO:0007189
 name: chemical treatment
 alt_id: EO:0007042
-def: "An abiotic treatment (EO:0007191) involving the application of chemical(s)." [GR:pj, LC+LM:test]
+def: "An abiotic treatment (EO:0007191) involving the application of chemical(s)." [GR:pj, PO:cooperl]
 synonym: "other chemical regimen" RELATED []
 xref: OBO_SF_EO:3610613
 is_a: EO:0007191 ! abiotic plant treatment

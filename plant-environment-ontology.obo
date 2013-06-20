@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 25:04:2013 17:44
-saved-by: cooperl
+date: 20:06:2013 14:14
+saved-by: moorel
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
 
@@ -521,6 +521,24 @@ xref: OBO_SF_EO:3609231
 is_a: EO:0001035 ! stratification treatment
 created_by: cooperl
 creation_date: 2013-04-25T14:21:09Z
+
+[Term]
+id: EO:0001058
+name: Glomeromycota
+def: "A fungal plant treatment (EO:0007233) involving the exposure of plant to the pathogen belonging to Glomeromyetes class." [POC:laura_moore]
+xref: NCBI_Taxon_ID:214504
+is_a: EO:0007233 ! fungal plant treatment
+created_by: moorel
+creation_date: 2013-06-20T14:02:46Z
+
+[Term]
+id: EO:0001059
+name: arbuscular mycorrhizal fungal treatment
+def: "A Glomeromycota (EO:0001058) treatment involving the exposure of compatible plants to mutualistic arbuscular mycorrhizal fungi." [POC:laura_moore]
+xref: OBO_SF2_EO:68
+is_a: EO:0001058 ! Glomeromycota
+created_by: moorel
+creation_date: 2013-06-20T14:08:36Z
 
 [Term]
 id: EO:0007001
@@ -1201,8 +1219,9 @@ is_a: EO:0007357 ! biotic plant treatment
 [Term]
 id: EO:0007107
 name: Ascomycota
-def: "Treatment involving the exposure of plant to the pathogen belonging to Ascomycetes class." [GR:ivy, NCBI_taxid:4890]
+def: "A fungal plant treatment (EO:0007233) involving the exposure of plant to the pathogen belonging to Ascomycetes class." [GR:ivy, NCBI_taxid:4890]
 synonym: "ascomycetes" RELATED []
+xref: NCBI_Taxon_ID:4890
 is_a: EO:0007233 ! fungal plant treatment
 
 [Term]

@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 20:06:2013 14:14
+date: 20:06:2013 14:19
 saved-by: moorel
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
@@ -527,6 +527,7 @@ id: EO:0001058
 name: Glomeromycota
 def: "A fungal plant treatment (EO:0007233) involving the exposure of plant to the pathogen belonging to Glomeromyetes class." [POC:laura_moore]
 xref: NCBI_Taxon_ID:214504
+xref: OBO_SF2_EO:68
 is_a: EO:0007233 ! fungal plant treatment
 created_by: moorel
 creation_date: 2013-06-20T14:02:46Z

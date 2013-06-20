@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 20:06:2013 14:19
+date: 20:06:2013 14:34
 saved-by: moorel
 auto-generated-by: OBO-Edit 2.2
 default-namespace: plant_environment_ontology
@@ -524,7 +524,7 @@ creation_date: 2013-04-25T14:21:09Z
 
 [Term]
 id: EO:0001058
-name: Glomeromycota
+name: Glomeromycota treatment
 def: "A fungal plant treatment (EO:0007233) involving the exposure of plant to the pathogen belonging to Glomeromyetes class." [POC:laura_moore]
 xref: NCBI_Taxon_ID:214504
 xref: OBO_SF2_EO:68
@@ -535,9 +535,9 @@ creation_date: 2013-06-20T14:02:46Z
 [Term]
 id: EO:0001059
 name: arbuscular mycorrhizal fungal treatment
-def: "A Glomeromycota (EO:0001058) treatment involving the exposure of compatible plants to mutualistic arbuscular mycorrhizal fungi." [POC:laura_moore]
+def: "A Glomeromycota treatment (EO:0001058) involving the exposure of compatible plants to mutualistic arbuscular mycorrhizal fungi." [POC:laura_moore]
 xref: OBO_SF2_EO:68
-is_a: EO:0001058 ! Glomeromycota
+is_a: EO:0001058 ! Glomeromycota treatment
 created_by: moorel
 creation_date: 2013-06-20T14:08:36Z
 
@@ -884,7 +884,7 @@ is_a: EO:0007050 ! soil texture
 id: EO:0007055
 name: Cochliobolus spp.
 def: "Treatment involving the exposure of plant to the pathogen Cochliobolus spp." [GR:ivy, NCBI_taxid:5015]
-is_a: EO:0007107 ! Ascomycota
+is_a: EO:0007107 ! Ascomycota treatment
 
 [Term]
 id: EO:0007056
@@ -913,10 +913,12 @@ is_a: EO:0007134 ! acidic pH growth media environment
 
 [Term]
 id: EO:0007060
-name: Sphaerulina oryzina
-def: "Treatment involving the exposure of plant to the pathogen Sphaerulina oryzina. It is a causal agent for rice Narrow Brown Leaf Spot disease." [GR:ivy, NCBI_taxid:237189]
+name: Sphaerulina oryzina treatment
+def: "A plant fungal treatment (EO:0007233) involving the exposure of plant to the pathogen Sphaerulina oryzina." [GR:ivy, NCBI_taxid:237189]
+comment: Sphaerulina oryzina is a causal agent for rice Narrow Brown Leaf Spot disease.
 synonym: "Cercospora janseana" RELATED []
 synonym: "Cercospora oryzae" RELATED []
+xref: NCBI_Taxon_ID:706553
 is_a: EO:0007233 ! fungal plant treatment
 
 [Term]
@@ -954,7 +956,7 @@ name: Entyloma oryzae
 def: "Treatment involving the exposure of plant to the pathogen Entyloma oryzae. It is a causal agent for rice Leaf Smut disease." [GR:ivy]
 synonym: "Entyloma dactylidis" RELATED []
 synonym: "Entyloma lineatum" RELATED []
-is_a: EO:0007073 ! Basidiomycota
+is_a: EO:0007073 ! Basidiomycota treatment
 
 [Term]
 id: EO:0007066
@@ -1004,13 +1006,14 @@ id: EO:0007072
 name: Microdochium oryzae
 def: "Treatment involving the exposure of plant to the pathogen Microdochium oryzae. It is a causal agent for rice various forms of Leaf scald disease such as Brown Leaf Blight Disease , Leaf Sheath Browning Disease, Leaf Tip Blight Disease and Leaf Tip Dying Disease." [GR:ivy]
 synonym: "Rhynchosporium oryzae" RELATED []
-is_a: EO:0007107 ! Ascomycota
+is_a: EO:0007107 ! Ascomycota treatment
 
 [Term]
 id: EO:0007073
-name: Basidiomycota
-def: "Treatment involving the exposure of plant to the pathogen  belonging to Basidiomycetes class." [GR:ivy, NCBI_taxid:5204]
+name: Basidiomycota treatment
+def: "A fungal plant treatment (EO:0007233) involving the exposure of plant to the pathogen  belonging to Basidiomycetes class." [GR:ivy, NCBI_taxid:5204]
 synonym: "basidiomycetes" RELATED []
+xref: NCBI_Taxon_ID:5204
 is_a: EO:0007233 ! fungal plant treatment
 
 [Term]
@@ -1034,7 +1037,7 @@ id: EO:0007077
 name: Tilletia barclayana
 def: "Treatment involving the exposure of plant to the pathogen Tilletia barclayana. It is a causal agent for rice Kernel Smut disease." [GR:ivy, NCBI_taxid:157178]
 synonym: "Neovossia horrida" RELATED []
-is_a: EO:0007073 ! Basidiomycota
+is_a: EO:0007073 ! Basidiomycota treatment
 
 [Term]
 id: EO:0007078
@@ -1072,7 +1075,7 @@ name: Phoma sorghina
 def: "Treatment involving the exposure of plant to the pathogen Phoma sorghina." [GR:ivy, NCBI_taxid:73005]
 comment: It is a causal agent for rice Glume Blight Disease.
 xref: NCBI_taxid:73005
-is_a: EO:0007107 ! Ascomycota
+is_a: EO:0007107 ! Ascomycota treatment
 
 [Term]
 id: EO:0007084
@@ -1106,7 +1109,7 @@ def: "Treatment involving the exposure of plant to the pathogen Ceratobasidium o
 synonym: "Ceratobasidium oryzae-sativae" RELATED []
 synonym: "Ceratobasidium sativae" RELATED []
 synonym: "Rhizoctonia oryzae-sativae" RELATED []
-is_a: EO:0007073 ! Basidiomycota
+is_a: EO:0007073 ! Basidiomycota treatment
 
 [Term]
 id: EO:0007089
@@ -1219,7 +1222,7 @@ is_a: EO:0007357 ! biotic plant treatment
 
 [Term]
 id: EO:0007107
-name: Ascomycota
+name: Ascomycota treatment
 def: "A fungal plant treatment (EO:0007233) involving the exposure of plant to the pathogen belonging to Ascomycetes class." [GR:ivy, NCBI_taxid:4890]
 synonym: "ascomycetes" RELATED []
 xref: NCBI_Taxon_ID:4890
@@ -1299,7 +1302,7 @@ is_a: EO:0007114 ! Lepidoptera
 id: EO:0007118
 name: Gibberella spp.
 def: "Treatment involving the exposure of plant to the pathogen Gibberella spp." [GR:ivy, NCBI_taxid:5126]
-is_a: EO:0007107 ! Ascomycota
+is_a: EO:0007107 ! Ascomycota treatment
 
 [Term]
 id: EO:0007119
@@ -1413,7 +1416,7 @@ is_a: EO:0007171 ! pH regimen
 id: EO:0007135
 name: Magnaporthe spp.
 def: "The treatment involving an exposure of plant to the pathogen Magnaporthe spp." [GR:ivy, NCBI_taxid:148303]
-is_a: EO:0007107 ! Ascomycota
+is_a: EO:0007107 ! Ascomycota treatment
 
 [Term]
 id: EO:0007136
@@ -1755,7 +1758,7 @@ is_a: EO:0007191 ! abiotic plant treatment
 id: EO:0007190
 name: Ustilaginoidea virens
 def: "The treatment involving exposure of plant to the pathogen Ustilaginoidea virens. It is a causal agent for rice False Smut Disease also called as Green Smut disease." [GR:ivy, NCBI_taxid:124427]
-is_a: EO:0007107 ! Ascomycota
+is_a: EO:0007107 ! Ascomycota treatment
 
 [Term]
 id: EO:0007191
@@ -1768,7 +1771,7 @@ is_a: EO:0001001 ! plant treatment
 id: EO:0007192
 name: Drechslera gigantea
 def: "The treatment involving exposure of plant to the pathogen Drechslera gigantea. It is a causal agent for rice Eyespot disease." [GR:ivy]
-is_a: EO:0007107 ! Ascomycota
+is_a: EO:0007107 ! Ascomycota treatment
 
 [Term]
 id: EO:0007193
@@ -1861,7 +1864,7 @@ is_a: EO:0007358 ! rice grassy stunt virus
 id: EO:0007206
 name: Gaeumannomyces graminis
 def: "The treatment involving exposure of plant to the pathogen Gaeumannomyces graminis. It is a causal agent for rice Crown Sheath Rot Disease also called as Arkansas Foot Rot Disease, Black Sheath Rot Disease and Brown Sheath Rot Disease." [GR:ivy, NCBI_taxid:29850]
-is_a: EO:0007107 ! Ascomycota
+is_a: EO:0007107 ! Ascomycota treatment
 
 [Term]
 id: EO:0007207
@@ -1882,7 +1885,7 @@ id: EO:0007209
 name: Phomopsis oryzae-sativae
 def: "The treatment involving exposure of plant to the pathogen Phomopsis oryzae-sativae." [GR:ivy, NCBI_taxid:107452]
 comment: It is a causal agent for rice Collar Rot Disease.
-is_a: EO:0007107 ! Ascomycota
+is_a: EO:0007107 ! Ascomycota treatment
 
 [Term]
 id: EO:0007210
@@ -1909,7 +1912,7 @@ is_a: EO:0007357 ! biotic plant treatment
 id: EO:0007214
 name: Alternaria spp.
 def: "The treatment involving exposure of plant to the pathogenic Alternaria sp." [GR:ivy, NCBI_taxid:5598]
-is_a: EO:0007107 ! Ascomycota
+is_a: EO:0007107 ! Ascomycota treatment
 
 [Term]
 id: EO:0007215
@@ -2668,7 +2671,7 @@ id: EO:0007327
 name: Mycovellosiella oryzae
 def: "The treatment involving exposure of plant to the pathogen Mycovellosiella oryzae. It is a causal agent for rice White Leaf Streak Disease." [GR:ivy]
 synonym: "Ramularia oryzae" RELATED []
-is_a: EO:0007107 ! Ascomycota
+is_a: EO:0007107 ! Ascomycota treatment
 
 [Term]
 id: EO:0007328
@@ -2917,7 +2920,7 @@ name: Balansia oryzae-sativae
 def: "The treatment involving exposure of plant to the pathogen Balansia oryzae-sativae. It is a causal agent for rice Udbatta diesase which is also called as Black Choke Disease, False Ergot Disease, Incense Rod Disease." [GR:ivy, NCBI_taxid:116609]
 synonym: "Ephelis japonica" RELATED []
 synonym: "Ephelis oryzae" RELATED []
-is_a: EO:0007107 ! Ascomycota
+is_a: EO:0007107 ! Ascomycota treatment
 
 [Term]
 id: EO:0007363
@@ -2937,7 +2940,7 @@ name: Rhizoctonia oryzae
 def: "The treatment involving exposure of plant to the pathogen Rhizoctonia oryzae. It is a causal agent for rice Sheath Spot disease such as Bordered Sheath Spot Disease, Red Sclerotial Disease and Rhizoctonia Sheath Spot Disease." [GR:ivy, NCBI_taxid:63190]
 synonym: "Rhizoctonia zeae" RELATED []
 synonym: "Waitea circinata" RELATED []
-is_a: EO:0007073 ! Basidiomycota
+is_a: EO:0007073 ! Basidiomycota treatment
 
 [Term]
 id: EO:0007365
@@ -3013,7 +3016,7 @@ id: EO:0007374
 name: Cylindrocladium scoparium
 def: "The treatment involving exposure of plant to the pathogen Cylindrocladium scoparium. It is a causal agent for rice Sheath Net Blotch Disease." [GR:ivy, NCBI_taxid:40624]
 synonym: "Calonectria morganii" RELATED []
-is_a: EO:0007107 ! Ascomycota
+is_a: EO:0007107 ! Ascomycota treatment
 
 [Term]
 id: EO:0007375
@@ -3025,20 +3028,21 @@ is_a: EO:0007127 ! Meloidogyne spp.
 id: EO:0007376
 name: Pyrenochaeta oryzae
 def: "The treatment involving exposure of plant to the pathogen Pyrenochaeta oryzae. It is a causal agent for rice Sheath Blotch Disease." [GR:ivy]
-is_a: EO:0007107 ! Ascomycota
+is_a: EO:0007107 ! Ascomycota treatment
 
 [Term]
 id: EO:0007377
 name: Athelia rolfsii
 def: "The treatment involving exposure of plant to the pathogen Athelia rolfsii. It is a causal agent for rice Seedling Blight (Fungal) disease." [GR:ivy, NCBI_taxid:109385]
 synonym: "Sclerotium rolfsii" RELATED []
-is_a: EO:0007073 ! Basidiomycota
+is_a: EO:0007073 ! Basidiomycota treatment
 
 [Term]
 id: EO:0007378
-name: Sarocladium oryzae
-def: "The treatment involving exposure of plant to the pathogen Sarocladium oryzae. It is a causal agent for rice Seedling Blight (Fungal) disease and/or Sheath Rot disease." [GR:ivy]
+name: Sarocladium oryzae treatment
+def: "A plant fungal treatment (EO:0007233) involving exposure of plant to the pathogen Sarocladium oryzae. It is a causal agent for rice Seedling Blight (Fungal) disease and/or Sheath Rot disease." [GR:ivy]
 synonym: "Acrocylindrium oryzae" RELATED []
+xref: NCBI_Taxon_ID:284135
 is_a: EO:0007233 ! fungal plant treatment
 
 [Term]
@@ -3050,7 +3054,7 @@ synonym: "black scurf of potato" RELATED []
 synonym: "Rhizoctonia praticola" RELATED []
 synonym: "Rhizoctonia solani" RELATED []
 synonym: "Thanatephorus praticola" RELATED []
-is_a: EO:0007073 ! Basidiomycota
+is_a: EO:0007073 ! Basidiomycota treatment
 
 [Term]
 id: EO:0007380
@@ -3095,7 +3099,7 @@ name: Gerlachia oryzae
 def: "The treatment involving exposure of plant to the pathogen Gerlachia oryzae. It is a causal agent for a form of rice Seedling Blight (Fungal) disease." [GR:ivy, NCBI_taxid:87749]
 synonym: "Monographella albescens" RELATED []
 synonym: "rice leaf scald" RELATED []
-is_a: EO:0007107 ! Ascomycota
+is_a: EO:0007107 ! Ascomycota treatment
 
 [Term]
 id: EO:0007387

@@ -1,13 +1,14 @@
 format-version: 1.2
-date: 20:06:2013 14:34
+date: 23:01:2014 12:06
 saved-by: moorel
-auto-generated-by: OBO-Edit 2.2
+auto-generated-by: OBO-Edit 2.3-beta5
 default-namespace: plant_environment_ontology
 
 [Term]
 id: EO:0001001
 name: plant treatment
 def: "A plant environment (EO:0007359) involving the  application of an abiotic or biotic  treatment." [PO:cooperl]
+xref: OBO_SF2_EO:48
 is_a: EO:0007359 ! plant environment
 created_by: cooperl
 creation_date: 2013-04-10T13:21:11Z
@@ -17,7 +18,7 @@ id: EO:0001002
 name: plant growth environment
 def: "A plant environment (EO:0007359) involving a plant treatment (EO:0001001), or a combination plant treatments, as well as natural conditions for plant growth." [PO:cooperl]
 synonym: "plant growing conditions" EXACT []
-xref: OBO_SF_EO:3610697
+xref: OBO_SF2_EO:59
 is_a: EO:0007359 ! plant environment
 created_by: cooperl
 creation_date: 2013-04-10T13:28:27Z
@@ -26,7 +27,7 @@ creation_date: 2013-04-10T13:28:27Z
 id: EO:0001003
 name: organic chemical treatment
 def: "A chemical treatment (EO:0007189) involving the application of organic chemical(s)." [PO:cooperl]
-xref: OBO_SF_EO:3610623
+xref: OBO_SF2_EO:55
 is_a: EO:0007189 ! chemical treatment
 created_by: cooperl
 creation_date: 2013-04-10T13:58:52Z
@@ -35,7 +36,7 @@ creation_date: 2013-04-10T13:58:52Z
 id: EO:0001004
 name: inorganic chemical treatment
 def: "A chemical treatment (EO:0007189) involving the application of inorganic chemical(s)." [PO:cooperl]
-xref: OBO_SF_EO:3610614
+xref: OBO_SF2_EO:51
 is_a: EO:0007189 ! chemical treatment
 created_by: cooperl
 creation_date: 2013-04-10T14:03:18Z
@@ -63,7 +64,7 @@ id: EO:0001007
 name: mineral salt treatment
 def: "A mineral treatment (EO:0007044) involving exposure of the plant(s) to mineral salts (CHEBI:24866)." [PO:cooperl]
 comment: A salt (CHEBI:24866) is defined as an assembly of cations and anions.   This is a genral term to include the salts of various minerals.
-xref: OBO_SF_EO:3610620
+xref: OBO_SF2_EO:53
 is_a: EO:0007044 ! mineral treatment
 created_by: cooperl
 creation_date: 2013-04-10T15:26:58Z
@@ -82,7 +83,7 @@ id: EO:0001009
 name: inorganic anion treatment
 def: "An inorganic chemical treatment (EO:0001004) involving the application of an anion or a mixture of anions (CHEBI:22563)." [CHEBI:22563, PO:cooperl]
 comment: An anion (ChEBI:22653) is defined as a monoatomic or polyatomic species having one or more elementary charges of the electron.
-xref: OBO_SF_EO:3610622
+xref: OBO_SF2_EO:54
 is_a: EO:0001004 ! inorganic chemical treatment
 created_by: cooperl
 creation_date: 2013-04-11T12:29:25Z
@@ -329,7 +330,7 @@ creation_date: 2013-04-25T14:11:44Z
 id: EO:0001036
 name: chemical stress treatment
 def: "A chemical treatment (EO:0007189) that induces stress." [PO:cooperl]
-xref: OBO_SF_EO:3611234
+xref: OBO_SF2_EO:64
 is_a: EO:0007189 ! chemical treatment
 created_by: moorel
 creation_date: 2013-04-16T13:48:41Z
@@ -338,7 +339,7 @@ creation_date: 2013-04-16T13:48:41Z
 id: EO:0001037
 name: oxidative stress treatment
 def: "A chemical stress treatment (EO:0001036) involving use of oxidative stress-inducing chemicals." [PO:cooperl]
-xref: OBO_SF_EO:3609216
+xref: OBO_SF2_EO:64
 is_a: EO:0001036 ! chemical stress treatment
 created_by: moorel
 creation_date: 2013-04-16T13:54:16Z
@@ -347,7 +348,7 @@ creation_date: 2013-04-16T13:54:16Z
 id: EO:0001038
 name: osmotic stress treatment
 def: "A chemical stress treatment (EO:0001036) involving use of osmotic stress-inducing chemicals." [PO:cooperl]
-xref: OBO_SF_EO:3609213
+xref: OBO_SF2_EO:64
 is_a: EO:0001036 ! chemical stress treatment
 created_by: moorel
 creation_date: 2013-04-16T14:11:36Z
@@ -499,7 +500,7 @@ creation_date: 2013-04-24T14:28:43Z
 id: EO:0001055
 name: inorganic gas treatment
 def: "An inorganic chemical treatment (EO:0001004) involving the application of a gas or mixture of gases." [PO:cooperl]
-xref: OBO_SF_EO:3611866
+xref: OBO_SF2_EO:66
 is_a: EO:0001004 ! inorganic chemical treatment
 created_by: moorel
 creation_date: 2013-04-25T13:16:47Z
@@ -819,7 +820,7 @@ is_a: EO:0007241 ! plant nutrient environment
 id: EO:0007044
 name: mineral treatment
 def: "An inorganic chemical treatment (EO:0001004) involving the application of a mineral or a combination of minerals." [GR:pj, PO:cooperl]
-xref: OBO_SF_EO:3610616
+xref: OBO_SF2_EO:52
 is_a: EO:0001004 ! inorganic chemical treatment
 
 [Term]
@@ -1504,6 +1505,7 @@ is_a: EO:0007145 ! Xanthomonas plant treatment
 id: EO:0007149
 name: chemical mutagen
 def: "A chemical stress treatment (EO:0001036) involving use of mutagen for the mutagenesis process." [GR:pj, PO:cooperl]
+xref: OBO_SF2_EO:64
 is_a: EO:0001036 ! chemical stress treatment
 
 [Term]
@@ -1751,7 +1753,7 @@ name: chemical treatment
 alt_id: EO:0007042
 def: "An abiotic treatment (EO:0007191) involving the application of chemical(s)." [GR:pj, PO:cooperl]
 synonym: "other chemical regimen" RELATED []
-xref: OBO_SF_EO:3610613
+xref: OBO_SF2_EO:50
 is_a: EO:0007191 ! abiotic plant treatment
 
 [Term]
@@ -1764,7 +1766,7 @@ is_a: EO:0007107 ! Ascomycota treatment
 id: EO:0007191
 name: abiotic plant treatment
 def: "A plant treatment (EO:0001001) involving the application of non-biological chemical or  factors." [GR:pj, PO:cooperl]
-xref: OBO_SF_EO:3610612
+xref: OBO_SF2_EO:49
 is_a: EO:0001001 ! plant treatment
 
 [Term]
@@ -2265,7 +2267,7 @@ is_a: EO:0007266 ! in vitro growth medium
 id: EO:0007266
 name: in vitro growth medium
 def: "A growth medium environment (EO:0007147) for in vitro culture, involving use of a solid or liquid substrate and which may include nutrients and other amendments." [GR:pj, PO:cooperl]
-xref: OBO_SF_EO:3611865
+xref: OBO_SF2_EO:65
 is_a: EO:0007147 ! growth medium environment
 
 [Term]
@@ -2897,7 +2899,7 @@ def: "A plant treatment, growth environment, and/or study type applied to a whol
 comment: The Plant Environment Ontology describes the treatments,growing conditions, and/or study types used in various types of plant biology experiments. The subjects of the studies may also include in vitro\nplant structures (PO:0000004). A plant treatment is the most specific,and may be a component of a plant growing condition, and the plant study type. The broadest classes are the plant study types where the terms can be used to identify the growth study facility. Each growth facility such as field study, growth chamber, green house etc is a environment on its own and it may also involve instances of biotic and abiotic treatments and different growing conditions.
 synonym: "plant treatment ontology" RELATED []
 synonym: "treatment ontology" RELATED []
-xref: OBO_SF_EO:3604734
+xref: OBO_SF2_EO:4
 
 [Term]
 id: EO:0007360

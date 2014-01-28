@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 28:01:2014 14:37
+date: 28:01:2014 15:05
 saved-by: moorel
 auto-generated-by: OBO-Edit 2.3-beta5
 default-namespace: plant_environment_ontology
@@ -850,9 +850,11 @@ is_a: EO:0007241 ! plant nutrient environment
 [Term]
 id: EO:0007048
 name: sodium chloride regimen
-def: "Treatment involving the use of sodium chloride salt as supplement to liquid and soil growth media to study various types of responses on its application." [GR:pj]
+def: "A salt treatment (EO:0007185) involving the use of sodium chloride salt as supplement to liquid and soil growth media to study various types of responses on its application." [GR:pj]
 synonym: "NaCl treatment" RELATED []
-is_a: EO:0007185 ! salt regimen
+xref: CHEBI:26710
+xref: OBO_SF2_EO:77
+is_a: EO:0007185 ! salt treatment
 
 [Term]
 id: EO:0007049
@@ -1745,8 +1747,11 @@ is_a: EO:0007328 ! Pythium spp.
 
 [Term]
 id: EO:0007185
-name: salt regimen
-def: "The treatment involving use of salts as supplement to liquid and soil growth media to study various types of responses on their application. This treatment may be used to simulate the growth conditions of sea coast regions and saline/sodic soils." [GR:pj]
+name: salt treatment
+def: "A chemical treatment (EO:0007189) involving use of salts as supplement to liquid and soil growth media to study various types of responses on their application." [GR:pj]
+comment: This treatment may be used to simulate the growth conditions of sea coast regions and saline/sodic soils.
+xref: CHEBI:24866
+xref: OBO_SF2_EO:77
 is_a: EO:0007189 ! chemical treatment
 
 [Term]
@@ -2295,8 +2300,10 @@ is_a: EO:0007147 ! growth medium environment
 
 [Term]
 id: EO:0007267
-name: benzothiadiazole regimen
-def: "The treatment involving use of fungicide benzothiadiazole to study various types of responses on its application." [GR:pj]
+name: benzothiadiazole treatment
+def: "A fungicide treatment (EO:0007268) involving use of benzothiadiazole to study various types of responses on its application." [GR:pj]
+xref: CHEBI:48864
+xref: OBO_SF2_EO:76
 is_a: EO:0007268 ! fungicide treatment
 
 [Term]

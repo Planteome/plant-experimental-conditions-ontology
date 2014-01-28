@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 28:01:2014 13:06
+date: 28:01:2014 13:41
 saved-by: moorel
 auto-generated-by: OBO-Edit 2.3-beta5
 default-namespace: plant_environment_ontology
@@ -1626,7 +1626,7 @@ is_a: EO:0007328 ! Pythium spp.
 [Term]
 id: EO:0007167
 name: pesticide treatment
-def: "A chemical treatment (EO:0007189) involving use of pesticides to study various types of responses on their application." [GR:pj]
+def: "A chemical treatment (EO:0007189) involving the application of a pesticide; a chemical entity or mixture of chemical entities." [GR:pj]
 xref: OBO_SF2_EO:74
 is_a: EO:0007189 ! chemical treatment
 
@@ -1728,7 +1728,7 @@ is_a: EO:0007328 ! Pythium spp.
 [Term]
 id: EO:0007183
 name: herbicide treatment
-def: "A pesticide treatment (EO:0007167) involving use of herbicides to study various types of responses on their application." [GR:pj]
+def: "A pesticide treatment (EO:0007167) involving the application of a herbicide; a chemical entity or mixture of chemical entities." [GR:pj]
 xref: OBO_SF2_EO:74
 is_a: EO:0007167 ! pesticide treatment
 
@@ -2297,7 +2297,7 @@ is_a: EO:0007268 ! fungicide treatment
 [Term]
 id: EO:0007268
 name: fungicide treatment
-def: "A pesticide treatment (EO:0007167) involving use of fungicides to study various types of responses on their application." [GR:pj]
+def: "A pesticide treatment (EO:0007167) involving the application of a fungicide; a chemical entity or mixture of chemical entities." [GR:pj]
 xref: OBO_SF2_EO:74
 is_a: EO:0007167 ! pesticide treatment
 
@@ -3911,7 +3911,7 @@ is_a: EO:0007630 ! Sclerospora spp.
 [Term]
 id: EO:0007632
 name: insecticide treatment
-def: "A pesticide treatment (EO:0007167) involving use of insecticides to study various types of responses on their application." [GR:pj]
+def: "A pesticide treatment (EO:0007167) involving the application of an insecticide; a chemical entity or mixture of chemical entities." [GR:pj]
 xref: OBO_SF2_EO:74
 is_a: EO:0007167 ! pesticide treatment
 

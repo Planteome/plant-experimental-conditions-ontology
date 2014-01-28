@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 28:01:2014 12:28
+date: 28:01:2014 13:06
 saved-by: moorel
 auto-generated-by: OBO-Edit 2.3-beta5
 default-namespace: plant_environment_ontology
@@ -948,7 +948,7 @@ def: "It blocks the reduction of plastoquinone in the photosynthetic light react
 synonym: "3-(3,4-dichloro-phenyl)-1,1-dimethylurea" RELATED []
 synonym: "dichlorophenyldimethyl urea" RELATED []
 synonym: "diuron" RELATED []
-is_a: EO:0007183 ! herbicide regimen
+is_a: EO:0007183 ! herbicide treatment
 
 [Term]
 id: EO:0007064
@@ -1625,8 +1625,9 @@ is_a: EO:0007328 ! Pythium spp.
 
 [Term]
 id: EO:0007167
-name: pesticide regimen
-def: "The treatment involving use of pesticides to study various types of responses on their application." [GR:pj]
+name: pesticide treatment
+def: "A chemical treatment (EO:0007189) involving use of pesticides to study various types of responses on their application." [GR:pj]
+xref: OBO_SF2_EO:74
 is_a: EO:0007189 ! chemical treatment
 
 [Term]
@@ -1709,7 +1710,7 @@ synonym: "Weedar 64A" RELATED [CAS:94-75-7]
 synonym: "Weedone-2,4-DP" RELATED [CAS:94-75-7]
 xref: OBO_SF2_EO:72
 is_a: EO:0007074 ! auxin treatment
-is_a: EO:0007183 ! herbicide regimen
+is_a: EO:0007183 ! herbicide treatment
 
 [Term]
 id: EO:0007181
@@ -1726,9 +1727,10 @@ is_a: EO:0007328 ! Pythium spp.
 
 [Term]
 id: EO:0007183
-name: herbicide regimen
-def: "The treatment involving use of herbicides to study various types of responses on their application." [GR:pj]
-is_a: EO:0007167 ! pesticide regimen
+name: herbicide treatment
+def: "A pesticide treatment (EO:0007167) involving use of herbicides to study various types of responses on their application." [GR:pj]
+xref: OBO_SF2_EO:74
+is_a: EO:0007167 ! pesticide treatment
 
 [Term]
 id: EO:0007184
@@ -1751,7 +1753,7 @@ is_a: EO:0007328 ! Pythium spp.
 [Term]
 id: EO:0007187
 name: salicylic acid treatment
-def: "An organic chemical treatment (EO:0001003) invloving the application of salicylic acid (CHEBI:16914)." [CHEBI:16914, GR:pj, PO:cooperl]
+def: "An organic chemical treatment (EO:0001003) involving the application of salicylic acid (CHEBI:16914)." [CHEBI:16914, GR:pj, PO:cooperl]
 comment: An organic chemical treatment (EO:0001003) invloving the application of salicylic acid (CHEBI:16914).
 xref: OBO_SF2_EO:63
 is_a: EO:0001003 ! organic chemical treatment
@@ -1983,7 +1985,7 @@ is_a: EO:0007196 ! light regimen
 
 [Term]
 id: EO:0007223
-name: cadmium chloride
+name: cadmium chloride treatment
 def: "A cadmium treatment (EO:0001018) involving use of CdCl2 (CHEBI:35456)." [CHEBI:35456, GR:pj, PO:cooperl]
 comment: Can be used to assess plant response to cadmium, a heavy metal.
 synonym: "CdCl2" RELATED []
@@ -2290,13 +2292,14 @@ is_a: EO:0007147 ! growth medium environment
 id: EO:0007267
 name: benzothiadiazole regimen
 def: "The treatment involving use of fungicide benzothiadiazole to study various types of responses on its application." [GR:pj]
-is_a: EO:0007268 ! fungicide regimen
+is_a: EO:0007268 ! fungicide treatment
 
 [Term]
 id: EO:0007268
-name: fungicide regimen
-def: "The treatment involving use of fungicides to study various types of responses on their application." [GR:pj]
-is_a: EO:0007167 ! pesticide regimen
+name: fungicide treatment
+def: "A pesticide treatment (EO:0007167) involving use of fungicides to study various types of responses on their application." [GR:pj]
+xref: OBO_SF2_EO:74
+is_a: EO:0007167 ! pesticide treatment
 
 [Term]
 id: EO:0007269
@@ -2426,7 +2429,7 @@ id: EO:0007287
 name: DBMIB regimen
 def: "The treatment involving use of DBMIB. It blocks the oxidation of plastoquinol in the photosynthetic light reaction and keeps the plastoquinone pool reduced." [GR:pj]
 synonym: "2,5-dibromo -6-isopropyl-3-methyl-1,4-benzoquinone" RELATED []
-is_a: EO:0007183 ! herbicide regimen
+is_a: EO:0007183 ! herbicide treatment
 
 [Term]
 id: EO:0007288
@@ -2468,7 +2471,7 @@ id: EO:0007292
 name: CCP
 synonym: "carbonyl cyanide phenylhydrazone" RELATED []
 synonym: "carbonylcyanide-m-chlorophenylhydrazone" RELATED []
-is_a: EO:0007183 ! herbicide regimen
+is_a: EO:0007183 ! herbicide treatment
 
 [Term]
 id: EO:0007293
@@ -3292,15 +3295,17 @@ is_a: EO:0007387 ! manganese nutrient regimen
 
 [Term]
 id: EO:0007414
-name: peroxide regimen
-def: "The treatment involving exposure of plant to a peroxide to study various types of oxidative stress responses." [GR:pj]
+name: peroxide treatment
+def: "A chemical treatment (EO:0007189) involving exposure of plant to a peroxide to study various types of oxidative stress responses." [GR:pj]
+xref: OBO_SF2_EO:73
 is_a: EO:0007189 ! chemical treatment
 
 [Term]
 id: EO:0007415
-name: hydrogen peroxide
-def: "The treatment involving exposure of plant to H2O2 to study various types of oxidative stress responses." [GR:pj]
-is_a: EO:0007414 ! peroxide regimen
+name: hydrogen peroxide treatment
+def: "A peroxide treatment (EO:0007414) involving exposure of plant to H2O2 to study various types of oxidative stress responses." [GR:pj]
+xref: OBO_SF2_EO:73
+is_a: EO:0007414 ! peroxide treatment
 
 [Term]
 id: EO:0007503
@@ -3905,15 +3910,16 @@ is_a: EO:0007630 ! Sclerospora spp.
 
 [Term]
 id: EO:0007632
-name: insecticide regimen
-def: "The treatment involving use of insecticides to study various types of responses on their application." [GR:pj]
-is_a: EO:0007167 ! pesticide regimen
+name: insecticide treatment
+def: "A pesticide treatment (EO:0007167) involving use of insecticides to study various types of responses on their application." [GR:pj]
+xref: OBO_SF2_EO:74
+is_a: EO:0007167 ! pesticide treatment
 
 [Term]
 id: EO:0007633
 name: imidazolinone
 def: "This type of herbicides are taken up by plant root and leaf tissue and transported to the meristems via both phloem and xylem. The herbicide stops the activity of the enzyme, acetolactate synthase (ALS), which is involved in branch chain amino acid (valine, leucine and isoleucine) synthesis." [web:http\://corn.agronomy.wisc.edu/AAdvice/1994/A001.html]
-is_a: EO:0007183 ! herbicide regimen
+is_a: EO:0007183 ! herbicide treatment
 
 [Term]
 id: EO:0007634

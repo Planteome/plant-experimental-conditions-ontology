@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 28:01:2014 10:23
+date: 28:01:2014 11:26
 saved-by: moorel
 auto-generated-by: OBO-Edit 2.3-beta5
 default-namespace: plant_environment_ontology
@@ -7,7 +7,7 @@ default-namespace: plant_environment_ontology
 [Term]
 id: EO:0001001
 name: plant treatment
-def: "A plant environment (EO:0007359) involving the  application of an abiotic or biotic  treatment." [PO:cooperl]
+def: "A plant environment (EO:0007359) involving the application of an abiotic or biotic treatment." [PO:cooperl]
 xref: OBO_SF2_EO:48
 is_a: EO:0007359 ! plant environment
 created_by: cooperl
@@ -810,8 +810,9 @@ is_obsolete: true
 
 [Term]
 id: EO:0007041
-name: antibiotic regimen
-def: "Treatment involving the use of antibiotic for selection purposes." [GR:pj]
+name: antibiotic treatment
+def: "A chemical treatment (EO:0007189) involving the use of antibiotic for selection purposes." [GR:pj, TO:moorel]
+xref: OBO_SF2_EO:70
 is_a: EO:0007189 ! chemical treatment
 
 [Term]
@@ -1507,10 +1508,10 @@ is_a: EO:0007145 ! Xanthomonas plant treatment
 
 [Term]
 id: EO:0007149
-name: chemical mutagen
-def: "A chemical stress treatment (EO:0001036) involving use of mutagen for the mutagenesis process." [GR:pj, PO:cooperl]
+name: chemical mutagen treatment
+def: "A chemical treatment (EO:0007189) involving use of mutagen for the mutagenesis process." [GR:pj, PO:cooperl]
 xref: OBO_SF2_EO:64
-is_a: EO:0001036 ! chemical stress treatment
+is_a: EO:0007189 ! chemical treatment
 
 [Term]
 id: EO:0007150
@@ -1622,11 +1623,12 @@ is_a: EO:0007189 ! chemical treatment
 
 [Term]
 id: EO:0007168
-name: hygromycin regimen
-def: "The treatment involving use of hygromycin B antibiotic for selection purposes." [GR:pj]
+name: hygromycin treatment
+def: "An antibiotic treatment (EO:0007041) involving use of hygromycin B antibiotic for selection purposes." [GR:pj, TO:moorel]
 synonym: "Antibiotic A-396-II" RELATED []
 synonym: "hygromycin B regimen" RELATED []
-is_a: EO:0007041 ! antibiotic regimen
+xref: OBO_SF2_EO:70
+is_a: EO:0007041 ! antibiotic treatment
 
 [Term]
 id: EO:0007171
@@ -1755,7 +1757,7 @@ is_a: EO:0007328 ! Pythium spp.
 id: EO:0007189
 name: chemical treatment
 alt_id: EO:0007042
-def: "An abiotic treatment (EO:0007191) involving the application of chemical(s)." [GR:pj, PO:cooperl]
+def: "An abiotic plant treatment (EO:0007191) involving the application of chemical(s)." [GR:pj, PO:cooperl]
 synonym: "other chemical regimen" RELATED []
 xref: OBO_SF2_EO:50
 is_a: EO:0007191 ! abiotic plant treatment
@@ -3199,7 +3201,9 @@ is_a: EO:0007064 ! ecological environment
 
 [Term]
 id: EO:0007402
-name: fungal elicitor
+name: fungal elicitor treatment
+def: "A chemical treatment (EO:0007189) that involves the use of a fungal elicitor to study various types of plant responses." [TO:moorel]
+xref: OBO_SF2_EO:71
 is_a: EO:0007189 ! chemical treatment
 
 [Term]
@@ -3243,8 +3247,10 @@ is_a: EO:0007165 ! growth hormone regimen
 
 [Term]
 id: EO:0007410
-name: cerebroside elicitor
-is_a: EO:0007402 ! fungal elicitor
+name: cerebroside elicitor treatment
+def: "A fungal elicitor treatment (EO:0007402) that involves the use of a cerebroside elicitor to study various types of plant responses." [TO:moorel]
+xref: OBO_SF2_EO:71
+is_a: EO:0007402 ! fungal elicitor treatment
 
 [Term]
 id: EO:0007411
@@ -3287,34 +3293,34 @@ id: EO:0007503
 name: 1,2-dibromoethane
 def: "The treatment involving use of 1,2-dibromoethane for mutagenesis process." [CAS:[106-93-4\], GR:pj]
 synonym: "DBE" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007504
 name: 1,2-dichloroethane
 def: "The treatment involving use of 1,2-dichloroethane for mutagenesis process." [CAS:[107-06-2\], GR:pj]
 synonym: "DCE" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007505
 name: 1,2:5,6-dibenzanthracene
 def: "The treatment involving use of 1,2:5,6-dibenzanthracene for mutagenesis process." [CAS:[53-70-3\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007506
 name: 1,4-dimethanesulfonoxy-1:4-dimethylbutane
 def: "The treatment involving use of 1,4-dimethanesulfonoxy-1:4-dimethylbutane for mutagenesis process." [CAS:[2514-83-2\], GR:pj]
 synonym: "CB2348" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007507
 name: 1,4-dimethanesulfonoxybut-2-yne
 def: "The treatment involving use of 1,4-dimethanesulfonoxybut-2-yne for mutagenesis process." [CAS:[2917-96-6\], GR:pj]
 synonym: "CB2058" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007508
@@ -3322,128 +3328,129 @@ name: 1,4-dimethanesulfonoxybutane
 def: "The treatment involving use of 1,4-dimethanesulfonoxybutane for mutagenesis process." [CAS:[55-98-1\], GR:pj]
 synonym: "busulfan" RELATED []
 synonym: "CB2041" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007509
 name: 1,6-dimethylsulfonoxy D-mannitol
 def: "The treatment involving use of 1,6-dimethylsulfonoxy D-mannitol for mutagenesis process." [CAS:[1187-00-4\], GR:pj]
 synonym: "CB2511" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007510
 name: 1,6-dimethylsulfonoxy L-mannitol
 def: "The treatment involving use of 1,6-dimethylsulfonoxy L-mannitol for mutagenesis process." [CAS:[2514-83-2\], GR:pj]
 synonym: "CB2628" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007511
 name: 1-amino-2-naphthol-4-sulfonic acid
 def: "The treatment involving use of 1-amino-2-naphthol-4-sulfonic acid for mutagenesis process." [CAS:[116-63-2\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007512
 name: 1-bromo-2-chloroethane
 def: "The treatment involving use of 1-bromo-2-chloroethane for mutagenesis process." [CAS:[107-04-0\], GR:pj]
 synonym: "BCE" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007513
 name: 1-diethylaminoethylethylamino-4-methyl-thioxanthenone
 def: "The treatment involving use of 1-diethylaminoethylethylamino-4-methyl-thioxanthenone for mutagenesis process." [CAS:[479-50-5\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007514
 name: 2,5,-bisethylene-imine-1,4-benzoquinone
 def: "The treatment involving use of 2,5,-bisethylene-imine-1,4-benzoquinone for mutagenesis process." [CAS:[526-62-5\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007515
 name: 2-chloroethyl methanesulfonate
 def: "The treatment involving use of 2-chloroethyl methanesulfonate for mutagenesis process." [CAS:[3570-58-9\], GR:pj]
 synonym: "CB1506" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007516
 name: 2-fluoroethyl methanesulfonate
 def: "The treatment involving use of 2-fluoroethyl methanesulfonate for mutagenesis process." [CAS:[461-31-4\], GR:pj]
 synonym: "CB1522" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007517
 name: 2-methoxyethanol
 def: "The treatment involving use of 2-methoxyethanol for mutagenesis process." [CAS:[109-86-4\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007518
 name: 5-bromouracil
 def: "The treatment involving use of 5-bromouracil for mutagenesis process." [CAS:[51-20-7\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007519
 name: 5-bromouridine
 def: "The treatment involving use of 5-bromouridine for mutagenesis process." [CAS:[957-75-5\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007520
 name: 7-bromomethyl 12 methyl benz or agr/anthracine
 def: "The treatment involving use of 7-bromomethyl 12 methyl benz or agr/anthracine for mutagenesis process." [CAS:[16238-56-5\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007521
-name: actinomycin D
-def: "The treatment involving use of actinomycin D for mutagenesis process." [CAS:[50-76-0\], GR:pj]
-is_a: EO:0007041 ! antibiotic regimen
-is_a: EO:0007149 ! chemical mutagen
+name: actinomycin D treatment 
+def: "An antibiotic treatment (EO:0007041) involving use of actinomycin D for mutagenesis process." [CAS:[50-76-0\], GR:pj, TO:moorel]
+xref: OBO_SF2_EO:70
+is_a: EO:0007041 ! antibiotic treatment
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007522
 name: aminopterin
 def: "The treatment involving use of aminopterin for mutagenesis process." [CAS:[54-62-6\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007523
 name: benzo (or agr)pyrene
 def: "The treatment involving use of benzo (or agr)pyrene for mutagenesis process." [CAS:[50-32-8\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007524
 name: caffeine
 def: "The treatment involving use of caffeine for mutagenesis process." [CAS:[58-08-2\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007525
 name: cisplatin
 def: "The treatment involving use of cisplatin for mutagenesis process." [CAS:[15663-27-1\], GR:pj]
 synonym: "cis-dichlorodiammineplatinum(II)" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007526
 name: colchicine
 def: "The treatment involving use of colchicine for mutagenesis process." [CAS:[64-86-8\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007527
 name: cupric sulfate
 def: "The treatment involving use of cupric sulfate for mutagenesis process." [CAS:[7758-98-7\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007528
@@ -3451,38 +3458,38 @@ name: diepoxybutane
 def: "The treatment involving use of diepoxybutane for mutagenesis process." [CAS:[1464-53-5\], GR:pj]
 synonym: "DEB" RELATED []
 synonym: "erythritol anhydride" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007529
 name: diepoxyoctane
 def: "The treatment involving use of diepoxyoctane for mutagenesis process." [CAS:[2426-07-5\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007530
 name: diethyl sulfate
 def: "The treatment involving use of diethyl sulfate for mutagenesis process." [CAS:[64-67-5\], GR:pj]
 synonym: "DES" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007531
 name: dimethyl sulfoxide
 def: "The treatment involving use of dimthyl sulfate for mutagenesis process." [CAS:[67-68-5\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007532
 name: DNA
 def: "The treatment involving use of DNA fragment insertion or deletion as part of mutagenesis." [CAS:[9007-49-2\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007533
 name: ethyl ether
 def: "The treatment involving use of ethyl ether for mutagenesis process." [CAS:[60-29-7\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007534
@@ -3491,52 +3498,52 @@ def: "The treatment involving use of EMS as a mutagen by damaging DNA and is use
 synonym: "CB1528" RELATED []
 synonym: "EMS" RELATED []
 synonym: "Methanesulfonic acid ethyl ester" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007535
 name: ethyl nitrosourea
 def: "The treatment involving use of ethyl nitrosourea for mutagenesis process." [CAS:[759-73-9\], GR:pj]
 synonym: "ENU" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007536
 name: ethylene oxide
 def: "The treatment involving use of ethylene oxide for mutagenesis process." [GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007537
 name: ethylenimine
 def: "The treatment involving use of ethylenimine for mutagenesis process." [CAS:[151-56-4\], GR:pj]
 synonym: "EI" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007538
 name: fagaronine
 def: "The treatment involving use of fagaronine for mutagenesis process." [GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007539
 name: formaldehyde
 def: "The treatment involving use of formaldehyde for mutagenesis process." [CAS:[50-00-0\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007540
 name: boric acid
 def: "The treatment involving use of boric acid for mutagenesis process." [GR:pj]
 synonym: "H3BO3" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007541
 name: hesperidine
 def: "The treatment involving use of hesperidine for mutagenesis process." [CAS:[520-26-3\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007542
@@ -3544,21 +3551,21 @@ name: hexamethylmelamine
 def: "The treatment involving use of hexamethylmelamine for mutagenesis process." [CAS:[645-05-6\], GR:pj]
 synonym: "altretamine" RELATED []
 synonym: "HMM" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007543
 name: hexamethylphosphoramide
 def: "The treatment involving use of hexamethylphosphoramide for mutagenesis process." [CAS:[680-31-9\], GR:pj]
 synonym: "HMPA" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007544
 name: hycanthon methanesulfonate
 def: "The treatment involving use of hycanthon methanesulfonate for mutagenesis process." [CAS:[23255-93-8\], GR:pj]
 synonym: "HMS" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007545
@@ -3566,32 +3573,32 @@ name: ICR 100
 def: "The treatment involving use of ICR 100 for mutagenesis process." [CAS:[4213-45-0\], GR:pj]
 synonym: "2-methoxy-6-[3-(ethyl-2-chloroethyl)aminopropylamino]acridine" RELATED []
 synonym: "quinacrine mustard" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007546
 name: ICR 170
 def: "The treatment involving use of ICR 170 for mutagenesis process." [CAS:[146-59-8\], GR:pj]
 synonym: "2-methoxy-6-dichloro-9-(3-ethyl-2-chloroethyl-aminopropylamino)acridine-dihydrochloride" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007547
 name: iodine
 def: "The treatment involving use of iodine for mutagenesis process." [CAS:[7553-56-2\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007548
 name: Janus green B
 def: "The treatment involving use of Janus green B for mutagenesis process." [CAS:[2869-83-2\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007549
 name: methoxy diethylnitrosamine
 def: "The treatment involving use of methoxy diethylnitrosamine for mutagenesis process." [GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007550
@@ -3599,21 +3606,22 @@ name: methyl methanesulfonate
 def: "The treatment involving use of methyl methanesulfonate for mutagenesis process." [CAS:[66-27-3\], GR:pj]
 synonym: "CB1540" RELATED []
 synonym: "MMS" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007551
-name: mitomycin C
-def: "The treatment involving use of mitomycin C for mutagenesis process." [CAS:[50-07-7\], GR:pj]
-is_a: EO:0007041 ! antibiotic regimen
-is_a: EO:0007149 ! chemical mutagen
+name: mitomycin C treatment
+def: "An antibiotic treatment (EO:0007551) involving use of mitomycin C for mutagenesis process." [CAS:[50-07-7\], GR:pj, TO:moorel]
+xref: OBO_SF2_EO:70
+is_a: EO:0007041 ! antibiotic treatment
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007552
 name: mustard gas
 def: "The treatment involving use of mustard gas for mutagenesis process." [CAS:[505-60-2\], GR:pj]
 synonym: "1,1'-thiobis[2-chloroethane" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007553
@@ -3621,20 +3629,20 @@ name: N-methyl-N'-nitro-N-nitrosoguanidine
 def: "The treatment involving use of N-methyl-N'-nitro-N-nitrosoguanidine for mutagenesis process." [CAS:[70-25-7\], GR:pj]
 synonym: "MNNG" RELATED []
 synonym: "NNG" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007554
 name: N-nitrosodimethylamine
 def: "The treatment involving use of N-nitrosodimethylamine for mutagenesis process." [CAS:[62-75-9\], GR:pj]
 synonym: "DMN" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007555
 name: natural gas
 def: "The treatment involving use of natural gas for mutagenesis process." [GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007556
@@ -3644,7 +3652,7 @@ synonym: "2-chloro-N-(2-chloroethyl)-N-methylethanamine" RELATED []
 synonym: "CB1414" RELATED []
 synonym: "HN2" RELATED []
 synonym: "mechlorethamine" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007557
@@ -3652,21 +3660,21 @@ name: nitrosomethyl urea
 def: "The treatment involving use of nitrosomethyl urea for mutagenesis process." [CAS:[684-93-5\], GR:pj]
 synonym: "MNU" RELATED []
 synonym: "N-methyl-N-nitrosourea" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007558
 name: p-N,N-di(2-chloroethyl)aminophenylvaleric acid
 def: "The treatment involving use of p-N,N-di(2-chloroethyl)aminophenylvaleric acid for mutagenesis process." [CAS:[64508-90-3\], GR:pj]
 synonym: "CB1356" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007559
 name: p-N,N-di-(2-chloroethyl)amino-D-phenylalanine
 def: "The treatment involving use of p-N,N-di-(2-chloroethyl)amino-D-phenylalanine for mutagenesis process." [CAS:[13045-94-8\], GR:pj]
 synonym: "CB3026" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007560
@@ -3674,14 +3682,14 @@ name: p-N,N-di-(2-chloroethyl)amino-DL-phenylalanine
 def: "The treatment involving use of p-N,N-di-(2-chloroethyl)amino-DL-phenylalanine for mutagenesis process." [CAS:[148-82-3\], GR:pj]
 synonym: "CB3007" RELATED []
 synonym: "melphalan" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007561
 name: p-N,N-di-(2-chloroethyl)amino-L-phenylalanine
 def: "The treatment involving use of p-N,N-di-(2-chloroethyl)amino-L-phenylalanine for mutagenesis process." [GR:pj]
 synonym: "CB3025" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007562
@@ -3689,66 +3697,66 @@ name: p-N,N-di-(2-chloroethyl)aminophenylbutyric acid
 def: "The treatment involving use of p-N,N-di-(2-chloroethyl)aminophenylbutyric acid for mutagenesis process." [CAS:[305-03-3\], GR:pj]
 synonym: "CB1348" RELATED []
 synonym: "chlorambucil" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007563
 name: p-N,N-di-(2-chloroethyl)aminophenylethylamine
 def: "The treatment involving use of p-N,N-di-(2-chloroethyl)aminophenylethylamine for mutagenesis process." [CAS:[58880-18-5\], GR:pj]
 synonym: "CB3034" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007564
 name: p-p'-N,N-di(2-chloroethyl)aminophenoxyphenylalanine
 def: "The treatment involving use of p-p'-N,N-di(2-chloroethyl)aminophenoxyphenylalanine for mutagenesis process." [CAS:[857-95-4\], GR:pj]
 synonym: "CB3051" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007565
 name: quinhydrone
 def: "The treatment involving use of quinhydrone for mutagenesis process." [CAS:[106-34-3\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007566
 name: S-2-chloroethylcysteine
 def: "The treatment involving use of S-2-chloroethylcysteine for mutagenesis process." [CAS:[28361-96-8\], GR:pj]
 synonym: "CB1592" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007567
 name: sodium bisulfite
 def: "The treatment involving use of sodium bisulfite for mutagenesis process." [CAS:[7631-90-5\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007568
 name: sodium fluoride
 def: "The treatment involving use of sodium fluoride for mutagenesis process." [CAS:[7681-49-4\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007569
 name: styryl quinoline
 def: "The treatment involving use of styryl quinoline for mutagenesis process." [GR:pj]
 synonym: "CB3086" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007570
 name: sulfur mustard
 def: "The treatment involving use of sulfur mustard for mutagenesis process." [CAS:[505-60-2\], GR:pj]
 synonym: "CB1735" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007571
 name: triaziquone
 def: "The treatment involving use of triaziquone for mutagenesis process." [CAS:[68-76-8\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007572
@@ -3756,19 +3764,19 @@ name: triethylenemelamine
 def: "The treatment involving use of triethylenemelamine for mutagenesis process." [CAS:[51-18-3\], GR:pj]
 synonym: "CB1246" RELATED []
 synonym: "TEM" RELATED []
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007573
 name: urethane
 def: "The treatment involving use of urethane for mutagenesis process." [CAS:[51-79-6\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007574
 name: vinyl carbamate
 def: "The treatment involving use of vinyl carbamate for mutagenesis process." [CAS:[15805-73-9\], GR:pj]
-is_a: EO:0007149 ! chemical mutagen
+is_a: EO:0007149 ! chemical mutagen treatment
 
 [Term]
 id: EO:0007610

@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 28:01:2014 13:41
+date: 28:01:2014 14:37
 saved-by: moorel
 auto-generated-by: OBO-Edit 2.3-beta5
 default-namespace: plant_environment_ontology
@@ -943,11 +943,14 @@ is_a: EO:0007133 ! basic pH growth media environment
 
 [Term]
 id: EO:0007063
-name: DCMU regimen
-def: "It blocks the reduction of plastoquinone in the photosynthetic light reaction and keeps the plastoquinone pool oxidized." [GR:pj]
+name: diuron treatment
+def: "An herbicide treatment (EO:0007183) involving the use of diuron (DCMU)." [GR:pj, TO:moorel]
+comment: Diuron blocks the reduction of plastoquinone in the photosynthetic light reaction and keeps the plastoquinone pool oxidized.
 synonym: "3-(3,4-dichloro-phenyl)-1,1-dimethylurea" RELATED []
 synonym: "dichlorophenyldimethyl urea" RELATED []
 synonym: "diuron" RELATED []
+xref: CHEBI:116509
+xref: OBO_SF2_EO:75
 is_a: EO:0007183 ! herbicide treatment
 
 [Term]
@@ -1627,6 +1630,7 @@ is_a: EO:0007328 ! Pythium spp.
 id: EO:0007167
 name: pesticide treatment
 def: "A chemical treatment (EO:0007189) involving the application of a pesticide; a chemical entity or mixture of chemical entities." [GR:pj]
+xref: CHEBI:25944
 xref: OBO_SF2_EO:74
 is_a: EO:0007189 ! chemical treatment
 
@@ -1729,6 +1733,7 @@ is_a: EO:0007328 ! Pythium spp.
 id: EO:0007183
 name: herbicide treatment
 def: "A pesticide treatment (EO:0007167) involving the application of a herbicide; a chemical entity or mixture of chemical entities." [GR:pj]
+xref: CHEBI:24527
 xref: OBO_SF2_EO:74
 is_a: EO:0007167 ! pesticide treatment
 
@@ -2298,6 +2303,7 @@ is_a: EO:0007268 ! fungicide treatment
 id: EO:0007268
 name: fungicide treatment
 def: "A pesticide treatment (EO:0007167) involving the application of a fungicide; a chemical entity or mixture of chemical entities." [GR:pj]
+xref: CHEBI:24127
 xref: OBO_SF2_EO:74
 is_a: EO:0007167 ! pesticide treatment
 
@@ -2426,9 +2432,12 @@ is_a: EO:0007027 ! seasonal environment
 
 [Term]
 id: EO:0007287
-name: DBMIB regimen
-def: "The treatment involving use of DBMIB. It blocks the oxidation of plastoquinol in the photosynthetic light reaction and keeps the plastoquinone pool reduced." [GR:pj]
+name: dibromothymoquinone treatment
+def: "An herbicide treatment (EO:0007183) involving the use of dibromothymoquinone (DBMIB)." [GR:pj, TO:moorel]
+comment: DBMIB blocks the oxidation of plastoquinol in the photosynthetic light reaction and keeps the plastoquinone pool reduced.
 synonym: "2,5-dibromo -6-isopropyl-3-methyl-1,4-benzoquinone" RELATED []
+xref: CHEBI:19371
+xref: OBO_SF2_EO:75
 is_a: EO:0007183 ! herbicide treatment
 
 [Term]
@@ -2468,9 +2477,12 @@ is_a: EO:0007066 ! cytokinin treatment
 
 [Term]
 id: EO:0007292
-name: CCP
+name: ethylphosphine treatment
+def: "An herbicide treatment (EO:0007183) involving the use of ethylphosphine (CCP)." [TO:moorel]
 synonym: "carbonyl cyanide phenylhydrazone" RELATED []
 synonym: "carbonylcyanide-m-chlorophenylhydrazone" RELATED []
+xref: CHEBI:35889
+xref: OBO_SF2_EO:75
 is_a: EO:0007183 ! herbicide treatment
 
 [Term]
@@ -3912,13 +3924,16 @@ is_a: EO:0007630 ! Sclerospora spp.
 id: EO:0007632
 name: insecticide treatment
 def: "A pesticide treatment (EO:0007167) involving the application of an insecticide; a chemical entity or mixture of chemical entities." [GR:pj]
+xref: CHEBI:24852
 xref: OBO_SF2_EO:74
 is_a: EO:0007167 ! pesticide treatment
 
 [Term]
 id: EO:0007633
-name: imidazolinone
-def: "This type of herbicides are taken up by plant root and leaf tissue and transported to the meristems via both phloem and xylem. The herbicide stops the activity of the enzyme, acetolactate synthase (ALS), which is involved in branch chain amino acid (valine, leucine and isoleucine) synthesis." [web:http\://corn.agronomy.wisc.edu/AAdvice/1994/A001.html]
+name: imidazolinone treatment
+def: "An herbicide treatment (EO:0007183) involving the use of an imidazolinone herbicide." [TO:moorel, web:http\://corn.agronomy.wisc.edu/AAdvice/1994/A001.html]
+comment: This type of herbicides are taken up by plant root and leaf tissue and transported to the meristems via both phloem and xylem. The herbicide stops the activity of the enzyme, acetolactate synthase (ALS), which is involved in branch chain amino acid (valine, leucine and isoleucine) synthesis.
+xref: OBO_SF2_EO:75
 is_a: EO:0007183 ! herbicide treatment
 
 [Term]

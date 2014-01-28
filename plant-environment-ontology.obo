@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 28:01:2014 11:26
+date: 28:01:2014 12:28
 saved-by: moorel
 auto-generated-by: OBO-Edit 2.3-beta5
 default-namespace: plant_environment_ontology
@@ -966,12 +966,13 @@ is_a: EO:0007073 ! Basidiomycota treatment
 
 [Term]
 id: EO:0007066
-name: cytokinin regimen
-def: "Treatment involving the use of cytokinin (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
+name: cytokinin treatment
+def: "A growth hormone treatment (EO:0007165) involving the use of cytokinin (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
 synonym: "6-benzylaminopurine" RELATED []
 synonym: "N-benzyl-adenine" RELATED []
 synonym: "verdan senescence" RELATED []
-is_a: EO:0007165 ! growth hormone regimen
+xref: OBO_SF2_EO:72
+is_a: EO:0007165 ! growth hormone treatment
 
 [Term]
 id: EO:0007067
@@ -982,24 +983,27 @@ is_a: EO:0007147 ! growth medium environment
 
 [Term]
 id: EO:0007068
-name: ethylene regimen
-def: "Treatment involving the use of ethylene (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
+name: ethylene treatment
+def: "A growth hormone treatment (EO:0007165) involving the use of ethylene (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
+xref: OBO_SF2_EO:72
 is_a: EO:0001019 ! organic gas treatment
-is_a: EO:0007165 ! growth hormone regimen
+is_a: EO:0007165 ! growth hormone treatment
 
 [Term]
 id: EO:0007069
-name: gibberellic acid regimen
-def: "Treatment involving the use of GA (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
+name: gibberellic acid treatment
+def: "A growth hormone treatment (EO:0007165) involving the use of GA (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
 synonym: "GA regimen" RELATED []
-is_a: EO:0007165 ! growth hormone regimen
+xref: OBO_SF2_EO:72
+is_a: EO:0007165 ! growth hormone treatment
 
 [Term]
 id: EO:0007070
-name: indole acetic acid regimen
-def: "Treatment involving the use of IAA (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
+name: indole acetic acid treatment
+def: "An auxin treatment (EO:0007074) involving the use of IAA (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
 synonym: "IAA regimen" RELATED []
-is_a: EO:0007074 ! auxin regimen
+xref: OBO_SF2_EO:72
+is_a: EO:0007074 ! auxin treatment
 
 [Term]
 id: EO:0007071
@@ -1024,9 +1028,10 @@ is_a: EO:0007233 ! fungal plant treatment
 
 [Term]
 id: EO:0007074
-name: auxin regimen
-def: "Treatment involving the use of auxin (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
-is_a: EO:0007165 ! growth hormone regimen
+name: auxin treatment
+def: "A growth hormone treatment (EO:0007165) involving the use of auxin (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
+xref: OBO_SF2_EO:72
+is_a: EO:0007165 ! growth hormone treatment
 
 [Term]
 id: EO:0007075
@@ -1060,10 +1065,11 @@ is_a: EO:0007086 ! chemical fertilizer regimen
 
 [Term]
 id: EO:0007080
-name: jasmonic acid regimen
-def: "Treatment involving the use of JA (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
+name: jasmonic acid treatment
+def: "A growth hormone treatment (EO:0007165) involving the use of JA (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
 synonym: "JA regimen" RELATED []
-is_a: EO:0007165 ! growth hormone regimen
+xref: OBO_SF2_EO:72
+is_a: EO:0007165 ! growth hormone treatment
 
 [Term]
 id: EO:0007081
@@ -1213,10 +1219,11 @@ is_a: EO:0007103 ! phosphate fertilizer regimen
 
 [Term]
 id: EO:0007105
-name: abscisic acid regimen
-def: "STreatment involving the use of abscisic acid (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
+name: abscisic acid treatment
+def: "A growth hormone treatment (EO:0007165) involving the use of abscisic acid (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
 synonym: "ABA regimen" RELATED []
-is_a: EO:0007165 ! growth hormone regimen
+xref: OBO_SF2_EO:72
+is_a: EO:0007165 ! growth hormone treatment
 
 [Term]
 id: EO:0007106
@@ -1605,8 +1612,9 @@ is_a: EO:0007282 ! standing water
 
 [Term]
 id: EO:0007165
-name: growth hormone regimen
-def: "The treatment involving use of growth hormones to study various types of responses on their extrinsic and/or intrinsic application." [GR:pj]
+name: growth hormone treatment
+def: "A chemical treatment (EO:0007189) involving the use of growth hormones to study various types of responses on their extrinsic and/or intrinsic application." [GR:pj]
+xref: OBO_SF2_EO:72
 is_a: EO:0007189 ! chemical treatment
 
 [Term]
@@ -1687,8 +1695,8 @@ is_a: EO:0007328 ! Pythium spp.
 
 [Term]
 id: EO:0007180
-name: 2,4-dichlorophenoxyacetic acid
-def: "The treatment involving use of 2,4-D growth hormone/herbicide to study various types of responses on its extrinsic and/or intrinsic application." [CAS:94-75-7, GR:pj]
+name: 2,4-dichlorophenoxyacetic acid treatment
+def: "An auxin treatment (EO:0007074) involving use of 2,4-D growth hormone/herbicide to study various types of responses on its extrinsic and/or intrinsic application." [CAS:94-75-7, GR:pj]
 synonym: "2,4-D regimen" RELATED []
 synonym: "Amidox" RELATED [CAS:94-75-7]
 synonym: "B-Selektonon" RELATED [CAS:94-75-7]
@@ -1699,7 +1707,8 @@ synonym: "U-5043" RELATED [CAS:94-75-7]
 synonym: "Weed Tox" RELATED [CAS:94-75-7]
 synonym: "Weedar 64A" RELATED [CAS:94-75-7]
 synonym: "Weedone-2,4-DP" RELATED [CAS:94-75-7]
-is_a: EO:0007074 ! auxin regimen
+xref: OBO_SF2_EO:72
+is_a: EO:0007074 ! auxin treatment
 is_a: EO:0007183 ! herbicide regimen
 
 [Term]
@@ -1855,11 +1864,12 @@ is_a: EO:0007196 ! light regimen
 
 [Term]
 id: EO:0007204
-name: 1-naphthaleneacetic acid
-def: "The treatment involving use of 1-naphthaleneacetic acid growth hormone/herbicide to study various types of responses on its extrinsic and/or intrinsic application." [CAS:[68-87-3\], GR:pj]
+name: 1-naphthaleneacetic acid treatment
+def: "An auxin treatment (EO:0007074) involving use of 1-naphthaleneacetic acid growth hormone/herbicide to study various types of responses on its extrinsic and/or intrinsic application." [CAS:[68-87-3\], GR:pj]
 synonym: "NAA" RELATED []
 synonym: "Naphthylacetic acid" RELATED []
-is_a: EO:0007074 ! auxin regimen
+xref: OBO_SF2_EO:72
+is_a: EO:0007074 ! auxin treatment
 
 [Term]
 id: EO:0007205
@@ -2434,22 +2444,24 @@ is_a: EO:0007119 ! Dipteran insect plant treatment
 
 [Term]
 id: EO:0007290
-name: kinetin regimen
-def: "The treatment involving use of kinetin, a cytokinin homolog to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
-is_a: EO:0007066 ! cytokinin regimen
+name: kinetin treatment
+def: "A cytokinin treatment (EO:0007066) involving use of kinetin, a cytokinin homolog to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
+xref: OBO_SF2_EO:72
+is_a: EO:0007066 ! cytokinin treatment
 
 [Term]
 id: EO:0007291
-name: benzyladenine regimen
-def: "It is a first-generation synthetic cytokinin which elicits plant growth and development responses, setting blossoms and stimulating fruit richness by stimulating cell division. It is an inhibitor of respiratory kinase in plants, and increases post-harvest life of green vegetables." [CAS:[1214-39-7\], GR:pj, web:http\://en.wikipedia.org/wiki/6-Benzylaminopurine]
-comment: The treatment involving use of benzyladenine a cytokinin homolog to study various types of responses on its extrinsic and/or intrinsic application.
+name: benzyladenine treatment
+def: "A cytokinin treatment (EO:0007066) involving use of benzyladenine a cytokinin homolog to study various types of responses on its extrinsic and/or intrinsic application." [CAS:[1214-39-7\], GR:pj, web:http\://en.wikipedia.org/wiki/6-Benzylaminopurine]
+comment: It is a first-generation synthetic cytokinin which elicits plant growth and development responses, setting blossoms and stimulating fruit richness by stimulating cell division. It is an inhibitor of respiratory kinase in plants, and increases post-harvest life of green vegetables.
 synonym: "6-benzylaminopurine" RELATED []
 synonym: "BAP" RELATED []
 synonym: "Benzylaminopurine" RELATED []
 synonym: "N-(Phenylmethyl)-1H-purin-6-amine" RELATED []
 synonym: "N-benzyl-adenine" RELATED []
 synonym: "verdan senescence inhibitor" RELATED []
-is_a: EO:0007066 ! cytokinin regimen
+xref: OBO_SF2_EO:72
+is_a: EO:0007066 ! cytokinin treatment
 
 [Term]
 id: EO:0007292
@@ -3242,8 +3254,10 @@ is_a: EO:0001003 ! organic chemical treatment
 
 [Term]
 id: EO:0007409
-name: brassinosteroid
-is_a: EO:0007165 ! growth hormone regimen
+name: brassinosteroid treatment 
+def: "A growth hormone treatment (EO:0007165) involving the use of brassinosteroid (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [TO:moorel]
+xref: OBO_SF2_EO:72
+is_a: EO:0007165 ! growth hormone treatment
 
 [Term]
 id: EO:0007410

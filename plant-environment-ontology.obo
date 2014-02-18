@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:02:2014 15:15
+date: 17:02:2014 17:36
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.3-beta5
 default-namespace: plant_environment_ontology
@@ -19,7 +19,7 @@ name: plant growth environment
 def: "A plant environment (EO:0007359) involving a plant treatment (EO:0001001), or a combination plant treatments, as well as natural conditions for plant growth." [PO:cooperl]
 synonym: "plant growing conditions" EXACT []
 xref: OBO_SF2_EO:59
-is_a: EO:0007359 ! plant environment
+is_obsolete: true
 created_by: cooperl
 creation_date: 2013-04-10T13:28:27Z
 
@@ -704,7 +704,7 @@ is_a: EO:0007005 ! Viridiplantae plant treatment
 id: EO:0007023
 name: gaseous environment
 def: "The use of gasses in a given environment to study various types of responses on their extrinsic and/or intrinsic stimulus." [GR:pj]
-is_a: EO:0001002 ! plant growth environment
+is_a: EO:0007316 ! physical treatment
 
 [Term]
 id: EO:0007024
@@ -729,7 +729,7 @@ is_a: EO:0007137 ! Echinochloa spp.
 id: EO:0007027
 name: seasonal environment
 def: "The treatment involving an exposure to a given conditions of regional seasons." [GR:pj]
-is_a: EO:0001002 ! plant growth environment
+is_a: EO:0001001 ! plant treatment
 
 [Term]
 id: EO:0007028
@@ -959,7 +959,7 @@ is_a: EO:0007183 ! herbicide treatment
 id: EO:0007064
 name: ecological environment
 def: "The treatment involving an exposure to the various factors that comprise a geographical/regional location." [GR:pj]
-is_a: EO:0001002 ! plant growth environment
+is_a: EO:0001001 ! plant treatment
 
 [Term]
 id: EO:0007065
@@ -1509,7 +1509,7 @@ id: EO:0007147
 name: growth medium environment
 def: "A plant growth environment (EO:0001002) involving the use of a growth medium for growing plants or tissue cultured samples." [GR:pj, PO:cooperl]
 xref: OBO_SF_EO:xxxx
-is_a: EO:0001002 ! plant growth environment
+is_a: EO:0001001 ! plant treatment
 
 [Term]
 id: EO:0007148
@@ -1847,7 +1847,7 @@ is_a: EO:0007198 ! water environment
 id: EO:0007198
 name: water environment
 def: "The treatment involving an exposure of varying amount of water and watering frequencies, which may depend on regional environment." [GR:pj]
-is_a: EO:0001002 ! plant growth environment
+is_a: EO:0007316 ! physical treatment
 
 [Term]
 id: EO:0007199
@@ -2123,7 +2123,7 @@ id: EO:0007241
 name: plant nutrient environment
 def: "A plant growth environment (EO:0001002) involving a plant nutrient or a combination of plant nutrients." [GR:pj, PO:cooperl]
 synonym: "fertilizer regimen" BROAD []
-is_a: EO:0001002 ! plant growth environment
+is_a: EO:0007189 ! chemical treatment
 
 [Term]
 id: EO:0007242
@@ -2214,7 +2214,7 @@ is_a: EO:0007144 ! Pseudomonas plant treatment
 [Term]
 id: EO:0007255
 name: laboratory study
-def: "The treatment where the plants were grown under laboratory / open room conditions, with very few controlled parameters. This may involve supplemantal treatments in addition to any naturally occurring conditions." [GR:pj]
+def: "The treatment where the plants were grown under laboratory / open room conditions, with very few controlled parameters. This may involve supplemental treatments in addition to any naturally occurring conditions." [GR:pj]
 is_a: EO:0007231 ! study type
 
 [Term]
@@ -3244,8 +3244,8 @@ is_a: EO:0007189 ! chemical treatment
 
 [Term]
 id: EO:0007403
-name: unknown environment
-is_a: EO:0007359 ! plant environment
+name: unknown treatment
+is_a: EO:0001001 ! plant treatment
 
 [Term]
 id: EO:0007404

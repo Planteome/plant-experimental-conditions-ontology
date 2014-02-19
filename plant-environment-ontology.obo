@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:02:2014 17:36
+date: 18:02:2014 17:01
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.3-beta5
 default-namespace: plant_environment_ontology
@@ -9,7 +9,7 @@ id: EO:0001001
 name: plant treatment
 def: "A plant environment (EO:0007359) involving the application of an abiotic (EO:0007191) or biotic plant treatment (EO:0007357)." [PO:cooperl]
 xref: OBO_SF2_EO:48
-is_a: EO:0007359 ! plant environment
+is_a: EO:0007359 ! plant experimental condition
 created_by: cooperl
 creation_date: 2013-04-10T13:21:11Z
 
@@ -860,7 +860,7 @@ is_a: EO:0007185 ! salt treatment
 id: EO:0007049
 name: soil environment
 def: "The treatment involving growing plants and exposing them to soil growth media with varying contents." [GR:pj]
-is_a: EO:0007147 ! growth medium environment
+is_a: EO:0007147 ! growth medium
 
 [Term]
 id: EO:0007050
@@ -958,7 +958,8 @@ is_a: EO:0007183 ! herbicide treatment
 [Term]
 id: EO:0007064
 name: ecological environment
-def: "The treatment involving an exposure to the various factors that comprise a geographical/regional location." [GR:pj]
+def: "A plant treatment (EO:0001001) involving exposure to the various factors that comprise a geographical/regional location." [GR:pj, PO:cooperl]
+xref: OBO_SF2_EO:80
 is_a: EO:0001001 ! plant treatment
 
 [Term]
@@ -984,7 +985,7 @@ id: EO:0007067
 name: hydroponic plant culture media
 def: "The treatment suggesting the use of liquid growth media for growing the plants." [GR:pj]
 synonym: "soilless pant culture media" RELATED []
-is_a: EO:0007147 ! growth medium environment
+is_a: EO:0007147 ! growth medium
 
 [Term]
 id: EO:0007068
@@ -1506,10 +1507,10 @@ is_a: EO:0007316 ! physical treatment
 
 [Term]
 id: EO:0007147
-name: growth medium environment
-def: "A plant growth environment (EO:0001002) involving the use of a growth medium for growing plants or tissue cultured samples." [GR:pj, PO:cooperl]
-xref: OBO_SF_EO:xxxx
-is_a: EO:0001001 ! plant treatment
+name: growth medium
+def: "An abiotic plant treatment (EO:0007191) involving the use of a solid or liquid substrate for growing plants or tissue cultured samples." [GR:pj, PO:cooperl]
+xref: OBO_SF2_EO:81
+is_a: EO:0007191 ! abiotic plant treatment
 
 [Term]
 id: EO:0007148
@@ -1792,7 +1793,7 @@ is_a: EO:0007107 ! Ascomycota treatment
 [Term]
 id: EO:0007191
 name: abiotic plant treatment
-def: "A plant treatment (EO:0001001) involving the application of non-biological chemical or  factors." [GR:pj, PO:cooperl]
+def: "A plant treatment (EO:0001001) involving the application of chemical or non-biological factors." [GR:pj, PO:cooperl]
 xref: OBO_SF2_EO:49
 is_a: EO:0001001 ! plant treatment
 
@@ -2056,7 +2057,7 @@ is_a: EO:0007047 ! other nutrient regimen
 id: EO:0007231
 name: study type
 def: "The treatment suggesting what kind of growth facility was used." [GR:pj]
-is_a: EO:0007359 ! plant environment
+is_a: EO:0007359 ! plant experimental condition
 
 [Term]
 id: EO:0007232
@@ -2167,7 +2168,7 @@ is_a: EO:0007143 ! Erwinia plant treatment
 [Term]
 id: EO:0007248
 name: green house study
-def: "The treatment where the plants were grown under green house conditions. This may involve supplemantal treatments in addition to any standard conditions." [GR:pj]
+def: "The treatment where the plants were grown under green house conditions. This may involve supplemental treatments in addition to any standard conditions." [GR:pj]
 is_a: EO:0007231 ! study type
 
 [Term]
@@ -2220,7 +2221,7 @@ is_a: EO:0007231 ! study type
 [Term]
 id: EO:0007256
 name: field study
-def: "The treatment where the plants were grown under field conditions. This may involve supplemantal treatments in addition to any naturally occurring conditions." [GR:pj]
+def: "The treatment where the plants were grown under field conditions. This may involve supplemental treatments in addition to any naturally occurring conditions." [GR:pj]
 synonym: "open field study" RELATED []
 is_a: EO:0007231 ! study type
 
@@ -2262,8 +2263,8 @@ is_a: EO:0007239 ! micronutrient regimen
 [Term]
 id: EO:0007262
 name: in vitro solid growth medium
-def: "An in vitro growth medium (EO:0007266) involving use of  a solid growth medium as a substrate." [GR:pj, PO:cooperl]
-xref: OBO_SF_EO:3611865
+def: "An in vitro growth medium (EO:0007266) involving use of a solid growth medium as a substrate." [GR:pj, PO:cooperl]
+xref: OBO_SF2_EO:65
 is_a: EO:0007266 ! in vitro growth medium
 
 [Term]
@@ -2288,7 +2289,7 @@ is_a: EO:0007114 ! Lepidoptera
 id: EO:0007265
 name: in vitro liquid growth medium
 def: "An in vitro growth medium (EO:0007265) involving use of liquid culture media as a substrate." [GR:pj, PO:cooperl]
-xref: OBO_SF_EO:3611865
+xref: OBO_SF2_EO:65
 is_a: EO:0007266 ! in vitro growth medium
 
 [Term]
@@ -2296,7 +2297,7 @@ id: EO:0007266
 name: in vitro growth medium
 def: "A growth medium environment (EO:0007147) for in vitro culture, involving use of a solid or liquid substrate and which may include nutrients and other amendments." [GR:pj, PO:cooperl]
 xref: OBO_SF2_EO:65
-is_a: EO:0007147 ! growth medium environment
+is_a: EO:0007147 ! growth medium
 
 [Term]
 id: EO:0007267
@@ -2937,8 +2938,8 @@ is_a: EO:0007111 ! ssRNA negative-strand virus
 
 [Term]
 id: EO:0007359
-name: plant environment
-def: "A plant treatment, growth environment, and/or study type applied to a whole plant (PO:0000003), a plant structure (PO:00090119), and/or a plant population to evaluate the plant response." [GR:pj, PO:cooperl]
+name: plant experimental condition
+def: "A plant treatment (EO:0001001) and/or study type (EO:0007231) applied to a whole plant (PO:0000003), a plant structure (PO:00090119), and/or a plant population as part of an experiment to evaluate the plant response." [GR:pj, PO:cooperl]
 comment: The Plant Environment Ontology describes the treatments,growing conditions, and/or study types used in various types of plant biology experiments. The subjects of the studies may also include in vitro\nplant structures (PO:0000004). A plant treatment is the most specific,and may be a component of a plant growing condition, and the plant study type. The broadest classes are the plant study types where the terms can be used to identify the growth study facility. Each growth facility such as field study, growth chamber, green house etc is a environment on its own and it may also involve instances of biotic and abiotic treatments and different growing conditions.
 synonym: "plant treatment ontology" RELATED []
 synonym: "treatment ontology" RELATED []

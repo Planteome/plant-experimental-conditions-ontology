@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 18:02:2014 17:01
+date: 19:02:2014 16:16
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.3-beta5
 default-namespace: plant_environment_ontology
@@ -7,7 +7,7 @@ default-namespace: plant_environment_ontology
 [Term]
 id: EO:0001001
 name: plant treatment
-def: "A plant environment (EO:0007359) involving the application of an abiotic (EO:0007191) or biotic plant treatment (EO:0007357)." [PO:cooperl]
+def: "A plant experimental condition (EO:0007359) or set of conditions describing the application of an abiotic (EO:0007191) or biotic plant treatment (EO:0007357) or the combinatorial application thereof." [PO:cooperl]
 xref: OBO_SF2_EO:48
 is_a: EO:0007359 ! plant experimental condition
 created_by: cooperl
@@ -248,7 +248,7 @@ creation_date: 2013-04-12T19:23:02Z
 [Term]
 id: EO:0001027
 name: alanine nitrogen regimen
-def: "A nitrogen macronutrient regimen (EO:0007284)  involving exposure of plant to alanine (CHEBI:16449) as the primary or sole source of nitrogen." [CHEBI:16449, PO:cooperl]
+def: "A nitrogen macronutrient regimen (EO:0007284) involving exposure of plant to alanine (CHEBI:16449) as the primary or sole source of nitrogen." [CHEBI:16449, PO:cooperl]
 xref: OBO_SF2_EO:3
 is_a: EO:0007284 ! nitrogen macronutrient regimen
 created_by: cooperl
@@ -323,7 +323,7 @@ name: stratification treatment
 def: "A physical treatment (EO:0007316) involving both low temperature and moist conditions to overcome seed dormancy." [PO:cooperl]
 comment: A stratification process is used to pretreat seeds to simulate natural winter conditions in order to overcome dormancy and allow germination.
 xref: OBO_SF_EO:3609231
-is_a: EO:0007316 ! physical treatment
+is_a: EO:0007316 ! physical plant treatment
 created_by: cooperl
 creation_date: 2013-04-25T14:11:44Z
 
@@ -572,7 +572,7 @@ is_a: EO:0007050 ! soil texture
 [Term]
 id: EO:0007005
 name: Viridiplantae plant treatment
-def: "A biotic plant treatment (EO:0007357) involving exposure of a plant to another plant." [GR:pj, Virdiplantae:33090]
+def: "A biotic plant treatment (EO:0007357) involving exposure of a plant to another plant." [GR:pj, NCBI_taxid:33090]
 comment: Suggests the exposure of plant to other plants found in its growth environment. These plants may be growing as a weed or as part of normal farming practices. This treatmnet is part of an assay of any direct or indirect, harmful or beneficial effect of one plant on another through the production of chemical compounds (allelochemicals) that escape in the environment.  Viridiplantae include all plants from algae through angiosperms.
 synonym: "green plant" RELATED []
 is_a: EO:0007357 ! biotic plant treatment
@@ -702,21 +702,22 @@ is_a: EO:0007005 ! Viridiplantae plant treatment
 
 [Term]
 id: EO:0007023
-name: gaseous environment
-def: "The use of gasses in a given environment to study various types of responses on their extrinsic and/or intrinsic stimulus." [GR:pj]
-is_a: EO:0007316 ! physical treatment
+name: gaseous treatment
+def: "A physical plant treatment (EO:0007316) involving the application of a gas or a combination of gasses." [GR:pj, PO:cooperl]
+xref: OBO_SF2_EO:86
+is_a: EO:0007316 ! physical plant treatment
 
 [Term]
 id: EO:0007024
 name: aerobic environment
-def: "The use of conditions in which gaseous or dissolved oxygen is present  to study various types of responses on their extrinsic and/or intrinsic stimulus." [GR:pj]
-is_a: EO:0007023 ! gaseous environment
+def: "The use of conditions in which gaseous or dissolved oxygen is present to study various types of responses on their extrinsic and/or intrinsic stimulus." [GR:pj]
+is_a: EO:0007023 ! gaseous treatment
 
 [Term]
 id: EO:0007025
 name: anaerobic environment
 def: "The use of conditions in which gaseous or dissolved oxygen is absent (devoid of dioxygen) to study various types of responses on their extrinsic and/or intrinsic stimulus." [GR:pj]
-is_a: EO:0007023 ! gaseous environment
+is_a: EO:0007023 ! gaseous treatment
 
 [Term]
 id: EO:0007026
@@ -728,7 +729,8 @@ is_a: EO:0007137 ! Echinochloa spp.
 [Term]
 id: EO:0007027
 name: seasonal environment
-def: "The treatment involving an exposure to a given conditions of regional seasons." [GR:pj]
+def: "A plant treatment (EO:0001001) involving an exposure to a given conditions of regional seasons." [GR:pj, PO:cooperl]
+xref: OBO_SF2_EO:84
 is_a: EO:0001001 ! plant treatment
 
 [Term]
@@ -763,7 +765,7 @@ is_a: EO:0007349 ! metazoan plant treatment
 [Term]
 id: EO:0007033
 name: rabi season
-def: "The treatment involving an exposure to the crop season (October-March) as practised in South Asia." [GR:pj]
+def: "The treatment involving an exposure to the crop season (October-March) as practiced in South Asia." [GR:pj]
 is_a: EO:0007027 ! seasonal environment
 
 [Term]
@@ -819,7 +821,7 @@ is_a: EO:0007189 ! chemical treatment
 id: EO:0007043
 name: non-mineral nutrient regimen
 def: "Treatment involving the exposure of plant to molecular forms of nutrient as supplement to study various types of responses." [GR:pj]
-is_a: EO:0007241 ! plant nutrient environment
+is_a: EO:0007241 ! plant nutrient treatment
 
 [Term]
 id: EO:0007044
@@ -845,7 +847,7 @@ is_a: EO:0007240 ! plant macronutrient regimen
 id: EO:0007047
 name: other nutrient regimen
 def: "Treatment involving the exposure of plant to elemental forms of nutrient as supplement to study various types of responses. These are not considered essential elements." [GR:pj]
-is_a: EO:0007241 ! plant nutrient environment
+is_a: EO:0007241 ! plant nutrient treatment
 
 [Term]
 id: EO:0007048
@@ -860,7 +862,7 @@ is_a: EO:0007185 ! salt treatment
 id: EO:0007049
 name: soil environment
 def: "The treatment involving growing plants and exposing them to soil growth media with varying contents." [GR:pj]
-is_a: EO:0007147 ! growth medium
+is_a: EO:0007147 ! plant growth medium
 
 [Term]
 id: EO:0007050
@@ -985,7 +987,7 @@ id: EO:0007067
 name: hydroponic plant culture media
 def: "The treatment suggesting the use of liquid growth media for growing the plants." [GR:pj]
 synonym: "soilless pant culture media" RELATED []
-is_a: EO:0007147 ! growth medium
+is_a: EO:0007147 ! plant growth medium
 
 [Term]
 id: EO:0007068
@@ -1027,7 +1029,7 @@ is_a: EO:0007107 ! Ascomycota treatment
 [Term]
 id: EO:0007073
 name: Basidiomycota treatment
-def: "A fungal plant treatment (EO:0007233) involving the exposure of plant to the pathogen  belonging to Basidiomycetes class." [GR:ivy, NCBI_taxid:5204]
+def: "A fungal plant treatment (EO:0007233) involving the exposure of plant to the pathogen belonging to Basidiomycetes class." [GR:ivy, NCBI_taxid:5204]
 synonym: "basidiomycetes" RELATED []
 xref: NCBI_Taxon_ID:5204
 is_a: EO:0007233 ! fungal plant treatment
@@ -1104,8 +1106,8 @@ is_a: EO:0007349 ! metazoan plant treatment
 [Term]
 id: EO:0007085
 name: fertilizer regimen
-def: "A plant nutrient environment (EO:0007241)  involving the use of  a fertilizer, a combination of plant nutrients." [GR:pj]
-is_a: EO:0007241 ! plant nutrient environment
+def: "A plant nutrient treatment (EO:0007241) involving the use of a fertilizer, a combination of plant nutrients." [GR:pj]
+is_a: EO:0007241 ! plant nutrient treatment
 
 [Term]
 id: EO:0007086
@@ -1234,7 +1236,7 @@ is_a: EO:0007165 ! growth hormone treatment
 [Term]
 id: EO:0007106
 name: Stramenopiles
-def: "Treatment involving the exposure of plant to the Stramenopiles (heterokonts) present in the gorowth environment." [GR:pj, NCBI_taxid:33634]
+def: "Treatment involving the exposure of plant to the Stramenopiles (heterokonts) present in the growth environment." [GR:pj, NCBI_taxid:33634]
 synonym: "chromophyta" RELATED []
 synonym: "heterokont" RELATED []
 is_a: EO:0007357 ! biotic plant treatment
@@ -1484,32 +1486,32 @@ is_a: EO:0007114 ! Lepidoptera
 [Term]
 id: EO:0007143
 name: Erwinia plant treatment
-def: "A bacterial plant treatment (EO:0007246) involving the exposure to bacteria of the genus Erwinia." [GR:ivy, NCBI:551]
+def: "A bacterial plant treatment (EO:0007246) involving the exposure to bacteria of the genus Erwinia." [GR:ivy, NCBI_taxid:551]
 is_a: EO:0007246 ! bacterial plant treatment
 
 [Term]
 id: EO:0007144
 name: Pseudomonas plant treatment
-def: "A bacterial plant treatment (EO:0007246) involving the exposure to bacteria of the genus Pseudomonas." [GR:ivy, NCBI:286]
+def: "A bacterial plant treatment (EO:0007246) involving the exposure to bacteria of the genus Pseudomonas." [GR:ivy, NCBI_taxid:286]
 is_a: EO:0007246 ! bacterial plant treatment
 
 [Term]
 id: EO:0007145
 name: Xanthomonas plant treatment
-def: "A bacterial plant treatment (EO:0007246) involving the exposure to bacteria of the genus Xanthomonas." [GR:ivy, NCBI:338]
+def: "A bacterial plant treatment (EO:0007246) involving the exposure to bacteria of the genus Xanthomonas." [GR:ivy, NCBI_taxid:338]
 is_a: EO:0007246 ! bacterial plant treatment
 
 [Term]
 id: EO:0007146
 name: gravity
 def: "The treatment involving use of gravity factor to study various types of responses in presence, absence or modified levels of gravity." [GR:pj]
-is_a: EO:0007316 ! physical treatment
+is_a: EO:0007316 ! physical plant treatment
 
 [Term]
 id: EO:0007147
-name: growth medium
-def: "An abiotic plant treatment (EO:0007191) involving the use of a solid or liquid substrate for growing plants or tissue cultured samples." [GR:pj, PO:cooperl]
-xref: OBO_SF2_EO:81
+name: plant growth medium
+def: "An abiotic plant treatment (EO:0007191) involving the use of a solid or liquid substrate for growing plants or tissue-cultured plant samples." [GR:pj, PO:cooperl]
+xref: OBO_SF2_EO:82
 is_a: EO:0007191 ! abiotic plant treatment
 
 [Term]
@@ -1535,10 +1537,10 @@ is_obsolete: true
 [Term]
 id: EO:0007151
 name: radiation treatment
-def: "The treatment involving an exposure with a radiation type, intensity or quantity." [GR:pj]
+def: "A physical plant treatment (EO:0007316) involving an exposure with a radiation type, intensity or quantity." [GR:pj, PO:cooperl]
 comment: EMR is classified according to the frequency of its wave. The electromagnetic spectrum, in order of increasing frequency and decreasing wavelength, consists of radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays and gamma rays. (from Wikipedia).
 synonym: "light regimen" RELATED []
-is_a: EO:0007316 ! physical treatment
+is_a: EO:0007316 ! physical plant treatment
 
 [Term]
 id: EO:0007152
@@ -1673,8 +1675,8 @@ is_a: EO:0007175 ! temperature environment
 [Term]
 id: EO:0007175
 name: temperature environment
-def: "The treatment involving an exposure to varying degree of temperature, which may depend on regional environment." [GR:pj]
-is_a: EO:0007316 ! physical treatment
+def: "A physical plant treatment (EO:0007316) involving an exposure to varying degree of temperature, which may depend on regional environment." [GR:pj]
+is_a: EO:0007316 ! physical plant treatment
 
 [Term]
 id: EO:0007176
@@ -1847,8 +1849,9 @@ is_a: EO:0007198 ! water environment
 [Term]
 id: EO:0007198
 name: water environment
-def: "The treatment involving an exposure of varying amount of water and watering frequencies, which may depend on regional environment." [GR:pj]
-is_a: EO:0007316 ! physical treatment
+def: "A physical plant treatment (EO:0007316) involving an exposure of varying amounts of water and watering frequencies, which may depend on regional environment." [GR:pj, PO:cooperl]
+xref: OBO_SF2_EO:87
+is_a: EO:0007316 ! physical plant treatment
 
 [Term]
 id: EO:0007199
@@ -2056,7 +2059,8 @@ is_a: EO:0007047 ! other nutrient regimen
 [Term]
 id: EO:0007231
 name: study type
-def: "The treatment suggesting what kind of growth facility was used." [GR:pj]
+def: "A plant experimental condition (EO:0007359) or set of conditions describing what kind of plant growth facility was used for the experiment." [GR:pj, PO:cooperl]
+xref: OBO_SF2_EO:82
 is_a: EO:0007359 ! plant experimental condition
 
 [Term]
@@ -2110,20 +2114,21 @@ id: EO:0007239
 name: micronutrient regimen
 def: "The treatment involving exposure of plant to elements that are required in tiny quantities for growth, as supplement to study various types of responses." [GR:pj]
 synonym: "trace element regimen" RELATED []
-is_a: EO:0007241 ! plant nutrient environment
+is_a: EO:0007241 ! plant nutrient treatment
 
 [Term]
 id: EO:0007240
 name: plant macronutrient regimen
-def: "A plant nutrient environment (EO:0007241)  involving the use of a plant macronutrient or combination of plant macronutrients." [GR:pj, PO:cooperl]
+def: "A plant nutrient treatment (EO:0007241) involving the use of a plant macronutrient or combination of plant macronutrients." [GR:pj, PO:cooperl]
 comment: The macronutrients comprise the elements required by the plant in relatively large quantities for normal growth.
-is_a: EO:0007241 ! plant nutrient environment
+is_a: EO:0007241 ! plant nutrient treatment
 
 [Term]
 id: EO:0007241
-name: plant nutrient environment
-def: "A plant growth environment (EO:0001002) involving a plant nutrient or a combination of plant nutrients." [GR:pj, PO:cooperl]
+name: plant nutrient treatment
+def: "A plant chemical treatment (EO:0007189) involving a plant nutrient or a combination of plant nutrients." [GR:pj, PO:cooperl]
 synonym: "fertilizer regimen" BROAD []
+xref: OBO_SF2_EO:85
 is_a: EO:0007189 ! chemical treatment
 
 [Term]
@@ -2154,7 +2159,7 @@ is_a: EO:0007143 ! Erwinia plant treatment
 [Term]
 id: EO:0007246
 name: bacterial plant treatment
-def: "A biotic plant treatment (EO:0007357) involving exposure of a plant to bacteria." [GR:ivy, NCBI:2, PO:cooperl]
+def: "A biotic plant treatment (EO:0007357) involving exposure of a plant to bacteria." [GR:ivy, NCBI_taxid:2, PO:cooperl]
 synonym: "eubacteria" RELATED []
 is_a: EO:0007357 ! biotic plant treatment
 
@@ -2297,7 +2302,7 @@ id: EO:0007266
 name: in vitro growth medium
 def: "A growth medium environment (EO:0007147) for in vitro culture, involving use of a solid or liquid substrate and which may include nutrients and other amendments." [GR:pj, PO:cooperl]
 xref: OBO_SF2_EO:65
-is_a: EO:0007147 ! growth medium
+is_a: EO:0007147 ! plant growth medium
 
 [Term]
 id: EO:0007267
@@ -2641,7 +2646,7 @@ is_a: EO:0007146 ! gravity
 
 [Term]
 id: EO:0007316
-name: physical treatment
+name: physical plant treatment
 def: "An abiotic plant treatment (EO:0007191) involving the application of a physical factor such as temperature, moisture, gravity, wind, radiation, etc. or a combination thereof." [PO:cooperl]
 xref: OBO_SF2_EO:78
 is_a: EO:0007191 ! abiotic plant treatment
@@ -3055,7 +3060,7 @@ name: mechanical damage
 synonym: "wound" RELATED []
 synonym: "wound treatment" RELATED []
 synonym: "wounding" RELATED []
-is_a: EO:0007316 ! physical treatment
+is_a: EO:0007316 ! physical plant treatment
 
 [Term]
 id: EO:0007374
@@ -3119,7 +3124,7 @@ id: EO:0007382
 name: wind environment
 def: "The treatment involving an exposure to wind, which may depend on regional environment." [GR:pj]
 is_a: EO:0007064 ! ecological environment
-is_a: EO:0007316 ! physical treatment
+is_a: EO:0007316 ! physical plant treatment
 
 [Term]
 id: EO:0007383
@@ -3246,6 +3251,9 @@ is_a: EO:0007189 ! chemical treatment
 [Term]
 id: EO:0007403
 name: unknown treatment
+def: "A plant treatment (EO:0001001) where there is a lack of information describing the experimental conditions." [PO:cooperl]
+comment: In some cases, only the study type ((EO:0007231) is known, without any additional information about the treatments.
+xref: OBO_SF2_EO:83
 is_a: EO:0001001 ! plant treatment
 
 [Term]
@@ -3294,6 +3302,7 @@ is_a: EO:0007402 ! fungal elicitor treatment
 [Term]
 id: EO:0007411
 name: Pseudomonas fluorescens
+def: "A Pseudomonas plant treatment (EO:0007144) involving the exposure to bacteria of the Pseudomonas fluorescens group." [NCBI_taxid:274, PO:cooperl]
 synonym: "Bacillus fluorescens" RELATED []
 synonym: "Bacillus fluorescens liquefaciens" RELATED []
 synonym: "Bacterium fluorescen" RELATED []

@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 07:03:2014 12:55
-saved-by: moorel
+date: 04:06:2014 10:32
+saved-by: cooperl
 auto-generated-by: OBO-Edit 2.3
 default-namespace: plant_environment_ontology
 
@@ -545,6 +545,26 @@ xref: OBO_SF2_EO:68
 is_a: EO:0001058 ! Glomeromycota treatment
 created_by: moorel
 creation_date: 2013-06-20T14:08:36Z
+
+[Term]
+id: EO:0001060
+name: sodium hydroxide treatment
+def: "An inorganic anion treatment (EO:0001009) involving the application of sodium hydroxide (CHEBI:32145)." [PO:cooperl]
+synonym: "NaOH treatment" EXACT []
+xref: OBO_SF2_EO:88
+is_a: EO:0001009 ! inorganic anion treatment
+created_by: cooperl
+creation_date: 2014-06-04T10:01:38Z
+
+[Term]
+id: EO:0001061
+name: polyethylene glycol treatment
+def: "An organic chemical treatment (EO:0001003) involving the application of polyethylene glycol (CHEBI:46793)." [PO:cooperl]
+synonym: "PEG treatment" EXACT []
+synonym: "poly(ethylene glycol) treatment" EXACT []
+is_a: EO:0001003 ! organic chemical treatment
+created_by: cooperl
+creation_date: 2014-06-04T10:14:09Z
 
 [Term]
 id: EO:0007001

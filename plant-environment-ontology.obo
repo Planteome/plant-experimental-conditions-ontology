@@ -533,7 +533,7 @@ id: EO:0001058
 name: Glomeromycota treatment
 def: "A fungal plant treatment (EO:0007233) involving the exposure of plant to the pathogen belonging to Glomeromyetes class." [POC:laura_moore]
 xref: NCBI_Taxon_ID:214504
-xref: OBO_SF2_EO:70
+xref: OBO_SF2_EO:68
 is_a: EO:0007233 ! fungal plant treatment
 created_by: moorel
 creation_date: 2013-06-20T14:02:46Z

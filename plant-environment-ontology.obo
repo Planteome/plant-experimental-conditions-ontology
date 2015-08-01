@@ -205,7 +205,7 @@ id: EO:0001022
 name: gamma radiation treatment
 def: "A radiation quality treatment (EO:0007154) involving the exposure to gamma radiation." [PO:cooperl]
 synonym: "gamma rays" EXACT []
-xref: OBO_SF_EO:3609225
+xref: OBO_SF2_EO:41
 is_a: EO:0007154 ! radiation quality treatment
 created_by: cooperl
 creation_date: 2013-04-12T13:05:50Z
@@ -223,7 +223,7 @@ creation_date: 2013-04-12T18:01:37Z
 id: EO:0001024
 name: vertical agar growth medium
 def: "An agar growth medium (EO:0001023) involving use of solid growth media in a vertical orientation." [PO:cooperl]
-xref: OBO_SF_EO:3609230
+xref: OBO_SF2_EO:46
 is_a: EO:0001023 ! agar growth medium
 created_by: cooperl
 creation_date: 2013-04-12T18:30:23Z
@@ -323,7 +323,7 @@ id: EO:0001035
 name: stratification treatment
 def: "A physical treatment (EO:0007316) involving both low temperature and moist conditions to overcome seed dormancy." [PO:cooperl]
 comment: A stratification process is used to pretreat seeds to simulate natural winter conditions in order to overcome dormancy and allow germination.
-xref: OBO_SF_EO:3609231
+xref: OBO_SF2_EO:47
 is_a: EO:0007316 ! physical plant treatment
 created_by: cooperl
 creation_date: 2013-04-25T14:11:44Z
@@ -359,7 +359,7 @@ creation_date: 2013-04-16T14:11:36Z
 id: EO:0001039
 name: radiation mutagen treatment
 def: "A radiation treatment (EO:0007151) involving exposure of plant to chemicals or radiation resulting in perturbations to the genome." [PO:cooperl]
-xref: OBO_SF_EO:3609226
+xref: OBO_SF2_EO:42
 is_a: EO:0007151 ! radiation treatment
 created_by: moorel
 creation_date: 2013-04-16T14:19:13Z
@@ -533,7 +533,7 @@ id: EO:0001058
 name: Glomeromycota treatment
 def: "A fungal plant treatment (EO:0007233) involving the exposure of plant to the pathogen belonging to Glomeromyetes class." [POC:laura_moore]
 xref: NCBI_Taxon_ID:214504
-xref: OBO_SF2_EO:68
+xref: OBO_SF2_EO:70
 is_a: EO:0007233 ! fungal plant treatment
 created_by: moorel
 creation_date: 2013-06-20T14:02:46Z
@@ -2478,7 +2478,7 @@ is_a: EO:0007183 ! herbicide treatment
 id: EO:0007288
 name: magnesium nutrient regimen
 def: "The treatment involving exposure of plant to macronutrient magnesium as supplement to study various types of responses." [GR:pj]
-xref: OBO_SF_EO:3609197
+xref: OBO_SF2_EO:17
 is_a: EO:0007046 ! secondary macronutrient
 
 [Term]

@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 03:08:2015 14:24
+date: 03:08:2015 14:29
 saved-by: johnseth
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: plant_environment_ontology
@@ -360,6 +360,7 @@ creation_date: 2013-04-25T14:11:44Z
 id: EO:0001036
 name: chemical stress treatment
 def: "A chemical treatment (EO:0007189) that induces stress." [PO:cooperl]
+xref: EO_GIT:64
 xref: OBO_SF2_EO:64
 is_a: EO:0007189 ! chemical treatment
 created_by: moorel
@@ -552,6 +553,7 @@ creation_date: 2013-04-24T14:28:43Z
 id: EO:0001055
 name: inorganic gas treatment
 def: "An inorganic chemical treatment (EO:0001004) involving the application of a gas or mixture of gases." [PO:cooperl]
+xref: EO_GIT:66
 xref: OBO_SF2_EO:66
 is_a: EO:0001004 ! inorganic chemical treatment
 created_by: moorel
@@ -581,6 +583,7 @@ creation_date: 2013-04-25T14:21:09Z
 id: EO:0001058
 name: Glomeromycota treatment
 def: "A fungal plant treatment (EO:0007233) involving the exposure of plant to the pathogen belonging to Glomeromyetes class." [POC:laura_moore]
+xref: EO_GIT:68
 xref: NCBI_Taxon_ID:214504
 xref: OBO_SF2_EO:68
 is_a: EO:0007233 ! fungal plant treatment
@@ -591,6 +594,7 @@ creation_date: 2013-06-20T14:02:46Z
 id: EO:0001059
 name: arbuscular mycorrhizal fungal treatment
 def: "A Glomeromycota treatment (EO:0001058) involving the exposure of compatible plants to mutualistic arbuscular mycorrhizal fungi." [POC:laura_moore]
+xref: EO_GIT:68
 xref: OBO_SF2_EO:68
 is_a: EO:0001058 ! Glomeromycota treatment
 created_by: moorel
@@ -1611,6 +1615,7 @@ is_a: EO:0007145 ! Xanthomonas plant treatment
 id: EO:0007149
 name: chemical mutagen treatment
 def: "A chemical treatment (EO:0007189) involving use of mutagen for the mutagenesis process." [GR:pj, PO:cooperl]
+xref: EO_GIT:64
 xref: OBO_SF2_EO:64
 is_a: EO:0007189 ! chemical treatment
 
@@ -1860,6 +1865,7 @@ id: EO:0007187
 name: salicylic acid treatment
 def: "An organic chemical treatment (EO:0001003) involving the application of salicylic acid (CHEBI:16914)." [CHEBI:16914, GR:pj, PO:cooperl]
 comment: An organic chemical treatment (EO:0001003) invloving the application of salicylic acid (CHEBI:16914).
+xref: EO_GIT:63
 xref: OBO_SF2_EO:63
 is_a: EO:0001003 ! organic chemical treatment
 
@@ -2368,6 +2374,7 @@ is_a: EO:0007239 ! micronutrient regimen
 id: EO:0007262
 name: in vitro solid growth medium
 def: "An in vitro growth medium (EO:0007266) involving use of a solid growth medium as a substrate." [GR:pj, PO:cooperl]
+xref: EO_GIT:65
 xref: OBO_SF2_EO:65
 is_a: EO:0007266 ! in vitro growth medium
 
@@ -2393,6 +2400,7 @@ is_a: EO:0007114 ! Lepidoptera
 id: EO:0007265
 name: in vitro liquid growth medium
 def: "An in vitro growth medium (EO:0007265) involving use of liquid culture media as a substrate." [GR:pj, PO:cooperl]
+xref: EO_GIT:65
 xref: OBO_SF2_EO:65
 is_a: EO:0007266 ! in vitro growth medium
 
@@ -2400,6 +2408,7 @@ is_a: EO:0007266 ! in vitro growth medium
 id: EO:0007266
 name: in vitro growth medium
 def: "A growth medium environment (EO:0007147) for in vitro culture, involving use of a solid or liquid substrate and which may include nutrients and other amendments." [GR:pj, PO:cooperl]
+xref: EO_GIT:65
 xref: OBO_SF2_EO:65
 is_a: EO:0007147 ! plant growth medium
 
@@ -3387,6 +3396,7 @@ is_a: EO:0007102 ! nitrogen fertilizer regimen
 id: EO:0007407
 name: methyl jasmonate treatment
 def: "An organic chemical treatment (EO:0001003) involving the application of  methyl jasmonate (MeJa; CHEBI:15929)." [CHEBI:15929, PO:Cooperl]
+xref: EO_GIT:62
 xref: OBO_SF2_EO:62
 is_a: EO:0001003 ! organic chemical treatment
 

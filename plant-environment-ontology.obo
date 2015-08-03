@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 03:08:2015 13:45
+date: 03:08:2015 14:24
 saved-by: johnseth
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: plant_environment_ontology
@@ -9,6 +9,7 @@ ontology: eo
 id: EO:0001001
 name: plant treatment
 def: "A plant experimental condition (EO:0007359) or set of conditions describing the application of an abiotic (EO:0007191) or biotic plant treatment (EO:0007357) or the combinatorial application thereof." [PO:cooperl]
+xref: EO_GIT:48
 xref: OBO_SF2_EO:48
 is_a: EO:0007359 ! plant experimental condition
 created_by: cooperl
@@ -28,6 +29,7 @@ creation_date: 2013-04-10T13:28:27Z
 id: EO:0001003
 name: organic chemical treatment
 def: "A chemical treatment (EO:0007189) involving the application of organic chemical(s)." [PO:cooperl]
+xref: EO_GIT:55
 xref: OBO_SF2_EO:55
 is_a: EO:0007189 ! chemical treatment
 created_by: cooperl
@@ -37,6 +39,7 @@ creation_date: 2013-04-10T13:58:52Z
 id: EO:0001004
 name: inorganic chemical treatment
 def: "A chemical treatment (EO:0007189) involving the application of inorganic chemical(s)." [PO:cooperl]
+xref: EO_GIT:51
 xref: OBO_SF2_EO:51
 is_a: EO:0007189 ! chemical treatment
 created_by: cooperl
@@ -67,6 +70,7 @@ id: EO:0001007
 name: mineral salt treatment
 def: "A mineral treatment (EO:0007044) involving exposure of the plant(s) to mineral salts (CHEBI:24866)." [PO:cooperl]
 comment: A salt (CHEBI:24866) is defined as an assembly of cations and anions.   This is a genral term to include the salts of various minerals.
+xref: EO_GIT:53
 xref: OBO_SF2_EO:53
 is_a: EO:0007044 ! mineral treatment
 created_by: cooperl
@@ -87,6 +91,7 @@ id: EO:0001009
 name: inorganic anion treatment
 def: "An inorganic chemical treatment (EO:0001004) involving the application of an anion or a mixture of anions (CHEBI:22563)." [CHEBI:22563, PO:cooperl]
 comment: An anion (ChEBI:22653) is defined as a monoatomic or polyatomic species having one or more elementary charges of the electron.
+xref: EO_GIT:54
 xref: OBO_SF2_EO:54
 is_a: EO:0001004 ! inorganic chemical treatment
 created_by: cooperl
@@ -108,6 +113,7 @@ id: EO:0001011
 name: monosaccharide treatment
 def: "A carbohydrate treatment (EO:0001010) involving the application of monosaccharide(s)(CHEBI:35381)." [CHEBI:35381, PO:cooperl]
 comment: Monosaccharides (CHEBI:35381) are defined as polyhydroxy aldehydes H[CH(OH)]nC(=O)H or polyhydroxy ketones H-[CHOH]n-C(=O)[CHOH]m-H with three or more carbon atoms. The generic term 'monosaccharide' (as opposed to oligosaccharide or polysaccharide) denotes a single unit, without glycosidic connection to other such units. It includes aldoses, dialdoses, aldoketoses, ketoses and diketoses, as well as deoxy sugars, provided that the parent compound has a (potential) carbonyl group.
+xref: EO_GIT:56
 xref: OBO_SF2_EO:56
 is_a: EO:0001010 ! carbohydrate treatment
 created_by: moorel
@@ -118,6 +124,7 @@ id: EO:0001012
 name: hexose treatment
 def: "A monosaccharide treatment (EO:0001011) involving the application of hexose (CHEBI:18133) sugar(s)." [CHEBI:18133, PO:cooperl]
 comment: Hexose (CHEBI:18133) is defined as any six-carbon monosaccharide which in its linear form contains either an aldehyde group at position 1 (aldohexose) or a ketone group at position 2 (ketohexose).
+xref: EO_GIT:57
 xref: OBO_SF2_EO:57
 is_a: EO:0001011 ! monosaccharide treatment
 created_by: moorel
@@ -138,6 +145,7 @@ id: EO:0001014
 name: disaccharide treatment
 def: "A carbohydrate treatment (EO:0001010) involving the application of disaccharide(s)(CHEBI:36233)." [CHEBI:36233, PO:cooperl]
 comment: Disaccharide (CHEBI:36233) is defined as a compound in which two monosaccharides are joined by a glycosidic bond.
+xref: EO_GIT:58
 xref: OBO_SF2_EO:58
 is_a: EO:0001010 ! carbohydrate treatment
 created_by: moorel
@@ -193,6 +201,7 @@ creation_date: 2013-04-12T12:38:49Z
 id: EO:0001020
 name: carbon dioxide treatment
 def: "An inorganic gas treatment (EO:0001055) that involves the application of carbon dioxide (CHEBI:16526)." [CHEBI:16526, PO:cooperl]
+xref: EO_GIT:28
 xref: OBO_SF2_EO:28
 is_a: EO:0001055 ! inorganic gas treatment
 created_by: cooperl
@@ -202,6 +211,7 @@ creation_date: 2013-04-12T12:41:25Z
 id: EO:0001021
 name: ozone treatment
 def: "An inorganic anion treatment (EO:0001009) involving the application of ozone (CHEBI:29382)." [CHEBI:29382, PO:cooperl]
+xref: EO_GIT:29
 xref: OBO_SF2_EO:29
 is_a: EO:0001009 ! inorganic anion treatment
 created_by: cooperl
@@ -212,6 +222,7 @@ id: EO:0001022
 name: gamma radiation treatment
 def: "A radiation quality treatment (EO:0007154) involving the exposure to gamma radiation." [PO:cooperl]
 synonym: "gamma rays" EXACT []
+xref: EO_GIT:41
 xref: OBO_SF2_EO:41
 is_a: EO:0007154 ! radiation quality treatment
 created_by: cooperl
@@ -221,6 +232,7 @@ creation_date: 2013-04-12T13:05:50Z
 id: EO:0001023
 name: agar growth medium
 def: "An in vitro solid growth medium (EO:0007262) composed of agar." [PO:cooperl]
+xref: EO_GIT:45
 xref: OBO_SF2_EO:45
 is_a: EO:0007262 ! in vitro solid growth medium
 created_by: cooperl
@@ -230,6 +242,7 @@ creation_date: 2013-04-12T18:01:37Z
 id: EO:0001024
 name: vertical agar growth medium
 def: "An agar growth medium (EO:0001023) involving use of solid growth media in a vertical orientation." [PO:cooperl]
+xref: EO_GIT:46
 xref: OBO_SF2_EO:46
 is_a: EO:0001023 ! agar growth medium
 created_by: cooperl
@@ -326,6 +339,7 @@ creation_date: 2013-04-13T13:38:41Z
 id: EO:0001034
 name: Pseudomonas syringae plant treatment
 def: "A Pseudomonas plant treatment (EO:0007144) involving the exposure to bacteria of the Pseudomonas syringae group." [NCBI:136849, PO:cooperl]
+xref: EO_GIT:40
 xref: OBO_SF2_EO:40
 is_a: EO:0007144 ! Pseudomonas plant treatment
 created_by: cooperl
@@ -336,6 +350,7 @@ id: EO:0001035
 name: stratification treatment
 def: "A physical treatment (EO:0007316) involving both low temperature and moist conditions to overcome seed dormancy." [PO:cooperl]
 comment: A stratification process is used to pretreat seeds to simulate natural winter conditions in order to overcome dormancy and allow germination.
+xref: EO_GIT:47
 xref: OBO_SF2_EO:47
 is_a: EO:0007316 ! physical plant treatment
 created_by: cooperl
@@ -354,6 +369,7 @@ creation_date: 2013-04-16T13:48:41Z
 id: EO:0001037
 name: oxidative stress treatment
 def: "A chemical stress treatment (EO:0001036) involving use of oxidative stress-inducing chemicals." [PO:cooperl]
+xref: EO_GIT:32
 xref: OBO_SF2_EO:32
 is_a: EO:0001036 ! chemical stress treatment
 created_by: moorel
@@ -363,6 +379,7 @@ creation_date: 2013-04-16T13:54:16Z
 id: EO:0001038
 name: osmotic stress treatment
 def: "A chemical stress treatment (EO:0001036) involving use of osmotic stress-inducing chemicals." [PO:cooperl]
+xref: EO_GIT:31
 xref: OBO_SF2_EO:31
 is_a: EO:0001036 ! chemical stress treatment
 created_by: moorel
@@ -372,6 +389,7 @@ creation_date: 2013-04-16T14:11:36Z
 id: EO:0001039
 name: radiation mutagen treatment
 def: "A radiation treatment (EO:0007151) involving exposure of plant to chemicals or radiation resulting in perturbations to the genome." [PO:cooperl]
+xref: EO_GIT:42
 xref: OBO_SF2_EO:42
 is_a: EO:0007151 ! radiation treatment
 created_by: moorel
@@ -381,6 +399,7 @@ creation_date: 2013-04-16T14:19:13Z
 id: EO:0001040
 name: light-induced photooxidative stress treatment
 def: "A light intensity regimen (EO:0007224) involving use of light-dependent generations of reactive oxygen species." [PO:cooperl]
+xref: EO_GIT:44
 xref: OBO_SF2_EO:44
 is_a: EO:0007224 ! light intensity regimen
 created_by: moorel
@@ -390,6 +409,7 @@ creation_date: 2013-04-16T14:22:02Z
 id: EO:0001041
 name: limited zinc treatment
 def: "A zinc nutrient treatment (EO:0007309) involving exposure to limiting amounts or absence of zinc (CHEBI:27363)." [CHEBI:27363, PO:cooperl]
+xref: EO_GIT:23
 xref: OBO_SF2_EO:23
 is_a: EO:0007309 ! zinc nutrient regimen
 created_by: moorel
@@ -429,6 +449,7 @@ creation_date: 2013-04-24T12:22:51Z
 id: EO:0001045
 name: limited sulfate treatment
 def: "A sulfate treatment (EO:0001008) involving exposure to limiting amounts or the absence of sulfate (CHEBI:35175)." [CHEBI:35175, PO:cooperl]
+xref: EO_GIT:27
 xref: OBO_SF2_EO:27
 is_a: EO:0001008 ! sulfate treatment
 created_by: moorel
@@ -438,6 +459,8 @@ creation_date: 2013-04-24T12:37:29Z
 id: EO:0001046
 name: limited phosphate treatment
 def: "A phosphate treatment (EO:0001006) involving exposure to limiting amounts or absence of phosphate (CHEBI:18367)." [CHEBI:18367, PO:cooperl]
+xref: EO_GIT:20
+xref: EO_GIT:26
 xref: OBO_SF2_EO:20
 xref: OBO_SF2_EO:26
 is_a: EO:0001006 ! phosphate treatment
@@ -458,6 +481,7 @@ creation_date: 2013-04-24T13:10:33Z
 id: EO:0001048
 name: limited molybdenum regimen
 def: "A molybdenum nutrient regimen (EO:0007253) involving exposure to limiting amounts or the absence of molybdenum (CHEBI:28685)." [CHEBI:28685, PO:cooperl]
+xref: EO_GIT:18
 xref: OBO_SF2_EO:18
 is_a: EO:0007253 ! molybdenum nutrient regimen
 created_by: moorel
@@ -477,7 +501,8 @@ creation_date: 2013-04-24T13:31:00Z
 id: EO:0001050
 name: limited nitrogen regimen
 def: "A nitrogen macronutrient regimen (EO:0007284) involving exposure to limiting amounts or the absence of nitrogen (CHEBI:25555)." [CHEBI:25555, PO:cooperl]
-xref: EO_GIT:2
+xref: EO_GIT:19
+xref: EO_GIT:25
 xref: OBO_SF2_EO:19
 xref: OBO_SF2_EO:2
 xref: OBO_SF2_EO:25
@@ -489,6 +514,7 @@ creation_date: 2013-04-24T13:45:43Z
 id: EO:0001051
 name: limited potassium regimen
 def: "A potassium nutrient regimen (EO:0007293) involving exposure to limiting amounts or the absence of potassium (CHEBI:26216)." [CHEBI:26216, PO:cooperl]
+xref: EO_GIT:21
 xref: OBO_SF2_EO:21
 is_a: EO:0007293 ! potassium nutrient regimen
 created_by: moorel
@@ -498,6 +524,7 @@ creation_date: 2013-04-24T13:54:39Z
 id: EO:0001052
 name: limited sulfur regimen
 def: "A sulfur nutrient regimen (EO:0007295) involving exposure to limiting amounts or the absence of sulfur (CHEBI:26833)." [CHEBI:26833, PO:cooperl]
+xref: EO_GIT:22
 xref: OBO_SF2_EO:22
 is_a: EO:0007295 ! sulfur nutrient regimen
 created_by: moorel
@@ -507,6 +534,7 @@ creation_date: 2013-04-24T14:06:32Z
 id: EO:0001053
 name: limited manganese regimen
 def: "A manganese nutrient regimen (EO:0007387) involving exposure to limiting amounts or the absence of manganese (CHEBI:18291)." [CHEBI:18291, PO:cooperl]
+xref: EO_GIT:24
 xref: OBO_SF2_EO:24
 is_a: EO:0007387 ! manganese nutrient regimen
 created_by: moorel
@@ -543,6 +571,7 @@ creation_date: 2013-04-25T13:18:08Z
 id: EO:0001057
 name: abnormal stratification treatment
 def: "A stratification treatment (EO:0001035) involving the absence of, or non-standard exposure to temperature or moisture conditions utilized in the breaking of seed dormancy." [POC:cooperl]
+xref: EO_GIT:47
 xref: OBO_SF2_EO:47
 is_a: EO:0001035 ! stratification treatment
 created_by: cooperl
@@ -872,6 +901,7 @@ is_a: EO:0007241 ! plant nutrient treatment
 id: EO:0007044
 name: mineral treatment
 def: "An inorganic chemical treatment (EO:0001004) involving the application of a mineral or a combination of minerals." [GR:pj, PO:cooperl]
+xref: EO_GIT:52
 xref: OBO_SF2_EO:52
 is_a: EO:0001004 ! inorganic chemical treatment
 
@@ -1845,6 +1875,7 @@ name: chemical treatment
 alt_id: EO:0007042
 def: "An abiotic plant treatment (EO:0007191) involving the application of chemical(s)." [GR:pj, PO:cooperl]
 synonym: "other chemical regimen" RELATED []
+xref: EO_GIT:50
 xref: OBO_SF2_EO:50
 is_a: EO:0007191 ! abiotic plant treatment
 
@@ -1858,6 +1889,7 @@ is_a: EO:0007107 ! Ascomycota treatment
 id: EO:0007191
 name: abiotic plant treatment
 def: "A plant treatment (EO:0001001) involving the application of chemical or non-biological factors." [GR:pj, PO:cooperl]
+xref: EO_GIT:49
 xref: OBO_SF2_EO:49
 is_a: EO:0001001 ! plant treatment
 
@@ -2067,6 +2099,7 @@ name: cadmium chloride treatment
 def: "A cadmium treatment (EO:0001018) involving use of CdCl2 (CHEBI:35456)." [CHEBI:35456, GR:pj, PO:cooperl]
 comment: Can be used to assess plant response to cadmium, a heavy metal.
 synonym: "CdCl2" RELATED []
+xref: EO_GIT:60
 xref: OBO_SF2_EO:60
 is_a: EO:0001018 ! cadmium treatment
 
@@ -3361,6 +3394,7 @@ is_a: EO:0001003 ! organic chemical treatment
 id: EO:0007408
 name: 5-methyltryptophan treatment
 def: "An organic chemical treatment (EO:0001003) involving the application of the tryptophan (Trp) analog 5-methyltryptophan (5MT; CHEBI: 52446)." [CHEBI:52446, PO:cooperl]
+xref: EO_GIT:61
 xref: OBO_SF2_EO:61
 is_a: EO:0001003 ! organic chemical treatment
 

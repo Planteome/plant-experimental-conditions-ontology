@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 03:08:2015 16:22
-saved-by: johnseth
+date: 04:08:2015 11:38
+saved-by: cooperl
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: plant_environment_ontology
 ontology: eo
@@ -184,7 +184,7 @@ creation_date: 2013-04-12T11:48:32Z
 id: EO:0001018
 name: cadmium treatment
 def: "A mineral treatment (EO:0007044) involving exposure of plant to cadmium (CHEBI:22977)." [CHEBI:22977, PO:cooperl]
-xref: EO_GIT:29
+xref: EO_GIT:30
 xref: OBO_SF2_EO:30
 is_a: EO:0007044 ! mineral treatment
 created_by: cooperl
@@ -331,7 +331,7 @@ id: EO:0001033
 name: parasitic wasp insect plant treatment
 def: "A Hymenoptera insect plant treatment (EO:0001032) that involves exposure to parasitic wasps." [PO:cooperl]
 comment: Parasitic wasp (or parasitoid wasp) refers to a large evolutionary grade of hymenopteran superfamilies, mainly in the Apocrita (from wikipedia).
-xref: EO_GIT:37
+xref: EO_GIT:38
 xref: OBO_SF2_EO:38
 is_a: EO:0001032 ! Hymenoptera insect plant treatment
 created_by: cooperl

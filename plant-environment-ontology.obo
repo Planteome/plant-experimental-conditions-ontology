@@ -340,7 +340,7 @@ creation_date: 2013-04-13T13:38:41Z
 [Term]
 id: EO:0001034
 name: Pseudomonas syringae plant treatment
-def: "A Pseudomonas plant treatment (EO:0007144) involving the exposure to bacteria of the Pseudomonas syringae group." [NCBI:136849, PO:cooperl]
+def: "A Pseudomonas plant treatment (EO:0007144) involving the exposure to bacteria of the Pseudomonas syringae group." [NCBITaxon:136849, PO:cooperl]
 xref: EO_GIT:40
 xref: OBO_SF2_EO:40
 is_a: EO:0007144 ! Pseudomonas plant treatment
@@ -1344,7 +1344,7 @@ is_a: EO:0007233 ! fungal plant treatment
 [Term]
 id: EO:0007108
 name: Proteobacterial plant treatment
-def: "A bacterial plant treatment (EO:0007246) involving the exposure of bacteria of the Proteobacteria." [GR:ivy, NCBI:1224]
+def: "A bacterial plant treatment (EO:0007246) involving the exposure of bacteria of the Proteobacteria." [GR:ivy, NCBITaxon:1224]
 synonym: "purple bacteria" RELATED []
 is_obsolete: true
 

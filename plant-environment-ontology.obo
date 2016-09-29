@@ -1467,6 +1467,7 @@ is_a: EO:0007116 ! Hemiptera insect plant treatment
 id: EO:0007124
 name: pest/pathogen/animal/plant environment
 def: "OBSOLETE: Treatment involving the exposure of plant to the pest/pathogen/animal/plants present as part of its growth environment." [GR:pj]
+comment: Consider: biotic plant treatment (EO:0007357).
 is_obsolete: true
 
 [Term]

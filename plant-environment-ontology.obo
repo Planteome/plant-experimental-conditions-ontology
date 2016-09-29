@@ -668,7 +668,7 @@ is_a: EO:0007357 ! biotic plant treatment
 [Term]
 id: EO:0007006
 name: monocot mixed crop neighbor
-def: "OBSOLETE" [GR:pj]
+def: "OBSOLETE." [GR:pj]
 is_obsolete: true
 
 [Term]
@@ -891,13 +891,13 @@ is_a: EO:0007027 ! seasonal environment
 [Term]
 id: EO:0007039
 name: dicot weed plant neighbor
-def: "OBSOLETE" [GR:pj]
+def: "OBSOLETE." [GR:pj]
 is_obsolete: true
 
 [Term]
 id: EO:0007040
 name: dicot mixed crop neighbor
-def: "OBSOLETE" [GR:pj]
+def: "OBSOLETE." [GR:pj]
 is_obsolete: true
 
 [Term]
@@ -1472,7 +1472,7 @@ is_obsolete: true
 [Term]
 id: EO:0007125
 name: genetic environment
-def: "OBSOLETE" [GR:pj]
+def: "OBSOLETE." [GR:pj]
 is_obsolete: true
 
 [Term]
@@ -1635,7 +1635,7 @@ is_a: EO:0007189 ! chemical treatment
 [Term]
 id: EO:0007150
 name: facultative anaerobic environment
-def: "OBSOLETE" [GR:pj]
+def: "OBSOLETE." [GR:pj]
 is_obsolete: true
 
 [Term]
@@ -2217,13 +2217,13 @@ is_a: EO:0007144 ! Pseudomonas plant treatment
 [Term]
 id: EO:0007237
 name: normal temperature regimen
-def: "OBSOLETE" [GR:pj]
+def: "OBSOLETE." [GR:pj]
 is_obsolete: true
 
 [Term]
 id: EO:0007238
 name: optimal temperature regimen
-def: "OBSOLETE" [GR:pj]
+def: "OBSOLETE." [GR:pj]
 is_obsolete: true
 
 [Term]
@@ -3034,19 +3034,19 @@ is_a: EO:0007111 ! ssRNA negative-strand virus
 [Term]
 id: EO:0007351
 name: genetic background
-def: "OBSOLETE" [GR:pj]
+def: "OBSOLETE." [GR:pj]
 is_obsolete: true
 
 [Term]
 id: EO:0007353
 name: germplasm
-def: "OBSOLETE" [GR:pj]
+def: "OBSOLETE." [GR:pj]
 is_obsolete: true
 
 [Term]
 id: EO:0007355
 name: genotype
-def: "OBSOLETE" [GR:pj]
+def: "OBSOLETE." [GR:pj]
 is_obsolete: true
 
 [Term]
@@ -3242,7 +3242,7 @@ is_a: EO:0007073 ! Basidiomycota treatment
 [Term]
 id: EO:0007380
 name: cytoplasmic genetic background
-def: "OBSOLETE" [GR:pj]
+def: "OBSOLETE." [GR:pj]
 is_obsolete: true
 
 [Term]
@@ -3321,7 +3321,7 @@ is_a: EO:0007064 ! ecological environment
 [Term]
 id: EO:0007393
 name: sub-sahara region
-def: "OBSOLETE" [GR:pj]
+def: "OBSOLETE." [GR:pj]
 is_obsolete: true
 
 [Term]

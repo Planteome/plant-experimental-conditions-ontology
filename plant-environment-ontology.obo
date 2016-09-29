@@ -18,7 +18,7 @@ creation_date: 2013-04-10T13:21:11Z
 [Term]
 id: EO:0001002
 name: plant growth environment
-def: "A plant environment (EO:0007359) involving a plant treatment (EO:0001001), or a combination plant treatments, as well as natural conditions for plant growth." [PO:cooperl]
+def: "OBSOLETE: A plant environment (EO:0007359) involving a plant treatment (EO:0001001), or a combination plant treatments, as well as natural conditions for plant growth." [PO:cooperl]
 synonym: "plant growing conditions" EXACT []
 xref: OBO_SF2_EO:59
 is_obsolete: true
@@ -668,13 +668,13 @@ is_a: EO:0007357 ! biotic plant treatment
 [Term]
 id: EO:0007006
 name: monocot mixed crop neighbor
-def: "OBSOLETE. " [GR:pj]
+def: "OBSOLETE" [GR:pj]
 is_obsolete: true
 
 [Term]
 id: EO:0007007
 name: monocot weed plant neighbor
-def: "OBSOLETE. " [GR:pj]
+def: "OBSOLETE" [GR:pj]
 is_obsolete: true
 
 [Term]
@@ -891,13 +891,13 @@ is_a: EO:0007027 ! seasonal environment
 [Term]
 id: EO:0007039
 name: dicot weed plant neighbor
-def: "OBSOLETE. " [GR:pj]
+def: "OBSOLETE" [GR:pj]
 is_obsolete: true
 
 [Term]
 id: EO:0007040
 name: dicot mixed crop neighbor
-def: "OBSOLETE. " [GR:pj]
+def: "OBSOLETE" [GR:pj]
 is_obsolete: true
 
 [Term]
@@ -992,13 +992,13 @@ is_a: EO:0007107 ! Ascomycota treatment
 [Term]
 id: EO:0007056
 name: soil flora
-def: "OBSOLETE. A treatment involving growing plants and  exposing them to varying types of flora in soil growth media." [GR:pj]
+def: "OBSOLETE: A treatment involving growing plants and  exposing them to varying types of flora in soil growth media." [GR:pj]
 is_obsolete: true
 
 [Term]
 id: EO:0007057
 name: soil fauna
-def: "OBSOLETE. A treatment involving growing plants and  exposing them to varying types of fauna in soil growth media." [GR:pj]
+def: "OBSOLETE: A treatment involving growing plants and  exposing them to varying types of fauna in soil growth media." [GR:pj]
 is_obsolete: true
 
 [Term]
@@ -1354,7 +1354,7 @@ is_a: EO:0007233 ! fungal plant treatment
 [Term]
 id: EO:0007108
 name: Proteobacterial plant treatment
-def: "A bacterial plant treatment (EO:0007246) involving the exposure of bacteria of the Proteobacteria." [GR:ivy, NCBITaxon:1224]
+def: "OBSOLETE: A bacterial plant treatment (EO:0007246) involving the exposure of bacteria of the Proteobacteria." [GR:ivy, NCBITaxon:1224]
 synonym: "purple bacteria" RELATED []
 is_obsolete: true
 
@@ -1466,13 +1466,13 @@ is_a: EO:0007116 ! Hemiptera insect plant treatment
 [Term]
 id: EO:0007124
 name: pest/pathogen/animal/plant environment
-def: "Treatment involving the exposure of plant to the pest/pathogen/animal/plants present as part of its growth environment." [GR:pj]
+def: "OBSOLETE: Treatment involving the exposure of plant to the pest/pathogen/animal/plants present as part of its growth environment." [GR:pj]
 is_obsolete: true
 
 [Term]
 id: EO:0007125
 name: genetic environment
-def: "OBSOLETE. " [GR:pj]
+def: "OBSOLETE" [GR:pj]
 is_obsolete: true
 
 [Term]
@@ -1635,7 +1635,7 @@ is_a: EO:0007189 ! chemical treatment
 [Term]
 id: EO:0007150
 name: facultative anaerobic environment
-def: "OBSOLETE. " [GR:pj]
+def: "OBSOLETE" [GR:pj]
 is_obsolete: true
 
 [Term]
@@ -2217,13 +2217,13 @@ is_a: EO:0007144 ! Pseudomonas plant treatment
 [Term]
 id: EO:0007237
 name: normal temperature regimen
-def: "OBSOLETE. " [GR:pj]
+def: "OBSOLETE" [GR:pj]
 is_obsolete: true
 
 [Term]
 id: EO:0007238
 name: optimal temperature regimen
-def: "OBSOLETE. " [GR:pj]
+def: "OBSOLETE" [GR:pj]
 is_obsolete: true
 
 [Term]
@@ -2527,7 +2527,7 @@ is_a: EO:0007231 ! study type
 [Term]
 id: EO:0007281
 name: obsolete environment term
-def: "The treatment involving the terms that are no longer in use or were deleted are placed under this parent term." [GR:pj]
+def: "OBSOLETE: The treatment involving the terms that are no longer in use or were deleted are placed under this parent term." [GR:pj]
 is_obsolete: true
 
 [Term]
@@ -3034,19 +3034,19 @@ is_a: EO:0007111 ! ssRNA negative-strand virus
 [Term]
 id: EO:0007351
 name: genetic background
-def: "OBSOLETE. " [GR:pj]
+def: "OBSOLETE" [GR:pj]
 is_obsolete: true
 
 [Term]
 id: EO:0007353
 name: germplasm
-def: "OBSOLETE. " [GR:pj]
+def: "OBSOLETE" [GR:pj]
 is_obsolete: true
 
 [Term]
 id: EO:0007355
 name: genotype
-def: "OBSOLETE. " [GR:pj]
+def: "OBSOLETE" [GR:pj]
 is_obsolete: true
 
 [Term]
@@ -3242,13 +3242,13 @@ is_a: EO:0007073 ! Basidiomycota treatment
 [Term]
 id: EO:0007380
 name: cytoplasmic genetic background
-def: "OBSOLETE. " [GR:pj]
+def: "OBSOLETE" [GR:pj]
 is_obsolete: true
 
 [Term]
 id: EO:0007381
 name: nuclear genetic background
-def: "OBSOLETE. " [GR:pj]
+def: "OBSOLETE" [GR:pj]
 is_obsolete: true
 
 [Term]
@@ -3321,7 +3321,7 @@ is_a: EO:0007064 ! ecological environment
 [Term]
 id: EO:0007393
 name: sub-sahara region
-def: "OBSOLETE. " [GR:pj]
+def: "OBSOLETE" [GR:pj]
 is_obsolete: true
 
 [Term]

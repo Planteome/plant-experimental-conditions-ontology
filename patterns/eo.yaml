@@ -1,0 +1,30 @@
+pattern_name: eo
+classes:
+  plant experimental condition: EO_0007359
+
+relations:
+  contains: RO_0001019
+    
+vars: 
+  element: "'Thing'"
+
+name:
+  text: "%s treatment"
+  vars:
+    - element
+    
+annotations: 
+  - property: oio:hasExactSynonym
+    text: "%s"
+    vars:
+      - iri name
+
+def: 
+  text: "A treatment involving the use of %s"
+  vars:
+    - element
+    
+equivalentTo: 
+  text: "'plant experimental condition' and 'contains' some %s"
+  vars:
+    - element

@@ -1,0 +1,25 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX oio: <http://www.geneontology.org/formats/oboInOwl#>  
+PREFIX obo: <http://purl.obolibrary.org/obo/>  
+
+CONSTRUCT{
+    ?s ?p ?o .
+    ?eo rdfs:label ?name .
+    ?eo ?pe ?oe
+}
+WHERE { 
+    {
+        ?eo rdfs:subClassOf* obo:EO_0007357 .
+        ?eo ?pe ?oe .
+        ?eo rdfs:label ?eoname .
+        BIND(if(!contains(?eoname, "treatment"), ?eoname+ " treatment", ?eoname) AS ?name) .
+        FILTER (?pe != rdfs:label) 
+    }UNION{
+        ?s ?p ?o .
+        FILTER NOT EXISTS{
+            ?s rdfs:subClassOf* obo:EO_0007357 .
+        }
+    }  
+}

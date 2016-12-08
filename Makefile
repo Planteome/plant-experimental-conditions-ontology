@@ -1,5 +1,5 @@
 OBO=http://purl.obolibrary.org/obo
-ONT=to
+ONT=eo
 BASE=$(OBO)/$(ONT)
 #SRC=plant-trait-ontology.obo.owl
 SRC=plant-environment-ontology.obo
@@ -11,6 +11,9 @@ OWLTOOLS= owltools
 all: all_imports $(ONT).owl $(ONT).obo
 test: $(ONT).owl $(ONT).obo
 prepare_release: all
+
+$(SRC).owl: $(SRC)
+	$(ROBOT) convert -i $< -o $@
 
 $(ONT).owl: $(SRC)
 	$(ROBOT)  reason -i $< -r ELK relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@

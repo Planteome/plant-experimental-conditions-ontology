@@ -2,3 +2,12 @@ http://purl.obolibrary.org/obo/NCBITaxon_6303 ## Meloidogyne javanica
 http://purl.obolibrary.org/obo/NCBITaxon_6306 ## Meloidogyne incognita
 http://purl.obolibrary.org/obo/NCBITaxon_42475 ## rice ragged stunt virus
 http://purl.obolibrary.org/obo/NCBITaxon_31744 ## rice yellow mottle virus
+http://purl.obolibrary.org/obo/NCBITaxon_101162
+http://purl.obolibrary.org/obo/NCBITaxon_111238
+http://purl.obolibrary.org/obo/NCBITaxon_116609
+http://purl.obolibrary.org/obo/NCBITaxon_148305
+http://purl.obolibrary.org/obo/NCBITaxon_165778
+http://purl.obolibrary.org/obo/NCBITaxon_2093
+http://purl.obolibrary.org/obo/NCBITaxon_437488
+http://purl.obolibrary.org/obo/NCBITaxon_5127
+http://purl.obolibrary.org/obo/NCBITaxon_94399

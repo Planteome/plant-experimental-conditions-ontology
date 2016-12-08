@@ -1,5 +1,5 @@
 format-version: 1.2
-ontology: to/imports/ro_import
+ontology: eo/imports/ro_import
 
 [Term]
 id: BFO:0000002

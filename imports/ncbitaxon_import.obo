@@ -1,0 +1,184 @@
+format-version: 1.2
+ontology: to/imports/ncbitaxon_import
+
+[Term]
+id: NCBITaxon:1
+name: root
+synonym: "all" RELATED synonym []
+
+[Term]
+id: NCBITaxon:10239
+name: Viruses
+synonym: "Vira" RELATED synonym []
+synonym: "Viridae" RELATED synonym []
+synonym: "viruses" RELATED blast_name []
+is_a: NCBITaxon:1 ! root
+
+[Term]
+id: NCBITaxon:10880
+name: Reoviridae
+is_a: NCBITaxon:35325 ! dsRNA viruses
+
+[Term]
+id: NCBITaxon:10992
+name: Oryzavirus
+synonym: "Plant reovirus subgroup 3" RELATED synonym []
+is_a: NCBITaxon:689831 ! Spinareovirinae
+
+[Term]
+id: NCBITaxon:119089
+name: Chromadorea
+synonym: "Adenophorea" RELATED synonym []
+is_a: NCBITaxon:6231 ! Nematoda
+
+[Term]
+id: NCBITaxon:1206794
+name: Ecdysozoa
+is_a: NCBITaxon:33317 ! Protostomia
+
+[Term]
+id: NCBITaxon:12137
+name: Sobemovirus
+synonym: "Velvet tobacco mottle virus group" RELATED synonym []
+is_a: NCBITaxon:35278 ! ssRNA positive-strand viruses, no DNA stage
+
+[Term]
+id: NCBITaxon:131567
+name: cellular organisms
+synonym: "biota" RELATED synonym []
+is_a: NCBITaxon:1 ! root
+
+[Term]
+id: NCBITaxon:189290
+name: Meloidogyne
+is_a: NCBITaxon:33285 ! Meloidogyninae
+
+[Term]
+id: NCBITaxon:2759
+name: Eukaryota
+synonym: "Eucarya" RELATED synonym []
+synonym: "Eucaryotae" RELATED synonym []
+synonym: "eucaryotes" EXACT genbank_common_name []
+synonym: "Eukarya" RELATED synonym []
+synonym: "Eukaryotae" RELATED synonym []
+synonym: "eukaryotes" EXACT common_name []
+synonym: "eukaryotes" RELATED blast_name []
+is_a: NCBITaxon:131567 ! cellular organisms
+
+[Term]
+id: NCBITaxon:315429
+name: Meloidogynidae
+is_a: NCBITaxon:33284 ! Tylenchoidea
+
+[Term]
+id: NCBITaxon:31744
+name: Rice yellow mottle virus
+is_a: NCBITaxon:12137 ! Sobemovirus
+
+[Term]
+id: NCBITaxon:33154
+name: Opisthokonta
+synonym: "Fungi/Metazoa group" RELATED synonym []
+synonym: "opisthokonts" RELATED synonym []
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:33208
+name: Metazoa
+synonym: "Animalia" RELATED synonym []
+synonym: "animals" RELATED blast_name []
+synonym: "metazoans" EXACT genbank_common_name []
+synonym: "multicellular animals" EXACT common_name []
+is_a: NCBITaxon:33154 ! Opisthokonta
+
+[Term]
+id: NCBITaxon:33213
+name: Bilateria
+is_a: NCBITaxon:6072 ! Eumetazoa
+
+[Term]
+id: NCBITaxon:33283
+name: Tylenchina
+is_a: NCBITaxon:6300 ! Tylenchida
+
+[Term]
+id: NCBITaxon:33284
+name: Tylenchoidea
+is_a: NCBITaxon:33283 ! Tylenchina
+
+[Term]
+id: NCBITaxon:33285
+name: Meloidogyninae
+is_a: NCBITaxon:315429 ! Meloidogynidae
+
+[Term]
+id: NCBITaxon:33317
+name: Protostomia
+is_a: NCBITaxon:33213 ! Bilateria
+
+[Term]
+id: NCBITaxon:35278
+name: ssRNA positive-strand viruses, no DNA stage
+is_a: NCBITaxon:439488 ! ssRNA viruses
+
+[Term]
+id: NCBITaxon:35325
+name: dsRNA viruses
+synonym: "dsRNA nonenveloped viruses" RELATED synonym []
+is_a: NCBITaxon:10239 ! Viruses
+
+[Term]
+id: NCBITaxon:42475
+name: Rice ragged stunt virus
+synonym: "rice ragged stunt oryzavirus" RELATED synonym []
+synonym: "RRSV" BROAD acronym []
+is_a: NCBITaxon:10992 ! Oryzavirus
+
+[Term]
+id: NCBITaxon:439488
+name: ssRNA viruses
+is_a: NCBITaxon:10239 ! Viruses
+
+[Term]
+id: NCBITaxon:6072
+name: Eumetazoa
+is_a: NCBITaxon:33208 ! Metazoa
+
+[Term]
+id: NCBITaxon:6231
+name: Nematoda
+synonym: "Nemata" RELATED synonym []
+synonym: "nematode" EXACT common_name []
+synonym: "nematodes" EXACT common_name []
+synonym: "nematodes" RELATED blast_name []
+synonym: "roundworm" EXACT common_name []
+synonym: "roundworms" EXACT genbank_common_name []
+is_a: NCBITaxon:1206794 ! Ecdysozoa
+
+[Term]
+id: NCBITaxon:6300
+name: Tylenchida
+is_a: NCBITaxon:119089 ! Chromadorea
+
+[Term]
+id: NCBITaxon:6303
+name: Meloidogyne javanica
+synonym: "root-knot nematode" EXACT genbank_common_name []
+is_a: NCBITaxon:654580 ! Meloidogyne incognita group
+
+[Term]
+id: NCBITaxon:6306
+name: Meloidogyne incognita
+synonym: "southern root-knot nematode" EXACT genbank_common_name []
+is_a: NCBITaxon:654580 ! Meloidogyne incognita group
+
+[Term]
+id: NCBITaxon:654580
+name: Meloidogyne incognita group
+is_a: NCBITaxon:189290 ! Meloidogyne
+
+[Term]
+id: NCBITaxon:689831
+name: Spinareovirinae
+is_a: NCBITaxon:10880 ! Reoviridae
+

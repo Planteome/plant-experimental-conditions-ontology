@@ -1,0 +1,25 @@
+format-version: 1.2
+ontology: to/imports/ro_import
+
+[Term]
+id: BFO:0000002
+name: continuant
+def: "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts." []
+disjoint_from: BFO:0000003 ! occurrent
+
+[Term]
+id: BFO:0000003
+name: occurrent
+def: "An entity that has temporal parts and that happens, unfolds or develops through time." []
+
+[Typedef]
+id: RO:0000056
+domain: BFO:0000002 ! continuant
+range: BFO:0000003 ! occurrent
+inverse_of: RO:0000057
+
+[Typedef]
+id: RO:0000057
+domain: BFO:0000003 ! occurrent
+range: BFO:0000002 ! continuant
+

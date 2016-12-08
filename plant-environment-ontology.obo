@@ -3,6 +3,10 @@ date: 12:10:2015 15:21
 saved-by: cooperl
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: plant_environment_ontology
+import: http://purl.obolibrary.org/obo/patterns/eo_pattern.owl
+import: http://purl.obolibrary.org/obo/eo/imports/chebi_import.owl
+import: http://purl.obolibrary.org/obo/eo/imports/ncbitaxon_import.owl
+import: http://purl.obolibrary.org/obo/eo/imports/ro_import.owl
 ontology: eo
 
 [Term]

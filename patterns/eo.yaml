@@ -1,9 +1,11 @@
 pattern_name: eo
 classes:
   plant experimental condition: EO_0007359
+  plant treatment: EO_0001001
 
 relations:
   contains: RO_0001019
+  has participant: RO_0000057
     
 vars: 
   element: "'Thing'"
@@ -25,6 +27,6 @@ def:
     - element
     
 equivalentTo: 
-  text: "'plant experimental condition' and 'contains' some %s"
+  text: "'plant treatment' and 'has participant' some %s"
   vars:
     - element

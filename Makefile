@@ -51,6 +51,9 @@ all_patterns: $(PATTERNS_OWL)
 
 patterns/%_pattern.owl: patterns/%.tsv
 	patterns/apply-pattern.py -P patterns/curie_map.yaml -i patterns/$*.tsv -p patterns/eo.yaml -n $@ > $@
+patterns/%_pattern.obo: patterns/%_pattern.owl
+	$(OWLTOOLS) $< -o -f obo $@
+
 
 #print var function
 print-%:

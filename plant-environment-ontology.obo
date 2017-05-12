@@ -679,15 +679,15 @@ is_obsolete: true
 
 [Term]
 id: EO:0007008
-name: Monochoria vaginalis
+name: Monochoria vaginalis treatment
 def: "The exposure of reference/experimental plant to monocot plant Monochoria vaginalis, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:44972]
 synonym: "Asian pickerel weed" RELATED []
 synonym: "heartshape false pickerelweed" RELATED []
-is_a: EO:0007022 ! Liliopsida
+is_a: EO:0007022 ! Liliopsida treatment
 
 [Term]
 id: EO:0007009
-name: Eudicotyledon
+name: Eudicotyledon treatment
 def: "The exposure of reference/experimental plant to dicot plants found in its growth environment. These plants may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:71240]
 synonym: "dicot" RELATED []
 synonym: "Eudicot" RELATED []
@@ -695,94 +695,94 @@ is_a: EO:0007005 ! Viridiplantae plant treatment
 
 [Term]
 id: EO:0007010
-name: Sagittaria montevidensis
+name: Sagittaria montevidensis treatment
 def: "The exposure of reference/experimental plant to monocot plant Sagittaria montevidensis, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:118780]
 synonym: "giant arrowhead" RELATED []
-is_a: EO:0007139 ! Sagittaria spp.
+is_a: EO:0007139 ! Sagittaria spp. treatment
 
 [Term]
 id: EO:0007011
-name: Sagittaria longiloba
+name: Sagittaria longiloba treatment
 def: "The exposure of reference/experimental plant to monocot plant Sagittaria longiloba, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
 synonym: "Flecha de Agua" RELATED []
 synonym: "longlobe arrowhead" RELATED []
 synonym: "narrow-leaf arrowhead" RELATED []
-is_a: EO:0007139 ! Sagittaria spp.
+is_a: EO:0007139 ! Sagittaria spp. treatment
 
 [Term]
 id: EO:0007012
-name: Heteranthera limosa
+name: Heteranthera limosa treatment
 def: "The exposure of reference/experimental plant to monocot plant Heteranthera limosa, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:44958]
 synonym: "blue mud-plantain" RELATED []
 synonym: "ducksalad" RELATED []
-is_a: EO:0007022 ! Liliopsida
+is_a: EO:0007022 ! Liliopsida treatment
 
 [Term]
 id: EO:0007013
-name: Echinodorus berteroi
+name: Echinodorus berteroi treatment
 def: "The exposure of reference/experimental plant to monocot plant Echinodorus berteroi, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
 synonym: "upright burhead" RELATED []
-is_a: EO:0007138 ! Echinodorus spp.
+is_a: EO:0007138 ! Echinodorus spp. treatment
 
 [Term]
 id: EO:0007014
-name: Echinodorus cordifolius
+name: Echinodorus cordifolius treatment
 def: "The exposure of reference/experimental plant to monocot plant Echinodorus cordifolius, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:13048]
 synonym: "creeping burhead" RELATED []
 synonym: "Texas mudbaby" RELATED []
-is_a: EO:0007138 ! Echinodorus spp.
+is_a: EO:0007138 ! Echinodorus spp. treatment
 
 [Term]
 id: EO:0007015
-name: Ammannia spp.
+name: Ammannia spp. treatment
 def: "The exposure of reference/experimental plant to dicot plant genus Ammannia found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
-is_a: EO:0007009 ! Eudicotyledon
+is_a: EO:0007009 ! Eudicotyledon treatment
 
 [Term]
 id: EO:0007016
-name: Bacopa spp.
+name: Bacopa spp. treatment
 def: "The exposure of reference/experimental plant to dicot plant genus Bacopa found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
-is_a: EO:0007009 ! Eudicotyledon
+is_a: EO:0007009 ! Eudicotyledon treatment
 
 [Term]
 id: EO:0007017
-name: Cyperus difformis
+name: Cyperus difformis treatment
 def: "The exposure of reference/experimental plant to monocot plant Cyperus difformis, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
 synonym: "flatsedge" RELATED []
 synonym: "smallflower umbrellaplant" RELATED []
-is_a: EO:0007141 ! Cyperus spp.
+is_a: EO:0007141 ! Cyperus spp. treatment
 
 [Term]
 id: EO:0007018
-name: Scirpus fluviatilis
+name: Scirpus fluviatilis treatment
 def: "The exposure of reference/experimental plant to monocot plant Scirpus fluviatilis, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
 synonym: "river bulrush" RELATED []
-is_a: EO:0007140 ! Scirpus spp.
+is_a: EO:0007140 ! Scirpus spp. treatment
 
 [Term]
 id: EO:0007019
-name: Cyperus iria
+name: Cyperus iria treatment
 def: "The exposure of reference/experimental plant to monocot plant Cyperus difformis, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
 synonym: "rice field flatsedge" RELATED []
-is_a: EO:0007141 ! Cyperus spp.
+is_a: EO:0007141 ! Cyperus spp. treatment
 
 [Term]
 id: EO:0007020
-name: Scirpus mucronatus
+name: Scirpus mucronatus treatment
 def: "The exposure of reference/experimental plant to monocot plant Scirpus mucronatus, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
 synonym: "ricefield bulrush" RELATED []
-is_a: EO:0007140 ! Scirpus spp.
+is_a: EO:0007140 ! Scirpus spp. treatment
 
 [Term]
 id: EO:0007021
-name: Alisma plantago-aquatica
+name: Alisma plantago-aquatica treatment
 def: "The exposure of reference/experimental plant to monocot plant Alisma plantago-aquatica found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:15000]
 synonym: "water plantain" RELATED []
-is_a: EO:0007022 ! Liliopsida
+is_a: EO:0007022 ! Liliopsida treatment
 
 [Term]
 id: EO:0007022
-name: Liliopsida
+name: Liliopsida treatment
 def: "The exposure of reference/experimental plant to monocot plants found in its growth environment. These plants may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:4447]
 synonym: "monocot" RELATED []
 synonym: "monocotyledon" RELATED []
@@ -810,10 +810,10 @@ is_a: EO:0007023 ! gaseous treatment
 
 [Term]
 id: EO:0007026
-name: Echinochloa glabrescens
+name: Echinochloa glabrescens treatment
 def: "The exposure of reference/experimental plant to monocot plant Echinochloa glabrescens found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
 synonym: "barnyardgrass" RELATED []
-is_a: EO:0007137 ! Echinochloa spp.
+is_a: EO:0007137 ! Echinochloa spp. treatment
 
 [Term]
 id: EO:0007027
@@ -825,29 +825,29 @@ is_a: EO:0001001 ! plant treatment
 
 [Term]
 id: EO:0007028
-name: Echinochloa crus-galli
+name: Echinochloa crus-galli treatment
 def: "The exposure of reference/experimental plant to monocot plant Echinochloa crus-galli, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:90397]
 synonym: "barnyardgrass" RELATED []
 synonym: "cockspur grass" RELATED []
-is_a: EO:0007137 ! Echinochloa spp.
+is_a: EO:0007137 ! Echinochloa spp. treatment
 
 [Term]
 id: EO:0007029
-name: Typha spp.
+name: Typha spp. treatment
 def: "The exposure of reference/experimental plant to monocot plant of genus Typha spp found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:4732]
 synonym: "cattail" RELATED []
-is_a: EO:0007022 ! Liliopsida
+is_a: EO:0007022 ! Liliopsida treatment
 
 [Term]
 id: EO:0007030
-name: Leptochloa fascicularis
+name: Leptochloa fascicularis treatment
 def: "The exposure of reference/experimental plant to monocot plant Leptochloa fascicularis found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj]
 synonym: "bearded sprangeltop" RELATED []
-is_a: EO:0007022 ! Liliopsida
+is_a: EO:0007022 ! Liliopsida treatment
 
 [Term]
 id: EO:0007031
-name: Mammalia
+name: Mammalia treatment
 def: "The exposure of plant to the anilmals of higher order that may be resopnsible for damaging the plant due to grazing or feeding practices." [GR:pj, NCBI_taxid:40674]
 synonym: "mammal" RELATED []
 is_a: EO:0007349 ! metazoan plant treatment
@@ -985,7 +985,7 @@ is_a: EO:0007050 ! soil texture
 
 [Term]
 id: EO:0007055
-name: Cochliobolus spp.
+name: Cochliobolus spp. treatment
 def: "Treatment involving the exposure of plant to the pathogen Cochliobolus spp." [GR:ivy, NCBI_taxid:5015]
 is_a: EO:0007107 ! Ascomycota treatment
 
@@ -1061,7 +1061,7 @@ is_a: EO:0001001 ! plant treatment
 
 [Term]
 id: EO:0007065
-name: Entyloma oryzae
+name: Entyloma oryzae treatment
 def: "Treatment involving the exposure of plant to the pathogen Entyloma oryzae. It is a causal agent for rice Leaf Smut disease." [GR:ivy]
 synonym: "Entyloma dactylidis" RELATED []
 synonym: "Entyloma lineatum" RELATED []
@@ -1120,7 +1120,7 @@ is_a: EO:0007265 ! in vitro liquid growth medium
 
 [Term]
 id: EO:0007072
-name: Microdochium oryzae
+name: Microdochium oryzae treatment
 def: "Treatment involving the exposure of plant to the pathogen Microdochium oryzae. It is a causal agent for rice various forms of Leaf scald disease such as Brown Leaf Blight Disease , Leaf Sheath Browning Disease, Leaf Tip Blight Disease and Leaf Tip Dying Disease." [GR:ivy]
 synonym: "Rhynchosporium oryzae" RELATED []
 is_a: EO:0007107 ! Ascomycota treatment
@@ -1153,7 +1153,7 @@ is_a: EO:0007224 ! light intensity regimen
 
 [Term]
 id: EO:0007077
-name: Tilletia barclayana
+name: Tilletia barclayana treatment
 def: "Treatment involving the exposure of plant to the pathogen Tilletia barclayana. It is a causal agent for rice Kernel Smut disease." [GR:ivy, NCBI_taxid:157178]
 synonym: "Neovossia horrida" RELATED []
 is_a: EO:0007073 ! Basidiomycota treatment
@@ -1192,7 +1192,7 @@ is_a: EO:0007396 ! flood prone region
 
 [Term]
 id: EO:0007083
-name: Phoma sorghina
+name: Phoma sorghina treatment
 def: "Treatment involving the exposure of plant to the pathogen Phoma sorghina." [GR:ivy, NCBI_taxid:73005]
 comment: It is a causal agent for rice Glume Blight Disease.
 xref: NCBI_taxid:73005
@@ -1200,7 +1200,7 @@ is_a: EO:0007107 ! Ascomycota treatment
 
 [Term]
 id: EO:0007084
-name: other animals
+name: other animals treatment
 def: "Treatment involving the exposure of plant to the pests that do not falll under the well known classes of birds, mammals, insects, nematode and molluscs." [GR:pj]
 is_a: EO:0007349 ! metazoan plant treatment
 
@@ -1225,7 +1225,7 @@ is_a: EO:0007085 ! fertilizer regimen
 
 [Term]
 id: EO:0007088
-name: Ceratobasidium oryzae-sativae
+name: Ceratobasidium oryzae-sativae treatment
 def: "Treatment involving the exposure of plant to the pathogen Ceratobasidium oryzae-sativae. It is a causal agent for rice Aggregate Sheath Spot disease, which is also known as Brown Sclerotial disease." [GR:ivy, NCBI_taxid:63189]
 synonym: "Ceratobasidium oryzae-sativae" RELATED []
 synonym: "Ceratobasidium sativae" RELATED []
@@ -1337,7 +1337,7 @@ is_a: EO:0007165 ! growth hormone treatment
 
 [Term]
 id: EO:0007106
-name: Stramenopiles
+name: Stramenopiles treatment
 def: "Treatment involving the exposure of plant to the Stramenopiles (heterokonts) present in the growth environment." [GR:pj, NCBI_taxid:33634]
 synonym: "chromophyta" RELATED []
 synonym: "heterokont" RELATED []
@@ -1360,41 +1360,41 @@ is_obsolete: true
 
 [Term]
 id: EO:0007109
-name: ssRNA positive-strand virus with no DNA stage
+name: ssRNA positive-strand virus with no DNA stage treatment
 def: "Treatment involving the exposure of plant to the pathogenic single strand RNA positive stand virus." [GR:pj]
 is_a: EO:0007210 ! virus plant treatment
 
 [Term]
 id: EO:0007110
-name: dsRNA virus
+name: dsRNA virus treatment
 def: "Treatment involving the exposure of plant to the pathogenic double stranded RNA virus." [GR:pj, NCBI_taxid:35325]
 synonym: "dsRNA nonenveloped viruses" RELATED []
 is_a: EO:0007210 ! virus plant treatment
 
 [Term]
 id: EO:0007111
-name: ssRNA negative-strand virus
+name: ssRNA negative-strand virus treatment
 def: "Treatment involving the exposure of plant to the pathogenic single strand RNA negative stand virus." [GR:pj]
 is_a: EO:0007210 ! virus plant treatment
 
 [Term]
 id: EO:0007112
-name: retroid virus
+name: retroid virus treatment
 def: "Treatment involving the exposure of plant to the pathogenic retroid virus." [GR:pj, NCBI_taxid:35268]
 is_a: EO:0007210 ! virus plant treatment
 
 [Term]
 id: EO:0007113
-name: rice necrosis mosaic virus
+name: rice necrosis mosaic virus treatment
 alt_id: EO:0007354
 def: "Treatment involving the exposure of plant to the rice necrosis mosaic virus. It is a causal agent for rice necrosis mosaic disease." [GR:ivy, NCBI_taxid:59500]
 synonym: "rice necrosis mosaic virus" RELATED []
 synonym: "RNMV" RELATED []
-is_a: EO:0007109 ! ssRNA positive-strand virus with no DNA stage
+is_a: EO:0007109 ! ssRNA positive-strand virus with no DNA stage treatment
 
 [Term]
 id: EO:0007114
-name: Lepidoptera
+name: Lepidoptera treatment
 def: "Treatment involving the exposure of plant to the pest of lepidoptera class." [GR:pj, NCBI_taxid:7088]
 synonym: "butterfly" RELATED []
 synonym: "moth" RELATED []
@@ -1402,28 +1402,28 @@ is_a: EO:0007333 ! insect plant treatment
 
 [Term]
 id: EO:0007115
-name: Spodoptera spp.
+name: Spodoptera spp. treatment
 def: "Treatment involving the exposure of plant to the pest Spodoptera spp." [GR:pj, NCBI_taxid:7106]
-is_a: EO:0007114 ! Lepidoptera
+is_a: EO:0007114 ! Lepidoptera treatment
 
 [Term]
 id: EO:0007116
 name: Hemiptera insect plant treatment
 def: "An insect plant treatment (EO:0007333) involving the exposure of a plant to an insect(s) of the Hemiptera order." [GR:pj, NCBI_taxid:7524, PO:cooperl]
-comment: Insects of the Hemiptera order include aphids, planthoppers, bugs\nwhiteflies, scale insects, psyllids and jumping plant lice.
+comment: Insects of the Hemiptera order include aphids, planthoppers, bugsnwhiteflies, scale insects, psyllids and jumping plant lice.
 synonym: "bug" RELATED []
 is_a: EO:0007333 ! insect plant treatment
 
 [Term]
 id: EO:0007117
-name: Pseudaletia spp.
+name: Pseudaletia spp. treatment
 def: "Treatment involving the exposure of plant to the pest rice army worm." [GR:pj, NCBI_taxid:7104]
 synonym: "armyworm" RELATED []
-is_a: EO:0007114 ! Lepidoptera
+is_a: EO:0007114 ! Lepidoptera treatment
 
 [Term]
 id: EO:0007118
-name: Gibberella spp.
+name: Gibberella spp. treatment
 def: "Treatment involving the exposure of plant to the pathogen Gibberella spp." [GR:ivy, NCBI_taxid:5126]
 is_a: EO:0007107 ! Ascomycota treatment
 
@@ -1436,29 +1436,29 @@ is_a: EO:0007333 ! insect plant treatment
 
 [Term]
 id: EO:0007120
-name: Coleoptera
+name: Coleoptera treatment
 def: "Treatment involving the exposure of plant to the pest commonly called as beetles or Coleoptera." [GR:pj, NCBI_taxid:7041]
 synonym: "beetle" RELATED []
 is_a: EO:0007333 ! insect plant treatment
 
 [Term]
 id: EO:0007121
-name: Thysanoptera
+name: Thysanoptera treatment
 def: "Treatment involving the exposure of plant to the pest of Thysanoptera class." [GR:pj, NCBI_taxid:30262]
 synonym: "thrips" RELATED []
 is_a: EO:0007333 ! insect plant treatment
 
 [Term]
 id: EO:0007122
-name: Chilo
+name: Chilo treatment
 def: "Treatment involving the exposure of plant to the pest Chilo." [GR:pj, NCBI_taxid:168630]
 synonym: "stalk borer" RELATED []
 synonym: "stemborer" RELATED []
-is_a: EO:0007114 ! Lepidoptera
+is_a: EO:0007114 ! Lepidoptera treatment
 
 [Term]
 id: EO:0007123
-name: Eysarcoris trimaculatus
+name: Eysarcoris trimaculatus treatment
 def: "Treatment involving the exposure of plant to the pest rice spotting bug." [GR:pj]
 synonym: "rice spotting bug" RELATED []
 is_a: EO:0007116 ! Hemiptera insect plant treatment
@@ -1478,16 +1478,16 @@ is_obsolete: true
 
 [Term]
 id: EO:0007126
-name: Hirschmaniella spp.
+name: Hirschmaniella spp. treatment
 def: "Treatment involving the exposure of plant to the pest Hirschmaniella spp. It is a causal agent for rice root nematode disease." [GR:pj]
-is_a: EO:0007337 ! Nematoda
+is_a: EO:0007337 ! Nematoda treatment
 
 [Term]
 id: EO:0007127
-name: Meloidogyne spp.
+name: Meloidogyne spp. treatment
 def: "Treatment involving the exposure of plant to the pest Meloidogyne spp. It is a causal agent for rice root knot nematode disease." [GR:pj, NCBI_taxid:189290]
 synonym: "root-knot nematode" RELATED []
-is_a: EO:0007337 ! Nematoda
+is_a: EO:0007337 ! Nematoda treatment
 
 [Term]
 id: EO:0007128
@@ -1538,53 +1538,53 @@ is_a: EO:0007171 ! pH regimen
 
 [Term]
 id: EO:0007135
-name: Magnaporthe spp.
+name: Magnaporthe spp. treatment
 def: "The treatment involving an exposure of plant to the pathogen Magnaporthe spp." [GR:ivy, NCBI_taxid:148303]
 is_a: EO:0007107 ! Ascomycota treatment
 
 [Term]
 id: EO:0007136
-name: Achlya spp.
+name: Achlya spp. treatment
 def: "The treatment involving an exposure of plant to the Achlya spp." [GR:pj, NCBI_taxid:4765]
-is_a: EO:0007106 ! Stramenopiles
+is_a: EO:0007106 ! Stramenopiles treatment
 
 [Term]
 id: EO:0007137
-name: Echinochloa spp.
+name: Echinochloa spp. treatment
 def: "The treatment involving an exposure of reference/experimental plant to monocot plant genus Echinochloa found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:45618]
-is_a: EO:0007022 ! Liliopsida
+is_a: EO:0007022 ! Liliopsida treatment
 
 [Term]
 id: EO:0007138
-name: Echinodorus spp.
+name: Echinodorus spp. treatment
 def: "The treatment involving an exposure of reference/experimental plant to monocot plant genus Echinodorus found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:13047]
 synonym: "burhead" RELATED []
-is_a: EO:0007022 ! Liliopsida
+is_a: EO:0007022 ! Liliopsida treatment
 
 [Term]
 id: EO:0007139
-name: Sagittaria spp.
+name: Sagittaria spp. treatment
 def: "The treatment involving an exposure of reference/experimental plant to monocot plant genus Sagittaria found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:4450]
 synonym: "arrowhead" RELATED []
-is_a: EO:0007022 ! Liliopsida
+is_a: EO:0007022 ! Liliopsida treatment
 
 [Term]
 id: EO:0007140
-name: Scirpus spp.
+name: Scirpus spp. treatment
 def: "The treatment involving an exposure of reference/experimental plant to monocot plant genus Scirpus found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:46334]
-is_a: EO:0007022 ! Liliopsida
+is_a: EO:0007022 ! Liliopsida treatment
 
 [Term]
 id: EO:0007141
-name: Cyperus spp.
+name: Cyperus spp. treatment
 def: "The treatment involving an exposure of reference/experimental plant to monocot plant genus Cyperus found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [GR:pj, NCBI_taxid:4610]
-is_a: EO:0007022 ! Liliopsida
+is_a: EO:0007022 ! Liliopsida treatment
 
 [Term]
 id: EO:0007142
-name: Scirpophaga spp.
+name: Scirpophaga spp. treatment
 def: "The treatment involving an exposure of plant to the pest Scirpophaga spp." [GR:pj, NCBI_taxid:72365]
-is_a: EO:0007114 ! Lepidoptera
+is_a: EO:0007114 ! Lepidoptera treatment
 
 [Term]
 id: EO:0007143
@@ -1620,7 +1620,7 @@ is_a: EO:0007191 ! abiotic plant treatment
 
 [Term]
 id: EO:0007148
-name: Xanthomonas oryzae
+name: Xanthomonas oryzae treatment
 def: "The treatment involving an exposure of plant to the pathogen Xanthomonas oryzae. It is a causal agent for rice bacterial blight disease." [GR:ivy, NCBI_taxid:347]
 synonym: "Pseudomonas oryzae" RELATED []
 is_a: EO:0007145 ! Xanthomonas plant treatment
@@ -1733,9 +1733,9 @@ is_a: EO:0007189 ! chemical treatment
 
 [Term]
 id: EO:0007166
-name: Pythium spinosum
+name: Pythium spinosum treatment
 def: "The treatment involving an exposure of plant to the Pythium spinosum. It is a causal agent for rice seedling blight (fungal) or feeder root necrosis or water mold dieases. Water mold diease is also called as seed rot or seedling damping-off disease." [GR:pj, NCBI_taxid:82948]
-is_a: EO:0007328 ! Pythium spp.
+is_a: EO:0007328 ! Pythium spp. treatment
 
 [Term]
 id: EO:0007167
@@ -1794,9 +1794,9 @@ is_a: EO:0007064 ! ecological environment
 
 [Term]
 id: EO:0007177
-name: Pythium myriotylum
+name: Pythium myriotylum treatment
 def: "Suggests the exposure of plant to the Pythium myriotylum. It is a causal agent for rice feeder root necrosis disease." [GR:pj, NCBI_taxid:82941]
-is_a: EO:0007328 ! Pythium spp.
+is_a: EO:0007328 ! Pythium spp. treatment
 
 [Term]
 id: EO:0007178
@@ -1807,9 +1807,9 @@ is_a: EO:0007064 ! ecological environment
 
 [Term]
 id: EO:0007179
-name: Pythium irregulare
+name: Pythium irregulare treatment
 def: "The treatment involving exposure of plant to the Pythium irregulare. It is a causal agent for rice feeder root necrosis disease." [GR:pj, NCBI_taxid:36331]
-is_a: EO:0007328 ! Pythium spp.
+is_a: EO:0007328 ! Pythium spp. treatment
 
 [Term]
 id: EO:0007180
@@ -1839,9 +1839,9 @@ is_a: EO:0007198 ! water environment
 
 [Term]
 id: EO:0007182
-name: Pythium graminicola
+name: Pythium graminicola treatment
 def: "The treatment involving exposure of plant to the Pythium graminicola. It is a causal agent for rice feeder root necrosis disease." [GR:pj, NCBI_taxid:82937]
-is_a: EO:0007328 ! Pythium spp.
+is_a: EO:0007328 ! Pythium spp. treatment
 
 [Term]
 id: EO:0007183
@@ -1854,9 +1854,9 @@ is_a: EO:0007167 ! pesticide treatment
 
 [Term]
 id: EO:0007184
-name: Pythium dissotocum
+name: Pythium dissotocum treatment
 def: "The treatment involving exposure of plant to the Pythium dissotocum. It is a causal agent for rice seedling blight (fungal) or water mold dieases. Water mold diease is also called as seed rot or seedling damping-off disease." [GR:pj, NCBI_taxid:82936]
-is_a: EO:0007328 ! Pythium spp.
+is_a: EO:0007328 ! Pythium spp. treatment
 
 [Term]
 id: EO:0007185
@@ -1870,9 +1870,9 @@ is_a: EO:0007189 ! chemical treatment
 
 [Term]
 id: EO:0007186
-name: Pythium catenulatum
+name: Pythium catenulatum treatment
 def: "The treatment involving exposure of plant to the Pythium catenulatum. It is a causal agent for rice feeder root necrosis disease." [GR:pj, NCBI_taxid:83917]
-is_a: EO:0007328 ! Pythium spp.
+is_a: EO:0007328 ! Pythium spp. treatment
 
 [Term]
 id: EO:0007187
@@ -1885,9 +1885,9 @@ is_a: EO:0001003 ! organic chemical treatment
 
 [Term]
 id: EO:0007188
-name: Pythium arrhenomanes
+name: Pythium arrhenomanes treatment
 def: "The treatment involving exposure of plant to the Pythium arrhenomanes. It is a causal agent for rice feeder root necrosis disease." [GR:pj, NCBI_taxid:83932]
-is_a: EO:0007328 ! Pythium spp.
+is_a: EO:0007328 ! Pythium spp. treatment
 
 [Term]
 id: EO:0007189
@@ -1901,7 +1901,7 @@ is_a: EO:0007191 ! abiotic plant treatment
 
 [Term]
 id: EO:0007190
-name: Ustilaginoidea virens
+name: Ustilaginoidea virens treatment
 def: "The treatment involving exposure of plant to the pathogen Ustilaginoidea virens. It is a causal agent for rice False Smut Disease also called as Green Smut disease." [GR:ivy, NCBI_taxid:124427]
 is_a: EO:0007107 ! Ascomycota treatment
 
@@ -1915,7 +1915,7 @@ is_a: EO:0001001 ! plant treatment
 
 [Term]
 id: EO:0007192
-name: Drechslera gigantea
+name: Drechslera gigantea treatment
 def: "The treatment involving exposure of plant to the pathogen Drechslera gigantea. It is a causal agent for rice Eyespot disease." [GR:ivy]
 is_a: EO:0007107 ! Ascomycota treatment
 
@@ -1926,20 +1926,20 @@ is_a: EO:0007224 ! light intensity regimen
 
 [Term]
 id: EO:0007194
-name: Sclerospora macrospora
+name: Sclerospora macrospora treatment
 def: "The treatment involving exposure of plant to the pathogen Sclerophthora macrospora. It is a causal agent for rice Downy Mildew disease." [GR:ivy]
 synonym: "Sclerophthora macrospora" RELATED []
-is_a: EO:0007630 ! Sclerospora spp.
+is_a: EO:0007630 ! Sclerospora spp. treatment
 
 [Term]
 id: EO:0007195
-name: rice ragged stunt virus
+name: rice ragged stunt virus treatment
 alt_id: EO:0007352
 def: "The treatment involving exposure of plant to the rice ragged stunt virus. It is a causal agent for rice ragged stunt disease." [GR:ivy, NCBI_taxid:42475]
 synonym: "rice ragged stunt oryzavirus" RELATED []
 synonym: "rice ragged stunt virus" RELATED []
 synonym: "RRSV" RELATED []
-is_a: EO:0007110 ! dsRNA virus
+is_a: EO:0007110 ! dsRNA virus treatment
 
 [Term]
 id: EO:0007196
@@ -2005,14 +2005,14 @@ is_a: EO:0007074 ! auxin treatment
 
 [Term]
 id: EO:0007205
-name: rice grassy stunt 2 virus
+name: rice grassy stunt 2 virus treatment
 def: "The treatment involving exposure of plant to the rice grassy stunt 2 virus. It is a causal agent for rice grassy stunt disease." [GR:ivy, NCBI_taxid:66266]
 synonym: "RGSV-2" RELATED []
-is_a: EO:0007358 ! rice grassy stunt virus
+is_a: EO:0007358 ! rice grassy stunt virus treatment
 
 [Term]
 id: EO:0007206
-name: Gaeumannomyces graminis
+name: Gaeumannomyces graminis treatment
 def: "The treatment involving exposure of plant to the pathogen Gaeumannomyces graminis. It is a causal agent for rice Crown Sheath Rot Disease also called as Arkansas Foot Rot Disease, Black Sheath Rot Disease and Brown Sheath Rot Disease." [GR:ivy, NCBI_taxid:29850]
 is_a: EO:0007107 ! Ascomycota treatment
 
@@ -2025,14 +2025,14 @@ is_a: EO:0007221 ! visible light regimen
 
 [Term]
 id: EO:0007208
-name: rice grassy stunt 1 virus
+name: rice grassy stunt 1 virus treatment
 def: "The treatment involving exposure of plant to the rice grassy stunt 1 virus. It is a causal agent for rice grassy stunt disease." [GR:ivy, NCBI_taxid:66266]
 synonym: "RGSV-1" RELATED []
-is_a: EO:0007358 ! rice grassy stunt virus
+is_a: EO:0007358 ! rice grassy stunt virus treatment
 
 [Term]
 id: EO:0007209
-name: Phomopsis oryzae-sativae
+name: Phomopsis oryzae-sativae treatment
 def: "The treatment involving exposure of plant to the pathogen Phomopsis oryzae-sativae." [GR:ivy, NCBI_taxid:107452]
 comment: It is a causal agent for rice Collar Rot Disease.
 is_a: EO:0007107 ! Ascomycota treatment
@@ -2045,22 +2045,22 @@ is_a: EO:0007357 ! biotic plant treatment
 
 [Term]
 id: EO:0007211
-name: Cochliobolus miyabeanus
+name: Cochliobolus miyabeanus treatment
 def: "The treatment involving exposure of plant to the pathogen Cochliobolus miyabeanus. It is a causal agent for rice Brown Spot diseaseand/or Seedling Blight (Fungal) disease." [GR:ivy, NCBI_taxid:101162]
 synonym: "Bipolaris oryzae" RELATED []
 synonym: "Dreschlera oryzae" RELATED []
 synonym: "Helminthosporium oryzae" RELATED []
-is_a: EO:0007055 ! Cochliobolus spp.
+is_a: EO:0007055 ! Cochliobolus spp. treatment
 
 [Term]
 id: EO:0007212
-name: Mycoplasma
+name: Mycoplasma treatment
 def: "The treatment involving exposure of plant to the mycoplasma pest." [GR:pj, NCBI_taxid:2093]
 is_a: EO:0007357 ! biotic plant treatment
 
 [Term]
 id: EO:0007214
-name: Alternaria spp.
+name: Alternaria spp. treatment
 def: "The treatment involving exposure of plant to the pathogenic Alternaria sp." [GR:ivy, NCBI_taxid:5598]
 is_a: EO:0007107 ! Ascomycota treatment
 
@@ -2137,19 +2137,19 @@ is_a: EO:0007047 ! other nutrient regimen
 
 [Term]
 id: EO:0007226
-name: Magnaporthe grisea
+name: Magnaporthe grisea treatment
 def: "The treatment involving exposure of plant to the pathogen Magnaporthe grisea. It is a causal agent for rice various forms of Blast diseases such as Collar Blast, Leaf Blast, Neck Blast, Panicle Blast and Nodal Blast disease." [GR:ivy, NCBI_taxid:148305]
 synonym: "Piricularia grisea" RELATED []
 synonym: "Pyricularia grisea" RELATED []
 synonym: "Pyricularia oryzae" RELATED []
 synonym: "rice blast fungus" RELATED []
-is_a: EO:0007135 ! Magnaporthe spp.
+is_a: EO:0007135 ! Magnaporthe spp. treatment
 
 [Term]
 id: EO:0007227
-name: Cochliobolus lunatus
+name: Cochliobolus lunatus treatment
 def: "The treatment involving exposure of plant to the pathogen Cochliobolus lunatus." [GR:ivy, NCBI_taxid:5503]
-is_a: EO:0007055 ! Cochliobolus spp.
+is_a: EO:0007055 ! Cochliobolus spp. treatment
 
 [Term]
 id: EO:0007228
@@ -2159,13 +2159,13 @@ is_a: EO:0007047 ! other nutrient regimen
 
 [Term]
 id: EO:0007229
-name: Gibberella fujikuroi
+name: Gibberella fujikuroi treatment
 alt_id: EO:0007299
 def: "The treatment involving exposure of plant to the pathogen Gibberella fujikuroi." [GR:ivy, NCBI_taxid:5127]
 comment: It is a causal agent for rice Bakanae disease and also for a form of rice Seedling Blight (Fungal) Disease.
 synonym: "Fusarium fujikuroi" RELATED []
 synonym: "Fusarium moniliforme" RELATED []
-is_a: EO:0007118 ! Gibberella spp.
+is_a: EO:0007118 ! Gibberella spp. treatment
 
 [Term]
 id: EO:0007230
@@ -2195,7 +2195,7 @@ is_a: EO:0007357 ! biotic plant treatment
 
 [Term]
 id: EO:0007234
-name: Pseudomonas fuscovaginae
+name: Pseudomonas fuscovaginae treatment
 def: "The treatment involving exposure of plant to the pathogen Pseudomonas fuscovaginae. It is a causal agent for rice Sheath Brown Rot disease." [GR:ivy, NCBI_taxid:50340]
 synonym: "Pseudomonas fuscivaginae" RELATED []
 xref: NCBI_taxid:50340
@@ -2209,7 +2209,7 @@ is_a: EO:0007047 ! other nutrient regimen
 
 [Term]
 id: EO:0007236
-name: Pseudomonas plantarii
+name: Pseudomonas plantarii treatment
 def: "The treatment involving exposure of plant to the pathogen Pseudomonas plantarii. It is a causal agent for rice Seedling Blight (Bacterial) disease." [GR:ivy, NCBI_taxid:41899]
 synonym: "Burkholderia plantarii" RELATED []
 synonym: "Burkholderia vandii" RELATED []
@@ -2258,7 +2258,7 @@ is_a: EO:0007239 ! micronutrient regimen
 
 [Term]
 id: EO:0007243
-name: Pseudomonas glumae
+name: Pseudomonas glumae treatment
 def: "The treatment involving exposure of plant to the pathogen Pseudomonas glumae. It is a causal agent for rice Grain Rot disease." [GR:ivy, NCBI_taxid:337]
 synonym: "Burkholderia glumae" RELATED []
 is_a: EO:0007144 ! Pseudomonas plant treatment
@@ -2271,7 +2271,7 @@ is_a: EO:0007239 ! micronutrient regimen
 
 [Term]
 id: EO:0007245
-name: Erwinia chrysanthemi
+name: Erwinia chrysanthemi treatment
 def: "The treatment involving exposure of plant to the pathogen Erwinia chrysanthemi. It is a causal agent for rice Foot Rot disease." [GR:ivy, NCBI_taxid:556]
 is_a: EO:0007143 ! Erwinia plant treatment
 
@@ -2284,7 +2284,7 @@ is_a: EO:0007357 ! biotic plant treatment
 
 [Term]
 id: EO:0007247
-name: Erwinia herbicola
+name: Erwinia herbicola treatment
 def: "The treatment involving exposure of plant to the pathogen Erwinia herbicola. The susceptible plants suffer from Bacterial Palea Browning disease." [GR:ivy, NCBI_taxid:549]
 synonym: "Pantoea agglomerans" RELATED []
 is_a: EO:0007143 ! Erwinia plant treatment
@@ -2297,28 +2297,28 @@ is_a: EO:0007231 ! study type
 
 [Term]
 id: EO:0007249
-name: Xanthomonas oryzae pv. oryzicola
+name: Xanthomonas oryzae pv. oryzicola treatment
 def: "The treatment involving exposure of plant to the pathogen Xanthomonas oryzae pv. oryzicola. It is a causal agent for rice bacterial blight disease." [GR:ivy, NCBI_taxid:129394]
 synonym: "Xanthomonas campestris pv. oryzicola" RELATED []
-is_a: EO:0007148 ! Xanthomonas oryzae
+is_a: EO:0007148 ! Xanthomonas oryzae treatment
 
 [Term]
 id: EO:0007250
-name: Recilia dorsalis
+name: Recilia dorsalis treatment
 def: "The treatment involving exposure of plant to the pest zigzag leafhopper." [GR:pj]
 synonym: "zigzag leafhopper" RELATED []
 is_a: EO:0007116 ! Hemiptera insect plant treatment
 
 [Term]
 id: EO:0007251
-name: Pseudomonas syringae pv. panici
+name: Pseudomonas syringae pv. panici treatment
 def: "The treatment involving exposure of plant to the pathogen Pseudomonas syringae pathovar panici." [GR:ivy]
 comment: It is a causal agent for rice Bacterial Brown Stripe disease.
 is_a: EO:0001034 ! Pseudomonas syringae plant treatment
 
 [Term]
 id: EO:0007252
-name: Sogatella furcifera
+name: Sogatella furcifera treatment
 def: "The treatment involving exposure of plant to the pest white-backed planthopper." [GR:pj, NCBI_taxid:113103]
 synonym: "white-backed planthopper" RELATED []
 is_a: EO:0007116 ! Hemiptera insect plant treatment
@@ -2331,7 +2331,7 @@ is_a: EO:0007239 ! micronutrient regimen
 
 [Term]
 id: EO:0007254
-name: Pseudomonas avenae
+name: Pseudomonas avenae treatment
 def: "The treatment involving exposure of plant to the pathogen Pseudomonas avenae. It is a causal agent for rice Bacterial Brown Stripe disease." [GR:ivy, NCBI_taxid:80867]
 synonym: "Acidovorax avenae" RELATED []
 is_a: EO:0007144 ! Pseudomonas plant treatment
@@ -2351,14 +2351,14 @@ is_a: EO:0007231 ! study type
 
 [Term]
 id: EO:0007257
-name: Xanthomonas oryzae pv. oryzae
+name: Xanthomonas oryzae pv. oryzae treatment
 def: "The treatment involving exposure of plant to the pathogen Xanthomonas oryzae pv. oryzae. It is a causal agent for rice bacterial blight disease." [GR:ivy, NCBI_taxid:64187]
 synonym: "Xanthomonas campestris pv. oryza" RELATED []
-is_a: EO:0007148 ! Xanthomonas oryzae
+is_a: EO:0007148 ! Xanthomonas oryzae treatment
 
 [Term]
 id: EO:0007258
-name: Oebalus pugnax
+name: Oebalus pugnax treatment
 def: "The treatment involving exposure of plant to the pest rice stink bug." [GR:pj]
 synonym: "rice stink bug" RELATED []
 is_a: EO:0007116 ! Hemiptera insect plant treatment
@@ -2372,7 +2372,7 @@ is_a: EO:0007198 ! water environment
 
 [Term]
 id: EO:0007260
-name: Diopsis macrophthalma
+name: Diopsis macrophthalma treatment
 def: "The treatment involving exposure of plant to the pest commonly calles as rice stem borer." [GR:pj]
 synonym: "rice stem borer" RELATED []
 synonym: "stalked-eyed fly" RELATED []
@@ -2394,21 +2394,21 @@ is_a: EO:0007266 ! in vitro growth medium
 
 [Term]
 id: EO:0007263
-name: Maliarpha separatella
+name: Maliarpha separatella treatment
 def: "The treatment involving exposure of plant to the pest white rice borer." [GR:pj]
 synonym: "African white stemborer" RELATED []
 synonym: "African whiteheads" RELATED []
 synonym: "white rice borer" RELATED []
-is_a: EO:0007114 ! Lepidoptera
+is_a: EO:0007114 ! Lepidoptera treatment
 
 [Term]
 id: EO:0007264
-name: Sesamia inferens
+name: Sesamia inferens treatment
 def: "The treatment involving exposure of plant to the pest purple stem borer." [GR:pj]
 synonym: "pink stem borer" RELATED []
 synonym: "purple borer" RELATED []
 synonym: "purple stem borer" RELATED []
-is_a: EO:0007114 ! Lepidoptera
+is_a: EO:0007114 ! Lepidoptera treatment
 
 [Term]
 id: EO:0007265
@@ -2464,12 +2464,12 @@ is_a: EO:0007224 ! light intensity regimen
 
 [Term]
 id: EO:0007272
-name: Scirpophaga innotata
+name: Scirpophaga innotata treatment
 def: "The treatment involving exposure of plant to the pest Scirpophaga innotata." [GR:pj]
 synonym: "Tipanaea sericea" RELATED []
 synonym: "white rice stemborer" RELATED []
 synonym: "white stemborer" RELATED []
-is_a: EO:0007142 ! Scirpophaga spp.
+is_a: EO:0007142 ! Scirpophaga spp. treatment
 
 [Term]
 id: EO:0007273
@@ -2479,18 +2479,18 @@ is_a: EO:0007239 ! micronutrient regimen
 
 [Term]
 id: EO:0007274
-name: Scirpophaga incertulas
+name: Scirpophaga incertulas treatment
 def: "The treatment involving exposure of plant to the pest Scirpophaga incertulas." [GR:pj]
 synonym: "yellow stem borer" RELATED []
 xref: NCBI_taxid:72366
-is_a: EO:0007142 ! Scirpophaga spp.
+is_a: EO:0007142 ! Scirpophaga spp. treatment
 
 [Term]
 id: EO:0007275
-name: Rupela albinella
+name: Rupela albinella treatment
 def: "The treatment involving exposure of plant to the pest rice stemborer, Rupela albinella." [GR:pj]
 synonym: "rice stemborer" RELATED []
-is_a: EO:0007114 ! Lepidoptera
+is_a: EO:0007114 ! Lepidoptera treatment
 
 [Term]
 id: EO:0007276
@@ -2500,10 +2500,10 @@ is_a: EO:0007047 ! other nutrient regimen
 
 [Term]
 id: EO:0007277
-name: Chilo polychrysus
+name: Chilo polychrysus treatment
 def: "The treatment involving exposure of plant to the pest dark-headed stemborer." [GR:pj]
 synonym: "dark-headed stemborer" RELATED []
-is_a: EO:0007122 ! Chilo
+is_a: EO:0007122 ! Chilo treatment
 
 [Term]
 id: EO:0007278
@@ -2513,11 +2513,11 @@ is_a: EO:0007043 ! non-mineral nutrient regimen
 
 [Term]
 id: EO:0007279
-name: Chilo suppressalis
+name: Chilo suppressalis treatment
 def: "The treatment involving exposure of plant to the pest rice striped stemborer." [GR:pj, NCBI_taxid:168631]
 synonym: "Asiatic rice borer" RELATED []
 synonym: "striped stemborer" RELATED []
-is_a: EO:0007122 ! Chilo
+is_a: EO:0007122 ! Chilo treatment
 
 [Term]
 id: EO:0007280
@@ -2539,11 +2539,11 @@ is_a: EO:0007198 ! water environment
 
 [Term]
 id: EO:0007283
-name: Stenchaetothrips biformis
+name: Stenchaetothrips biformis treatment
 def: "The treatment involving exposure of plant to the pest commonly called as oriental rice thrips." [GR:pj]
 synonym: "oriental rice thrips" RELATED []
 synonym: "rice thrips" RELATED []
-is_a: EO:0007121 ! Thysanoptera
+is_a: EO:0007121 ! Thysanoptera treatment
 
 [Term]
 id: EO:0007284
@@ -2589,7 +2589,7 @@ is_a: EO:0007046 ! secondary macronutrient
 
 [Term]
 id: EO:0007289
-name: Hydrellia philippina
+name: Hydrellia philippina treatment
 def: "The treatment involving exposure of plant to the pest rice whorl maggot." [GR:pj]
 synonym: "rice whorl maggot" RELATED []
 is_a: EO:0007119 ! Dipteran insect plant treatment
@@ -2636,12 +2636,12 @@ is_a: EO:0007045 ! primary plant macronutrient regimen
 
 [Term]
 id: EO:0007294
-name: Pelopidas mathias
+name: Pelopidas mathias treatment
 def: "The treatment involving exposure of plant to the pest Pelopidas mathias." [GR:pj]
 synonym: "black branded swift" RELATED []
 synonym: "lesser millet skipper" RELATED []
 synonym: "small branded swift" RELATED []
-is_a: EO:0007114 ! Lepidoptera
+is_a: EO:0007114 ! Lepidoptera treatment
 
 [Term]
 id: EO:0007295
@@ -2651,10 +2651,10 @@ is_a: EO:0007046 ! secondary macronutrient
 
 [Term]
 id: EO:0007296
-name: Dicladispa armigera
+name: Dicladispa armigera treatment
 def: "The treatment involving exposure of plant to the pest Dicladispa armigera." [GR:pj, NCBI_taxid:111238]
 synonym: "rice hispa" RELATED []
-is_a: EO:0007120 ! Coleoptera
+is_a: EO:0007120 ! Coleoptera treatment
 
 [Term]
 id: EO:0007297
@@ -2664,7 +2664,7 @@ is_a: EO:0007046 ! secondary macronutrient
 
 [Term]
 id: EO:0007298
-name: Sogatodes oryzicola
+name: Sogatodes oryzicola treatment
 def: "The treatment involving exposure of plant to the pest rice delpahcid." [GR:pj]
 synonym: "rice delpahcid" RELATED []
 synonym: "Tagosodes orizicolus" RELATED []
@@ -2672,7 +2672,7 @@ is_a: EO:0007116 ! Hemiptera insect plant treatment
 
 [Term]
 id: EO:0007300
-name: Leptocorisa oratorius
+name: Leptocorisa oratorius treatment
 def: "The treatment involving exposure of plant to the pest paddy bug." [GR:pj]
 synonym: "paddy bug" RELATED []
 synonym: "rice bug" RELATED []
@@ -2692,19 +2692,19 @@ is_a: EO:0007043 ! non-mineral nutrient regimen
 
 [Term]
 id: EO:0007304
-name: Marasmia patnalis
+name: Marasmia patnalis treatment
 def: "The treatment involving exposure of plant to the pest Marasmia patnalis ." [GR:pj]
 synonym: "leaffolder" RELATED []
-is_a: EO:0007114 ! Lepidoptera
+is_a: EO:0007114 ! Lepidoptera treatment
 
 [Term]
 id: EO:0007305
-name: Cnaphalocrocis medinalis
+name: Cnaphalocrocis medinalis treatment
 def: "The treatment involving exposure of plant to the pest Cnaphalocrocis medinalis." [GR:pj]
 synonym: "defloiator" RELATED []
 synonym: "leaffolder" RELATED []
 synonym: "rice leaffolder" RELATED []
-is_a: EO:0007114 ! Lepidoptera
+is_a: EO:0007114 ! Lepidoptera treatment
 
 [Term]
 id: EO:0007306
@@ -2721,7 +2721,7 @@ is_a: EO:0007532 ! DNA
 
 [Term]
 id: EO:0007308
-name: Nephotettix spp
+name: Nephotettix spp treatment
 def: "The treatment involving exposure of plant to the pest green leaf hopper." [GR:pj, NCBI_taxid:94399]
 synonym: "green leafhopper" RELATED []
 is_a: EO:0007116 ! Hemiptera insect plant treatment
@@ -2740,7 +2740,7 @@ is_a: EO:0007307 ! transposable element insert
 
 [Term]
 id: EO:0007311
-name: Orseolia oryzae
+name: Orseolia oryzae treatment
 def: "The treatment involving exposure of plant to the pest rice gall midge." [GR:pj, NCBI_taxid:33408]
 synonym: "Asian rice gall midge" RELATED []
 synonym: "gall midge" RELATED []
@@ -2754,19 +2754,19 @@ is_a: EO:0007307 ! transposable element insert
 
 [Term]
 id: EO:0007313
-name: Pseudaletia separata
+name: Pseudaletia separata treatment
 def: "The treatment involving exposure of plant to the pest Pseudaletia separata." [GR:pj]
 synonym: "armyworm" RELATED []
 xref: NCBI_taxid:7105
-is_a: EO:0007117 ! Pseudaletia spp.
+is_a: EO:0007117 ! Pseudaletia spp. treatment
 
 [Term]
 id: EO:0007314
-name: Nymphula depunctalis
+name: Nymphula depunctalis treatment
 def: "The treatment involving exposure of plant to the pest rice caseworm." [GR:pj]
 synonym: "caseworm" RELATED []
 synonym: "rice caseworm" RELATED []
-is_a: EO:0007114 ! Lepidoptera
+is_a: EO:0007114 ! Lepidoptera treatment
 
 [Term]
 id: EO:0007315
@@ -2784,17 +2784,17 @@ is_a: EO:0007191 ! abiotic plant treatment
 
 [Term]
 id: EO:0007317
-name: Nilaparvata lugens
+name: Nilaparvata lugens treatment
 def: "The treatment involving exposure of plant to the pest brown planthopper." [GR:pj, NCBI_taxid:108931]
 synonym: "brown planthopper" RELATED []
 is_a: EO:0007116 ! Hemiptera insect plant treatment
 
 [Term]
 id: EO:0007318
-name: rice yellow mottle virus
+name: rice yellow mottle virus treatment
 def: "The treatment involving exposure of plant to the rice yellow mottle virus. It is a causal agent for rice yellow mottle disease." [GR:ivy, NCBI_taxid:31744]
 synonym: "RYMV" RELATED []
-is_a: EO:0007109 ! ssRNA positive-strand virus with no DNA stage
+is_a: EO:0007109 ! ssRNA positive-strand virus with no DNA stage treatment
 
 [Term]
 id: EO:0007319
@@ -2805,83 +2805,83 @@ is_a: EO:0007173 ! warm/hot temperature regimen
 
 [Term]
 id: EO:0007320
-name: Meloidogyne arenaria
+name: Meloidogyne arenaria treatment
 def: "The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease." [GR:pj, NCBI_taxid:6304]
-is_a: EO:0007127 ! Meloidogyne spp.
+is_a: EO:0007127 ! Meloidogyne spp. treatment
 
 [Term]
 id: EO:0007321
-name: Hirschmaniella spinicaudata
+name: Hirschmaniella spinicaudata treatment
 def: "The treatment involving exposure of plant to the pest Hirschmaniella spinicaudata. It is a causal agent for rice root nematode disease." [GR:pj]
-is_a: EO:0007126 ! Hirschmaniella spp.
+is_a: EO:0007126 ! Hirschmaniella spp. treatment
 
 [Term]
 id: EO:0007322
-name: Hirschmaniella oryzae
+name: Hirschmaniella oryzae treatment
 def: "The treatment involving exposure of plant to the pest Hirschmaniella oryzae. It is a causal agent for rice root nematode disease." [GR:pj]
-is_a: EO:0007126 ! Hirschmaniella spp.
+is_a: EO:0007126 ! Hirschmaniella spp. treatment
 
 [Term]
 id: EO:0007323
-name: Hirschmaniella mucronata
+name: Hirschmaniella mucronata treatment
 def: "The treatment involving exposure of plant to the pest Hirschmaniella mucronata. It is a causal agent for rice root nematode disease." [GR:pj]
-is_a: EO:0007126 ! Hirschmaniella spp.
+is_a: EO:0007126 ! Hirschmaniella spp. treatment
 
 [Term]
 id: EO:0007324
-name: Hirschmaniella imamuri
+name: Hirschmaniella imamuri treatment
 def: "The treatment involving exposure of plant to the pest Hirschmaniella imamuri. It is a causal agent for rice root nematode disease." [GR:pj]
 synonym: "rice root nematode" RELATED []
-is_a: EO:0007126 ! Hirschmaniella spp.
+is_a: EO:0007126 ! Hirschmaniella spp. treatment
 
 [Term]
 id: EO:0007325
-name: Hirschmaniella caudacrena
+name: Hirschmaniella caudacrena treatment
 def: "The treatment involving exposure of plant to the pest Hirschmaniella imamuri. It is a causal agent for rice root nematode disease." [GR:pj]
-is_a: EO:0007126 ! Hirschmaniella spp.
+is_a: EO:0007126 ! Hirschmaniella spp. treatment
 
 [Term]
 id: EO:0007326
-name: mycoplasma like organism
+name: mycoplasma like organism treatment
 def: "The treatment involving exposure of plant to the pest mycoplasma like organism." [GR:pj]
 synonym: "MLO" RELATED []
-is_a: EO:0007212 ! Mycoplasma
+is_a: EO:0007212 ! Mycoplasma treatment
 
 [Term]
 id: EO:0007327
-name: Mycovellosiella oryzae
+name: Mycovellosiella oryzae treatment
 def: "The treatment involving exposure of plant to the pathogen Mycovellosiella oryzae. It is a causal agent for rice White Leaf Streak Disease." [GR:ivy]
 synonym: "Ramularia oryzae" RELATED []
 is_a: EO:0007107 ! Ascomycota treatment
 
 [Term]
 id: EO:0007328
-name: Pythium spp.
+name: Pythium spp. treatment
 def: "The treatment involving exposure of plant to the heterokont Pythium." [GR:pj, NCBI_taxid:4797]
-is_a: EO:0007106 ! Stramenopiles
+is_a: EO:0007106 ! Stramenopiles treatment
 
 [Term]
 id: EO:0007329
-name: Spodoptera praefica
+name: Spodoptera praefica treatment
 def: "The treatment involving exposure of plant to the pest commonly called as western yellowstriped armyworm." [GR:pj]
 synonym: "western yellowstriped armyworm" RELATED []
-is_a: EO:0007115 ! Spodoptera spp.
+is_a: EO:0007115 ! Spodoptera spp. treatment
 
 [Term]
 id: EO:0007330
-name: Spodoptera mauritia
+name: Spodoptera mauritia treatment
 def: "The treatment involving exposure of plant to the pest commonly calles as lawn armyworm." [GR:pj]
 synonym: "lawn armyworm" RELATED []
 synonym: "Prodenia acronyctoides" RELATED []
-is_a: EO:0007115 ! Spodoptera spp.
+is_a: EO:0007115 ! Spodoptera spp. treatment
 
 [Term]
 id: EO:0007331
-name: Pseudaletia unipuncta
+name: Pseudaletia unipuncta treatment
 def: "The treatment involving exposure of plant to the pest Pseudaletia unipuncta." [GR:pj]
 synonym: "armyworm" RELATED []
 xref: NCBI_taxid:42880
-is_a: EO:0007117 ! Pseudaletia spp.
+is_a: EO:0007117 ! Pseudaletia spp. treatment
 
 [Term]
 id: EO:0007332
@@ -2900,15 +2900,15 @@ is_a: EO:0007349 ! metazoan plant treatment
 
 [Term]
 id: EO:0007334
-name: Pomacea canaliculata
+name: Pomacea canaliculata treatment
 def: "The treatment involving exposure of plant to the pest Pomacea canaliculata." [GR:pj]
 synonym: "apple snail" RELATED []
 synonym: "golden apple snail" RELATED []
-is_a: EO:0007335 ! Mollusca
+is_a: EO:0007335 ! Mollusca treatment
 
 [Term]
 id: EO:0007335
-name: Mollusca
+name: Mollusca treatment
 def: "The treatment involving exposure of plant to the pest molluscs." [GR:pj, NCBI_taxid:6447]
 synonym: "mollusc" RELATED []
 synonym: "mollusk" RELATED []
@@ -2916,15 +2916,15 @@ is_a: EO:0007349 ! metazoan plant treatment
 
 [Term]
 id: EO:0007336
-name: Ditylenchus angustus
+name: Ditylenchus angustus treatment
 def: "The treatment involving exposure of plant to the pest Ditylenchus angustus. It is a causal agent for rice Ufra disease." [GR:ivy]
 synonym: "rice stem nematode" RELATED []
 synonym: "ufra nematode" RELATED []
-is_a: EO:0007337 ! Nematoda
+is_a: EO:0007337 ! Nematoda treatment
 
 [Term]
 id: EO:0007337
-name: Nematoda
+name: Nematoda treatment
 def: "The treatment involving exposure of plant to the nematode pests." [GR:pj, NCBI_taxid:6231]
 synonym: "round worm" RELATED []
 synonym: "roundworm" RELATED []
@@ -2939,7 +2939,7 @@ is_a: EO:0007174 ! cold temperature regimen
 
 [Term]
 id: EO:0007339
-name: rice tungro spherical virus
+name: rice tungro spherical virus treatment
 def: "The treatment involving exposure of plant to the rice tungro spherical virus. It is a causal agent for rice tungro disease, which is also called as Mentek or Waika diease." [GR:ivy, NCBI_taxid:35287]
 synonym: "rice leaf yellowing virus" RELATED []
 synonym: "rice penyakit mentek virus" RELATED []
@@ -2948,75 +2948,75 @@ synonym: "rice waika virus" RELATED []
 synonym: "rice yellow leaf virus" RELATED []
 synonym: "RTSV" RELATED []
 synonym: "tungro virus" RELATED []
-is_a: EO:0007109 ! ssRNA positive-strand virus with no DNA stage
+is_a: EO:0007109 ! ssRNA positive-strand virus with no DNA stage treatment
 
 [Term]
 id: EO:0007340
-name: Achlya conspicua
+name: Achlya conspicua treatment
 def: "The treatment involving exposure of plant to the heterokont Achlya conspicua. It is a causal agent for rice water mold diease which is also called as seed rot or seedling damping-off disease." [GR:pj, NCBI_taxid:112027]
-is_a: EO:0007136 ! Achlya spp.
+is_a: EO:0007136 ! Achlya spp. treatment
 
 [Term]
 id: EO:0007341
-name: Fusarium
+name: Fusarium treatment
 alt_id: EO:0007301
 def: "The treatment involving exposure of plant to the pathogenic Fusarium spp. It is a causal agent for rice Water Mold disease also called as Seed Rot Disease or Seedling Damping-off Disease." [GR:ivy, NCBI_taxid:5506]
 synonym: "Fusarium spp." RELATED []
-is_a: EO:0007118 ! Gibberella spp.
+is_a: EO:0007118 ! Gibberella spp. treatment
 
 [Term]
 id: EO:0007342
-name: Achlya klebsiana
+name: Achlya klebsiana treatment
 def: "The treatment involving exposure of plant to the heterokont Achlya klebsiana. It is a causal agent for rice water mold diease which is also called as seed rot or seedling damping-off disease." [GR:pj, NCBI_taxid:4767]
-is_a: EO:0007136 ! Achlya spp.
+is_a: EO:0007136 ! Achlya spp. treatment
 
 [Term]
 id: EO:0007343
-name: Bovinae
+name: Bovinae treatment
 def: "The treatment involving exposure of plant to the cattle." [GR:pj, NCBI_taxid:27592]
 synonym: "cattle" RELATED []
-is_a: EO:0007031 ! Mammalia
+is_a: EO:0007031 ! Mammalia treatment
 
 [Term]
 id: EO:0007344
-name: rice tungro bacilliform virus
+name: rice tungro bacilliform virus treatment
 def: "The treatment involving exposure of plant to the rice tungro bacilliform virus. It is a causal agent for rice tungra disease which is also called as Mentek or Waika disease." [GR:ivy, NCBI_taxid:10654]
 synonym: "rice yellow orange leaf virus" RELATED []
 synonym: "RTBV" RELATED []
-is_a: EO:0007112 ! retroid virus
+is_a: EO:0007112 ! retroid virus treatment
 
 [Term]
 id: EO:0007345
-name: Rodentia
+name: Rodentia treatment
 def: "The treatment involving exposure of plant to the pest rats and mouse." [GR:pj, NCBI_taxid:9989]
 synonym: "mouse" RELATED []
 synonym: "rat" RELATED []
 synonym: "rodent" RELATED []
-is_a: EO:0007031 ! Mammalia
+is_a: EO:0007031 ! Mammalia treatment
 
 [Term]
 id: EO:0007346
-name: rice yellow stunt virus
+name: rice yellow stunt virus treatment
 def: "The treatment involving exposure of plant to the rice yellow stunt virus. It is a causal agent for rice transitory yellowing disease." [GR:ivy, NCBI_taxid:59380]
 synonym: "rice transitory yellowing virus" RELATED []
 synonym: "rice yellow stunt rhabdovirus" RELATED []
 synonym: "RTYV" RELATED []
 synonym: "RYSV" RELATED []
-is_a: EO:0007111 ! ssRNA negative-strand virus
+is_a: EO:0007111 ! ssRNA negative-strand virus treatment
 
 [Term]
 id: EO:0007347
-name: Aves
+name: Aves treatment
 def: "The treatment involving exposure of plants to the birds." [GR:pj, NCBI_taxid:8782]
 synonym: "bird" RELATED []
 is_a: EO:0007349 ! metazoan plant treatment
 
 [Term]
 id: EO:0007348
-name: rice stripe necrosis virus
+name: rice stripe necrosis virus treatment
 def: "The treatment involving exposure of plant to the rice stripe necrosis virus. It is a causal agent for rice stripe necrosis disease." [GR:ivy]
 synonym: "RSNV" RELATED []
-is_a: EO:0007109 ! ssRNA positive-strand virus with no DNA stage
+is_a: EO:0007109 ! ssRNA positive-strand virus with no DNA stage treatment
 
 [Term]
 id: EO:0007349
@@ -3027,10 +3027,10 @@ is_a: EO:0007357 ! biotic plant treatment
 
 [Term]
 id: EO:0007350
-name: rice stripe virus
+name: rice stripe virus treatment
 def: "The treatment involving exposure of plant to the rice stripe virus. It is a causal agent for rice stripe disease." [GR:ivy, NCBI_taxid:12331]
 synonym: "RSV" RELATED []
-is_a: EO:0007111 ! ssRNA negative-strand virus
+is_a: EO:0007111 ! ssRNA negative-strand virus treatment
 
 [Term]
 id: EO:0007351
@@ -3052,11 +3052,11 @@ is_obsolete: true
 
 [Term]
 id: EO:0007356
-name: rice hoja blanca virus
+name: rice hoja blanca virus treatment
 def: "The treatment involving exposure of plant to the rice hoja blanca virus. It is a causal agent for rice hoja blanca disease." [GR:ivy, NCBI_taxid:12332]
 synonym: "hoja blanca" RELATED []
 synonym: "rice hoja blanca tenuivirus" RELATED []
-is_a: EO:0007111 ! ssRNA negative-strand virus
+is_a: EO:0007111 ! ssRNA negative-strand virus treatment
 
 [Term]
 id: EO:0007357
@@ -3068,10 +3068,10 @@ is_a: EO:0001001 ! plant treatment
 
 [Term]
 id: EO:0007358
-name: rice grassy stunt virus
+name: rice grassy stunt virus treatment
 def: "The treatment involving exposure of plant to the rice grassy stunt virus. It is a causal agent for rice grassy stunt disease." [GR:ivy, NCBI_taxid:66266]
 synonym: "RGSV" RELATED []
-is_a: EO:0007111 ! ssRNA negative-strand virus
+is_a: EO:0007111 ! ssRNA negative-strand virus treatment
 
 [Term]
 id: EO:0007359
@@ -3085,22 +3085,22 @@ xref: OBO_SF2_EO:4
 
 [Term]
 id: EO:0007360
-name: barley yellow dwarf virus
+name: barley yellow dwarf virus treatment
 def: "The treatment involving exposure of plant to the barley yellow dwarf virus. It is a causal agent for rice Giallume disease." [GR:ivy, NCBI_taxid:12037]
 synonym: "BYDV" RELATED []
-is_a: EO:0007109 ! ssRNA positive-strand virus with no DNA stage
+is_a: EO:0007109 ! ssRNA positive-strand virus with no DNA stage treatment
 
 [Term]
 id: EO:0007361
-name: rice gall dwarf virus
+name: rice gall dwarf virus treatment
 def: "The treatment involving exposure of plant to the rice gall dwarf virus. It is a causal agent for rice gall dwarf disease." [GR:ivy]
 synonym: "RGDV" RELATED []
 synonym: "rice gall dwarf virus RGDV" RELATED []
-is_a: EO:0007110 ! dsRNA virus
+is_a: EO:0007110 ! dsRNA virus treatment
 
 [Term]
 id: EO:0007362
-name: Balansia oryzae-sativae
+name: Balansia oryzae-sativae treatment
 def: "The treatment involving exposure of plant to the pathogen Balansia oryzae-sativae. It is a causal agent for rice Udbatta diesase which is also called as Black Choke Disease, False Ergot Disease, Incense Rod Disease." [GR:ivy, NCBI_taxid:116609]
 synonym: "Ephelis japonica" RELATED []
 synonym: "Ephelis oryzae" RELATED []
@@ -3108,7 +3108,7 @@ is_a: EO:0007107 ! Ascomycota treatment
 
 [Term]
 id: EO:0007363
-name: Magnaporthe salvinii
+name: Magnaporthe salvinii treatment
 alt_id: EO:0007213
 def: "The treatment involving exposure of plant to the pathogen Magnaporthe salvinii. It is a causal agent for rice stem rot disease and Seedling Blight (Fungal) Disease." [GR:ivy, NCBI_taxid:165778]
 synonym: "Helminthosporium sigmoideum" RELATED []
@@ -3116,11 +3116,11 @@ synonym: "Helminthosporium sigmoideum var.irregulare." RELATED []
 synonym: "Leptosphaeria salvinii" RELATED []
 synonym: "Nakataea sigmoidae" RELATED []
 synonym: "Sclerotium oryzae" RELATED []
-is_a: EO:0007135 ! Magnaporthe spp.
+is_a: EO:0007135 ! Magnaporthe spp. treatment
 
 [Term]
 id: EO:0007364
-name: Rhizoctonia oryzae
+name: Rhizoctonia oryzae treatment
 def: "The treatment involving exposure of plant to the pathogen Rhizoctonia oryzae. It is a causal agent for rice Sheath Spot disease such as Bordered Sheath Spot Disease, Red Sclerotial Disease and Rhizoctonia Sheath Spot Disease." [GR:ivy, NCBI_taxid:63190]
 synonym: "Rhizoctonia zeae" RELATED []
 synonym: "Waitea circinata" RELATED []
@@ -3128,31 +3128,31 @@ is_a: EO:0007073 ! Basidiomycota treatment
 
 [Term]
 id: EO:0007365
-name: rice dwarf virus
+name: rice dwarf virus treatment
 def: "The treatment involving exposure of plant to the pathogen rice dwarf virus. It is a causal agent for rice dwarf phytoreo virus disease." [GR:ivy, NCBI_taxid:10991]
 synonym: "RDV" RELATED []
 synonym: "rice dwarf phytoreovirus" RELATED []
 synonym: "rice dwarf phytoreovirus RDV" RELATED []
 xref: NCBI_taxid:10991
-is_a: EO:0007110 ! dsRNA virus
+is_a: EO:0007110 ! dsRNA virus treatment
 
 [Term]
 id: EO:0007366
-name: rice black streak dwarf virus
+name: rice black streak dwarf virus treatment
 def: "The treatment involving exposure of plant to the pathogen rice black streak dwarf virus. It is a causal agent for rice blast steak dwarf disease." [GR:ivy, NCBI_taxid:10990]
 synonym: "RBSDV" RELATED []
 synonym: "Rice black streak virus" RELATED []
 synonym: "rice black-streaked dwarf fijivirus" RELATED []
 synonym: "Rice black-streaked dwarf virus" RELATED []
 synonym: "rice black-streaked dwarf virus RBSDV" RELATED []
-is_a: EO:0007110 ! dsRNA virus
+is_a: EO:0007110 ! dsRNA virus treatment
 
 [Term]
 id: EO:0007367
-name: Aphelenchoides besseyi
+name: Aphelenchoides besseyi treatment
 def: "The treatment involving exposure of plant to the pest Aphelenchoides besseyi. It is a causal agent for rice white tip nematode disease." [GR:pj]
 synonym: "rice white-tip nematode" RELATED []
-is_a: EO:0007337 ! Nematoda
+is_a: EO:0007337 ! Nematoda treatment
 
 [Term]
 id: EO:0007368
@@ -3163,29 +3163,29 @@ is_a: EO:0007173 ! warm/hot temperature regimen
 
 [Term]
 id: EO:0007369
-name: Meloidogyne salasi
+name: Meloidogyne salasi treatment
 def: "The treatment involving exposure of plant to the pest Meloidogyne salasi. It is a causal agent for rice root knot nematode disease." [GR:pj]
-is_a: EO:0007127 ! Meloidogyne spp.
+is_a: EO:0007127 ! Meloidogyne spp. treatment
 
 [Term]
 id: EO:0007370
-name: Meloidogyne oryzae
+name: Meloidogyne oryzae treatment
 def: "The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease." [GR:pj]
-is_a: EO:0007127 ! Meloidogyne spp.
+is_a: EO:0007127 ! Meloidogyne spp. treatment
 
 [Term]
 id: EO:0007371
-name: Meloidogyne javanica
+name: Meloidogyne javanica treatment
 def: "The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease." [GR:pj, NCBI_taxid:6303]
 synonym: "root-knot nematode" RELATED []
-is_a: EO:0007127 ! Meloidogyne spp.
+is_a: EO:0007127 ! Meloidogyne spp. treatment
 
 [Term]
 id: EO:0007372
-name: Meloidogyne incognita
+name: Meloidogyne incognita treatment
 def: "The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease." [GR:pj, NCBI_taxid:6306]
 synonym: "southern root-knot nematode" RELATED []
-is_a: EO:0007127 ! Meloidogyne spp.
+is_a: EO:0007127 ! Meloidogyne spp. treatment
 
 [Term]
 id: EO:0007373
@@ -3197,26 +3197,26 @@ is_a: EO:0007316 ! physical plant treatment
 
 [Term]
 id: EO:0007374
-name: Cylindrocladium scoparium
+name: Cylindrocladium scoparium treatment
 def: "The treatment involving exposure of plant to the pathogen Cylindrocladium scoparium. It is a causal agent for rice Sheath Net Blotch Disease." [GR:ivy, NCBI_taxid:40624]
 synonym: "Calonectria morganii" RELATED []
 is_a: EO:0007107 ! Ascomycota treatment
 
 [Term]
 id: EO:0007375
-name: Meloidogyne graminicola
+name: Meloidogyne graminicola treatment
 def: "The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease." [GR:pj, NCBI_taxid:189291]
-is_a: EO:0007127 ! Meloidogyne spp.
+is_a: EO:0007127 ! Meloidogyne spp. treatment
 
 [Term]
 id: EO:0007376
-name: Pyrenochaeta oryzae
+name: Pyrenochaeta oryzae treatment
 def: "The treatment involving exposure of plant to the pathogen Pyrenochaeta oryzae. It is a causal agent for rice Sheath Blotch Disease." [GR:ivy]
 is_a: EO:0007107 ! Ascomycota treatment
 
 [Term]
 id: EO:0007377
-name: Athelia rolfsii
+name: Athelia rolfsii treatment
 def: "The treatment involving exposure of plant to the pathogen Athelia rolfsii. It is a causal agent for rice Seedling Blight (Fungal) disease." [GR:ivy, NCBI_taxid:109385]
 synonym: "Sclerotium rolfsii" RELATED []
 is_a: EO:0007073 ! Basidiomycota treatment
@@ -3231,7 +3231,7 @@ is_a: EO:0007233 ! fungal plant treatment
 
 [Term]
 id: EO:0007379
-name: Thanatephorus cucumeris
+name: Thanatephorus cucumeris treatment
 def: "The treatment involving exposure of plant to the pathogen Thanatephorus cucumeris." [GR:ivy, NCBI_taxid:107832]
 comment: It is a causal agent for rice Sheath Blight diseases  such as Brown-bordered Leaf and Sheath Spot disease and/or Oriental Leaf and Sheath Blight disease.
 synonym: "black scurf of potato" RELATED []
@@ -3279,7 +3279,7 @@ is_a: EO:0007064 ! ecological environment
 
 [Term]
 id: EO:0007386
-name: Gerlachia oryzae
+name: Gerlachia oryzae treatment
 def: "The treatment involving exposure of plant to the pathogen Gerlachia oryzae. It is a causal agent for a form of rice Seedling Blight (Fungal) disease." [GR:ivy, NCBI_taxid:87749]
 synonym: "Monographella albescens" RELATED []
 synonym: "rice leaf scald" RELATED []
@@ -3293,17 +3293,17 @@ is_a: EO:0007239 ! micronutrient regimen
 
 [Term]
 id: EO:0007388
-name: Alternaria padwickii
+name: Alternaria padwickii treatment
 def: "The treatment involving exposure of plant to the pathogen Alternaria padwickii. It is a causal agent for rice seedling blight (fungal) disease and/or stackburn disease also called as Alternaria Leaf Spot Disease." [GR:ivy]
 synonym: "Trichoconis padwickii" RELATED []
-is_a: EO:0007214 ! Alternaria spp.
+is_a: EO:0007214 ! Alternaria spp. treatment
 
 [Term]
 id: EO:0007389
-name: Gibberella zeae
+name: Gibberella zeae treatment
 def: "The treatment involving exposure of plant to the pathogen Gibberella zeae. It is a causal agent for rice Scab disease." [GR:ivy, NCBI_taxid:5518]
 synonym: "Fusarium graminearum" RELATED []
-is_a: EO:0007118 ! Gibberella spp.
+is_a: EO:0007118 ! Gibberella spp. treatment
 
 [Term]
 id: EO:0007391
@@ -3440,7 +3440,7 @@ is_a: EO:0007402 ! fungal elicitor treatment
 
 [Term]
 id: EO:0007411
-name: Pseudomonas fluorescens
+name: Pseudomonas fluorescens treatment
 def: "A Pseudomonas plant treatment (EO:0007144) involving the exposure to bacteria of the Pseudomonas fluorescens group." [NCBI_taxid:274, PO:cooperl]
 synonym: "Bacillus fluorescens" RELATED []
 synonym: "Bacillus fluorescens liquefaciens" RELATED []
@@ -4072,15 +4072,15 @@ is_a: EO:0007043 ! non-mineral nutrient regimen
 
 [Term]
 id: EO:0007630
-name: Sclerospora spp.
+name: Sclerospora spp. treatment
 def: "The treatment involving exposure of plant to the pathogenic Sclerospora sp." [GR:pj]
-is_a: EO:0007106 ! Stramenopiles
+is_a: EO:0007106 ! Stramenopiles treatment
 
 [Term]
 id: EO:0007631
-name: Sclerospora graminicola
+name: Sclerospora graminicola treatment
 def: "The treatment involving exposure of plant to the pathogen Sclerophthora graminicola. It is a causal agent for downy mildew disease." [GR:pj, NCBI_taxid:162130]
-is_a: EO:0007630 ! Sclerospora spp.
+is_a: EO:0007630 ! Sclerospora spp. treatment
 
 [Term]
 id: EO:0007632
@@ -4102,9 +4102,9 @@ is_a: EO:0007183 ! herbicide treatment
 
 [Term]
 id: EO:0007634
-name: Spodoptera litura
+name: Spodoptera litura treatment
 def: "The treatment involving exposure of plant to the pest commonly calles as cutworm." [GR:pj]
-is_a: EO:0007115 ! Spodoptera spp.
+is_a: EO:0007115 ! Spodoptera spp. treatment
 
 [Typedef]
 id: part_of

@@ -1719,7 +1719,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007008">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monochoria vaginalis</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monochoria vaginalis treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007022"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asian pickerel weed</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007008</oboInOwl:id>
@@ -1740,7 +1740,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007009">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eudicotyledon</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eudicotyledon treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007005"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007009</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eudicot</oboInOwl:hasRelatedSynonym>
@@ -1761,7 +1761,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007010">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sagittaria montevidensis</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sagittaria montevidensis treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007139"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007010</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The exposure of reference/experimental plant to monocot plant Sagittaria montevidensis, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices.</obo:IAO_0000115>
@@ -1781,7 +1781,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007011">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sagittaria longiloba</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sagittaria longiloba treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007139"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007011</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flecha de Agua</oboInOwl:hasRelatedSynonym>
@@ -1802,7 +1802,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007012">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heteranthera limosa</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heteranthera limosa treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007022"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007012</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The exposure of reference/experimental plant to monocot plant Heteranthera limosa, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices.</obo:IAO_0000115>
@@ -1823,7 +1823,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007013">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Echinodorus berteroi</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Echinodorus berteroi treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007138"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007013</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The exposure of reference/experimental plant to monocot plant Echinodorus berteroi, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices.</obo:IAO_0000115>
@@ -1842,7 +1842,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007014">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Echinodorus cordifolius</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Echinodorus cordifolius treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007138"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007014</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Texas mudbaby</oboInOwl:hasRelatedSynonym>
@@ -1863,7 +1863,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007015">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammannia spp.</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ammannia spp. treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007009"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007015</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The exposure of reference/experimental plant to dicot plant genus Ammannia found in its growth environment. This plant may be growing as a weed or as part of normal farming practices.</obo:IAO_0000115>
@@ -1881,7 +1881,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007016">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacopa spp.</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacopa spp. treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007009"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007016</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The exposure of reference/experimental plant to dicot plant genus Bacopa found in its growth environment. This plant may be growing as a weed or as part of normal farming practices.</obo:IAO_0000115>
@@ -1899,7 +1899,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007017">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyperus difformis</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyperus difformis treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007141"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007017</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The exposure of reference/experimental plant to monocot plant Cyperus difformis, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices.</obo:IAO_0000115>
@@ -1919,7 +1919,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007018">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scirpus fluviatilis</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scirpus fluviatilis treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007140"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007018</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The exposure of reference/experimental plant to monocot plant Scirpus fluviatilis, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices.</obo:IAO_0000115>
@@ -1938,7 +1938,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007019">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyperus iria</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyperus iria treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007141"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007019</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The exposure of reference/experimental plant to monocot plant Cyperus difformis, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices.</obo:IAO_0000115>
@@ -1957,7 +1957,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007020">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scirpus mucronatus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scirpus mucronatus treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007140"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007020</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The exposure of reference/experimental plant to monocot plant Scirpus mucronatus, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices.</obo:IAO_0000115>
@@ -1976,7 +1976,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007021">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alisma plantago-aquatica</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alisma plantago-aquatica treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007022"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007021</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The exposure of reference/experimental plant to monocot plant Alisma plantago-aquatica found in its growth environment. This plant may be growing as a weed or as part of normal farming practices.</obo:IAO_0000115>
@@ -1996,7 +1996,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007022 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007022">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liliopsida</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liliopsida treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007005"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007022</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The exposure of reference/experimental plant to monocot plants found in its growth environment. These plants may be growing as a weed or as part of normal farming practices.</obo:IAO_0000115>
@@ -2074,7 +2074,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007026">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Echinochloa glabrescens</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Echinochloa glabrescens treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007137"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007026</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The exposure of reference/experimental plant to monocot plant Echinochloa glabrescens found in its growth environment. This plant may be growing as a weed or as part of normal farming practices.</obo:IAO_0000115>
@@ -2114,7 +2114,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007028 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007028">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Echinochloa crus-galli</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Echinochloa crus-galli treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007137"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007028</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The exposure of reference/experimental plant to monocot plant Echinochloa crus-galli, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices.</obo:IAO_0000115>
@@ -2135,7 +2135,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007029">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Typha spp.</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Typha spp. treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007022"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007029</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The exposure of reference/experimental plant to monocot plant of genus Typha spp found in its growth environment. This plant may be growing as a weed or as part of normal farming practices.</obo:IAO_0000115>
@@ -2155,7 +2155,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007030">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leptochloa fascicularis</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leptochloa fascicularis treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007022"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007030</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The exposure of reference/experimental plant to monocot plant Leptochloa fascicularis found in its growth environment. This plant may be growing as a weed or as part of normal farming practices.</obo:IAO_0000115>
@@ -2174,7 +2174,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007031">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammalia</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammalia treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007349"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007031</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The exposure of plant to the anilmals of higher order that may be resopnsible for damaging the plant due to grazing or feeding practices.</obo:IAO_0000115>
@@ -2556,7 +2556,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007055 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007055">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cochliobolus spp.</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cochliobolus spp. treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007107"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007055</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the exposure of plant to the pathogen Cochliobolus spp.</obo:IAO_0000115>
@@ -2756,7 +2756,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007065 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007065">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entyloma oryzae</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entyloma oryzae treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007073"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007065</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entyloma dactylidis</oboInOwl:hasRelatedSynonym>
@@ -2899,7 +2899,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007072 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007072">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microdochium oryzae</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microdochium oryzae treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007107"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007072</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhynchosporium oryzae</oboInOwl:hasRelatedSynonym>
@@ -2981,7 +2981,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007077 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007077">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tilletia barclayana</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tilletia barclayana treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007073"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007077</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neovossia horrida</oboInOwl:hasRelatedSynonym>
@@ -3081,7 +3081,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007083 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007083">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phoma sorghina</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phoma sorghina treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007107"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007083</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It is a causal agent for rice Glume Blight Disease.</rdfs:comment>
@@ -3102,7 +3102,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007084 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007084">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other animals</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other animals treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007349"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007084</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the exposure of plant to the pests that do not falll under the well known classes of birds, mammals, insects, nematode and molluscs.</obo:IAO_0000115>
@@ -3175,7 +3175,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007088 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007088">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ceratobasidium oryzae-sativae</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ceratobasidium oryzae-sativae treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007073"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ceratobasidium oryzae-sativae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ceratobasidium sativae</oboInOwl:hasRelatedSynonym>
@@ -3480,7 +3480,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007106 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007106">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stramenopiles</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stramenopiles treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007357"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007106</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the exposure of plant to the Stramenopiles (heterokonts) present in the growth environment.</obo:IAO_0000115>
@@ -3542,7 +3542,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007109 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007109">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ssRNA positive-strand virus with no DNA stage</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ssRNA positive-strand virus with no DNA stage treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007210"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007109</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the exposure of plant to the pathogenic single strand RNA positive stand virus.</obo:IAO_0000115>
@@ -3560,7 +3560,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007110 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007110">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dsRNA virus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dsRNA virus treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007210"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007110</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the exposure of plant to the pathogenic double stranded RNA virus.</obo:IAO_0000115>
@@ -3580,7 +3580,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007111 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007111">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ssRNA negative-strand virus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ssRNA negative-strand virus treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007210"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007111</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the exposure of plant to the pathogenic single strand RNA negative stand virus.</obo:IAO_0000115>
@@ -3598,7 +3598,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007112 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007112">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retroid virus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retroid virus treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007210"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007112</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the exposure of plant to the pathogenic retroid virus.</obo:IAO_0000115>
@@ -3617,7 +3617,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007113 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007113">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice necrosis mosaic virus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice necrosis mosaic virus treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007109"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007113</oboInOwl:id>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007354</oboInOwl:hasAlternativeId>
@@ -3639,7 +3639,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007114 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007114">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lepidoptera</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lepidoptera treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007333"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007114</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the exposure of plant to the pest of lepidoptera class.</obo:IAO_0000115>
@@ -3660,7 +3660,7 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007115 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007115">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spodoptera spp.</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spodoptera spp. treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007114"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007115</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the exposure of plant to the pest Spodoptera spp.</obo:IAO_0000115>
@@ -3683,8 +3683,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007333"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An insect plant treatment (EO:0007333) involving the exposure of a plant to an insect(s) of the Hemiptera order.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007116</oboInOwl:id>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insects of the Hemiptera order include aphids, planthoppers, bugs
-whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insects of the Hemiptera order include aphids, planthoppers, bugsnwhiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bug</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_environment_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
@@ -3702,7 +3701,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007117 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007117">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudaletia spp.</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudaletia spp. treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007114"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007117</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the exposure of plant to the pest rice army worm.</obo:IAO_0000115>
@@ -3722,7 +3721,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007118 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007118">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gibberella spp.</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gibberella spp. treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007107"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007118</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the exposure of plant to the pathogen Gibberella spp.</obo:IAO_0000115>
@@ -3761,7 +3760,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007120 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007120">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coleoptera</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coleoptera treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007333"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007120</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the exposure of plant to the pest commonly called as beetles or Coleoptera.</obo:IAO_0000115>
@@ -3781,7 +3780,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007121 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007121">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thysanoptera</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thysanoptera treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007333"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007121</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the exposure of plant to the pest of Thysanoptera class.</obo:IAO_0000115>
@@ -3801,7 +3800,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007122 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007122">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chilo</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chilo treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007114"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007122</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the exposure of plant to the pest Chilo.</obo:IAO_0000115>
@@ -3822,7 +3821,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007123 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007123">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eysarcoris trimaculatus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eysarcoris trimaculatus treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007116"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007123</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the exposure of plant to the pest rice spotting bug.</obo:IAO_0000115>
@@ -3878,7 +3877,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007126 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007126">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hirschmaniella spp.</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hirschmaniella spp. treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007337"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007126</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the exposure of plant to the pest Hirschmaniella spp. It is a causal agent for rice root nematode disease.</obo:IAO_0000115>
@@ -3896,7 +3895,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007127 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007127">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne spp.</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne spp. treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007337"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007127</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the exposure of plant to the pest Meloidogyne spp. It is a causal agent for rice root knot nematode disease.</obo:IAO_0000115>
@@ -4047,7 +4046,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007135 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007135">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnaporthe spp.</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnaporthe spp. treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007107"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007135</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving an exposure of plant to the pathogen Magnaporthe spp.</obo:IAO_0000115>
@@ -4066,7 +4065,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007136 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007136">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Achlya spp.</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Achlya spp. treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007106"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007136</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving an exposure of plant to the Achlya spp.</obo:IAO_0000115>
@@ -4085,7 +4084,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007137 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007137">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Echinochloa spp.</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Echinochloa spp. treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007022"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007137</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving an exposure of reference/experimental plant to monocot plant genus Echinochloa found in its growth environment. This plant may be growing as a weed or as part of normal farming practices.</obo:IAO_0000115>
@@ -4104,7 +4103,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007138 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007138">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Echinodorus spp.</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Echinodorus spp. treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007022"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007138</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving an exposure of reference/experimental plant to monocot plant genus Echinodorus found in its growth environment. This plant may be growing as a weed or as part of normal farming practices.</obo:IAO_0000115>
@@ -4124,7 +4123,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007139 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007139">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sagittaria spp.</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sagittaria spp. treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007022"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007139</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving an exposure of reference/experimental plant to monocot plant genus Sagittaria found in its growth environment. This plant may be growing as a weed or as part of normal farming practices.</obo:IAO_0000115>
@@ -4144,7 +4143,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007140 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007140">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scirpus spp.</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scirpus spp. treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007022"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007140</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving an exposure of reference/experimental plant to monocot plant genus Scirpus found in its growth environment. This plant may be growing as a weed or as part of normal farming practices.</obo:IAO_0000115>
@@ -4163,7 +4162,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007141 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007141">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyperus spp.</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyperus spp. treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007022"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007141</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving an exposure of reference/experimental plant to monocot plant genus Cyperus found in its growth environment. This plant may be growing as a weed or as part of normal farming practices.</obo:IAO_0000115>
@@ -4182,7 +4181,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007142 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007142">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scirpophaga spp.</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scirpophaga spp. treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007114"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007142</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving an exposure of plant to the pest Scirpophaga spp.</obo:IAO_0000115>
@@ -4297,7 +4296,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007148 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007148">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xanthomonas oryzae</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xanthomonas oryzae treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007145"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007148</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas oryzae</oboInOwl:hasRelatedSynonym>
@@ -4605,7 +4604,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007166 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007166">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pythium spinosum</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pythium spinosum treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007328"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007166</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving an exposure of plant to the Pythium spinosum. It is a causal agent for rice seedling blight (fungal) or feeder root necrosis or water mold dieases. Water mold diease is also called as seed rot or seedling damping-off disease.</obo:IAO_0000115>
@@ -4776,7 +4775,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007177 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007177">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pythium myriotylum</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pythium myriotylum treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007328"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007177</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suggests the exposure of plant to the Pythium myriotylum. It is a causal agent for rice feeder root necrosis disease.</obo:IAO_0000115>
@@ -4814,7 +4813,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007179 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007179">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pythium irregulare</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pythium irregulare treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007328"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007179</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the Pythium irregulare. It is a causal agent for rice feeder root necrosis disease.</obo:IAO_0000115>
@@ -4854,6 +4853,24 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:94-75-7</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crotilin</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EO_0007180"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:94-75-7</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U-5043</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EO_0007180"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amidox</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:94-75-7</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EO_0007180"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:94-75-7</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weed Tox</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EO_0007180"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
@@ -4861,18 +4878,6 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:94-75-7</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weedone-2,4-DP</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EO_0007180"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:94-75-7</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crotilin</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EO_0007180"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amidox</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:94-75-7</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EO_0007180"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -4891,13 +4896,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:94-75-7</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U-5043</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EO_0007180"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-Selektonon</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:94-75-7</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dicopur</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EO_0007180"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -4908,8 +4907,8 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-Selektonon</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:94-75-7</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dicopur</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/EO_0007180"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -4938,7 +4937,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007182 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007182">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pythium graminicola</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pythium graminicola treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007328"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007182</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the Pythium graminicola. It is a causal agent for rice feeder root necrosis disease.</obo:IAO_0000115>
@@ -4978,7 +4977,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007184 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007184">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pythium dissotocum</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pythium dissotocum treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007328"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007184</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the Pythium dissotocum. It is a causal agent for rice seedling blight (fungal) or water mold dieases. Water mold diease is also called as seed rot or seedling damping-off disease.</obo:IAO_0000115>
@@ -5019,7 +5018,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007186 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007186">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pythium catenulatum</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pythium catenulatum treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007328"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007186</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the Pythium catenulatum. It is a causal agent for rice feeder root necrosis disease.</obo:IAO_0000115>
@@ -5061,7 +5060,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007188 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007188">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pythium arrhenomanes</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pythium arrhenomanes treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007328"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007188</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the Pythium arrhenomanes. It is a causal agent for rice feeder root necrosis disease.</obo:IAO_0000115>
@@ -5103,7 +5102,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007190 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007190">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ustilaginoidea virens</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ustilaginoidea virens treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007107"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007190</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pathogen Ustilaginoidea virens. It is a causal agent for rice False Smut Disease also called as Green Smut disease.</obo:IAO_0000115>
@@ -5143,7 +5142,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007192 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007192">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drechslera gigantea</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drechslera gigantea treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007107"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007192</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pathogen Drechslera gigantea. It is a causal agent for rice Eyespot disease.</obo:IAO_0000115>
@@ -5172,7 +5171,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007194 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007194">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sclerospora macrospora</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sclerospora macrospora treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007630"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007194</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sclerophthora macrospora</oboInOwl:hasRelatedSynonym>
@@ -5191,7 +5190,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007195 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007195">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice ragged stunt virus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice ragged stunt virus treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007110"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007195</oboInOwl:id>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007352</oboInOwl:hasAlternativeId>
@@ -5374,7 +5373,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007205 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007205">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice grassy stunt 2 virus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice grassy stunt 2 virus treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007358"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007205</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RGSV-2</oboInOwl:hasRelatedSynonym>
@@ -5394,7 +5393,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007206 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007206">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gaeumannomyces graminis</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gaeumannomyces graminis treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007107"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007206</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pathogen Gaeumannomyces graminis. It is a causal agent for rice Crown Sheath Rot Disease also called as Arkansas Foot Rot Disease, Black Sheath Rot Disease and Brown Sheath Rot Disease.</obo:IAO_0000115>
@@ -5432,7 +5431,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007208 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007208">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice grassy stunt 1 virus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice grassy stunt 1 virus treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007358"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007208</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RGSV-1</oboInOwl:hasRelatedSynonym>
@@ -5452,7 +5451,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007209 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007209">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phomopsis oryzae-sativae</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phomopsis oryzae-sativae treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007107"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007209</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It is a causal agent for rice Collar Rot Disease.</rdfs:comment>
@@ -5492,7 +5491,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007211 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007211">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cochliobolus miyabeanus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cochliobolus miyabeanus treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007055"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bipolaris oryzae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dreschlera oryzae</oboInOwl:hasRelatedSynonym>
@@ -5514,7 +5513,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007212 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007212">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mycoplasma</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mycoplasma treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007357"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007212</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the mycoplasma pest.</obo:IAO_0000115>
@@ -5533,7 +5532,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007214 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007214">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alternaria spp.</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alternaria spp. treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007107"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007214</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pathogenic Alternaria sp.</obo:IAO_0000115>
@@ -5757,7 +5756,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007226 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007226">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnaporthe grisea</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnaporthe grisea treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007135"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007226</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Piricularia grisea</oboInOwl:hasRelatedSynonym>
@@ -5780,7 +5779,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007227 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007227">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cochliobolus lunatus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cochliobolus lunatus treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007055"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007227</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pathogen Cochliobolus lunatus.</obo:IAO_0000115>
@@ -5817,7 +5816,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007229 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007229">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gibberella fujikuroi</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gibberella fujikuroi treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007118"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007229</oboInOwl:id>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007299</oboInOwl:hasAlternativeId>
@@ -5916,7 +5915,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007234 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007234">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas fuscovaginae</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas fuscovaginae treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007144"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007234</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBI_taxid:50340</oboInOwl:hasDbXref>
@@ -5955,7 +5954,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007236 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007236">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas plantarii</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas plantarii treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007144"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burkholderia plantarii</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burkholderia vandii</oboInOwl:hasRelatedSynonym>
@@ -6091,7 +6090,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007243 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007243">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas glumae</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas glumae treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007144"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burkholderia glumae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007243</oboInOwl:id>
@@ -6129,7 +6128,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007245 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007245">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erwinia chrysanthemi</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erwinia chrysanthemi treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007143"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007245</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pathogen Erwinia chrysanthemi. It is a causal agent for rice Foot Rot disease.</obo:IAO_0000115>
@@ -6169,7 +6168,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007247 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007247">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erwinia herbicola</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erwinia herbicola treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007143"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007247</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pantoea agglomerans</oboInOwl:hasRelatedSynonym>
@@ -6207,7 +6206,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007249 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007249">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xanthomonas oryzae pv. oryzicola</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xanthomonas oryzae pv. oryzicola treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007148"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007249</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pathogen Xanthomonas oryzae pv. oryzicola. It is a causal agent for rice bacterial blight disease.</obo:IAO_0000115>
@@ -6227,7 +6226,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007250 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007250">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recilia dorsalis</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recilia dorsalis treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007116"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007250</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest zigzag leafhopper.</obo:IAO_0000115>
@@ -6246,7 +6245,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007251 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007251">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas syringae pv. panici</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas syringae pv. panici treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0001034"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007251</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It is a causal agent for rice Bacterial Brown Stripe disease.</rdfs:comment>
@@ -6265,7 +6264,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007252 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007252">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sogatella furcifera</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sogatella furcifera treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007116"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007252</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest white-backed planthopper.</obo:IAO_0000115>
@@ -6303,7 +6302,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007254 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007254">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas avenae</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas avenae treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007144"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acidovorax avenae</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007254</oboInOwl:id>
@@ -6360,7 +6359,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007257 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007257">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xanthomonas oryzae pv. oryzae</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xanthomonas oryzae pv. oryzae treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007148"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007257</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pathogen Xanthomonas oryzae pv. oryzae. It is a causal agent for rice bacterial blight disease.</obo:IAO_0000115>
@@ -6380,7 +6379,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007258 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007258">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oebalus pugnax</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oebalus pugnax treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007116"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007258</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest rice stink bug.</obo:IAO_0000115>
@@ -6418,7 +6417,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007260 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007260">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diopsis macrophthalma</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diopsis macrophthalma treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007119"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007260</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest commonly calles as rice stem borer.</obo:IAO_0000115>
@@ -6477,7 +6476,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007263 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007263">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maliarpha separatella</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maliarpha separatella treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007114"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">African white stemborer</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">African whiteheads</oboInOwl:hasRelatedSynonym>
@@ -6498,7 +6497,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007264 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007264">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesamia inferens</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sesamia inferens treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007114"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007264</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest purple stem borer.</obo:IAO_0000115>
@@ -6651,7 +6650,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007272 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007272">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scirpophaga innotata</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scirpophaga innotata treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007142"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007272</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Scirpophaga innotata.</obo:IAO_0000115>
@@ -6690,7 +6689,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007274 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007274">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scirpophaga incertulas</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scirpophaga incertulas treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007142"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007274</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBI_taxid:72366</oboInOwl:hasDbXref>
@@ -6710,7 +6709,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007275 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007275">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rupela albinella</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rupela albinella treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007114"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007275</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest rice stemborer, Rupela albinella.</obo:IAO_0000115>
@@ -6747,7 +6746,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007277 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007277">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chilo polychrysus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chilo polychrysus treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007122"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007277</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest dark-headed stemborer.</obo:IAO_0000115>
@@ -6784,7 +6783,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007279 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007279">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chilo suppressalis</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chilo suppressalis treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007122"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asiatic rice borer</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007279</oboInOwl:id>
@@ -6859,7 +6858,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007283 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007283">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stenchaetothrips biformis</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stenchaetothrips biformis treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007121"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007283</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest commonly called as oriental rice thrips.</obo:IAO_0000115>
@@ -6983,7 +6982,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007289 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007289">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydrellia philippina</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydrellia philippina treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007119"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007289</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest rice whorl maggot.</obo:IAO_0000115>
@@ -7092,7 +7091,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007294 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007294">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pelopidas mathias</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pelopidas mathias treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007114"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007294</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Pelopidas mathias.</obo:IAO_0000115>
@@ -7131,7 +7130,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007296 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007296">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dicladispa armigera</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dicladispa armigera treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007120"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007296</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Dicladispa armigera.</obo:IAO_0000115>
@@ -7169,7 +7168,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007298 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007298">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sogatodes oryzicola</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sogatodes oryzicola treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007116"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007298</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tagosodes orizicolus</oboInOwl:hasRelatedSynonym>
@@ -7189,7 +7188,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007300 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007300">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leptocorisa oratorius</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leptocorisa oratorius treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007116"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007300</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest paddy bug.</obo:IAO_0000115>
@@ -7245,7 +7244,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007304 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007304">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marasmia patnalis</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marasmia patnalis treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007114"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007304</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Marasmia patnalis .</obo:IAO_0000115>
@@ -7264,7 +7263,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007305 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007305">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cnaphalocrocis medinalis</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cnaphalocrocis medinalis treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007114"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007305</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Cnaphalocrocis medinalis.</obo:IAO_0000115>
@@ -7322,7 +7321,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007308 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007308">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nephotettix spp</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nephotettix spp treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007116"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007308</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest green leaf hopper.</obo:IAO_0000115>
@@ -7378,7 +7377,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007311 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007311">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orseolia oryzae</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orseolia oryzae treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007119"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asian rice gall midge</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007311</oboInOwl:id>
@@ -7417,7 +7416,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007313 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007313">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudaletia separata</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudaletia separata treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007117"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007313</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBI_taxid:7105</oboInOwl:hasDbXref>
@@ -7437,7 +7436,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007314 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007314">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nymphula depunctalis</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nymphula depunctalis treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007114"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007314</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest rice caseworm.</obo:IAO_0000115>
@@ -7495,7 +7494,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007317 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007317">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nilaparvata lugens</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nilaparvata lugens treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007116"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007317</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest brown planthopper.</obo:IAO_0000115>
@@ -7515,7 +7514,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007318 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007318">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice yellow mottle virus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice yellow mottle virus treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007109"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007318</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RYMV</oboInOwl:hasRelatedSynonym>
@@ -7554,7 +7553,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007320 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007320">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne arenaria</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne arenaria treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007127"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007320</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease.</obo:IAO_0000115>
@@ -7573,7 +7572,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007321 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007321">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hirschmaniella spinicaudata</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hirschmaniella spinicaudata treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007126"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007321</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Hirschmaniella spinicaudata. It is a causal agent for rice root nematode disease.</obo:IAO_0000115>
@@ -7591,7 +7590,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007322 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007322">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hirschmaniella oryzae</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hirschmaniella oryzae treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007126"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007322</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Hirschmaniella oryzae. It is a causal agent for rice root nematode disease.</obo:IAO_0000115>
@@ -7609,7 +7608,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007323 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007323">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hirschmaniella mucronata</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hirschmaniella mucronata treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007126"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007323</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Hirschmaniella mucronata. It is a causal agent for rice root nematode disease.</obo:IAO_0000115>
@@ -7627,7 +7626,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007324 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007324">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hirschmaniella imamuri</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hirschmaniella imamuri treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007126"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007324</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Hirschmaniella imamuri. It is a causal agent for rice root nematode disease.</obo:IAO_0000115>
@@ -7646,7 +7645,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007325 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007325">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hirschmaniella caudacrena</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hirschmaniella caudacrena treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007126"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007325</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Hirschmaniella imamuri. It is a causal agent for rice root nematode disease.</obo:IAO_0000115>
@@ -7664,7 +7663,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007326 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007326">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mycoplasma like organism</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mycoplasma like organism treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007212"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007326</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MLO</oboInOwl:hasRelatedSynonym>
@@ -7683,7 +7682,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007327 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007327">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mycovellosiella oryzae</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mycovellosiella oryzae treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007107"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007327</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ramularia oryzae</oboInOwl:hasRelatedSynonym>
@@ -7702,7 +7701,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007328 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007328">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pythium spp.</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pythium spp. treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007106"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007328</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the heterokont Pythium.</obo:IAO_0000115>
@@ -7721,7 +7720,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007329 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007329">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spodoptera praefica</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spodoptera praefica treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007115"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007329</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest commonly called as western yellowstriped armyworm.</obo:IAO_0000115>
@@ -7740,7 +7739,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007330 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007330">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spodoptera mauritia</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spodoptera mauritia treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007115"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007330</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prodenia acronyctoides</oboInOwl:hasRelatedSynonym>
@@ -7760,7 +7759,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007331 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007331">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudaletia unipuncta</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudaletia unipuncta treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007117"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007331</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBI_taxid:42880</oboInOwl:hasDbXref>
@@ -7821,7 +7820,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007334 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007334">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pomacea canaliculata</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pomacea canaliculata treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007335"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007334</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Pomacea canaliculata.</obo:IAO_0000115>
@@ -7841,7 +7840,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007335 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007335">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mollusca</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mollusca treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007349"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007335</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest molluscs.</obo:IAO_0000115>
@@ -7862,7 +7861,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007336 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007336">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ditylenchus angustus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ditylenchus angustus treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007337"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007336</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Ditylenchus angustus. It is a causal agent for rice Ufra disease.</obo:IAO_0000115>
@@ -7882,7 +7881,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007337 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007337">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nematoda</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nematoda treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007349"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007337</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the nematode pests.</obo:IAO_0000115>
@@ -7922,7 +7921,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007339 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007339">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice tungro spherical virus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice tungro spherical virus treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007109"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007339</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RTSV</oboInOwl:hasRelatedSynonym>
@@ -7948,7 +7947,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007340 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007340">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Achlya conspicua</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Achlya conspicua treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007136"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007340</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the heterokont Achlya conspicua. It is a causal agent for rice water mold diease which is also called as seed rot or seedling damping-off disease.</obo:IAO_0000115>
@@ -7967,7 +7966,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007341 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007341">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fusarium</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fusarium treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007118"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007301</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007341</oboInOwl:id>
@@ -7988,7 +7987,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007342 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007342">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Achlya klebsiana</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Achlya klebsiana treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007136"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007342</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the heterokont Achlya klebsiana. It is a causal agent for rice water mold diease which is also called as seed rot or seedling damping-off disease.</obo:IAO_0000115>
@@ -8007,7 +8006,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007343 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007343">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bovinae</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bovinae treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007031"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007343</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the cattle.</obo:IAO_0000115>
@@ -8027,7 +8026,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007344 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007344">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice tungro bacilliform virus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice tungro bacilliform virus treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007112"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007344</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RTBV</oboInOwl:hasRelatedSynonym>
@@ -8048,7 +8047,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007345 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007345">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rodentia</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rodentia treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007031"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007345</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest rats and mouse.</obo:IAO_0000115>
@@ -8070,7 +8069,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007346 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007346">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice yellow stunt virus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice yellow stunt virus treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007111"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007346</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RTYV</oboInOwl:hasRelatedSynonym>
@@ -8093,7 +8092,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007347 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007347">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aves</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aves treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007349"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007347</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plants to the birds.</obo:IAO_0000115>
@@ -8113,7 +8112,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007348 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007348">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice stripe necrosis virus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice stripe necrosis virus treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007109"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007348</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSNV</oboInOwl:hasRelatedSynonym>
@@ -8153,7 +8152,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007350 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007350">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice stripe virus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice stripe virus treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007111"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007350</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSV</oboInOwl:hasRelatedSynonym>
@@ -8227,7 +8226,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007356 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007356">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice hoja blanca virus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice hoja blanca virus treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007111"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007356</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the rice hoja blanca virus. It is a causal agent for rice hoja blanca disease.</obo:IAO_0000115>
@@ -8269,7 +8268,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007358 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007358">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice grassy stunt virus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice grassy stunt virus treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007111"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007358</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RGSV</oboInOwl:hasRelatedSynonym>
@@ -8312,7 +8311,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007360 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007360">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">barley yellow dwarf virus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">barley yellow dwarf virus treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007109"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BYDV</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007360</oboInOwl:id>
@@ -8332,7 +8331,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007361 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007361">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice gall dwarf virus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice gall dwarf virus treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007110"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007361</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RGDV</oboInOwl:hasRelatedSynonym>
@@ -8352,7 +8351,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007362 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007362">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balansia oryzae-sativae</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balansia oryzae-sativae treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007107"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007362</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ephelis japonica</oboInOwl:hasRelatedSynonym>
@@ -8373,7 +8372,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007363 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007363">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnaporthe salvinii</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnaporthe salvinii treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007135"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007213</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007363</oboInOwl:id>
@@ -8398,7 +8397,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007364 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007364">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhizoctonia oryzae</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhizoctonia oryzae treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007073"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007364</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhizoctonia zeae</oboInOwl:hasRelatedSynonym>
@@ -8419,7 +8418,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007365 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007365">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice dwarf virus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice dwarf virus treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007110"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007365</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBI_taxid:10991</oboInOwl:hasDbXref>
@@ -8442,7 +8441,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007366 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007366">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice black streak dwarf virus</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rice black streak dwarf virus treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007110"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007366</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RBSDV</oboInOwl:hasRelatedSynonym>
@@ -8466,7 +8465,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007367 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007367">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aphelenchoides besseyi</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aphelenchoides besseyi treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007337"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007367</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Aphelenchoides besseyi. It is a causal agent for rice white tip nematode disease.</obo:IAO_0000115>
@@ -8504,7 +8503,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007369 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007369">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne salasi</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne salasi treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007127"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007369</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne salasi. It is a causal agent for rice root knot nematode disease.</obo:IAO_0000115>
@@ -8522,7 +8521,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007370 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007370">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne oryzae</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne oryzae treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007127"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007370</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease.</obo:IAO_0000115>
@@ -8540,7 +8539,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007371 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007371">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne javanica</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne javanica treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007127"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007371</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease.</obo:IAO_0000115>
@@ -8560,7 +8559,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007372 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007372">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne incognita</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne incognita treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007127"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007372</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease.</obo:IAO_0000115>
@@ -8594,7 +8593,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007374 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007374">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cylindrocladium scoparium</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cylindrocladium scoparium treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007107"/>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calonectria morganii</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007374</oboInOwl:id>
@@ -8614,7 +8613,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007375 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007375">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne graminicola</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne graminicola treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007127"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007375</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease.</obo:IAO_0000115>
@@ -8633,7 +8632,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007376 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007376">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pyrenochaeta oryzae</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pyrenochaeta oryzae treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007107"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007376</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pathogen Pyrenochaeta oryzae. It is a causal agent for rice Sheath Blotch Disease.</obo:IAO_0000115>
@@ -8651,7 +8650,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007377 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007377">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Athelia rolfsii</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Athelia rolfsii treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007073"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007377</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sclerotium rolfsii</oboInOwl:hasRelatedSynonym>
@@ -8691,7 +8690,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007379 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007379">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thanatephorus cucumeris</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thanatephorus cucumeris treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007073"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007379</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It is a causal agent for rice Sheath Blight diseases  such as Brown-bordered Leaf and Sheath Spot disease and/or Oriental Leaf and Sheath Blight disease.</rdfs:comment>
@@ -8824,7 +8823,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007386 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007386">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gerlachia oryzae</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gerlachia oryzae treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007107"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007386</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monographella albescens</oboInOwl:hasRelatedSynonym>
@@ -8863,7 +8862,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007388 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007388">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alternaria padwickii</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alternaria padwickii treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007214"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007388</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pathogen Alternaria padwickii. It is a causal agent for rice seedling blight (fungal) disease and/or stackburn disease also called as Alternaria Leaf Spot Disease.</obo:IAO_0000115>
@@ -8882,7 +8881,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007389 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007389">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gibberella zeae</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gibberella zeae treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007118"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007389</oboInOwl:id>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fusarium graminearum</oboInOwl:hasRelatedSynonym>
@@ -9253,7 +9252,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007411 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007411">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas fluorescens</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pseudomonas fluorescens treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007144"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Pseudomonas plant treatment (EO:0007144) involving the exposure to bacteria of the Pseudomonas fluorescens group.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacillus fluorescens</oboInOwl:hasRelatedSynonym>
@@ -11003,7 +11002,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007630 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007630">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sclerospora spp.</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sclerospora spp. treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007106"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007630</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pathogenic Sclerospora sp.</obo:IAO_0000115>
@@ -11021,7 +11020,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007631 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007631">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sclerospora graminicola</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sclerospora graminicola treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007630"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007631</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pathogen Sclerophthora graminicola. It is a causal agent for downy mildew disease.</obo:IAO_0000115>
@@ -11083,7 +11082,7 @@ whiteflies, scale insects, psyllids and jumping plant lice.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/EO_0007634 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007634">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spodoptera litura</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spodoptera litura treatment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EO_0007115"/>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007634</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest commonly calles as cutworm.</obo:IAO_0000115>

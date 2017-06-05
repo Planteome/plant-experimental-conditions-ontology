@@ -53,7 +53,8 @@ PATTERNS_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/*.tsv)) $(pa
 all_patterns: $(PATTERNS_OWL)
 
 patterns/%_pattern.owl: patterns/%.tsv
-	patterns/apply-pattern.py -P patterns/curie_map.yaml -i patterns/$*.tsv -p patterns/eo.yaml -n $@ > $@
+	dosdp-tools --outfile=$@ --prefixes=patterns/curie_map.yaml --template=patterns/$*.yaml generate --infile=patterns/$*.tsv
+	#patterns/apply-pattern.py -P patterns/curie_map.yaml -i patterns/$*.tsv -p patterns/eo.yaml -n $@ > $@
 patterns/%_pattern.obo: patterns/%_pattern.owl
 	$(OWLTOOLS) $< -o -f obo $@
 

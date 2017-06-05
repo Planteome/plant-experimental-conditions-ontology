@@ -1,4 +1,4 @@
-defined_class	defined_class_label	element	element label
+defined_class	defined_class_label	element	element_label
 EO:0007165	growth hormone treatment	CHEBI:37848	plant hormone
 EO:0001038	osmotic stress treatment	GO:0006970	response to osmotic stress
 EO:0007406	nitrate regimen	CHEBI:17632	nitrate

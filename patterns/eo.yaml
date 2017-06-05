@@ -1,12 +1,13 @@
 pattern_name: eo
 classes:
-  plant experimental condition: EO_0007359
-  plant treatment: EO_0001001
-  exposure event: ExO_0000002
+  plant experimental condition: EO:0007359
+  plant treatment: EO:0001001
+  exposure event: RO:0002310
 
 relations:
-  contains: RO_0001019
-  has participant: RO_0000057
+  contains: RO:0001019
+  has exposure stressor: RO:0002241
+  has participant: RO:0000057
     
 vars: 
   element: "'Thing'"
@@ -16,12 +17,6 @@ name:
   vars:
     - element
     
-annotations: 
-  - property: oio:hasExactSynonym
-    text: "%s"
-    vars:
-      - iri name
-
 def: 
   text: "A treatment involving the use of %s"
   vars:

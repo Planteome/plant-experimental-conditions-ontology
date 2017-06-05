@@ -1,416 +1,414 @@
-Prefix: : <http://purl.obolibrary.org/obo/>
-Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
-Prefix: DOSDP: <http://geneontology.org/foo/>
-Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
-Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
-Prefix: NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_>
-Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
-Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
-Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
-Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
-Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix(:=<owlapi:ontology#ont1#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
- ## Auto-generated
 
-Ontology: <http://purl.obolibrary.org/obo/patterns/eo_pattern.owl>
-AnnotationProperty: IAO:0000115
-AnnotationProperty: eo/element
-AnnotationProperty: DOSDP:applies-pattern
-AnnotationProperty: oio:hasExactSynonym
-Class: EO_0007359 ## plant experimental condition
-Class: EO_0001001 ## plant treatment
-ObjectProperty: RO_0000057 ## has participant
-ObjectProperty: RO_0001019 ## contains
-## Auto-generated classes
+Ontology(<owlapi:ontology#ont1>
 
-Class: CHEBI:37848 ## plant hormone
-## {"element": "CHEBI:37848"}
-Class: EO:0007165
- Annotations: rdfs:label "plant hormone treatment"
- Annotations: IAO:0000115 "A treatment involving the use of plant hormone"
- Annotations: oio:hasExactSynonym "growth hormone treatment"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:37848 ## 'plant treatment' and 'has participant' some plant hormone
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_17632>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_18153>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_18248>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_18291>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_18292>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_22152>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_22676>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_22984>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_23116>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_23530>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24061>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24527>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24781>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24852>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24859>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24866>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_25107>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_25555>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_25805>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_25944>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_26216>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_26833>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_27363>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_27560>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_27568>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_27573>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_27594>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_27638>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_28073>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_28659>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_28685>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_28694>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_28984>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_37527>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_37848>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0001001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0001038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007066>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007068>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007074>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007080>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007105>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007134>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007165>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007167>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007183>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007185>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007195>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007211>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007212>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007225>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007226>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007228>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007229>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007230>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007232>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007235>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007242>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007244>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007253>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007261>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007273>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007276>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007278>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007284>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007288>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007293>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007295>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007296>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007297>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007303>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007305>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007306>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007308>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007309>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007318>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007362>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007363>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007371>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007372>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007387>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007397>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007406>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007632>))
+Declaration(Class(<http://purl.obolibrary.org/obo/EO_0007633>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006970>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_101162>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_111238>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_116609>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_148305>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_165778>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2093>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_31744>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_42475>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_437488>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_5127>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_6303>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_6306>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_94399>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002241>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 
-Class: GO:0006970 ## response to osmotic stress
-## {"element": "GO:0006970"}
-Class: EO:0001038
- Annotations: rdfs:label "response to osmotic stress treatment"
- Annotations: IAO:0000115 "A treatment involving the use of response to osmotic stress"
- Annotations: oio:hasExactSynonym "osmotic stress treatment"
- EquivalentTo: EO_0001001 and RO_0000057 some GO:0006970 ## 'plant treatment' and 'has participant' some response to osmotic stress
 
-Class: CHEBI:17632 ## nitrate
-## {"element": "CHEBI:17632"}
-Class: EO:0007406
- Annotations: rdfs:label "nitrate treatment"
- Annotations: IAO:0000115 "A treatment involving the use of nitrate"
- Annotations: oio:hasExactSynonym "nitrate regimen"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:17632 ## 'plant treatment' and 'has participant' some nitrate
 
-Class: CHEBI:18153 ## ethene
-## {"element": "CHEBI:18153"}
-Class: EO:0007068
- Annotations: rdfs:label "ethene treatment"
- Annotations: IAO:0000115 "A treatment involving the use of ethene"
- Annotations: oio:hasExactSynonym "ethylene treatment"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:18153 ## 'plant treatment' and 'has participant' some ethene
+############################
+#   Classes
+############################
 
-Class: CHEBI:18248 ## iron atom
-## {"element": "CHEBI:18248"}
-Class: EO:0007242
- Annotations: rdfs:label "iron atom treatment"
- Annotations: IAO:0000115 "A treatment involving the use of iron atom"
- Annotations: oio:hasExactSynonym "iron nutrient regimen"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:18248 ## 'plant treatment' and 'has participant' some iron atom
+# Class: <http://purl.obolibrary.org/obo/EO_0001038> (http://purl.obolibrary.org/obo/GO_0006970 treatment)
 
-Class: CHEBI:18291 ## manganese atom
-## {"element": "CHEBI:18291"}
-Class: EO:0007387
- Annotations: rdfs:label "manganese atom treatment"
- Annotations: IAO:0000115 "A treatment involving the use of manganese atom"
- Annotations: oio:hasExactSynonym "manganese nutrient regimen"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:18291 ## 'plant treatment' and 'has participant' some manganese atom
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0001038> "A treatment involving the use of http://purl.obolibrary.org/obo/GO_0006970"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0001038> "http://purl.obolibrary.org/obo/GO_0006970 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0001038> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/GO_0006970>)))
 
-Class: CHEBI:18292 ## jasmonic acid
-## {"element": "CHEBI:18292"}
-Class: EO:0007080
- Annotations: rdfs:label "jasmonic acid treatment"
- Annotations: IAO:0000115 "A treatment involving the use of jasmonic acid"
- Annotations: oio:hasExactSynonym "jasmonic acid treatment"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:18292 ## 'plant treatment' and 'has participant' some jasmonic acid
+# Class: <http://purl.obolibrary.org/obo/EO_0007066> (http://purl.obolibrary.org/obo/CHEBI_23530 treatment)
 
-Class: CHEBI:22152 ## 2-cis-abscisic acid
-## {"element": "CHEBI:22152"}
-Class: EO:0007105
- Annotations: rdfs:label "2-cis-abscisic acid treatment"
- Annotations: IAO:0000115 "A treatment involving the use of 2-cis-abscisic acid"
- Annotations: oio:hasExactSynonym "abscisic acid treatment"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:22152 ## 'plant treatment' and 'has participant' some 2-cis-abscisic acid
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007066> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_23530"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007066> "http://purl.obolibrary.org/obo/CHEBI_23530 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007066> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_23530>)))
 
-Class: CHEBI:22676 ## auxin
-## {"element": "CHEBI:22676"}
-Class: EO:0007074
- Annotations: rdfs:label "auxin treatment"
- Annotations: IAO:0000115 "A treatment involving the use of auxin"
- Annotations: oio:hasExactSynonym "auxin treatment"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:22676 ## 'plant treatment' and 'has participant' some auxin
+# Class: <http://purl.obolibrary.org/obo/EO_0007068> (http://purl.obolibrary.org/obo/CHEBI_18153 treatment)
 
-Class: CHEBI:22984 ## calcium atom
-## {"element": "CHEBI:22984"}
-Class: EO:0007297
- Annotations: rdfs:label "calcium atom treatment"
- Annotations: IAO:0000115 "A treatment involving the use of calcium atom"
- Annotations: oio:hasExactSynonym "calcium nutrient regimen"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:22984 ## 'plant treatment' and 'has participant' some calcium atom
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007068> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_18153"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007068> "http://purl.obolibrary.org/obo/CHEBI_18153 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007068> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_18153>)))
 
-Class: CHEBI:23116 ## chlorine atom
-## {"element": "CHEBI:23116"}
-Class: EO:0007244
- Annotations: rdfs:label "chlorine atom treatment"
- Annotations: IAO:0000115 "A treatment involving the use of chlorine atom"
- Annotations: oio:hasExactSynonym "chlorine nutrient regimen"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:23116 ## 'plant treatment' and 'has participant' some chlorine atom
+# Class: <http://purl.obolibrary.org/obo/EO_0007074> (http://purl.obolibrary.org/obo/CHEBI_22676 treatment)
 
-Class: CHEBI:23530 ## cytokinin
-## {"element": "CHEBI:23530"}
-Class: EO:0007066
- Annotations: rdfs:label "cytokinin treatment"
- Annotations: IAO:0000115 "A treatment involving the use of cytokinin"
- Annotations: oio:hasExactSynonym "cytokinin treatment"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:23530 ## 'plant treatment' and 'has participant' some cytokinin
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007074> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_22676"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007074> "http://purl.obolibrary.org/obo/CHEBI_22676 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007074> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_22676>)))
 
-Class: CHEBI:24061 ## fluorine atom
-## {"element": "CHEBI:24061"}
-Class: EO:0007225
- Annotations: rdfs:label "fluorine atom treatment"
- Annotations: IAO:0000115 "A treatment involving the use of fluorine atom"
- Annotations: oio:hasExactSynonym "fluorine nutrient regimen"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:24061 ## 'plant treatment' and 'has participant' some fluorine atom
+# Class: <http://purl.obolibrary.org/obo/EO_0007080> (http://purl.obolibrary.org/obo/CHEBI_18292 treatment)
 
-Class: CHEBI:24527 ## herbicide
-## {"element": "CHEBI:24527"}
-Class: EO:0007183
- Annotations: rdfs:label "herbicide treatment"
- Annotations: IAO:0000115 "A treatment involving the use of herbicide"
- Annotations: oio:hasExactSynonym "herbicide treatment"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:24527 ## 'plant treatment' and 'has participant' some herbicide
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007080> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_18292"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007080> "http://purl.obolibrary.org/obo/CHEBI_18292 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007080> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_18292>)))
 
-Class: CHEBI:24781 ## imidazolinone
-## {"element": "CHEBI:24781"}
-Class: EO:0007633
- Annotations: rdfs:label "imidazolinone treatment"
- Annotations: IAO:0000115 "A treatment involving the use of imidazolinone"
- Annotations: oio:hasExactSynonym "imidazolinone treatment"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:24781 ## 'plant treatment' and 'has participant' some imidazolinone
+# Class: <http://purl.obolibrary.org/obo/EO_0007105> (http://purl.obolibrary.org/obo/CHEBI_22152 treatment)
 
-Class: CHEBI:24852 ## insecticide
-## {"element": "CHEBI:24852"}
-Class: EO:0007632
- Annotations: rdfs:label "insecticide treatment"
- Annotations: IAO:0000115 "A treatment involving the use of insecticide"
- Annotations: oio:hasExactSynonym "insecticide treatment"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:24852 ## 'plant treatment' and 'has participant' some insecticide
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007105> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_22152"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007105> "http://purl.obolibrary.org/obo/CHEBI_22152 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007105> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_22152>)))
 
-Class: CHEBI:24859 ## iodine atom
-## {"element": "CHEBI:24859"}
-Class: EO:0007230
- Annotations: rdfs:label "iodine atom treatment"
- Annotations: IAO:0000115 "A treatment involving the use of iodine atom"
- Annotations: oio:hasExactSynonym "iodine nutrient regimen"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:24859 ## 'plant treatment' and 'has participant' some iodine atom
+# Class: <http://purl.obolibrary.org/obo/EO_0007134> (http://purl.obolibrary.org/obo/CHEBI_37527 treatment)
 
-Class: CHEBI:24866 ## salt
-## {"element": "CHEBI:24866"}
-Class: EO:0007185
- Annotations: rdfs:label "salt treatment"
- Annotations: IAO:0000115 "A treatment involving the use of salt"
- Annotations: oio:hasExactSynonym "salt treatment"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:24866 ## 'plant treatment' and 'has participant' some salt
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007134> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_37527"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007134> "http://purl.obolibrary.org/obo/CHEBI_37527 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007134> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_37527>)))
 
-Class: CHEBI:25107 ## magnesium atom
-## {"element": "CHEBI:25107"}
-Class: EO:0007288
- Annotations: rdfs:label "magnesium atom treatment"
- Annotations: IAO:0000115 "A treatment involving the use of magnesium atom"
- Annotations: oio:hasExactSynonym "magnesium nutrient regimen"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:25107 ## 'plant treatment' and 'has participant' some magnesium atom
+# Class: <http://purl.obolibrary.org/obo/EO_0007165> (http://purl.obolibrary.org/obo/CHEBI_37848 treatment)
 
-Class: CHEBI:25555 ## nitrogen atom
-## {"element": "CHEBI:25555"}
-Class: EO:0007284
- Annotations: rdfs:label "nitrogen atom treatment"
- Annotations: IAO:0000115 "A treatment involving the use of nitrogen atom"
- Annotations: oio:hasExactSynonym "nitrogen macronutrient regimen"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:25555 ## 'plant treatment' and 'has participant' some nitrogen atom
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007165> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_37848"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007165> "http://purl.obolibrary.org/obo/CHEBI_37848 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007165> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_37848>)))
 
-Class: CHEBI:25805 ## oxygen atom
-## {"element": "CHEBI:25805"}
-Class: EO:0007278
- Annotations: rdfs:label "oxygen atom treatment"
- Annotations: IAO:0000115 "A treatment involving the use of oxygen atom"
- Annotations: oio:hasExactSynonym "oxygen regimen"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:25805 ## 'plant treatment' and 'has participant' some oxygen atom
+# Class: <http://purl.obolibrary.org/obo/EO_0007167> (http://purl.obolibrary.org/obo/CHEBI_25944 treatment)
 
-Class: CHEBI:25944 ## pesticide
-## {"element": "CHEBI:25944"}
-Class: EO:0007167
- Annotations: rdfs:label "pesticide treatment"
- Annotations: IAO:0000115 "A treatment involving the use of pesticide"
- Annotations: oio:hasExactSynonym "pesticide treatment"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:25944 ## 'plant treatment' and 'has participant' some pesticide
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007167> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_25944"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007167> "http://purl.obolibrary.org/obo/CHEBI_25944 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007167> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_25944>)))
 
-Class: CHEBI:26216 ## potassium atom
-## {"element": "CHEBI:26216"}
-Class: EO:0007293
- Annotations: rdfs:label "potassium atom treatment"
- Annotations: IAO:0000115 "A treatment involving the use of potassium atom"
- Annotations: oio:hasExactSynonym "potassium nutrient regimen"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:26216 ## 'plant treatment' and 'has participant' some potassium atom
+# Class: <http://purl.obolibrary.org/obo/EO_0007183> (http://purl.obolibrary.org/obo/CHEBI_24527 treatment)
 
-Class: CHEBI:26833 ## sulfur atom
-## {"element": "CHEBI:26833"}
-Class: EO:0007295
- Annotations: rdfs:label "sulfur atom treatment"
- Annotations: IAO:0000115 "A treatment involving the use of sulfur atom"
- Annotations: oio:hasExactSynonym "sulfur nutrient regimen"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:26833 ## 'plant treatment' and 'has participant' some sulfur atom
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007183> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_24527"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007183> "http://purl.obolibrary.org/obo/CHEBI_24527 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007183> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_24527>)))
 
-Class: CHEBI:27363 ## zinc atom
-## {"element": "CHEBI:27363"}
-Class: EO:0007309
- Annotations: rdfs:label "zinc atom treatment"
- Annotations: IAO:0000115 "A treatment involving the use of zinc atom"
- Annotations: oio:hasExactSynonym "zinc nutrient regimen"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:27363 ## 'plant treatment' and 'has participant' some zinc atom
+# Class: <http://purl.obolibrary.org/obo/EO_0007185> (http://purl.obolibrary.org/obo/CHEBI_24866 treatment)
 
-Class: CHEBI:27560 ## boron atom
-## {"element": "CHEBI:27560"}
-Class: EO:0007273
- Annotations: rdfs:label "boron atom treatment"
- Annotations: IAO:0000115 "A treatment involving the use of boron atom"
- Annotations: oio:hasExactSynonym "boron nutrient regimen"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:27560 ## 'plant treatment' and 'has participant' some boron atom
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007185> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_24866"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007185> "http://purl.obolibrary.org/obo/CHEBI_24866 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007185> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_24866>)))
 
-Class: CHEBI:27568 ## selenium atom
-## {"element": "CHEBI:27568"}
-Class: EO:0007232
- Annotations: rdfs:label "selenium atom treatment"
- Annotations: IAO:0000115 "A treatment involving the use of selenium atom"
- Annotations: oio:hasExactSynonym "selenium nutrient regimen"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:27568 ## 'plant treatment' and 'has participant' some selenium atom
+# Class: <http://purl.obolibrary.org/obo/EO_0007195> (http://purl.obolibrary.org/obo/NCBITaxon_42475 treatment)
 
-Class: CHEBI:27573 ## silicon atom
-## {"element": "CHEBI:27573"}
-Class: EO:0007235
- Annotations: rdfs:label "silicon atom treatment"
- Annotations: IAO:0000115 "A treatment involving the use of silicon atom"
- Annotations: oio:hasExactSynonym "silicon nutrient regimen"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:27573 ## 'plant treatment' and 'has participant' some silicon atom
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007195> "A treatment involving the use of http://purl.obolibrary.org/obo/NCBITaxon_42475"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007195> "http://purl.obolibrary.org/obo/NCBITaxon_42475 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007195> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/NCBITaxon_42475>)))
 
-Class: CHEBI:27594 ## carbon atom
-## {"element": "CHEBI:27594"}
-Class: EO:0007303
- Annotations: rdfs:label "carbon atom treatment"
- Annotations: IAO:0000115 "A treatment involving the use of carbon atom"
- Annotations: oio:hasExactSynonym "carbon nutrient regimen"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:27594 ## 'plant treatment' and 'has participant' some carbon atom
+# Class: <http://purl.obolibrary.org/obo/EO_0007211> (http://purl.obolibrary.org/obo/NCBITaxon_101162 treatment)
 
-Class: CHEBI:27638 ## cobalt atom
-## {"element": "CHEBI:27638"}
-Class: EO:0007276
- Annotations: rdfs:label "cobalt atom treatment"
- Annotations: IAO:0000115 "A treatment involving the use of cobalt atom"
- Annotations: oio:hasExactSynonym "cobalt nutrient regimen"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:27638 ## 'plant treatment' and 'has participant' some cobalt atom
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007211> "A treatment involving the use of http://purl.obolibrary.org/obo/NCBITaxon_101162"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007211> "http://purl.obolibrary.org/obo/NCBITaxon_101162 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007211> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/NCBITaxon_101162>)))
 
-Class: CHEBI:28073 ## chromium atom
-## {"element": "CHEBI:28073"}
-Class: EO:0007228
- Annotations: rdfs:label "chromium atom treatment"
- Annotations: IAO:0000115 "A treatment involving the use of chromium atom"
- Annotations: oio:hasExactSynonym "chromium nutrient regimen"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:28073 ## 'plant treatment' and 'has participant' some chromium atom
+# Class: <http://purl.obolibrary.org/obo/EO_0007212> (http://purl.obolibrary.org/obo/NCBITaxon_2093 treatment)
 
-Class: CHEBI:28659 ## phosphorus atom
-## {"element": "CHEBI:28659"}
-Class: EO:0007397
- Annotations: rdfs:label "phosphorus atom treatment"
- Annotations: IAO:0000115 "A treatment involving the use of phosphorus atom"
- Annotations: oio:hasExactSynonym "phosphorus nutrient regimen"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:28659 ## 'plant treatment' and 'has participant' some phosphorus atom
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007212> "A treatment involving the use of http://purl.obolibrary.org/obo/NCBITaxon_2093"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007212> "http://purl.obolibrary.org/obo/NCBITaxon_2093 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007212> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/NCBITaxon_2093>)))
 
-Class: CHEBI:28685 ## molybdenum atom
-## {"element": "CHEBI:28685"}
-Class: EO:0007253
- Annotations: rdfs:label "molybdenum atom treatment"
- Annotations: IAO:0000115 "A treatment involving the use of molybdenum atom"
- Annotations: oio:hasExactSynonym "molybdenum nutrient regimen"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:28685 ## 'plant treatment' and 'has participant' some molybdenum atom
+# Class: <http://purl.obolibrary.org/obo/EO_0007225> (http://purl.obolibrary.org/obo/CHEBI_24061 treatment)
 
-Class: CHEBI:28694 ## copper atom
-## {"element": "CHEBI:28694"}
-Class: EO:0007261
- Annotations: rdfs:label "copper atom treatment"
- Annotations: IAO:0000115 "A treatment involving the use of copper atom"
- Annotations: oio:hasExactSynonym "copper nutrient regimen"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:28694 ## 'plant treatment' and 'has participant' some copper atom
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007225> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_24061"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007225> "http://purl.obolibrary.org/obo/CHEBI_24061 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007225> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_24061>)))
 
-Class: CHEBI:28984 ## aluminium atom
-## {"element": "CHEBI:28984"}
-Class: EO:0007306
- Annotations: rdfs:label "aluminium atom treatment"
- Annotations: IAO:0000115 "A treatment involving the use of aluminium atom"
- Annotations: oio:hasExactSynonym "aluminum nutrient regimen"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:28984 ## 'plant treatment' and 'has participant' some aluminium atom
+# Class: <http://purl.obolibrary.org/obo/EO_0007226> (http://purl.obolibrary.org/obo/NCBITaxon_148305 treatment)
 
-Class: CHEBI:37527 ## acid
-## {"element": "CHEBI:37527"}
-Class: EO:0007134
- Annotations: rdfs:label "acid treatment"
- Annotations: IAO:0000115 "A treatment involving the use of acid"
- Annotations: oio:hasExactSynonym "acidic pH growth media environment"
- EquivalentTo: EO_0001001 and RO_0000057 some CHEBI:37527 ## 'plant treatment' and 'has participant' some acid
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007226> "A treatment involving the use of http://purl.obolibrary.org/obo/NCBITaxon_148305"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007226> "http://purl.obolibrary.org/obo/NCBITaxon_148305 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007226> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/NCBITaxon_148305>)))
 
-Class: NCBITaxon:6303 ## Meloidogyne javanica
-## {"element": "NCBITaxon:6303"}
-Class: EO:0007371
- Annotations: rdfs:label "Meloidogyne javanica treatment"
- Annotations: IAO:0000115 "A treatment involving the use of Meloidogyne javanica"
- Annotations: oio:hasExactSynonym "Meloidogyne javanica"
- EquivalentTo: EO_0001001 and RO_0000057 some NCBITaxon:6303 ## 'plant treatment' and 'has participant' some Meloidogyne javanica
+# Class: <http://purl.obolibrary.org/obo/EO_0007228> (http://purl.obolibrary.org/obo/CHEBI_28073 treatment)
 
-Class: NCBITaxon:6306 ## Meloidogyne incognita
-## {"element": "NCBITaxon:6306"}
-Class: EO:0007372
- Annotations: rdfs:label "Meloidogyne incognita treatment"
- Annotations: IAO:0000115 "A treatment involving the use of Meloidogyne incognita"
- Annotations: oio:hasExactSynonym "Meloidogyne incognita"
- EquivalentTo: EO_0001001 and RO_0000057 some NCBITaxon:6306 ## 'plant treatment' and 'has participant' some Meloidogyne incognita
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007228> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_28073"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007228> "http://purl.obolibrary.org/obo/CHEBI_28073 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007228> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_28073>)))
 
-Class: NCBITaxon:42475 ## rice ragged stunt virus
-## {"element": "NCBITaxon:42475"}
-Class: EO:0007195
- Annotations: rdfs:label "rice ragged stunt virus treatment"
- Annotations: IAO:0000115 "A treatment involving the use of rice ragged stunt virus"
- Annotations: oio:hasExactSynonym "rice ragged stunt virus"
- EquivalentTo: EO_0001001 and RO_0000057 some NCBITaxon:42475 ## 'plant treatment' and 'has participant' some rice ragged stunt virus
+# Class: <http://purl.obolibrary.org/obo/EO_0007229> (http://purl.obolibrary.org/obo/NCBITaxon_5127 treatment)
 
-Class: NCBITaxon:31744 ## rice yellow mottle virus
-## {"element": "NCBITaxon:31744"}
-Class: EO:0007318
- Annotations: rdfs:label "rice yellow mottle virus treatment"
- Annotations: IAO:0000115 "A treatment involving the use of rice yellow mottle virus"
- Annotations: oio:hasExactSynonym "rice yellow mottle virus"
- EquivalentTo: EO_0001001 and RO_0000057 some NCBITaxon:31744 ## 'plant treatment' and 'has participant' some rice yellow mottle virus
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007229> "A treatment involving the use of http://purl.obolibrary.org/obo/NCBITaxon_5127"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007229> "http://purl.obolibrary.org/obo/NCBITaxon_5127 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007229> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/NCBITaxon_5127>)))
 
-Class: NCBITaxon:116609 ## Ephelis japonica
-## {"element": "NCBITaxon:116609"}
-Class: EO:0007362
- Annotations: rdfs:label "Ephelis japonica treatment"
- Annotations: IAO:0000115 "A treatment involving the use of Ephelis japonica"
- Annotations: oio:hasExactSynonym "Balansia oryzae-sativae"
- EquivalentTo: EO_0001001 and RO_0000057 some NCBITaxon:116609 ## 'plant treatment' and 'has participant' some Ephelis japonica
+# Class: <http://purl.obolibrary.org/obo/EO_0007230> (http://purl.obolibrary.org/obo/CHEBI_24859 treatment)
 
-Class: NCBITaxon:437488 ## Cnaphalocrocis medinalis
-## {"element": "NCBITaxon:437488"}
-Class: EO:0007305
- Annotations: rdfs:label "Cnaphalocrocis medinalis treatment"
- Annotations: IAO:0000115 "A treatment involving the use of Cnaphalocrocis medinalis"
- Annotations: oio:hasExactSynonym "Cnaphalocrocis medinalis"
- EquivalentTo: EO_0001001 and RO_0000057 some NCBITaxon:437488 ## 'plant treatment' and 'has participant' some Cnaphalocrocis medinalis
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007230> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_24859"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007230> "http://purl.obolibrary.org/obo/CHEBI_24859 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007230> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_24859>)))
 
-Class: NCBITaxon:101162 ## Bipolaris oryzae
-## {"element": "NCBITaxon:101162"}
-Class: EO:0007211
- Annotations: rdfs:label "Bipolaris oryzae treatment"
- Annotations: IAO:0000115 "A treatment involving the use of Bipolaris oryzae"
- Annotations: oio:hasExactSynonym "Cochliobolus miyabeanus"
- EquivalentTo: EO_0001001 and RO_0000057 some NCBITaxon:101162 ## 'plant treatment' and 'has participant' some Bipolaris oryzae
+# Class: <http://purl.obolibrary.org/obo/EO_0007232> (http://purl.obolibrary.org/obo/CHEBI_27568 treatment)
 
-Class: NCBITaxon:111238 ## Dicladispa armigera
-## {"element": "NCBITaxon:111238"}
-Class: EO:0007296
- Annotations: rdfs:label "Dicladispa armigera treatment"
- Annotations: IAO:0000115 "A treatment involving the use of Dicladispa armigera"
- Annotations: oio:hasExactSynonym "Dicladispa armigera"
- EquivalentTo: EO_0001001 and RO_0000057 some NCBITaxon:111238 ## 'plant treatment' and 'has participant' some Dicladispa armigera
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007232> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_27568"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007232> "http://purl.obolibrary.org/obo/CHEBI_27568 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007232> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_27568>)))
 
-Class: NCBITaxon:5127 ## Fusarium fujikuroi
-## {"element": "NCBITaxon:5127"}
-Class: EO:0007229
- Annotations: rdfs:label "Fusarium fujikuroi treatment"
- Annotations: IAO:0000115 "A treatment involving the use of Fusarium fujikuroi"
- Annotations: oio:hasExactSynonym "Gibberella fujikuroi"
- EquivalentTo: EO_0001001 and RO_0000057 some NCBITaxon:5127 ## 'plant treatment' and 'has participant' some Fusarium fujikuroi
+# Class: <http://purl.obolibrary.org/obo/EO_0007235> (http://purl.obolibrary.org/obo/CHEBI_27573 treatment)
 
-Class: NCBITaxon:148305 ## Magnaporthe grisea
-## {"element": "NCBITaxon:148305"}
-Class: EO:0007226
- Annotations: rdfs:label "Magnaporthe grisea treatment"
- Annotations: IAO:0000115 "A treatment involving the use of Magnaporthe grisea"
- Annotations: oio:hasExactSynonym "Magnaporthe grisea"
- EquivalentTo: EO_0001001 and RO_0000057 some NCBITaxon:148305 ## 'plant treatment' and 'has participant' some Magnaporthe grisea
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007235> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_27573"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007235> "http://purl.obolibrary.org/obo/CHEBI_27573 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007235> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_27573>)))
 
-Class: NCBITaxon:165778 ## Nakataea oryzae
-## {"element": "NCBITaxon:165778"}
-Class: EO:0007363
- Annotations: rdfs:label "Nakataea oryzae treatment"
- Annotations: IAO:0000115 "A treatment involving the use of Nakataea oryzae"
- Annotations: oio:hasExactSynonym "Magnaporthe salvinii"
- EquivalentTo: EO_0001001 and RO_0000057 some NCBITaxon:165778 ## 'plant treatment' and 'has participant' some Nakataea oryzae
+# Class: <http://purl.obolibrary.org/obo/EO_0007242> (http://purl.obolibrary.org/obo/CHEBI_18248 treatment)
 
-Class: NCBITaxon:2093 ## Mycoplasma
-## {"element": "NCBITaxon:2093"}
-Class: EO:0007212
- Annotations: rdfs:label "Mycoplasma treatment"
- Annotations: IAO:0000115 "A treatment involving the use of Mycoplasma"
- Annotations: oio:hasExactSynonym "Mycoplasma"
- EquivalentTo: EO_0001001 and RO_0000057 some NCBITaxon:2093 ## 'plant treatment' and 'has participant' some Mycoplasma
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007242> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_18248"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007242> "http://purl.obolibrary.org/obo/CHEBI_18248 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007242> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_18248>)))
 
-Class: NCBITaxon:94399 ## Nephotettix
-## {"element": "NCBITaxon:94399"}
-Class: EO:0007308
- Annotations: rdfs:label "Nephotettix treatment"
- Annotations: IAO:0000115 "A treatment involving the use of Nephotettix"
- Annotations: oio:hasExactSynonym "Nephotettix spp"
- EquivalentTo: EO_0001001 and RO_0000057 some NCBITaxon:94399 ## 'plant treatment' and 'has participant' some Nephotettix
+# Class: <http://purl.obolibrary.org/obo/EO_0007244> (http://purl.obolibrary.org/obo/CHEBI_23116 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007244> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_23116"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007244> "http://purl.obolibrary.org/obo/CHEBI_23116 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007244> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_23116>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007253> (http://purl.obolibrary.org/obo/CHEBI_28685 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007253> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_28685"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007253> "http://purl.obolibrary.org/obo/CHEBI_28685 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007253> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_28685>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007261> (http://purl.obolibrary.org/obo/CHEBI_28694 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007261> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_28694"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007261> "http://purl.obolibrary.org/obo/CHEBI_28694 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007261> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_28694>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007273> (http://purl.obolibrary.org/obo/CHEBI_27560 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007273> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_27560"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007273> "http://purl.obolibrary.org/obo/CHEBI_27560 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007273> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_27560>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007276> (http://purl.obolibrary.org/obo/CHEBI_27638 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007276> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_27638"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007276> "http://purl.obolibrary.org/obo/CHEBI_27638 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007276> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_27638>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007278> (http://purl.obolibrary.org/obo/CHEBI_25805 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007278> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_25805"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007278> "http://purl.obolibrary.org/obo/CHEBI_25805 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007278> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_25805>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007284> (http://purl.obolibrary.org/obo/CHEBI_25555 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007284> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_25555"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007284> "http://purl.obolibrary.org/obo/CHEBI_25555 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007284> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_25555>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007288> (http://purl.obolibrary.org/obo/CHEBI_25107 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007288> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_25107"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007288> "http://purl.obolibrary.org/obo/CHEBI_25107 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007288> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_25107>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007293> (http://purl.obolibrary.org/obo/CHEBI_26216 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007293> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_26216"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007293> "http://purl.obolibrary.org/obo/CHEBI_26216 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007293> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_26216>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007295> (http://purl.obolibrary.org/obo/CHEBI_26833 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007295> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_26833"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007295> "http://purl.obolibrary.org/obo/CHEBI_26833 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007295> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_26833>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007296> (http://purl.obolibrary.org/obo/NCBITaxon_111238 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007296> "A treatment involving the use of http://purl.obolibrary.org/obo/NCBITaxon_111238"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007296> "http://purl.obolibrary.org/obo/NCBITaxon_111238 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007296> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/NCBITaxon_111238>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007297> (http://purl.obolibrary.org/obo/CHEBI_22984 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007297> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_22984"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007297> "http://purl.obolibrary.org/obo/CHEBI_22984 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007297> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_22984>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007303> (http://purl.obolibrary.org/obo/CHEBI_27594 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007303> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_27594"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007303> "http://purl.obolibrary.org/obo/CHEBI_27594 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007303> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_27594>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007305> (http://purl.obolibrary.org/obo/NCBITaxon_437488 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007305> "A treatment involving the use of http://purl.obolibrary.org/obo/NCBITaxon_437488"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007305> "http://purl.obolibrary.org/obo/NCBITaxon_437488 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007305> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/NCBITaxon_437488>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007306> (http://purl.obolibrary.org/obo/CHEBI_28984 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007306> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_28984"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007306> "http://purl.obolibrary.org/obo/CHEBI_28984 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007306> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_28984>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007308> (http://purl.obolibrary.org/obo/NCBITaxon_94399 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007308> "A treatment involving the use of http://purl.obolibrary.org/obo/NCBITaxon_94399"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007308> "http://purl.obolibrary.org/obo/NCBITaxon_94399 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007308> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/NCBITaxon_94399>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007309> (http://purl.obolibrary.org/obo/CHEBI_27363 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007309> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_27363"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007309> "http://purl.obolibrary.org/obo/CHEBI_27363 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007309> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_27363>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007318> (http://purl.obolibrary.org/obo/NCBITaxon_31744 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007318> "A treatment involving the use of http://purl.obolibrary.org/obo/NCBITaxon_31744"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007318> "http://purl.obolibrary.org/obo/NCBITaxon_31744 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007318> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/NCBITaxon_31744>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007362> (http://purl.obolibrary.org/obo/NCBITaxon_116609 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007362> "A treatment involving the use of http://purl.obolibrary.org/obo/NCBITaxon_116609"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007362> "http://purl.obolibrary.org/obo/NCBITaxon_116609 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007362> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/NCBITaxon_116609>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007363> (http://purl.obolibrary.org/obo/NCBITaxon_165778 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007363> "A treatment involving the use of http://purl.obolibrary.org/obo/NCBITaxon_165778"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007363> "http://purl.obolibrary.org/obo/NCBITaxon_165778 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007363> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/NCBITaxon_165778>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007371> (http://purl.obolibrary.org/obo/NCBITaxon_6303 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007371> "A treatment involving the use of http://purl.obolibrary.org/obo/NCBITaxon_6303"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007371> "http://purl.obolibrary.org/obo/NCBITaxon_6303 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007371> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/NCBITaxon_6303>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007372> (http://purl.obolibrary.org/obo/NCBITaxon_6306 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007372> "A treatment involving the use of http://purl.obolibrary.org/obo/NCBITaxon_6306"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007372> "http://purl.obolibrary.org/obo/NCBITaxon_6306 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007372> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/NCBITaxon_6306>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007387> (http://purl.obolibrary.org/obo/CHEBI_18291 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007387> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_18291"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007387> "http://purl.obolibrary.org/obo/CHEBI_18291 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007387> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_18291>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007397> (http://purl.obolibrary.org/obo/CHEBI_28659 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007397> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_28659"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007397> "http://purl.obolibrary.org/obo/CHEBI_28659 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007397> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_28659>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007406> (http://purl.obolibrary.org/obo/CHEBI_17632 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007406> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_17632"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007406> "http://purl.obolibrary.org/obo/CHEBI_17632 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007406> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_17632>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007632> (http://purl.obolibrary.org/obo/CHEBI_24852 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007632> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_24852"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007632> "http://purl.obolibrary.org/obo/CHEBI_24852 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007632> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_24852>)))
+
+# Class: <http://purl.obolibrary.org/obo/EO_0007633> (http://purl.obolibrary.org/obo/CHEBI_24781 treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/EO_0007633> "A treatment involving the use of http://purl.obolibrary.org/obo/CHEBI_24781"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/EO_0007633> "http://purl.obolibrary.org/obo/CHEBI_24781 treatment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/EO_0007633> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/EO_0001001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002241> <http://purl.obolibrary.org/obo/CHEBI_24781>)))
+
+
+)

@@ -6,23 +6,23 @@ classes:
 
 relations:
   contains: RO:0001019
-  has exposure stressor: RO:0002241
+  has exposure stimulus: RO:0002244
   has participant: RO:0000057
     
 vars: 
-  element: "'Thing'"
+  stimulus: "'Thing'"
 
 name:
   text: "%s treatment"
   vars:
-    - element
+    - stimulus
     
 def: 
   text: "A treatment involving the use of %s"
   vars:
-    - element
+    - stimulus
     
 equivalentTo: 
-  text: "'plant treatment' and 'has exposure stressor' some %s"
+  text: "'plant treatment' and 'has exposure stimulus' some %s"
   vars:
-    - element
+    - stimulus

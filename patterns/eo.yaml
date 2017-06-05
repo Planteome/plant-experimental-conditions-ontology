@@ -2,6 +2,7 @@ pattern_name: eo
 classes:
   plant experimental condition: EO_0007359
   plant treatment: EO_0001001
+  exposure event: ExO_0000002
 
 relations:
   contains: RO_0001019
@@ -27,6 +28,6 @@ def:
     - element
     
 equivalentTo: 
-  text: "'plant treatment' and 'has participant' some %s"
+  text: "'plant treatment' and 'has exposure stressor' some %s"
   vars:
     - element

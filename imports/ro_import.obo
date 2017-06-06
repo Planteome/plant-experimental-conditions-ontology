@@ -1,5 +1,6 @@
 format-version: 1.2
 ontology: eo/imports/ro_import
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000003>))\nDisjointClasses(<http://purl.obolibrary.org/obo/BFO_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BFO_0000002>))\nSubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002333> ObjectInverseOf(<http://purl.obolibrary.org/obo/RO_0002215>))\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002411> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002566>)\nSubClassOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002566> <http://purl.obolibrary.org/obo/BFO_0000040>) ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002418> <http://purl.obolibrary.org/obo/BFO_0000015>))) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002418> <http://purl.obolibrary.org/obo/BFO_0000015>))))\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002213> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002213> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002212> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nDLSafeRule(Body(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000066> Variable(<urn:swrl#y>) Variable(<urn:swrl#z>)) ObjectPropertyAtom(<http://purl.obolibrary.org/obo/RO_0002327> Variable(<urn:swrl#x>) Variable(<urn:swrl#y>)))Head(ObjectPropertyAtom(<http://purl.obolibrary.org/obo/BFO_0000050> Variable(<urn:swrl#x>) Variable(<urn:swrl#z>))))\nSubObjectPropertyOf(ObjectPropertyChain(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/RO_0002211> <http://purl.obolibrary.org/obo/RO_0002333>) <http://purl.obolibrary.org/obo/RO_0002448>)\n)
 
 [Term]
 id: BFO:0000002
@@ -12,6 +13,60 @@ id: BFO:0000003
 name: occurrent
 def: "An entity that has temporal parts and that happens, unfolds or develops through time." []
 
+[Term]
+id: BFO:0000004
+name: independent continuant
+def: "A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything." []
+is_a: BFO:0000002 ! continuant
+
+[Term]
+id: BFO:0000015
+name: process
+def: "An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t." []
+is_a: BFO:0000003 ! occurrent
+
+[Term]
+id: BFO:0000040
+name: material entity
+def: "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time." []
+is_a: BFO:0000004 ! independent continuant
+
+[Typedef]
+id: BFO:0000050
+is_transitive: true
+is_a: RO:0002131
+inverse_of: BFO:0000051
+
+[Typedef]
+id: BFO:0000051
+is_transitive: true
+is_a: RO:0002131
+
+[Typedef]
+id: BFO:0000062
+domain: BFO:0000003 ! occurrent
+range: BFO:0000003 ! occurrent
+holds_over_chain: BFO:0000050 BFO:0000062
+is_transitive: true
+is_a: RO:0002086
+inverse_of: BFO:0000063
+
+[Typedef]
+id: BFO:0000063
+domain: BFO:0000003 ! occurrent
+range: BFO:0000003 ! occurrent
+holds_over_chain: BFO:0000050 BFO:0000063
+is_transitive: true
+is_a: RO:0002222
+
+[Typedef]
+id: BFO:0000066
+domain: BFO:0000003 ! occurrent
+range: BFO:0000004 ! independent continuant
+holds_over_chain: BFO:0000050 BFO:0000066
+inverse_of: BFO:0000067
+transitive_over: BFO:0000050
+
 [Typedef]
 id: RO:0000056
 domain: BFO:0000002 ! continuant
@@ -22,4 +77,246 @@ inverse_of: RO:0000057
 id: RO:0000057
 domain: BFO:0000003 ! occurrent
 range: BFO:0000002 ! continuant
+holds_over_chain: BFO:0000051 RO:0000057
+
+[Typedef]
+id: RO:0002086
+is_transitive: true
+is_a: RO:0002222
+
+[Typedef]
+id: RO:0002131
+holds_over_chain: BFO:0000050 BFO:0000050
+holds_over_chain: BFO:0000051 BFO:0000050 {http://purl.obolibrary.org/obo/RO_0002582="true"}
+holds_over_chain: BFO:0000051 RO:0002131
+is_a: RO:0002323
+
+[Typedef]
+id: RO:0002211
+domain: BFO:0000015 ! process
+range: BFO:0000015 ! process
+is_transitive: true
+is_a: RO:0002411
+inverse_of: RO:0002334
+
+[Typedef]
+id: RO:0002212
+is_transitive: true
+is_a: RO:0002211
+is_a: RO:0002305
+inverse_of: RO:0002335
+
+[Typedef]
+id: RO:0002213
+holds_over_chain: RO:0002212 RO:0002212
+is_transitive: true
+is_a: RO:0002211
+is_a: RO:0002304
+inverse_of: RO:0002336
+
+[Typedef]
+id: RO:0002215
+domain: BFO:0000004 ! independent continuant
+range: BFO:0000015 ! process
+is_a: RO:0002216
+
+[Typedef]
+id: RO:0002216
+holds_over_chain: RO:0002215 BFO:0000050 {http://purl.obolibrary.org/obo/RO_0002582="true"}
+is_a: RO:0002328
+is_a: RO:0002500
+
+[Typedef]
+id: RO:0002222
+domain: BFO:0000003 ! occurrent
+range: BFO:0000003 ! occurrent
+
+[Typedef]
+id: RO:0002263
+holds_over_chain: RO:0002327 RO:0002411
+is_a: RO:0002264
+
+[Typedef]
+id: RO:0002264
+holds_over_chain: RO:0002327 RO:0002418
+is_a: RO:0002500
+
+[Typedef]
+id: RO:0002304
+is_a: RO:0002411
+
+[Typedef]
+id: RO:0002305
+is_a: RO:0002411
+
+[Typedef]
+id: RO:0002327
+is_a: RO:0002215
+inverse_of: RO:0002333
+
+[Typedef]
+id: RO:0002329
+holds_over_chain: BFO:0000050 RO:0002215 {http://purl.obolibrary.org/obo/RO_0002581="true"}
+is_a: RO:0002328
+
+[Typedef]
+id: RO:0002331
+holds_over_chain: RO:0002327 BFO:0000050
+is_a: RO:0002431
+transitive_over: BFO:0000050
+
+[Typedef]
+id: RO:0002333
+is_a: RO:0002328
+
+[Typedef]
+id: RO:0002334
+domain: BFO:0000015 ! process
+range: BFO:0000015 ! process
+is_transitive: true
+is_a: RO:0002427
+
+[Typedef]
+id: RO:0002335
+is_a: RO:0002334
+
+[Typedef]
+id: RO:0002336
+is_a: RO:0002334
+
+[Typedef]
+id: RO:0002404
+is_a: BFO:0000062
+is_a: RO:0002427
+inverse_of: RO:0002411
+
+[Typedef]
+id: RO:0002410
+is_a: RO:0002609
+
+[Typedef]
+id: RO:0002411
+is_transitive: true
+is_a: BFO:0000063
+is_a: RO:0002418
+
+[Typedef]
+id: RO:0002418
+is_transitive: true
+is_a: RO:0002501
+inverse_of: RO:0002427
+
+[Typedef]
+id: RO:0002427
+is_transitive: true
+is_a: RO:0002501
+
+[Typedef]
+id: RO:0002428
+holds_over_chain: RO:0002327 RO:0002211
+holds_over_chain: RO:0002331 RO:0002211
+is_a: RO:0002263
+is_a: RO:0002431
+
+[Typedef]
+id: RO:0002429
+holds_over_chain: RO:0002327 RO:0002213
+holds_over_chain: RO:0002331 RO:0002213
+is_a: RO:0002428
+
+[Typedef]
+id: RO:0002430
+holds_over_chain: RO:0002327 RO:0002212
+holds_over_chain: RO:0002331 RO:0002212
+is_a: RO:0002428
+
+[Typedef]
+id: RO:0002431
+is_a: RO:0002264
+is_a: RO:0002328
+is_a: RO:0002500
+
+[Typedef]
+id: RO:0002432
+holds_over_chain: RO:0002327 BFO:0000066 {http://purl.obolibrary.org/obo/RO_0002581="true"}
+is_a: RO:0002328
+
+[Typedef]
+id: RO:0002434
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_symmetric: true
+
+[Typedef]
+id: RO:0002436
+is_symmetric: true
+is_a: RO:0002434
+
+[Typedef]
+id: RO:0002448
+is_a: RO:0002436
+is_a: RO:0002566
+
+[Typedef]
+id: RO:0002479
+domain: BFO:0000003 ! occurrent
+range: BFO:0000004 ! independent continuant
+holds_over_chain: BFO:0000051 BFO:0000066 {http://purl.obolibrary.org/obo/RO_0002581="true"}
+
+[Typedef]
+id: RO:0002500
+is_a: RO:0002595
+inverse_of: RO:0002608
+
+[Typedef]
+id: RO:0002501
+domain: BFO:0000003 ! occurrent
+range: BFO:0000003 ! occurrent
+is_a: RO:0002410
+
+[Typedef]
+id: RO:0002506
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_a: RO:0002410
+
+[Typedef]
+id: RO:0002559
+is_a: RO:0002506
+inverse_of: RO:0002566
+
+[Typedef]
+id: RO:0002566
+is_a: RO:0002506
+
+[Typedef]
+id: RO:0002584
+holds_over_chain: BFO:0000051 RO:0002215
+is_a: RO:0002328
+is_a: RO:0002595
+
+[Typedef]
+id: RO:0002595
+domain: BFO:0000040 ! material entity
+range: BFO:0000015 ! process
+is_a: RO:0002410
+
+[Typedef]
+id: RO:0002596
+holds_over_chain: RO:0002215 RO:0002211
+is_a: RO:0002500
+
+[Typedef]
+id: RO:0002597
+holds_over_chain: RO:0002215 RO:0002212
+is_a: RO:0002596
+
+[Typedef]
+id: RO:0002598
+holds_over_chain: RO:0002215 RO:0002213
+is_a: RO:0002596
+
+[Typedef]
+id: RO:0002608
+is_a: RO:0002410
 

@@ -1,0 +1,8 @@
+http://purl.obolibrary.org/obo/ENVO_02000054 #bone meal
+http://purl.obolibrary.org/obo/ENVO_00002262 #clay soil
+http://purl.obolibrary.org/obo/ENVO_00002229 #arenosol
+http://purl.obolibrary.org/obo/ENVO_09200001 #temperature of air
+http://purl.obolibrary.org/obo/ENVO_01000830 #water-based rainfall
+http://purl.obolibrary.org/obo/ENVO_02500002 #flooding
+http://purl.obolibrary.org/obo/ENVO_00000097 #desert
+http://purl.obolibrary.org/obo/ENVO_01000552 #natural gas

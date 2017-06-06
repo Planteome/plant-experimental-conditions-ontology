@@ -11,3 +11,62 @@ http://purl.obolibrary.org/obo/NCBITaxon_2093
 http://purl.obolibrary.org/obo/NCBITaxon_437488
 http://purl.obolibrary.org/obo/NCBITaxon_5127
 http://purl.obolibrary.org/obo/NCBITaxon_94399
+http://purl.obolibrary.org/obo/NCBITaxon_4447 #Liliopsida
+http://purl.obolibrary.org/obo/NCBITaxon_40674 #Mammalia
+http://purl.obolibrary.org/obo/NCBITaxon_706553 #Passalora janseana
+http://purl.obolibrary.org/obo/NCBITaxon_5204 #Basidiomycota
+http://purl.obolibrary.org/obo/NCBITaxon_157178 #Tilletia barclayana
+http://purl.obolibrary.org/obo/NCBITaxon_749593 #Epicoccum sorghinum
+http://purl.obolibrary.org/obo/NCBITaxon_63189 #Ceratorhiza oryzae-sativae
+http://purl.obolibrary.org/obo/NCBITaxon_33634 #Stramenopiles
+http://purl.obolibrary.org/obo/NCBITaxon_4890 #Ascomycota
+http://purl.obolibrary.org/obo/NCBITaxon_35325 #dsRNA viruses
+http://purl.obolibrary.org/obo/NCBITaxon_347 #Xanthomonas oryzae
+http://purl.obolibrary.org/obo/NCBITaxon_82948 #Pythium spinosum
+http://purl.obolibrary.org/obo/NCBITaxon_82941 #Pythium myriotylum
+http://purl.obolibrary.org/obo/NCBITaxon_36331 #Pythium irregulare
+http://purl.obolibrary.org/obo/NCBITaxon_82937 #Pythium graminicola
+http://purl.obolibrary.org/obo/NCBITaxon_82936 #Pythium dissotocum
+http://purl.obolibrary.org/obo/NCBITaxon_82932 #Pythium arrhenomanes
+http://purl.obolibrary.org/obo/NCBITaxon_1159556 #Ustilaginoidea virens
+http://purl.obolibrary.org/obo/NCBITaxon_467176 #Sclerophthora macrospora
+http://purl.obolibrary.org/obo/NCBITaxon_29850 #Gaeumannomyces graminis
+http://purl.obolibrary.org/obo/NCBITaxon_101162 #Bipolaris oryzae
+http://purl.obolibrary.org/obo/NCBITaxon_148305 #Magnaporthe grisea
+http://purl.obolibrary.org/obo/NCBITaxon_5503 #Curvularia lunata
+http://purl.obolibrary.org/obo/NCBITaxon_117187 #Fusarium verticillioides
+http://purl.obolibrary.org/obo/NCBITaxon_50340 #Pseudomonas fuscovaginae
+http://purl.obolibrary.org/obo/NCBITaxon_337 #Burkholderia glumae
+http://purl.obolibrary.org/obo/NCBITaxon_556 #Dickeya chrysanthemi
+http://purl.obolibrary.org/obo/NCBITaxon_2 #Bacteria
+http://purl.obolibrary.org/obo/NCBITaxon_549 #Pantoea agglomerans
+http://purl.obolibrary.org/obo/NCBITaxon_80867 #Acidovorax avenae
+http://purl.obolibrary.org/obo/NCBITaxon_31744 #Rice yellow mottle virus
+http://purl.obolibrary.org/obo/NCBITaxon_6304 #Meloidogyne arenaria
+http://purl.obolibrary.org/obo/NCBITaxon_362338 #Hirschmanniella oryzae
+http://purl.obolibrary.org/obo/NCBITaxon_50557 #Insecta
+http://purl.obolibrary.org/obo/NCBITaxon_344380 #Ditylenchus angustus
+http://purl.obolibrary.org/obo/NCBITaxon_6231 #Nematoda
+http://purl.obolibrary.org/obo/NCBITaxon_112027 #Achlya conspicua
+http://purl.obolibrary.org/obo/NCBITaxon_5506 #Fusarium
+http://purl.obolibrary.org/obo/NCBITaxon_4767 #Achlya klebsiana
+http://purl.obolibrary.org/obo/NCBITaxon_33208 #Metazoa
+http://purl.obolibrary.org/obo/NCBITaxon_12331 #Rice stripe virus
+http://purl.obolibrary.org/obo/NCBITaxon_12332 #Rice hoja blanca virus
+http://purl.obolibrary.org/obo/NCBITaxon_66266 #Rice grassy stunt virus
+http://purl.obolibrary.org/obo/NCBITaxon_12037 #Barley yellow dwarf virus
+http://purl.obolibrary.org/obo/NCBITaxon_165778 #Nakataea oryzae
+http://purl.obolibrary.org/obo/NCBITaxon_459364 #Rhizoctonia oryzae
+http://purl.obolibrary.org/obo/NCBITaxon_10991 #Rice dwarf virus
+http://purl.obolibrary.org/obo/NCBITaxon_269767 #Aphelenchoides besseyi
+http://purl.obolibrary.org/obo/NCBITaxon_6303 #Meloidogyne javanica
+http://purl.obolibrary.org/obo/NCBITaxon_6306 #Meloidogyne incognita
+http://purl.obolibrary.org/obo/NCBITaxon_40624 #Calonectria cylindrospora
+http://purl.obolibrary.org/obo/NCBITaxon_189291 #Meloidogyne graminicola
+http://purl.obolibrary.org/obo/NCBITaxon_39291 #Athelia rolfsii
+http://purl.obolibrary.org/obo/NCBITaxon_284135 #Sarocladium oryzae
+http://purl.obolibrary.org/obo/NCBITaxon_107832 #Thanatephorus cucumeris
+http://purl.obolibrary.org/obo/NCBITaxon_714880 #Alternaria padwickii
+http://purl.obolibrary.org/obo/NCBITaxon_5518 #Fusarium graminearum
+http://purl.obolibrary.org/obo/NCBITaxon_294 #Pseudomonas fluorescens
+http://purl.obolibrary.org/obo/NCBITaxon_162130 #Sclerospora graminicola

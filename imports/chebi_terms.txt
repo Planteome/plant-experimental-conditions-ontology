@@ -103,3 +103,113 @@ http://purl.obolibrary.org/obo/CHEBI_60952 #diterpene phytoalexin
 http://purl.obolibrary.org/obo/CHEBI_28833 #gibberellin A3
 http://purl.obolibrary.org/obo/CHEBI_28425 #alpha-carotene
 http://purl.obolibrary.org/obo/CHEBI_28793 #beta-D-glucan
+http://purl.obolibrary.org/obo/CHEBI_28112 #nickel atom
+http://purl.obolibrary.org/obo/CHEBI_16189 #sulfate
+http://purl.obolibrary.org/obo/CHEBI_24834 #inorganic anion
+http://purl.obolibrary.org/obo/CHEBI_36233 #disaccharide
+http://purl.obolibrary.org/obo/CHEBI_36915 #inorganic cation
+http://purl.obolibrary.org/obo/CHEBI_28938 #ammonium
+http://purl.obolibrary.org/obo/CHEBI_16526 #carbon dioxide
+http://purl.obolibrary.org/obo/CHEBI_25812 #ozone
+http://purl.obolibrary.org/obo/CHEBI_32145 #sodium hydroxide
+http://purl.obolibrary.org/obo/CHEBI_46793 #poly(ethylene glycol)
+http://purl.obolibrary.org/obo/CHEBI_33281 #antimicrobial agent
+http://purl.obolibrary.org/obo/CHEBI_46662 #mineral
+http://purl.obolibrary.org/obo/CHEBI_26710 #sodium chloride
+http://purl.obolibrary.org/obo/CHEBI_116509 #diuron
+http://purl.obolibrary.org/obo/CHEBI_29362 #ethylene group
+http://purl.obolibrary.org/obo/CHEBI_86644 #Gibberellic acid
+http://purl.obolibrary.org/obo/CHEBI_33287 #fertilizer
+http://purl.obolibrary.org/obo/CHEBI_63038 #ammonium nitrate
+http://purl.obolibrary.org/obo/CHEBI_63005 #sodium nitrate
+http://purl.obolibrary.org/obo/CHEBI_64205 #calcium nitrate
+http://purl.obolibrary.org/obo/CHEBI_63043 #potassium nitrate
+http://purl.obolibrary.org/obo/CHEBI_62946 #ammonium sulfate
+http://purl.obolibrary.org/obo/CHEBI_75832 #iron(2+) sulfate (anhydrous)
+http://purl.obolibrary.org/obo/CHEBI_32036 #potassium sulfate
+http://purl.obolibrary.org/obo/CHEBI_16199 #urea
+http://purl.obolibrary.org/obo/CHEBI_30212 #photon
+http://purl.obolibrary.org/obo/CHEBI_24753 #hygromycin
+http://purl.obolibrary.org/obo/CHEBI_30396 #phenyl group
+http://purl.obolibrary.org/obo/CHEBI_19351 #(2,4-dichlorophenoxy)acetate
+http://purl.obolibrary.org/obo/CHEBI_16914 #salicylic acid
+http://purl.obolibrary.org/obo/CHEBI_21547 #N-acetyl-L-aspartic acid
+http://purl.obolibrary.org/obo/CHEBI_35456 #cadmium dichloride
+http://purl.obolibrary.org/obo/CHEBI_27027 #micronutrient
+http://purl.obolibrary.org/obo/CHEBI_48864 #benzothiadiazole
+http://purl.obolibrary.org/obo/CHEBI_24127 #fungicide
+http://purl.obolibrary.org/obo/CHEBI_19371 #dibromothymoquinone
+http://purl.obolibrary.org/obo/CHEBI_27407 #kinetin
+http://purl.obolibrary.org/obo/CHEBI_29022 #N-benzyladenine
+http://purl.obolibrary.org/obo/CHEBI_35889 #ethylphosphine
+http://purl.obolibrary.org/obo/CHEBI_15929 #(-)-methyl jasmonate
+http://purl.obolibrary.org/obo/CHEBI_52524 #5-methyltryptophan
+http://purl.obolibrary.org/obo/CHEBI_35176 #zinc sulfate
+http://purl.obolibrary.org/obo/CHEBI_86360 #manganese(II) sulfate
+http://purl.obolibrary.org/obo/CHEBI_44785 #peroxide
+http://purl.obolibrary.org/obo/CHEBI_28534 #1,2-dibromoethane
+http://purl.obolibrary.org/obo/CHEBI_27789 #1,2-dichloroethane
+http://purl.obolibrary.org/obo/CHEBI_35299 #dibenz[a,h]anthracene
+http://purl.obolibrary.org/obo/CHEBI_18934 #hexane-2,5-diyl bis(methanesulfonate)
+http://purl.obolibrary.org/obo/CHEBI_18935 #hex-3-yne-2,5-diyl bis(methanesulfonate)
+http://purl.obolibrary.org/obo/CHEBI_28901 #busulfan
+http://purl.obolibrary.org/obo/CHEBI_18953 #D-mannitol 1,6-bis(methanesulfonate)
+http://purl.obolibrary.org/obo/CHEBI_18954 #L-mannitol 1,6-bis(methanesulfonate)
+http://purl.obolibrary.org/obo/CHEBI_19024 #4-amino-3-hydroxynaphthalene-1-sulfonic acid
+http://purl.obolibrary.org/obo/CHEBI_19032 #1-bromo-2-chloroethane
+http://purl.obolibrary.org/obo/CHEBI_51052 #lucanthone
+http://purl.obolibrary.org/obo/CHEBI_19363 #2,5-bis(aziridin-1-yl)-1,4-benzoquinone
+http://purl.obolibrary.org/obo/CHEBI_19508 #2-chloroethyl methanesulfonate
+http://purl.obolibrary.org/obo/CHEBI_19579 #2-fluoroethyl methanesulfonate
+http://purl.obolibrary.org/obo/CHEBI_46790 #2-methoxyethanol
+http://purl.obolibrary.org/obo/CHEBI_20552 #5-bromouracil
+http://purl.obolibrary.org/obo/CHEBI_20553 #5-bromouridine
+http://purl.obolibrary.org/obo/CHEBI_27666 #actinomycin D
+http://purl.obolibrary.org/obo/CHEBI_22526 #4-aminofolic acid
+http://purl.obolibrary.org/obo/CHEBI_27732 #caffeine
+http://purl.obolibrary.org/obo/CHEBI_27899 #cisplatin
+http://purl.obolibrary.org/obo/CHEBI_23359 #colchicine
+http://purl.obolibrary.org/obo/CHEBI_23414 #copper(II) sulfate
+http://purl.obolibrary.org/obo/CHEBI_23704 #diepoxybutane
+http://purl.obolibrary.org/obo/CHEBI_34699 #diethyl sulfate
+http://purl.obolibrary.org/obo/CHEBI_28262 #dimethyl sulfoxide
+http://purl.obolibrary.org/obo/CHEBI_16991 #deoxyribonucleic acid
+http://purl.obolibrary.org/obo/CHEBI_35702 #diethyl ether
+http://purl.obolibrary.org/obo/CHEBI_23994 #ethyl methanesulfonate
+http://purl.obolibrary.org/obo/CHEBI_23995 #N-ethyl-N-nitrosourea
+http://purl.obolibrary.org/obo/CHEBI_27561 #oxirane
+http://purl.obolibrary.org/obo/CHEBI_30969 #aziridine
+http://purl.obolibrary.org/obo/CHEBI_28954 #fagaronine
+http://purl.obolibrary.org/obo/CHEBI_16842 #formaldehyde
+http://purl.obolibrary.org/obo/CHEBI_33118 #boric acid
+http://purl.obolibrary.org/obo/CHEBI_24564 #hexamethylmelamine
+http://purl.obolibrary.org/obo/CHEBI_24565 #hexamethylphosphoric triamide
+http://purl.obolibrary.org/obo/CHEBI_37595 #quinacrine mustard
+http://purl.obolibrary.org/obo/CHEBI_21183 #ICR-170
+http://purl.obolibrary.org/obo/CHEBI_21184 #Janus Green B chloride
+http://purl.obolibrary.org/obo/CHEBI_25234 #1-methoxy-N-nitrosodiethylamine
+http://purl.obolibrary.org/obo/CHEBI_25255 #methyl methanesulfonate
+http://purl.obolibrary.org/obo/CHEBI_27504 #mitomycin C
+http://purl.obolibrary.org/obo/CHEBI_25434 #bis(2-chloroethyl) sulfide
+http://purl.obolibrary.org/obo/CHEBI_21759 #N-methyl-N'-nitro-N-nitrosoguanidine
+http://purl.obolibrary.org/obo/CHEBI_35807 #N-nitrosodimethylamine
+http://purl.obolibrary.org/obo/CHEBI_37598 #nitrogen mustard
+http://purl.obolibrary.org/obo/CHEBI_50102 #N-methyl-N-nitrosourea
+http://purl.obolibrary.org/obo/CHEBI_25813 #p-N,N-bis(2-chloroethyl)aminophenylvaleric acid
+http://purl.obolibrary.org/obo/CHEBI_25814 #p-N,N-bis(2-chloroethyl)amino-D-phenylalanine
+http://purl.obolibrary.org/obo/CHEBI_28876 #melphalan
+http://purl.obolibrary.org/obo/CHEBI_25816 #p-N,N-bis(2-chloroethyl)amino-L-phenylalanine
+http://purl.obolibrary.org/obo/CHEBI_28830 #chlorambucil
+http://purl.obolibrary.org/obo/CHEBI_25818 #4-(2-aminoethyl)-N,N-bis(2-chloroethyl)aniline
+http://purl.obolibrary.org/obo/CHEBI_25829 #p-p'-N,N-di(2-chloroethyl)aminophenoxyphenylalanine
+http://purl.obolibrary.org/obo/CHEBI_26491 #quinhydrone
+http://purl.obolibrary.org/obo/CHEBI_22025 #S-2-chloroethylcysteine
+http://purl.obolibrary.org/obo/CHEBI_26709 #sodium hydrogensulfite
+http://purl.obolibrary.org/obo/CHEBI_28741 #sodium fluoride
+http://purl.obolibrary.org/obo/CHEBI_26800 #styrylquinoline
+http://purl.obolibrary.org/obo/CHEBI_27090 #triaziquone
+http://purl.obolibrary.org/obo/CHEBI_27919 #tretamine
+http://purl.obolibrary.org/obo/CHEBI_17967 #urethane
+http://purl.obolibrary.org/obo/CHEBI_27292 #vinyl carbamate
+http://purl.obolibrary.org/obo/CHEBI_29238 #tritium atom
+http://purl.obolibrary.org/obo/CHEBI_33325 #radium atom

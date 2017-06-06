@@ -48,12 +48,12 @@ release: $(ONT).owl $(ONT).obo
 
 
 #######PATTERNS
-PATTERNS_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/*.tsv)) $(patsubst %.tsv, %_pattern.obo, $(wildcard patterns/*.tsv))
+PATTERNS_OWL = $(patsubst %.csv, %_pattern.owl, $(wildcard patterns/*.csv)) $(patsubst %.csv, %_pattern.obo, $(wildcard patterns/*.csv))
 
 all_patterns: $(PATTERNS_OWL)
 
-patterns/%_pattern.owl: patterns/%.tsv
-	dosdp-tools --outfile=$@ --prefixes=patterns/curie_map.yaml --template=patterns/$*.yaml generate --infile=patterns/$*.tsv
+patterns/%_pattern.owl: patterns/%.csv
+	dosdp-tools --outfile=$@ --prefixes=patterns/curie_map.yaml --obo-prefixes=true --template=patterns/eo.yaml --ontology=imports/$(patsubst exposure-%,%, $*)_import.owl generate --infile=$*.csv
 	#patterns/apply-pattern.py -P patterns/curie_map.yaml -i patterns/$*.tsv -p patterns/eo.yaml -n $@ > $@
 patterns/%_pattern.obo: patterns/%_pattern.owl
 	$(OWLTOOLS) $< -o -f obo $@

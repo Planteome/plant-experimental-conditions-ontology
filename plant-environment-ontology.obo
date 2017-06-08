@@ -251,70 +251,70 @@ creation_date: 2013-04-12T18:30:23Z
 
 [Term]
 id: EO:0001025
-name: urea nitrogen regimen
+name: urea nitrogen treatement
 def: "A nitrogen macronutrient regimen (EO:0007284)  involving exposure of plant to urea (CHEBI:16199) as the primary or sole source of nitrogen." [POC:cooperl]
 xref: EO_GIT:3
 xref: OBO_SF2_EO:3
-is_a: EO:0007284 ! nitrogen macronutrient regimen
+is_a: EO:0007284 ! nitrogen macronutrient treatement
 created_by: cooperl
 creation_date: 2013-04-12T19:19:27Z
 
 [Term]
 id: EO:0001026
-name: MTA nitrogen regimen
+name: MTA nitrogen treatement
 def: "A nitrogen macronutrient regimen (EO:0007284) involving exposure of plant to 5'-S-methyl-5'-thioadenosine (MTA; CHEBI:17509) as the primary or sole source of nitrogen." [CHEBI:17509, PO:cooperl]
 xref: EO_GIT:3
-is_a: EO:0007284 ! nitrogen macronutrient regimen
+is_a: EO:0007284 ! nitrogen macronutrient treatement
 created_by: cooperl
 creation_date: 2013-04-12T19:23:02Z
 
 [Term]
 id: EO:0001027
-name: alanine nitrogen regimen
+name: alanine nitrogen treatement
 def: "A nitrogen macronutrient regimen (EO:0007284) involving exposure of plant to alanine (CHEBI:16449) as the primary or sole source of nitrogen." [CHEBI:16449, PO:cooperl]
 xref: EO_GIT:3
 xref: OBO_SF2_EO:3
-is_a: EO:0007284 ! nitrogen macronutrient regimen
+is_a: EO:0007284 ! nitrogen macronutrient treatement
 created_by: cooperl
 creation_date: 2013-04-12T19:23:17Z
 
 [Term]
 id: EO:0001028
-name: glutamate nitrogen regimen
+name: glutamate nitrogen treatement
 def: "A nitrogen macronutrient regimen (EO:0007284)  involving exposure of plant to glutamate (CHEBI:29987) as the primary or sole source of nitrogen." [CHEBI:29987, PO:cooperl]
 xref: EO_GIT:3
 xref: OBO_SF2_EO:3
-is_a: EO:0007284 ! nitrogen macronutrient regimen
+is_a: EO:0007284 ! nitrogen macronutrient treatement
 created_by: cooperl
 creation_date: 2013-04-12T19:35:46Z
 
 [Term]
 id: EO:0001029
-name: arginine nitrogen regimen
+name: arginine nitrogen treatement
 def: "A nitrogen macronutrient regimen (EO:0007284)  involving exposure of plant to arginine (CHEBI:29016) as the primary or sole source of nitrogen." [CHEBI:29016, PO:cooperl]
 xref: EO_GIT:3
 xref: OBO_SF2_EO:3
-is_a: EO:0007284 ! nitrogen macronutrient regimen
+is_a: EO:0007284 ! nitrogen macronutrient treatement
 created_by: cooperl
 creation_date: 2013-04-12T19:36:14Z
 
 [Term]
 id: EO:0001030
-name: ornithine nitrogen regimen
+name: ornithine nitrogen treatement
 def: "A nitrogen macronutrient regimen (EO:0007284)  involving exposure of plant to ornithine (CHEBI:18257) as the primary or sole source of nitrogen." [CHEBI:18257, PO:cooperl]
 xref: EO_GIT:3
 xref: OBO_SF2_EO:3
-is_a: EO:0007284 ! nitrogen macronutrient regimen
+is_a: EO:0007284 ! nitrogen macronutrient treatement
 created_by: cooperl
 creation_date: 2013-04-12T19:40:51Z
 
 [Term]
 id: EO:0001031
-name: glutamine nitrogen regimen
+name: glutamine nitrogen treatement
 def: "A nitrogen macronutrient regimen (EO:0007284)  involving exposure of plant to glutamine (CHEBI:28300) as the primary or sole source of nitrogen." [CHEBI:28300, PO:cooperl]
 xref: EO_GIT:3
 xref: OBO_SF2_EO:3
-is_a: EO:0007284 ! nitrogen macronutrient regimen
+is_a: EO:0007284 ! nitrogen macronutrient treatement
 created_by: cooperl
 creation_date: 2013-04-12T19:41:18Z
 
@@ -404,7 +404,7 @@ name: light-induced photooxidative stress treatment
 def: "A light intensity regimen (EO:0007224) involving use of light-dependent generations of reactive oxygen species." [PO:cooperl]
 xref: EO_GIT:44
 xref: OBO_SF2_EO:44
-is_a: EO:0007224 ! light intensity regimen
+is_a: EO:0007224 ! light intensity treatement
 created_by: moorel
 creation_date: 2013-04-16T14:22:02Z
 
@@ -414,7 +414,7 @@ name: limited zinc treatment
 def: "A zinc nutrient treatment (EO:0007309) involving exposure to limiting amounts or absence of zinc (CHEBI:27363)." [CHEBI:27363, PO:cooperl]
 xref: EO_GIT:23
 xref: OBO_SF2_EO:23
-is_a: EO:0007309 ! zinc nutrient regimen
+is_a: EO:0007309 ! zinc nutrient treatement
 created_by: moorel
 creation_date: 2013-04-18T15:08:50Z
 
@@ -424,7 +424,7 @@ name: limited boron treatment
 def: "A boron nutrient regimen (EO:0007273) involving exposure to limiting amounts or absence of boron (CHEBI:27560)." [CHEBI:27560, PO:cooperl]
 xref: EO_GIT:15
 xref: OBO_SF2_EO:15
-is_a: EO:0007273 ! boron nutrient regimen
+is_a: EO:0007273 ! boron nutrient treatement
 created_by: moorel
 creation_date: 2013-04-18T15:16:27Z
 
@@ -440,11 +440,11 @@ creation_date: 2013-04-18T15:21:57Z
 
 [Term]
 id: EO:0001044
-name: limited carbon regimen
+name: limited carbon treatement
 def: "A carbon nutrient regimen (EO:0007303) involving exposure to limiting amounts or the absence of carbon (CHEBI:27594)." [CHEBI:27594, PO:cooperl]
 xref: EO_GIT:13
 xref: OBO_SF2_EO:13
-is_a: EO:0007303 ! carbon nutrient regimen
+is_a: EO:0007303 ! carbon nutrient treatement
 created_by: moorel
 creation_date: 2013-04-24T12:22:51Z
 
@@ -472,37 +472,37 @@ creation_date: 2013-04-24T12:43:48Z
 
 [Term]
 id: EO:0001047
-name: limited iron regimen
+name: limited iron treatement
 def: "An iron nutrient regimen (EO:0007242) involving exposure to limiting amounts or the absence of iron (CHEBI:18248)." [CHEBI:18248, PO:cooperl]
 xref: EO_GIT:14
 xref: OBO_SF2_EO:14
-is_a: EO:0007242 ! iron nutrient regimen
+is_a: EO:0007242 ! iron nutrient treatement
 created_by: moorel
 creation_date: 2013-04-24T13:10:33Z
 
 [Term]
 id: EO:0001048
-name: limited molybdenum regimen
+name: limited molybdenum treatement
 def: "A molybdenum nutrient regimen (EO:0007253) involving exposure to limiting amounts or the absence of molybdenum (CHEBI:28685)." [CHEBI:28685, PO:cooperl]
 xref: EO_GIT:18
 xref: OBO_SF2_EO:18
-is_a: EO:0007253 ! molybdenum nutrient regimen
+is_a: EO:0007253 ! molybdenum nutrient treatement
 created_by: moorel
 creation_date: 2013-04-24T13:21:03Z
 
 [Term]
 id: EO:0001049
-name: limited magnesium regimen
+name: limited magnesium treatement
 def: "A magnesium nutrient regimen (EO:0007288) involving exposure to limiting amounts or the absence of magnesium (CHEBI:25107)." [CHEBI:25107, PO:cooperl]
 xref: EO_GIT:17
 xref: OBO_SF2_EO:17
-is_a: EO:0007288 ! magnesium nutrient regimen
+is_a: EO:0007288 ! magnesium nutrient treatement
 created_by: moorel
 creation_date: 2013-04-24T13:31:00Z
 
 [Term]
 id: EO:0001050
-name: limited nitrogen regimen
+name: limited nitrogen treatement
 def: "A nitrogen macronutrient regimen (EO:0007284) involving exposure to limiting amounts or the absence of nitrogen (CHEBI:25555)." [CHEBI:25555, PO:cooperl]
 xref: EO_GIT:19
 xref: EO_GIT:2
@@ -510,45 +510,45 @@ xref: EO_GIT:25
 xref: OBO_SF2_EO:19
 xref: OBO_SF2_EO:2
 xref: OBO_SF2_EO:25
-is_a: EO:0007284 ! nitrogen macronutrient regimen
+is_a: EO:0007284 ! nitrogen macronutrient treatement
 created_by: moorel
 creation_date: 2013-04-24T13:45:43Z
 
 [Term]
 id: EO:0001051
-name: limited potassium regimen
+name: limited potassium treatement
 def: "A potassium nutrient regimen (EO:0007293) involving exposure to limiting amounts or the absence of potassium (CHEBI:26216)." [CHEBI:26216, PO:cooperl]
 xref: EO_GIT:21
 xref: OBO_SF2_EO:21
-is_a: EO:0007293 ! potassium nutrient regimen
+is_a: EO:0007293 ! potassium nutrient treatement
 created_by: moorel
 creation_date: 2013-04-24T13:54:39Z
 
 [Term]
 id: EO:0001052
-name: limited sulfur regimen
+name: limited sulfur treatement
 def: "A sulfur nutrient regimen (EO:0007295) involving exposure to limiting amounts or the absence of sulfur (CHEBI:26833)." [CHEBI:26833, PO:cooperl]
 xref: EO_GIT:22
 xref: OBO_SF2_EO:22
-is_a: EO:0007295 ! sulfur nutrient regimen
+is_a: EO:0007295 ! sulfur nutrient treatement
 created_by: moorel
 creation_date: 2013-04-24T14:06:32Z
 
 [Term]
 id: EO:0001053
-name: limited manganese regimen
+name: limited manganese treatement
 def: "A manganese nutrient regimen (EO:0007387) involving exposure to limiting amounts or the absence of manganese (CHEBI:18291)." [CHEBI:18291, PO:cooperl]
 xref: EO_GIT:24
 xref: OBO_SF2_EO:24
-is_a: EO:0007387 ! manganese nutrient regimen
+is_a: EO:0007387 ! manganese nutrient treatement
 created_by: moorel
 creation_date: 2013-04-24T14:16:15Z
 
 [Term]
 id: EO:0001054
-name: limited nitrate regimen
+name: limited nitrate treatement
 def: "A nitrate regimen (EO:0007406) involving exposure to limiting amounts or the absence of nitrate (CHEBI:17632)." [CHEBI:17632, PO:cooperl]
-is_a: EO:0007406 ! nitrate regimen
+is_a: EO:0007406 ! nitrate treatement
 created_by: moorel
 creation_date: 2013-04-24T14:28:43Z
 
@@ -636,15 +636,15 @@ creation_date: 2015-10-12T14:58:32Z
 
 [Term]
 id: EO:0007001
-name: UV-B light regimen
+name: UV-B light treatement
 def: "The treatment using UV-B light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 315-280nm." [GR:pj]
-is_a: EO:0007222 ! UV light regimen
+is_a: EO:0007222 ! UV light treatement
 
 [Term]
 id: EO:0007002
-name: UV-A light regimen
+name: UV-A light treatement
 def: "The treatment using UV-A light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 380-315nm." [GR:pj]
-is_a: EO:0007222 ! UV light regimen
+is_a: EO:0007222 ! UV light treatement
 
 [Term]
 id: EO:0007003
@@ -910,7 +910,7 @@ is_a: EO:0007189 ! chemical treatment
 
 [Term]
 id: EO:0007043
-name: non-mineral nutrient regimen
+name: non-mineral nutrient treatement
 def: "Treatment involving the exposure of plant to molecular forms of nutrient as supplement to study various types of responses." [GR:pj]
 is_a: EO:0007241 ! plant nutrient treatment
 
@@ -924,26 +924,26 @@ is_a: EO:0001004 ! inorganic chemical treatment
 
 [Term]
 id: EO:0007045
-name: primary plant macronutrient regimen
+name: primary plant macronutrient treatement
 def: "A plant macronutrient regimen (EO:0007240)  involving the use of the primary plant macronutrients nitrogen (N), phosphorus (P), and potassium (K)." [GR:pj, PO:cooperl]
 comment: These plant macronutrients are required by the plant in greatest quantities for normal growth.
-is_a: EO:0007240 ! plant macronutrient regimen
+is_a: EO:0007240 ! plant macronutrient treatement
 
 [Term]
 id: EO:0007046
 name: secondary macronutrient treatment
 def: "Treatment involving the use of macronutrients (Ca, Mg, S) as supplement to study various types of responses. These macronutrients are used less often as fertilizers than the primary elements." [GR:pj]
-is_a: EO:0007240 ! plant macronutrient regimen
+is_a: EO:0007240 ! plant macronutrient treatement
 
 [Term]
 id: EO:0007047
-name: other nutrient regimen
+name: other nutrient treatement
 def: "Treatment involving the exposure of plant to elemental forms of nutrient as supplement to study various types of responses. These are not considered essential elements." [GR:pj]
 is_a: EO:0007241 ! plant nutrient treatment
 
 [Term]
 id: EO:0007048
-name: sodium chloride regimen
+name: sodium chloride treatement
 def: "A salt treatment (EO:0007185) involving the use of sodium chloride salt as supplement to liquid and soil growth media to study various types of responses on its application." [GR:pj]
 synonym: "NaCl treatment" RELATED []
 xref: CHEBI:26710
@@ -1143,13 +1143,13 @@ is_a: EO:0007165 ! growth hormone treatment
 
 [Term]
 id: EO:0007075
-name: high light intensity regimen
-is_a: EO:0007224 ! light intensity regimen
+name: high light intensity treatement
+is_a: EO:0007224 ! light intensity treatement
 
 [Term]
 id: EO:0007076
-name: moderate light intensity regimen
-is_a: EO:0007224 ! light intensity regimen
+name: moderate light intensity treatement
+is_a: EO:0007224 ! light intensity treatement
 
 [Term]
 id: EO:0007077
@@ -1160,16 +1160,16 @@ is_a: EO:0007073 ! Basidiomycota treatment
 
 [Term]
 id: EO:0007078
-name: light quantity regimen
+name: light quantity treatement
 def: "In biological experiments often it refer to the length of the exposure time. The treatment also includes the quantity of light falling on a per unit area. This may be expressed either in terms of hours for which teh radiation was available or in the units of luminous flux or the lumens." [GR:pj]
 synonym: "photoperiod regimen" RELATED []
-is_a: EO:0007153 ! radiation quantity regimen
+is_a: EO:0007153 ! radiation quantity treatement
 
 [Term]
 id: EO:0007079
-name: sulfate fertilizer regimen
+name: sulfate fertilizer treatement
 def: "Treatment involving the use of sulfate fertilizer and its components as supplements to study various types of responses." [GR:pj]
-is_a: EO:0007086 ! chemical fertilizer regimen
+is_a: EO:0007086 ! chemical fertilizer treatement
 
 [Term]
 id: EO:0007080
@@ -1206,22 +1206,22 @@ is_a: EO:0007349 ! metazoan plant treatment
 
 [Term]
 id: EO:0007085
-name: fertilizer regimen
+name: fertilizer treatement
 def: "A plant nutrient treatment (EO:0007241) involving the use of a fertilizer, a combination of plant nutrients." [GR:pj]
 is_a: EO:0007241 ! plant nutrient treatment
 
 [Term]
 id: EO:0007086
-name: chemical fertilizer regimen
+name: chemical fertilizer treatement
 def: "Treatment involving the use of inorganic fertilizer and its components as supplements to study various types of responses." [GR:pj]
-is_a: EO:0007085 ! fertilizer regimen
+is_a: EO:0007085 ! fertilizer treatement
 
 [Term]
 id: EO:0007087
-name: natural fertilizer regimen
+name: natural fertilizer treatement
 def: "Treatment involving the use of organic fertilizer and its component as supplements to study various types of responses." [GR:pj]
 synonym: "organic fertilizer regimen" RELATED []
-is_a: EO:0007085 ! fertilizer regimen
+is_a: EO:0007085 ! fertilizer treatement
 
 [Term]
 id: EO:0007088
@@ -1234,97 +1234,97 @@ is_a: EO:0007073 ! Basidiomycota treatment
 
 [Term]
 id: EO:0007089
-name: bone meal regimen
-is_a: EO:0007087 ! natural fertilizer regimen
+name: bone meal treatement
+is_a: EO:0007087 ! natural fertilizer treatement
 
 [Term]
 id: EO:0007090
-name: ammonium nitrate regimen
+name: ammonium nitrate treatement
 def: "Treatment involving the use of ammonium nitrate supplement to study various types of responses." [GR:pj]
-is_a: EO:0007406 ! nitrate regimen
+is_a: EO:0007406 ! nitrate treatement
 
 [Term]
 id: EO:0007091
-name: seaweed extract regimen
-is_a: EO:0007087 ! natural fertilizer regimen
+name: seaweed extract treatement
+is_a: EO:0007087 ! natural fertilizer treatement
 
 [Term]
 id: EO:0007092
-name: wood ash regimen
-is_a: EO:0007087 ! natural fertilizer regimen
+name: wood ash treatement
+is_a: EO:0007087 ! natural fertilizer treatement
 
 [Term]
 id: EO:0007093
-name: fish meal regimen
-is_a: EO:0007087 ! natural fertilizer regimen
+name: fish meal treatement
+is_a: EO:0007087 ! natural fertilizer treatement
 
 [Term]
 id: EO:0007094
-name: sodium nitrate regimen
+name: sodium nitrate treatement
 def: "Treatment involving the use of sodium nitrate supplement to study various types of responses." [GR:pj]
-is_a: EO:0007406 ! nitrate regimen
+is_a: EO:0007406 ! nitrate treatement
 
 [Term]
 id: EO:0007095
-name: calcium nitrate regimen
+name: calcium nitrate treatement
 def: "Treatment involving the use of calcium nitrate supplement to study various types of responses." [GR:pj]
-is_a: EO:0007406 ! nitrate regimen
+is_a: EO:0007406 ! nitrate treatement
 
 [Term]
 id: EO:0007096
-name: potassium nitrate regimen
+name: potassium nitrate treatement
 def: "Treatment involving the use of potassiumium nitrate supplement to study various types of responses." [GR:pj]
-is_a: EO:0007406 ! nitrate regimen
+is_a: EO:0007406 ! nitrate treatement
 
 [Term]
 id: EO:0007097
-name: ammonium sulfate regimen
+name: ammonium sulfate treatement
 def: "Treatment involving the use of ammonium sulfate supplement to study various types of responses." [GR:pj]
-is_a: EO:0007079 ! sulfate fertilizer regimen
-is_a: EO:0007102 ! nitrogen fertilizer regimen
+is_a: EO:0007079 ! sulfate fertilizer treatement
+is_a: EO:0007102 ! nitrogen fertilizer treatement
 
 [Term]
 id: EO:0007098
-name: ferrous sulfate regimen
+name: ferrous sulfate treatement
 def: "Treatment involving the use of ferrous sulfate supplement to study various types of responses." [GR:pj]
-is_a: EO:0007079 ! sulfate fertilizer regimen
+is_a: EO:0007079 ! sulfate fertilizer treatement
 
 [Term]
 id: EO:0007099
-name: potassium sulfate regimen
+name: potassium sulfate treatement
 def: "Treatment involving the use of potassium sulfate supplement to study various types of responses." [GR:pj]
-is_a: EO:0007079 ! sulfate fertilizer regimen
+is_a: EO:0007079 ! sulfate fertilizer treatement
 
 [Term]
 id: EO:0007100
-name: superphosphate regimen
+name: superphosphate treatement
 def: "Treatment involving the use of super phosphate supplement to study various types of responses." [GR:pj]
-is_a: EO:0007103 ! phosphate fertilizer regimen
+is_a: EO:0007103 ! phosphate fertilizer treatement
 
 [Term]
 id: EO:0007101
-name: urea regimen
+name: urea treatement
 def: "Treatment involving the use of urea as source of nitrogen supplement to study various types of responses." [GR:pj]
-is_a: EO:0007102 ! nitrogen fertilizer regimen
+is_a: EO:0007102 ! nitrogen fertilizer treatement
 
 [Term]
 id: EO:0007102
-name: nitrogen fertilizer regimen
+name: nitrogen fertilizer treatement
 def: "Treatment involving the use of nitrogen fertilizer and its components as supplements to study various types of responses." [GR:pj]
-is_a: EO:0007086 ! chemical fertilizer regimen
+is_a: EO:0007086 ! chemical fertilizer treatement
 
 [Term]
 id: EO:0007103
-name: phosphate fertilizer regimen
+name: phosphate fertilizer treatement
 def: "Treatment involving the use of phosphate fertilizer and its components as supplements to study various types of responses." [GR:pj]
-is_a: EO:0007086 ! chemical fertilizer regimen
+is_a: EO:0007086 ! chemical fertilizer treatement
 
 [Term]
 id: EO:0007104
-name: NPK fertilizer regimen
+name: NPK fertilizer treatement
 def: "Treatment involving the use of nitrogen, phosphorus and potassium supplements to study various types of responses." [GR:pj]
-is_a: EO:0007102 ! nitrogen fertilizer regimen
-is_a: EO:0007103 ! phosphate fertilizer regimen
+is_a: EO:0007102 ! nitrogen fertilizer treatement
+is_a: EO:0007103 ! phosphate fertilizer treatement
 
 [Term]
 id: EO:0007105
@@ -1491,34 +1491,34 @@ is_a: EO:0007337 ! Nematoda treatment
 
 [Term]
 id: EO:0007128
-name: intermittent light regimen
+name: intermittent light treatement
 def: "In biological experiments it refer to the intermittent exposure of plant to the cycles of light and dark or one light Vs the another type of light." [GR:pj]
-is_a: EO:0007078 ! light quantity regimen
+is_a: EO:0007078 ! light quantity treatement
 
 [Term]
 id: EO:0007129
-name: UV-C light regimen
+name: UV-C light treatement
 def: "The treatment using UV-C light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 280-10nm." [GR:pj]
-is_a: EO:0007222 ! UV light regimen
+is_a: EO:0007222 ! UV light treatement
 
 [Term]
 id: EO:0007130
-name: near infra-red light regimen
+name: near infra-red light treatement
 def: "The treatment using infra-red light either exclusively or as part of a supplemental light of near IR band that contains energy in the range of wavelengths 750-1300nm, which is closest to the visible light." [GR:pj]
 synonym: "near IR light regimen" RELATED []
-is_a: EO:0007202 ! IR light regimen
+is_a: EO:0007202 ! IR light treatement
 
 [Term]
 id: EO:0007131
-name: middle infra-red light regimen
+name: middle infra-red light treatement
 def: "The treatment using middle infra-red light either exclusively or as part of a supplemental light treatment involving middle IR band that contains energy in the range of wavelengths 1300-3000nm." [GR:pj]
-is_a: EO:0007202 ! IR light regimen
+is_a: EO:0007202 ! IR light treatement
 
 [Term]
 id: EO:0007132
-name: far infra-red light regimen
+name: far infra-red light treatement
 def: "The treatment using far infra-red light either exclusively or as part of a supplemental light treatment involving far IR band that contains energy in the range of wavelengths 3000-14000nm." [GR:pj]
-is_a: EO:0007202 ! IR light regimen
+is_a: EO:0007202 ! IR light treatement
 
 [Term]
 id: EO:0007133
@@ -1526,7 +1526,7 @@ name: basic pH growth media environment treatment
 alt_id: EO:0007169
 def: "The treatment involving an exposure to basic pH levels of the growth media." [GR:pj]
 synonym: "basic pH environment" RELATED []
-is_a: EO:0007171 ! pH regimen
+is_a: EO:0007171 ! pH treatement
 
 [Term]
 id: EO:0007134
@@ -1534,7 +1534,7 @@ name: acidic pH growth media environment treatment
 alt_id: EO:0007170
 def: "The treatment involving an exposure to acidic pH levels of the growth media." [GR:pj]
 synonym: "acidic pH environment" RELATED []
-is_a: EO:0007171 ! pH regimen
+is_a: EO:0007171 ! pH treatement
 
 [Term]
 id: EO:0007135
@@ -1649,13 +1649,13 @@ is_a: EO:0007316 ! physical plant treatment
 
 [Term]
 id: EO:0007152
-name: radiation intensity regimen
+name: radiation intensity treatement
 def: "The treatment involving amount of energy of any radiation incident upon (or flowing through) unit area, perpendicular to the radiation source, in unit time." [GR:pj]
 is_a: EO:0007151 ! radiation treatment
 
 [Term]
 id: EO:0007153
-name: radiation quantity regimen
+name: radiation quantity treatement
 def: "In biological experiments it refer to the treatment involving radiation in terms of length of the exposure time. It also includes the quantity of radiation falling on a per unit area. This is expressed in the units of luminous flux or the lumens." [GR:pj]
 is_a: EO:0007151 ! radiation treatment
 
@@ -1693,29 +1693,29 @@ is_a: EO:0007155 ! soil type treatment
 
 [Term]
 id: EO:0007160
-name: water temperature regimen
+name: water temperature treatement
 def: "The treatment involving an exposure to water with varying degree of temperature, which may depend on regional environment." [GR:pj]
 is_a: EO:0007175 ! temperature environment treatment
 is_a: EO:0007198 ! water environment treatment
 
 [Term]
 id: EO:0007161
-name: air temperature regimen
+name: air temperature treatement
 def: "The treatment involving an exposure to wind with varying degree of temperature, which may depend on the study type or the regional environment." [GR:pj]
 is_a: EO:0007175 ! temperature environment treatment
 is_a: EO:0007382 ! wind environment treatment
 
 [Term]
 id: EO:0007162
-name: continuous light regimen
+name: continuous light treatement
 def: "The treatment involving continuous exposure of light to the plant." [GR:pj]
-is_a: EO:0007078 ! light quantity regimen
+is_a: EO:0007078 ! light quantity treatement
 
 [Term]
 id: EO:0007163
-name: day light regimen
+name: day light treatement
 def: "The treatment involving an exposure of plant to the scheduled or natural exposure of day light and night cycles to the plant." [GR:pj]
-is_a: EO:0007128 ! intermittent light regimen
+is_a: EO:0007128 ! intermittent light treatement
 
 [Term]
 id: EO:0007164
@@ -1758,7 +1758,7 @@ is_a: EO:0007041 ! antibiotic treatment
 
 [Term]
 id: EO:0007171
-name: pH regimen
+name: pH treatement
 def: "The treatment involving exposure of plants to varying levels of pH of the growth media." [GR:pj]
 is_a: EO:0007189 ! chemical treatment
 
@@ -1770,13 +1770,13 @@ is_a: EO:0007282 ! standing water treatment
 
 [Term]
 id: EO:0007173
-name: warm/hot temperature regimen
+name: warm/hot temperature treatement
 def: "The treatment involving an exposure to above optimal temperature, which may depend on the study type or the regional environment." [GR:pj]
 is_a: EO:0007175 ! temperature environment treatment
 
 [Term]
 id: EO:0007174
-name: cold temperature regimen
+name: cold temperature treatement
 def: "The treatment involving an exposure to cold or sub-optimal temperature, which may depend on the study type or the regional environment." [GR:pj]
 is_a: EO:0007175 ! temperature environment treatment
 
@@ -1922,7 +1922,7 @@ is_a: EO:0007107 ! Ascomycota treatment
 [Term]
 id: EO:0007193
 name: day light intensity treatment
-is_a: EO:0007224 ! light intensity regimen
+is_a: EO:0007224 ! light intensity treatement
 
 [Term]
 id: EO:0007194
@@ -1943,7 +1943,7 @@ is_a: EO:0007110 ! dsRNA virus treatment
 
 [Term]
 id: EO:0007196
-name: light regimen
+name: light treatement
 alt_id: EO:0007201
 def: "The treatment involving day light as the light of the sun or the artificial light in a growth chamber." [GR:pj]
 comment: A type of light used in a commercial light box to simulate natural daylight. For experiments carried out in growth chambers, the daylight is a light source providing a color temperature of 6500+/-200 K at an illumination of 90 to 120 ft/candles. This source is typically provided by fluorescent,  tungsten or halogen lamps.
@@ -1956,7 +1956,7 @@ is_a: EO:0007154 ! radiation quality treatment
 
 [Term]
 id: EO:0007197
-name: humidity regimen
+name: humidity treatement
 def: "The treatment involving an exposure to varying degree of humidity, which may depend on regional environment." [GR:pj]
 is_a: EO:0007198 ! water environment treatment
 
@@ -1970,28 +1970,28 @@ is_a: EO:0007316 ! physical plant treatment
 
 [Term]
 id: EO:0007199
-name: long day length regimen
+name: long day length treatement
 def: "The treatment involving exposure of plant to long day light duration followed by a short night cycle." [GR:pj]
-is_a: EO:0007128 ! intermittent light regimen
+is_a: EO:0007128 ! intermittent light treatement
 
 [Term]
 id: EO:0007200
-name: short day length regimen
+name: short day length treatement
 def: "The treatment involving exposure of plant to short day light duration followed by a long night cycle." [GR:pj]
-is_a: EO:0007128 ! intermittent light regimen
+is_a: EO:0007128 ! intermittent light treatement
 
 [Term]
 id: EO:0007202
-name: IR light regimen
+name: IR light treatement
 def: "The treatment using infra red (IR) light either exclusively or as part of a supplemental light treatment involving IR light in the wavelength range of 700nm-1mm." [GR:pj]
-is_a: EO:0007196 ! light regimen
+is_a: EO:0007196 ! light treatement
 
 [Term]
 id: EO:0007203
-name: far red light regimen
+name: far red light treatement
 def: "The treatment using far red light either exclusively or as part of a supplemental light treatment involving red color light in the wavelength range of 800-700 nM." [GR:pj]
 synonym: "Pfr light" RELATED []
-is_a: EO:0007196 ! light regimen
+is_a: EO:0007196 ! light treatement
 
 [Term]
 id: EO:0007204
@@ -2018,10 +2018,10 @@ is_a: EO:0007107 ! Ascomycota treatment
 
 [Term]
 id: EO:0007207
-name: red light regimen
+name: red light treatement
 def: "The treatment using red light either exclusively or as part of a supplemental light treatment involving red color light in the wavelength range of 780-622 nM." [GR:pj]
 synonym: "Pr light" RELATED []
-is_a: EO:0007221 ! visible light regimen
+is_a: EO:0007221 ! visible light treatement
 
 [Term]
 id: EO:0007208
@@ -2066,52 +2066,52 @@ is_a: EO:0007107 ! Ascomycota treatment
 
 [Term]
 id: EO:0007215
-name: orange light regimen
+name: orange light treatement
 def: "The treatment using orange light either exclusively or as part of a supplemental light treatment involving orange color light in the wavelength range of 622-597 nM." [GR:pj]
-is_a: EO:0007221 ! visible light regimen
+is_a: EO:0007221 ! visible light treatement
 
 [Term]
 id: EO:0007216
-name: yellow light regimen
+name: yellow light treatement
 def: "The treatment using yellow light either exclusively or as part of a supplemental light treatment involving yellow color light in the wavelength range of 597-577 nM." [GR:pj]
-is_a: EO:0007221 ! visible light regimen
+is_a: EO:0007221 ! visible light treatement
 
 [Term]
 id: EO:0007217
-name: green light regimen
+name: green light treatement
 def: "The treatment using green light either exclusively or as part of a supplemental light treatment involving green color light in the wavelength range of 577-492 nM." [GR:pj]
-is_a: EO:0007221 ! visible light regimen
+is_a: EO:0007221 ! visible light treatement
 
 [Term]
 id: EO:0007218
-name: blue light regimen
+name: blue light treatement
 def: "The treatment using blue light either exclusively or as part of a supplemental light treatment involving blue color light in the wavelength range of 492-455 nM." [GR:pj]
-is_a: EO:0007221 ! visible light regimen
+is_a: EO:0007221 ! visible light treatement
 
 [Term]
 id: EO:0007219
-name: indigo light regimen
+name: indigo light treatement
 def: "The treatment using indigo light either exclusively or as part of a supplemental light treatment involving indigo color light in the wavelength range of 450-440 nM." [GR:pj]
-is_a: EO:0007221 ! visible light regimen
+is_a: EO:0007221 ! visible light treatement
 
 [Term]
 id: EO:0007220
-name: violet light regimen
+name: violet light treatement
 def: "The treatment using violet light either exclusively or as part of a supplemental light treatment involving violet color light in the wavelength range of 455-390 nM." [GR:pj]
-is_a: EO:0007221 ! visible light regimen
+is_a: EO:0007221 ! visible light treatement
 
 [Term]
 id: EO:0007221
-name: visible light regimen
+name: visible light treatement
 def: "The treatment using visible light in the wavelength range of 380-780 nM." [GR:pj]
 comment: Visible light  is the portion of the electromagnetic spectrum that is visible to the human eye. The optical spectrum is a composite, or mixture, of the various colors.
-is_a: EO:0007196 ! light regimen
+is_a: EO:0007196 ! light treatement
 
 [Term]
 id: EO:0007222
-name: UV light regimen
+name: UV light treatement
 def: "The treatment using UV-B light either exclusively or as part of a supplemental light involving electromagnetic radiation in the wavelength range of 315-10nm." [GR:pj]
-is_a: EO:0007196 ! light regimen
+is_a: EO:0007196 ! light treatement
 
 [Term]
 id: EO:0007223
@@ -2125,15 +2125,15 @@ is_a: EO:0001018 ! cadmium treatment
 
 [Term]
 id: EO:0007224
-name: light intensity regimen
+name: light intensity treatement
 def: "The treatment involving exposure of plant or a plant part to the amount of light energy incident upon (or flowing through) unit area, perpendicular to the radiation source, in unit time." [GR:pj]
-is_a: EO:0007152 ! radiation intensity regimen
+is_a: EO:0007152 ! radiation intensity treatement
 
 [Term]
 id: EO:0007225
-name: fluorine nutrient regimen
+name: fluorine nutrient treatement
 def: "The treatment involving exposure of plant to fluorine as supplement to study various types of responses." [GR:pj]
-is_a: EO:0007047 ! other nutrient regimen
+is_a: EO:0007047 ! other nutrient treatement
 
 [Term]
 id: EO:0007226
@@ -2153,9 +2153,9 @@ is_a: EO:0007055 ! Cochliobolus spp. treatment
 
 [Term]
 id: EO:0007228
-name: chromium nutrient regimen
+name: chromium nutrient treatement
 def: "The treatment involving exposure of plant to chromium as supplement to study various types of responses." [GR:pj]
-is_a: EO:0007047 ! other nutrient regimen
+is_a: EO:0007047 ! other nutrient treatement
 
 [Term]
 id: EO:0007229
@@ -2169,9 +2169,9 @@ is_a: EO:0007118 ! Gibberella spp. treatment
 
 [Term]
 id: EO:0007230
-name: iodine nutrient regimen
+name: iodine nutrient treatement
 def: "The treatment involving exposure of plant to iodine as supplement to study various types of responses." [GR:pj]
-is_a: EO:0007047 ! other nutrient regimen
+is_a: EO:0007047 ! other nutrient treatement
 
 [Term]
 id: EO:0007231
@@ -2183,9 +2183,9 @@ is_a: EO:0007359 ! plant experimental condition
 
 [Term]
 id: EO:0007232
-name: selenium nutrient regimen
+name: selenium nutrient treatement
 def: "The treatment involving exposure of plant to selenium as supplement to study various types of responses." [GR:pj]
-is_a: EO:0007047 ! other nutrient regimen
+is_a: EO:0007047 ! other nutrient treatement
 
 [Term]
 id: EO:0007233
@@ -2203,9 +2203,9 @@ is_a: EO:0007144 ! Pseudomonas plant treatment
 
 [Term]
 id: EO:0007235
-name: silicon nutrient regimen
+name: silicon nutrient treatement
 def: "The treatment involving exposure of plant to silicon as supplement to study various types of responses." [GR:pj]
-is_a: EO:0007047 ! other nutrient regimen
+is_a: EO:0007047 ! other nutrient treatement
 
 [Term]
 id: EO:0007236
@@ -2229,14 +2229,14 @@ is_obsolete: true
 
 [Term]
 id: EO:0007239
-name: micronutrient regimen
+name: micronutrient treatement
 def: "The treatment involving exposure of plant to elements that are required in tiny quantities for growth, as supplement to study various types of responses." [GR:pj]
 synonym: "trace element regimen" RELATED []
 is_a: EO:0007241 ! plant nutrient treatment
 
 [Term]
 id: EO:0007240
-name: plant macronutrient regimen
+name: plant macronutrient treatement
 def: "A plant nutrient treatment (EO:0007241) involving the use of a plant macronutrient or combination of plant macronutrients." [GR:pj, PO:cooperl]
 comment: The macronutrients comprise the elements required by the plant in relatively large quantities for normal growth.
 is_a: EO:0007241 ! plant nutrient treatment
@@ -2252,9 +2252,9 @@ is_a: EO:0007189 ! chemical treatment
 
 [Term]
 id: EO:0007242
-name: iron nutrient regimen
+name: iron nutrient treatement
 def: "The treatment involving exposure of plant to micronutrient iron as supplement to study various types of responses." [GR:pj]
-is_a: EO:0007239 ! micronutrient regimen
+is_a: EO:0007239 ! micronutrient treatement
 
 [Term]
 id: EO:0007243
@@ -2265,9 +2265,9 @@ is_a: EO:0007144 ! Pseudomonas plant treatment
 
 [Term]
 id: EO:0007244
-name: chlorine nutrient regimen
+name: chlorine nutrient treatement
 def: "The treatment involving exposure of plant to micronutrient chlorine as supplement to study various types of responses." [GR:pj]
-is_a: EO:0007239 ! micronutrient regimen
+is_a: EO:0007239 ! micronutrient treatement
 
 [Term]
 id: EO:0007245
@@ -2325,9 +2325,9 @@ is_a: EO:0007116 ! Hemiptera insect plant treatment
 
 [Term]
 id: EO:0007253
-name: molybdenum nutrient regimen
+name: molybdenum nutrient treatement
 def: "The treatment involving exposure of plant to micronutrient molybdenum as supplement to study various types of responses." [GR:pj]
-is_a: EO:0007239 ! micronutrient regimen
+is_a: EO:0007239 ! micronutrient treatement
 
 [Term]
 id: EO:0007254
@@ -2380,9 +2380,9 @@ is_a: EO:0007119 ! Dipteran insect plant treatment
 
 [Term]
 id: EO:0007261
-name: copper nutrient regimen
+name: copper nutrient treatement
 def: "The treatment involving exposure of plant to micronutrient copper as supplement to study various types of responses." [GR:pj]
-is_a: EO:0007239 ! micronutrient regimen
+is_a: EO:0007239 ! micronutrient treatement
 
 [Term]
 id: EO:0007262
@@ -2452,15 +2452,15 @@ is_a: EO:0007231 ! study type
 
 [Term]
 id: EO:0007270
-name: continuous dark (no light) regimen
+name: continuous dark (no light) treatement
 def: "The treatment involving continuous exposure to darkness (no light) to the plant." [GR:pj]
 synonym: "continuous night regimen" RELATED []
-is_a: EO:0007078 ! light quantity regimen
+is_a: EO:0007078 ! light quantity treatement
 
 [Term]
 id: EO:0007271
-name: low light intensity regimen
-is_a: EO:0007224 ! light intensity regimen
+name: low light intensity treatement
+is_a: EO:0007224 ! light intensity treatement
 
 [Term]
 id: EO:0007272
@@ -2473,9 +2473,9 @@ is_a: EO:0007142 ! Scirpophaga spp. treatment
 
 [Term]
 id: EO:0007273
-name: boron nutrient regimen
+name: boron nutrient treatement
 def: "The treatment involving exposure of plant to micronutrient boron as supplement to study various types of responses." [GR:pj]
-is_a: EO:0007239 ! micronutrient regimen
+is_a: EO:0007239 ! micronutrient treatement
 
 [Term]
 id: EO:0007274
@@ -2494,9 +2494,9 @@ is_a: EO:0007114 ! Lepidoptera treatment
 
 [Term]
 id: EO:0007276
-name: cobalt nutrient regimen
+name: cobalt nutrient treatement
 def: "The treatment involving exposure of plant to cobalt as supplement to study various types of responses." [GR:pj]
-is_a: EO:0007047 ! other nutrient regimen
+is_a: EO:0007047 ! other nutrient treatement
 
 [Term]
 id: EO:0007277
@@ -2507,9 +2507,9 @@ is_a: EO:0007122 ! Chilo treatment
 
 [Term]
 id: EO:0007278
-name: oxygen regimen
+name: oxygen treatement
 def: "The treatment involving exposure of plant to oxygen to study various types of responses." [GR:pj]
-is_a: EO:0007043 ! non-mineral nutrient regimen
+is_a: EO:0007043 ! non-mineral nutrient treatement
 
 [Term]
 id: EO:0007279
@@ -2547,11 +2547,11 @@ is_a: EO:0007121 ! Thysanoptera treatment
 
 [Term]
 id: EO:0007284
-name: nitrogen macronutrient regimen
+name: nitrogen macronutrient treatement
 def: "A primary plant macronutrient regimen (EO:0007045) involving the application of nitrogen." [GR:pj, PO:cooperl]
 xref: EO_GIT:3
 xref: OBO_SF2_EO:3
-is_a: EO:0007045 ! primary plant macronutrient regimen
+is_a: EO:0007045 ! primary plant macronutrient treatement
 
 [Term]
 id: EO:0007285
@@ -2581,7 +2581,7 @@ is_a: EO:0007183 ! herbicide treatment
 
 [Term]
 id: EO:0007288
-name: magnesium nutrient regimen
+name: magnesium nutrient treatement
 def: "The treatment involving exposure of plant to macronutrient magnesium as supplement to study various types of responses." [GR:pj]
 xref: EO_GIT:17
 xref: OBO_SF2_EO:17
@@ -2630,9 +2630,9 @@ is_a: EO:0007183 ! herbicide treatment
 
 [Term]
 id: EO:0007293
-name: potassium nutrient regimen
+name: potassium nutrient treatement
 def: "The treatment involving exposure of plant to macronutrient potassium as supplement to study various types of responses." [GR:pj]
-is_a: EO:0007045 ! primary plant macronutrient regimen
+is_a: EO:0007045 ! primary plant macronutrient treatement
 
 [Term]
 id: EO:0007294
@@ -2645,7 +2645,7 @@ is_a: EO:0007114 ! Lepidoptera treatment
 
 [Term]
 id: EO:0007295
-name: sulfur nutrient regimen
+name: sulfur nutrient treatement
 def: "The treatment involving exposure of plant to macronutrient sulfur as supplement to study various types of responses." [GR:pj]
 is_a: EO:0007046 ! secondary macronutrient treatment
 
@@ -2658,7 +2658,7 @@ is_a: EO:0007120 ! Coleoptera treatment
 
 [Term]
 id: EO:0007297
-name: calcium nutrient regimen
+name: calcium nutrient treatement
 def: "The treatment involving exposure of plant to macronutrient calcium as supplement to study various types of responses." [GR:pj]
 is_a: EO:0007046 ! secondary macronutrient treatment
 
@@ -2686,9 +2686,9 @@ is_a: EO:0007532 ! DNA treatment
 
 [Term]
 id: EO:0007303
-name: carbon nutrient regimen
+name: carbon nutrient treatement
 def: "The treatment involving exposure of plant to carbon source as supplement to study various types of responses." [GR:pj]
-is_a: EO:0007043 ! non-mineral nutrient regimen
+is_a: EO:0007043 ! non-mineral nutrient treatement
 
 [Term]
 id: EO:0007304
@@ -2708,9 +2708,9 @@ is_a: EO:0007114 ! Lepidoptera treatment
 
 [Term]
 id: EO:0007306
-name: aluminum nutrient regimen
+name: aluminum nutrient treatement
 def: "The treatment involving exposure of plant to aluminium as supplement to study various types of responses." [GR:pj]
-is_a: EO:0007047 ! other nutrient regimen
+is_a: EO:0007047 ! other nutrient treatement
 
 [Term]
 id: EO:0007307
@@ -2728,9 +2728,9 @@ is_a: EO:0007116 ! Hemiptera insect plant treatment
 
 [Term]
 id: EO:0007309
-name: zinc nutrient regimen
+name: zinc nutrient treatement
 def: "The treatment involving exposure of plant to micronutrient zinc as supplement to study various types of responses." [GR:pj]
-is_a: EO:0007239 ! micronutrient regimen
+is_a: EO:0007239 ! micronutrient treatement
 
 [Term]
 id: EO:0007310
@@ -2798,10 +2798,10 @@ is_a: EO:0007109 ! ssRNA positive-strand virus with no DNA stage treatment
 
 [Term]
 id: EO:0007319
-name: warm/hot air temperature regimen
+name: warm/hot air temperature treatement
 def: "The treatment involving an exposure to above optimal air temperature, which may depend on the study type or the regional environment." [GR:pj]
-is_a: EO:0007161 ! air temperature regimen
-is_a: EO:0007173 ! warm/hot temperature regimen
+is_a: EO:0007161 ! air temperature treatement
+is_a: EO:0007173 ! warm/hot temperature treatement
 
 [Term]
 id: EO:0007320
@@ -2885,10 +2885,10 @@ is_a: EO:0007117 ! Pseudaletia spp. treatment
 
 [Term]
 id: EO:0007332
-name: cold air temperature regimen
+name: cold air temperature treatement
 def: "The treatment involving an exposure to cold or sub-optimal air temperature, which may depend on the study type or the regional environment." [GR:pj]
-is_a: EO:0007161 ! air temperature regimen
-is_a: EO:0007174 ! cold temperature regimen
+is_a: EO:0007161 ! air temperature treatement
+is_a: EO:0007174 ! cold temperature treatement
 
 [Term]
 id: EO:0007333
@@ -2932,10 +2932,10 @@ is_a: EO:0007349 ! metazoan plant treatment
 
 [Term]
 id: EO:0007338
-name: cold water temperature regimen
+name: cold water temperature treatement
 def: "The treatment involving an exposure to cold or sub-optimal water temperature, which may depend on the study type or the regional environment." [GR:pj]
-is_a: EO:0007160 ! water temperature regimen
-is_a: EO:0007174 ! cold temperature regimen
+is_a: EO:0007160 ! water temperature treatement
+is_a: EO:0007174 ! cold temperature treatement
 
 [Term]
 id: EO:0007339
@@ -3156,10 +3156,10 @@ is_a: EO:0007337 ! Nematoda treatment
 
 [Term]
 id: EO:0007368
-name: warm/hot water temperature regimen
+name: warm/hot water temperature treatement
 def: "The treatment involving an exposure to above optimal water temperature, which may depend on the study type or the regional environment." [GR:pj]
-is_a: EO:0007160 ! water temperature regimen
-is_a: EO:0007173 ! warm/hot temperature regimen
+is_a: EO:0007160 ! water temperature treatement
+is_a: EO:0007173 ! warm/hot temperature treatement
 
 [Term]
 id: EO:0007369
@@ -3261,15 +3261,15 @@ is_a: EO:0007316 ! physical plant treatment
 
 [Term]
 id: EO:0007383
-name: watering regimen
+name: watering treatement
 def: "The treatment involving an exposure to watering frequencies." [GR:pj]
 is_a: EO:0007198 ! water environment treatment
 
 [Term]
 id: EO:0007384
-name: freezing air temperature regimen
+name: freezing air temperature treatement
 def: "The treatment involving an exposure to frost or freezing air temperature, which may depend on the study type or the regional environment. This temperature is either below or around 4C." [GR:pj]
-is_a: EO:0007332 ! cold air temperature regimen
+is_a: EO:0007332 ! cold air temperature treatement
 
 [Term]
 id: EO:0007385
@@ -3287,9 +3287,9 @@ is_a: EO:0007107 ! Ascomycota treatment
 
 [Term]
 id: EO:0007387
-name: manganese nutrient regimen
+name: manganese nutrient treatement
 def: "The treatment involving exposure of plant to micronutrient manganese as supplement to study various types of responses." [GR:pj]
-is_a: EO:0007239 ! micronutrient regimen
+is_a: EO:0007239 ! micronutrient treatement
 
 [Term]
 id: EO:0007388
@@ -3346,9 +3346,9 @@ is_a: EO:0007064 ! ecological environment treatment
 
 [Term]
 id: EO:0007397
-name: phosphorus nutrient regimen
+name: phosphorus nutrient treatement
 def: "The treatment involving exposure of plant to macronutrient phosphorus as supplement to study various types of responses." [GR:pj]
-is_a: EO:0007045 ! primary plant macronutrient regimen
+is_a: EO:0007045 ! primary plant macronutrient treatement
 
 [Term]
 id: EO:0007398
@@ -3358,9 +3358,9 @@ is_a: EO:0007064 ! ecological environment treatment
 
 [Term]
 id: EO:0007399
-name: freezing water temperature regimen
+name: freezing water temperature treatement
 def: "The treatment involving an exposure to frost or  freezing water temperature, which may depend on the study type or the regional environment. This temperature is either below or around 4C." [GR:pj]
-is_a: EO:0007338 ! cold water temperature regimen
+is_a: EO:0007338 ! cold water temperature treatement
 
 [Term]
 id: EO:0007400
@@ -3403,8 +3403,8 @@ is_a: EO:0007067 ! hydroponic plant culture media treatment
 
 [Term]
 id: EO:0007406
-name: nitrate regimen
-is_a: EO:0007102 ! nitrogen fertilizer regimen
+name: nitrate treatement
+is_a: EO:0007102 ! nitrogen fertilizer treatement
 
 [Term]
 id: EO:0007407
@@ -3451,17 +3451,17 @@ is_a: EO:0007144 ! Pseudomonas plant treatment
 
 [Term]
 id: EO:0007412
-name: zinc sulphate regimen
+name: zinc sulphate treatement
 def: "The treatment involving exposure of plant to micronutrient zinc by adding ZnSO4 as supplement to study various types of responses." [GR:pj]
 synonym: "ZnSO4" RELATED []
-is_a: EO:0007309 ! zinc nutrient regimen
+is_a: EO:0007309 ! zinc nutrient treatement
 
 [Term]
 id: EO:0007413
-name: manganese sulfate regimen
+name: manganese sulfate treatement
 def: "The treatment involving exposure of plant to micronutrient manganese by adding MnSO4  supplement to study various types of responses." [GR:pj]
 synonym: "MnSO4" RELATED []
-is_a: EO:0007387 ! manganese nutrient regimen
+is_a: EO:0007387 ! manganese nutrient treatement
 
 [Term]
 id: EO:0007414
@@ -4066,9 +4066,9 @@ is_a: EO:0007154 ! radiation quality treatment
 
 [Term]
 id: EO:0007629
-name: hydrogen regimen
+name: hydrogen treatement
 def: "The treatment involving exposure of plant to molecular or ionic forms of hydrogen to study various types of responses." [GR:pj]
-is_a: EO:0007043 ! non-mineral nutrient regimen
+is_a: EO:0007043 ! non-mineral nutrient treatement
 
 [Term]
 id: EO:0007630

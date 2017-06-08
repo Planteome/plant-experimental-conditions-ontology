@@ -252,7 +252,7 @@ creation_date: 2013-04-12T18:30:23Z
 [Term]
 id: EO:0001025
 name: urea nitrogen treatement
-def: "A nitrogen macronutrient regimen (EO:0007284)  involving exposure of plant to urea (CHEBI:16199) as the primary or sole source of nitrogen." [POC:cooperl]
+def: "A nitrogen macronutrient treatment (EO:0007284)  involving exposure of plant to urea (CHEBI:16199) as the primary or sole source of nitrogen." [POC:cooperl]
 xref: EO_GIT:3
 xref: OBO_SF2_EO:3
 is_a: EO:0007284 ! nitrogen macronutrient treatement
@@ -262,7 +262,7 @@ creation_date: 2013-04-12T19:19:27Z
 [Term]
 id: EO:0001026
 name: MTA nitrogen treatement
-def: "A nitrogen macronutrient regimen (EO:0007284) involving exposure of plant to 5'-S-methyl-5'-thioadenosine (MTA; CHEBI:17509) as the primary or sole source of nitrogen." [CHEBI:17509, PO:cooperl]
+def: "A nitrogen macronutrient treatment (EO:0007284) involving exposure of plant to 5'-S-methyl-5'-thioadenosine (MTA; CHEBI:17509) as the primary or sole source of nitrogen." [CHEBI:17509, PO:cooperl]
 xref: EO_GIT:3
 is_a: EO:0007284 ! nitrogen macronutrient treatement
 created_by: cooperl
@@ -271,7 +271,7 @@ creation_date: 2013-04-12T19:23:02Z
 [Term]
 id: EO:0001027
 name: alanine nitrogen treatement
-def: "A nitrogen macronutrient regimen (EO:0007284) involving exposure of plant to alanine (CHEBI:16449) as the primary or sole source of nitrogen." [CHEBI:16449, PO:cooperl]
+def: "A nitrogen macronutrient treatment (EO:0007284) involving exposure of plant to alanine (CHEBI:16449) as the primary or sole source of nitrogen." [CHEBI:16449, PO:cooperl]
 xref: EO_GIT:3
 xref: OBO_SF2_EO:3
 is_a: EO:0007284 ! nitrogen macronutrient treatement
@@ -281,7 +281,7 @@ creation_date: 2013-04-12T19:23:17Z
 [Term]
 id: EO:0001028
 name: glutamate nitrogen treatement
-def: "A nitrogen macronutrient regimen (EO:0007284)  involving exposure of plant to glutamate (CHEBI:29987) as the primary or sole source of nitrogen." [CHEBI:29987, PO:cooperl]
+def: "A nitrogen macronutrient treatment (EO:0007284)  involving exposure of plant to glutamate (CHEBI:29987) as the primary or sole source of nitrogen." [CHEBI:29987, PO:cooperl]
 xref: EO_GIT:3
 xref: OBO_SF2_EO:3
 is_a: EO:0007284 ! nitrogen macronutrient treatement
@@ -291,7 +291,7 @@ creation_date: 2013-04-12T19:35:46Z
 [Term]
 id: EO:0001029
 name: arginine nitrogen treatement
-def: "A nitrogen macronutrient regimen (EO:0007284)  involving exposure of plant to arginine (CHEBI:29016) as the primary or sole source of nitrogen." [CHEBI:29016, PO:cooperl]
+def: "A nitrogen macronutrient treatment (EO:0007284)  involving exposure of plant to arginine (CHEBI:29016) as the primary or sole source of nitrogen." [CHEBI:29016, PO:cooperl]
 xref: EO_GIT:3
 xref: OBO_SF2_EO:3
 is_a: EO:0007284 ! nitrogen macronutrient treatement
@@ -301,7 +301,7 @@ creation_date: 2013-04-12T19:36:14Z
 [Term]
 id: EO:0001030
 name: ornithine nitrogen treatement
-def: "A nitrogen macronutrient regimen (EO:0007284)  involving exposure of plant to ornithine (CHEBI:18257) as the primary or sole source of nitrogen." [CHEBI:18257, PO:cooperl]
+def: "A nitrogen macronutrient treatment (EO:0007284)  involving exposure of plant to ornithine (CHEBI:18257) as the primary or sole source of nitrogen." [CHEBI:18257, PO:cooperl]
 xref: EO_GIT:3
 xref: OBO_SF2_EO:3
 is_a: EO:0007284 ! nitrogen macronutrient treatement
@@ -311,7 +311,7 @@ creation_date: 2013-04-12T19:40:51Z
 [Term]
 id: EO:0001031
 name: glutamine nitrogen treatement
-def: "A nitrogen macronutrient regimen (EO:0007284)  involving exposure of plant to glutamine (CHEBI:28300) as the primary or sole source of nitrogen." [CHEBI:28300, PO:cooperl]
+def: "A nitrogen macronutrient treatment (EO:0007284)  involving exposure of plant to glutamine (CHEBI:28300) as the primary or sole source of nitrogen." [CHEBI:28300, PO:cooperl]
 xref: EO_GIT:3
 xref: OBO_SF2_EO:3
 is_a: EO:0007284 ! nitrogen macronutrient treatement
@@ -401,7 +401,7 @@ creation_date: 2013-04-16T14:19:13Z
 [Term]
 id: EO:0001040
 name: light-induced photooxidative stress treatment
-def: "A light intensity regimen (EO:0007224) involving use of light-dependent generations of reactive oxygen species." [PO:cooperl]
+def: "A light intensity treatment (EO:0007224) involving use of light-dependent generations of reactive oxygen species." [PO:cooperl]
 xref: EO_GIT:44
 xref: OBO_SF2_EO:44
 is_a: EO:0007224 ! light intensity treatement
@@ -421,7 +421,7 @@ creation_date: 2013-04-18T15:08:50Z
 [Term]
 id: EO:0001042
 name: limited boron treatment
-def: "A boron nutrient regimen (EO:0007273) involving exposure to limiting amounts or absence of boron (CHEBI:27560)." [CHEBI:27560, PO:cooperl]
+def: "A boron nutrient treatment (EO:0007273) involving exposure to limiting amounts or absence of boron (CHEBI:27560)." [CHEBI:27560, PO:cooperl]
 xref: EO_GIT:15
 xref: OBO_SF2_EO:15
 is_a: EO:0007273 ! boron nutrient treatement
@@ -441,7 +441,7 @@ creation_date: 2013-04-18T15:21:57Z
 [Term]
 id: EO:0001044
 name: limited carbon treatement
-def: "A carbon nutrient regimen (EO:0007303) involving exposure to limiting amounts or the absence of carbon (CHEBI:27594)." [CHEBI:27594, PO:cooperl]
+def: "A carbon nutrient treatment (EO:0007303) involving exposure to limiting amounts or the absence of carbon (CHEBI:27594)." [CHEBI:27594, PO:cooperl]
 xref: EO_GIT:13
 xref: OBO_SF2_EO:13
 is_a: EO:0007303 ! carbon nutrient treatement
@@ -473,7 +473,7 @@ creation_date: 2013-04-24T12:43:48Z
 [Term]
 id: EO:0001047
 name: limited iron treatement
-def: "An iron nutrient regimen (EO:0007242) involving exposure to limiting amounts or the absence of iron (CHEBI:18248)." [CHEBI:18248, PO:cooperl]
+def: "An iron nutrient treatment (EO:0007242) involving exposure to limiting amounts or the absence of iron (CHEBI:18248)." [CHEBI:18248, PO:cooperl]
 xref: EO_GIT:14
 xref: OBO_SF2_EO:14
 is_a: EO:0007242 ! iron nutrient treatement
@@ -483,7 +483,7 @@ creation_date: 2013-04-24T13:10:33Z
 [Term]
 id: EO:0001048
 name: limited molybdenum treatement
-def: "A molybdenum nutrient regimen (EO:0007253) involving exposure to limiting amounts or the absence of molybdenum (CHEBI:28685)." [CHEBI:28685, PO:cooperl]
+def: "A molybdenum nutrient treatment (EO:0007253) involving exposure to limiting amounts or the absence of molybdenum (CHEBI:28685)." [CHEBI:28685, PO:cooperl]
 xref: EO_GIT:18
 xref: OBO_SF2_EO:18
 is_a: EO:0007253 ! molybdenum nutrient treatement
@@ -493,7 +493,7 @@ creation_date: 2013-04-24T13:21:03Z
 [Term]
 id: EO:0001049
 name: limited magnesium treatement
-def: "A magnesium nutrient regimen (EO:0007288) involving exposure to limiting amounts or the absence of magnesium (CHEBI:25107)." [CHEBI:25107, PO:cooperl]
+def: "A magnesium nutrient treatment (EO:0007288) involving exposure to limiting amounts or the absence of magnesium (CHEBI:25107)." [CHEBI:25107, PO:cooperl]
 xref: EO_GIT:17
 xref: OBO_SF2_EO:17
 is_a: EO:0007288 ! magnesium nutrient treatement
@@ -503,7 +503,7 @@ creation_date: 2013-04-24T13:31:00Z
 [Term]
 id: EO:0001050
 name: limited nitrogen treatement
-def: "A nitrogen macronutrient regimen (EO:0007284) involving exposure to limiting amounts or the absence of nitrogen (CHEBI:25555)." [CHEBI:25555, PO:cooperl]
+def: "A nitrogen macronutrient treatment (EO:0007284) involving exposure to limiting amounts or the absence of nitrogen (CHEBI:25555)." [CHEBI:25555, PO:cooperl]
 xref: EO_GIT:19
 xref: EO_GIT:2
 xref: EO_GIT:25
@@ -517,7 +517,7 @@ creation_date: 2013-04-24T13:45:43Z
 [Term]
 id: EO:0001051
 name: limited potassium treatement
-def: "A potassium nutrient regimen (EO:0007293) involving exposure to limiting amounts or the absence of potassium (CHEBI:26216)." [CHEBI:26216, PO:cooperl]
+def: "A potassium nutrient treatment (EO:0007293) involving exposure to limiting amounts or the absence of potassium (CHEBI:26216)." [CHEBI:26216, PO:cooperl]
 xref: EO_GIT:21
 xref: OBO_SF2_EO:21
 is_a: EO:0007293 ! potassium nutrient treatement
@@ -527,7 +527,7 @@ creation_date: 2013-04-24T13:54:39Z
 [Term]
 id: EO:0001052
 name: limited sulfur treatement
-def: "A sulfur nutrient regimen (EO:0007295) involving exposure to limiting amounts or the absence of sulfur (CHEBI:26833)." [CHEBI:26833, PO:cooperl]
+def: "A sulfur nutrient treatment (EO:0007295) involving exposure to limiting amounts or the absence of sulfur (CHEBI:26833)." [CHEBI:26833, PO:cooperl]
 xref: EO_GIT:22
 xref: OBO_SF2_EO:22
 is_a: EO:0007295 ! sulfur nutrient treatement
@@ -537,7 +537,7 @@ creation_date: 2013-04-24T14:06:32Z
 [Term]
 id: EO:0001053
 name: limited manganese treatement
-def: "A manganese nutrient regimen (EO:0007387) involving exposure to limiting amounts or the absence of manganese (CHEBI:18291)." [CHEBI:18291, PO:cooperl]
+def: "A manganese nutrient treatment (EO:0007387) involving exposure to limiting amounts or the absence of manganese (CHEBI:18291)." [CHEBI:18291, PO:cooperl]
 xref: EO_GIT:24
 xref: OBO_SF2_EO:24
 is_a: EO:0007387 ! manganese nutrient treatement
@@ -925,7 +925,7 @@ is_a: EO:0001004 ! inorganic chemical treatment
 [Term]
 id: EO:0007045
 name: primary plant macronutrient treatement
-def: "A plant macronutrient regimen (EO:0007240)  involving the use of the primary plant macronutrients nitrogen (N), phosphorus (P), and potassium (K)." [GR:pj, PO:cooperl]
+def: "A plant macronutrient treatment (EO:0007240)  involving the use of the primary plant macronutrients nitrogen (N), phosphorus (P), and potassium (K)." [GR:pj, PO:cooperl]
 comment: These plant macronutrients are required by the plant in greatest quantities for normal growth.
 is_a: EO:0007240 ! plant macronutrient treatement
 
@@ -2548,7 +2548,7 @@ is_a: EO:0007121 ! Thysanoptera treatment
 [Term]
 id: EO:0007284
 name: nitrogen macronutrient treatement
-def: "A primary plant macronutrient regimen (EO:0007045) involving the application of nitrogen." [GR:pj, PO:cooperl]
+def: "A primary plant macronutrient treatment (EO:0007045) involving the application of nitrogen." [GR:pj, PO:cooperl]
 xref: EO_GIT:3
 xref: OBO_SF2_EO:3
 is_a: EO:0007045 ! primary plant macronutrient treatement

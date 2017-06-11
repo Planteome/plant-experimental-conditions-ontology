@@ -1,0 +1,29 @@
+pattern_name: eo-role
+classes:
+  plant experimental condition: EO_0007359
+  plant treatment: EO_0001001
+  exposure event: RO_0002310
+  chemical entity: CHEBI_24431
+  role: CHEBI_50906
+
+relations:
+  has exposure stimulus: RO_0002244
+  has role: RO_0000087
+    
+vars: 
+  stimulus: "'role'"
+
+name:
+  text: "%s treatment"
+  vars:
+    - stimulus
+    
+def: 
+  text: "A treatment involving the use of %s"
+  vars:
+    - stimulus
+    
+equivalentTo: 
+  text: "'plant treatment' and 'has exposure stimulus' some ('chemical entity' and 'has role' some %s)"
+  vars:
+    - stimulus

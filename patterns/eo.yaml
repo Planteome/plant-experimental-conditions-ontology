@@ -1,16 +1,17 @@
 pattern_name: eo
 classes:
-  plant experimental condition: EO:0007359
-  plant treatment: EO:0001001
-  exposure event: RO:0002310
+  plant experimental condition: EO_0007359
+  plant treatment: EO_0001001
+  exposure event: RO_0002310
+  taxon: NCBITaxon_1
+  chemical entity: CHEBI_24431
+  environmental material: ENVO_00010483
 
 relations:
-  contains: RO:0001019
-  has exposure stimulus: RO:0002244
-  has participant: RO:0000057
+  has exposure stimulus: RO_0002244
     
 vars: 
-  stimulus: "'Thing'"
+  stimulus: "''taxon' or 'chemical entity' or 'environmental material''"
 
 name:
   text: "%s treatment"

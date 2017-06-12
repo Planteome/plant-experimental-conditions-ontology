@@ -11,7 +11,7 @@ relations:
   has exposure stimulus: RO_0002244
     
 vars: 
-  stimulus: "''taxon' or 'chemical entity' or 'environmental material''"
+  stimulus: "taxon' or 'chemical entity' or 'environmental material'"
 
 name:
   text: "%s treatment"

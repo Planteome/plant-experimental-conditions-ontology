@@ -1,4 +1,4 @@
-defined_class,defined_class label,stimulus,stimulus label
+iri,iri label,stimulus,stimulus label
 EO:0007022,"Liliopsida treatment",NCBITaxon:4447,"Liliopsida"
 EO:0007031,"Mammalia treatment",NCBITaxon:40674,"Mammalia"
 EO:0007060,"Sphaerulina oryzina treatment",NCBITaxon:706553,"Passalora janseana"

@@ -1,4 +1,4 @@
-defined_class,defined_class label,stimulus,stimulus label
+iri,iri label,stimulus,stimulus label
 EO:0001005,"nickel treatment",CHEBI:28112,"nickel atom"
 EO:0001006,"phosphate treatment",CHEBI:26020,"phosphate"
 EO:0001008,"sulfate treatment",CHEBI:16189,"sulfate"

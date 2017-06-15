@@ -1,4 +1,4 @@
-defined_class,defined_class label,stimulus,stimulus label
+iri,iri label,stimulus,stimulus label
 EO:0007239,"micronutrient regimen",CHEBI:27027,"micronutrient"
 EO:0007041,"antibiotic treatment",CHEBI:33281,"antimicrobial agent"
 EO:0007167,"pesticide treatment",CHEBI:25944,"pesticide"

@@ -635,6 +635,15 @@ created_by: cooperl
 creation_date: 2015-10-12T14:58:32Z
 
 [Term]
+id: EO:0001063
+name: paper towel growth medium
+def: "An in vitro solid growth medium (EO:0007262) composed of paper towels." [EO:Laurel_Cooper, PMID:28282385]
+synonym: "ragdoll method (exact)" EXACT []
+xref: EO_GIT:120
+is_a: EO:0007262 ! in vitro solid growth medium treatment
+creation_date: 2017-08-08
+
+[Term]
 id: EO:0007001
 name: UV-B light treatment
 def: "The treatment using UV-B light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 315-280nm." [GR:pj]
@@ -3386,7 +3395,7 @@ is_a: EO:0007189 ! chemical treatment
 id: EO:0007403
 name: unknown treatment
 def: "A plant treatment (EO:0001001) where there is a lack of information describing the experimental conditions." [PO:cooperl]
-comment: In some cases, only the study type ((EO:0007231) is known, without any additional information about the treatments.
+comment: In some cases, only the study type (EO:0007231) is known, without any additional information about the treatments.
 xref: EO_GIT:82
 xref: OBO_SF2_EO:83
 is_a: EO:0001001 ! plant treatment

@@ -69,7 +69,7 @@ creation_date: 2013-04-10T14:54:09Z
 id: EO:0001007
 name: mineral salt treatment
 def: "A mineral treatment (EO:0007044) involving exposure of the plant(s) to mineral salts (CHEBI:24866)." [PO:cooperl]
-comment: A salt (CHEBI:24866) is defined as an assembly of cations and anions.   This is a genral term to include the salts of various minerals.
+comment: A salt (CHEBI:24866) is defined as an assembly of cations and anions. This is a genral term to include the salts of various minerals.
 xref: EO_GIT:53
 xref: OBO_SF2_EO:53
 is_a: EO:0007044 ! mineral treatment
@@ -2300,8 +2300,8 @@ is_a: EO:0007143 ! Erwinia plant treatment
 
 [Term]
 id: EO:0007248
-name: green house study
-def: "The treatment where the plants were grown under green house conditions. This may involve supplemental treatments in addition to any standard conditions." [GR:pj]
+name: greenhouse study
+def: "The treatment where the plants were grown under greenhouse conditions. This may involve supplemental treatments in addition to any standard conditions." [GR:pj]
 is_a: EO:0007231 ! study type
 
 [Term]
@@ -3086,7 +3086,7 @@ is_a: EO:0007111 ! ssRNA negative-strand virus treatment
 id: EO:0007359
 name: plant experimental condition
 def: "A plant treatment (EO:0001001) and/or study type (EO:0007231) applied to a whole plant (PO:0000003), a plant structure (PO:00090119), and/or a plant population as part of an experiment to evaluate the plant response." [GR:pj, PO:cooperl]
-comment: The Plant Environment Ontology describes the treatments,growing conditions, and/or study types used in various types of plant biology experiments. The subjects of the studies may also include in vitro plant structures (PO:0000004). A plant treatment is the most specific,and may be a component of a plant growing condition, and the plant study type. The broadest classes are the plant study types where the terms can be used to identify the growth study facility. Each growth facility such as field study, growth chamber, green house etc is a environment on its own and it may also involve instances of biotic and abiotic treatments and different growing conditions.
+comment: The Plant Experimental Condition Ontology describes the treatments, growing conditions, and/or study types used in various types of plant biology experiments. The subjects of the studies may also include in vitro plant structures (PO:0000004). The broadest classes are the plant study types (EO:0007231), where the terms describe the type of growth facility used in an experiment.  Each study type such as field study (EO:0007256), growth chamber study (EO:0007269), greenhouse study (EO:0007248), or laboratory study (EO:0007255) will also involve different growing conditions, and may also include specific biotic (EO:0007357) and/or abiotic (EO:0007191) plant treatments.  A plant treatment (EO:0001001) may be a component of a plant experimental condition (EO:0007359), and the plant study type (EO:0007231). 
 synonym: "plant treatment ontology" RELATED []
 synonym: "treatment ontology" RELATED []
 xref: EO_GIT:4

@@ -10,7 +10,7 @@ id: PECO:0001001
 name: plant treatment
 def: "A plant experimental condition (PECO:0007359) or set of conditions describing the application of an abiotic (PECO:0007191) or biotic plant treatment (PECO:0007357) or the combinatorial application thereof." [PO:cooperl]
 xref: EO_GIT:48
-xref: OBO_SF2_PECO:48
+xref: OBO_SF2_EO:48
 is_a: PECO:0007359 ! plant experimental condition
 created_by: cooperl
 creation_date: 2013-04-10T13:21:11Z
@@ -20,7 +20,7 @@ id: PECO:0001002
 name: plant growth environment
 def: "OBSOLETE: A plant environment (PECO:0007359) involving a plant treatment (PECO:0001001), or a combination plant treatments, as well as natural conditions for plant growth." [PO:cooperl]
 synonym: "plant growing conditions" EXACT []
-xref: OBO_SF2_PECO:59
+xref: OBO_SF2_EO:59
 is_obsolete: true
 created_by: cooperl
 creation_date: 2013-04-10T13:28:27Z
@@ -30,7 +30,7 @@ id: PECO:0001003
 name: organic chemical treatment
 def: "A chemical treatment (PECO:0007189) involving the application of organic chemical(s)." [PO:cooperl]
 xref: EO_GIT:55
-xref: OBO_SF2_PECO:55
+xref: OBO_SF2_EO:55
 is_a: PECO:0007189 ! chemical treatment
 created_by: cooperl
 creation_date: 2013-04-10T13:58:52Z
@@ -40,7 +40,7 @@ id: PECO:0001004
 name: inorganic chemical treatment
 def: "A chemical treatment (PECO:0007189) involving the application of inorganic chemical(s)." [PO:cooperl]
 xref: EO_GIT:51
-xref: OBO_SF2_PECO:51
+xref: OBO_SF2_EO:51
 is_a: PECO:0007189 ! chemical treatment
 created_by: cooperl
 creation_date: 2013-04-10T14:03:18Z
@@ -50,7 +50,7 @@ id: PECO:0001005
 name: nickel treatment
 def: "A mineral treatment (PECO:0007044) involving exposure of plant to nickel (CHEBI:28112)." [CHEBI:28112, PO:cooperl]
 xref: EO_GIT:6
-xref: OBO_SF2_PECO:6
+xref: OBO_SF2_EO:6
 is_a: PECO:0007044 ! mineral treatment
 created_by: cooperl
 creation_date: 2013-04-10T14:35:26Z
@@ -60,7 +60,7 @@ id: PECO:0001006
 name: phosphate treatment
 def: "An inorganic anion treatment (PECO:0001009) involving the application of phosphate (CHEBI:18367)." [CHEBI:18367, PO:cooperl]
 xref: EO_GIT:7
-xref: OBO_SF2_PECO:7
+xref: OBO_SF2_EO:7
 is_a: PECO:0001009 ! inorganic anion treatment
 created_by: cooperl
 creation_date: 2013-04-10T14:54:09Z
@@ -71,7 +71,7 @@ name: mineral salt treatment
 def: "A mineral treatment (PECO:0007044) involving exposure of the plant(s) to mineral salts (CHEBI:24866)." [PO:cooperl]
 comment: A salt (CHEBI:24866) is defined as an assembly of cations and anions. This is a genral term to include the salts of various minerals.
 xref: EO_GIT:53
-xref: OBO_SF2_PECO:53
+xref: OBO_SF2_EO:53
 is_a: PECO:0007044 ! mineral treatment
 created_by: cooperl
 creation_date: 2013-04-10T15:26:58Z
@@ -81,7 +81,7 @@ id: PECO:0001008
 name: sulfate treatment
 def: "An inorganic anion treatment (PECO:0001009) involving the application of sulfate (CHEBI:35175)." [CHEBI:35175, PO:cooperl]
 xref: EO_GIT:8
-xref: OBO_SF2_PECO:8
+xref: OBO_SF2_EO:8
 is_a: PECO:0001009 ! inorganic anion treatment
 created_by: cooperl
 creation_date: 2013-04-10T15:29:20Z
@@ -92,7 +92,7 @@ name: inorganic anion treatment
 def: "An inorganic chemical treatment (PECO:0001004) involving the application of an anion or a mixture of anions (CHEBI:22563)." [CHEBI:22563, PO:cooperl]
 comment: An anion (CHEBI:22653) is defined as a monoatomic or polyatomic species having one or more elementary charges of the electron.
 xref: EO_GIT:54
-xref: OBO_SF2_PECO:54
+xref: OBO_SF2_EO:54
 is_a: PECO:0001004 ! inorganic chemical treatment
 created_by: cooperl
 creation_date: 2013-04-11T12:29:25Z
@@ -103,7 +103,7 @@ name: carbohydrate treatment
 def: "An organic chemical treatment (PECO:0001003) involving the application of a carbohydrate (CHEBI:16646) or mixture of carbohydrates." [CHEBI:16646, PO:cooperl]
 comment: Carbohydrate (CHEBI:16646) is defined as the generic term 'carbohydrate' includes monosaccharides, oligosaccharides and polysaccharides as well as substances derived from monosaccharides by reduction of the carbonyl group (alditols), by oxidation of one or more hydroxy groups to afford the corresponding aldehydes, ketones, or carboxylic acids, or by replacement of one or more hydroxy group(s) by a hydrogen atom. Cyclitols are generally not regarded as carbohydrates.
 xref: EO_GIT:9
-xref: OBO_SF2_PECO:9
+xref: OBO_SF2_EO:9
 is_a: PECO:0001003 ! organic chemical treatment
 created_by: moorel
 creation_date: 2013-04-11T13:43:22Z
@@ -114,7 +114,7 @@ name: monosaccharide treatment
 def: "A carbohydrate treatment (PECO:0001010) involving the application of monosaccharide(s)(CHEBI:35381)." [CHEBI:35381, PO:cooperl]
 comment: Monosaccharides (CHEBI:35381) are defined as polyhydroxy aldehydes H[CH(OH)]nC(=O)H or polyhydroxy ketones H-[CHOH]n-C(=O)[CHOH]m-H with three or more carbon atoms. The generic term 'monosaccharide' (as opposed to oligosaccharide or polysaccharide) denotes a single unit, without glycosidic connection to other such units. It includes aldoses, dialdoses, aldoketoses, ketoses and diketoses, as well as deoxy sugars, provided that the parent compound has a (potential) carbonyl group.
 xref: EO_GIT:56
-xref: OBO_SF2_PECO:56
+xref: OBO_SF2_EO:56
 is_a: PECO:0001010 ! carbohydrate treatment
 created_by: moorel
 creation_date: 2013-04-11T13:49:05Z
@@ -125,7 +125,7 @@ name: hexose treatment
 def: "A monosaccharide treatment (PECO:0001011) involving the application of hexose (CHEBI:18133) sugar(s)." [CHEBI:18133, PO:cooperl]
 comment: Hexose (CHEBI:18133) is defined as any six-carbon monosaccharide which in its linear form contains either an aldehyde group at position 1 (aldohexose) or a ketone group at position 2 (ketohexose).
 xref: EO_GIT:57
-xref: OBO_SF2_PECO:57
+xref: OBO_SF2_EO:57
 is_a: PECO:0001011 ! monosaccharide treatment
 created_by: moorel
 creation_date: 2013-04-11T13:55:09Z
@@ -135,7 +135,7 @@ id: PECO:0001013
 name: glucose treatment
 def: "A hexose treatment (PECO:0001012) involving the application of glucose (CHEBI:17234)." [CHEBI:17234, PO:cooperl]
 xref: EO_GIT:10
-xref: OBO_SF2_PECO:10
+xref: OBO_SF2_EO:10
 is_a: PECO:0001012 ! hexose treatment
 created_by: moorel
 creation_date: 2013-04-11T13:59:21Z
@@ -146,7 +146,7 @@ name: disaccharide treatment
 def: "A carbohydrate treatment (PECO:0001010) involving the application of disaccharide(s)(CHEBI:36233)." [CHEBI:36233, PO:cooperl]
 comment: Disaccharide (CHEBI:36233) is defined as a compound in which two monosaccharides are joined by a glycosidic bond.
 xref: EO_GIT:58
-xref: OBO_SF2_PECO:58
+xref: OBO_SF2_EO:58
 is_a: PECO:0001010 ! carbohydrate treatment
 created_by: moorel
 creation_date: 2013-04-11T14:02:57Z
@@ -157,7 +157,7 @@ name: sucrose treatment
 def: "A disaccharide treatment (PECO:0001014) involving the application of sucrose (CHEBI:17992)." [CHEBI:17992, PO:cooperl]
 comment: Sucrose (CHEBI:17992) is defined as a disaccharide formed by glucose and fructose units joined by an acetal oxygen bridge from hemiacetal of glucose to the hemiketal of the fructose.
 xref: EO_GIT:11
-xref: OBO_SF2_PECO:11
+xref: OBO_SF2_EO:11
 is_a: PECO:0001014 ! disaccharide treatment
 created_by: moorel
 creation_date: 2013-04-11T14:07:07Z
@@ -175,7 +175,7 @@ id: PECO:0001017
 name: ammonium treatment
 def: "An inorganic cation treatment (PECO:0001016) involving the application of ammonium (NH4+) (CHEBI:28938)." [CHEBI:28938, PO:cooperl]
 xref: EO_GIT:5
-xref: OBO_SF2_PECO:5
+xref: OBO_SF2_EO:5
 is_a: PECO:0001016 ! inorganic cation treatment
 created_by: cooperl
 creation_date: 2013-04-12T11:48:32Z
@@ -185,7 +185,7 @@ id: PECO:0001018
 name: cadmium treatment
 def: "A mineral treatment (PECO:0007044) involving exposure of plant to cadmium (CHEBI:22977)." [CHEBI:22977, PO:cooperl]
 xref: EO_GIT:30
-xref: OBO_SF2_PECO:30
+xref: OBO_SF2_EO:30
 is_a: PECO:0007044 ! mineral treatment
 created_by: cooperl
 creation_date: 2013-04-12T12:14:55Z
@@ -203,7 +203,7 @@ id: PECO:0001020
 name: carbon dioxide treatment
 def: "An inorganic gas treatment (PECO:0001055) that involves the application of carbon dioxide (CHEBI:16526)." [CHEBI:16526, PO:cooperl]
 xref: EO_GIT:28
-xref: OBO_SF2_PECO:28
+xref: OBO_SF2_EO:28
 is_a: PECO:0001055 ! inorganic gas treatment
 created_by: cooperl
 creation_date: 2013-04-12T12:41:25Z
@@ -213,7 +213,7 @@ id: PECO:0001021
 name: ozone treatment
 def: "An inorganic anion treatment (PECO:0001009) involving the application of ozone (CHEBI:29382)." [CHEBI:29382, PO:cooperl]
 xref: EO_GIT:29
-xref: OBO_SF2_PECO:29
+xref: OBO_SF2_EO:29
 is_a: PECO:0001009 ! inorganic anion treatment
 created_by: cooperl
 creation_date: 2013-04-12T13:04:10Z
@@ -224,7 +224,7 @@ name: gamma radiation treatment
 def: "A radiation quality treatment (PECO:0007154) involving the exposure to gamma radiation." [PO:cooperl]
 synonym: "gamma rays" EXACT []
 xref: EO_GIT:41
-xref: OBO_SF2_PECO:41
+xref: OBO_SF2_EO:41
 is_a: PECO:0007154 ! radiation quality treatment
 created_by: cooperl
 creation_date: 2013-04-12T13:05:50Z
@@ -234,7 +234,7 @@ id: PECO:0001023
 name: agar growth medium treatment
 def: "An in vitro solid growth medium (PECO:0007262) composed of agar." [PO:cooperl]
 xref: EO_GIT:45
-xref: OBO_SF2_PECO:45
+xref: OBO_SF2_EO:45
 is_a: PECO:0007262 ! in vitro solid growth medium treatment
 created_by: cooperl
 creation_date: 2013-04-12T18:01:37Z
@@ -244,7 +244,7 @@ id: PECO:0001024
 name: vertical agar growth medium treatment
 def: "An agar growth medium (PECO:0001023) involving use of solid growth media in a vertical orientation." [PO:cooperl]
 xref: EO_GIT:46
-xref: OBO_SF2_PECO:46
+xref: OBO_SF2_EO:46
 is_a: PECO:0001023 ! agar growth medium treatment
 created_by: cooperl
 creation_date: 2013-04-12T18:30:23Z
@@ -254,7 +254,7 @@ id: PECO:0001025
 name: urea nitrogen treatment
 def: "A nitrogen macronutrient treatment (PECO:0007284)  involving exposure of plant to urea (CHEBI:16199) as the primary or sole source of nitrogen." [POC:cooperl]
 xref: EO_GIT:3
-xref: OBO_SF2_PECO:3
+xref: OBO_SF2_EO:3
 is_a: PECO:0007284 ! nitrogen macronutrient treatment
 created_by: cooperl
 creation_date: 2013-04-12T19:19:27Z
@@ -273,7 +273,7 @@ id: PECO:0001027
 name: alanine nitrogen treatment
 def: "A nitrogen macronutrient treatment (PECO:0007284) involving exposure of plant to alanine (CHEBI:16449) as the primary or sole source of nitrogen." [CHEBI:16449, PO:cooperl]
 xref: EO_GIT:3
-xref: OBO_SF2_PECO:3
+xref: OBO_SF2_EO:3
 is_a: PECO:0007284 ! nitrogen macronutrient treatment
 created_by: cooperl
 creation_date: 2013-04-12T19:23:17Z
@@ -283,7 +283,7 @@ id: PECO:0001028
 name: glutamate nitrogen treatment
 def: "A nitrogen macronutrient treatment (PECO:0007284)  involving exposure of plant to glutamate (CHEBI:29987) as the primary or sole source of nitrogen." [CHEBI:29987, PO:cooperl]
 xref: EO_GIT:3
-xref: OBO_SF2_PECO:3
+xref: OBO_SF2_EO:3
 is_a: PECO:0007284 ! nitrogen macronutrient treatment
 created_by: cooperl
 creation_date: 2013-04-12T19:35:46Z
@@ -293,7 +293,7 @@ id: PECO:0001029
 name: arginine nitrogen treatment
 def: "A nitrogen macronutrient treatment (PECO:0007284)  involving exposure of plant to arginine (CHEBI:29016) as the primary or sole source of nitrogen." [CHEBI:29016, PO:cooperl]
 xref: EO_GIT:3
-xref: OBO_SF2_PECO:3
+xref: OBO_SF2_EO:3
 is_a: PECO:0007284 ! nitrogen macronutrient treatment
 created_by: cooperl
 creation_date: 2013-04-12T19:36:14Z
@@ -303,7 +303,7 @@ id: PECO:0001030
 name: ornithine nitrogen treatment
 def: "A nitrogen macronutrient treatment (PECO:0007284)  involving exposure of plant to ornithine (CHEBI:18257) as the primary or sole source of nitrogen." [CHEBI:18257, PO:cooperl]
 xref: EO_GIT:3
-xref: OBO_SF2_PECO:3
+xref: OBO_SF2_EO:3
 is_a: PECO:0007284 ! nitrogen macronutrient treatment
 created_by: cooperl
 creation_date: 2013-04-12T19:40:51Z
@@ -313,7 +313,7 @@ id: PECO:0001031
 name: glutamine nitrogen treatment
 def: "A nitrogen macronutrient treatment (PECO:0007284)  involving exposure of plant to glutamine (CHEBI:28300) as the primary or sole source of nitrogen." [CHEBI:28300, PO:cooperl]
 xref: EO_GIT:3
-xref: OBO_SF2_PECO:3
+xref: OBO_SF2_EO:3
 is_a: PECO:0007284 ! nitrogen macronutrient treatment
 created_by: cooperl
 creation_date: 2013-04-12T19:41:18Z
@@ -332,7 +332,7 @@ name: parasitic wasp insect plant treatment
 def: "A Hymenoptera insect plant treatment (PECO:0001032) that involves exposure to parasitic wasps." [PO:cooperl]
 comment: Parasitic wasp (or parasitoid wasp) refers to a large evolutionary grade of hymenopteran superfamilies, mainly in the Apocrita (from wikipedia).
 xref: EO_GIT:38
-xref: OBO_SF2_PECO:38
+xref: OBO_SF2_EO:38
 is_a: PECO:0001032 ! Hymenoptera insect plant treatment
 created_by: cooperl
 creation_date: 2013-04-13T13:38:41Z
@@ -342,7 +342,7 @@ id: PECO:0001034
 name: Pseudomonas syringae plant treatment
 def: "A Pseudomonas plant treatment (PECO:0007144) involving the exposure to bacteria of the Pseudomonas syringae group." [NCBITaxon:136849, PO:cooperl]
 xref: EO_GIT:40
-xref: OBO_SF2_PECO:40
+xref: OBO_SF2_EO:40
 is_a: PECO:0007144 ! Pseudomonas plant treatment
 created_by: cooperl
 creation_date: 2013-04-13T14:56:13Z
@@ -353,7 +353,7 @@ name: stratification treatment
 def: "A physical treatment (PECO:0007316) involving both low temperature and moist conditions to overcome seed dormancy." [PO:cooperl]
 comment: A stratification process is used to pretreat seeds to simulate natural winter conditions in order to overcome dormancy and allow germination.
 xref: EO_GIT:47
-xref: OBO_SF2_PECO:47
+xref: OBO_SF2_EO:47
 is_a: PECO:0007316 ! physical plant treatment
 created_by: cooperl
 creation_date: 2013-04-25T14:11:44Z
@@ -363,7 +363,7 @@ id: PECO:0001036
 name: chemical stress treatment
 def: "A chemical treatment (PECO:0007189) that induces stress." [PO:cooperl]
 xref: EO_GIT:64
-xref: OBO_SF2_PECO:64
+xref: OBO_SF2_EO:64
 is_a: PECO:0007189 ! chemical treatment
 created_by: moorel
 creation_date: 2013-04-16T13:48:41Z
@@ -373,7 +373,7 @@ id: PECO:0001037
 name: oxidative stress treatment
 def: "A chemical stress treatment (PECO:0001036) involving use of oxidative stress-inducing chemicals." [PO:cooperl]
 xref: EO_GIT:32
-xref: OBO_SF2_PECO:32
+xref: OBO_SF2_EO:32
 is_a: PECO:0001036 ! chemical stress treatment
 created_by: moorel
 creation_date: 2013-04-16T13:54:16Z
@@ -383,7 +383,7 @@ id: PECO:0001038
 name: osmotic stress treatment
 def: "A chemical stress treatment (PECO:0001036) involving use of osmotic stress-inducing chemicals." [PO:cooperl]
 xref: EO_GIT:31
-xref: OBO_SF2_PECO:31
+xref: OBO_SF2_EO:31
 is_a: PECO:0001036 ! chemical stress treatment
 created_by: moorel
 creation_date: 2013-04-16T14:11:36Z
@@ -393,7 +393,7 @@ id: PECO:0001039
 name: radiation mutagen treatment
 def: "A radiation treatment (PECO:0007151) involving exposure of plant to chemicals or radiation resulting in perturbations to the genome." [PO:cooperl]
 xref: EO_GIT:42
-xref: OBO_SF2_PECO:42
+xref: OBO_SF2_EO:42
 is_a: PECO:0007151 ! radiation treatment
 created_by: moorel
 creation_date: 2013-04-16T14:19:13Z
@@ -403,7 +403,7 @@ id: PECO:0001040
 name: light-induced photooxidative stress treatment
 def: "A light intensity treatment (PECO:0007224) involving use of light-dependent generations of reactive oxygen species." [PO:cooperl]
 xref: EO_GIT:44
-xref: OBO_SF2_PECO:44
+xref: OBO_SF2_EO:44
 is_a: PECO:0007224 ! light intensity treatment
 created_by: moorel
 creation_date: 2013-04-16T14:22:02Z
@@ -413,7 +413,7 @@ id: PECO:0001041
 name: limited zinc treatment
 def: "A zinc nutrient treatment (PECO:0007309) involving exposure to limiting amounts or absence of zinc (CHEBI:27363)." [CHEBI:27363, PO:cooperl]
 xref: EO_GIT:23
-xref: OBO_SF2_PECO:23
+xref: OBO_SF2_EO:23
 is_a: PECO:0007309 ! zinc nutrient treatment
 created_by: moorel
 creation_date: 2013-04-18T15:08:50Z
@@ -423,7 +423,7 @@ id: PECO:0001042
 name: limited boron treatment
 def: "A boron nutrient treatment (PECO:0007273) involving exposure to limiting amounts or absence of boron (CHEBI:27560)." [CHEBI:27560, PO:cooperl]
 xref: EO_GIT:15
-xref: OBO_SF2_PECO:15
+xref: OBO_SF2_EO:15
 is_a: PECO:0007273 ! boron nutrient treatment
 created_by: moorel
 creation_date: 2013-04-18T15:16:27Z
@@ -433,7 +433,7 @@ id: PECO:0001043
 name: limited glucose treatment
 def: "A glucose treatment (PECO:0001013) involving exposure to limiting amounts or the absence of glucose (CHEBI:17234)." [CHEBI:17234, PO:cooperl]
 xref: EO_GIT:16
-xref: OBO_SF2_PECO:16
+xref: OBO_SF2_EO:16
 is_a: PECO:0001013 ! glucose treatment
 created_by: moorel
 creation_date: 2013-04-18T15:21:57Z
@@ -443,7 +443,7 @@ id: PECO:0001044
 name: limited carbon treatment
 def: "A carbon nutrient treatment (PECO:0007303) involving exposure to limiting amounts or the absence of carbon (CHEBI:27594)." [CHEBI:27594, PO:cooperl]
 xref: EO_GIT:13
-xref: OBO_SF2_PECO:13
+xref: OBO_SF2_EO:13
 is_a: PECO:0007303 ! carbon nutrient treatment
 created_by: moorel
 creation_date: 2013-04-24T12:22:51Z
@@ -453,7 +453,7 @@ id: PECO:0001045
 name: limited sulfate treatment
 def: "A sulfate treatment (PECO:0001008) involving exposure to limiting amounts or the absence of sulfate (CHEBI:35175)." [CHEBI:35175, PO:cooperl]
 xref: EO_GIT:27
-xref: OBO_SF2_PECO:27
+xref: OBO_SF2_EO:27
 is_a: PECO:0001008 ! sulfate treatment
 created_by: moorel
 creation_date: 2013-04-24T12:37:29Z
@@ -464,8 +464,8 @@ name: limited phosphate treatment
 def: "A phosphate treatment (PECO:0001006) involving exposure to limiting amounts or absence of phosphate (CHEBI:18367)." [CHEBI:18367, PO:cooperl]
 xref: EO_GIT:20
 xref: EO_GIT:26
-xref: OBO_SF2_PECO:20
-xref: OBO_SF2_PECO:26
+xref: OBO_SF2_EO:20
+xref: OBO_SF2_EO:26
 is_a: PECO:0001006 ! phosphate treatment
 created_by: moorel
 creation_date: 2013-04-24T12:43:48Z
@@ -475,7 +475,7 @@ id: PECO:0001047
 name: limited iron treatment
 def: "An iron nutrient treatment (PECO:0007242) involving exposure to limiting amounts or the absence of iron (CHEBI:18248)." [CHEBI:18248, PO:cooperl]
 xref: EO_GIT:14
-xref: OBO_SF2_PECO:14
+xref: OBO_SF2_EO:14
 is_a: PECO:0007242 ! iron nutrient treatment
 created_by: moorel
 creation_date: 2013-04-24T13:10:33Z
@@ -485,7 +485,7 @@ id: PECO:0001048
 name: limited molybdenum treatment
 def: "A molybdenum nutrient treatment (PECO:0007253) involving exposure to limiting amounts or the absence of molybdenum (CHEBI:28685)." [CHEBI:28685, PO:cooperl]
 xref: EO_GIT:18
-xref: OBO_SF2_PECO:18
+xref: OBO_SF2_EO:18
 is_a: PECO:0007253 ! molybdenum nutrient treatment
 created_by: moorel
 creation_date: 2013-04-24T13:21:03Z
@@ -495,7 +495,7 @@ id: PECO:0001049
 name: limited magnesium treatment
 def: "A magnesium nutrient treatment (PECO:0007288) involving exposure to limiting amounts or the absence of magnesium (CHEBI:25107)." [CHEBI:25107, PO:cooperl]
 xref: EO_GIT:17
-xref: OBO_SF2_PECO:17
+xref: OBO_SF2_EO:17
 is_a: PECO:0007288 ! magnesium nutrient treatment
 created_by: moorel
 creation_date: 2013-04-24T13:31:00Z
@@ -507,9 +507,9 @@ def: "A nitrogen macronutrient treatment (PECO:0007284) involving exposure to li
 xref: EO_GIT:19
 xref: EO_GIT:2
 xref: EO_GIT:25
-xref: OBO_SF2_PECO:19
-xref: OBO_SF2_PECO:2
-xref: OBO_SF2_PECO:25
+xref: OBO_SF2_EO:19
+xref: OBO_SF2_EO:2
+xref: OBO_SF2_EO:25
 is_a: PECO:0007284 ! nitrogen macronutrient treatment
 created_by: moorel
 creation_date: 2013-04-24T13:45:43Z
@@ -519,7 +519,7 @@ id: PECO:0001051
 name: limited potassium treatment
 def: "A potassium nutrient treatment (PECO:0007293) involving exposure to limiting amounts or the absence of potassium (CHEBI:26216)." [CHEBI:26216, PO:cooperl]
 xref: EO_GIT:21
-xref: OBO_SF2_PECO:21
+xref: OBO_SF2_EO:21
 is_a: PECO:0007293 ! potassium nutrient treatment
 created_by: moorel
 creation_date: 2013-04-24T13:54:39Z
@@ -529,7 +529,7 @@ id: PECO:0001052
 name: limited sulfur treatment
 def: "A sulfur nutrient treatment (PECO:0007295) involving exposure to limiting amounts or the absence of sulfur (CHEBI:26833)." [CHEBI:26833, PO:cooperl]
 xref: EO_GIT:22
-xref: OBO_SF2_PECO:22
+xref: OBO_SF2_EO:22
 is_a: PECO:0007295 ! sulfur nutrient treatment
 created_by: moorel
 creation_date: 2013-04-24T14:06:32Z
@@ -539,7 +539,7 @@ id: PECO:0001053
 name: limited manganese treatment
 def: "A manganese nutrient treatment (PECO:0007387) involving exposure to limiting amounts or the absence of manganese (CHEBI:18291)." [CHEBI:18291, PO:cooperl]
 xref: EO_GIT:24
-xref: OBO_SF2_PECO:24
+xref: OBO_SF2_EO:24
 is_a: PECO:0007387 ! manganese nutrient treatment
 created_by: moorel
 creation_date: 2013-04-24T14:16:15Z
@@ -557,7 +557,7 @@ id: PECO:0001055
 name: inorganic gas treatment
 def: "An inorganic chemical treatment (PECO:0001004) involving the application of a gas or mixture of gases." [PO:cooperl]
 xref: EO_GIT:66
-xref: OBO_SF2_PECO:66
+xref: OBO_SF2_EO:66
 is_a: PECO:0001004 ! inorganic chemical treatment
 created_by: moorel
 creation_date: 2013-04-25T13:16:47Z
@@ -567,7 +567,7 @@ id: PECO:0001056
 name: elevated carbon dioxide treatment
 def: "A carbon dioxide treatment (PECO:0001020) involving an increased concentration of carbon dioxide (CHEBI:16526)." [CHEBI:16526, POC:cooperl]
 xref: EO_GIT:1
-xref: OBO_SF2_PECO:1
+xref: OBO_SF2_EO:1
 is_a: PECO:0001020 ! carbon dioxide treatment
 created_by: moorel
 creation_date: 2013-04-25T13:18:08Z
@@ -577,7 +577,7 @@ id: PECO:0001057
 name: abnormal stratification treatment
 def: "A stratification treatment (PECO:0001035) involving the absence of, or non-standard exposure to temperature or moisture conditions utilized in the breaking of seed dormancy." [POC:cooperl]
 xref: EO_GIT:47
-xref: OBO_SF2_PECO:47
+xref: OBO_SF2_EO:47
 is_a: PECO:0001035 ! stratification treatment
 created_by: cooperl
 creation_date: 2013-04-25T14:21:09Z
@@ -588,7 +588,7 @@ name: Glomeromycota treatment
 def: "A fungal plant treatment (PECO:0007233) involving the exposure of plant to the pathogen belonging to Glomeromyetes class." [POC:laura_moore]
 xref: EO_GIT:68
 xref: NCBI_Taxon_ID:214504
-xref: OBO_SF2_PECO:68
+xref: OBO_SF2_EO:68
 is_a: PECO:0007233 ! fungal plant treatment
 created_by: moorel
 creation_date: 2013-06-20T14:02:46Z
@@ -598,7 +598,7 @@ id: PECO:0001059
 name: arbuscular mycorrhizal fungal treatment
 def: "A Glomeromycota treatment (PECO:0001058) involving the exposure of compatible plants to mutualistic arbuscular mycorrhizal fungi." [POC:laura_moore]
 xref: EO_GIT:68
-xref: OBO_SF2_PECO:68
+xref: OBO_SF2_EO:68
 is_a: PECO:0001058 ! Glomeromycota treatment
 created_by: moorel
 creation_date: 2013-06-20T14:08:36Z
@@ -609,7 +609,7 @@ name: sodium hydroxide treatment
 def: "An inorganic anion treatment (PECO:0001009) involving the application of sodium hydroxide (CHEBI:32145)." [PO:cooperl]
 synonym: "NaOH treatment" EXACT []
 xref: EO_GIT:87
-xref: OBO_SF2_PECO:88
+xref: OBO_SF2_EO:88
 is_a: PECO:0001009 ! inorganic anion treatment
 created_by: cooperl
 creation_date: 2014-06-04T10:01:38Z
@@ -802,7 +802,7 @@ id: PECO:0007023
 name: gaseous treatment
 def: "A physical plant treatment (PECO:0007316) involving the application of a gas or a combination of gasses." [GR:pj, PO:cooperl]
 xref: EO_GIT:85
-xref: OBO_SF2_PECO:86
+xref: OBO_SF2_EO:86
 is_a: PECO:0007316 ! physical plant treatment
 
 [Term]
@@ -829,7 +829,7 @@ id: PECO:0007027
 name: seasonal environment treatment
 def: "A plant treatment (PECO:0001001) involving an exposure to a given conditions of regional seasons." [GR:pj, PO:cooperl]
 xref: EO_GIT:83
-xref: OBO_SF2_PECO:84
+xref: OBO_SF2_EO:84
 is_a: PECO:0001001 ! plant treatment
 
 [Term]
@@ -914,7 +914,7 @@ id: PECO:0007041
 name: antibiotic treatment
 def: "A chemical treatment (PECO:0007189) involving the use of antibiotic for selection purposes." [GR:pj, TO:moorel]
 xref: EO_GIT:69
-xref: OBO_SF2_PECO:70
+xref: OBO_SF2_EO:70
 is_a: PECO:0007189 ! chemical treatment
 
 [Term]
@@ -928,7 +928,7 @@ id: PECO:0007044
 name: mineral treatment
 def: "An inorganic chemical treatment (PECO:0001004) involving the application of a mineral or a combination of minerals." [GR:pj, PO:cooperl]
 xref: EO_GIT:52
-xref: OBO_SF2_PECO:52
+xref: OBO_SF2_EO:52
 is_a: PECO:0001004 ! inorganic chemical treatment
 
 [Term]
@@ -957,7 +957,7 @@ def: "A salt treatment (PECO:0007185) involving the use of sodium chloride salt 
 synonym: "NaCl treatment" RELATED []
 xref: CHEBI:26710
 xref: EO_GIT:76
-xref: OBO_SF2_PECO:77
+xref: OBO_SF2_EO:77
 is_a: PECO:0007185 ! salt treatment
 
 [Term]
@@ -1057,7 +1057,7 @@ synonym: "dichlorophenyldimethyl urea" RELATED []
 synonym: "diuron" RELATED []
 xref: CHEBI:116509
 xref: EO_GIT:74
-xref: OBO_SF2_PECO:75
+xref: OBO_SF2_EO:75
 is_a: PECO:0007183 ! herbicide treatment
 
 [Term]
@@ -1065,7 +1065,7 @@ id: PECO:0007064
 name: ecological environment treatment
 def: "A plant treatment (PECO:0001001) involving exposure to the various factors that comprise a geographical/regional location." [GR:pj, PO:cooperl]
 xref: EO_GIT:79
-xref: OBO_SF2_PECO:80
+xref: OBO_SF2_EO:80
 is_a: PECO:0001001 ! plant treatment
 
 [Term]
@@ -1084,7 +1084,7 @@ synonym: "6-benzylaminopurine" RELATED []
 synonym: "N-benzyl-adenine" RELATED []
 synonym: "verdan senescence" RELATED []
 xref: EO_GIT:71
-xref: OBO_SF2_PECO:72
+xref: OBO_SF2_EO:72
 is_a: PECO:0007165 ! growth hormone treatment
 
 [Term]
@@ -1099,7 +1099,7 @@ id: PECO:0007068
 name: ethylene treatment
 def: "A growth hormone treatment (PECO:0007165) involving the use of ethylene (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
 xref: EO_GIT:71
-xref: OBO_SF2_PECO:72
+xref: OBO_SF2_EO:72
 is_a: PECO:0001019 ! organic gas treatment
 is_a: PECO:0007165 ! growth hormone treatment
 
@@ -1109,7 +1109,7 @@ name: gibberellic acid treatment
 def: "A growth hormone treatment (PECO:0007165) involving the use of GA (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
 synonym: "GA regimen" RELATED []
 xref: EO_GIT:71
-xref: OBO_SF2_PECO:72
+xref: OBO_SF2_EO:72
 is_a: PECO:0007165 ! growth hormone treatment
 
 [Term]
@@ -1118,7 +1118,7 @@ name: indole acetic acid treatment
 def: "An auxin treatment (PECO:0007074) involving the use of IAA (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
 synonym: "IAA regimen" RELATED []
 xref: EO_GIT:71
-xref: OBO_SF2_PECO:72
+xref: OBO_SF2_EO:72
 is_a: PECO:0007074 ! auxin treatment
 
 [Term]
@@ -1147,7 +1147,7 @@ id: PECO:0007074
 name: auxin treatment
 def: "A growth hormone treatment (PECO:0007165) involving the use of auxin (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
 xref: EO_GIT:71
-xref: OBO_SF2_PECO:72
+xref: OBO_SF2_EO:72
 is_a: PECO:0007165 ! growth hormone treatment
 
 [Term]
@@ -1186,7 +1186,7 @@ name: jasmonic acid treatment
 def: "A growth hormone treatment (PECO:0007165) involving the use of JA (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
 synonym: "JA regimen" RELATED []
 xref: EO_GIT:71
-xref: OBO_SF2_PECO:72
+xref: OBO_SF2_EO:72
 is_a: PECO:0007165 ! growth hormone treatment
 
 [Term]
@@ -1341,7 +1341,7 @@ name: abscisic acid treatment
 def: "A growth hormone treatment (PECO:0007165) involving the use of abscisic acid (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
 synonym: "ABA regimen" RELATED []
 xref: EO_GIT:71
-xref: OBO_SF2_PECO:72
+xref: OBO_SF2_EO:72
 is_a: PECO:0007165 ! growth hormone treatment
 
 [Term]
@@ -1624,7 +1624,7 @@ id: PECO:0007147
 name: plant growth medium treatment
 def: "An abiotic plant treatment (PECO:0007191) involving the use of a solid or liquid substrate for growing plants or tissue-cultured plant samples." [GR:pj, PO:cooperl]
 xref: EO_GIT:81
-xref: OBO_SF2_PECO:82
+xref: OBO_SF2_EO:82
 is_a: PECO:0007191 ! abiotic plant treatment
 
 [Term]
@@ -1639,7 +1639,7 @@ id: PECO:0007149
 name: chemical mutagen treatment
 def: "A chemical treatment (PECO:0007189) involving use of mutagen for the mutagenesis process." [GR:pj, PO:cooperl]
 xref: EO_GIT:64
-xref: OBO_SF2_PECO:64
+xref: OBO_SF2_EO:64
 is_a: PECO:0007189 ! chemical treatment
 
 [Term]
@@ -1737,7 +1737,7 @@ id: PECO:0007165
 name: growth hormone treatment
 def: "A chemical treatment (PECO:0007189) involving the use of growth hormones to study various types of responses on their extrinsic and/or intrinsic application." [GR:pj]
 xref: EO_GIT:71
-xref: OBO_SF2_PECO:72
+xref: OBO_SF2_EO:72
 is_a: PECO:0007189 ! chemical treatment
 
 [Term]
@@ -1752,7 +1752,7 @@ name: pesticide treatment
 def: "A chemical treatment (PECO:0007189) involving the application of a pesticide; a chemical entity or mixture of chemical entities." [GR:pj]
 xref: CHEBI:25944
 xref: EO_GIT:73
-xref: OBO_SF2_PECO:74
+xref: OBO_SF2_EO:74
 is_a: PECO:0007189 ! chemical treatment
 
 [Term]
@@ -1762,7 +1762,7 @@ def: "An antibiotic treatment (PECO:0007041) involving use of hygromycin B antib
 synonym: "Antibiotic A-396-II" RELATED []
 synonym: "hygromycin B regimen" RELATED []
 xref: EO_GIT:69
-xref: OBO_SF2_PECO:70
+xref: OBO_SF2_EO:70
 is_a: PECO:0007041 ! antibiotic treatment
 
 [Term]
@@ -1835,7 +1835,7 @@ synonym: "Weed Tox" RELATED [CAS:94-75-7]
 synonym: "Weedar 64A" RELATED [CAS:94-75-7]
 synonym: "Weedone-2,4-DP" RELATED [CAS:94-75-7]
 xref: EO_GIT:71
-xref: OBO_SF2_PECO:72
+xref: OBO_SF2_EO:72
 is_a: PECO:0007074 ! auxin treatment
 is_a: PECO:0007183 ! herbicide treatment
 
@@ -1858,7 +1858,7 @@ name: herbicide treatment
 def: "A pesticide treatment (PECO:0007167) involving the application of a herbicide; a chemical entity or mixture of chemical entities." [GR:pj]
 xref: CHEBI:24527
 xref: EO_GIT:73
-xref: OBO_SF2_PECO:74
+xref: OBO_SF2_EO:74
 is_a: PECO:0007167 ! pesticide treatment
 
 [Term]
@@ -1874,7 +1874,7 @@ def: "A chemical treatment (PECO:0007189) involving use of salts as supplement t
 comment: This treatment may be used to simulate the growth conditions of sea coast regions and saline/sodic soils.
 xref: CHEBI:24866
 xref: EO_GIT:76
-xref: OBO_SF2_PECO:77
+xref: OBO_SF2_EO:77
 is_a: PECO:0007189 ! chemical treatment
 
 [Term]
@@ -1889,7 +1889,7 @@ name: salicylic acid treatment
 def: "An organic chemical treatment (PECO:0001003) involving the application of salicylic acid (CHEBI:16914)." [CHEBI:16914, GR:pj, PO:cooperl]
 comment: An organic chemical treatment (PECO:0001003) invloving the application of salicylic acid (CHEBI:16914).
 xref: EO_GIT:63
-xref: OBO_SF2_PECO:63
+xref: OBO_SF2_EO:63
 is_a: PECO:0001003 ! organic chemical treatment
 
 [Term]
@@ -1905,7 +1905,7 @@ alt_id: PECO:0007042
 def: "An abiotic plant treatment (PECO:0007191) involving the application of chemical(s)." [GR:pj, PO:cooperl]
 synonym: "other chemical regimen" RELATED []
 xref: EO_GIT:50
-xref: OBO_SF2_PECO:50
+xref: OBO_SF2_EO:50
 is_a: PECO:0007191 ! abiotic plant treatment
 
 [Term]
@@ -1919,7 +1919,7 @@ id: PECO:0007191
 name: abiotic plant treatment
 def: "A plant treatment (PECO:0001001) involving the application of chemical or non-biological factors." [GR:pj, PO:cooperl]
 xref: EO_GIT:49
-xref: OBO_SF2_PECO:49
+xref: OBO_SF2_EO:49
 is_a: PECO:0001001 ! plant treatment
 
 [Term]
@@ -1974,7 +1974,7 @@ id: PECO:0007198
 name: water environment treatment
 def: "A physical plant treatment (PECO:0007316) involving an exposure of varying amounts of water and watering frequencies, which may depend on regional environment." [GR:pj, PO:cooperl]
 xref: EO_GIT:86
-xref: OBO_SF2_PECO:87
+xref: OBO_SF2_EO:87
 is_a: PECO:0007316 ! physical plant treatment
 
 [Term]
@@ -2009,7 +2009,7 @@ def: "An auxin treatment (PECO:0007074) involving use of 1-naphthaleneacetic aci
 synonym: "NAA" RELATED []
 synonym: "Naphthylacetic acid" RELATED []
 xref: EO_GIT:71
-xref: OBO_SF2_PECO:72
+xref: OBO_SF2_EO:72
 is_a: PECO:0007074 ! auxin treatment
 
 [Term]
@@ -2129,7 +2129,7 @@ def: "A cadmium treatment (PECO:0001018) involving use of CdCl2 (CHEBI:35456)." 
 comment: Can be used to assess plant response to cadmium, a heavy metal.
 synonym: "CdCl2" RELATED []
 xref: EO_GIT:60
-xref: OBO_SF2_PECO:60
+xref: OBO_SF2_EO:60
 is_a: PECO:0001018 ! cadmium treatment
 
 [Term]
@@ -2187,7 +2187,7 @@ id: PECO:0007231
 name: study type
 def: "A plant experimental condition (PECO:0007359) or set of conditions describing what kind of plant growth facility was used for the experiment." [GR:pj, PO:cooperl]
 xref: EO_GIT:81
-xref: OBO_SF2_PECO:82
+xref: OBO_SF2_EO:82
 is_a: PECO:0007359 ! plant experimental condition
 
 [Term]
@@ -2256,7 +2256,7 @@ name: plant nutrient treatment
 def: "A plant chemical treatment (PECO:0007189) involving a plant nutrient or a combination of plant nutrients." [GR:pj, PO:cooperl]
 synonym: "fertilizer regimen" BROAD []
 xref: EO_GIT:84
-xref: OBO_SF2_PECO:85
+xref: OBO_SF2_EO:85
 is_a: PECO:0007189 ! chemical treatment
 
 [Term]
@@ -2398,7 +2398,7 @@ id: PECO:0007262
 name: in vitro solid growth medium treatment
 def: "An in vitro growth medium (PECO:0007266) involving use of a solid growth medium as a substrate." [GR:pj, PO:cooperl]
 xref: EO_GIT:65
-xref: OBO_SF2_PECO:65
+xref: OBO_SF2_EO:65
 is_a: PECO:0007266 ! in vitro growth medium treatment
 
 [Term]
@@ -2424,7 +2424,7 @@ id: PECO:0007265
 name: in vitro liquid growth medium treatment
 def: "An in vitro growth medium (PECO:0007265) involving use of liquid culture media as a substrate." [GR:pj, PO:cooperl]
 xref: EO_GIT:65
-xref: OBO_SF2_PECO:65
+xref: OBO_SF2_EO:65
 is_a: PECO:0007266 ! in vitro growth medium treatment
 
 [Term]
@@ -2432,7 +2432,7 @@ id: PECO:0007266
 name: in vitro growth medium treatment
 def: "A growth medium environment (PECO:0007147) for in vitro culture, involving use of a solid or liquid substrate and which may include nutrients and other amendments." [GR:pj, PO:cooperl]
 xref: EO_GIT:65
-xref: OBO_SF2_PECO:65
+xref: OBO_SF2_EO:65
 is_a: PECO:0007147 ! plant growth medium treatment
 
 [Term]
@@ -2441,7 +2441,7 @@ name: benzothiadiazole treatment
 def: "A fungicide treatment (PECO:0007268) involving use of benzothiadiazole to study various types of responses on its application." [GR:pj]
 xref: CHEBI:48864
 xref: EO_GIT:75
-xref: OBO_SF2_PECO:76
+xref: OBO_SF2_EO:76
 is_a: PECO:0007268 ! fungicide treatment
 
 [Term]
@@ -2450,7 +2450,7 @@ name: fungicide treatment
 def: "A pesticide treatment (PECO:0007167) involving the application of a fungicide; a chemical entity or mixture of chemical entities." [GR:pj]
 xref: CHEBI:24127
 xref: EO_GIT:73
-xref: OBO_SF2_PECO:74
+xref: OBO_SF2_EO:74
 is_a: PECO:0007167 ! pesticide treatment
 
 [Term]
@@ -2559,7 +2559,7 @@ id: PECO:0007284
 name: nitrogen macronutrient treatment
 def: "A primary plant macronutrient treatment (PECO:0007045) involving the application of nitrogen." [GR:pj, PO:cooperl]
 xref: EO_GIT:3
-xref: OBO_SF2_PECO:3
+xref: OBO_SF2_EO:3
 is_a: PECO:0007045 ! primary plant macronutrient treatment
 
 [Term]
@@ -2585,7 +2585,7 @@ comment: DBMIB blocks the oxidation of plastoquinol in the photosynthetic light 
 synonym: "2,5-dibromo -6-isopropyl-3-methyl-1,4-benzoquinone" RELATED []
 xref: CHEBI:19371
 xref: EO_GIT:74
-xref: OBO_SF2_PECO:75
+xref: OBO_SF2_EO:75
 is_a: PECO:0007183 ! herbicide treatment
 
 [Term]
@@ -2593,7 +2593,7 @@ id: PECO:0007288
 name: magnesium nutrient treatment
 def: "The treatment involving exposure of plant to macronutrient magnesium as supplement to study various types of responses." [GR:pj]
 xref: EO_GIT:17
-xref: OBO_SF2_PECO:17
+xref: OBO_SF2_EO:17
 is_a: PECO:0007046 ! secondary macronutrient treatment
 
 [Term]
@@ -2608,7 +2608,7 @@ id: PECO:0007290
 name: kinetin treatment
 def: "A cytokinin treatment (PECO:0007066) involving use of kinetin, a cytokinin homolog to study various types of responses on its extrinsic and/or intrinsic application." [GR:pj]
 xref: EO_GIT:71
-xref: OBO_SF2_PECO:72
+xref: OBO_SF2_EO:72
 is_a: PECO:0007066 ! cytokinin treatment
 
 [Term]
@@ -2623,7 +2623,7 @@ synonym: "N-(Phenylmethyl)-1H-purin-6-amine" RELATED []
 synonym: "N-benzyl-adenine" RELATED []
 synonym: "verdan senescence inhibitor" RELATED []
 xref: EO_GIT:71
-xref: OBO_SF2_PECO:72
+xref: OBO_SF2_EO:72
 is_a: PECO:0007066 ! cytokinin treatment
 
 [Term]
@@ -2634,7 +2634,7 @@ synonym: "carbonyl cyanide phenylhydrazone" RELATED []
 synonym: "carbonylcyanide-m-chlorophenylhydrazone" RELATED []
 xref: CHEBI:35889
 xref: EO_GIT:74
-xref: OBO_SF2_PECO:75
+xref: OBO_SF2_EO:75
 is_a: PECO:0007183 ! herbicide treatment
 
 [Term]
@@ -2788,7 +2788,7 @@ id: PECO:0007316
 name: physical plant treatment
 def: "An abiotic plant treatment (PECO:0007191) involving the application of a physical factor such as temperature, moisture, gravity, wind, radiation, etc. or a combination thereof." [PO:cooperl]
 xref: EO_GIT:77
-xref: OBO_SF2_PECO:78
+xref: OBO_SF2_EO:78
 is_a: PECO:0007191 ! abiotic plant treatment
 
 [Term]
@@ -3072,7 +3072,7 @@ id: PECO:0007357
 name: biotic plant treatment
 def: "A plant treatment (PECO:0001001) involving the application of a biotic or biological factor such as a microbe, insect, animal, or plant or a combination thereof." [GR:pj, PO:cooperl]
 xref: EO_GIT:78
-xref: OBO_SF2_PECO:79
+xref: OBO_SF2_EO:79
 is_a: PECO:0001001 ! plant treatment
 
 [Term]
@@ -3090,7 +3090,7 @@ comment: The Plant Experimental Condition Ontology describes the treatments, gro
 synonym: "plant treatment ontology" RELATED []
 synonym: "treatment ontology" RELATED []
 xref: EO_GIT:4
-xref: OBO_SF2_PECO:4
+xref: OBO_SF2_EO:4
 
 [Term]
 id: PECO:0007360
@@ -3388,7 +3388,7 @@ id: PECO:0007402
 name: fungal elicitor treatment
 def: "A chemical treatment (PECO:0007189) that involves the use of a fungal elicitor to study various types of plant responses." [TO:moorel]
 xref: EO_GIT:70
-xref: OBO_SF2_PECO:71
+xref: OBO_SF2_EO:71
 is_a: PECO:0007189 ! chemical treatment
 
 [Term]
@@ -3397,7 +3397,7 @@ name: unknown treatment
 def: "A plant treatment (PECO:0001001) where there is a lack of information describing the experimental conditions." [PO:cooperl]
 comment: In some cases, only the study type (PECO:0007231) is known, without any additional information about the treatments.
 xref: EO_GIT:82
-xref: OBO_SF2_PECO:83
+xref: OBO_SF2_EO:83
 is_a: PECO:0001001 ! plant treatment
 
 [Term]
@@ -3420,7 +3420,7 @@ id: PECO:0007407
 name: methyl jasmonate treatment
 def: "An organic chemical treatment (PECO:0001003) involving the application of  methyl jasmonate (MeJa; CHEBI:15929)." [CHEBI:15929, PO:Cooperl]
 xref: EO_GIT:62
-xref: OBO_SF2_PECO:62
+xref: OBO_SF2_EO:62
 is_a: PECO:0001003 ! organic chemical treatment
 
 [Term]
@@ -3428,7 +3428,7 @@ id: PECO:0007408
 name: 5-methyltryptophan treatment
 def: "An organic chemical treatment (PECO:0001003) involving the application of the tryptophan (Trp) analog 5-methyltryptophan (5MT; CHEBI: 52446)." [CHEBI:52446, PO:cooperl]
 xref: EO_GIT:61
-xref: OBO_SF2_PECO:61
+xref: OBO_SF2_EO:61
 is_a: PECO:0001003 ! organic chemical treatment
 
 [Term]
@@ -3436,7 +3436,7 @@ id: PECO:0007409
 name: brassinosteroid treatment
 def: "A growth hormone treatment (PECO:0007165) involving the use of brassinosteroid (or its homolog) growth hormone to study various types of responses on its extrinsic and/or intrinsic application." [TO:moorel]
 xref: EO_GIT:71
-xref: OBO_SF2_PECO:72
+xref: OBO_SF2_EO:72
 is_a: PECO:0007165 ! growth hormone treatment
 
 [Term]
@@ -3444,7 +3444,7 @@ id: PECO:0007410
 name: cerebroside elicitor treatment
 def: "A fungal elicitor treatment (PECO:0007402) that involves the use of a cerebroside elicitor to study various types of plant responses." [TO:moorel]
 xref: EO_GIT:70
-xref: OBO_SF2_PECO:71
+xref: OBO_SF2_EO:71
 is_a: PECO:0007402 ! fungal elicitor treatment
 
 [Term]
@@ -3477,7 +3477,7 @@ id: PECO:0007414
 name: peroxide treatment
 def: "A chemical treatment (PECO:0007189) involving exposure of plant to a peroxide to study various types of oxidative stress responses." [GR:pj]
 xref: EO_GIT:72
-xref: OBO_SF2_PECO:73
+xref: OBO_SF2_EO:73
 is_a: PECO:0007189 ! chemical treatment
 
 [Term]
@@ -3485,7 +3485,7 @@ id: PECO:0007415
 name: hydrogen peroxide treatment
 def: "A peroxide treatment (PECO:0007414) involving exposure of plant to H2O2 to study various types of oxidative stress responses." [GR:pj]
 xref: EO_GIT:72
-xref: OBO_SF2_PECO:73
+xref: OBO_SF2_EO:73
 is_a: PECO:0007414 ! peroxide treatment
 
 [Term]
@@ -3612,7 +3612,7 @@ id: PECO:0007521
 name: actinomycin D treatment
 def: "An antibiotic treatment (PECO:0007041) involving use of actinomycin D for mutagenesis process." [CAS:[50-76-0\], GR:pj, TO:moorel]
 xref: EO_GIT:69
-xref: OBO_SF2_PECO:70
+xref: OBO_SF2_EO:70
 is_a: PECO:0007041 ! antibiotic treatment
 is_a: PECO:0007149 ! chemical mutagen treatment
 
@@ -3814,7 +3814,7 @@ id: PECO:0007551
 name: mitomycin C treatment
 def: "An antibiotic treatment (PECO:0007551) involving use of mitomycin C for mutagenesis process." [CAS:[50-07-7\], GR:pj, TO:moorel]
 xref: EO_GIT:69
-xref: OBO_SF2_PECO:70
+xref: OBO_SF2_EO:70
 is_a: PECO:0007041 ! antibiotic treatment
 is_a: PECO:0007149 ! chemical mutagen treatment
 
@@ -4097,7 +4097,7 @@ name: insecticide treatment
 def: "A pesticide treatment (PECO:0007167) involving the application of an insecticide; a chemical entity or mixture of chemical entities." [GR:pj]
 xref: CHEBI:24852
 xref: EO_GIT:73
-xref: OBO_SF2_PECO:74
+xref: OBO_SF2_EO:74
 is_a: PECO:0007167 ! pesticide treatment
 
 [Term]
@@ -4106,7 +4106,7 @@ name: imidazolinone treatment
 def: "An herbicide treatment (PECO:0007183) involving the use of an imidazolinone herbicide." [TO:moorel, web:http\://corn.agronomy.wisc.edu/AAdvice/1994/A001.html]
 comment: This type of herbicides are taken up by plant root and leaf tissue and transported to the meristems via both phloem and xylem. The herbicide stops the activity of the enzyme, acetolactate synthase (ALS), which is involved in branch chain amino acid (valine, leucine and isoleucine) synthesis.
 xref: EO_GIT:74
-xref: OBO_SF2_PECO:75
+xref: OBO_SF2_EO:75
 is_a: PECO:0007183 ! herbicide treatment
 
 [Term]

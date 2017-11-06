@@ -1,16 +1,17 @@
 OBO=http://purl.obolibrary.org/obo
-ONT=eo
+ONT=peco
 BASE=$(OBO)/$(ONT)
 #SRC=plant-trait-ontology.obo.owl
-SRC=plant-environment-ontology.obo
-RELEASEDIR=.
+SRC=peco-edit.obo
+RELEASEDIR=../..
 ROBOT= robot
 OWLTOOLS= owltools
 
 
-all: all_imports $(ONT).owl $(ONT).obo
+all: $(ONT).owl $(ONT).obo
 test: $(ONT).owl $(ONT).obo
 prepare_release: all
+	cp $(ONT).owl $(ONT).obo $(RELEASEDIR)
 
 $(SRC).owl: $(SRC)
 	$(ROBOT) convert -i $< -o $@
@@ -45,7 +46,7 @@ mirror/%.owl: mirror/%.obo
 .PRECIOUS: mirror/%.owl
 
 release: $(ONT).owl $(ONT).obo
-
+	cp $^ $(RELEASEDIR)
 
 #######PATTERNS
 PATTERNS_OWL = $(patsubst %.csv, %_pattern.owl, $(wildcard patterns/*.csv)) $(patsubst %.csv, %_pattern.obo, $(wildcard patterns/*.csv))
@@ -59,6 +60,6 @@ patterns/%_pattern.obo: patterns/%_pattern.owl
 	$(OWLTOOLS) $< -o -f obo $@
 
 
-#print var function
+#print var function for test
 print-%:
 	@echo $* = $($*)

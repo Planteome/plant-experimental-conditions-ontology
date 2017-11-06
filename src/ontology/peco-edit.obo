@@ -1395,7 +1395,7 @@ is_a: PECO:0007210 ! virus plant treatment
 [Term]
 id: PECO:0007113
 name: rice necrosis mosaic virus treatment
-alt_id: PECO:0007354
+alt_id: EO:0007354
 def: "Treatment involving the exposure of plant to the rice necrosis mosaic virus. It is a causal agent for rice necrosis mosaic disease." [GR:ivy, NCBI_taxid:59500]
 synonym: "rice necrosis mosaic virus" RELATED []
 synonym: "RNMV" RELATED []
@@ -1532,7 +1532,7 @@ is_a: PECO:0007202 ! IR light treatment
 [Term]
 id: PECO:0007133
 name: basic pH growth media environment treatment
-alt_id: PECO:0007169
+alt_id: EO:0007169
 def: "The treatment involving an exposure to basic pH levels of the growth media." [GR:pj]
 synonym: "basic pH environment" RELATED []
 is_a: PECO:0007171 ! pH treatment
@@ -1540,7 +1540,7 @@ is_a: PECO:0007171 ! pH treatment
 [Term]
 id: PECO:0007134
 name: acidic pH growth media environment treatment
-alt_id: PECO:0007170
+alt_id: EO:0007170
 def: "The treatment involving an exposure to acidic pH levels of the growth media." [GR:pj]
 synonym: "acidic pH environment" RELATED []
 is_a: PECO:0007171 ! pH treatment
@@ -1901,7 +1901,7 @@ is_a: PECO:0007328 ! Pythium spp. treatment
 [Term]
 id: PECO:0007189
 name: chemical treatment
-alt_id: PECO:0007042
+alt_id: EO:0007042
 def: "An abiotic plant treatment (PECO:0007191) involving the application of chemical(s)." [GR:pj, PO:cooperl]
 synonym: "other chemical regimen" RELATED []
 xref: EO_GIT:50
@@ -1943,7 +1943,7 @@ is_a: PECO:0007630 ! Sclerospora spp. treatment
 [Term]
 id: PECO:0007195
 name: rice ragged stunt virus treatment
-alt_id: PECO:0007352
+alt_id: EO:0007352
 def: "The treatment involving exposure of plant to the rice ragged stunt virus. It is a causal agent for rice ragged stunt disease." [GR:ivy, NCBI_taxid:42475]
 synonym: "rice ragged stunt oryzavirus" RELATED []
 synonym: "rice ragged stunt virus" RELATED []
@@ -1953,7 +1953,7 @@ is_a: PECO:0007110 ! dsRNA virus treatment
 [Term]
 id: PECO:0007196
 name: light treatment
-alt_id: PECO:0007201
+alt_id: EO:0007201
 def: "The treatment involving day light as the light of the sun or the artificial light in a growth chamber." [GR:pj]
 comment: A type of light used in a commercial light box to simulate natural daylight. For experiments carried out in growth chambers, the daylight is a light source providing a color temperature of 6500+/-200 K at an illumination of 90 to 120 ft/candles. This source is typically provided by fluorescent,  tungsten or halogen lamps.
 synonym: "artificial daylight" RELATED []
@@ -2169,7 +2169,7 @@ is_a: PECO:0007047 ! other nutrient treatment
 [Term]
 id: PECO:0007229
 name: Gibberella fujikuroi treatment
-alt_id: PECO:0007299
+alt_id: EO:0007299
 def: "The treatment involving exposure of plant to the pathogen Gibberella fujikuroi." [GR:ivy, NCBI_taxid:5127]
 comment: It is a causal agent for rice Bakanae disease and also for a form of rice Seedling Blight (Fungal) Disease.
 synonym: "Fusarium fujikuroi" RELATED []
@@ -2565,7 +2565,7 @@ is_a: PECO:0007045 ! primary plant macronutrient treatment
 [Term]
 id: PECO:0007285
 name: rainy season treatment
-alt_id: PECO:0007032
+alt_id: EO:0007032
 def: "The treatment involving an exposure to the wet or the rainy season." [GR:pj]
 synonym: "monsoon season" RELATED []
 synonym: "wet season" RELATED []
@@ -2968,7 +2968,7 @@ is_a: PECO:0007136 ! Achlya spp. treatment
 [Term]
 id: PECO:0007341
 name: Fusarium treatment
-alt_id: PECO:0007301
+alt_id: EO:0007301
 def: "The treatment involving exposure of plant to the pathogenic Fusarium spp. It is a causal agent for rice Water Mold disease also called as Seed Rot Disease or Seedling Damping-off Disease." [GR:ivy, NCBI_taxid:5506]
 synonym: "Fusarium spp." RELATED []
 is_a: PECO:0007118 ! Gibberella spp. treatment
@@ -3118,7 +3118,7 @@ is_a: PECO:0007107 ! Ascomycota treatment
 [Term]
 id: PECO:0007363
 name: Magnaporthe salvinii treatment
-alt_id: PECO:0007213
+alt_id: EO:0007213
 def: "The treatment involving exposure of plant to the pathogen Magnaporthe salvinii. It is a causal agent for rice stem rot disease and Seedling Blight (Fungal) Disease." [GR:ivy, NCBI_taxid:165778]
 synonym: "Helminthosporium sigmoideum" RELATED []
 synonym: "Helminthosporium sigmoideum var.irregulare." RELATED []
@@ -3317,7 +3317,7 @@ is_a: PECO:0007118 ! Gibberella spp. treatment
 [Term]
 id: PECO:0007391
 name: lowland region treatment
-alt_id: PECO:0007390
+alt_id: EO:0007390
 def: "The treatment involving the plant or the populations grown in regions where the land level is slightly steep, noncontinuous flooding of variable depth and duration. Alternatingconditions of aerobic to anaerobic soil." [IRIS:SES]
 synonym: "rainfed lowland region" RELATED []
 is_a: PECO:0007064 ! ecological environment treatment

@@ -1,7 +1,7 @@
-pattern_name: eo-role
+pattern_name: peco-role
 classes:
-  plant experimental condition: EO_0007359
-  plant treatment: EO_0001001
+  plant experimental condition: PECO_0007359
+  plant treatment: PECO_0001001
   exposure event: RO_0002310
   chemical entity: CHEBI_24431
   role: CHEBI_50906

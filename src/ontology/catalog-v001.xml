@@ -6,4 +6,5 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/peco/imports/envo_import.owl" uri="./imports/envo_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/peco/imports/ncbitaxon_import.owl" uri="./imports/ncbitaxon_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/peco/imports/ro_import.owl" uri="./imports/ro_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/peco/patterns/exposure-envo" uri="./patterns/exposure-envo.owl"/>
 </catalog>

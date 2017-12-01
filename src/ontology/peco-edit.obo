@@ -2,6 +2,10 @@ format-version: 1.2
 date: 12:10:2015 15:21
 saved-by: cooperl
 default-namespace: plant_experimental_conditions_ontology
+import: http://purl.obolibrary.org/obo/peco/imports/chebi_import.owl
+import: http://purl.obolibrary.org/obo/peco/imports/envo_import.owl
+import: http://purl.obolibrary.org/obo/peco/imports/ro_import.owl
+import: http://purl.obolibrary.org/obo/peco/imports/ncbitaxon_import.owl
 ontology: peco
 
 [Term]

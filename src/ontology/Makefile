@@ -49,14 +49,14 @@ release: $(ONT).owl $(ONT).obo
 	cp $^ $(RELEASEDIR)
 
 #######PATTERNS
-PATTERNS_OWL = $(patsubst %.csv, %_pattern.owl, $(wildcard patterns/*.csv)) $(patsubst %.csv, %_pattern.obo, $(wildcard patterns/*.csv))
+PATTERNS_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/*.tsv)) $(patsubst %.tsv, %_pattern.obo, $(wildcard patterns/*.tsv))
 
 all_patterns: $(PATTERNS_OWL)
 
-patterns/%.owl: patterns/%.csv
-	dosdp-tools --outfile=$@ --prefixes=patterns/curie_map.yaml --obo-prefixes=true --template=patterns/peco$(findstring _role,$*).yaml --ontology=imports/$(patsubst exposure-%,%, $(patsubst %_role,%,$*))_import.owl generate --infile=patterns/$*.csv
+patterns/%_pattern.owl: patterns/%.tsv
+	dosdp-tools --outfile=$@ --obo-prefixes=true --template=patterns/peco$(findstring _role,$*).yaml --ontology=imports/$(patsubst exposure-%,%, $(patsubst %_role,%,$*))_import.owl generate --infile=patterns/$*.tsv
 	#patterns/apply-pattern.py -P patterns/curie_map.yaml -i patterns/$*.tsv -p patterns/eo.yaml -n $@ > $@
-patterns/%.obo: patterns/%.owl
+patterns/%_pattern.obo: patterns/%_pattern.owl
 	$(OWLTOOLS) $< -o -f obo $@
 
 

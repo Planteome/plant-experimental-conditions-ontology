@@ -703,7 +703,7 @@ def: "An in vitro solid growth medium (PECO:0007262) composed of paper towels." 
 synonym: "ragdoll method (exact)" EXACT []
 xref: PECO_GIT:120
 is_a: PECO:0007262 ! in vitro solid growth medium treatment
-creation_date: 2017-08-08
+creation_date: 2017-08-08T14:58:32Z
 
 [Term]
 id: PECO:0007001

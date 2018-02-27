@@ -14,3 +14,19 @@ mirror/ro.obo
 mirror/ncbitaxon.owl
 
 mirror/ncbitaxon.obo
+
+src/ontology/mirror/chebi.obo
+
+src/ontology/mirror/chebi.owl
+
+src/ontology/mirror/ncbitaxon.obo
+
+src/ontology/mirror/ncbitaxon.owl
+
+src/ontology/mirror/envo.obo
+
+src/ontology/mirror/envo.owl
+
+src/ontology/mirror/ro.obo
+
+src/ontology/mirror/ro.owl

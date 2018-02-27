@@ -34,7 +34,7 @@ imports/%_import.owl: mirror/%.owl imports/%_terms.txt
 .PRECIOUS: imports/%_import.owl
 
 imports/%_import.obo: imports/%_import.owl
-	$(OWLTOOLS) $(USECAT) $< -o -f obo $@
+	$(OWLTOOLS) $(USECAT) $< -o -f obo --no-check $@
 
 # clone remote ontology locally, perfoming some excision of relations and annotations
 mirror/%.obo: $(SRC) 

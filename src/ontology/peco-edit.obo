@@ -7,6 +7,9 @@ import: http://purl.obolibrary.org/obo/peco/imports/envo_import.owl
 import: http://purl.obolibrary.org/obo/peco/imports/ro_import.owl
 import: http://purl.obolibrary.org/obo/peco/imports/ncbitaxon_import.owl
 import: http://purl.obolibrary.org/obo/peco/patterns/exposure-envo.owl
+import: http://purl.obolibrary.org/obo/peco/patterns/exposure-chebi.owl
+import: http://purl.obolibrary.org/obo/peco/patterns/exposure-chebi_role.owl
+import: http://purl.obolibrary.org/obo/peco/patterns/exposure-ncbitaxon.owl
 ontology: peco
 
 [Term]

@@ -7,4 +7,7 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/peco/imports/ncbitaxon_import.owl" uri="./imports/ncbitaxon_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/peco/imports/ro_import.owl" uri="./imports/ro_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/peco/patterns/exposure-envo" uri="./patterns/exposure-envo.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/peco/patterns/exposure-chebi" uri="./patterns/exposure-chebi.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/peco/patterns/exposure-ncbitaxon" uri="./patterns/exposure-ncbitaxon.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/peco/patterns/exposure-chebi_role" uri="./patterns/exposure-chebi_role.owl"/>
 </catalog>

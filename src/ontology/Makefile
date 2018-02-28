@@ -54,8 +54,9 @@ PATTERNS_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/*.tsv)) $(pa
 all_patterns: $(PATTERNS_OWL)
 
 patterns/%_pattern.owl: patterns/%.tsv
-	dosdp-tools --outfile=$@ --obo-prefixes=true --template=patterns/peco$(findstring _role,$*).yaml --ontology=imports/$(patsubst exposure-%,%, $(patsubst %_role,%,$*))_import.owl generate --infile=patterns/$*.tsv
-	#patterns/apply-pattern.py -P patterns/curie_map.yaml -i patterns/$*.tsv -p patterns/eo.yaml -n $@ > $@
+	dosdp-tools --outfile=$@ --obo-prefixes=true --template=patterns/peco$(findstring _role,$*).yaml --ontology=imports/$(patsubst exposure-%,%, $(patsubst %_role,%,$*))_import.owl generate --infile=patterns/$*.tsv &&\
+	robot annotate -O "http://purl.obolibrary.org/obo/peco/patterns/$*_pattern.owl" -i $@ -o $@
+	
 patterns/%_pattern.obo: patterns/%_pattern.owl
 	$(OWLTOOLS) $< -o -f obo $@
 

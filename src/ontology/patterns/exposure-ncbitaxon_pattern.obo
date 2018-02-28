@@ -1,0 +1,416 @@
+format-version: 1.2
+ontology: peco/patterns/exposure-ncbitaxon_pattern
+
+[Term]
+id: PECO:0007022
+name: Liliopsida treatment
+def: "A treatment involving the use of Liliopsida" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:4447
+
+[Term]
+id: PECO:0007031
+name: Mammalia treatment
+def: "A treatment involving the use of Mammalia" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:40674
+
+[Term]
+id: PECO:0007060
+name: Passalora janseana treatment
+def: "A treatment involving the use of Passalora janseana" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:706553
+
+[Term]
+id: PECO:0007073
+name: Basidiomycota treatment
+def: "A treatment involving the use of Basidiomycota" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:5204
+
+[Term]
+id: PECO:0007077
+name: Tilletia barclayana treatment
+def: "A treatment involving the use of Tilletia barclayana" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:157178
+
+[Term]
+id: PECO:0007083
+name: Epicoccum sorghinum treatment
+def: "A treatment involving the use of Epicoccum sorghinum" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:749593
+
+[Term]
+id: PECO:0007088
+name: Ceratorhiza oryzae-sativae treatment
+def: "A treatment involving the use of Ceratorhiza oryzae-sativae" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:63189
+
+[Term]
+id: PECO:0007106
+name: Stramenopiles treatment
+def: "A treatment involving the use of Stramenopiles" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:33634
+
+[Term]
+id: PECO:0007107
+name: Ascomycota treatment
+def: "A treatment involving the use of Ascomycota" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:4890
+
+[Term]
+id: PECO:0007110
+name: dsRNA viruses treatment
+def: "A treatment involving the use of dsRNA viruses" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:35325
+
+[Term]
+id: PECO:0007148
+name: Xanthomonas oryzae treatment
+def: "A treatment involving the use of Xanthomonas oryzae" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:347
+
+[Term]
+id: PECO:0007166
+name: Pythium spinosum treatment
+def: "A treatment involving the use of Pythium spinosum" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:82948
+
+[Term]
+id: PECO:0007177
+name: Pythium myriotylum treatment
+def: "A treatment involving the use of Pythium myriotylum" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:82941
+
+[Term]
+id: PECO:0007179
+name: Pythium irregulare treatment
+def: "A treatment involving the use of Pythium irregulare" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:36331
+
+[Term]
+id: PECO:0007182
+name: Pythium graminicola treatment
+def: "A treatment involving the use of Pythium graminicola" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:82937
+
+[Term]
+id: PECO:0007184
+name: Pythium dissotocum treatment
+def: "A treatment involving the use of Pythium dissotocum" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:82936
+
+[Term]
+id: PECO:0007188
+name: Pythium arrhenomanes treatment
+def: "A treatment involving the use of Pythium arrhenomanes" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:82932
+
+[Term]
+id: PECO:0007190
+name: Ustilaginoidea virens treatment
+def: "A treatment involving the use of Ustilaginoidea virens" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:1159556
+
+[Term]
+id: PECO:0007194
+name: Sclerophthora macrospora treatment
+def: "A treatment involving the use of Sclerophthora macrospora" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:467176
+
+[Term]
+id: PECO:0007206
+name: Gaeumannomyces graminis treatment
+def: "A treatment involving the use of Gaeumannomyces graminis" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:29850
+
+[Term]
+id: PECO:0007211
+name: Bipolaris oryzae treatment
+def: "A treatment involving the use of Bipolaris oryzae" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:101162
+
+[Term]
+id: PECO:0007226
+name: Magnaporthe grisea treatment
+def: "A treatment involving the use of Magnaporthe grisea" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:148305
+
+[Term]
+id: PECO:0007227
+name: Curvularia lunata treatment
+def: "A treatment involving the use of Curvularia lunata" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:5503
+
+[Term]
+id: PECO:0007229
+name: Fusarium verticillioides treatment
+def: "A treatment involving the use of Fusarium verticillioides" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:117187
+
+[Term]
+id: PECO:0007234
+name: Pseudomonas fuscovaginae treatment
+def: "A treatment involving the use of Pseudomonas fuscovaginae" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:50340
+
+[Term]
+id: PECO:0007243
+name: Burkholderia glumae treatment
+def: "A treatment involving the use of Burkholderia glumae" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:337
+
+[Term]
+id: PECO:0007245
+name: Dickeya chrysanthemi treatment
+def: "A treatment involving the use of Dickeya chrysanthemi" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:556
+
+[Term]
+id: PECO:0007246
+name: Bacteria treatment
+def: "A treatment involving the use of Bacteria" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:2
+
+[Term]
+id: PECO:0007247
+name: Pantoea agglomerans treatment
+def: "A treatment involving the use of Pantoea agglomerans" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:549
+
+[Term]
+id: PECO:0007254
+name: Acidovorax avenae treatment
+def: "A treatment involving the use of Acidovorax avenae" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:80867
+
+[Term]
+id: PECO:0007318
+name: Rice yellow mottle virus treatment
+def: "A treatment involving the use of Rice yellow mottle virus" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:31744
+
+[Term]
+id: PECO:0007320
+name: Meloidogyne arenaria treatment
+def: "A treatment involving the use of Meloidogyne arenaria" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:6304
+
+[Term]
+id: PECO:0007322
+name: Hirschmanniella oryzae treatment
+def: "A treatment involving the use of Hirschmanniella oryzae" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:362338
+
+[Term]
+id: PECO:0007333
+name: Insecta treatment
+def: "A treatment involving the use of Insecta" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:50557
+
+[Term]
+id: PECO:0007336
+name: Ditylenchus angustus treatment
+def: "A treatment involving the use of Ditylenchus angustus" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:344380
+
+[Term]
+id: PECO:0007337
+name: Nematoda treatment
+def: "A treatment involving the use of Nematoda" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:6231
+
+[Term]
+id: PECO:0007340
+name: Achlya conspicua treatment
+def: "A treatment involving the use of Achlya conspicua" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:112027
+
+[Term]
+id: PECO:0007341
+name: Fusarium treatment
+def: "A treatment involving the use of Fusarium" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:5506
+
+[Term]
+id: PECO:0007342
+name: Achlya klebsiana treatment
+def: "A treatment involving the use of Achlya klebsiana" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:4767
+
+[Term]
+id: PECO:0007349
+name: Metazoa treatment
+def: "A treatment involving the use of Metazoa" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:33208
+
+[Term]
+id: PECO:0007350
+name: Rice stripe tenuivirus treatment
+def: "A treatment involving the use of Rice stripe tenuivirus" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:12331
+
+[Term]
+id: PECO:0007356
+name: Rice hoja blanca tenuivirus treatment
+def: "A treatment involving the use of Rice hoja blanca tenuivirus" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:12332
+
+[Term]
+id: PECO:0007358
+name: Rice grassy stunt tenuivirus treatment
+def: "A treatment involving the use of Rice grassy stunt tenuivirus" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:66266
+
+[Term]
+id: PECO:0007360
+name: Barley yellow dwarf virus treatment
+def: "A treatment involving the use of Barley yellow dwarf virus" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:12037
+
+[Term]
+id: PECO:0007363
+name: Nakataea oryzae treatment
+def: "A treatment involving the use of Nakataea oryzae" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:165778
+
+[Term]
+id: PECO:0007364
+name: Rhizoctonia oryzae treatment
+def: "A treatment involving the use of Rhizoctonia oryzae" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:459364
+
+[Term]
+id: PECO:0007365
+name: Rice dwarf virus treatment
+def: "A treatment involving the use of Rice dwarf virus" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:10991
+
+[Term]
+id: PECO:0007367
+name: Aphelenchoides besseyi treatment
+def: "A treatment involving the use of Aphelenchoides besseyi" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:269767
+
+[Term]
+id: PECO:0007371
+name: Meloidogyne javanica treatment
+def: "A treatment involving the use of Meloidogyne javanica" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:6303
+
+[Term]
+id: PECO:0007372
+name: Meloidogyne incognita treatment
+def: "A treatment involving the use of Meloidogyne incognita" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:6306
+
+[Term]
+id: PECO:0007374
+name: Calonectria cylindrospora treatment
+def: "A treatment involving the use of Calonectria cylindrospora" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:40624
+
+[Term]
+id: PECO:0007375
+name: Meloidogyne graminicola treatment
+def: "A treatment involving the use of Meloidogyne graminicola" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:189291
+
+[Term]
+id: PECO:0007377
+name: Athelia rolfsii treatment
+def: "A treatment involving the use of Athelia rolfsii" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:39291
+
+[Term]
+id: PECO:0007378
+name: Sarocladium oryzae treatment
+def: "A treatment involving the use of Sarocladium oryzae" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:284135
+
+[Term]
+id: PECO:0007379
+name: Thanatephorus cucumeris treatment
+def: "A treatment involving the use of Thanatephorus cucumeris" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:107832
+
+[Term]
+id: PECO:0007388
+name: Alternaria padwickii treatment
+def: "A treatment involving the use of Alternaria padwickii" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:714880
+
+[Term]
+id: PECO:0007389
+name: Fusarium graminearum treatment
+def: "A treatment involving the use of Fusarium graminearum" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:5518
+
+[Term]
+id: PECO:0007411
+name: Pseudomonas fluorescens treatment
+def: "A treatment involving the use of Pseudomonas fluorescens" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:294
+
+[Term]
+id: PECO:0007631
+name: Sclerospora graminicola treatment
+def: "A treatment involving the use of Sclerospora graminicola" []
+intersection_of: PECO:0001001
+intersection_of: RO:0002244 NCBITaxon:162130
+

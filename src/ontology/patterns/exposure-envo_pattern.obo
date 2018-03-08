@@ -3,57 +3,57 @@ ontology: peco/patterns/exposure-envo_pattern
 
 [Term]
 id: PECO:0007089
-name: bone meal treatment
-def: "A treatment involving the use of bone meal" []
+name: bone meal exposure
+def: "An exposure to bone meal" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 ENVO:02000054
 
 [Term]
 id: PECO:0007156
-name: clay soil treatment
-def: "A treatment involving the use of clay soil" []
+name: clay soil exposure
+def: "An exposure to clay soil" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 ENVO:00002262
 
 [Term]
 id: PECO:0007158
-name: arenosol treatment
-def: "A treatment involving the use of arenosol" []
+name: arenosol exposure
+def: "An exposure to arenosol" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 ENVO:00002229
 
 [Term]
 id: PECO:0007161
-name: temperature of air treatment
-def: "A treatment involving the use of temperature of air" []
+name: temperature of air exposure
+def: "An exposure to temperature of air" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 ENVO:09200001
 
 [Term]
 id: PECO:0007181
-name: water-based rainfall treatment
-def: "A treatment involving the use of water-based rainfall" []
+name: water-based rainfall exposure
+def: "An exposure to water-based rainfall" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 ENVO:01000830
 
 [Term]
 id: PECO:0007396
-name: flooding treatment
-def: "A treatment involving the use of flooding" []
+name: flooding exposure
+def: "An exposure to flooding" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 ENVO:02500002
 
 [Term]
 id: PECO:0007400
-name: desert treatment
-def: "A treatment involving the use of desert" []
+name: desert exposure
+def: "An exposure to desert" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 ENVO:00000097
 
 [Term]
 id: PECO:0007555
-name: natural gas treatment
-def: "A treatment involving the use of natural gas" []
+name: natural gas exposure
+def: "An exposure to natural gas" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 ENVO:01000552
 

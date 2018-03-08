@@ -4,51 +4,51 @@ owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://w
 
 [Term]
 id: PECO:0007041
-name: antimicrobial agent treatment
-def: "A treatment involving the use of antimicrobial agent" []
+name: antimicrobial agent exposure
+def: "An exposure to a chemical that has the role of antimicrobial agent" []
 
 [Term]
 id: PECO:0007066
-name: cytokinin treatment
-def: "A treatment involving the use of cytokinin" []
+name: cytokinin exposure
+def: "An exposure to a chemical that has the role of cytokinin" []
 
 [Term]
 id: PECO:0007074
-name: auxin treatment
-def: "A treatment involving the use of auxin" []
+name: auxin exposure
+def: "An exposure to a chemical that has the role of auxin" []
 
 [Term]
 id: PECO:0007085
-name: fertilizer treatment
-def: "A treatment involving the use of fertilizer" []
+name: fertilizer exposure
+def: "An exposure to a chemical that has the role of fertilizer" []
 
 [Term]
 id: PECO:0007165
-name: growth hormone treatment
-def: "A treatment involving the use of growth hormone" []
+name: growth hormone exposure
+def: "An exposure to a chemical that has the role of growth hormone" []
 
 [Term]
 id: PECO:0007167
-name: pesticide treatment
-def: "A treatment involving the use of pesticide" []
+name: pesticide exposure
+def: "An exposure to a chemical that has the role of pesticide" []
 
 [Term]
 id: PECO:0007183
-name: herbicide treatment
-def: "A treatment involving the use of herbicide" []
+name: herbicide exposure
+def: "An exposure to a chemical that has the role of herbicide" []
 
 [Term]
 id: PECO:0007239
-name: micronutrient treatment
-def: "A treatment involving the use of micronutrient" []
+name: micronutrient exposure
+def: "An exposure to a chemical that has the role of micronutrient" []
 
 [Term]
 id: PECO:0007268
-name: fungicide treatment
-def: "A treatment involving the use of fungicide" []
+name: fungicide exposure
+def: "An exposure to a chemical that has the role of fungicide" []
 
 [Term]
 id: PECO:0007632
-name: insecticide treatment
-def: "A treatment involving the use of insecticide" []
+name: insecticide exposure
+def: "An exposure to a chemical that has the role of insecticide" []
 

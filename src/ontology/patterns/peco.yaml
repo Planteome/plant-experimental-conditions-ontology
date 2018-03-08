@@ -14,12 +14,12 @@ vars:
   stimulus: "taxon' or 'chemical entity' or 'environmental material'"
 
 name:
-  text: "%s treatment"
+  text: "%s exposure"
   vars:
     - stimulus
     
 def: 
-  text: "A treatment involving the use of %s"
+  text: "An exposure to %s"
   vars:
     - stimulus
     

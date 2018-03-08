@@ -3,862 +3,862 @@ ontology: peco/patterns/exposure-chebi_pattern
 
 [Term]
 id: PECO:0001005
-name: nickel cation treatment
-def: "A treatment involving the use of nickel cation" []
+name: nickel cation exposure
+def: "An exposure to nickel cation" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:25516
 
 [Term]
 id: PECO:0001006
-name: phosphate treatment
-def: "A treatment involving the use of phosphate" []
+name: phosphate exposure
+def: "An exposure to phosphate" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:26020
 
 [Term]
 id: PECO:0001008
-name: sulfate treatment
-def: "A treatment involving the use of sulfate" []
+name: sulfate exposure
+def: "An exposure to sulfate" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:16189
 
 [Term]
 id: PECO:0001009
-name: inorganic anion treatment
-def: "A treatment involving the use of inorganic anion" []
+name: inorganic anion exposure
+def: "An exposure to inorganic anion" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:24834
 
 [Term]
 id: PECO:0001010
-name: carbohydrate treatment
-def: "A treatment involving the use of carbohydrate" []
+name: carbohydrate exposure
+def: "An exposure to carbohydrate" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:16646
 
 [Term]
 id: PECO:0001011
-name: monosaccharide treatment
-def: "A treatment involving the use of monosaccharide" []
+name: monosaccharide exposure
+def: "An exposure to monosaccharide" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:35381
 
 [Term]
 id: PECO:0001012
-name: hexose treatment
-def: "A treatment involving the use of hexose" []
+name: hexose exposure
+def: "An exposure to hexose" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:18133
 
 [Term]
 id: PECO:0001013
-name: glucose treatment
-def: "A treatment involving the use of glucose" []
+name: glucose exposure
+def: "An exposure to glucose" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:17234
 
 [Term]
 id: PECO:0001014
-name: disaccharide treatment
-def: "A treatment involving the use of disaccharide" []
+name: disaccharide exposure
+def: "An exposure to disaccharide" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:36233
 
 [Term]
 id: PECO:0001015
-name: sucrose treatment
-def: "A treatment involving the use of sucrose" []
+name: sucrose exposure
+def: "An exposure to sucrose" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:17992
 
 [Term]
 id: PECO:0001016
-name: inorganic cation treatment
-def: "A treatment involving the use of inorganic cation" []
+name: inorganic cation exposure
+def: "An exposure to inorganic cation" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:36915
 
 [Term]
 id: PECO:0001017
-name: ammonium treatment
-def: "A treatment involving the use of ammonium" []
+name: ammonium exposure
+def: "An exposure to ammonium" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:28938
 
 [Term]
 id: PECO:0001018
-name: cadmium cation treatment
-def: "A treatment involving the use of cadmium cation" []
+name: cadmium cation exposure
+def: "An exposure to cadmium cation" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:63063
 
 [Term]
 id: PECO:0001020
-name: carbon dioxide treatment
-def: "A treatment involving the use of carbon dioxide" []
+name: carbon dioxide exposure
+def: "An exposure to carbon dioxide" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:16526
 
 [Term]
 id: PECO:0001021
-name: ozone treatment
-def: "A treatment involving the use of ozone" []
+name: ozone exposure
+def: "An exposure to ozone" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:25812
 
 [Term]
 id: PECO:0001060
-name: sodium hydroxide treatment
-def: "A treatment involving the use of sodium hydroxide" []
+name: sodium hydroxide exposure
+def: "An exposure to sodium hydroxide" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:32145
 
 [Term]
 id: PECO:0001061
-name: poly(ethylene glycol) treatment
-def: "A treatment involving the use of poly(ethylene glycol)" []
+name: poly(ethylene glycol) exposure
+def: "An exposure to poly(ethylene glycol)" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:46793
 
 [Term]
 id: PECO:0007044
-name: mineral treatment
-def: "A treatment involving the use of mineral" []
+name: mineral exposure
+def: "An exposure to mineral" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:46662
 
 [Term]
 id: PECO:0007048
-name: sodium chloride treatment
-def: "A treatment involving the use of sodium chloride" []
+name: sodium chloride exposure
+def: "An exposure to sodium chloride" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:26710
 
 [Term]
 id: PECO:0007063
-name: diuron treatment
-def: "A treatment involving the use of diuron" []
+name: diuron exposure
+def: "An exposure to diuron" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:116509
 
 [Term]
 id: PECO:0007068
-name: ethylene group treatment
-def: "A treatment involving the use of ethylene group" []
+name: ethylene group exposure
+def: "An exposure to ethylene group" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:29362
 
 [Term]
 id: PECO:0007069
-name: Gibberellic acid treatment
-def: "A treatment involving the use of Gibberellic acid" []
+name: Gibberellic acid exposure
+def: "An exposure to Gibberellic acid" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:86644
 
 [Term]
 id: PECO:0007070
-name: indole-3-acetic acid treatment
-def: "A treatment involving the use of indole-3-acetic acid" []
+name: indole-3-acetic acid exposure
+def: "An exposure to indole-3-acetic acid" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:16411
 
 [Term]
 id: PECO:0007080
-name: jasmonic acid treatment
-def: "A treatment involving the use of jasmonic acid" []
+name: jasmonic acid exposure
+def: "An exposure to jasmonic acid" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:18292
 
 [Term]
 id: PECO:0007090
-name: ammonium nitrate treatment
-def: "A treatment involving the use of ammonium nitrate" []
+name: ammonium nitrate exposure
+def: "An exposure to ammonium nitrate" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:63038
 
 [Term]
 id: PECO:0007094
-name: sodium nitrate treatment
-def: "A treatment involving the use of sodium nitrate" []
+name: sodium nitrate exposure
+def: "An exposure to sodium nitrate" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:63005
 
 [Term]
 id: PECO:0007095
-name: calcium nitrate treatment
-def: "A treatment involving the use of calcium nitrate" []
+name: calcium nitrate exposure
+def: "An exposure to calcium nitrate" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:64205
 
 [Term]
 id: PECO:0007096
-name: potassium nitrate treatment
-def: "A treatment involving the use of potassium nitrate" []
+name: potassium nitrate exposure
+def: "An exposure to potassium nitrate" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:63043
 
 [Term]
 id: PECO:0007097
-name: ammonium sulfate treatment
-def: "A treatment involving the use of ammonium sulfate" []
+name: ammonium sulfate exposure
+def: "An exposure to ammonium sulfate" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:62946
 
 [Term]
 id: PECO:0007098
-name: iron(2+) sulfate (anhydrous) treatment
-def: "A treatment involving the use of iron(2+) sulfate (anhydrous)" []
+name: iron(2+) sulfate (anhydrous) exposure
+def: "An exposure to iron(2+) sulfate (anhydrous)" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:75832
 
 [Term]
 id: PECO:0007099
-name: potassium sulfate treatment
-def: "A treatment involving the use of potassium sulfate" []
+name: potassium sulfate exposure
+def: "An exposure to potassium sulfate" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:32036
 
 [Term]
 id: PECO:0007101
-name: urea treatment
-def: "A treatment involving the use of urea" []
+name: urea exposure
+def: "An exposure to urea" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:16199
 
 [Term]
 id: PECO:0007105
-name: 2-cis-abscisic acid treatment
-def: "A treatment involving the use of 2-cis-abscisic acid" []
+name: 2-cis-abscisic acid exposure
+def: "An exposure to 2-cis-abscisic acid" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:22152
 
 [Term]
 id: PECO:0007151
-name: photon treatment
-def: "A treatment involving the use of photon" []
+name: photon exposure
+def: "An exposure to photon" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:30212
 
 [Term]
 id: PECO:0007168
-name: hygromycin treatment
-def: "A treatment involving the use of hygromycin" []
+name: hygromycin exposure
+def: "An exposure to hygromycin" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:24753
 
 [Term]
 id: PECO:0007180
-name: (2,4-dichlorophenoxy)acetate treatment
-def: "A treatment involving the use of (2,4-dichlorophenoxy)acetate" []
+name: (2,4-dichlorophenoxy)acetate exposure
+def: "An exposure to (2,4-dichlorophenoxy)acetate" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:19351
 
 [Term]
 id: PECO:0007185
-name: salt treatment
-def: "A treatment involving the use of salt" []
+name: salt exposure
+def: "An exposure to salt" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:24866
 
 [Term]
 id: PECO:0007187
-name: salicylic acid treatment
-def: "A treatment involving the use of salicylic acid" []
+name: salicylic acid exposure
+def: "An exposure to salicylic acid" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:16914
 
 [Term]
 id: PECO:0007204
-name: 1-naphthylacetic acid treatment
-def: "A treatment involving the use of 1-naphthylacetic acid" []
+name: 1-naphthylacetic acid exposure
+def: "An exposure to 1-naphthylacetic acid" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:32918
 
 [Term]
 id: PECO:0007223
-name: cadmium dichloride treatment
-def: "A treatment involving the use of cadmium dichloride" []
+name: cadmium dichloride exposure
+def: "An exposure to cadmium dichloride" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:35456
 
 [Term]
 id: PECO:0007267
-name: benzothiadiazole treatment
-def: "A treatment involving the use of benzothiadiazole" []
+name: benzothiadiazole exposure
+def: "An exposure to benzothiadiazole" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:48864
 
 [Term]
 id: PECO:0007278
-name: oxygen atom treatment
-def: "A treatment involving the use of oxygen atom" []
+name: oxygen atom exposure
+def: "An exposure to oxygen atom" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:25805
 
 [Term]
 id: PECO:0007287
-name: dibromothymoquinone treatment
-def: "A treatment involving the use of dibromothymoquinone" []
+name: dibromothymoquinone exposure
+def: "An exposure to dibromothymoquinone" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:19371
 
 [Term]
 id: PECO:0007290
-name: kinetin treatment
-def: "A treatment involving the use of kinetin" []
+name: kinetin exposure
+def: "An exposure to kinetin" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:27407
 
 [Term]
 id: PECO:0007291
-name: N-benzyladenine treatment
-def: "A treatment involving the use of N-benzyladenine" []
+name: N-benzyladenine exposure
+def: "An exposure to N-benzyladenine" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:29022
 
 [Term]
 id: PECO:0007292
-name: ethylphosphine treatment
-def: "A treatment involving the use of ethylphosphine" []
+name: ethylphosphine exposure
+def: "An exposure to ethylphosphine" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:35889
 
 [Term]
 id: PECO:0007406
-name: nitrate treatment
-def: "A treatment involving the use of nitrate" []
+name: nitrate exposure
+def: "An exposure to nitrate" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:17632
 
 [Term]
 id: PECO:0007407
-name: (-)-methyl jasmonate treatment
-def: "A treatment involving the use of (-)-methyl jasmonate" []
+name: (-)-methyl jasmonate exposure
+def: "An exposure to (-)-methyl jasmonate" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:15929
 
 [Term]
 id: PECO:0007408
-name: 5-methyltryptophan treatment
-def: "A treatment involving the use of 5-methyltryptophan" []
+name: 5-methyltryptophan exposure
+def: "An exposure to 5-methyltryptophan" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:52524
 
 [Term]
 id: PECO:0007409
-name: brassinosteroid treatment
-def: "A treatment involving the use of brassinosteroid" []
+name: brassinosteroid exposure
+def: "An exposure to brassinosteroid" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:22921
 
 [Term]
 id: PECO:0007412
-name: zinc sulfate treatment
-def: "A treatment involving the use of zinc sulfate" []
+name: zinc sulfate exposure
+def: "An exposure to zinc sulfate" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:35176
 
 [Term]
 id: PECO:0007413
-name: manganese(II) sulfate treatment
-def: "A treatment involving the use of manganese(II) sulfate" []
+name: manganese(II) sulfate exposure
+def: "An exposure to manganese(II) sulfate" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:86360
 
 [Term]
 id: PECO:0007414
-name: peroxide treatment
-def: "A treatment involving the use of peroxide" []
+name: peroxide exposure
+def: "An exposure to peroxide" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:44785
 
 [Term]
 id: PECO:0007415
-name: hydrogen peroxide treatment
-def: "A treatment involving the use of hydrogen peroxide" []
+name: hydrogen peroxide exposure
+def: "An exposure to hydrogen peroxide" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:16240
 
 [Term]
 id: PECO:0007503
-name: 1,2-dibromoethane treatment
-def: "A treatment involving the use of 1,2-dibromoethane" []
+name: 1,2-dibromoethane exposure
+def: "An exposure to 1,2-dibromoethane" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:28534
 
 [Term]
 id: PECO:0007504
-name: 1,2-dichloroethane treatment
-def: "A treatment involving the use of 1,2-dichloroethane" []
+name: 1,2-dichloroethane exposure
+def: "An exposure to 1,2-dichloroethane" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:27789
 
 [Term]
 id: PECO:0007505
-name: dibenz[a,h]anthracene treatment
-def: "A treatment involving the use of dibenz[a,h]anthracene" []
+name: dibenz[a,h]anthracene exposure
+def: "An exposure to dibenz[a,h]anthracene" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:35299
 
 [Term]
 id: PECO:0007506
-name: hexane-2,5-diyl bis(methanesulfonate) treatment
-def: "A treatment involving the use of hexane-2,5-diyl bis(methanesulfonate)" []
+name: hexane-2,5-diyl bis(methanesulfonate) exposure
+def: "An exposure to hexane-2,5-diyl bis(methanesulfonate)" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:18934
 
 [Term]
 id: PECO:0007507
-name: hex-3-yne-2,5-diyl bis(methanesulfonate) treatment
-def: "A treatment involving the use of hex-3-yne-2,5-diyl bis(methanesulfonate)" []
+name: hex-3-yne-2,5-diyl bis(methanesulfonate) exposure
+def: "An exposure to hex-3-yne-2,5-diyl bis(methanesulfonate)" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:18935
 
 [Term]
 id: PECO:0007508
-name: busulfan treatment
-def: "A treatment involving the use of busulfan" []
+name: busulfan exposure
+def: "An exposure to busulfan" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:28901
 
 [Term]
 id: PECO:0007509
-name: D-mannitol 1,6-bis(methanesulfonate) treatment
-def: "A treatment involving the use of D-mannitol 1,6-bis(methanesulfonate)" []
+name: D-mannitol 1,6-bis(methanesulfonate) exposure
+def: "An exposure to D-mannitol 1,6-bis(methanesulfonate)" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:18953
 
 [Term]
 id: PECO:0007510
-name: L-mannitol 1,6-bis(methanesulfonate) treatment
-def: "A treatment involving the use of L-mannitol 1,6-bis(methanesulfonate)" []
+name: L-mannitol 1,6-bis(methanesulfonate) exposure
+def: "An exposure to L-mannitol 1,6-bis(methanesulfonate)" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:18954
 
 [Term]
 id: PECO:0007511
-name: 4-amino-3-hydroxynaphthalene-1-sulfonic acid treatment
-def: "A treatment involving the use of 4-amino-3-hydroxynaphthalene-1-sulfonic acid" []
+name: 4-amino-3-hydroxynaphthalene-1-sulfonic acid exposure
+def: "An exposure to 4-amino-3-hydroxynaphthalene-1-sulfonic acid" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:19024
 
 [Term]
 id: PECO:0007512
-name: 1-bromo-2-chloroethane treatment
-def: "A treatment involving the use of 1-bromo-2-chloroethane" []
+name: 1-bromo-2-chloroethane exposure
+def: "An exposure to 1-bromo-2-chloroethane" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:19032
 
 [Term]
 id: PECO:0007513
-name: lucanthone treatment
-def: "A treatment involving the use of lucanthone" []
+name: lucanthone exposure
+def: "An exposure to lucanthone" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:51052
 
 [Term]
 id: PECO:0007514
-name: 2,5-bis(aziridin-1-yl)-1,4-benzoquinone treatment
-def: "A treatment involving the use of 2,5-bis(aziridin-1-yl)-1,4-benzoquinone" []
+name: 2,5-bis(aziridin-1-yl)-1,4-benzoquinone exposure
+def: "An exposure to 2,5-bis(aziridin-1-yl)-1,4-benzoquinone" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:19363
 
 [Term]
 id: PECO:0007515
-name: 2-chloroethyl methanesulfonate treatment
-def: "A treatment involving the use of 2-chloroethyl methanesulfonate" []
+name: 2-chloroethyl methanesulfonate exposure
+def: "An exposure to 2-chloroethyl methanesulfonate" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:19508
 
 [Term]
 id: PECO:0007516
-name: 2-fluoroethyl methanesulfonate treatment
-def: "A treatment involving the use of 2-fluoroethyl methanesulfonate" []
+name: 2-fluoroethyl methanesulfonate exposure
+def: "An exposure to 2-fluoroethyl methanesulfonate" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:19579
 
 [Term]
 id: PECO:0007517
-name: 2-methoxyethanol treatment
-def: "A treatment involving the use of 2-methoxyethanol" []
+name: 2-methoxyethanol exposure
+def: "An exposure to 2-methoxyethanol" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:46790
 
 [Term]
 id: PECO:0007518
-name: 5-bromouracil treatment
-def: "A treatment involving the use of 5-bromouracil" []
+name: 5-bromouracil exposure
+def: "An exposure to 5-bromouracil" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:20552
 
 [Term]
 id: PECO:0007519
-name: 5-bromouridine treatment
-def: "A treatment involving the use of 5-bromouridine" []
+name: 5-bromouridine exposure
+def: "An exposure to 5-bromouridine" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:20553
 
 [Term]
 id: PECO:0007521
-name: actinomycin D treatment
-def: "A treatment involving the use of actinomycin D" []
+name: actinomycin D exposure
+def: "An exposure to actinomycin D" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:27666
 
 [Term]
 id: PECO:0007522
-name: 4-aminofolic acid treatment
-def: "A treatment involving the use of 4-aminofolic acid" []
+name: 4-aminofolic acid exposure
+def: "An exposure to 4-aminofolic acid" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:22526
 
 [Term]
 id: PECO:0007524
-name: caffeine treatment
-def: "A treatment involving the use of caffeine" []
+name: caffeine exposure
+def: "An exposure to caffeine" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:27732
 
 [Term]
 id: PECO:0007525
-name: cisplatin treatment
-def: "A treatment involving the use of cisplatin" []
+name: cisplatin exposure
+def: "An exposure to cisplatin" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:27899
 
 [Term]
 id: PECO:0007526
-name: colchicine treatment
-def: "A treatment involving the use of colchicine" []
+name: colchicine exposure
+def: "An exposure to colchicine" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:23359
 
 [Term]
 id: PECO:0007527
-name: copper(II) sulfate treatment
-def: "A treatment involving the use of copper(II) sulfate" []
+name: copper(II) sulfate exposure
+def: "An exposure to copper(II) sulfate" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:23414
 
 [Term]
 id: PECO:0007528
-name: diepoxybutane treatment
-def: "A treatment involving the use of diepoxybutane" []
+name: diepoxybutane exposure
+def: "An exposure to diepoxybutane" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:23704
 
 [Term]
 id: PECO:0007530
-name: diethyl sulfate treatment
-def: "A treatment involving the use of diethyl sulfate" []
+name: diethyl sulfate exposure
+def: "An exposure to diethyl sulfate" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:34699
 
 [Term]
 id: PECO:0007531
-name: dimethyl sulfoxide treatment
-def: "A treatment involving the use of dimethyl sulfoxide" []
+name: dimethyl sulfoxide exposure
+def: "An exposure to dimethyl sulfoxide" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:28262
 
 [Term]
 id: PECO:0007532
-name: deoxyribonucleic acid treatment
-def: "A treatment involving the use of deoxyribonucleic acid" []
+name: deoxyribonucleic acid exposure
+def: "An exposure to deoxyribonucleic acid" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:16991
 
 [Term]
 id: PECO:0007533
-name: diethyl ether treatment
-def: "A treatment involving the use of diethyl ether" []
+name: diethyl ether exposure
+def: "An exposure to diethyl ether" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:35702
 
 [Term]
 id: PECO:0007534
-name: ethyl methanesulfonate treatment
-def: "A treatment involving the use of ethyl methanesulfonate" []
+name: ethyl methanesulfonate exposure
+def: "An exposure to ethyl methanesulfonate" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:23994
 
 [Term]
 id: PECO:0007535
-name: N-ethyl-N-nitrosourea treatment
-def: "A treatment involving the use of N-ethyl-N-nitrosourea" []
+name: N-ethyl-N-nitrosourea exposure
+def: "An exposure to N-ethyl-N-nitrosourea" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:23995
 
 [Term]
 id: PECO:0007536
-name: oxirane treatment
-def: "A treatment involving the use of oxirane" []
+name: oxirane exposure
+def: "An exposure to oxirane" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:27561
 
 [Term]
 id: PECO:0007537
-name: aziridine treatment
-def: "A treatment involving the use of aziridine" []
+name: aziridine exposure
+def: "An exposure to aziridine" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:30969
 
 [Term]
 id: PECO:0007538
-name: fagaronine treatment
-def: "A treatment involving the use of fagaronine" []
+name: fagaronine exposure
+def: "An exposure to fagaronine" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:28954
 
 [Term]
 id: PECO:0007539
-name: formaldehyde treatment
-def: "A treatment involving the use of formaldehyde" []
+name: formaldehyde exposure
+def: "An exposure to formaldehyde" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:16842
 
 [Term]
 id: PECO:0007540
-name: boric acid treatment
-def: "A treatment involving the use of boric acid" []
+name: boric acid exposure
+def: "An exposure to boric acid" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:33118
 
 [Term]
 id: PECO:0007542
-name: hexamethylmelamine treatment
-def: "A treatment involving the use of hexamethylmelamine" []
+name: hexamethylmelamine exposure
+def: "An exposure to hexamethylmelamine" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:24564
 
 [Term]
 id: PECO:0007543
-name: hexamethylphosphoric triamide treatment
-def: "A treatment involving the use of hexamethylphosphoric triamide" []
+name: hexamethylphosphoric triamide exposure
+def: "An exposure to hexamethylphosphoric triamide" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:24565
 
 [Term]
 id: PECO:0007546
-name: ICR-170 treatment
-def: "A treatment involving the use of ICR-170" []
+name: ICR-170 exposure
+def: "An exposure to ICR-170" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:21183
 
 [Term]
 id: PECO:0007547
-name: iodine(1+) treatment
-def: "A treatment involving the use of iodine(1+)" []
+name: iodine(1+) exposure
+def: "An exposure to iodine(1+)" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:33116
 
 [Term]
 id: PECO:0007548
-name: Janus Green B chloride treatment
-def: "A treatment involving the use of Janus Green B chloride" []
+name: Janus Green B chloride exposure
+def: "An exposure to Janus Green B chloride" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:21184
 
 [Term]
 id: PECO:0007549
-name: 1-methoxy-N-nitrosodiethylamine treatment
-def: "A treatment involving the use of 1-methoxy-N-nitrosodiethylamine" []
+name: 1-methoxy-N-nitrosodiethylamine exposure
+def: "An exposure to 1-methoxy-N-nitrosodiethylamine" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:25234
 
 [Term]
 id: PECO:0007550
-name: methyl methanesulfonate treatment
-def: "A treatment involving the use of methyl methanesulfonate" []
+name: methyl methanesulfonate exposure
+def: "An exposure to methyl methanesulfonate" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:25255
 
 [Term]
 id: PECO:0007551
-name: mitomycin C treatment
-def: "A treatment involving the use of mitomycin C" []
+name: mitomycin C exposure
+def: "An exposure to mitomycin C" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:27504
 
 [Term]
 id: PECO:0007552
-name: bis(2-chloroethyl) sulfide treatment
-def: "A treatment involving the use of bis(2-chloroethyl) sulfide" []
+name: bis(2-chloroethyl) sulfide exposure
+def: "An exposure to bis(2-chloroethyl) sulfide" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:25434
 
 [Term]
 id: PECO:0007553
-name: N-methyl-N'-nitro-N-nitrosoguanidine treatment
-def: "A treatment involving the use of N-methyl-N'-nitro-N-nitrosoguanidine" []
+name: N-methyl-N'-nitro-N-nitrosoguanidine exposure
+def: "An exposure to N-methyl-N'-nitro-N-nitrosoguanidine" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:21759
 
 [Term]
 id: PECO:0007554
-name: N-nitrosodimethylamine treatment
-def: "A treatment involving the use of N-nitrosodimethylamine" []
+name: N-nitrosodimethylamine exposure
+def: "An exposure to N-nitrosodimethylamine" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:35807
 
 [Term]
 id: PECO:0007556
-name: nitrogen mustard treatment
-def: "A treatment involving the use of nitrogen mustard" []
+name: nitrogen mustard exposure
+def: "An exposure to nitrogen mustard" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:37598
 
 [Term]
 id: PECO:0007557
-name: N-methyl-N-nitrosourea treatment
-def: "A treatment involving the use of N-methyl-N-nitrosourea" []
+name: N-methyl-N-nitrosourea exposure
+def: "An exposure to N-methyl-N-nitrosourea" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:50102
 
 [Term]
 id: PECO:0007558
-name: p-N,N-bis(2-chloroethyl)aminophenylvaleric acid treatment
-def: "A treatment involving the use of p-N,N-bis(2-chloroethyl)aminophenylvaleric acid" []
+name: p-N,N-bis(2-chloroethyl)aminophenylvaleric acid exposure
+def: "An exposure to p-N,N-bis(2-chloroethyl)aminophenylvaleric acid" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:25813
 
 [Term]
 id: PECO:0007559
-name: p-N,N-bis(2-chloroethyl)amino-D-phenylalanine treatment
-def: "A treatment involving the use of p-N,N-bis(2-chloroethyl)amino-D-phenylalanine" []
+name: p-N,N-bis(2-chloroethyl)amino-D-phenylalanine exposure
+def: "An exposure to p-N,N-bis(2-chloroethyl)amino-D-phenylalanine" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:25814
 
 [Term]
 id: PECO:0007560
-name: melphalan treatment
-def: "A treatment involving the use of melphalan" []
+name: melphalan exposure
+def: "An exposure to melphalan" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:28876
 
 [Term]
 id: PECO:0007561
-name: p-N,N-bis(2-chloroethyl)amino-L-phenylalanine treatment
-def: "A treatment involving the use of p-N,N-bis(2-chloroethyl)amino-L-phenylalanine" []
+name: p-N,N-bis(2-chloroethyl)amino-L-phenylalanine exposure
+def: "An exposure to p-N,N-bis(2-chloroethyl)amino-L-phenylalanine" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:25816
 
 [Term]
 id: PECO:0007562
-name: chlorambucil treatment
-def: "A treatment involving the use of chlorambucil" []
+name: chlorambucil exposure
+def: "An exposure to chlorambucil" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:28830
 
 [Term]
 id: PECO:0007563
-name: 4-(2-aminoethyl)-N,N-bis(2-chloroethyl)aniline treatment
-def: "A treatment involving the use of 4-(2-aminoethyl)-N,N-bis(2-chloroethyl)aniline" []
+name: 4-(2-aminoethyl)-N,N-bis(2-chloroethyl)aniline exposure
+def: "An exposure to 4-(2-aminoethyl)-N,N-bis(2-chloroethyl)aniline" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:25818
 
 [Term]
 id: PECO:0007564
-name: p-p'-N,N-di(2-chloroethyl)aminophenoxyphenylalanine treatment
-def: "A treatment involving the use of p-p'-N,N-di(2-chloroethyl)aminophenoxyphenylalanine" []
+name: p-p'-N,N-di(2-chloroethyl)aminophenoxyphenylalanine exposure
+def: "An exposure to p-p'-N,N-di(2-chloroethyl)aminophenoxyphenylalanine" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:25829
 
 [Term]
 id: PECO:0007565
-name: quinhydrone treatment
-def: "A treatment involving the use of quinhydrone" []
+name: quinhydrone exposure
+def: "An exposure to quinhydrone" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:26491
 
 [Term]
 id: PECO:0007566
-name: S-2-chloroethylcysteine treatment
-def: "A treatment involving the use of S-2-chloroethylcysteine" []
+name: S-2-chloroethylcysteine exposure
+def: "An exposure to S-2-chloroethylcysteine" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:22025
 
 [Term]
 id: PECO:0007567
-name: sodium hydrogensulfite treatment
-def: "A treatment involving the use of sodium hydrogensulfite" []
+name: sodium hydrogensulfite exposure
+def: "An exposure to sodium hydrogensulfite" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:26709
 
 [Term]
 id: PECO:0007568
-name: sodium fluoride treatment
-def: "A treatment involving the use of sodium fluoride" []
+name: sodium fluoride exposure
+def: "An exposure to sodium fluoride" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:28741
 
 [Term]
 id: PECO:0007569
-name: styrylquinoline treatment
-def: "A treatment involving the use of styrylquinoline" []
+name: styrylquinoline exposure
+def: "An exposure to styrylquinoline" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:26800
 
 [Term]
 id: PECO:0007570
-name: bis(2-chloroethyl) sulfide treatment
-def: "A treatment involving the use of bis(2-chloroethyl) sulfide" []
+name: bis(2-chloroethyl) sulfide exposure
+def: "An exposure to bis(2-chloroethyl) sulfide" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:25434
 
 [Term]
 id: PECO:0007571
-name: triaziquone treatment
-def: "A treatment involving the use of triaziquone" []
+name: triaziquone exposure
+def: "An exposure to triaziquone" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:27090
 
 [Term]
 id: PECO:0007572
-name: tretamine treatment
-def: "A treatment involving the use of tretamine" []
+name: tretamine exposure
+def: "An exposure to tretamine" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:27919
 
 [Term]
 id: PECO:0007573
-name: urethane treatment
-def: "A treatment involving the use of urethane" []
+name: urethane exposure
+def: "An exposure to urethane" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:17967
 
 [Term]
 id: PECO:0007574
-name: vinyl carbamate treatment
-def: "A treatment involving the use of vinyl carbamate" []
+name: vinyl carbamate exposure
+def: "An exposure to vinyl carbamate" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:27292
 
 [Term]
 id: PECO:0007610
-name: tritium atom treatment
-def: "A treatment involving the use of tritium atom" []
+name: tritium atom exposure
+def: "An exposure to tritium atom" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:29238
 
 [Term]
 id: PECO:0007619
-name: radium atom treatment
-def: "A treatment involving the use of radium atom" []
+name: radium atom exposure
+def: "An exposure to radium atom" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:33325
 
 [Term]
 id: PECO:0007629
-name: hydrogen atom treatment
-def: "A treatment involving the use of hydrogen atom" []
+name: hydrogen atom exposure
+def: "An exposure to hydrogen atom" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:49637
 
 [Term]
 id: PECO:0007633
-name: imidazolinone treatment
-def: "A treatment involving the use of imidazolinone" []
+name: imidazolinone exposure
+def: "An exposure to imidazolinone" []
 intersection_of: PECO:0001001
 intersection_of: RO:0002244 CHEBI:24781
 

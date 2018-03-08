@@ -14,12 +14,12 @@ vars:
   stimulus: "'role'"
 
 name:
-  text: "%s treatment"
+  text: "%s exposure"
   vars:
     - stimulus
     
 def: 
-  text: "A treatment involving the use of %s"
+  text: "An exposure to a chemical that has the role of %s"
   vars:
     - stimulus
     

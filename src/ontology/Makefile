@@ -11,7 +11,12 @@ OWLTOOLS= owltools
 all: $(ONT).owl $(ONT).obo
 test: $(ONT).owl $(ONT).obo
 prepare_release: all
-	cp $(ONT).owl $(ONT).obo $(RELEASEDIR)
+	cp $(ONT).owl $(ONT).obo $(RELEASEDIR) &&\
+	mkdir -p $(RELEASEDIR)/imports &&\
+	cp imports/*{owl,obo} $(RELEASEDIR)/imports &&\
+	git add $(RELEASEDIR)/imports/*{obo,owl} &&\
+	(test -f subsets/*owl && cp subsets/*{owl,obo} $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\
+	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
 
 $(SRC).owl: $(SRC)
 	$(ROBOT) convert -i $< -o $@

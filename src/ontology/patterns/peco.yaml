@@ -13,15 +13,15 @@ relations:
 vars: 
   stimulus: "taxon' or 'chemical entity' or 'environmental material'"
 
-name:
-  text: "%s exposure"
-  vars:
-    - stimulus
+# name:
+#   text: "%s exposure"
+#   vars:
+#     - stimulus
     
-def: 
-  text: "An exposure to %s"
-  vars:
-    - stimulus
+# def: 
+#   text: "An exposure to %s"
+#   vars:
+#     - stimulus
     
 equivalentTo: 
   text: "'plant treatment' and 'has exposure stimulus' some %s"

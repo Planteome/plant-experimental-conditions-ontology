@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-
-    <!-- ./ -->
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/peco/patterns/exposure-chebi_pattern.owl" uri="patterns/exposure-chebi_pattern.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/peco/patterns/exposure-chebi_role_pattern.owl" uri="patterns/exposure-chebi_role_pattern.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/peco/patterns/exposure-envo_pattern.owl" uri="patterns/exposure-envo_pattern.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/peco/patterns/exposure-ncbitaxon_pattern.owl" uri="patterns/exposure-ncbitaxon_pattern.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/peco/imports/chebi_import.owl" uri="./imports/chebi_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/peco/imports/envo_import.owl" uri="./imports/envo_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/peco/imports/ncbitaxon_import.owl" uri="./imports/ncbitaxon_import.owl"/>

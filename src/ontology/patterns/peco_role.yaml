@@ -1,27 +1,27 @@
 pattern_name: peco-role
 classes:
-  plant experimental condition: PECO_0007359
-  plant treatment: PECO_0001001
-  exposure event: RO_0002310
-  chemical entity: CHEBI_24431
-  role: CHEBI_50906
+  plant experimental condition: PECO:0007359
+  plant treatment: PECO:0001001
+  exposure event: RO:0002310
+  chemical entity: CHEBI:24431
+  role: CHEBI:50906
 
 relations:
-  has exposure stimulus: RO_0002244
-  has role: RO_0000087
+  has exposure stimulus: RO:0002244
+  has role: RO:0000087
     
 vars: 
   stimulus: "'role'"
 
-name:
-  text: "%s treatment"
-  vars:
-    - stimulus
+# name:
+#   text: "%s exposure"
+#   vars:
+#     - stimulus
     
-def: 
-  text: "A treatment involving the use of %s"
-  vars:
-    - stimulus
+# def: 
+#   text: "An exposure to a chemical that has the role of %s"
+#   vars:
+#     - stimulus
     
 equivalentTo: 
   text: "'plant treatment' and 'has exposure stimulus' some ('chemical entity' and 'has role' some %s)"

@@ -1,5 +1,5 @@
 format-version: 1.2
-ontology: eo/imports/ncbitaxon_import
+ontology: peco/imports/ncbitaxon_import
 
 [Term]
 id: NCBITaxon:1

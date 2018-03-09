@@ -1,27 +1,27 @@
-pattern_name: peco
+pattern_name: peco-exposure
 classes:
-  plant experimental condition: PECO_0007359
-  plant treatment: PECO_0001001
-  exposure event: RO_0002310
-  taxon: NCBITaxon_1
-  chemical entity: CHEBI_24431
-  environmental material: ENVO_00010483
+  plant experimental condition: PECO:0007359
+  plant treatment: PECO:0001001
+  exposure event: RO:0002310
+  taxon: NCBITaxon:1
+  chemical entity: CHEBI:24431
+  environmental material: ENVO:00010483
 
 relations:
-  has exposure stimulus: RO_0002244
+  has exposure stimulus: RO:0002244
     
 vars: 
   stimulus: "taxon' or 'chemical entity' or 'environmental material'"
 
-name:
-  text: "%s treatment"
-  vars:
-    - stimulus
+# name:
+#   text: "%s exposure"
+#   vars:
+#     - stimulus
     
-def: 
-  text: "A treatment involving the use of %s"
-  vars:
-    - stimulus
+# def: 
+#   text: "An exposure to %s"
+#   vars:
+#     - stimulus
     
 equivalentTo: 
   text: "'plant treatment' and 'has exposure stimulus' some %s"

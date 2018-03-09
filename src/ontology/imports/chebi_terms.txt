@@ -213,3 +213,7 @@ http://purl.obolibrary.org/obo/CHEBI_17967 #urethane
 http://purl.obolibrary.org/obo/CHEBI_27292 #vinyl carbamate
 http://purl.obolibrary.org/obo/CHEBI_29238 #tritium atom
 http://purl.obolibrary.org/obo/CHEBI_33325 #radium atom
+http://purl.obolibrary.org/obo/CHEBI_25516 #nickel cation
+http://purl.obolibrary.org/obo/CHEBI_63063 #cadmium cation
+http://purl.obolibrary.org/obo/CHEBI_32918 #1-naphthylacetic acid
+http://purl.obolibrary.org/obo/CHEBI_33116 #iodine(1+)

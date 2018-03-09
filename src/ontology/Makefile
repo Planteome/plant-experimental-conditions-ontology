@@ -15,6 +15,9 @@ prepare_release: all
 	mkdir -p $(RELEASEDIR)/imports &&\
 	cp imports/*{owl,obo} $(RELEASEDIR)/imports &&\
 	git add $(RELEASEDIR)/imports/*{obo,owl} &&\
+	mkdir -p $(RELEASEDIR)/patterns &&\
+	cp patterns/*{owl,obo} $(RELEASEDIR)/patterns &&\
+	git add $(RELEASEDIR)/patterns/*{obo,owl} &&\
 	(test -f subsets/*owl && cp subsets/*{owl,obo} $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
 
@@ -39,7 +42,7 @@ imports/%_import.owl: mirror/%.owl imports/%_terms.txt
 .PRECIOUS: imports/%_import.owl
 
 imports/%_import.obo: imports/%_import.owl
-	$(OWLTOOLS) $(USECAT) $< -o -f obo --no-check $@
+	$(OWLTOOLS) $(USECAT) $< -o -f obo $@
 
 # clone remote ontology locally, perfoming some excision of relations and annotations
 mirror/%.obo: $(SRC) 
@@ -54,14 +57,13 @@ release: $(ONT).owl $(ONT).obo
 	cp $^ $(RELEASEDIR)
 
 #######PATTERNS
-PATTERNS_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/*.tsv)) $(patsubst %.tsv, %_pattern.obo, $(wildcard patterns/*.tsv))
+PATTERNS_OWL = $(patsubst %.csv, %_pattern.owl, $(wildcard patterns/*.csv)) $(patsubst %.csv, %_pattern.obo, $(wildcard patterns/*.csv))
 
 all_patterns: $(PATTERNS_OWL)
 
-patterns/%_pattern.owl: patterns/%.tsv
-	dosdp-tools --outfile=$@ --obo-prefixes=true --template=patterns/peco$(findstring _role,$*).yaml --ontology=imports/$(patsubst exposure-%,%, $(patsubst %_role,%,$*))_import.owl generate --infile=patterns/$*.tsv &&\
-	robot annotate -O "http://purl.obolibrary.org/obo/peco/patterns/$*_pattern.owl" -i $@ -o $@
-	
+patterns/%_pattern.owl: patterns/%.csv
+	dosdp-tools --outfile=$@ --prefixes=patterns/curie_map.yaml --obo-prefixes=true --template=patterns/eo$(findstring _role,$*).yaml --ontology=imports/$(patsubst exposure-%,%, $(patsubst %_role,%,$*))_import.owl generate --infile=$*.csv
+	#patterns/apply-pattern.py -P patterns/curie_map.yaml -i patterns/$*.tsv -p patterns/eo.yaml -n $@ > $@
 patterns/%_pattern.obo: patterns/%_pattern.owl
 	$(OWLTOOLS) $< -o -f obo $@
 

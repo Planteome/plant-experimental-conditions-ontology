@@ -5147,14 +5147,14 @@ is_a: PECO:0007154 ! radiation quality exposure
 
 [Term]
 id: PECO:0007625
-name: stratosphere exposure exposure
+name: stratosphere exposure
 alt_id: EO:0007625
 synonym: "stratosphere exposure treatment" NARROW []
 is_a: PECO:0007154 ! radiation quality exposure
 
 [Term]
 id: PECO:0007626
-name: supersonic-treatment
+name: supersonic exposure
 alt_id: EO:0007626
 is_a: PECO:0007154 ! radiation quality exposure
 

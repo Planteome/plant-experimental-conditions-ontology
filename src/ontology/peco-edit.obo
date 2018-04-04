@@ -810,7 +810,7 @@ id: PECO:0007005
 name: Viridiplantae plant exposure
 alt_id: EO:0007005
 def: "A biotic plant exposure (PECO:0007357) involving exposure of a plant to another plant." [Gramene:pankaj_jaiswal, NCBI_taxid:33090]
-comment: Suggests the exposure of plant to other plants found in its growth environment. These plants may be growing as a weed or as part of normal farming practices. This treatmnet is part of an assay of any direct or indirect, harmful or beneficial effect of one plant on another through the production of chemical compounds (allelochemicals) that escape in the environment.  Viridiplantae include all plants from algae through angiosperms.
+comment: Suggests the exposure of plant to other plants found in its growth environment. These plants may be growing as a weed or as part of normal farming practices. This treatment is part of an assay of any direct or indirect, harmful or beneficial effect of one plant on another through the production of chemical compounds (allelochemicals) that escape in the environment.  Viridiplantae include all plants from algae through angiosperms.
 synonym: "green plant (related)" RELATED     []
 synonym: "Viridiplantae plant treatment (narrow)" NARROW []
 is_a: PECO:0007357 ! biotic plant exposure

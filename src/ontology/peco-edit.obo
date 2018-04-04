@@ -3300,7 +3300,7 @@ is_a: PECO:0007066 ! cytokinin exposure
 id: PECO:0007291
 name: benzyladenine exposure
 alt_id: EO:0007291
-def: "A cytokinin exposure (PECO:0007066) involving use of benzyladenine, a cytokinin homolog." [CAS:1214-39-7, Gramene:pankaj_jaiswal, Wikipedia:http://en.wikipedia.org/wiki/6-Benzylaminopurine]
+def: "A cytokinin exposure (PECO:0007066) involving use of benzyladenine, a cytokinin homolog." [CAS:1214-39-7, Gramene:pankaj_jaiswal, Wikipedia:6-Benzylaminopurine]
 comment: Benzyladenine is a first-generation synthetic cytokinin which elicits plant growth and development responses, setting blossoms and stimulating fruit richness by stimulating cell division. It is an inhibitor of respiratory kinase in plants, and increases post-harvest life of green vegetables.
 synonym: "6-benzylaminopurine (related)" RELATED []
 synonym: "BAP (related)" RELATED []

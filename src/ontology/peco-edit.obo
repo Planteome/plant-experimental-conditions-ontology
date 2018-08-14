@@ -2846,7 +2846,7 @@ id: PECO:0007241
 name: plant nutrient exposure
 alt_id: EO:0007241
 def: "A plant chemical exposure (PECO:0007189) involving a plant nutrient or a combination of plant nutrients." [Gramene:pankaj_jaiswal, PECO:cooperl]
-synonym: "fertilizer regimen" (broad) BROAD []
+synonym: "fertilizer regimen (broad)" BROAD []
 synonym: "plant nutrient treatment (narrow)" NARROW []
 xref: OBO_SF2_PECO:85
 xref: PECO_GIT:84

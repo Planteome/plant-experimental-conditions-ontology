@@ -27,7 +27,7 @@ $(SRC).owl: $(SRC)
 $(ONT).owl: $(SRC)
 	$(ROBOT)  reason -i $< -r ELK relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
 $(ONT).obo: $(ONT).owl
-	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && grep -v '^owl-axioms:' $(ONT).obo.tmp > $@ && rm $(ONT).obo.tmp
+	$(ROBOT) convert -i $< -f obo --check false -o $(ONT).obo.tmp && grep -v '^owl-axioms:' $(ONT).obo.tmp > $@ && rm $(ONT).obo.tmp
 
 
 IMPORTS = chebi ncbitaxon ro envo
@@ -42,7 +42,7 @@ imports/%_import.owl: mirror/%.owl imports/%_terms.txt
 .PRECIOUS: imports/%_import.owl
 
 imports/%_import.obo: imports/%_import.owl
-	$(OWLTOOLS) $(USECAT) $< -o -f obo $@
+	$(ROBOT) convert -i $< -f obo --check false -o $@
 
 # clone remote ontology locally, perfoming some excision of relations and annotations
 mirror/%.obo: $(SRC) 

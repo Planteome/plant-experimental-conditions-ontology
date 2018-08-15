@@ -15,9 +15,6 @@ prepare_release: all
 	mkdir -p $(RELEASEDIR)/imports &&\
 	cp imports/*{owl,obo} $(RELEASEDIR)/imports &&\
 	git add $(RELEASEDIR)/imports/*{obo,owl} &&\
-	mkdir -p $(RELEASEDIR)/patterns &&\
-	cp patterns/*{owl,obo} $(RELEASEDIR)/patterns &&\
-	git add $(RELEASEDIR)/patterns/*{obo,owl} &&\
 	(test -f subsets/*owl && cp subsets/*{owl,obo} $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
 

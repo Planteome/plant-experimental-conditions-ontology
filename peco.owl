@@ -11,7 +11,7 @@
      xmlns:obo="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/"
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/peco.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/peco/releases/2018-08-14/peco.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/peco/releases/2018-08-15/peco.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/peco/patterns/exposure-chebi_role_pattern.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/peco/patterns/exposure-envo_pattern.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/peco/patterns/exposure-chebi_pattern.owl"/>

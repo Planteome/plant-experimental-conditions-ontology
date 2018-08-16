@@ -1,4 +1,4 @@
-defined_class	defined_class label	stimulus	stimulus label
+defined_class	defined_class_label	stimulus	stimulus_label
 PECO:0007089	"bone meal exposure"	ENVO:02000054	"bone meal"
 PECO:0007156	"clay soil exposure"	ENVO:00002262	"clay soil"
 PECO:0007158	"sandy soil exposure"	ENVO:00002229	"arenosol"

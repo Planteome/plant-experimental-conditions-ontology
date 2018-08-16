@@ -1,4 +1,4 @@
-defined_class	defined_class label	stimulus	stimulus label
+defined_class	defined_class_label	stimulus	stimulus_label
 PECO:0007239	"micronutrient exposure"	CHEBI:27027	"micronutrient"
 PECO:0007041	"antibiotic exposure"	CHEBI:33281	"antimicrobial agent"
 PECO:0007167	"pesticide exposure"	CHEBI:25944	"pesticide"

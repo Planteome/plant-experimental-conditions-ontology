@@ -1,4 +1,4 @@
-defined_class	defined_class label	stimulus	stimulus label
+defined_class	defined_class_label	stimulus	stimulus_label
 PECO:0001005	"nickel exposure"	CHEBI:25516	"nickel cation"
 PECO:0001006	"phosphate exposure"	CHEBI:26020	"phosphate"
 PECO:0001008	"sulfate exposure"	CHEBI:16189	"sulfate"

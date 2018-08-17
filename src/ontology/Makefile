@@ -42,7 +42,7 @@ imports/%_import.obo: imports/%_import.owl
 	$(ROBOT) convert -i $< -f obo --check false -o $@
 
 # clone remote ontology locally, perfoming some excision of relations and annotations
-mirror/%.obo: $(SRC) 
+mirror/%.obo:
 	test -d mirror || mkdir mirror &&\
 	wget --no-check-certificate $(OBO)/$*.obo -O $@ && touch $@
 .PRECIOUS: mirror/%.obo

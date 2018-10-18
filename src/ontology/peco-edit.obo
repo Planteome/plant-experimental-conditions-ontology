@@ -125,7 +125,7 @@ creation_date: 2013-04-11T12:29:25Z
 id: PECO:0001010
 name: carbohydrate exposure
 alt_id: EO:0001010
-def: "An organic chemical exposure (PECO:0001003) involving the application of a carbohydrate (CHEBI:16646) or mixture of carbohydratePECO:cooperl:16646, PECO:cooperl]
+def: "An organic chemical exposure (PECO:0001003) involving the application of a carbohydrate (CHEBI:16646) or mixture of carbohydratePECO:cooperl:16646, PECO:cooperl]" []
 comment: Carbohydrate (CHEBI:16646) is defined as the generic term 'carbohydrate' includes monosaccharides, oligosaccharides and polysaccharides as well as substances derived from monosaccharides by reduction of the carbonyl group (alditols), by oxidation of one or more hydroxy groups to afford the corresponding aldehydes, ketones, or carboxylic acids, or by replacement of one or more hydroxy group(s) by a hydrogen atom. Cyclitols are generally not regarded as carbohydrates.
 synonym: "carbohydrate treatment (narrow)" NARROW []
 xref: OBO_SF2_PECO:9
@@ -775,6 +775,25 @@ is_a: PECO:0007262 ! in vitro solid growth medium exposure
 creation_date: 2017-08-08T14:58:32Z
 
 [Term]
+id: PECO:0001064
+name: potassium fertilizer exposure
+def: "A chemical fertilizer exposure (PECO:0007086) involving the use of potassium fertilizer as a supplement to study plant responses." [PECO:cooperl]
+xref: PECO_GIT:112
+is_a: PECO:0007086 ! chemical fertilizer exposure
+created_by: Laurel_Cooper
+creation_date: 2018-10-18T17:40:45Z
+
+[Term]
+id: PECO:0001065
+name: potassium chloride exposure
+def: "A potassium fertilizer exposure (PECO:0001064) involving the use of potassium chloride fertilizer as a supplement to study plant responses." [PECO:cooperl]
+synonym: "muriate of potash exposure (related)" RELATED []
+xref: PECO_GIT:112
+is_a: PECO:0001064 ! potassium fertilizer exposure
+created_by: Laurel_Cooper
+creation_date: 2018-10-18T17:51:54Z
+
+[Term]
 id: PECO:0007001
 name: UV-B light exposure
 alt_id: EO:0007001
@@ -811,7 +830,7 @@ name: Viridiplantae plant exposure
 alt_id: EO:0007005
 def: "A biotic plant exposure (PECO:0007357) involving exposure of a plant to another plant." [Gramene:pankaj_jaiswal, NCBI_taxid:33090]
 comment: Suggests the exposure of plant to other plants found in its growth environment. These plants may be growing as a weed or as part of normal farming practices. This treatment is part of an assay of any direct or indirect, harmful or beneficial effect of one plant on another through the production of chemical compounds (allelochemicals) that escape in the environment.  Viridiplantae include all plants from algae through angiosperms.
-synonym: "green plant (related)" RELATED     []
+synonym: "green plant (related)" RELATED []
 synonym: "Viridiplantae plant treatment (narrow)" NARROW []
 is_a: PECO:0007357 ! biotic plant exposure
 
@@ -1199,7 +1218,7 @@ is_a: PECO:0007049 ! soil environment exposure
 id: PECO:0007051
 name: sand content exposure
 alt_id: EO:0007051
-def: "An exposure involving growing plants in a sandy soil growth media."  [PECO:cooperl]
+def: "An exposure involving growing plants in a sandy soil growth media." [PECO:cooperl]
 synonym: "sand content treatment (narrow)" NARROW []
 is_a: PECO:0007050 ! soil texture exposure
 
@@ -1207,7 +1226,7 @@ is_a: PECO:0007050 ! soil texture exposure
 id: PECO:0007052
 name: organic matter content exposure
 alt_id: EO:0007052
-def: "An exposure involving growing plants in a growth media containing organic matter."  [PECO:cooperl]
+def: "An exposure involving growing plants in a growth media containing organic matter." [PECO:cooperl]
 synonym: "organic matter content treatment (narrow)" NARROW []
 is_a: PECO:0007050 ! soil texture exposure
 
@@ -1215,7 +1234,7 @@ is_a: PECO:0007050 ! soil texture exposure
 id: PECO:0007053
 name: silt content exposure
 alt_id: EO:0007053
-def: "An exposure involving growing plants in a silty soil growth media."  [PECO:cooperl]
+def: "An exposure involving growing plants in a silty soil growth media." [PECO:cooperl]
 synonym: "silt content treatment (narrow)" NARROW []
 is_a: PECO:0007050 ! soil texture exposure
 
@@ -1223,7 +1242,7 @@ is_a: PECO:0007050 ! soil texture exposure
 id: PECO:0007054
 name: clay content exposure
 alt_id: EO:0007054
-def: "An exposure involving growing plants in a clay soil growth media."  [PECO:cooperl]
+def: "An exposure involving growing plants in a clay soil growth media." [PECO:cooperl]
 synonym: "clay content treatment (narrow)" NARROW []
 is_a: PECO:0007050 ! soil texture exposure
 
@@ -5209,7 +5228,7 @@ is_a: PECO:0007167 ! pesticide exposure
 id: PECO:0007633
 name: imidazolinone exposure
 alt_id: EO:0007633
-def: "An herbicide exposure (PECO:0007183) involving the use of an imidazolinone herbicide." [TO:moorel, web:http://corn.agronomy.wisc.edu/AAdvice/1994/A001.html]
+def: "An herbicide exposure (PECO:0007183) involving the use of an imidazolinone herbicide." [TO:moorel, web:http\://corn.agronomy.wisc.edu/AAdvice/1994/A001.html]
 comment: This type of herbicides are taken up by plant root and leaf tissue and transported to the meristems via both phloem and xylem. The herbicide stops the activity of the enzyme, acetolactate synthase (ALS), which is involved in branch chain amino acid (valine, leucine and isoleucine) synthesis.
 synonym: "imidazolinone treatment (narrow)" NARROW []
 xref: OBO_SF2_PECO:75

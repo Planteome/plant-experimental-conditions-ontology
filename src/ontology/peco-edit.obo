@@ -794,6 +794,15 @@ created_by: Laurel_Cooper
 creation_date: 2018-10-18T17:51:54Z
 
 [Term]
+id: PECO:0001066
+name: nematicide exposure
+def: "A pesticide exposure (PECO:0007167) involving the application of a nematicide; a chemical entity or mixture of chemical entities to kill plant-parasitic nematodes." []
+xref: PECO_GIT:113
+is_a: PECO:0007167 ! pesticide exposure
+created_by: Laurel_Cooper
+creation_date: 2018-10-18T18:51:16Z
+
+[Term]
 id: PECO:0007001
 name: UV-B light exposure
 alt_id: EO:0007001

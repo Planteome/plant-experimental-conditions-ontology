@@ -5228,7 +5228,7 @@ is_a: PECO:0007167 ! pesticide exposure
 id: PECO:0007633
 name: imidazolinone exposure
 alt_id: EO:0007633
-def: "An herbicide exposure (PECO:0007183) involving the use of an imidazolinone herbicide." [TO:moorel, web:http\://corn.agronomy.wisc.edu/AAdvice/1994/A001.html]
+def: "An herbicide exposure (PECO:0007183) involving the use of an imidazolinone herbicide." [TO:moorel]
 comment: This type of herbicides are taken up by plant root and leaf tissue and transported to the meristems via both phloem and xylem. The herbicide stops the activity of the enzyme, acetolactate synthase (ALS), which is involved in branch chain amino acid (valine, leucine and isoleucine) synthesis.
 synonym: "imidazolinone treatment (narrow)" NARROW []
 xref: OBO_SF2_PECO:75

@@ -122,3 +122,6 @@ PECO:0007610	"3-H exposure"	CHEBI:29238	"tritium atom"
 PECO:0007619	"226-Ra or agr ray exposure"	CHEBI:33325	"radium atom"
 PECO:0007629	"hydrogen exposure"	CHEBI:49637	"hydrogen atom"
 PECO:0007633	"imidazolinone exposure"	CHEBI:24781	"imidazolinone"
+PECO:0001064	"potassium fertilizer exposure"	CHEBI:26216	"potassium atom"
+PECO:0001065	"potassium chloride exposure"	CHEBI:32588	"potassium chloride"
+

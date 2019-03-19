@@ -9,7 +9,7 @@ OWLTOOLS= owltools
 
 
 all: all_imports all_patterns $(ONT).owl $(ONT).obo
-test: all
+test: $(ONT).owl $(ONT).obo
 prepare_release: all
 	cp $(ONT).owl $(ONT).obo $(RELEASEDIR) &&\
 	mkdir -p $(RELEASEDIR)/imports &&\

@@ -8,7 +8,7 @@ ROBOT= robot
 OWLTOOLS= owltools
 
 
-all: $(ONT).owl $(ONT).obo
+all: all_imports all_patterns $(ONT).owl $(ONT).obo
 test: $(ONT).owl $(ONT).obo
 prepare_release: all
 	cp $(ONT).owl $(ONT).obo $(RELEASEDIR) &&\

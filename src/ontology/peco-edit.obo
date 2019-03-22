@@ -1607,6 +1607,7 @@ is_a: PECO:0007073 ! Basidiomycota exposure
 id: PECO:0007089
 name: bone meal exposure
 alt_id: EO:0007089
+def: "A natural fertilizer exposure (PECO:0007087) which is the application of bone meal." []
 synonym: "bone meal treatment (narrow)" NARROW []
 is_a: PECO:0007087 ! natural fertilizer exposure
 
@@ -1622,6 +1623,7 @@ is_a: PECO:0007406 ! nitrate exposure
 id: PECO:0007091
 name: seaweed extract exposure
 alt_id: EO:0007091
+def: "A natural fertilizer exposure (PECO:0007087) which is the application of seaweed extract." []
 synonym: "seaweed extract treatment (narrow)" NARROW []
 is_a: PECO:0007087 ! natural fertilizer exposure
 
@@ -1629,6 +1631,7 @@ is_a: PECO:0007087 ! natural fertilizer exposure
 id: PECO:0007092
 name: wood ash exposure
 alt_id: EO:0007092
+def: "A natural fertilizer exposure (PECO:0007087) which is the application of wood ash." []
 synonym: "wood ash treatment (narrow)" NARROW []
 is_a: PECO:0007087 ! natural fertilizer exposure
 
@@ -1636,6 +1639,7 @@ is_a: PECO:0007087 ! natural fertilizer exposure
 id: PECO:0007093
 name: fish meal exposure
 alt_id: EO:0007093
+def: "A natural fertilizer exposure (PECO:0007087) which is the application of fish meal." []
 synonym: "fish meal treatment (narrow)" NARROW []
 is_a: PECO:0007087 ! natural fertilizer exposure
 

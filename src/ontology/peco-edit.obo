@@ -803,6 +803,39 @@ created_by: Laurel_Cooper
 creation_date: 2018-10-18T18:51:16Z
 
 [Term]
+id: PECO:0001067
+name: castor meal exposure
+def: "A natural fertilizer exposure (PECO:0007087) which is the application of castor meal." [PECO:cooperl]
+comment: Castor meal is a by-product of castor oil production from seeds of the Castor (Ricinus communis) plant and has a high nitrogen content.
+synonym: "castor meal treatment (exact)" EXACT []
+xref: PECO_GIT:115
+is_a: PECO:0007087 ! natural fertilizer exposure
+created_by: cooperl
+creation_date: 2019-03-22T18:57:37Z
+
+[Term]
+id: PECO:0001068
+name: rapeseed meal exposure
+def: "A natural fertilizer exposure (PECO:0007087) which is the application of rapeseed meal." []
+comment: Rapeseed meal is a by-product of rapeseed oil production from seeds of the Rapeseed (Brassica napus L.) plant and has a high protein content.
+synonym: "rape cake exposure (narrow)" NARROW []
+synonym: "rapeseed cake exposure (narrow)" NARROW []
+xref: PECO_GIT:117
+is_a: PECO:0007087 ! natural fertilizer exposure
+created_by: cooperl
+creation_date: 2019-03-22T20:43:53Z
+
+[Term]
+id: PECO:0001069
+name: green manure exposure
+def: "A natural fertilizer exposure (PECO:0007087) which is the application of green manure." []
+comment: Green manure is created by leaving uprooted or sown crop parts to wither on a field so that they serve as a mulch and soil amendment.  The plants used for green manure are often cover crops grown primarily for this purpose. {xref="Wikipedia:Green_manure"}
+xref: PECO_GIT:116
+is_a: PECO:0007087 ! natural fertilizer exposure
+created_by: cooperl
+creation_date: 2019-03-22T21:10:04Z
+
+[Term]
 id: PECO:0007001
 name: UV-B light exposure
 alt_id: EO:0007001

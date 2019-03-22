@@ -828,7 +828,7 @@ creation_date: 2019-03-22T20:43:53Z
 [Term]
 id: PECO:0001069
 name: green manure exposure
-def: "A natural fertilizer exposure (PECO:0007087) which is the application of green manure." []
+def: "A natural fertilizer exposure (PECO:0007087) which is the application of a green manure." [PECO:cooperl]
 comment: Green manure is created by leaving uprooted or sown crop parts to wither on a field so that they serve as a mulch and soil amendment.  The plants used for green manure are often cover crops grown primarily for this purpose. {xref="Wikipedia:Green_manure"}
 xref: PECO_GIT:116
 is_a: PECO:0007087 ! natural fertilizer exposure

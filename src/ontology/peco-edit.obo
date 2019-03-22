@@ -401,7 +401,7 @@ id: PECO:0001033
 name: parasitic wasp insect plant exposure
 alt_id: EO:0001033
 def: "A Hymenoptera insect plant exposure (PECO:0001032) that involves exposure to parasitic wasps." [PECO:cooperl]
-comment: Parasitic wasp (or parasitoid wasp) refers to a large evolutionary grade of hymenopteran superfamilies, mainly in the Apocrita (from wikipedia).
+comment: Parasitic wasp (or parasitoid wasp) refers to a large evolutionary grade of hymenopteran superfamilies, mainly in the Apocrita. {xref="Wikipedia:Parasitoid_wasp"}
 synonym: "parasitic wasp insect plant treatment (narrow)" NARROW []
 xref: OBO_SF2_PECO:38
 xref: PECO_GIT:38
@@ -2140,7 +2140,7 @@ id: PECO:0007151
 name: radiation exposure
 alt_id: EO:0007151
 def: "A physical plant exposure (PECO:0007316) involving an exposure with a radiation type, intensity or quantity." [Gramene:pankaj_jaiswal, PECO:cooperl]
-comment: EMR is classified according to the frequency of its wave. The electromagnetic spectrum, in order of increasing frequency and decreasing wavelength, consists of radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays and gamma rays. (from Wikipedia).
+comment: Electromagnetic radiation is classified according to the frequency of its waves. The electromagnetic spectrum, in order of increasing frequency and decreasing wavelength, consists of radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays and gamma rays. {xref="Wikipedia:Electromagnetic_radiation"}
 synonym: "light regimen (related)" RELATED []
 synonym: "radiation treatment (narrow)" NARROW []
 is_a: PECO:0007316 ! physical plant exposure

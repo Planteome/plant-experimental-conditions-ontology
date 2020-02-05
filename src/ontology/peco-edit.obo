@@ -838,7 +838,7 @@ creation_date: 2019-03-22T21:10:04Z
 [Term]
 id: PECO:0001070
 name: calcium carbonate exposure
-def: "A salt exposure (PECO:0007185) which is a treatment with calcium carbonate (CHEBI:3311) in order to raise the pH of the growing media." [PECO: cooperl]
+def: "A salt exposure (PECO:0007185) which is a treatment with calcium carbonate (CHEBI:3311) in order to raise the pH of the growing media." [PECO:cooperl]
 synonym: "lime exposure (broad)" BROAD []
 is_a: PECO:0007185 ! salt exposure
 relationship: part_of PECO:0007133 ! basic pH growth media environment exposure

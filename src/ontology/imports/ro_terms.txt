@@ -1,1 +1,2 @@
 http://purl.obolibrary.org/obo/RO_0000057 ## has participant
+http://purl.obolibrary.org/obo/RO_0002309 ## has exposure stimulus

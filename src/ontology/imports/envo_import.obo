@@ -11,12 +11,14 @@ name: continuant
 def: "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts." []
 is_a: BFO:0000001 ! entity
 disjoint_from: BFO:0000003 ! occurrent
+relationship: BFO:0000050 BFO:0000002 ! continuant
 
 [Term]
 id: BFO:0000003
 name: occurrent
 def: "An entity that has temporal parts and that happens, unfolds or develops through time." []
 is_a: BFO:0000001 ! entity
+relationship: BFO:0000050 BFO:0000003 ! occurrent
 
 [Term]
 id: BFO:0000004
@@ -25,6 +27,7 @@ def: "A continuant that is a bearer of quality and realizable entity entities, i
 def: "b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])" [] {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/017-002"}
 is_a: BFO:0000002 ! continuant
 disjoint_from: BFO:0000020 ! specifically dependent continuant
+relationship: BFO:0000050 BFO:0000004 ! independent continuant
 
 [Term]
 id: BFO:0000015
@@ -32,13 +35,6 @@ name: process
 def: "An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t." []
 def: "p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])" [] {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/083-003"}
 is_a: BFO:0000003 ! occurrent
-
-[Term]
-id: BFO:0000017
-name: realizable entity
-def: "A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances." []
-is_a: BFO:0000020 ! specifically dependent continuant
-disjoint_from: BFO:0000019 ! quality
 
 [Term]
 id: BFO:0000019
@@ -52,22 +48,12 @@ def: "A continuant that inheres in or is borne by other entities. Every instance
 def: "b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])" []
 def: "b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])" [] {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/050-003"}
 is_a: BFO:0000002 ! continuant
-
-[Term]
-id: BFO:0000023
-name: role
-def: "A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts." []
-is_a: BFO:0000017 ! realizable entity
+relationship: BFO:0000050 BFO:0000020 ! specifically dependent continuant
 
 [Term]
 id: BFO:0000024
 name: fiat object
 name: fiat object part
-is_a: BFO:0000040 ! material entity
-
-[Term]
-id: BFO:0000027
-name: object aggregate
 is_a: BFO:0000040 ! material entity
 
 [Term]
@@ -93,22 +79,6 @@ name: immaterial entity
 is_a: BFO:0000004 ! independent continuant
 
 [Term]
-id: CARO:0000003
-name: anatomical structure
-is_a: CARO:0000006 ! material anatomical entity
-
-[Term]
-id: CARO:0000006
-name: material anatomical entity
-is_a: BFO:0000040 ! material entity
-
-[Term]
-id: CARO:0001010
-name: organism or virus or viroid
-def: "Material anatomical entity that is a member of an individual species or is a viral or viroid particle." []
-is_a: PCO:0000031 ! organismal entity
-
-[Term]
 id: CHEBI:138675
 name: gas molecular entity
 is_a: CHEBI:33579 ! main group molecular entity
@@ -116,8 +86,6 @@ is_a: CHEBI:33579 ! main group molecular entity
 [Term]
 id: CHEBI:15377
 name: water
-def: "An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms." []
-is_a: CHEBI:23367 ! molecular entity
 is_a: CHEBI:33693 ! oxygen hydride
 is_a: CHEBI:37176 ! mononuclear parent hydride
 is_a: CHEBI:52625 ! inorganic hydroxy compound
@@ -140,11 +108,9 @@ is_a: CHEBI:64708 ! one-carbon compound
 [Term]
 id: CHEBI:16526
 name: carbon dioxide
-def: "A one-carbon compound with formula CO2 in which the carbon is attached to each oxygen atom by a double bond. A colourless, odourless gas under normal conditions, it is produced during respiration by all animals, fungi and microorganisms that depend directly or indirectly on living or decaying plants for food." []
 is_a: CHEBI:138675 ! gas molecular entity
 is_a: CHEBI:23014 ! carbon oxide
 is_a: CHEBI:64708 ! one-carbon compound
-is_a: FOODON:03412972 ! food additive
 
 [Term]
 id: CHEBI:17997
@@ -156,7 +122,6 @@ is_a: CHEBI:33266 ! diatomic nitrogen
 [Term]
 id: CHEBI:18310
 name: alkane
-def: "An acyclic branched or unbranched hydrocarbon having the general formula CnH2n+2, and therefore consisting entirely of hydrogen atoms and saturated carbon atoms." []
 is_a: CHEBI:24632 ! hydrocarbon
 is_a: CHEBI:33653 ! aliphatic compound
 
@@ -169,26 +134,21 @@ is_a: CHEBI:36963 ! organooxygen compound
 [Term]
 id: CHEBI:23367
 name: molecular entity
-def: "Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity." []
-is_a: BFO:0000040 ! material entity
 is_a: CHEBI:24431 ! chemical entity
 
 [Term]
 id: CHEBI:24431
 name: chemical entity
-def: "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances." []
 is_a: BFO:0000040 ! material entity
 
 [Term]
 id: CHEBI:24632
 name: hydrocarbon
-def: "A compound consisting of carbon and hydrogen only." []
 is_a: CHEBI:33245 ! organic fundamental parent
 
 [Term]
 id: CHEBI:24651
 name: hydroxides
-def: "Hydroxides are chemical compounds containing a hydroxy group or salts containing hydroxide (OH(-))." []
 is_a: CHEBI:25806 ! oxygen molecular entity
 is_a: CHEBI:33608 ! hydrogen molecular entity
 is_a: CHEBI:37577 ! heteroatomic molecular entity
@@ -196,7 +156,6 @@ is_a: CHEBI:37577 ! heteroatomic molecular entity
 [Term]
 id: CHEBI:24835
 name: inorganic molecular entity
-def: "A molecular entity that contains no carbon." []
 is_a: CHEBI:23367 ! molecular entity
 
 [Term]
@@ -208,20 +167,17 @@ is_a: CHEBI:33259 ! elemental molecular entity
 [Term]
 id: CHEBI:25367
 name: molecule
-def: "Any polyatomic entity that is an electrically neutral entity consisting of more than one atom." []
 is_a: CHEBI:36357 ! polyatomic entity
 
 [Term]
 id: CHEBI:25701
 name: organic oxide
-def: "An oxide in which the oxygen atom is bonded to a carbon atom." []
 is_a: CHEBI:25741 ! oxide
 is_a: CHEBI:72695 ! organic molecule
 
 [Term]
 id: CHEBI:25741
 name: oxide
-def: "An oxide is a chemical compound of oxygen with other chemical elements." []
 is_a: CHEBI:25806 ! oxygen molecular entity
 is_a: CHEBI:37577 ! heteroatomic molecular entity
 
@@ -229,6 +185,11 @@ is_a: CHEBI:37577 ! heteroatomic molecular entity
 id: CHEBI:25806
 name: oxygen molecular entity
 is_a: CHEBI:33304 ! chalcogen molecular entity
+
+[Term]
+id: CHEBI:33232
+name: application
+is_a: CHEBI:50906 ! role
 
 [Term]
 id: CHEBI:33242
@@ -239,14 +200,12 @@ is_a: CHEBI:33692 ! hydrides
 [Term]
 id: CHEBI:33245
 name: organic fundamental parent
-def: "An organic fundamental parent is a structure used as a basis for substitutive names in organic nomenclature, containing, in addition to one or more hydrogen atoms, a single atom of an element, a number of atoms (alike or different) linked together to form an unbranched chain, a monocyclic or polycyclic ring system, or a ring assembly or ring/chain system." []
 is_a: CHEBI:37175 ! organic hydride
 is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
 id: CHEBI:33259
 name: elemental molecular entity
-def: "A molecular entity all atoms of which have the same atomic number." []
 is_a: CHEBI:23367 ! molecular entity
 
 [Term]
@@ -255,7 +214,6 @@ name: elemental oxygen
 is_a: CHEBI:24835 ! inorganic molecular entity
 is_a: CHEBI:25806 ! oxygen molecular entity
 is_a: CHEBI:33259 ! elemental molecular entity
-is_a: FOODON:03412972 ! food additive
 
 [Term]
 id: CHEBI:33263
@@ -276,19 +234,21 @@ is_a: CHEBI:51143 ! nitrogen molecular entity
 [Term]
 id: CHEBI:33285
 name: heteroorganic entity
-def: "A heteroorganic entity is an organic molecular entity in which carbon atoms or organic groups are bonded directly to one or more heteroatoms." []
 is_a: CHEBI:50860 ! organic molecular entity
+
+[Term]
+id: CHEBI:33292
+name: fuel
+is_a: CHEBI:33232 ! application
 
 [Term]
 id: CHEBI:33302
 name: pnictogen molecular entity
-def: "A p-block molecular entity containing any pnictogen." []
 is_a: CHEBI:33675 ! p-block molecular entity
 
 [Term]
 id: CHEBI:33304
 name: chalcogen molecular entity
-def: "Any p-block molecular entity containing a chalcogen." []
 is_a: CHEBI:33675 ! p-block molecular entity
 
 [Term]
@@ -301,7 +261,6 @@ is_a: CHEBI:33302 ! pnictogen molecular entity
 [Term]
 id: CHEBI:33579
 name: main group molecular entity
-def: "A molecular entity containing one or more atoms from any of groups 1, 2, 13, 14, 15, 16, 17, and 18 of the periodic table." []
 is_a: CHEBI:23367 ! molecular entity
 
 [Term]
@@ -312,7 +271,6 @@ is_a: CHEBI:33675 ! p-block molecular entity
 [Term]
 id: CHEBI:33583
 name: noble gas molecular entity
-def: "A main group molecular entity containing one or more atoms of any noble gas." []
 is_a: CHEBI:33579 ! main group molecular entity
 
 [Term]
@@ -323,25 +281,21 @@ is_a: CHEBI:33674 ! s-block molecular entity
 [Term]
 id: CHEBI:33653
 name: aliphatic compound
-def: "Any acyclic or cyclic, saturated or unsaturated carbon compound, excluding aromatic compounds." []
 is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
 id: CHEBI:33674
 name: s-block molecular entity
-def: "An s-block molecular entity is a molecular entity containing one or more atoms of an s-block element." []
 is_a: CHEBI:33579 ! main group molecular entity
 
 [Term]
 id: CHEBI:33675
 name: p-block molecular entity
-def: "A main group molecular entity that contains one or more atoms of a p-block element." []
 is_a: CHEBI:33579 ! main group molecular entity
 
 [Term]
 id: CHEBI:33692
 name: hydrides
-def: "Hydrides are chemical compounds of hydrogen with other chemical elements." []
 is_a: CHEBI:33608 ! hydrogen molecular entity
 is_a: CHEBI:37577 ! heteroatomic molecular entity
 
@@ -353,21 +307,22 @@ is_a: CHEBI:36902 ! chalcogen hydride
 [Term]
 id: CHEBI:33694
 name: biomacromolecule
-def: "A macromolecule formed by a living organism." []
 is_a: CHEBI:33839 ! macromolecule
 is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
 id: CHEBI:33839
 name: macromolecule
-def: "A macromolecule is a molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass." []
-is_a: CHEBI:23367 ! molecular entity
 is_a: CHEBI:36357 ! polyatomic entity
+
+[Term]
+id: CHEBI:35230
+name: fossil fuel
+is_a: CHEBI:33292 ! fuel
 
 [Term]
 id: CHEBI:36357
 name: polyatomic entity
-def: "Any molecular entity consisting of more than one atom." []
 is_a: CHEBI:23367 ! molecular entity
 
 [Term]
@@ -380,19 +335,16 @@ is_a: CHEBI:33304 ! chalcogen molecular entity
 id: CHEBI:36908
 name: argon molecular entity
 is_a: CHEBI:33583 ! noble gas molecular entity
-is_a: FOODON:03412972 ! food additive
 
 [Term]
 id: CHEBI:36962
 name: organochalcogen compound
-def: "An organochalcogen compound is a compound containing at least one carbon-chalcogen bond." []
 is_a: CHEBI:33285 ! heteroorganic entity
 is_a: CHEBI:33304 ! chalcogen molecular entity
 
 [Term]
 id: CHEBI:36963
 name: organooxygen compound
-def: "An organochalcogen compound containing at least one carbon-oxygen bond." []
 is_a: CHEBI:25806 ! oxygen molecular entity
 is_a: CHEBI:36962 ! organochalcogen compound
 
@@ -409,38 +361,31 @@ is_a: CHEBI:33692 ! hydrides
 [Term]
 id: CHEBI:37577
 name: heteroatomic molecular entity
-def: "A molecular entity consisting of two or more chemical elements." []
 is_a: CHEBI:36357 ! polyatomic entity
 
 [Term]
 id: CHEBI:46662
 name: mineral
-def: "In general, a mineral is a chemical substance that is normally crystalline formed and has been formed as a result of geological processes. The term also includes metamict substances (naturally occurring, formerly crystalline substances whose crystallinity has been destroyed by ionising radiation) and can include naturally occurring amorphous substances that have never been crystalline ('mineraloids') such as georgite and calciouranoite as well as substances formed by the action of geological processes on bigenic compounds ('biogenic minerals')." []
 is_a: CHEBI:59999 ! chemical substance
 
 [Term]
 id: CHEBI:50860
 name: organic molecular entity
-def: "Any molecular entity that contains carbon." []
 is_a: CHEBI:33582 ! carbon group molecular entity
 
 [Term]
 id: CHEBI:50906
 name: role
-def: "A role is particular behaviour which a material entity may exhibit." []
-is_a: BFO:0000023 ! role
 
 [Term]
 id: CHEBI:51086
 name: chemical role
-def: "A role played by the molecular entity or part thereof within a chemical context." []
 is_a: CHEBI:50906 ! role
 
 [Term]
 id: CHEBI:51143
 name: nitrogen molecular entity
 is_a: CHEBI:33302 ! pnictogen molecular entity
-is_a: FOODON:03412972 ! food additive
 
 [Term]
 id: CHEBI:52625
@@ -451,19 +396,16 @@ is_a: CHEBI:24835 ! inorganic molecular entity
 [Term]
 id: CHEBI:59999
 name: chemical substance
-def: "A chemical substance is a portion of matter of constant composition, composed of molecular entities of the same type or of different types." []
 is_a: CHEBI:24431 ! chemical entity
 
 [Term]
 id: CHEBI:64708
 name: one-carbon compound
-def: "An organic molecular entity containing a single carbon atom (C1)." []
 is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
 id: CHEBI:72695
 name: organic molecule
-def: "Any molecule that consists of at least one carbon atom as part of the electrically neutral entity." []
 is_a: CHEBI:25367 ! molecule
 is_a: CHEBI:50860 ! organic molecular entity
 
@@ -473,29 +415,16 @@ name: greenhouse gas
 is_a: CHEBI:51086 ! chemical role
 
 [Term]
-id: ENVO:00000000
-name: geographic feature
-synonym: "macroscopic spatial feature" EXACT []
-is_a: ENVO:01000813 ! astronomical body part
-
-[Term]
-id: ENVO:00000012
-name: hydrographic feature
-def: "A geographical feature associated with water." [MA:ma]
-synonym: "fluvial feature" RELATED [ADL:FTT]
-is_a: ENVO:00000000 ! geographic feature
-
-[Term]
 id: ENVO:00000063
 name: water body
 def: "An accumulation of water of varying size." [https://en.wikipedia.org/wiki/Body_of_water]
 synonym: "aquatic feature" EXACT []
 synonym: "bodies of water" EXACT [Getty:TGN]
-synonym: "body of water" EXACT [Getty:TGN]
 synonym: "body of water" EXACT [ADL:FTT]
+synonym: "body of water" EXACT [Getty:TGN]
 synonym: "hydrographic feature" BROAD [ADL:FTT]
 synonym: "waterbody" EXACT []
-is_a: ENVO:00000000 ! geographic feature
+is_a: ENVO:01000685 ! water mass
 relationship: BFO:0000050 ENVO:01000819 ! hydrosphere
 relationship: RO:0002473 CHEBI:15377 ! water
 
@@ -510,24 +439,38 @@ intersection_of: RO:0000086 ENVO:01000230 ! arid
 relationship: RO:0000086 ENVO:01000230 ! arid
 
 [Term]
-id: ENVO:00000304
-name: shore
-def: "That part of the land in immediate contact with a body of water including the area between high and low water lines." [USGS:SDTS]
-synonym: "beach face" RELATED [USGS:SDTS]
-synonym: "coastal zone" BROAD [ADL:FTT]
-synonym: "foreshore" RELATED [USGS:SDTS]
-synonym: "inshore" RELATED [USGS:SDTS]
-synonym: "rivage" RELATED [USGS:SDTS]
-synonym: "seashore" RELATED [USGS:SDTS]
-synonym: "SHORE" EXACT [USGS:SDTS]
-synonym: "shore" EXACT [Geonames:feature]
-synonym: "shoreface" NARROW [USGS:SDTS]
-synonym: "strand" RELATED [USGS:SDTS]
-is_a: ENVO:00000012 ! hydrographic feature
-is_a: ENVO:01000635 ! land
-intersection_of: ENVO:01000635 ! land
-intersection_of: RO:0002220 ENVO:00000063 ! water body
-relationship: RO:0002220 ENVO:00000063 ! water body
+id: ENVO:00000191
+name: solid astronomical body part
+def: "A part of an astronomical body which is primarily composed of a continuous volume of solid material, shaped by one or more environmental processes." [https://en.wikipedia.org/wiki/Landform]
+synonym: "geological feature" RELATED [ADL:FTT]
+synonym: "physiographic feature" RELATED []
+is_a: ENVO:01000813 ! astronomical body part
+intersection_of: ENVO:01000813 ! astronomical body part
+intersection_of: RO:0002473 ENVO:01000814 ! solid environmental material
+relationship: RO:0002473 ENVO:01000814 ! solid environmental material
+
+[Term]
+id: ENVO:00000194
+name: scree
+def: "Broken rock that appears at the bottom of crags, mountain cliffs or valley shoulders." [https://en.wikipedia.org/wiki/Scree]
+synonym: "TALUS" RELATED [USGS:SDTS]
+synonym: "talus slope" RELATED [Getty:TGN]
+synonym: "talus slope" RELATED [Geonames:feature]
+is_a: ENVO:00010483 ! environmental material
+intersection_of: ENVO:00010483 ! environmental material
+intersection_of: BFO:0000051 ENVO:00000339 ! piece of rock
+intersection_of: RO:0001000 ENVO:00001995 ! rock
+relationship: BFO:0000051 ENVO:00000339 ! piece of rock
+relationship: RO:0001000 ENVO:00001995 ! rock
+
+[Term]
+id: ENVO:00000339
+name: piece of rock
+def: "An abiotic  mesoscopic feature made of the mineral material of the crust of the Earth." [MA:ma]
+is_a: ENVO:01001687 ! mass of solid material
+intersection_of: ENVO:01001687 ! mass of solid material
+intersection_of: RO:0002473 ENVO:00001995 ! rock
+relationship: RO:0002473 ENVO:00001995 ! rock
 
 [Term]
 id: ENVO:00000428
@@ -535,7 +478,6 @@ name: biome
 def: "A biome is an ecosystem to which resident ecological communities have evolved adaptations." [DOI:10.1186/2041-1480-4-43, https://en.wikipedia.org/wiki/Biome]
 synonym: "EcosytemType" RELATED [NASA:earthrealm]
 synonym: "major habitat type" EXACT [WWF:Biome]
-is_a: ENVO:01000254 ! environmental system
 is_a: ENVO:01001110 ! ecosystem
 relationship: BFO:0000050 ENVO:01000817 ! biosphere
 relationship: BFO:0000051 ENVO:01000739 {minCardinality="2"} ! habitat
@@ -544,7 +486,7 @@ relationship: RO:0002507 PCO:0000002 ! ecological community
 [Term]
 id: ENVO:00000446
 name: terrestrial biome
-def: "A biome that applies to the terrestrial realm." [https://en.wikipedia.org/wiki/Biome#Terrestrial_biomes]
+def: "A biome which is  primarily or completely situated on a landmass." [https://en.wikipedia.org/wiki/Biome#Terrestrial_biomes]
 synonym: "terrestrial realm" RELATED []
 is_a: ENVO:00000428 ! biome
 
@@ -562,21 +504,13 @@ name: soil
 def: "Soil is an environmental material which is primarily composed of minerals, varying proportions of sand, silt, and clay, organic material such as humus, gases, liquids, and a broad range of resident micro- and macroorganisms." [https://en.wikipedia.org/wiki/Soil]
 synonym: "regolith" BROAD []
 is_a: ENVO:00010483 ! environmental material
+relationship: BFO:0000050 ENVO:01000820 ! pedosphere
 relationship: BFO:0000051 ENVO:00002982 ! clay
 relationship: BFO:0000051 ENVO:01000016 ! silt
 relationship: BFO:0000051 ENVO:01000017 ! sand
 relationship: BFO:0000051 ENVO:01000155 ! organic material
 relationship: BFO:0000051 ENVO:01000256 ! mineral material
 relationship: RO:0000086 PATO:0000984 ! porous
-
-[Term]
-id: ENVO:00002004
-name: mesoscopic physical object
-name: physical object of mesoscopic geological size
-def: "An environmental feature that is, or can be, contained and is predominantly composed of one or a few types of stuff." [MA:ma]
-def: "An object which is large enough to be visible to humans, but small enough that humans can handle the object (i.e. transport it, examine it, etc) in its entirety with little to no technological assistance." [MA:ma] {comment="https://en.oxforddictionaries.com/definition/mesoscopic"}
-is_a: BFO:0000030 ! object
-is_a: ENVO:00002297 ! environmental feature
 
 [Term]
 id: ENVO:00002005
@@ -591,10 +525,20 @@ relationship: RO:0002473 CHEBI:17997 ! dinitrogen
 
 [Term]
 id: ENVO:00002006
-name: water
+name: liquid water
 def: "An environmental material primarily composed of dihydrogen oxide in its liquid form." [MA:ma]
+synonym: "water" BROAD []
 is_a: ENVO:01000815 ! liquid environmental material
 relationship: RO:0002473 CHEBI:15377 ! water
+
+[Term]
+id: ENVO:00002030
+name: aquatic biome
+def: "A biome which is determined by a water body and which has ecological climax communities adapted to life in or on water." []
+is_a: ENVO:00000428 ! biome
+is_a: ENVO:01001787 ! aquatic ecosystem
+intersection_of: ENVO:00000428 ! biome
+intersection_of: RO:0002507 ENVO:00000063 ! water body
 
 [Term]
 id: ENVO:00002229
@@ -609,15 +553,6 @@ id: ENVO:00002262
 name: clay soil
 is_a: ENVO:00001998 ! soil
 relationship: RO:0002473 ENVO:00002982 ! clay
-
-[Term]
-id: ENVO:00002297
-name: environmental feature
-def: "A material entity which determines an environmental system." [DOI:10.1186/2041-1480-4-43, NM:nm, ORCID:0000-0002-4366-3088]
-is_a: BFO:0000040 ! material entity
-intersection_of: BFO:0000040 ! material entity
-intersection_of: RO:0002508 ENVO:01000254 ! environmental system
-relationship: RO:0002508 ENVO:01000254 ! environmental system
 
 [Term]
 id: ENVO:00002982
@@ -640,27 +575,14 @@ relationship: has_increased_levels_of BFO:0000040 ! material entity
 id: ENVO:00010483
 name: environmental material
 def: "A portion of environmental material is a fiat object part which forms the medium or part of the medium of an environmental system." [DOI:10.1186/2041-1480-4-43, MA:ma, ORCID:0000-0002-4366-3088, URL:http\://ontology.buffalo.edu/smith/articles/niches.html]
-def: "A portion of environmental material is a fiat object which forms the medium or part of the medium of an environmental system." [DOI:10.1186/2041-1480-4-43, MA:ma, ORCID:0000-0002-4366-3088, URL:http\://ontology.buffalo.edu/smith/articles/niches.html]
 synonym: "portion of environmental material" EXACT []
 is_a: BFO:0000024 ! fiat object
-is_a: BFO:0000040 ! material entity
 
 [Term]
 id: ENVO:00010504
 name: surface layer
 def: "A layer of some material entity which is adjacent to one or more of its external boundaries and directly interacts with its immediate surroundings." [URL:http\://www.merriam-webster.com/dictionary/surface]
-is_a: ENVO:01000281 ! layer
-
-[Term]
-id: ENVO:01000009
-name: biotic mesoscopic physical object
-synonym: "organic material feature" RELATED []
-is_a: ENVO:00002004 ! mesoscopic physical object
-
-[Term]
-id: ENVO:01000010
-name: abiotic mesoscopic physical object
-is_a: ENVO:00002004 ! mesoscopic physical object
+is_a: ENVO:01001684 ! interface layer
 
 [Term]
 id: ENVO:01000016
@@ -681,9 +603,11 @@ relationship: RO:0001000 ENVO:00001995 ! rock
 [Term]
 id: ENVO:01000155
 name: organic material
-def: "Environmental material derived from living organisms." [ISBN-10:0618455043, ORCID:0000-0002-4366-3088]
+def: "Environmental material derived from living organisms and composed primarily of one or more biomacromolecules." [ISBN:978-0-618-45504-1, ORCID:0000-0002-4366-3088]
 synonym: "biomass" EXACT []
 is_a: ENVO:00010483 ! environmental material
+intersection_of: ENVO:00010483 ! environmental material
+intersection_of: RO:0002473 CHEBI:33694 ! biomacromolecule
 relationship: RO:0002473 CHEBI:33694 ! biomacromolecule
 
 [Term]
@@ -728,7 +652,8 @@ relationship: RO:0002473 CHEBI:15377 ! water
 id: ENVO:01000267
 name: atmosphere
 def: "An atmosphere is a layer of gases surrounding a material body of sufficient mass that is held in place by the gravity of the body." [https://en.wikipedia.org/wiki/Atmosphere, https://en.wikipedia.org/wiki/Physical_geography]
-is_a: ENVO:01000281 ! layer
+is_a: ENVO:01001678 ! fluid layer
+relationship: RO:0002220 ENVO:01000799 ! astronomical body
 
 [Term]
 id: ENVO:01000268
@@ -745,13 +670,13 @@ relationship: RO:0000087 CHEBI:76413 ! greenhouse gas
 id: ENVO:01000281
 name: layer
 def: "A layer is a quantity of some material which is spatially continuous, has comparable thickness, and usually covers some surface." [Wiktionary:layer]
-is_a: ENVO:00000000 ! geographic feature
+is_a: BFO:0000040 ! material entity
 relationship: RO:0000086 PATO:0002124 ! laminar
 
 [Term]
 id: ENVO:01000303
 name: endolithic environment
-def: "An endolithic environment is an environment that exists within solid rock. " []
+def: "An endolithic environment is an environment that exists within solid rock." []
 is_a: ENVO:01000254 ! environmental system
 intersection_of: ENVO:01000254 ! environmental system
 intersection_of: RO:0002219 ENVO:00001995 ! rock
@@ -764,21 +689,26 @@ def: "An environment whose dynamics are strongly influenced by water." []
 is_a: ENVO:01000997 ! environmental system determined by a quality
 is_a: ENVO:01000998 ! environmental system determined by a material
 intersection_of: ENVO:01000254 ! environmental system
-intersection_of: RO:0002507 ENVO:00002006 ! water
-relationship: RO:0002507 ENVO:00002006 ! water
+intersection_of: RO:0002507 ENVO:00002006 ! liquid water
+relationship: RO:0002507 ENVO:00002006 ! liquid water
 
 [Term]
 id: ENVO:01000323
 name: atmospheric boundary layer
-def: "The atmospheric boundary layer is the lowest layer of an atmosphere which is strongly influenced by its contact with a planetary surface with strong vertical mixing and in which physical quantities such as flow velocity, temperature, and moisture display rapid fluctuations (turbulence).\n\n\n" []
+def: "The atmospheric boundary layer is the lowest layer of an atmosphere which is strongly influenced by its contact with a planetary surface with strong vertical mixing and in which physical quantities such as flow velocity, temperature, and moisture display rapid fluctuations (turbulence)." []
 synonym: "planetary boundary layer" EXACT []
+is_a: ENVO:01000543 ! atmospheric layer
+is_a: ENVO:01000544 ! boundary layer
 relationship: RO:0002007 ENVO:01000267 ! atmosphere
+relationship: RO:0002220 ENVO:01000324 ! planetary surface
 
 [Term]
 id: ENVO:01000324
 name: planetary surface
-def: "A planetary surface is a surface layer where the solid or liquid material of a planet comes into contact with atmosphere or outer space." []
-is_a: ENVO:00010504 ! surface layer
+def: "A planetary surface is a surface layer where the solid or liquid material of a planet comes into contact with an atmosphere or outer space." []
+is_a: ENVO:01001483 ! surface of an astronomical body
+intersection_of: ENVO:01001483 ! surface of an astronomical body
+intersection_of: BFO:0000050 ENVO:01000800 ! planet
 relationship: BFO:0000050 ENVO:01000800 ! planet
 
 [Term]
@@ -787,8 +717,8 @@ name: aquatic layer
 def: "A layer in a water mass, itself composed primarily of water." []
 is_a: ENVO:01001273 ! liquid layer
 intersection_of: ENVO:01001273 ! liquid layer
-intersection_of: RO:0002473 ENVO:00002006 ! water
-relationship: RO:0002473 ENVO:00002006 ! water
+intersection_of: RO:0002473 ENVO:00002006 ! liquid water
+relationship: RO:0002473 ENVO:00002006 ! liquid water
 
 [Term]
 id: ENVO:01000408
@@ -799,10 +729,30 @@ is_a: BFO:0000029 ! site
 relationship: BFO:0000050 ENVO:01000254 ! environmental system
 
 [Term]
+id: ENVO:01000543
+name: atmospheric layer
+def: "A layer that is part of the atmosphere." []
+synonym: "atmospheric layering" RELATED [GEMET:http\://www.eionet.europa.eu/gemet/concept/627]
+is_a: ENVO:01001678 ! fluid layer
+intersection_of: ENVO:01001678 ! fluid layer
+intersection_of: BFO:0000050 ENVO:01000267 ! atmosphere
+relationship: BFO:0000050 ENVO:01000267 ! atmosphere
+relationship: RO:0002473 ENVO:01000797 ! gaseous environmental material
+
+[Term]
+id: ENVO:01000544
+name: boundary layer
+def: "A boundary layer is a layer of fluid in the immediate vicinity of a bounding surface where the effects of viscosity are significant enough to distort the surrounding non-viscous flow." [https://en.wikipedia.org/wiki/Boundary_layer]
+synonym: "boundary layer" EXACT [http://www.eionet.europa.eu/gemet/concept/976]
+is_a: ENVO:01001677 ! fluid interface layer
+relationship: RO:0002220 ENVO:00010504 ! surface layer
+
+[Term]
 id: ENVO:01000552
 name: natural gas
 def: "Natural gas is a hydrocarbon gas mixture consisting primarily of methane, but commonly includes varying amounts of other higher alkanes and sometimes a usually lesser percentage of carbon dioxide, nitrogen, and/or hydrogen sulfide. Natural gas is a fossil fuel formed when layers of buried plants and gases are exposed to intense heat and pressure over thousands of years." [https://en.wikipedia.org/wiki/Natural_gas]
 is_a: ENVO:01000554 ! hydrocarbon gas
+relationship: RO:0000087 CHEBI:35230 ! fossil fuel
 relationship: RO:0002473 CHEBI:16183 ! methane
 
 [Term]
@@ -810,23 +760,57 @@ id: ENVO:01000554
 name: hydrocarbon gas
 def: "A gas that is primarily composed of hydrocarbon molecules." []
 is_a: ENVO:01000797 ! gaseous environmental material
-relationship: RO:0002473 CHEBI:24632 ! hydrocarbon
+is_a: ENVO:2000045 ! hydrocarbon-based environmental material
+intersection_of: ENVO:01000797 ! gaseous environmental material
+intersection_of: RO:0000086 PATO:0001547 ! quality of a gas
+intersection_of: RO:0002473 CHEBI:24632 ! hydrocarbon
 
 [Term]
 id: ENVO:01000635
-name: land
-def: "Land is a planetary surface that is not covered by liquid." [Adpated from https://en.wikipedia.org/wiki/Planetary_surface]
+name: planetary landmass
+def: "A landmass which is part of a planet." [Adpated from https://en.wikipedia.org/wiki/Planetary_surface]
 synonym: "ground" RELATED []
+synonym: "land" BROAD []
 is_a: ENVO:01000324 ! planetary surface
-is_a: ENVO:01001311 ! solid surface layer
+is_a: ENVO:01001782 ! landmass
 
 [Term]
 id: ENVO:01000637
 name: outer space
 def: "Outer space is a hard vacuum containing a low density of particles, predominantly a plasma of hydrogen and helium as well as electromagnetic radiation, magnetic fields, neutrinos, dust and cosmic rays that exists between celestial bodies." [https://en.wikipedia.org/wiki/Outer_space]
 synonym: "space" BROAD []
-is_a: ENVO:00002297 ! environmental feature
 is_a: ENVO:00010483 ! environmental material
+
+[Term]
+id: ENVO:01000638
+name: planetary crust
+def: "A planetary crust is the outermost solid shell of a rocky planet or natural satellite, which is chemically distinct from the underlying mantle." [https://en.wikipedia.org/wiki/Crust_(geology)]
+synonym: "crust" BROAD []
+is_a: ENVO:01000639 ! planetary structural layer
+relationship: RO:0000086 PATO:0001546 ! quality of a solid
+
+[Term]
+id: ENVO:01000639
+name: planetary structural layer
+def: "A planetary structural layer is laminar part of a terrestrial planet or other rocky body large enough to have differentiation by density. Planetary layers have differing physicochemical properties and composition." []
+is_a: ENVO:01000281 ! layer
+relationship: BFO:0000050 ENVO:01000800 ! planet
+
+[Term]
+id: ENVO:01000646
+name: lithosphere
+def: "A lithosphere is the outermost shell of a terrestrial-type planet or natural satellite that is defined by its rigid mechanical properties." [https://en.wikipedia.org/wiki/Lithosphere]
+is_a: ENVO:01000639 ! planetary structural layer
+is_a: ENVO:01001275 ! solid layer
+relationship: BFO:0000051 ENVO:01000638 ! planetary crust
+relationship: RO:0000086 PATO:0001545 ! inflexible
+
+[Term]
+id: ENVO:01000685
+name: water mass
+def: "A mass of water." []
+is_a: ENVO:01001476 ! body of liquid
+relationship: RO:0002473 ENVO:00002006 ! liquid water
 
 [Term]
 id: ENVO:01000703
@@ -839,7 +823,7 @@ is_a: ENVO:01000875 ! precipitation process
 id: ENVO:01000724
 name: condensation process
 def: "Condensation is a process during which a gas undergoes a phase transition into a liquid." [https://en.wikipedia.org/wiki/Condensation]
-is_a: ENVO:03000043 ! material transformation process
+is_a: ENVO:01001510 ! material congelation process
 
 [Term]
 id: ENVO:01000739
@@ -861,10 +845,16 @@ id: ENVO:01000797
 name: gaseous environmental material
 def: "A material entity which is composed of one or more chemical entities and has neither independent shape nor volume but tends to expand indefinitely." [http://www.merriam-webster.com/dictionary/gas]
 synonym: "gas" NARROW []
-is_a: ENVO:00010483 ! environmental material
+is_a: ENVO:02000140 ! fluid environmental material
 intersection_of: ENVO:00010483 ! environmental material
 intersection_of: RO:0000086 PATO:0001547 ! quality of a gas
 relationship: RO:0000086 PATO:0001547 ! quality of a gas
+
+[Term]
+id: ENVO:01000798
+name: plasma
+def: "A material entity which is composed of a volume of unbound positive and negative particles in roughly equal numbers, conducts electricity, and possesses internal magnetic fields." [http://www.merriam-webster.com/dictionary/plasma, https://en.wikipedia.org/wiki/Plasma_%28physics%29]
+is_a: ENVO:02000140 ! fluid environmental material
 
 [Term]
 id: ENVO:01000799
@@ -885,8 +875,8 @@ name: astronomical object
 def: "An object which is composed of one or more gravitationally bound structures that are associated with a position in space." [https://en.wikipedia.org/wiki/Astronomical_object]
 synonym: "celestial object" RELATED []
 is_a: BFO:0000030 ! object
-is_a: ENVO:00002297 ! environmental feature
 relationship: BFO:0000051 ENVO:01000799 {minCardinality="1"} ! astronomical body
+relationship: RO:0000086 ENVO:01001164 ! geodiversity
 relationship: RO:0002219 ENVO:01000637 ! outer space
 
 [Term]
@@ -894,15 +884,13 @@ id: ENVO:01000813
 name: astronomical body part
 def: "A material part of an astronomical body." []
 is_a: BFO:0000024 ! fiat object
-is_a: ENVO:00002297 ! environmental feature
 relationship: BFO:0000050 ENVO:01000799 ! astronomical body
-relationship: RO:0000086 ENVO:01001164 ! geodiversity
 
 [Term]
 id: ENVO:01000814
 name: solid environmental material
 def: "An environmental material which is in a solid state." []
-is_a: ENVO:01001125 ! ice
+is_a: ENVO:00010483 ! environmental material
 intersection_of: ENVO:00010483 ! environmental material
 intersection_of: RO:0000086 PATO:0001546 ! quality of a solid
 relationship: RO:0000086 PATO:0001546 ! quality of a solid
@@ -911,7 +899,7 @@ relationship: RO:0000086 PATO:0001546 ! quality of a solid
 id: ENVO:01000815
 name: liquid environmental material
 def: "An environmental material which is in a liquid state." []
-is_a: ENVO:00010483 ! environmental material
+is_a: ENVO:02000140 ! fluid environmental material
 intersection_of: ENVO:00010483 ! environmental material
 intersection_of: RO:0000086 PATO:0001548 ! quality of a liquid
 relationship: RO:0000086 PATO:0001548 ! quality of a liquid
@@ -920,17 +908,28 @@ relationship: RO:0000086 PATO:0001548 ! quality of a liquid
 id: ENVO:01000817
 name: biosphere
 def: "A biosphere is a part of an astronomical body which includes, as parts, all the living entities within the gravitational sphere of influence of that body, as well as the non-living and dead entities with which they interact." [http://www.biology-online.org/dictionary/Biosphere, https://en.wikipedia.org/wiki/Biosphere]
-def: "A biosphere is an environmental system which includes, as parts, all the living entities within the gravitational sphere of influence of an astronomical body, and the non-living and dead entities which they interact with." [http://www.biology-online.org/dictionary/Biosphere, https://en.wikipedia.org/wiki/Biosphere]
-is_a: ENVO:01000813 ! astronomical body part
-is_a: ENVO:01001110 ! ecosystem
+is_a: ENVO:01001479 ! fluid astronomical body part
+is_a: ENVO:01001784 ! compound astronomical body part
 relationship: BFO:0000051 PCO:0000000 ! collection of organisms
 
 [Term]
 id: ENVO:01000819
 name: hydrosphere
 def: "An astronomical body part which is composed of the combined mass of water found on, under, and over the surface of a planet." [https://en.wikipedia.org/wiki/Hydrosphere]
-is_a: ENVO:01000813 ! astronomical body part
-relationship: RO:0002473 ENVO:00002006 ! water
+is_a: ENVO:01001477 ! liquid astronomical body part
+relationship: RO:0002473 ENVO:00002006 ! liquid water
+
+[Term]
+id: ENVO:01000820
+name: pedosphere
+def: "An astronomical body part which is composed of soil, subject to soil formation processes, and found on the surface of a lithosphere." [https://en.wikipedia.org/wiki/Pedosphere]
+is_a: ENVO:01001479 ! fluid astronomical body part
+is_a: ENVO:01001784 ! compound astronomical body part
+relationship: RO:0002131 ENVO:01000267 ! atmosphere
+relationship: RO:0002131 ENVO:01000646 ! lithosphere
+relationship: RO:0002131 ENVO:01000817 ! biosphere
+relationship: RO:0002131 ENVO:01000819 ! hydrosphere
+relationship: RO:0002473 ENVO:00001998 ! soil
 
 [Term]
 id: ENVO:01000828
@@ -964,8 +963,7 @@ id: ENVO:01000831
 name: droplet
 def: "A droplet is a small column of liquid, bounded completely or almost completely by free surfaces which maintains its shape due to the surface tension of the liquid." [https://en.wikipedia.org/wiki/Drop_%28liquid%29]
 synonym: "drop" RELATED []
-is_a: ENVO:01000010 ! abiotic mesoscopic physical object
-relationship: RO:0002473 ENVO:01000815 ! liquid environmental material
+is_a: ENVO:01001690 ! mass of liquid
 
 [Term]
 id: ENVO:01000832
@@ -980,8 +978,8 @@ name: water droplet
 def: "A droplet of water" []
 is_a: ENVO:01000831 ! droplet
 intersection_of: ENVO:01000831 ! droplet
-intersection_of: RO:0002473 ENVO:00002006 ! water
-relationship: RO:0002473 ENVO:00002006 ! water
+intersection_of: RO:0002473 ENVO:00002006 ! liquid water
+relationship: RO:0002473 ENVO:00002006 ! liquid water
 
 [Term]
 id: ENVO:01000875
@@ -993,8 +991,8 @@ is_a: ENVO:03000010 ! material transport process
 id: ENVO:01000981
 name: mass liquid flow
 def: "A process whereby a volume of liquid moves due to a disequilibrium of physical forces." [https://en.wikipedia.org/wiki/Wind]
-is_a: ENVO:01001334 ! advective transport process
-relationship: RO:0000057 ENVO:01000797 ! gaseous environmental material
+is_a: ENVO:01001747 ! mass fluid flow
+relationship: RO:0000057 ENVO:01000815 ! liquid environmental material
 
 [Term]
 id: ENVO:01000982
@@ -1002,7 +1000,7 @@ name: water flow process
 def: "A process during which a volume of water is transported due to a disequilibria in physical forces." []
 is_a: ENVO:01000981 ! mass liquid flow
 is_a: ENVO:02500031 ! hydrological process
-relationship: RO:0000057 ENVO:00002006 ! water
+relationship: RO:0000057 ENVO:00002006 ! liquid water
 
 [Term]
 id: ENVO:01000997
@@ -1030,27 +1028,10 @@ intersection_of: RO:0002507 ENVO:00001998 ! soil
 relationship: RO:0002507 ENVO:00001998 ! soil
 
 [Term]
-id: ENVO:01001055
-name: environment associated with an animal part or small animal
-def: "An environmental system determined by part of a living or dead animal, or a whole small animal." []
-is_a: ENVO:01000254 ! environmental system
-is_a: ENVO:01001110 ! ecosystem
-intersection_of: ENVO:01000254 ! environmental system
-intersection_of: ENVO:01001110 ! ecosystem
-intersection_of: RO:0002507 CARO:0000006 ! material anatomical entity
-relationship: RO:0002507 CARO:0000006 ! material anatomical entity
-
-[Term]
 id: ENVO:01001110
 name: ecosystem
 def: "An environmental system which includes both living and non-living components." [https://en.wikipedia.org/wiki/Ecosystem]
 is_a: ENVO:01000254 ! environmental system
-
-[Term]
-id: ENVO:01001125
-name: ice
-def: "An ice is an environmental material which is either frozen or which is maintained in a solid state by gravitational forces or pressure." []
-is_a: ENVO:00010483 ! environmental material
 
 [Term]
 id: ENVO:01001164
@@ -1059,33 +1040,21 @@ def: "A quality which inheres in a astronomical body or astronomical body part b
 is_a: PATO:0001241 ! physical object quality
 
 [Term]
-id: ENVO:01001191
-name: water surface
-def: "The surface layer of a volume of water." []
-synonym: "surface of a body of water" EXACT []
-synonym: "water body surface" EXACT []
-is_a: ENVO:01000325 ! aquatic layer
-is_a: ENVO:01001310 ! liquid surface layer
-intersection_of: ENVO:01001310 ! liquid surface layer
-intersection_of: BFO:0000050 ENVO:00002006 ! water
-relationship: BFO:0000050 ENVO:00002006 ! water
-
-[Term]
 id: ENVO:01001199
 name: terrestrial environmental zone
 def: "An environmental zone which is bounded by material parts of a land mass or the atmosphere or space adjacent to it." []
 is_a: ENVO:01000408 ! environmental zone
 intersection_of: ENVO:01000408 ! environmental zone
-intersection_of: BFO:0000050 ENVO:01000635 ! land
+intersection_of: BFO:0000050 ENVO:01000635 ! planetary landmass
 relationship: BFO:0000050 ENVO:00000446 ! terrestrial biome
-relationship: BFO:0000050 ENVO:01000635 ! land
+relationship: BFO:0000050 ENVO:01000635 ! planetary landmass
 
 [Term]
 id: ENVO:01001273
 name: liquid layer
 def: "A layer which is primarily composed of some liquid material." []
-is_a: ENVO:01000281 ! layer
-intersection_of: ENVO:01000281 ! layer
+is_a: ENVO:01001678 ! fluid layer
+intersection_of: ENVO:01001678 ! fluid layer
 intersection_of: RO:0002473 ENVO:01000815 ! liquid environmental material
 relationship: RO:0002473 ENVO:01000815 ! liquid environmental material
 
@@ -1112,36 +1081,18 @@ relationship: BFO:0000050 ENVO:01000267 ! atmosphere
 id: ENVO:01001308
 name: hydroform
 def: "A geographic feature which is primarily composed of a continuous volume of liquid water held in shape or sustained by an environmental process." []
-is_a: ENVO:01000813 ! astronomical body part
-intersection_of: ENVO:01000813 ! astronomical body part
+is_a: ENVO:01001477 ! liquid astronomical body part
+intersection_of: ENVO:01001477 ! liquid astronomical body part
 intersection_of: BFO:0000050 ENVO:00000063 ! water body
-intersection_of: RO:0002473 ENVO:00002006 ! water
+intersection_of: RO:0002473 ENVO:00002006 ! liquid water
 relationship: BFO:0000050 ENVO:00000063 ! water body
 relationship: BFO:0000067 ENVO:01000982 ! water flow process
-relationship: RO:0002473 ENVO:00002006 ! water
-
-[Term]
-id: ENVO:01001309
-name: liquid air-water interface layer
-def: "A liquid surface layer which is in contact with air." []
-is_a: ENVO:01001310 ! liquid surface layer
-intersection_of: ENVO:01001310 ! liquid surface layer
-intersection_of: RO:0002220 ENVO:00002005 ! air
-relationship: RO:0002220 ENVO:00002005 ! air
-
-[Term]
-id: ENVO:01001310
-name: liquid surface layer
-def: "A liquid surface layer which is in contact with air." []
-is_a: ENVO:00010504 ! surface layer
-is_a: ENVO:01001273 ! liquid layer
-intersection_of: ENVO:00010504 ! surface layer
-intersection_of: RO:0002473 ENVO:01000815 ! liquid environmental material
+relationship: RO:0002473 ENVO:00002006 ! liquid water
 
 [Term]
 id: ENVO:01001311
 name: solid surface layer
-def: "A liquid surface layer which is in contact with air." []
+def: "A surface layer which is composed primarily of solid environmental material." []
 is_a: ENVO:00010504 ! surface layer
 is_a: ENVO:01001275 ! solid layer
 intersection_of: ENVO:00010504 ! surface layer
@@ -1150,9 +1101,197 @@ intersection_of: RO:0002473 ENVO:01000814 ! solid environmental material
 [Term]
 id: ENVO:01001334
 name: advective transport process
-def: "A material transport process during which a volume of material is displaced due to a disequilirium in physical forces and during which 1) the qualities that inhere in that volume and 2) the processes that are unfolding within it are largely unchanged." [https://en.wikipedia.org/wiki/Advection, https://en.wikipedia.org/wiki/Intensive_and_extensive_properties]
+def: "A material transport process during which a volume of material is displaced due to a disequilibrium in physical forces and during which 1) the qualities that inhere in that volume and 2) the processes that are unfolding within it are largely unchanged." [https://en.wikipedia.org/wiki/Advection, https://en.wikipedia.org/wiki/Intensive_and_extensive_properties]
 synonym: "advective transport" EXACT []
 is_a: ENVO:03000010 ! material transport process
+
+[Term]
+id: ENVO:01001476
+name: body of liquid
+is_a: ENVO:01001477 ! liquid astronomical body part
+
+[Term]
+id: ENVO:01001477
+name: liquid astronomical body part
+def: "A part of an astronomical body which is primarily composed of a continuous volume of liquid material, shaped by one or more environmental processes." [https://en.wikipedia.org/wiki/Landform]
+is_a: ENVO:01001479 ! fluid astronomical body part
+is_a: ENVO:01001784 ! compound astronomical body part
+intersection_of: ENVO:01001479 ! fluid astronomical body part
+intersection_of: RO:0002473 ENVO:01000815 ! liquid environmental material
+relationship: RO:0002473 ENVO:01000815 ! liquid environmental material
+
+[Term]
+id: ENVO:01001478
+name: gaseous astronomical body part
+def: "A part of an astronomical body which is primarily composed of a continuous volume of gaseous material, shaped by one or more environmental processes." [https://en.wikipedia.org/wiki/Landform]
+is_a: ENVO:01001479 ! fluid astronomical body part
+is_a: ENVO:01001784 ! compound astronomical body part
+intersection_of: ENVO:01001479 ! fluid astronomical body part
+intersection_of: RO:0002473 ENVO:01000797 ! gaseous environmental material
+relationship: RO:0002473 ENVO:01000797 ! gaseous environmental material
+
+[Term]
+id: ENVO:01001479
+name: fluid astronomical body part
+def: "A part of an astronomical body which is primarily composed of a continuous volume of liquid or gaseous material, shaped by one or more environmental processes." [https://en.wikipedia.org/wiki/Landform]
+is_a: ENVO:01000813 ! astronomical body part
+
+[Term]
+id: ENVO:01001483
+name: surface of an astronomical body
+def: "A surface layer where the solid or liquid material of an astronomical body comes into contact with an atmosphere or outer space." []
+is_a: ENVO:00010504 ! surface layer
+intersection_of: ENVO:00010504 ! surface layer
+intersection_of: BFO:0000050 ENVO:01000799 ! astronomical body
+relationship: BFO:0000050 ENVO:01000799 ! astronomical body
+
+[Term]
+id: ENVO:01001510
+name: material congelation process
+def: "A material transformation process during which a material's viscosity increase either through a reduction in temperature, through chemical reactions, or other physical effects." [https://en.wikipedia.org/wiki/Congelation]
+synonym: "congelation" EXACT []
+synonym: "congelation process" EXACT []
+is_a: ENVO:03000043 ! material transformation process
+
+[Term]
+id: ENVO:01001645
+name: gaseous part of an atmosphere
+def: "That part of an atmosphere which is composed of gaseous material." []
+is_a: ENVO:01001478 ! gaseous astronomical body part
+intersection_of: ENVO:01001478 ! gaseous astronomical body part
+intersection_of: BFO:0000050 ENVO:01000267 ! atmosphere
+relationship: BFO:0000050 ENVO:01000267 ! atmosphere
+
+[Term]
+id: ENVO:01001677
+name: fluid interface layer
+def: "A surface layer which separates two portions of fluid with respect to either 1) a discontinuity of some fluid property or 2) some derivative of one of these properties in a direction normal to the interface." [http://glossary.ametsoc.org/wiki/Interface]
+is_a: ENVO:01001678 ! fluid layer
+is_a: ENVO:01001684 ! interface layer
+
+[Term]
+id: ENVO:01001678
+name: fluid layer
+def: "A layer which is composed primarily of some fluid." []
+is_a: ENVO:01000281 ! layer
+
+[Term]
+id: ENVO:01001682
+name: air mass
+def: "An object which is composed of a continuous mass of air." []
+is_a: ENVO:01001689 ! mass of gas
+intersection_of: ENVO:01001689 ! mass of gas
+intersection_of: RO:0002473 ENVO:00002005 ! air
+relationship: RO:0002473 ENVO:00002005 ! air
+
+[Term]
+id: ENVO:01001684
+name: interface layer
+def: "A layer which separates two portions of environmental material which possess 1) differing compositions, 2) a discontinuity of some property, or 3) some derivative of some property in a direction normal to the interface." []
+is_a: ENVO:01000281 ! layer
+
+[Term]
+id: ENVO:01001686
+name: mass of environmental material
+def: "An object which is composed primarily of an environmental material" []
+is_a: BFO:0000030 ! object
+intersection_of: BFO:0000030 ! object
+intersection_of: RO:0002473 ENVO:00010483 ! environmental material
+relationship: RO:0002473 ENVO:00010483 ! environmental material
+
+[Term]
+id: ENVO:01001687
+name: mass of solid material
+def: "An object which is composed primarily of a solid environmental material" []
+is_a: ENVO:01001686 ! mass of environmental material
+intersection_of: ENVO:01001686 ! mass of environmental material
+intersection_of: RO:0002473 ENVO:01000814 ! solid environmental material
+relationship: RO:0002473 ENVO:01000814 ! solid environmental material
+
+[Term]
+id: ENVO:01001688
+name: mass of fluid
+def: "An object which is composed primarily of a fluid." []
+synonym: "fluid mass" EXACT []
+is_a: ENVO:01001686 ! mass of environmental material
+
+[Term]
+id: ENVO:01001689
+name: mass of gas
+def: "An object which is composed primarily of a gas." []
+synonym: "gaseous mass" EXACT []
+is_a: ENVO:01001688 ! mass of fluid
+intersection_of: ENVO:01001688 ! mass of fluid
+intersection_of: RO:0002473 ENVO:01000797 ! gaseous environmental material
+relationship: RO:0002473 ENVO:01000797 ! gaseous environmental material
+
+[Term]
+id: ENVO:01001690
+name: mass of liquid
+def: "An object which is composed primarily of a liquid." []
+synonym: "liquid mass" EXACT []
+is_a: ENVO:01001688 ! mass of fluid
+intersection_of: ENVO:01001688 ! mass of fluid
+intersection_of: RO:0002473 ENVO:01000815 ! liquid environmental material
+relationship: RO:0002473 ENVO:01000815 ! liquid environmental material
+
+[Term]
+id: ENVO:01001691
+name: mass of compounded environmental materials
+def: "An mass of environmental materials which has appreciable quantities of several individual materials, such that the removal of one would convert the mass into a different entity." []
+is_a: ENVO:01001686 ! mass of environmental material
+intersection_of: ENVO:01001686 ! mass of environmental material
+intersection_of: RO:0002473 ENVO:00010483 {minCardinality="2"} ! environmental material
+
+[Term]
+id: ENVO:01001747
+name: mass fluid flow
+is_a: ENVO:01001334 ! advective transport process
+
+[Term]
+id: ENVO:01001781
+name: part of a landmass
+def: "A solid astronomical body part which is part of the landmass of that body." []
+is_a: ENVO:00000191 ! solid astronomical body part
+intersection_of: ENVO:00000191 ! solid astronomical body part
+intersection_of: BFO:0000050 ENVO:01000635 ! planetary landmass
+relationship: BFO:0000050 ENVO:01000635 ! planetary landmass
+
+[Term]
+id: ENVO:01001782
+name: landmass
+def: "A large continuous area of land, either surrounded by sea or contiguous with another landmass." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wiktionary.org/wiki/landmass"}
+is_a: ENVO:01001785 ! land
+
+[Term]
+id: ENVO:01001784
+name: compound astronomical body part
+def: "A part of an astronomical body which is primarily composed of a continuous medium bearing liquid, gaseous, and solid material in varying quantities." [https://en.wikipedia.org/wiki/Landform]
+is_a: ENVO:01000813 ! astronomical body part
+
+[Term]
+id: ENVO:01001785
+name: land
+def: "A surface layer of an astronomical body which is primarily composed of solid material and is not covered by oceans or other bodies of water." [https://en.wiktionary.org/wiki/land]
+is_a: ENVO:01001311 ! solid surface layer
+is_a: ENVO:01001483 ! surface of an astronomical body
+
+[Term]
+id: ENVO:01001787
+name: aquatic ecosystem
+is_a: ENVO:01001110 ! ecosystem
+intersection_of: ENVO:01001110 ! ecosystem
+intersection_of: RO:0002507 ENVO:00000063 ! water body
+relationship: RO:0002507 ENVO:00000063 ! water body
+
+[Term]
+id: ENVO:01001838
+name: arid biome
+def: "A biome which is subject to arid environmental conditions." []
+is_a: ENVO:00000428 ! biome
+intersection_of: ENVO:00000428 ! biome
+intersection_of: RO:0000086 ENVO:01000230 ! arid
+relationship: RO:0000086 ENVO:01000230 ! arid
 
 [Term]
 id: ENVO:02000054
@@ -1163,8 +1302,18 @@ is_a: ENVO:02000055 ! plant feed
 [Term]
 id: ENVO:02000055
 name: plant feed
-def: "Plant feed is a biotic mesoscopic physical object consisting of any foodstuff that is used specifically to feed plants." [ls:ls]
-is_a: ENVO:01000009 ! biotic mesoscopic physical object
+def: "Food material which can be used to meet nutritional requirements of plants." []
+is_a: FOODON:00002403 ! food material
+
+[Term]
+id: ENVO:02000140
+name: fluid environmental material
+def: "A liquid or a gas." [https://github.com/EnvironmentOntology/envo/issues/940]
+synonym: "fluid" NARROW []
+is_a: ENVO:00010483 ! environmental material
+union_of: ENVO:01000797 ! gaseous environmental material
+union_of: ENVO:01000798 ! plasma
+union_of: ENVO:01000815 ! liquid environmental material
 
 [Term]
 id: ENVO:02500000
@@ -1173,32 +1322,12 @@ def: "A process in which includes the components of an environmental system as p
 is_a: BFO:0000015 ! process
 
 [Term]
-id: ENVO:02500001
-name: desertification
-def: "a type of land degradation in which a relatively dry land region becomes increasingly arid, typically losing its bodies of water as well as vegetation and wildlife." [https://en.wikipedia.org/wiki/Desertification]
-is_a: ENVO:02500000 ! environmental system process
-intersection_of: ENVO:02500000 ! environmental system process
-intersection_of: RO:0002234 ENVO:00000097 ! desert area
-relationship: RO:0002234 ENVO:00000097 ! desert area
-
-[Term]
 id: ENVO:02500002
 name: flooding
 def: "A general and temporary condition of partial or complete inundation of normally dry land areas from the overflow of inland and/or tidal waters, and/or the unusual and rapid accumulation or runoff of surface waters from any source. A great flow along a watercourse or a flow causing inundation of lands not normally covered by water." [GEMET: http\://www.eionet.europa.eu/gemet/concept/3301]
-is_a: ENVO:02500031 ! hydrological process
 is_a: ENVO:03000010 ! material transport process
 relationship: RO:0000057 ENVO:00000063 ! water body
-relationship: RO:0000057 ENVO:01000635 ! land
-
-[Term]
-id: ENVO:02500003
-name: atmospheric process
-def: "A process which occurs within an atmosphere." []
-is_a: ENVO:02500000 ! environmental system process
-intersection_of: ENVO:02500000 ! environmental system process
-intersection_of: BFO:0000066 ENVO:01000267 ! atmosphere
-relationship: BFO:0000066 ENVO:01000267 ! atmosphere
-relationship: RO:0000057 ENVO:01000267 ! atmosphere
+relationship: RO:0000057 ENVO:01000635 ! planetary landmass
 
 [Term]
 id: ENVO:02500031
@@ -1219,6 +1348,17 @@ def: "A process during which a portion of some environmental material is convert
 is_a: ENVO:02500000 ! environmental system process
 relationship: RO:0002233 ENVO:00010483 ! environmental material
 relationship: RO:0002234 ENVO:00010483 ! environmental material
+
+[Term]
+id: ENVO:04000010
+name: soil surface layer
+def: "A surface layer which is composed primarily of soil." []
+is_a: ENVO:01001311 ! solid surface layer
+is_a: ENVO:01001483 ! surface of an astronomical body
+intersection_of: ENVO:01001311 ! solid surface layer
+intersection_of: RO:0002473 ENVO:00001998 ! soil
+relationship: BFO:0000050 ENVO:01000820 ! pedosphere
+relationship: RO:0002473 ENVO:00001998 ! soil
 
 [Term]
 id: ENVO:09200000
@@ -1287,8 +1427,8 @@ def: "The temperature of some water." []
 synonym: "water temperature" EXACT []
 is_a: ENVO:09200000 ! temperature of environmental material
 intersection_of: PATO:0000146 ! temperature
-intersection_of: RO:0000052 ENVO:00002006 ! water
-relationship: RO:0000052 ENVO:00002006 ! water
+intersection_of: RO:0000052 ENVO:00002006 ! liquid water
+relationship: RO:0000052 ENVO:00002006 ! liquid water
 
 [Term]
 id: ENVO:09200015
@@ -1301,47 +1441,33 @@ intersection_of: RO:0000052 ENVO:00001998 ! soil
 relationship: RO:0000052 ENVO:00001998 ! soil
 
 [Term]
-id: FOODON:00001002
-name: foodon product type
-def: "A substance, usually composed primarily of carbohydrates, fats, water and/or proteins, that can be eaten or drunk by an animal or human being for nutrition or pleasure." []
-is_a: FOODON:03400361 ! food product type
+id: ENVO:09200017
+name: composition of water
+def: "The composition of some water." []
+synonym: "water composition" EXACT []
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: RO:0000052 ENVO:00002006 ! liquid water
+relationship: RO:0000052 ENVO:00002006 ! liquid water
 
 [Term]
-id: FOODON:00001714
-name: food component product
-is_a: FOODON:00001002 ! foodon product type
+id: ENVO:2000045
+name: hydrocarbon-based environmental material
+is_a: ENVO:00010483 ! environmental material
+intersection_of: ENVO:00010483 ! environmental material
+intersection_of: RO:0002473 CHEBI:24632 ! hydrocarbon
+relationship: RO:0000053 PATO:0015021 ! combustibility
+relationship: RO:0000087 CHEBI:33292 ! fuel
+relationship: RO:0002473 CHEBI:24632 ! hydrocarbon
 
 [Term]
-id: FOODON:03400361
-name: food product type
-def: "A food product type is a class of food products that is differentiated by its food composition, processing and/or consumption characteristics. This does not include brand name products but it may include generic food dish categories." []
-is_a: BFO:0000040 ! material entity
-
-[Term]
-id: FOODON:03411041
-name: chemical food product
-is_a: FOODON:00001714 ! food component product
-
-[Term]
-id: FOODON:03412972
-name: food additive
-is_a: FOODON:03411041 ! chemical food product
-
-[Term]
-id: GO:0008150
-name: biological_process
-def: "Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end." [GOC:go_curators, GOC:isa_complete]
-synonym: "biological process" EXACT []
-synonym: "physiological process" EXACT []
-synonym: "single organism process" RELATED []
-synonym: "single-organism process" RELATED []
-is_a: BFO:0000015 ! process
+id: FOODON:00002403
+name: food material
 
 [Term]
 id: PATO:0000001
 name: quality
-def: "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities" [PATOC:GVG]
-synonym: "trait" EXACT []
+def: "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities" []
 is_a: BFO:0000020 ! specifically dependent continuant
 
 [Term]
@@ -1366,7 +1492,6 @@ is_a: PATO:0001546 ! quality of a solid
 id: PATO:0000051
 name: morphology
 def: "A quality of a single physical entity inhering in the bearer by virtue of the bearer's size or shape or structure." []
-is_a: BFO:0000019 ! quality
 is_a: PATO:0001241 ! physical object quality
 
 [Term]
@@ -1376,7 +1501,7 @@ is_a: PATO:0000001 ! quality
 
 [Term]
 id: PATO:0000069
-name: deviation(from_normal)
+name: deviation (from_normal)
 def: "A quality inhering in a bearer by virtue of the whether the bearer differs from normal or average." []
 is_a: PATO:0000068 ! qualitative
 
@@ -1393,7 +1518,6 @@ id: PATO:0000146
 name: temperature
 def: "A physical quality of the thermal energy of a system." []
 is_a: PATO:0001018 ! physical quality
-is_a: PATO:0001237 ! quality of a single physical entity
 
 [Term]
 id: PATO:0000386
@@ -1406,16 +1530,10 @@ is_a: PATO:0000048 ! hardness
 is_a: PATO:0002305 ! increased object quality
 
 [Term]
-id: PATO:0000970
-name: permeability
-def: "A structural quality inhering in a bearer by virtue of the bearer's disposition to being permeated or pervaded by a gas or liquid (as by osmosis or diffusion)." []
-is_a: PATO:0000141 ! structure
-
-[Term]
 id: PATO:0000973
 name: porosity
-def: "A permeability quality inhering in a bearer by virtue of the bearer's disposition to admit the passage of gas or liquid through pores or interstices." []
-is_a: PATO:0000970 ! permeability
+def: "A structure quality inhering in a bearer by virtue of the bearer's disposition to admit the passage of gas or liquid through pores or interstices." []
+is_a: PATO:0000141 ! structure
 
 [Term]
 id: PATO:0000984
@@ -1426,21 +1544,14 @@ is_a: PATO:0000973 ! porosity
 [Term]
 id: PATO:0001018
 name: physical quality
-def: "A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities." [PATOC:GVG]
+def: "A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities." []
 synonym: "relational physical quality" EXACT []
 is_a: PATO:0001241 ! physical object quality
 
 [Term]
-id: PATO:0001237
-name: quality of a single physical entity
-def: "A physical object quality which inheres in a single-bearer." []
-is_a: BFO:0000019 ! quality
-is_obsolete: true
-
-[Term]
 id: PATO:0001241
 name: physical object quality
-def: "A quality which inheres in a continuant." [PATOC:GVG]
+def: "A quality which inheres in a continuant." []
 synonym: "monadic quality of a continuant" EXACT []
 synonym: "monadic quality of an object" NARROW []
 synonym: "monadic quality of continuant" NARROW []
@@ -1449,14 +1560,28 @@ synonym: "quality of a continuant" EXACT []
 synonym: "quality of a single physical entity" EXACT []
 synonym: "quality of an object" EXACT []
 synonym: "quality of continuant" EXACT []
+is_a: BFO:0000019 ! quality
 is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0001543
+name: flexibility
+def: "A physical quality inhering in a bearer by virtue of the bearer's disposition to being turned, bowed, or twisted without breaking." []
+is_a: PATO:0001546 ! quality of a solid
+
+[Term]
+id: PATO:0001545
+name: inflexible
+def: "A physical quality inhering in a bearer by virtue of the bearer's inability of being turned, bowed, or twisted without breaking." []
+synonym: "stiff" EXACT []
+synonym: "stiffness" RELATED []
+is_a: PATO:0001543 ! flexibility
 
 [Term]
 id: PATO:0001546
 name: quality of a solid
 def: "A physical quality inhering in a bearer by virtue of the bearer's exhibiting the physical characteristics of an entity characterized by particles arranged such that their shape and volume are relatively stable." []
 synonym: "solidity" EXACT []
-is_a: PATO:0001237 ! quality of a single physical entity
 is_a: PATO:0002198 ! quality of a substance
 
 [Term]
@@ -1464,7 +1589,6 @@ id: PATO:0001547
 name: quality of a gas
 def: "A physical quality inhering in a bearer by virtue of the bearer's exhibiting the physical characteristics of an entity consisting of particles that have neither a defined volume nor defined shape." []
 synonym: "gaseous" EXACT []
-is_a: PATO:0001237 ! quality of a single physical entity
 is_a: PATO:0002198 ! quality of a substance
 
 [Term]
@@ -1472,7 +1596,6 @@ id: PATO:0001548
 name: quality of a liquid
 def: "A physical quality inhering in an entity exhibiting the physical characteristics of an amorphous (non-crystalline) form of matter between a gas and a solid that has a definite volume, but no definite shape." []
 synonym: "liquidity" EXACT []
-is_a: PATO:0001237 ! quality of a single physical entity
 is_a: PATO:0002198 ! quality of a substance
 
 [Term]
@@ -1497,7 +1620,7 @@ is_a: PATO:0001018 ! physical quality
 id: PATO:0002300
 name: increased quality
 def: "A quality that has a value that is increased compared to normal or average." []
-is_a: PATO:0000069 ! deviation(from_normal)
+is_a: PATO:0000069 ! deviation (from_normal)
 
 [Term]
 id: PATO:0002305
@@ -1521,10 +1644,15 @@ is_a: PATO:0002305 ! increased object quality
 is_a: PATO:0015009 ! humidity
 
 [Term]
+id: PATO:0015021
+name: combustibility
+def: "The propensity of a material to undergo combustion. Combustion encompasses smouldering and flaming combustion. Combustibility is usually applied to solids." []
+is_a: PATO:0001018 ! physical quality
+
+[Term]
 id: PCO:0000000
 name: collection of organisms
 def: "A material entity that consists of two or more organisms, viruses, or viroids." []
-is_a: BFO:0000027 ! object aggregate
 is_a: PCO:0000031 ! organismal entity
 
 [Term]
@@ -1537,20 +1665,13 @@ relationship: RO:0002303 ENVO:01000739 ! habitat
 [Term]
 id: PCO:0000002
 name: ecological community
-def: "A community of at least two different species, living in a particular area. Must have at least two populations of different species as members." []
-is_a: PCO:0000028 ! community
+def: "A multi-species collection of organisms of at least two different species, living in a particular area. Must have at least two populations of different species as members." []
 is_a: PCO:0000029 ! multi-species collection of organisms
 
 [Term]
 id: PCO:0000018
 name: single-species collection of organisms
 def: "A material entity that has as parts two or more organisms, viruses, or viroids of the same species and no members of any other species." []
-is_a: PCO:0000000 ! collection of organisms
-
-[Term]
-id: PCO:0000028
-name: community
-def: "A collection of organisms of the same species whose members are all either genealogically related to each other or have mated with each other." []
 is_a: PCO:0000000 ! collection of organisms
 
 [Term]
@@ -1563,9 +1684,6 @@ is_a: PCO:0000000 ! collection of organisms
 id: PCO:0000031
 name: organismal entity
 def: "A material entity that is one or more organisms, viruses or viroids." []
-is_a: BFO:0000040 ! material entity
-union_of: CARO:0001010 ! organism or virus or viroid
-union_of: PCO:0000000 ! collection of organisms
 
 [Term]
 id: RO:0002577
@@ -1585,74 +1703,23 @@ is_transitive: true
 is_a: RO:0002131
 
 [Typedef]
-id: BFO:0000066
-domain: BFO:0000003 ! occurrent
-range: BFO:0000004 ! independent continuant
-holds_over_chain: BFO:0000050 BFO:0000066
-inverse_of: BFO:0000067
-transitive_over: BFO:0000050
-
-[Typedef]
-id: FOODON:00002420
-holds_over_chain: BFO:0000051 RO:0001000
-
-[Typedef]
 id: RO:0000052
 is_a: RO:0002314
-inverse_of: RO:0000053
-
-[Typedef]
-id: RO:0000053
-range: BFO:0000020 ! specifically dependent continuant
-
-[Typedef]
-id: RO:0000056
-domain: BFO:0000002 ! continuant
-range: BFO:0000003 ! occurrent
-inverse_of: RO:0000057
-
-[Typedef]
-id: RO:0000057
-domain: BFO:0000003 ! occurrent
-range: BFO:0000002 ! continuant
-holds_over_chain: BFO:0000051 RO:0000057
-
-[Typedef]
-id: RO:0000080
-is_a: RO:0000052
-inverse_of: RO:0000086
-
-[Typedef]
-id: RO:0000081
-is_a: RO:0000052
-inverse_of: RO:0000087
 
 [Typedef]
 id: RO:0000086
-range: BFO:0000019 ! quality
 is_a: RO:0000053
 
 [Typedef]
 id: RO:0000087
-domain: BFO:0000004 ! independent continuant
-range: BFO:0000023 ! role
 is_a: RO:0000053
 
 [Typedef]
-id: RO:0001000
-is_reflexive: true
-inverse_of: RO:0001001
-
-[Typedef]
 id: RO:0002007
-range: BFO:0000040 ! material entity
 is_a: BFO:0000050
 
 [Typedef]
 id: RO:0002131
-holds_over_chain: BFO:0000050 BFO:0000050
-holds_over_chain: BFO:0000051 BFO:0000050 {http://purl.obolibrary.org/obo/RO_0002582="true"}
-holds_over_chain: BFO:0000051 RO:0002131
 is_a: RO:0002323
 
 [Typedef]
@@ -1662,52 +1729,27 @@ is_a: RO:0002323
 [Typedef]
 id: RO:0002219
 is_a: RO:0002220
-inverse_of: RO:0002221
 
 [Typedef]
 id: RO:0002220
-domain: BFO:0000004 ! independent continuant
-range: BFO:0000004 ! independent continuant
+is_functional: true
 is_a: RO:0002163
 
 [Typedef]
-id: RO:0002221
-is_a: RO:0002220
-
-[Typedef]
 id: RO:0002233
-domain: BFO:0000015 ! process
-range: BFO:0000040 ! material entity
 is_a: RO:0000057
-inverse_of: RO:0002352
 
 [Typedef]
 id: RO:0002234
 is_a: RO:0000057
-inverse_of: RO:0002353
 
 [Typedef]
-id: RO:0002295
-domain: GO:0008150 ! biological_process
-range: CARO:0000003 ! anatomical structure
-is_a: RO:0002324
-
-[Typedef]
-id: RO:0002297
-is_a: RO:0002234
-is_a: RO:0002295
-inverse_of: RO:0002354
+id: RO:0002303
+is_a: RO:0002321
 
 [Typedef]
 id: RO:0002314
-holds_over_chain: RO:0000052 BFO:0000050 {http://purl.obolibrary.org/obo/RO_0002582="true"}
 is_a: RO:0002502
-transitive_over: BFO:0000050
-
-[Typedef]
-id: RO:0002352
-is_a: RO:0000056
-is_a: RO:0002328
 
 [Typedef]
 id: RO:0002353
@@ -1719,52 +1761,25 @@ id: RO:0002354
 is_a: RO:0002353
 
 [Typedef]
-id: RO:0002410
-is_a: RO:0002609
-
-[Typedef]
 id: RO:0002473
 is_a: BFO:0000051
 
 [Typedef]
-id: RO:0002479
-domain: BFO:0000003 ! occurrent
-range: BFO:0000004 ! independent continuant
-holds_over_chain: BFO:0000051 BFO:0000066 {http://purl.obolibrary.org/obo/RO_0002581="true"}
-
-[Typedef]
 id: RO:0002506
-domain: BFO:0000040 ! material entity
-range: BFO:0000040 ! material entity
 is_a: RO:0002410
 
 [Typedef]
 id: RO:0002507
-domain: RO:0002577 ! system
-range: BFO:0000040 ! material entity
 is_a: BFO:0000050
 is_a: RO:0002509
 is_a: RO:0002559
-inverse_of: RO:0002508
-
-[Typedef]
-id: RO:0002508
-is_a: RO:0002566
 
 [Typedef]
 id: RO:0002509
-domain: RO:0002577 ! system
-range: BFO:0000040 ! material entity
-holds_over_chain: RO:0002507 BFO:0000050 {http://purl.obolibrary.org/obo/RO_0002582="true"}
 is_a: RO:0002131
 is_a: RO:0002506
 
 [Typedef]
 id: RO:0002559
-is_a: RO:0002506
-inverse_of: RO:0002566
-
-[Typedef]
-id: RO:0002566
 is_a: RO:0002506
 

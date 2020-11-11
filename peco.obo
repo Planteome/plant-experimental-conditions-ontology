@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2018-08-15
+data-version: releases/2020-08-21
 date: 12:10:2015 15:21
 saved-by: cooperl
 default-namespace: plant_experimental_conditions_ontology
@@ -30,10 +30,6 @@ id: BFO:0000015
 is_a: BFO:0000003
 
 [Term]
-id: BFO:0000017
-is_a: BFO:0000020
-
-[Term]
 id: BFO:0000019
 is_a: BFO:0000020
 
@@ -42,15 +38,7 @@ id: BFO:0000020
 is_a: BFO:0000002
 
 [Term]
-id: BFO:0000023
-is_a: BFO:0000017
-
-[Term]
 id: BFO:0000024
-is_a: BFO:0000040
-
-[Term]
-id: BFO:0000027
 is_a: BFO:0000040
 
 [Term]
@@ -68,18 +56,6 @@ is_a: BFO:0000004
 [Term]
 id: BFO:0000141
 is_a: BFO:0000004
-
-[Term]
-id: CARO:0000003
-is_a: CARO:0000006
-
-[Term]
-id: CARO:0000006
-is_a: BFO:0000040
-
-[Term]
-id: CARO:0001010
-is_a: PCO:0000031
 
 [Term]
 id: CHEBI:10022
@@ -114,6 +90,14 @@ is_a: CHEBI:76969
 [Term]
 id: CHEBI:131605
 is_a: CHEBI:29067
+
+[Term]
+id: CHEBI:131860
+is_a: CHEBI:2580
+
+[Term]
+id: CHEBI:131862
+is_a: CHEBI:131860
 
 [Term]
 id: CHEBI:131927
@@ -191,6 +175,10 @@ id: CHEBI:137980
 is_a: CHEBI:33250
 
 [Term]
+id: CHEBI:137982
+is_a: CHEBI:25697
+
+[Term]
 id: CHEBI:138015
 is_a: CHEBI:51061
 
@@ -242,8 +230,45 @@ is_a: CHEBI:30879
 is_a: CHEBI:52396
 
 [Term]
+id: CHEBI:142851
+is_a: CHEBI:26044
+is_a: CHEBI:83925
+
+[Term]
+id: CHEBI:142852
+is_a: CHEBI:142851
+
+[Term]
+id: CHEBI:142853
+is_a: CHEBI:142851
+
+[Term]
+id: CHEBI:142854
+is_a: CHEBI:35238
+
+[Term]
+id: CHEBI:142856
+is_a: CHEBI:35238
+
+[Term]
+id: CHEBI:142858
+is_a: CHEBI:25696
+
+[Term]
+id: CHEBI:142859
+is_a: CHEBI:25696
+
+[Term]
 id: CHEBI:14321
 is_a: CHEBI:33558
+
+[Term]
+id: CHEBI:146293
+is_a: CHEBI:131862
+
+[Term]
+id: CHEBI:149552
+is_a: CHEBI:23888
 
 [Term]
 id: CHEBI:15318
@@ -256,6 +281,7 @@ is_a: CHEBI:51086
 
 [Term]
 id: CHEBI:15356
+is_a: CHEBI:26167
 is_a: CHEBI:26834
 is_a: CHEBI:33704
 
@@ -289,6 +315,11 @@ is_a: CHEBI:33263
 [Term]
 id: CHEBI:15428
 is_a: CHEBI:26650
+
+[Term]
+id: CHEBI:156230
+is_a: CHEBI:25477
+is_a: CHEBI:35757
 
 [Term]
 id: CHEBI:15693
@@ -396,6 +427,12 @@ id: CHEBI:16234
 is_a: CHEBI:33693
 
 [Term]
+id: CHEBI:16235
+is_a: CHEBI:20702
+is_a: CHEBI:25810
+is_a: CHEBI:26386
+
+[Term]
 id: CHEBI:16240
 is_a: CHEBI:24837
 is_a: CHEBI:26523
@@ -429,7 +466,6 @@ id: CHEBI:16526
 is_a: CHEBI:138675
 is_a: CHEBI:23014
 is_a: CHEBI:64708
-is_a: FOODON:03412972
 
 [Term]
 id: CHEBI:16541
@@ -623,6 +659,11 @@ is_a: CHEBI:50584
 is_a: CHEBI:64708
 
 [Term]
+id: CHEBI:17792
+is_a: CHEBI:33285
+is_a: CHEBI:37578
+
+[Term]
 id: CHEBI:17855
 is_a: CHEBI:47778
 
@@ -685,6 +726,7 @@ is_a: CHEBI:28966
 
 [Term]
 id: CHEBI:18237
+is_a: CHEBI:26167
 is_a: CHEBI:33704
 
 [Term]
@@ -793,6 +835,10 @@ is_a: CHEBI:27242
 [Term]
 id: CHEBI:20569
 is_a: CHEBI:76663
+
+[Term]
+id: CHEBI:20702
+is_a: CHEBI:22527
 
 [Term]
 id: CHEBI:20706
@@ -953,6 +999,7 @@ is_a: CHEBI:83813
 
 [Term]
 id: CHEBI:22660
+is_a: CHEBI:26167
 is_a: CHEBI:33704
 is_a: CHEBI:66873
 
@@ -1341,7 +1388,7 @@ is_a: CHEBI:35352
 
 [Term]
 id: CHEBI:24469
-is_a: CHEBI:36684
+is_a: CHEBI:17792
 
 [Term]
 id: CHEBI:24471
@@ -1349,7 +1396,7 @@ is_a: CHEBI:33675
 
 [Term]
 id: CHEBI:24472
-is_a: CHEBI:36684
+is_a: CHEBI:17792
 
 [Term]
 id: CHEBI:24473
@@ -2202,7 +2249,7 @@ is_a: CHEBI:35307
 
 [Term]
 id: CHEBI:27311
-is_a: CHEBI:25212
+is_a: CHEBI:76924
 
 [Term]
 id: CHEBI:27314
@@ -2327,6 +2374,7 @@ is_a: CHEBI:28966
 
 [Term]
 id: CHEBI:27897
+is_a: CHEBI:26167
 is_a: CHEBI:33704
 is_a: CHEBI:33856
 is_a: CHEBI:38631
@@ -2399,6 +2447,7 @@ is_a: CHEBI:33350
 [Term]
 id: CHEBI:28694
 is_a: CHEBI:33366
+is_a: CHEBI:88184
 
 [Term]
 id: CHEBI:28741
@@ -2460,7 +2509,6 @@ is_a: CHEBI:25223
 [Term]
 id: CHEBI:28938
 is_a: CHEBI:35106
-is_a: CHEBI:35274
 is_a: CHEBI:50313
 is_a: CHEBI:60242
 
@@ -2623,6 +2671,10 @@ is_a: CHEBI:35757
 id: CHEBI:29785
 is_a: CHEBI:33246
 is_a: CHEBI:51144
+
+[Term]
+id: CHEBI:29792
+is_a: CHEBI:33246
 
 [Term]
 id: CHEBI:29805
@@ -2946,7 +2998,6 @@ id: CHEBI:33262
 is_a: CHEBI:24835
 is_a: CHEBI:25806
 is_a: CHEBI:33259
-is_a: FOODON:03412972
 
 [Term]
 id: CHEBI:33263
@@ -3703,6 +3754,10 @@ id: CHEBI:35223
 is_a: CHEBI:51086
 
 [Term]
+id: CHEBI:35230
+is_a: CHEBI:33292
+
+[Term]
 id: CHEBI:35237
 is_a: CHEBI:35238
 
@@ -4083,6 +4138,16 @@ id: CHEBI:35903
 is_a: CHEBI:29067
 
 [Term]
+id: CHEBI:35923
+is_a: CHEBI:24651
+
+[Term]
+id: CHEBI:35924
+is_a: CHEBI:35923
+is_a: CHEBI:36963
+is_a: CHEBI:37863
+
+[Term]
 id: CHEBI:35942
 is_a: CHEBI:23888
 is_a: CHEBI:52210
@@ -4166,6 +4231,15 @@ is_a: CHEBI:33575
 id: CHEBI:36309
 is_a: CHEBI:26932
 is_a: CHEBI:47882
+
+[Term]
+id: CHEBI:36326
+is_a: CHEBI:27208
+
+[Term]
+id: CHEBI:36329
+is_a: CHEBI:36326
+is_a: CHEBI:61051
 
 [Term]
 id: CHEBI:36336
@@ -4286,13 +4360,8 @@ is_a: CHEBI:72695
 
 [Term]
 id: CHEBI:36683
+is_a: CHEBI:17792
 is_a: CHEBI:23117
-is_a: CHEBI:36684
-
-[Term]
-id: CHEBI:36684
-is_a: CHEBI:33285
-is_a: CHEBI:37578
 
 [Term]
 id: CHEBI:36688
@@ -4357,7 +4426,6 @@ is_a: CHEBI:33304
 [Term]
 id: CHEBI:36908
 is_a: CHEBI:33583
-is_a: FOODON:03412972
 
 [Term]
 id: CHEBI:36914
@@ -4394,13 +4462,13 @@ is_a: CHEBI:35352
 
 [Term]
 id: CHEBI:37141
+is_a: CHEBI:17792
 is_a: CHEBI:22928
-is_a: CHEBI:36684
 
 [Term]
 id: CHEBI:37143
+is_a: CHEBI:17792
 is_a: CHEBI:24062
-is_a: CHEBI:36684
 
 [Term]
 id: CHEBI:37163
@@ -4480,7 +4548,7 @@ is_a: CHEBI:35352
 
 [Term]
 id: CHEBI:37602
-is_a: CHEBI:50860
+is_a: CHEBI:78840
 
 [Term]
 id: CHEBI:37604
@@ -4534,6 +4602,10 @@ is_a: CHEBI:24621
 id: CHEBI:37848
 is_a: CHEBI:24621
 is_a: CHEBI:26155
+
+[Term]
+id: CHEBI:37863
+is_a: CHEBI:36962
 
 [Term]
 id: CHEBI:37949
@@ -5294,10 +5366,6 @@ id: CHEBI:50905
 is_a: CHEBI:52209
 
 [Term]
-id: CHEBI:50906
-is_a: BFO:0000023
-
-[Term]
 id: CHEBI:50910
 is_a: CHEBI:52209
 is_a: CHEBI:64909
@@ -5346,6 +5414,7 @@ is_a: CHEBI:24866
 
 [Term]
 id: CHEBI:51084
+is_a: CHEBI:24835
 is_a: CHEBI:51082
 
 [Term]
@@ -5355,7 +5424,6 @@ is_a: CHEBI:50906
 [Term]
 id: CHEBI:51143
 is_a: CHEBI:33302
-is_a: FOODON:03412972
 
 [Term]
 id: CHEBI:51144
@@ -5423,7 +5491,7 @@ is_a: CHEBI:25696
 
 [Term]
 id: CHEBI:52136
-is_a: CHEBI:26044
+is_a: CHEBI:60911
 
 [Term]
 id: CHEBI:52206
@@ -5657,6 +5725,10 @@ id: CHEBI:59999
 is_a: CHEBI:24431
 
 [Term]
+id: CHEBI:60004
+is_a: CHEBI:59999
+
+[Term]
 id: CHEBI:60038
 is_a: CHEBI:25696
 
@@ -5682,6 +5754,10 @@ id: CHEBI:60466
 is_a: CHEBI:27369
 
 [Term]
+id: CHEBI:60575
+is_a: CHEBI:24527
+
+[Term]
 id: CHEBI:60809
 is_a: CHEBI:52217
 
@@ -5694,6 +5770,10 @@ id: CHEBI:60895
 is_a: CHEBI:33558
 
 [Term]
+id: CHEBI:60911
+is_a: CHEBI:60004
+
+[Term]
 id: CHEBI:60926
 is_a: CHEBI:28963
 
@@ -5704,6 +5784,10 @@ is_a: CHEBI:23849
 [Term]
 id: CHEBI:61015
 is_a: CHEBI:64909
+
+[Term]
+id: CHEBI:61051
+is_a: CHEBI:35924
 
 [Term]
 id: CHEBI:61120
@@ -5730,7 +5814,6 @@ is_a: CHEBI:64911
 
 [Term]
 id: CHEBI:62031
-is_a: CHEBI:26167
 is_a: CHEBI:35238
 
 [Term]
@@ -5780,7 +5863,6 @@ is_a: CHEBI:51084
 
 [Term]
 id: CHEBI:63038
-is_a: CHEBI:24835
 is_a: CHEBI:47704
 is_a: CHEBI:51084
 
@@ -6402,6 +6484,10 @@ id: CHEBI:79091
 is_a: CHEBI:76812
 
 [Term]
+id: CHEBI:79314
+is_a: CHEBI:33232
+
+[Term]
 id: CHEBI:79387
 is_a: CHEBI:24834
 
@@ -6583,25 +6669,24 @@ id: CHEBI:91007
 is_a: CHEBI:29067
 
 [Term]
-id: ENVO:00000000
-is_a: ENVO:01000813
-
-[Term]
-id: ENVO:00000012
-is_a: ENVO:00000000
-
-[Term]
 id: ENVO:00000063
-is_a: ENVO:00000000
+is_a: ENVO:01000685
 
 [Term]
 id: ENVO:00000097
 is_a: ENVO:01000752
 
 [Term]
-id: ENVO:00000304
-is_a: ENVO:00000012
-is_a: ENVO:01000635
+id: ENVO:00000191
+is_a: ENVO:01000813
+
+[Term]
+id: ENVO:00000194
+is_a: ENVO:00010483
+
+[Term]
+id: ENVO:00000339
+is_a: ENVO:01001687
 
 [Term]
 id: ENVO:00000428
@@ -6620,11 +6705,6 @@ id: ENVO:00001998
 is_a: ENVO:00010483
 
 [Term]
-id: ENVO:00002004
-is_a: BFO:0000030
-is_a: ENVO:00002297
-
-[Term]
 id: ENVO:00002005
 is_a: ENVO:01000797
 
@@ -6633,16 +6713,17 @@ id: ENVO:00002006
 is_a: ENVO:01000815
 
 [Term]
+id: ENVO:00002030
+is_a: ENVO:00000428
+is_a: ENVO:01001787
+
+[Term]
 id: ENVO:00002229
 is_a: ENVO:00001998
 
 [Term]
 id: ENVO:00002262
 is_a: ENVO:00001998
-
-[Term]
-id: ENVO:00002297
-is_a: BFO:0000040
 
 [Term]
 id: ENVO:00002982
@@ -6658,15 +6739,7 @@ is_a: BFO:0000024
 
 [Term]
 id: ENVO:00010504
-is_a: ENVO:01000281
-
-[Term]
-id: ENVO:01000009
-is_a: ENVO:00002004
-
-[Term]
-id: ENVO:01000010
-is_a: ENVO:00002004
+is_a: ENVO:01001684
 
 [Term]
 id: ENVO:01000016
@@ -6702,7 +6775,7 @@ is_a: ENVO:01000797
 
 [Term]
 id: ENVO:01000267
-is_a: ENVO:01000281
+is_a: ENVO:01001678
 
 [Term]
 id: ENVO:01000268
@@ -6710,7 +6783,7 @@ is_a: ENVO:01000266
 
 [Term]
 id: ENVO:01000281
-is_a: ENVO:00000000
+is_a: BFO:0000040
 
 [Term]
 id: ENVO:01000303
@@ -6722,8 +6795,13 @@ is_a: ENVO:01000997
 is_a: ENVO:01000998
 
 [Term]
+id: ENVO:01000323
+is_a: ENVO:01000543
+is_a: ENVO:01000544
+
+[Term]
 id: ENVO:01000324
-is_a: ENVO:00010504
+is_a: ENVO:01001483
 
 [Term]
 id: ENVO:01000325
@@ -6734,22 +6812,47 @@ id: ENVO:01000408
 is_a: BFO:0000029
 
 [Term]
+id: ENVO:01000543
+is_a: ENVO:01001678
+
+[Term]
+id: ENVO:01000544
+is_a: ENVO:01001677
+
+[Term]
 id: ENVO:01000552
 is_a: ENVO:01000554
 
 [Term]
 id: ENVO:01000554
 is_a: ENVO:01000797
+is_a: ENVO:2000045
 
 [Term]
 id: ENVO:01000635
 is_a: ENVO:01000324
-is_a: ENVO:01001311
+is_a: ENVO:01001782
 
 [Term]
 id: ENVO:01000637
-is_a: ENVO:00002297
 is_a: ENVO:00010483
+
+[Term]
+id: ENVO:01000638
+is_a: ENVO:01000639
+
+[Term]
+id: ENVO:01000639
+is_a: ENVO:01000281
+
+[Term]
+id: ENVO:01000646
+is_a: ENVO:01000639
+is_a: ENVO:01001275
+
+[Term]
+id: ENVO:01000685
+is_a: ENVO:01001476
 
 [Term]
 id: ENVO:01000703
@@ -6757,7 +6860,7 @@ is_a: ENVO:01000875
 
 [Term]
 id: ENVO:01000724
-is_a: ENVO:03000043
+is_a: ENVO:01001510
 
 [Term]
 id: ENVO:01000739
@@ -6769,7 +6872,11 @@ is_a: ENVO:01001199
 
 [Term]
 id: ENVO:01000797
-is_a: ENVO:00010483
+is_a: ENVO:02000140
+
+[Term]
+id: ENVO:01000798
+is_a: ENVO:02000140
 
 [Term]
 id: ENVO:01000799
@@ -6782,29 +6889,32 @@ is_a: ENVO:01000799
 [Term]
 id: ENVO:01000804
 is_a: BFO:0000030
-is_a: ENVO:00002297
 
 [Term]
 id: ENVO:01000813
 is_a: BFO:0000024
-is_a: ENVO:00002297
 
 [Term]
 id: ENVO:01000814
-is_a: ENVO:01001125
-
-[Term]
-id: ENVO:01000815
 is_a: ENVO:00010483
 
 [Term]
+id: ENVO:01000815
+is_a: ENVO:02000140
+
+[Term]
 id: ENVO:01000817
-is_a: ENVO:01000813
-is_a: ENVO:01001110
+is_a: ENVO:01001479
+is_a: ENVO:01001784
 
 [Term]
 id: ENVO:01000819
-is_a: ENVO:01000813
+is_a: ENVO:01001477
+
+[Term]
+id: ENVO:01000820
+is_a: ENVO:01001479
+is_a: ENVO:01001784
 
 [Term]
 id: ENVO:01000828
@@ -6820,7 +6930,7 @@ is_a: ENVO:01000703
 
 [Term]
 id: ENVO:01000831
-is_a: ENVO:01000010
+is_a: ENVO:01001690
 
 [Term]
 id: ENVO:01000832
@@ -6836,7 +6946,7 @@ is_a: ENVO:03000010
 
 [Term]
 id: ENVO:01000981
-is_a: ENVO:01001334
+is_a: ENVO:01001747
 
 [Term]
 id: ENVO:01000982
@@ -6857,25 +6967,12 @@ is_a: ENVO:01000997
 is_a: ENVO:01000998
 
 [Term]
-id: ENVO:01001055
-is_a: ENVO:01001110
-
-[Term]
 id: ENVO:01001110
 is_a: ENVO:01000254
 
 [Term]
-id: ENVO:01001125
-is_a: ENVO:00010483
-
-[Term]
 id: ENVO:01001164
 is_a: PATO:0001241
-
-[Term]
-id: ENVO:01001191
-is_a: ENVO:01000325
-is_a: ENVO:01001310
 
 [Term]
 id: ENVO:01001199
@@ -6883,7 +6980,7 @@ is_a: ENVO:01000408
 
 [Term]
 id: ENVO:01001273
-is_a: ENVO:01000281
+is_a: ENVO:01001678
 
 [Term]
 id: ENVO:01001275
@@ -6895,16 +6992,7 @@ is_a: ENVO:01000408
 
 [Term]
 id: ENVO:01001308
-is_a: ENVO:01000813
-
-[Term]
-id: ENVO:01001309
-is_a: ENVO:01001310
-
-[Term]
-id: ENVO:01001310
-is_a: ENVO:00010504
-is_a: ENVO:01001273
+is_a: ENVO:01001477
 
 [Term]
 id: ENVO:01001311
@@ -6916,29 +7004,124 @@ id: ENVO:01001334
 is_a: ENVO:03000010
 
 [Term]
+id: ENVO:01001476
+is_a: ENVO:01001477
+
+[Term]
+id: ENVO:01001477
+is_a: ENVO:01001479
+is_a: ENVO:01001784
+
+[Term]
+id: ENVO:01001478
+is_a: ENVO:01001479
+is_a: ENVO:01001784
+
+[Term]
+id: ENVO:01001479
+is_a: ENVO:01000813
+
+[Term]
+id: ENVO:01001483
+is_a: ENVO:00010504
+
+[Term]
+id: ENVO:01001510
+is_a: ENVO:03000043
+
+[Term]
+id: ENVO:01001645
+is_a: ENVO:01001478
+
+[Term]
+id: ENVO:01001677
+is_a: ENVO:01001678
+is_a: ENVO:01001684
+
+[Term]
+id: ENVO:01001678
+is_a: ENVO:01000281
+
+[Term]
+id: ENVO:01001682
+is_a: ENVO:01001689
+
+[Term]
+id: ENVO:01001684
+is_a: ENVO:01000281
+
+[Term]
+id: ENVO:01001686
+is_a: BFO:0000030
+
+[Term]
+id: ENVO:01001687
+is_a: ENVO:01001686
+
+[Term]
+id: ENVO:01001688
+is_a: ENVO:01001686
+
+[Term]
+id: ENVO:01001689
+is_a: ENVO:01001688
+
+[Term]
+id: ENVO:01001690
+is_a: ENVO:01001688
+
+[Term]
+id: ENVO:01001691
+is_a: ENVO:01001686
+
+[Term]
+id: ENVO:01001747
+is_a: ENVO:01001334
+
+[Term]
+id: ENVO:01001781
+is_a: ENVO:00000191
+
+[Term]
+id: ENVO:01001782
+is_a: ENVO:01001785
+
+[Term]
+id: ENVO:01001784
+is_a: ENVO:01000813
+
+[Term]
+id: ENVO:01001785
+is_a: ENVO:01001311
+is_a: ENVO:01001483
+
+[Term]
+id: ENVO:01001787
+is_a: ENVO:01001110
+
+[Term]
+id: ENVO:01001838
+is_a: ENVO:00000428
+
+[Term]
 id: ENVO:02000054
 is_a: ENVO:02000055
 
 [Term]
 id: ENVO:02000055
-is_a: ENVO:01000009
+is_a: FOODON:00002403
+
+[Term]
+id: ENVO:02000140
+is_a: ENVO:00010483
 
 [Term]
 id: ENVO:02500000
 is_a: BFO:0000015
 
 [Term]
-id: ENVO:02500001
-is_a: ENVO:02500000
-
-[Term]
 id: ENVO:02500002
-is_a: ENVO:02500031
 is_a: ENVO:03000010
-
-[Term]
-id: ENVO:02500003
-is_a: ENVO:02500000
 
 [Term]
 id: ENVO:02500031
@@ -6951,6 +7134,11 @@ is_a: ENVO:02500000
 [Term]
 id: ENVO:03000043
 is_a: ENVO:02500000
+
+[Term]
+id: ENVO:04000010
+is_a: ENVO:01001311
+is_a: ENVO:01001483
 
 [Term]
 id: ENVO:09200000
@@ -6987,32 +7175,36 @@ id: ENVO:09200015
 is_a: PATO:0015009
 
 [Term]
-id: FOODON:00001002
-is_a: FOODON:03400361
+id: ENVO:09200017
+is_a: PATO:0000025
 
 [Term]
-id: FOODON:00001714
-is_a: FOODON:00001002
-
-[Term]
-id: FOODON:03400361
-is_a: BFO:0000040
-
-[Term]
-id: FOODON:03411041
-is_a: FOODON:00001714
-
-[Term]
-id: FOODON:03412972
-is_a: FOODON:03411041
+id: ENVO:2000045
+is_a: ENVO:00010483
 
 [Term]
 id: GO:0003674
 is_a: BFO:0000015
 
 [Term]
+id: GO:0003824
+is_a: GO:0003674
+
+[Term]
 id: GO:0008150
 is_a: BFO:0000015
+
+[Term]
+id: GO:0016301
+is_a: GO:0016772
+
+[Term]
+id: GO:0016740
+is_a: GO:0003824
+
+[Term]
+id: GO:0016772
+is_a: GO:0016740
 
 [Term]
 id: NCBITaxon:101162
@@ -7040,7 +7232,7 @@ is_a: NCBITaxon:5238
 
 [Term]
 id: NCBITaxon:10880
-is_a: NCBITaxon:35325
+is_a: NCBITaxon:2559587
 
 [Term]
 id: NCBITaxon:10985
@@ -7108,7 +7300,7 @@ is_a: NCBITaxon:6231
 
 [Term]
 id: NCBITaxon:119163
-is_a: NCBITaxon:35278
+is_a: NCBITaxon:2559587
 
 [Term]
 id: NCBITaxon:12036
@@ -7187,10 +7379,6 @@ id: NCBITaxon:1338369
 is_a: NCBITaxon:8287
 
 [Term]
-id: NCBITaxon:134362
-is_a: NCBITaxon:451867
-
-[Term]
 id: NCBITaxon:135614
 is_a: NCBITaxon:1236
 
@@ -7223,12 +7411,8 @@ id: NCBITaxon:147550
 is_a: NCBITaxon:715989
 
 [Term]
-id: NCBITaxon:148303
-is_a: NCBITaxon:81093
-
-[Term]
 id: NCBITaxon:148305
-is_a: NCBITaxon:148303
+is_a: NCBITaxon:48558
 
 [Term]
 id: NCBITaxon:155619
@@ -7300,7 +7484,7 @@ is_a: NCBITaxon:6656
 
 [Term]
 id: NCBITaxon:1980410
-is_a: NCBITaxon:35301
+is_a: NCBITaxon:2497576
 
 [Term]
 id: NCBITaxon:1980418
@@ -7328,7 +7512,7 @@ is_a: NCBITaxon:2092
 
 [Term]
 id: NCBITaxon:2169577
-is_a: NCBITaxon:35278
+is_a: NCBITaxon:2559587
 
 [Term]
 id: NCBITaxon:222543
@@ -7343,12 +7527,44 @@ id: NCBITaxon:228882
 is_a: NCBITaxon:81093
 
 [Term]
+id: NCBITaxon:2497569
+is_a: NCBITaxon:2559587
+
+[Term]
+id: NCBITaxon:2497571
+is_a: NCBITaxon:2497569
+
+[Term]
+id: NCBITaxon:2497576
+is_a: NCBITaxon:2497571
+
+[Term]
+id: NCBITaxon:2502719
+is_a: NCBITaxon:5125
+
+[Term]
+id: NCBITaxon:2528436
+is_a: NCBITaxon:639021
+
+[Term]
+id: NCBITaxon:2559587
+is_a: NCBITaxon:10239
+
+[Term]
 id: NCBITaxon:268499
 is_a: NCBITaxon:37573
 
 [Term]
 id: NCBITaxon:269767
 is_a: NCBITaxon:90723
+
+[Term]
+id: NCBITaxon:2698737
+is_a: NCBITaxon:2759
+
+[Term]
+id: NCBITaxon:2726947
+is_a: NCBITaxon:451867
 
 [Term]
 id: NCBITaxon:27439
@@ -7364,7 +7580,7 @@ is_a: NCBITaxon:1224
 
 [Term]
 id: NCBITaxon:284134
-is_a: NCBITaxon:162454
+is_a: NCBITaxon:2502719
 
 [Term]
 id: NCBITaxon:284135
@@ -7496,7 +7712,7 @@ is_a: NCBITaxon:33213
 
 [Term]
 id: NCBITaxon:33634
-is_a: NCBITaxon:2759
+is_a: NCBITaxon:2698737
 
 [Term]
 id: NCBITaxon:337
@@ -7527,16 +7743,8 @@ id: NCBITaxon:347
 is_a: NCBITaxon:338
 
 [Term]
-id: NCBITaxon:35278
-is_a: NCBITaxon:439488
-
-[Term]
-id: NCBITaxon:35301
-is_a: NCBITaxon:439488
-
-[Term]
 id: NCBITaxon:35325
-is_a: NCBITaxon:10239
+is_a: NCBITaxon:2559587
 
 [Term]
 id: NCBITaxon:35493
@@ -7619,10 +7827,6 @@ id: NCBITaxon:437488
 is_a: NCBITaxon:437487
 
 [Term]
-id: NCBITaxon:439488
-is_a: NCBITaxon:10239
-
-[Term]
 id: NCBITaxon:4447
 is_a: NCBITaxon:1437183
 
@@ -7657,10 +7861,6 @@ is_a: NCBITaxon:452333
 [Term]
 id: NCBITaxon:45926
 is_a: NCBITaxon:33284
-
-[Term]
-id: NCBITaxon:459364
-is_a: NCBITaxon:63190
 
 [Term]
 id: NCBITaxon:46005
@@ -7717,6 +7917,10 @@ is_a: NCBITaxon:121069
 [Term]
 id: NCBITaxon:4797
 is_a: NCBITaxon:4782
+
+[Term]
+id: NCBITaxon:48558
+is_a: NCBITaxon:2528436
 
 [Term]
 id: NCBITaxon:4890
@@ -7823,12 +8027,16 @@ id: NCBITaxon:6231
 is_a: NCBITaxon:1206794
 
 [Term]
+id: NCBITaxon:6236
+is_a: NCBITaxon:119089
+
+[Term]
 id: NCBITaxon:62916
 is_a: NCBITaxon:452283
 
 [Term]
 id: NCBITaxon:6300
-is_a: NCBITaxon:119089
+is_a: NCBITaxon:6236
 
 [Term]
 id: NCBITaxon:6303
@@ -7845,14 +8053,6 @@ is_a: NCBITaxon:654580
 [Term]
 id: NCBITaxon:63189
 is_a: NCBITaxon:125628
-
-[Term]
-id: NCBITaxon:63190
-is_a: NCBITaxon:63236
-
-[Term]
-id: NCBITaxon:63236
-is_a: NCBITaxon:5250
 
 [Term]
 id: NCBITaxon:639021
@@ -8032,7 +8232,7 @@ is_a: NCBITaxon:451868
 
 [Term]
 id: NCBITaxon:93133
-is_a: NCBITaxon:134362
+is_a: NCBITaxon:2726947
 
 [Term]
 id: NCBITaxon:94399
@@ -8052,7 +8252,6 @@ is_a: PATO:0001546
 
 [Term]
 id: PATO:0000051
-is_a: BFO:0000019
 is_a: PATO:0001241
 
 [Term]
@@ -8070,7 +8269,6 @@ is_a: PATO:0000051
 [Term]
 id: PATO:0000146
 is_a: PATO:0001018
-is_a: PATO:0001237
 
 [Term]
 id: PATO:0000386
@@ -8078,12 +8276,8 @@ is_a: PATO:0000048
 is_a: PATO:0002305
 
 [Term]
-id: PATO:0000970
-is_a: PATO:0000141
-
-[Term]
 id: PATO:0000973
-is_a: PATO:0000970
+is_a: PATO:0000141
 
 [Term]
 id: PATO:0000984
@@ -8094,26 +8288,28 @@ id: PATO:0001018
 is_a: PATO:0001241
 
 [Term]
-id: PATO:0001237
-is_a: BFO:0000019
-
-[Term]
 id: PATO:0001241
+is_a: BFO:0000019
 is_a: PATO:0000001
 
 [Term]
+id: PATO:0001543
+is_a: PATO:0001546
+
+[Term]
+id: PATO:0001545
+is_a: PATO:0001543
+
+[Term]
 id: PATO:0001546
-is_a: PATO:0001237
 is_a: PATO:0002198
 
 [Term]
 id: PATO:0001547
-is_a: PATO:0001237
 is_a: PATO:0002198
 
 [Term]
 id: PATO:0001548
-is_a: PATO:0001237
 is_a: PATO:0002198
 
 [Term]
@@ -8147,8 +8343,11 @@ is_a: PATO:0002305
 is_a: PATO:0015009
 
 [Term]
+id: PATO:0015021
+is_a: PATO:0001018
+
+[Term]
 id: PCO:0000000
-is_a: BFO:0000027
 is_a: PCO:0000031
 
 [Term]
@@ -8157,7 +8356,6 @@ is_a: PCO:0000018
 
 [Term]
 id: PCO:0000002
-is_a: PCO:0000028
 is_a: PCO:0000029
 
 [Term]
@@ -8165,16 +8363,8 @@ id: PCO:0000018
 is_a: PCO:0000000
 
 [Term]
-id: PCO:0000028
-is_a: PCO:0000000
-
-[Term]
 id: PCO:0000029
 is_a: PCO:0000000
-
-[Term]
-id: PCO:0000031
-is_a: BFO:0000040
 
 [Term]
 id: PECO:0001001
@@ -8283,6 +8473,7 @@ synonym: "inorganic anion treatment (narrow)" NARROW []
 xref: OBO_SF2_PECO:54
 xref: PECO_GIT:54
 is_a: PECO:0001004 ! inorganic chemical exposure
+is_a: RO:0002310
 created_by: cooperl
 creation_date: 2013-04-11T12:29:25Z
 
@@ -8290,12 +8481,13 @@ creation_date: 2013-04-11T12:29:25Z
 id: PECO:0001010
 name: carbohydrate exposure
 alt_id: EO:0001010
-def: "An organic chemical exposure (PECO:0001003) involving the application of a carbohydrate (CHEBI:16646) or mixture of carbohydratePECO:cooperl:16646, PECO:cooperl]" []
+def: "An organic chemical exposure (PECO:0001003) involving the application of a carbohydrate (CHEBI:16646) or mixture of carbohydrates." [PECO:cooperl]
 comment: Carbohydrate (CHEBI:16646) is defined as the generic term 'carbohydrate' includes monosaccharides, oligosaccharides and polysaccharides as well as substances derived from monosaccharides by reduction of the carbonyl group (alditols), by oxidation of one or more hydroxy groups to afford the corresponding aldehydes, ketones, or carboxylic acids, or by replacement of one or more hydroxy group(s) by a hydrogen atom. Cyclitols are generally not regarded as carbohydrates.
 synonym: "carbohydrate treatment (narrow)" NARROW []
 xref: OBO_SF2_PECO:9
 xref: PECO_GIT:9
 is_a: PECO:0001003 ! organic chemical exposure
+is_a: RO:0002310
 created_by: moorel
 creation_date: 2013-04-11T13:43:22Z
 
@@ -8370,6 +8562,7 @@ alt_id: EO:0001016
 def: "An inorganic chemical exposure (PECO:0001004) involving the application of a cation (CHEBI:36916) or mixture of cations ." [CHEBI:36916, PECO:cooperl]
 synonym: "inorganic cation treatment (narrow)" NARROW []
 is_a: PECO:0001004 ! inorganic chemical exposure
+is_a: RO:0002310
 created_by: cooperl
 creation_date: 2013-04-12T11:42:16Z
 
@@ -8417,6 +8610,7 @@ synonym: "carbon dioxide treatment (narrow)" NARROW []
 xref: OBO_SF2_PECO:28
 xref: PECO_GIT:28
 is_a: PECO:0001055 ! inorganic gas exposure
+is_a: RO:0002310
 created_by: cooperl
 creation_date: 2013-04-12T12:41:25Z
 
@@ -8568,7 +8762,7 @@ id: PECO:0001033
 name: parasitic wasp insect plant exposure
 alt_id: EO:0001033
 def: "A Hymenoptera insect plant exposure (PECO:0001032) that involves exposure to parasitic wasps." [PECO:cooperl]
-comment: Parasitic wasp (or parasitoid wasp) refers to a large evolutionary grade of hymenopteran superfamilies, mainly in the Apocrita (from wikipedia).
+comment: Parasitic wasp (or parasitoid wasp) refers to a large evolutionary grade of hymenopteran superfamilies, mainly in the Apocrita. {xref="Wikipedia:Parasitoid_wasp"}
 synonym: "parasitic wasp insect plant treatment (narrow)" NARROW []
 xref: OBO_SF2_PECO:38
 xref: PECO_GIT:38
@@ -8916,6 +9110,7 @@ synonym: "PEG treatment (exact)" EXACT []
 synonym: "poly(ethylene glycol) treatment (exact)" EXACT []
 synonym: "polyethylene glycol treatment (narrow)" NARROW []
 is_a: PECO:0001003 ! organic chemical exposure
+is_a: RO:0002310
 created_by: cooperl
 creation_date: 2014-06-04T10:14:09Z
 
@@ -8940,6 +9135,77 @@ synonym: "ragdoll method (exact)" EXACT []
 xref: PECO_GIT:120
 is_a: PECO:0007262 ! in vitro solid growth medium exposure
 creation_date: 2017-08-08T14:58:32Z
+
+[Term]
+id: PECO:0001064
+name: potassium fertilizer exposure
+def: "A chemical fertilizer exposure (PECO:0007086) involving the use of potassium fertilizer as a supplement to study plant responses." [PECO:cooperl]
+xref: PECO_GIT:112
+is_a: PECO:0007086 ! chemical fertilizer exposure
+created_by: Laurel_Cooper
+creation_date: 2018-10-18T17:40:45Z
+
+[Term]
+id: PECO:0001065
+name: potassium chloride exposure
+def: "A potassium fertilizer exposure (PECO:0001064) involving the use of potassium chloride fertilizer as a supplement to study plant responses." [PECO:cooperl]
+synonym: "muriate of potash exposure (related)" RELATED []
+xref: PECO_GIT:112
+is_a: PECO:0001064 ! potassium fertilizer exposure
+created_by: Laurel_Cooper
+creation_date: 2018-10-18T17:51:54Z
+
+[Term]
+id: PECO:0001066
+name: nematicide exposure
+def: "A pesticide exposure (PECO:0007167) involving the application of a nematicide; a chemical entity or mixture of chemical entities to kill plant-parasitic nematodes." []
+xref: PECO_GIT:113
+is_a: PECO:0007167 ! pesticide exposure
+created_by: Laurel_Cooper
+creation_date: 2018-10-18T18:51:16Z
+
+[Term]
+id: PECO:0001067
+name: castor meal exposure
+def: "A natural fertilizer exposure (PECO:0007087) which is the application of castor meal." [PECO:cooperl]
+comment: Castor meal is a by-product of castor oil production from seeds of the Castor (Ricinus communis) plant and has a high nitrogen content.
+synonym: "castor meal treatment (exact)" EXACT []
+xref: PECO_GIT:115
+is_a: PECO:0007087 ! natural fertilizer exposure
+created_by: cooperl
+creation_date: 2019-03-22T18:57:37Z
+
+[Term]
+id: PECO:0001068
+name: rapeseed meal exposure
+def: "A natural fertilizer exposure (PECO:0007087) which is the application of rapeseed meal." []
+comment: Rapeseed meal is a by-product of rapeseed oil production from seeds of the Rapeseed (Brassica napus L.) plant and has a high protein content.
+synonym: "rape cake exposure (narrow)" NARROW []
+synonym: "rapeseed cake exposure (narrow)" NARROW []
+xref: PECO_GIT:117
+is_a: PECO:0007087 ! natural fertilizer exposure
+created_by: cooperl
+creation_date: 2019-03-22T20:43:53Z
+
+[Term]
+id: PECO:0001069
+name: green manure exposure
+def: "A natural fertilizer exposure (PECO:0007087) which is the application of a green manure." [PECO:cooperl]
+comment: Green manure is created by leaving uprooted or sown crop parts to wither on a field so that they serve as a mulch and soil amendment.  The plants used for green manure are often cover crops grown primarily for this purpose. {xref="Wikipedia:Green_manure"}
+xref: PECO_GIT:116
+is_a: PECO:0007087 ! natural fertilizer exposure
+created_by: cooperl
+creation_date: 2019-03-22T21:10:04Z
+
+[Term]
+id: PECO:0001070
+name: calcium carbonate exposure
+def: "A salt exposure (PECO:0007185) which is a treatment with calcium carbonate (CHEBI:3311) in order to raise the pH of the growing media." [PECO:cooperl]
+synonym: "lime exposure (broad)" BROAD []
+is_a: PECO:0007185 ! salt exposure
+relationship: part_of PECO:0007133 ! basic pH growth media environment exposure
+created_by: cooperl
+creation_date: 2019-09-20T22:36:52Z
 
 [Term]
 id: PECO:0007001
@@ -9136,6 +9402,7 @@ synonym: "Liliopsida treatment (narrow)" NARROW []
 synonym: "monocot (related)" RELATED []
 synonym: "monocotyledon (related)" RELATED []
 is_a: PECO:0007005 ! Viridiplantae plant exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007023
@@ -9290,6 +9557,7 @@ synonym: "antibiotic treatment (narrow)" NARROW []
 xref: OBO_SF2_PECO:70
 xref: PECO_GIT:69
 is_a: PECO:0007189 ! chemical exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007043
@@ -9308,6 +9576,7 @@ synonym: "mineral treatment (narrow)" NARROW []
 xref: OBO_SF2_PECO:52
 xref: PECO_GIT:52
 is_a: PECO:0001004 ! inorganic chemical exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007045
@@ -9579,6 +9848,7 @@ synonym: "basidiomycetes (related)" RELATED []
 synonym: "Basidiomycota treatment (narrow)" NARROW []
 xref: NCBI_Taxon_ID:5204
 is_a: PECO:0007233 ! fungal plant exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007074
@@ -9680,6 +9950,7 @@ alt_id: EO:0007085
 def: "A plant nutrient exposure (PECO:0007241) involving the use of a fertilizer, a combination of plant nutrients." [Gramene:pankaj_jaiswal]
 synonym: "fertilizer treatment (narrow)" NARROW []
 is_a: PECO:0007241 ! plant nutrient exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007086
@@ -9713,6 +9984,7 @@ is_a: PECO:0007073 ! Basidiomycota exposure
 id: PECO:0007089
 name: bone meal exposure
 alt_id: EO:0007089
+def: "A natural fertilizer exposure (PECO:0007087) which is the application of bone meal." []
 synonym: "bone meal treatment (narrow)" NARROW []
 is_a: PECO:0007087 ! natural fertilizer exposure
 
@@ -9729,6 +10001,7 @@ is_a: PECO:0007406 ! nitrate exposure
 id: PECO:0007091
 name: seaweed extract exposure
 alt_id: EO:0007091
+def: "A natural fertilizer exposure (PECO:0007087) which is the application of seaweed extract." []
 synonym: "seaweed extract treatment (narrow)" NARROW []
 is_a: PECO:0007087 ! natural fertilizer exposure
 
@@ -9736,6 +10009,7 @@ is_a: PECO:0007087 ! natural fertilizer exposure
 id: PECO:0007092
 name: wood ash exposure
 alt_id: EO:0007092
+def: "A natural fertilizer exposure (PECO:0007087) which is the application of wood ash." []
 synonym: "wood ash treatment (narrow)" NARROW []
 is_a: PECO:0007087 ! natural fertilizer exposure
 
@@ -9743,6 +10017,7 @@ is_a: PECO:0007087 ! natural fertilizer exposure
 id: PECO:0007093
 name: fish meal exposure
 alt_id: EO:0007093
+def: "A natural fertilizer exposure (PECO:0007087) which is the application of fish meal." []
 synonym: "fish meal treatment (narrow)" NARROW []
 is_a: PECO:0007087 ! natural fertilizer exposure
 
@@ -9862,6 +10137,7 @@ synonym: "chromophyta (related)" RELATED []
 synonym: "heterokont (related)" RELATED []
 synonym: "Stramenopiles treatment (narrow)" NARROW []
 is_a: PECO:0007357 ! biotic plant exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007107
@@ -9872,6 +10148,7 @@ synonym: "ascomycetes (related)" RELATED []
 synonym: "Ascomycota treatment (narrow)" NARROW []
 xref: NCBI_Taxon_ID:4890
 is_a: PECO:0007233 ! fungal plant exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007108
@@ -9898,6 +10175,7 @@ def: "Treatment involving the exposure of plant to the pathogenic double strande
 synonym: "dsRNA nonenveloped viruses (related)" RELATED []
 synonym: "dsRNA virus treatment (narrow)" NARROW []
 is_a: PECO:0007210 ! virus plant exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007111
@@ -10249,10 +10527,11 @@ id: PECO:0007151
 name: radiation exposure
 alt_id: EO:0007151
 def: "A physical plant exposure (PECO:0007316) involving an exposure with a radiation type, intensity or quantity." [Gramene:pankaj_jaiswal, PECO:cooperl]
-comment: EMR is classified according to the frequency of its wave. The electromagnetic spectrum, in order of increasing frequency and decreasing wavelength, consists of radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays and gamma rays. (from Wikipedia).
+comment: Electromagnetic radiation is classified according to the frequency of its waves. The electromagnetic spectrum, in order of increasing frequency and decreasing wavelength, consists of radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays and gamma rays. {xref="Wikipedia:Electromagnetic_radiation"}
 synonym: "light regimen (related)" RELATED []
 synonym: "radiation treatment (narrow)" NARROW []
 is_a: PECO:0007316 ! physical plant exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007152
@@ -10292,6 +10571,7 @@ name: clay soil exposure
 alt_id: EO:0007156
 synonym: "clay soil treatment (narrow)" NARROW []
 is_a: PECO:0007155 ! soil type exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007157
@@ -10306,6 +10586,7 @@ name: sandy soil exposure
 alt_id: EO:0007158
 synonym: "sandy soil treatment (narrow)" NARROW []
 is_a: PECO:0007155 ! soil type exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007159
@@ -10331,6 +10612,7 @@ def: "The treatment involving an exposure to wind with varying degree of tempera
 synonym: "air temperature treatment (narrow)" NARROW []
 is_a: PECO:0007175 ! temperature environment exposure
 is_a: PECO:0007382 ! wind environment exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007162
@@ -10365,6 +10647,7 @@ synonym: "growth hormone treatment (narrow)" NARROW []
 xref: OBO_SF2_PECO:72
 xref: PECO_GIT:71
 is_a: PECO:0007189 ! chemical exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007166
@@ -10384,6 +10667,7 @@ xref: CHEBI:25944
 xref: OBO_SF2_PECO:74
 xref: PECO_GIT:73
 is_a: PECO:0007189 ! chemical exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007168
@@ -10499,6 +10783,7 @@ def: "The treatment involving an exposure to a given amount of rainfall." [Grame
 synonym: "rainfall treatment (narrow)" NARROW []
 is_a: PECO:0007064 ! ecological environment exposure
 is_a: PECO:0007198 ! water environment exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007182
@@ -10538,6 +10823,7 @@ xref: CHEBI:24866
 xref: OBO_SF2_PECO:77
 xref: PECO_GIT:76
 is_a: PECO:0007189 ! chemical exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007186
@@ -11006,6 +11292,7 @@ def: "The treatment involving exposure of plant to elements that are required in
 synonym: "micronutrient treatment (narrow)" NARROW []
 synonym: "trace element regimen (related)" RELATED []
 is_a: PECO:0007241 ! plant nutrient exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007240
@@ -11068,6 +11355,7 @@ def: "A biotic plant exposure (PECO:0007357) involving exposure of a plant to ba
 synonym: "bacterial plant treatment (narrow)" NARROW []
 synonym: "eubacteria (related)" RELATED []
 is_a: PECO:0007357 ! biotic plant exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007247
@@ -11358,6 +11646,7 @@ alt_id: EO:0007278
 def: "The treatment involving exposure of plant to oxygen to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "oxygen treatment (narrow)" NARROW []
 is_a: PECO:0007043 ! non-mineral nutrient exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007279
@@ -11717,6 +12006,7 @@ def: "The treatment involving exposure of plant to the rice yellow mottle virus.
 synonym: "rice yellow mottle virus treatment (narrow)" NARROW []
 synonym: "RYMV (related)" RELATED []
 is_a: PECO:0007109 ! ssRNA positive-strand virus with no DNA stage exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007319
@@ -12008,6 +12298,7 @@ def: "A biotic plant exposure (PECO:0007357) involving exposure of a plant to a 
 synonym: "Animalia (related)" RELATED []
 synonym: "metazoan plant treatment (narrow)" NARROW []
 is_a: PECO:0007357 ! biotic plant exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007350
@@ -12017,6 +12308,7 @@ def: "The treatment involving exposure of plant to the rice stripe virus. It is 
 synonym: "rice stripe virus treatment (narrow)" NARROW []
 synonym: "RSV (related)" RELATED []
 is_a: PECO:0007111 ! ssRNA negative-strand virus exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007351
@@ -12048,6 +12340,7 @@ synonym: "hoja blanca (related)" RELATED []
 synonym: "rice hoja blanca tenuivirus (related)" RELATED []
 synonym: "rice hoja blanca virus treatment (narrow)" NARROW []
 is_a: PECO:0007111 ! ssRNA negative-strand virus exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007357
@@ -12067,6 +12360,7 @@ def: "The treatment involving exposure of plant to the rice grassy stunt virus. 
 synonym: "RGSV (related)" RELATED []
 synonym: "rice grassy stunt virus treatment (narrow)" NARROW []
 is_a: PECO:0007111 ! ssRNA negative-strand virus exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007359
@@ -12087,6 +12381,7 @@ def: "The treatment involving exposure of plant to the barley yellow dwarf virus
 synonym: "barley yellow dwarf virus treatment (narrow)" NARROW []
 synonym: "BYDV (related)" RELATED []
 is_a: PECO:0007109 ! ssRNA positive-strand virus with no DNA stage exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007361
@@ -12408,6 +12703,7 @@ synonym: "deep water (related)" RELATED []
 synonym: "flood prone region treatment (narrow)" NARROW []
 synonym: "flooding (related)" RELATED []
 is_a: PECO:0007064 ! ecological environment exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007397
@@ -12440,6 +12736,7 @@ alt_id: EO:0007400
 def: "The treatment involving the plant or the populations grown in regions where the land is excessively dry and receives insufficient rainfall to support agriculture." [Gramene:pankaj_jaiswal]
 synonym: "arid region treatment (narrow)" NARROW []
 is_a: PECO:0007394 ! desert like region exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007401
@@ -12501,6 +12798,7 @@ synonym: "methyl jasmonate treatment (narrow)" NARROW []
 xref: OBO_SF2_PECO:62
 xref: PECO_GIT:62
 is_a: PECO:0001003 ! organic chemical exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007408
@@ -12511,6 +12809,7 @@ synonym: "5-methyltryptophan treatment (narrow)" NARROW []
 xref: OBO_SF2_PECO:61
 xref: PECO_GIT:61
 is_a: PECO:0001003 ! organic chemical exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007409
@@ -12552,6 +12851,7 @@ alt_id: EO:0007412
 def: "The treatment involving exposure of plant to micronutrient zinc by adding ZnSO4 as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "zinc sulphate treatment (narrow)" NARROW []
 synonym: "ZnSO4 (related)" RELATED []
+is_a: PECO:0007085 ! fertilizer exposure
 is_a: PECO:0007185 ! salt exposure
 is_a: PECO:0007309 ! zinc nutrient exposure
 
@@ -12574,6 +12874,7 @@ synonym: "peroxide treatment (narrow)" NARROW []
 xref: OBO_SF2_PECO:73
 xref: PECO_GIT:72
 is_a: PECO:0007189 ! chemical exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007415
@@ -12604,6 +12905,7 @@ def: "The treatment involving use of 1,2-dichloroethane for mutagenesis process.
 synonym: "1,2-dichloroethane treatment (narrow)" NARROW []
 synonym: "DCE (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007505
@@ -12612,6 +12914,7 @@ alt_id: EO:0007505
 def: "The treatment involving use of 1,2:5,6-dibenzanthracene for mutagenesis process." [CAS:[53-70-3\], Gramene:pankaj_jaiswal]
 synonym: "1,2:5,6-dibenzanthracene treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007506
@@ -12621,6 +12924,7 @@ def: "The treatment involving use of 1,4-dimethanesulfonoxy-1:4-dimethylbutane f
 synonym: "1,4-dimethanesulfonoxy-1:4-dimethylbutane treatment (narrow)" NARROW []
 synonym: "CB2348 (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007507
@@ -12630,6 +12934,7 @@ def: "The treatment involving use of 1,4-dimethanesulfonoxybut-2-yne for mutagen
 synonym: "1,4-dimethanesulfonoxybut-2-yne treatment (narrow)" NARROW []
 synonym: "CB2058 (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007508
@@ -12650,6 +12955,7 @@ def: "The treatment involving use of 1,6-dimethylsulfonoxy D-mannitol for mutage
 synonym: "1,6-dimethylsulfonoxy D-mannitol treatment (narrow)" NARROW []
 synonym: "CB2511 (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007510
@@ -12659,6 +12965,7 @@ def: "The treatment involving use of 1,6-dimethylsulfonoxy L-mannitol for mutage
 synonym: "1,6-dimethylsulfonoxy L-mannitol treatment (narrow)" NARROW []
 synonym: "CB2628 (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007511
@@ -12667,6 +12974,7 @@ alt_id: EO:0007511
 def: "The treatment involving use of 1-amino-2-naphthol-4-sulfonic acid for mutagenesis process." [CAS:[116-63-2\], Gramene:pankaj_jaiswal]
 synonym: "1-amino-2-naphthol-4-sulfonic acid treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007512
@@ -12676,6 +12984,7 @@ def: "The treatment involving use of 1-bromo-2-chloroethane for mutagenesis proc
 synonym: "1-bromo-2-chloroethane treatment (narrow)" NARROW []
 synonym: "BCE (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007513
@@ -12684,6 +12993,7 @@ alt_id: EO:0007513
 def: "The treatment involving use of 1-diethylaminoethylethylamino-4-methyl-thioxanthenone for mutagenesis process." [CAS:[479-50-5\], Gramene:pankaj_jaiswal]
 synonym: "1-diethylaminoethylethylamino-4-methyl-thioxanthenone treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007514
@@ -12692,6 +13002,7 @@ alt_id: EO:0007514
 def: "The treatment involving use of 2,5,-bisethylene-imine-1,4-benzoquinone for mutagenesis process." [CAS:[526-62-5\], Gramene:pankaj_jaiswal]
 synonym: "2,5,-bisethylene-imine-1,4-benzoquinone treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007515
@@ -12701,6 +13012,7 @@ def: "The treatment involving use of 2-chloroethyl methanesulfonate for mutagene
 synonym: "2-chloroethyl methanesulfonate treatment (narrow)" NARROW []
 synonym: "CB1506 (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007516
@@ -12710,6 +13022,7 @@ def: "The treatment involving use of 2-fluoroethyl methanesulfonate for mutagene
 synonym: "2-fluoroethyl methanesulfonate treatment (narrow)" NARROW []
 synonym: "CB1522 (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007517
@@ -12718,6 +13031,7 @@ alt_id: EO:0007517
 def: "The treatment involving use of 2-methoxyethanol for mutagenesis process." [CAS:[109-86-4\], Gramene:pankaj_jaiswal]
 synonym: "2-methoxyethanol treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007518
@@ -12726,6 +13040,7 @@ alt_id: EO:0007518
 def: "The treatment involving use of 5-bromouracil for mutagenesis process." [CAS:[51-20-7\], Gramene:pankaj_jaiswal]
 synonym: "5-bromouracil treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007519
@@ -12734,6 +13049,7 @@ alt_id: EO:0007519
 def: "The treatment involving use of 5-bromouridine for mutagenesis process." [CAS:[957-75-5\], Gramene:pankaj_jaiswal]
 synonym: "5-bromouridine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007520
@@ -12761,6 +13077,7 @@ alt_id: EO:0007522
 def: "The treatment involving use of aminopterin for mutagenesis process." [CAS:[54-62-6\], Gramene:pankaj_jaiswal]
 synonym: "aminopterin treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007523
@@ -12777,6 +13094,7 @@ alt_id: EO:0007524
 def: "The treatment involving use of caffeine for mutagenesis process." [CAS:[58-08-2\], Gramene:pankaj_jaiswal]
 synonym: "caffeine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007525
@@ -12786,6 +13104,7 @@ def: "The treatment involving use of cisplatin for mutagenesis process." [CAS:[1
 synonym: "cis-dichlorodiammineplatinum(II) (related)" RELATED []
 synonym: "cisplatin treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007526
@@ -12794,6 +13113,7 @@ alt_id: EO:0007526
 def: "The treatment involving use of colchicine for mutagenesis process." [CAS:[64-86-8\], Gramene:pankaj_jaiswal]
 synonym: "colchicine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007527
@@ -12801,6 +13121,7 @@ name: cupric sulfate exposure
 alt_id: EO:0007527
 def: "The treatment involving use of cupric sulfate for mutagenesis process." [CAS:[7758-98-7\], Gramene:pankaj_jaiswal]
 synonym: "cupric sulfate treatment (narrow)" NARROW []
+is_a: PECO:0007085 ! fertilizer exposure
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: PECO:0007185 ! salt exposure
 
@@ -12813,6 +13134,7 @@ synonym: "DEB (related)" RELATED []
 synonym: "diepoxybutane treatment (narrow)" NARROW []
 synonym: "erythritol anhydride (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007529
@@ -12830,6 +13152,7 @@ def: "The treatment involving use of diethyl sulfate for mutagenesis process." [
 synonym: "DES (related)" RELATED []
 synonym: "diethyl sulfate treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007531
@@ -12838,6 +13161,7 @@ alt_id: EO:0007531
 def: "The treatment involving use of dimthyl sulfate for mutagenesis process." [CAS:[67-68-5\], Gramene:pankaj_jaiswal]
 synonym: "dimethyl sulfoxide treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007532
@@ -12846,6 +13170,7 @@ alt_id: EO:0007532
 def: "The treatment involving use of DNA fragment insertion or deletion as part of mutagenesis." [CAS:[9007-49-2\], Gramene:pankaj_jaiswal]
 synonym: "DNA treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007533
@@ -12854,6 +13179,7 @@ alt_id: EO:0007533
 def: "The treatment involving use of ethyl ether for mutagenesis process." [CAS:[60-29-7\], Gramene:pankaj_jaiswal]
 synonym: "ethyl ether treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007534
@@ -12865,6 +13191,7 @@ synonym: "EMS (related)" RELATED []
 synonym: "ethyl methanesulfonate treatment (narrow)" NARROW []
 synonym: "Methanesulfonic acid ethyl ester (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007535
@@ -12874,6 +13201,7 @@ def: "The treatment involving use of ethyl nitrosourea for mutagenesis process."
 synonym: "ENU (related)" RELATED []
 synonym: "ethyl nitrosourea treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007536
@@ -12882,6 +13210,7 @@ alt_id: EO:0007536
 def: "The treatment involving use of ethylene oxide for mutagenesis process." [Gramene:pankaj_jaiswal]
 synonym: "ethylene oxide treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007537
@@ -12891,6 +13220,7 @@ def: "The treatment involving use of ethylenimine for mutagenesis process." [CAS
 synonym: "EI (related)" RELATED []
 synonym: "ethylenimine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007538
@@ -12899,6 +13229,7 @@ alt_id: EO:0007538
 def: "The treatment involving use of fagaronine for mutagenesis process." [Gramene:pankaj_jaiswal]
 synonym: "fagaronine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007539
@@ -12917,6 +13248,7 @@ def: "The treatment involving use of boric acid for mutagenesis process." [Grame
 synonym: "boric acid treatment (narrow)" NARROW []
 synonym: "H3BO3 (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007541
@@ -12935,6 +13267,7 @@ synonym: "altretamine (related)" RELATED []
 synonym: "hexamethylmelamine treatment (narrow)" NARROW []
 synonym: "HMM (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007543
@@ -12973,6 +13306,7 @@ def: "The treatment involving use of ICR 170 for mutagenesis process." [CAS:[146
 synonym: "2-methoxy-6-dichloro-9-(3-ethyl-2-chloroethyl-aminopropylamino)acridine-dihydrochloride (related)" RELATED []
 synonym: "ICR 170 treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007547
@@ -12981,6 +13315,7 @@ alt_id: EO:0007547
 def: "The treatment involving use of iodine for mutagenesis process." [CAS:[7553-56-2\], Gramene:pankaj_jaiswal]
 synonym: "iodine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007548
@@ -12998,6 +13333,7 @@ alt_id: EO:0007549
 def: "The treatment involving use of methoxy diethylnitrosamine for mutagenesis process." [Gramene:pankaj_jaiswal]
 synonym: "methoxy diethylnitrosamine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007550
@@ -13008,6 +13344,7 @@ synonym: "CB1540 (related)" RELATED []
 synonym: "methyl methanesulfonate treatment (narrow)" NARROW []
 synonym: "MMS (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007551
@@ -13028,6 +13365,7 @@ def: "The treatment involving use of mustard gas for mutagenesis process." [CAS:
 synonym: "1,1'-thiobis[2-chloroethane (related)" RELATED []
 synonym: "mustard gas treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007553
@@ -13038,6 +13376,7 @@ synonym: "MNNG (related)" RELATED []
 synonym: "N-methyl-N'-nitro-N-nitrosoguanidine treatment (narrow)" NARROW []
 synonym: "NNG (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007554
@@ -13047,6 +13386,7 @@ def: "The treatment involving use of N-nitrosodimethylamine for mutagenesis proc
 synonym: "DMN (related)" RELATED []
 synonym: "N-nitrosodimethylamine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007555
@@ -13055,6 +13395,7 @@ alt_id: EO:0007555
 def: "The treatment involving use of natural gas for mutagenesis process." [Gramene:pankaj_jaiswal]
 synonym: "natural gas treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007556
@@ -13067,6 +13408,7 @@ synonym: "HN2 (related)" RELATED []
 synonym: "mechlorethamine (related)" RELATED []
 synonym: "nitrogen mustard treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007557
@@ -13077,6 +13419,7 @@ synonym: "MNU (related)" RELATED []
 synonym: "N-methyl-N-nitrosourea (related)" RELATED []
 synonym: "nitrosomethyl urea treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007558
@@ -13086,6 +13429,7 @@ def: "The treatment involving use of p-N,N-di(2-chloroethyl)aminophenylvaleric a
 synonym: "CB1356 (related)" RELATED []
 synonym: "p-N,N-di(2-chloroethyl)aminophenylvaleric acid treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007559
@@ -13095,6 +13439,7 @@ def: "The treatment involving use of p-N,N-di-(2-chloroethyl)amino-D-phenylalani
 synonym: "CB3026 (related)" RELATED []
 synonym: "p-N,N-di-(2-chloroethyl)amino-D-phenylalanine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007560
@@ -13114,6 +13459,7 @@ def: "The treatment involving use of p-N,N-di-(2-chloroethyl)amino-L-phenylalani
 synonym: "CB3025 (related)" RELATED []
 synonym: "p-N,N-di-(2-chloroethyl)amino-L-phenylalanine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007562
@@ -13133,6 +13479,7 @@ def: "The treatment involving use of p-N,N-di-(2-chloroethyl)aminophenylethylami
 synonym: "CB3034 (related)" RELATED []
 synonym: "p-N,N-di-(2-chloroethyl)aminophenylethylamine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007564
@@ -13142,6 +13489,7 @@ def: "The treatment involving use of p-p'-N,N-di(2-chloroethyl)aminophenoxypheny
 synonym: "CB3051 (related)" RELATED []
 synonym: "p-p'-N,N-di(2-chloroethyl)aminophenoxyphenylalanine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007565
@@ -13150,6 +13498,7 @@ alt_id: EO:0007565
 def: "The treatment involving use of quinhydrone for mutagenesis process." [CAS:[106-34-3\], Gramene:pankaj_jaiswal]
 synonym: "quinhydrone treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007566
@@ -13159,6 +13508,7 @@ def: "The treatment involving use of S-2-chloroethylcysteine for mutagenesis pro
 synonym: "CB1592 (related)" RELATED []
 synonym: "S-2-chloroethylcysteine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007567
@@ -13186,6 +13536,7 @@ def: "The treatment involving use of styryl quinoline for mutagenesis process." 
 synonym: "CB3086 (related)" RELATED []
 synonym: "styryl quinoline treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007570
@@ -13195,6 +13546,7 @@ def: "The treatment involving use of sulfur mustard for mutagenesis process." [C
 synonym: "CB1735 (related)" RELATED []
 synonym: "sulfur mustard treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007571
@@ -13203,6 +13555,7 @@ alt_id: EO:0007571
 def: "The treatment involving use of triaziquone for mutagenesis process." [CAS:[68-76-8\], Gramene:pankaj_jaiswal]
 synonym: "triaziquone treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007572
@@ -13222,6 +13575,7 @@ alt_id: EO:0007573
 def: "The treatment involving use of urethane for mutagenesis process." [CAS:[51-79-6\], Gramene:pankaj_jaiswal]
 synonym: "urethane treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007574
@@ -13230,6 +13584,7 @@ alt_id: EO:0007574
 def: "The treatment involving use of vinyl carbamate for mutagenesis process." [CAS:[15805-73-9\], Gramene:pankaj_jaiswal]
 synonym: "vinyl carbamate treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007610
@@ -13367,6 +13722,7 @@ alt_id: EO:0007629
 def: "An exposure involving exposure of plant to molecular or ionic forms of hydrogen to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "hydrogen treatment (narrow)" NARROW []
 is_a: PECO:0007043 ! non-mineral nutrient exposure
+is_a: RO:0002310
 
 [Term]
 id: PECO:0007630
@@ -13399,7 +13755,7 @@ is_a: PECO:0007167 ! pesticide exposure
 id: PECO:0007633
 name: imidazolinone exposure
 alt_id: EO:0007633
-def: "An herbicide exposure (PECO:0007183) involving the use of an imidazolinone herbicide." [TO:moorel, web:http\://corn.agronomy.wisc.edu/AAdvice/1994/A001.html]
+def: "An herbicide exposure (PECO:0007183) involving the use of an imidazolinone herbicide." [TO:moorel]
 comment: This type of herbicides are taken up by plant root and leaf tissue and transported to the meristems via both phloem and xylem. The herbicide stops the activity of the enzyme, acetolactate synthase (ALS), which is involved in branch chain amino acid (valine, leucine and isoleucine) synthesis.
 synonym: "imidazolinone treatment (narrow)" NARROW []
 xref: OBO_SF2_PECO:75
@@ -13413,6 +13769,10 @@ alt_id: EO:0007634
 def: "The treatment involving exposure of plant to the pest commonly calles as cutworm." [Gramene:pankaj_jaiswal]
 synonym: "Spodoptera litura treatment (narrow)" NARROW []
 is_a: PECO:0007115 ! Spodoptera spp. exposure
+
+[Term]
+id: RO:0002310
+is_a: BFO:0000015
 
 [Term]
 id: RO:0002577

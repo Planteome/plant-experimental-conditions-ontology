@@ -854,6 +854,15 @@ xref: PECO_GIT:123
 is_a: PECO:0007107 ! Ascomycota exposure
 
 [Term]
+id: PECO:0001072
+name: Rhizobium leguminosarum exposure
+def: "A bacterial plant exposure (PECO:0007246) involving exposure of the plant to Rhizobium leguminosarum." [NCBITaxon:384, PECO:cooperl]
+comment: Rhizobium leguminosarum is a mutualistic symbiont which has the has the ability to fix free nitrogen from the air.  It is typically applied as a as a seed dressing.
+xref: PECO_GIT:120
+is_a: PECO:0007246 ! bacterial plant exposure
+property_value: http://purl.org/dc/elements/1.1/creator "cooperl" xsd:string
+
+[Term]
 id: PECO:0007001
 name: UV-B light exposure
 alt_id: EO:0007001

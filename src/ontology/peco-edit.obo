@@ -846,6 +846,14 @@ created_by: cooperl
 creation_date: 2019-09-20T22:36:52Z
 
 [Term]
+id: PECO:0001071
+name: Zymoseptoria tritici exposure
+def: "An Ascomycota exposure (PECO:0007107) which is the exposure of a plant the to the pathogen Zymoseptoria tritici." [NCBITaxon:1047171, PECO:cooperl]
+comment: Zymoseptoria tritici (NCBITaxon_1047171) is a causal agent of leaf blotch in wheat.
+xref: PECO_GIT:123
+is_a: PECO:0007107 ! Ascomycota exposure
+
+[Term]
 id: PECO:0007001
 name: UV-B light exposure
 alt_id: EO:0007001

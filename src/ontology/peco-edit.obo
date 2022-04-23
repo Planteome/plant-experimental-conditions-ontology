@@ -655,7 +655,7 @@ name: Glomeromycota exposure
 alt_id: EO:0001058
 def: "A fungal plant exposure (PECO:0007233) involving the exposure of plant to the pathogen belonging to Glomeromyetes class." [PECO:laura_moore]
 synonym: "Glomeromycota treatment (narrow)" NARROW []
-xref: NCBI_Taxon_ID:214504
+xref: NCBITaxon:214504
 xref: PECO_GIT:68
 is_a: PECO:0007233 ! fungal plant exposure
 created_by: moorel
@@ -1302,7 +1302,7 @@ comment: Sphaerulina oryzina is a causal agent for rice Narrow Brown Leaf Spot d
 synonym: "Cercospora janseana (related)" RELATED []
 synonym: "Cercospora oryzae (related)" RELATED []
 synonym: "Sphaerulina oryzina treatment (narrow)" NARROW []
-xref: NCBI_Taxon_ID:706553
+xref: NCBITaxon:706553
 is_a: PECO:0007233 ! fungal plant exposure
 
 [Term]
@@ -1431,7 +1431,7 @@ alt_id: EO:0007073
 def: "A fungal plant exposure (PECO:0007233) involving the exposure of plant to the pathogen belonging to Basidiomycetes class." [Gramene:ivy, NCBITaxon:5204]
 synonym: "basidiomycetes (related)" RELATED []
 synonym: "Basidiomycota treatment (narrow)" NARROW []
-xref: NCBI_Taxon_ID:5204
+xref: NCBITaxon:5204
 is_a: PECO:0007233 ! fungal plant exposure
 
 [Term]
@@ -1718,7 +1718,7 @@ alt_id: EO:0007107
 def: "A fungal plant exposure (PECO:0007233) involving the exposure of plant to the pathogen belonging to Ascomycetes class." [Gramene:ivy, NCBITaxon:4890]
 synonym: "ascomycetes (related)" RELATED []
 synonym: "Ascomycota treatment (narrow)" NARROW []
-xref: NCBI_Taxon_ID:4890
+xref: NCBITaxon:4890
 is_a: PECO:0007233 ! fungal plant exposure
 
 [Term]

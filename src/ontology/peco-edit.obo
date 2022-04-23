@@ -16,7 +16,7 @@ ontology: peco
 id: PECO:0001001
 name: plant exposure
 alt_id: EO:0001001
-def: "A plant experimental condition (PECO:0007359) or set of conditions describing the application of an abiotic (PECO:0007191) or biotic plant exposure (PECO:0007357) or the combinatorial application thereof." [PECO:cooperl]
+def: "A plant experimental condition (PECO:0007359) or set of conditions describing the application of an abiotic (PECO:0007191) or biotic plant exposure (PECO:0007357) or the combinatorial application thereof." [orcid:0000-0002-6379-8932]
 synonym: "plant treatment (narrow)" NARROW []
 xref: PECO_GIT:48
 is_a: PECO:0007359 ! plant experimental condition
@@ -27,7 +27,7 @@ creation_date: 2013-04-10T13:21:11Z
 id: PECO:0001002
 name: plant growth environment
 alt_id: EO:0001002
-def: "OBSOLETE: A plant environment (PECO:0007359) involving a plant exposure (PECO:0001001), or a combination plant treatments, as well as natural conditions for plant growth." [PECO:cooperl]
+def: "OBSOLETE: A plant environment (PECO:0007359) involving a plant exposure (PECO:0001001), or a combination plant treatments, as well as natural conditions for plant growth." [orcid:0000-0002-6379-8932]
 synonym: "plant growing conditions (exact)" EXACT []
 xref: PECO_GIT:59
 is_obsolete: true
@@ -38,7 +38,7 @@ creation_date: 2013-04-10T13:28:27Z
 id: PECO:0001003
 name: organic chemical exposure
 alt_id: EO:0001003
-def: "A chemical exposure (PECO:0007189) involving the application of organic chemical(s)." [PECO:cooperl]
+def: "A chemical exposure (PECO:0007189) involving the application of organic chemical(s)." [orcid:0000-0002-6379-8932]
 synonym: "organic chemical treatment (narrow)" NARROW []
 xref: PECO_GIT:55
 is_a: PECO:0007189 ! chemical exposure
@@ -49,7 +49,7 @@ creation_date: 2013-04-10T13:58:52Z
 id: PECO:0001004
 name: inorganic chemical exposure
 alt_id: EO:0001004
-def: "A chemical exposure (PECO:0007189) involving the application of inorganic chemical(s)." [PECO:cooperl]
+def: "A chemical exposure (PECO:0007189) involving the application of inorganic chemical(s)." [orcid:0000-0002-6379-8932]
 synonym: "inorganic chemical treatment (narrow)" NARROW []
 xref: PECO_GIT:51
 is_a: PECO:0007189 ! chemical exposure
@@ -60,7 +60,7 @@ creation_date: 2013-04-10T14:03:18Z
 id: PECO:0001005
 name: nickel exposure
 alt_id: EO:0001005
-def: "A mineral exposure (PECO:0007044) involving exposure of plant to nickel (CHEBI:28112)." [CHEBI:28112, PECO:cooperl]
+def: "A mineral exposure (PECO:0007044) involving exposure of plant to nickel (CHEBI:28112)." [CHEBI:28112, orcid:0000-0002-6379-8932]
 synonym: "nickel treatment (narrow)" NARROW []
 xref: PECO_GIT:6
 is_a: PECO:0007044 ! mineral exposure
@@ -71,7 +71,7 @@ creation_date: 2013-04-10T14:35:26Z
 id: PECO:0001006
 name: phosphate exposure
 alt_id: EO:0001006
-def: "An inorganic anion exposure (PECO:0001009) involving the application of phosphate (CHEBI:18367)." [CHEBI:18367, PECO:cooperl]
+def: "An inorganic anion exposure (PECO:0001009) involving the application of phosphate (CHEBI:18367)." [CHEBI:18367, orcid:0000-0002-6379-8932]
 synonym: "phosphate treatment (narrow)" NARROW []
 xref: PECO_GIT:7
 is_a: PECO:0001009 ! inorganic anion exposure
@@ -82,7 +82,7 @@ creation_date: 2013-04-10T14:54:09Z
 id: PECO:0001007
 name: mineral salt exposure
 alt_id: EO:0001007
-def: "A mineral exposure (PECO:0007044) involving exposure of the plant(s) to mineral salts (CHEBI:24866)." [PECO:cooperl]
+def: "A mineral exposure (PECO:0007044) involving exposure of the plant(s) to mineral salts (CHEBI:24866)." [orcid:0000-0002-6379-8932]
 comment: A salt (CHEBI:24866) is defined as an assembly of cations and anions. This is a genral term to include the salts of various minerals.
 synonym: "mineral salt treatment (narrow)" NARROW []
 xref: PECO_GIT:53
@@ -94,7 +94,7 @@ creation_date: 2013-04-10T15:26:58Z
 id: PECO:0001008
 name: sulfate exposure
 alt_id: EO:0001008
-def: "An inorganic anion exposure (PECO:0001009) involving the application of sulfate (CHEBI:35175)." [CHEBI:35175, PECO:cooperl]
+def: "An inorganic anion exposure (PECO:0001009) involving the application of sulfate (CHEBI:35175)." [CHEBI:35175, orcid:0000-0002-6379-8932]
 synonym: "sulfate treatment (narrow)" NARROW []
 xref: PECO_GIT:8
 is_a: PECO:0001009 ! inorganic anion exposure
@@ -105,7 +105,7 @@ creation_date: 2013-04-10T15:29:20Z
 id: PECO:0001009
 name: inorganic anion exposure
 alt_id: EO:0001009
-def: "An inorganic chemical exposure (PECO:0001004) involving the application of an anion or a mixture of anions (CHEBI:22563)." [CHEBI:22563, PECO:cooperl]
+def: "An inorganic chemical exposure (PECO:0001004) involving the application of an anion or a mixture of anions (CHEBI:22563)." [CHEBI:22563, orcid:0000-0002-6379-8932]
 comment: An anion (CHEBI:22653) is defined as a monoatomic or polyatomic species having one or more elementary charges of the electron.
 synonym: "inorganic anion treatment (narrow)" NARROW []
 xref: PECO_GIT:54
@@ -117,7 +117,7 @@ creation_date: 2013-04-11T12:29:25Z
 id: PECO:0001010
 name: carbohydrate exposure
 alt_id: EO:0001010
-def: "An organic chemical exposure (PECO:0001003) involving the application of a carbohydrate (CHEBI:16646) or mixture of carbohydrates." [PECO:cooperl]
+def: "An organic chemical exposure (PECO:0001003) involving the application of a carbohydrate (CHEBI:16646) or mixture of carbohydrates." [orcid:0000-0002-6379-8932]
 comment: Carbohydrate (CHEBI:16646) is defined as the generic term 'carbohydrate' includes monosaccharides, oligosaccharides and polysaccharides as well as substances derived from monosaccharides by reduction of the carbonyl group (alditols), by oxidation of one or more hydroxy groups to afford the corresponding aldehydes, ketones, or carboxylic acids, or by replacement of one or more hydroxy group(s) by a hydrogen atom. Cyclitols are generally not regarded as carbohydrates.
 synonym: "carbohydrate treatment (narrow)" NARROW []
 xref: PECO_GIT:9
@@ -129,7 +129,7 @@ creation_date: 2013-04-11T13:43:22Z
 id: PECO:0001011
 name: monosaccharide exposure
 alt_id: EO:0001011
-def: "A carbohydrate exposure (PECO:0001010) involving the application of monosaccharide(s)(CHEBI:35381)." [CHEBI:35381, PECO:cooperl]
+def: "A carbohydrate exposure (PECO:0001010) involving the application of monosaccharide(s)(CHEBI:35381)." [CHEBI:35381, orcid:0000-0002-6379-8932]
 comment: Monosaccharides (CHEBI:35381) are defined as polyhydroxy aldehydes H[CH(OH)]nC(=O)H or polyhydroxy ketones H-[CHOH]n-C(=O)[CHOH]m-H with three or more carbon atoms. The generic term 'monosaccharide' (as opposed to oligosaccharide or polysaccharide) denotes a single unit, without glycosidic connection to other such units. It includes aldoses, dialdoses, aldoketoses, ketoses and diketoses, as well as deoxy sugars, provided that the parent compound has a (potential) carbonyl group.
 synonym: "monosaccharide treatment (narrow)" NARROW []
 xref: PECO_GIT:56
@@ -141,7 +141,7 @@ creation_date: 2013-04-11T13:49:05Z
 id: PECO:0001012
 name: hexose exposure
 alt_id: EO:0001012
-def: "A monosaccharide exposure (PECO:0001011) involving the application of hexose (CHEBI:18133) sugar(s)." [CHEBI:18133, PECO:cooperl]
+def: "A monosaccharide exposure (PECO:0001011) involving the application of hexose (CHEBI:18133) sugar(s)." [CHEBI:18133, orcid:0000-0002-6379-8932]
 comment: Hexose (CHEBI:18133) is defined as any six-carbon monosaccharide which in its linear form contains either an aldehyde group at position 1 (aldohexose) or a ketone group at position 2 (ketohexose).
 synonym: "hexose treatment (narrow)" NARROW []
 xref: PECO_GIT:57
@@ -153,7 +153,7 @@ creation_date: 2013-04-11T13:55:09Z
 id: PECO:0001013
 name: glucose exposure
 alt_id: EO:0001013
-def: "A hexose exposure (PECO:0001012) involving the application of glucose (CHEBI:17234)." [CHEBI:17234, PECO:cooperl]
+def: "A hexose exposure (PECO:0001012) involving the application of glucose (CHEBI:17234)." [CHEBI:17234, orcid:0000-0002-6379-8932]
 synonym: "glucose treatment (narrow)" NARROW []
 xref: PECO_GIT:10
 is_a: PECO:0001012 ! hexose exposure
@@ -164,7 +164,7 @@ creation_date: 2013-04-11T13:59:21Z
 id: PECO:0001014
 name: disaccharide exposure
 alt_id: EO:0001014
-def: "A carbohydrate exposure (PECO:0001010) involving the application of disaccharide(s)(CHEBI:36233)." [CHEBI:36233, PECO:cooperl]
+def: "A carbohydrate exposure (PECO:0001010) involving the application of disaccharide(s)(CHEBI:36233)." [CHEBI:36233, orcid:0000-0002-6379-8932]
 comment: Disaccharide (CHEBI:36233) is defined as a compound in which two monosaccharides are joined by a glycosidic bond.
 synonym: "disaccharide treatment (narrow)" NARROW []
 xref: PECO_GIT:58
@@ -176,7 +176,7 @@ creation_date: 2013-04-11T14:02:57Z
 id: PECO:0001015
 name: sucrose exposure
 alt_id: EO:0001015
-def: "A disaccharide exposure (PECO:0001014) involving the application of sucrose (CHEBI:17992)." [CHEBI:17992, PECO:cooperl]
+def: "A disaccharide exposure (PECO:0001014) involving the application of sucrose (CHEBI:17992)." [CHEBI:17992, orcid:0000-0002-6379-8932]
 comment: Sucrose (CHEBI:17992) is defined as a disaccharide formed by glucose and fructose units joined by an acetal oxygen bridge from hemiacetal of glucose to the hemiketal of the fructose.
 synonym: "sucrose treatment (narrow)" NARROW []
 xref: PECO_GIT:11
@@ -188,7 +188,7 @@ creation_date: 2013-04-11T14:07:07Z
 id: PECO:0001016
 name: inorganic cation exposure
 alt_id: EO:0001016
-def: "An inorganic chemical exposure (PECO:0001004) involving the application of a cation (CHEBI:36916) or mixture of cations ." [CHEBI:36916, PECO:cooperl]
+def: "An inorganic chemical exposure (PECO:0001004) involving the application of a cation (CHEBI:36916) or mixture of cations ." [CHEBI:36916, orcid:0000-0002-6379-8932]
 synonym: "inorganic cation treatment (narrow)" NARROW []
 is_a: PECO:0001004 ! inorganic chemical exposure
 created_by: cooperl
@@ -198,7 +198,7 @@ creation_date: 2013-04-12T11:42:16Z
 id: PECO:0001017
 name: ammonium exposure
 alt_id: EO:0001017
-def: "An inorganic cation exposure (PECO:0001016) involving the application of ammonium (NH4+) (CHEBI:28938)." [CHEBI:28938, PECO:cooperl]
+def: "An inorganic cation exposure (PECO:0001016) involving the application of ammonium (NH4+) (CHEBI:28938)." [CHEBI:28938, orcid:0000-0002-6379-8932]
 synonym: "ammonium treatment (narrow)" NARROW []
 xref: PECO_GIT:5
 is_a: PECO:0001016 ! inorganic cation exposure
@@ -209,7 +209,7 @@ creation_date: 2013-04-12T11:48:32Z
 id: PECO:0001018
 name: cadmium exposure
 alt_id: EO:0001018
-def: "A mineral exposure (PECO:0007044) involving exposure of plant to cadmium (CHEBI:22977)." [CHEBI:22977, PECO:cooperl]
+def: "A mineral exposure (PECO:0007044) involving exposure of plant to cadmium (CHEBI:22977)." [CHEBI:22977, orcid:0000-0002-6379-8932]
 synonym: "cadmium treatment (narrow)" NARROW []
 xref: PECO_GIT:30
 is_a: PECO:0007044 ! mineral exposure
@@ -220,7 +220,7 @@ creation_date: 2013-04-12T12:14:55Z
 id: PECO:0001019
 name: organic gas exposure
 alt_id: EO:0001019
-def: "An organic chemical exposure (PECO:0001003) involving the application of a gas or mixture of gases." [PECO:cooperl]
+def: "An organic chemical exposure (PECO:0001003) involving the application of a gas or mixture of gases." [orcid:0000-0002-6379-8932]
 synonym: "organic gas treatment (narrow)" NARROW []
 is_a: PECO:0001003 ! organic chemical exposure
 created_by: cooperl
@@ -230,7 +230,7 @@ creation_date: 2013-04-12T12:38:49Z
 id: PECO:0001020
 name: carbon dioxide exposure
 alt_id: EO:0001020
-def: "An inorganic gas exposure (PECO:0001055) that involves the application of carbon dioxide (CHEBI:16526)." [CHEBI:16526, PECO:cooperl]
+def: "An inorganic gas exposure (PECO:0001055) that involves the application of carbon dioxide (CHEBI:16526)." [CHEBI:16526, orcid:0000-0002-6379-8932]
 synonym: "carbon dioxide treatment (narrow)" NARROW []
 xref: PECO_GIT:28
 is_a: PECO:0001055 ! inorganic gas exposure
@@ -241,7 +241,7 @@ creation_date: 2013-04-12T12:41:25Z
 id: PECO:0001021
 name: ozone exposure
 alt_id: EO:0001021
-def: "An inorganic anion exposure (PECO:0001009) involving the application of ozone (CHEBI:29382)." [CHEBI:29382, PECO:cooperl]
+def: "An inorganic anion exposure (PECO:0001009) involving the application of ozone (CHEBI:29382)." [CHEBI:29382, orcid:0000-0002-6379-8932]
 synonym: "ozone treatment (narrow)" NARROW []
 xref: PECO_GIT:29
 is_a: PECO:0001009 ! inorganic anion exposure
@@ -252,7 +252,7 @@ creation_date: 2013-04-12T13:04:10Z
 id: PECO:0001022
 name: gamma radiation exposure
 alt_id: EO:0001022
-def: "A radiation quality exposure (PECO:0007154) involving the exposure to gamma radiation." [PECO:cooperl]
+def: "A radiation quality exposure (PECO:0007154) involving the exposure to gamma radiation." [orcid:0000-0002-6379-8932]
 synonym: "gamma radiation treatment (narrow)" NARROW []
 synonym: "gamma rays (exact)" EXACT []
 xref: PECO_GIT:41
@@ -264,7 +264,7 @@ creation_date: 2013-04-12T13:05:50Z
 id: PECO:0001023
 name: agar growth medium exposure
 alt_id: EO:0001023
-def: "An in vitro solid growth medium (PECO:0007262) composed of agar." [PECO:cooperl]
+def: "An in vitro solid growth medium (PECO:0007262) composed of agar." [orcid:0000-0002-6379-8932]
 synonym: "agar growth medium treatment (narrow)" NARROW []
 xref: PECO_GIT:45
 is_a: PECO:0007262 ! in vitro solid growth medium exposure
@@ -275,7 +275,7 @@ creation_date: 2013-04-12T18:01:37Z
 id: PECO:0001024
 name: vertical agar growth medium exposure
 alt_id: EO:0001024
-def: "An agar growth medium (PECO:0001023) involving use of solid growth media in a vertical orientation." [PECO:cooperl]
+def: "An agar growth medium (PECO:0001023) involving use of solid growth media in a vertical orientation." [orcid:0000-0002-6379-8932]
 synonym: "vertical agar growth medium treatment (narrow)" NARROW []
 xref: PECO_GIT:46
 is_a: PECO:0001023 ! agar growth medium exposure
@@ -286,7 +286,7 @@ creation_date: 2013-04-12T18:30:23Z
 id: PECO:0001025
 name: urea nitrogen exposure
 alt_id: EO:0001025
-def: "A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to urea (CHEBI:16199) as the primary or sole source of nitrogen." [PECO:cooperl]
+def: "A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to urea (CHEBI:16199) as the primary or sole source of nitrogen." [orcid:0000-0002-6379-8932]
 synonym: "urea nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
 is_a: PECO:0007284 ! nitrogen macronutrient exposure
@@ -297,7 +297,7 @@ creation_date: 2013-04-12T19:19:27Z
 id: PECO:0001026
 name: MTA nitrogen exposure
 alt_id: EO:0001026
-def: "A nitrogen macronutrient exposure (PECO:0007284) involving exposure of plant to 5'-S-methyl-5'-thioadenosine (MTA; CHEBI:17509) as the primary or sole source of nitrogen." [CHEBI:17509, PECO:cooperl]
+def: "A nitrogen macronutrient exposure (PECO:0007284) involving exposure of plant to 5'-S-methyl-5'-thioadenosine (MTA; CHEBI:17509) as the primary or sole source of nitrogen." [CHEBI:17509, orcid:0000-0002-6379-8932]
 synonym: "MTA nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
 is_a: PECO:0007284 ! nitrogen macronutrient exposure
@@ -308,7 +308,7 @@ creation_date: 2013-04-12T19:23:02Z
 id: PECO:0001027
 name: alanine nitrogen exposure
 alt_id: EO:0001027
-def: "A nitrogen macronutrient exposure (PECO:0007284) involving exposure of plant to alanine (CHEBI:16449) as the primary or sole source of nitrogen." [CHEBI:16449, PECO:cooperl]
+def: "A nitrogen macronutrient exposure (PECO:0007284) involving exposure of plant to alanine (CHEBI:16449) as the primary or sole source of nitrogen." [CHEBI:16449, orcid:0000-0002-6379-8932]
 synonym: "alanine nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
 is_a: PECO:0007284 ! nitrogen macronutrient exposure
@@ -319,7 +319,7 @@ creation_date: 2013-04-12T19:23:17Z
 id: PECO:0001028
 name: glutamate nitrogen exposure
 alt_id: EO:0001028
-def: "A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to glutamate (CHEBI:29987) as the primary or sole source of nitrogen." [CHEBI:29987, PECO:cooperl]
+def: "A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to glutamate (CHEBI:29987) as the primary or sole source of nitrogen." [CHEBI:29987, orcid:0000-0002-6379-8932]
 synonym: "glutamate nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
 is_a: PECO:0007284 ! nitrogen macronutrient exposure
@@ -330,7 +330,7 @@ creation_date: 2013-04-12T19:35:46Z
 id: PECO:0001029
 name: arginine nitrogen exposure
 alt_id: EO:0001029
-def: "A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to arginine (CHEBI:29016) as the primary or sole source of nitrogen." [CHEBI:29016, PECO:cooperl]
+def: "A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to arginine (CHEBI:29016) as the primary or sole source of nitrogen." [CHEBI:29016, orcid:0000-0002-6379-8932]
 synonym: "arginine nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
 is_a: PECO:0007284 ! nitrogen macronutrient exposure
@@ -341,7 +341,7 @@ creation_date: 2013-04-12T19:36:14Z
 id: PECO:0001030
 name: ornithine nitrogen exposure
 alt_id: EO:0001030
-def: "A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to ornithine (CHEBI:18257) as the primary or sole source of nitrogen." [CHEBI:18257, PECO:cooperl]
+def: "A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to ornithine (CHEBI:18257) as the primary or sole source of nitrogen." [CHEBI:18257, orcid:0000-0002-6379-8932]
 synonym: "ornithine nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
 is_a: PECO:0007284 ! nitrogen macronutrient exposure
@@ -352,7 +352,7 @@ creation_date: 2013-04-12T19:40:51Z
 id: PECO:0001031
 name: glutamine nitrogen exposure
 alt_id: EO:0001031
-def: "A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to glutamine (CHEBI:28300) as the primary or sole source of nitrogen." [CHEBI:28300, PECO:cooperl]
+def: "A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to glutamine (CHEBI:28300) as the primary or sole source of nitrogen." [CHEBI:28300, orcid:0000-0002-6379-8932]
 synonym: "glutamine nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
 is_a: PECO:0007284 ! nitrogen macronutrient exposure
@@ -363,7 +363,7 @@ creation_date: 2013-04-12T19:41:18Z
 id: PECO:0001032
 name: Hymenoptera insect plant exposure
 alt_id: EO:0001032
-def: "An insect plant exposure (PECO:0007333) involving the exposure of a plant to an insect(s) of the Hymenoptera order." [PECO:cooperl]
+def: "An insect plant exposure (PECO:0007333) involving the exposure of a plant to an insect(s) of the Hymenoptera order." [orcid:0000-0002-6379-8932]
 synonym: "Hymenoptera insect plant treatment (narrow)" NARROW []
 is_a: PECO:0007333 ! insect plant exposure
 created_by: cooperl
@@ -373,7 +373,7 @@ creation_date: 2013-04-13T08:01:41Z
 id: PECO:0001033
 name: parasitic wasp insect plant exposure
 alt_id: EO:0001033
-def: "A Hymenoptera insect plant exposure (PECO:0001032) that involves exposure to parasitic wasps." [PECO:cooperl]
+def: "A Hymenoptera insect plant exposure (PECO:0001032) that involves exposure to parasitic wasps." [orcid:0000-0002-6379-8932]
 comment: Parasitic wasp (or parasitoid wasp) refers to a large evolutionary grade of hymenopteran superfamilies, mainly in the Apocrita.
 synonym: "parasitic wasp insect plant treatment (narrow)" NARROW []
 xref: Wikipedia:Parasitoid_wasp
@@ -386,7 +386,7 @@ creation_date: 2013-04-13T13:38:41Z
 id: PECO:0001034
 name: Pseudomonas syringae plant exposure
 alt_id: EO:0001034
-def: "A Pseudomonas plant exposure (PECO:0007144) involving the exposure to bacteria of the Pseudomonas syringae group." [NCBITaxon:136849, PECO:cooperl]
+def: "A Pseudomonas plant exposure (PECO:0007144) involving the exposure to bacteria of the Pseudomonas syringae group." [NCBITaxon:136849, orcid:0000-0002-6379-8932]
 synonym: "Pseudomonas syringae plant treatment (narrow)" NARROW []
 xref: PECO_GIT:40
 is_a: PECO:0007144 ! Pseudomonas plant exposure
@@ -397,7 +397,7 @@ creation_date: 2013-04-13T14:56:13Z
 id: PECO:0001035
 name: stratification exposure
 alt_id: EO:0001035
-def: "A physical exposure (PECO:0007316) involving both low temperature and moist conditions to overcome seed dormancy." [PECO:cooperl]
+def: "A physical exposure (PECO:0007316) involving both low temperature and moist conditions to overcome seed dormancy." [orcid:0000-0002-6379-8932]
 comment: A stratification process is used to pretreat seeds to simulate natural winter conditions in order to overcome dormancy and allow germination.
 synonym: "stratification treatment (narrow)" NARROW []
 xref: PECO_GIT:47
@@ -409,7 +409,7 @@ creation_date: 2013-04-25T14:11:44Z
 id: PECO:0001036
 name: chemical stress exposure
 alt_id: EO:0001036
-def: "A chemical exposure (PECO:0007189) that induces stress." [PECO:cooperl]
+def: "A chemical exposure (PECO:0007189) that induces stress." [orcid:0000-0002-6379-8932]
 synonym: "chemical stress treatment (narrow)" NARROW []
 xref: PECO_GIT:64
 is_a: PECO:0007189 ! chemical exposure
@@ -420,7 +420,7 @@ creation_date: 2013-04-16T13:48:41Z
 id: PECO:0001037
 name: oxidative stress exposure
 alt_id: EO:0001037
-def: "A chemical stress exposure (PECO:0001036) involving use of oxidative stress-inducing chemicals." [PECO:cooperl]
+def: "A chemical stress exposure (PECO:0001036) involving use of oxidative stress-inducing chemicals." [orcid:0000-0002-6379-8932]
 synonym: "oxidative stress treatment (narrow)" NARROW []
 xref: PECO_GIT:32
 is_a: PECO:0001036 ! chemical stress exposure
@@ -431,7 +431,7 @@ creation_date: 2013-04-16T13:54:16Z
 id: PECO:0001038
 name: osmotic stress exposure
 alt_id: EO:0001038
-def: "A chemical stress exposure (PECO:0001036) involving use of osmotic stress-inducing chemicals." [PECO:cooperl]
+def: "A chemical stress exposure (PECO:0001036) involving use of osmotic stress-inducing chemicals." [orcid:0000-0002-6379-8932]
 synonym: "osmotic stress treatment (narrow)" NARROW []
 xref: PECO_GIT:31
 is_a: PECO:0001036 ! chemical stress exposure
@@ -442,7 +442,7 @@ creation_date: 2013-04-16T14:11:36Z
 id: PECO:0001039
 name: radiation mutagen exposure
 alt_id: EO:0001039
-def: "A radiation exposure (PECO:0007151) involving exposure of plant to chemicals or radiation resulting in perturbations to the genome." [PECO:cooperl]
+def: "A radiation exposure (PECO:0007151) involving exposure of plant to chemicals or radiation resulting in perturbations to the genome." [orcid:0000-0002-6379-8932]
 synonym: "radiation mutagen treatment (narrow)" NARROW []
 xref: PECO_GIT:42
 is_a: PECO:0007151 ! radiation exposure
@@ -453,7 +453,7 @@ creation_date: 2013-04-16T14:19:13Z
 id: PECO:0001040
 name: light-induced photooxidative stress exposure
 alt_id: EO:0001040
-def: "A light intensity exposure (PECO:0007224) involving use of light-dependent generations of reactive oxygen species." [PECO:cooperl]
+def: "A light intensity exposure (PECO:0007224) involving use of light-dependent generations of reactive oxygen species." [orcid:0000-0002-6379-8932]
 synonym: "light-induced photooxidative stress treatment (narrow)" NARROW []
 xref: PECO_GIT:44
 is_a: PECO:0007224 ! light intensity exposure
@@ -464,7 +464,7 @@ creation_date: 2013-04-16T14:22:02Z
 id: PECO:0001041
 name: limited zinc exposure
 alt_id: EO:0001041
-def: "A zinc nutrient exposure (PECO:0007309) involving exposure to limiting amounts or absence of zinc (CHEBI:27363)." [CHEBI:27363, PECO:cooperl]
+def: "A zinc nutrient exposure (PECO:0007309) involving exposure to limiting amounts or absence of zinc (CHEBI:27363)." [CHEBI:27363, orcid:0000-0002-6379-8932]
 synonym: "limited zinc treatment (narrow)" NARROW []
 xref: PECO_GIT:23
 is_a: PECO:0007309 ! zinc nutrient exposure
@@ -475,7 +475,7 @@ creation_date: 2013-04-18T15:08:50Z
 id: PECO:0001042
 name: limited boron exposure
 alt_id: EO:0001042
-def: "A boron nutrient exposure (PECO:0007273) involving exposure to limiting amounts or absence of boron (CHEBI:27560)." [CHEBI:27560, PECO:cooperl]
+def: "A boron nutrient exposure (PECO:0007273) involving exposure to limiting amounts or absence of boron (CHEBI:27560)." [CHEBI:27560, orcid:0000-0002-6379-8932]
 synonym: "limited boron treatment (narrow)" NARROW []
 xref: PECO_GIT:15
 is_a: PECO:0007273 ! boron nutrient exposure
@@ -486,7 +486,7 @@ creation_date: 2013-04-18T15:16:27Z
 id: PECO:0001043
 name: limited glucose exposure
 alt_id: EO:0001043
-def: "A glucose exposure (PECO:0001013) involving exposure to limiting amounts or the absence of glucose (CHEBI:17234)." [CHEBI:17234, PECO:cooperl]
+def: "A glucose exposure (PECO:0001013) involving exposure to limiting amounts or the absence of glucose (CHEBI:17234)." [CHEBI:17234, orcid:0000-0002-6379-8932]
 synonym: "limited glucose treatment (narrow)" NARROW []
 xref: PECO_GIT:16
 is_a: PECO:0001013 ! glucose exposure
@@ -497,7 +497,7 @@ creation_date: 2013-04-18T15:21:57Z
 id: PECO:0001044
 name: limited carbon exposure
 alt_id: EO:0001044
-def: "A carbon nutrient exposure (PECO:0007303) involving exposure to limiting amounts or the absence of carbon (CHEBI:27594)." [CHEBI:27594, PECO:cooperl]
+def: "A carbon nutrient exposure (PECO:0007303) involving exposure to limiting amounts or the absence of carbon (CHEBI:27594)." [CHEBI:27594, orcid:0000-0002-6379-8932]
 synonym: "limited carbon treatment (narrow)" NARROW []
 xref: PECO_GIT:13
 is_a: PECO:0007303 ! carbon nutrient exposure
@@ -508,7 +508,7 @@ creation_date: 2013-04-24T12:22:51Z
 id: PECO:0001045
 name: limited sulfate exposure
 alt_id: EO:0001045
-def: "A sulfate exposure (PECO:0001008) involving exposure to limiting amounts or the absence of sulfate (CHEBI:35175)." [CHEBI:35175, PECO:cooperl]
+def: "A sulfate exposure (PECO:0001008) involving exposure to limiting amounts or the absence of sulfate (CHEBI:35175)." [CHEBI:35175, orcid:0000-0002-6379-8932]
 synonym: "limited sulfate treatment (narrow)" NARROW []
 xref: PECO_GIT:27
 is_a: PECO:0001008 ! sulfate exposure
@@ -519,7 +519,7 @@ creation_date: 2013-04-24T12:37:29Z
 id: PECO:0001046
 name: limited phosphate exposure
 alt_id: EO:0001046
-def: "A phosphate exposure (PECO:0001006) involving exposure to limiting amounts or absence of phosphate (CHEBI:18367)." [CHEBI:18367, PECO:cooperl]
+def: "A phosphate exposure (PECO:0001006) involving exposure to limiting amounts or absence of phosphate (CHEBI:18367)." [CHEBI:18367, orcid:0000-0002-6379-8932]
 synonym: "limited phosphate treatment (narrow)" NARROW []
 xref: PECO_GIT:20
 xref: PECO_GIT:26
@@ -531,7 +531,7 @@ creation_date: 2013-04-24T12:43:48Z
 id: PECO:0001047
 name: limited iron exposure
 alt_id: EO:0001047
-def: "An iron nutrient exposure (PECO:0007242) involving exposure to limiting amounts or the absence of iron (CHEBI:18248)." [CHEBI:18248, PECO:cooperl]
+def: "An iron nutrient exposure (PECO:0007242) involving exposure to limiting amounts or the absence of iron (CHEBI:18248)." [CHEBI:18248, orcid:0000-0002-6379-8932]
 synonym: "limited iron treatment (narrow)" NARROW []
 xref: PECO_GIT:14
 is_a: PECO:0007242 ! iron nutrient exposure
@@ -542,7 +542,7 @@ creation_date: 2013-04-24T13:10:33Z
 id: PECO:0001048
 name: limited molybdenum exposure
 alt_id: EO:0001048
-def: "A molybdenum nutrient exposure (PECO:0007253) involving exposure to limiting amounts or the absence of molybdenum (CHEBI:28685)." [CHEBI:28685, PECO:cooperl]
+def: "A molybdenum nutrient exposure (PECO:0007253) involving exposure to limiting amounts or the absence of molybdenum (CHEBI:28685)." [CHEBI:28685, orcid:0000-0002-6379-8932]
 synonym: "limited molybdenum treatment (narrow)" NARROW []
 xref: PECO_GIT:18
 is_a: PECO:0007253 ! molybdenum nutrient exposure
@@ -553,7 +553,7 @@ creation_date: 2013-04-24T13:21:03Z
 id: PECO:0001049
 name: limited magnesium exposure
 alt_id: EO:0001049
-def: "A magnesium nutrient exposure (PECO:0007288) involving exposure to limiting amounts or the absence of magnesium (CHEBI:25107)." [CHEBI:25107, PECO:cooperl]
+def: "A magnesium nutrient exposure (PECO:0007288) involving exposure to limiting amounts or the absence of magnesium (CHEBI:25107)." [CHEBI:25107, orcid:0000-0002-6379-8932]
 synonym: "limited magnesium treatment (narrow)" NARROW []
 xref: PECO_GIT:17
 is_a: PECO:0007288 ! magnesium nutrient exposure
@@ -564,7 +564,7 @@ creation_date: 2013-04-24T13:31:00Z
 id: PECO:0001050
 name: limited nitrogen exposure
 alt_id: EO:0001050
-def: "A nitrogen macronutrient exposure (PECO:0007284) involving exposure to limiting amounts or the absence of nitrogen (CHEBI:25555)." [CHEBI:25555, PECO:cooperl]
+def: "A nitrogen macronutrient exposure (PECO:0007284) involving exposure to limiting amounts or the absence of nitrogen (CHEBI:25555)." [CHEBI:25555, orcid:0000-0002-6379-8932]
 synonym: "limited nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:19
 xref: PECO_GIT:2
@@ -577,7 +577,7 @@ creation_date: 2013-04-24T13:45:43Z
 id: PECO:0001051
 name: limited potassium exposure
 alt_id: EO:0001051
-def: "A potassium nutrient exposure (PECO:0007293) involving exposure to limiting amounts or the absence of potassium (CHEBI:26216)." [CHEBI:26216, PECO:cooperl]
+def: "A potassium nutrient exposure (PECO:0007293) involving exposure to limiting amounts or the absence of potassium (CHEBI:26216)." [CHEBI:26216, orcid:0000-0002-6379-8932]
 synonym: "limited potassium treatment (narrow)" NARROW []
 xref: PECO_GIT:21
 is_a: PECO:0007293 ! potassium nutrient exposure
@@ -588,7 +588,7 @@ creation_date: 2013-04-24T13:54:39Z
 id: PECO:0001052
 name: limited sulfur exposure
 alt_id: EO:0001052
-def: "A sulfur nutrient exposure (PECO:0007295) involving exposure to limiting amounts or the absence of sulfur (CHEBI:26833)." [CHEBI:26833, PECO:cooperl]
+def: "A sulfur nutrient exposure (PECO:0007295) involving exposure to limiting amounts or the absence of sulfur (CHEBI:26833)." [CHEBI:26833, orcid:0000-0002-6379-8932]
 synonym: "limited sulfur treatment (narrow)" NARROW []
 xref: PECO_GIT:22
 is_a: PECO:0007295 ! sulfur nutrient exposure
@@ -599,7 +599,7 @@ creation_date: 2013-04-24T14:06:32Z
 id: PECO:0001053
 name: limited manganese exposure
 alt_id: EO:0001053
-def: "A manganese nutrient exposure (PECO:0007387) involving exposure to limiting amounts or the absence of manganese (CHEBI:18291)." [CHEBI:18291, PECO:cooperl]
+def: "A manganese nutrient exposure (PECO:0007387) involving exposure to limiting amounts or the absence of manganese (CHEBI:18291)." [CHEBI:18291, orcid:0000-0002-6379-8932]
 synonym: "limited manganese treatment (narrow)" NARROW []
 xref: PECO_GIT:24
 is_a: PECO:0007387 ! manganese nutrient exposure
@@ -610,7 +610,7 @@ creation_date: 2013-04-24T14:16:15Z
 id: PECO:0001054
 name: limited nitrate exposure
 alt_id: EO:0001054
-def: "A nitrate exposure (PECO:0007406) involving exposure to limiting amounts or the absence of nitrate (CHEBI:17632)." [CHEBI:17632, PECO:cooperl]
+def: "A nitrate exposure (PECO:0007406) involving exposure to limiting amounts or the absence of nitrate (CHEBI:17632)." [CHEBI:17632, orcid:0000-0002-6379-8932]
 synonym: "limited nitrate treatment (narrow)" NARROW []
 is_a: PECO:0007406 ! nitrate exposure
 created_by: moorel
@@ -620,7 +620,7 @@ creation_date: 2013-04-24T14:28:43Z
 id: PECO:0001055
 name: inorganic gas exposure
 alt_id: EO:0001055
-def: "An inorganic chemical exposure (PECO:0001004) involving the application of a gas or mixture of gases." [PECO:cooperl]
+def: "An inorganic chemical exposure (PECO:0001004) involving the application of a gas or mixture of gases." [orcid:0000-0002-6379-8932]
 synonym: "inorganic gas treatment (narrow)" NARROW []
 xref: PECO_GIT:66
 is_a: PECO:0001004 ! inorganic chemical exposure
@@ -631,7 +631,7 @@ creation_date: 2013-04-25T13:16:47Z
 id: PECO:0001056
 name: elevated carbon dioxide exposure
 alt_id: EO:0001056
-def: "A carbon dioxide exposure (PECO:0001020) involving an increased concentration of carbon dioxide (CHEBI:16526)." [CHEBI:16526, PECO:cooperl]
+def: "A carbon dioxide exposure (PECO:0001020) involving an increased concentration of carbon dioxide (CHEBI:16526)." [CHEBI:16526, orcid:0000-0002-6379-8932]
 synonym: "elevated carbon dioxide treatment (narrow)" NARROW []
 xref: PECO_GIT:1
 is_a: PECO:0001020 ! carbon dioxide exposure
@@ -642,7 +642,7 @@ creation_date: 2013-04-25T13:18:08Z
 id: PECO:0001057
 name: abnormal stratification exposure
 alt_id: EO:0001057
-def: "A stratification exposure (PECO:0001035) involving the absence of, or non-standard exposure to temperature or moisture conditions utilized in the breaking of seed dormancy." [PECO:cooperl]
+def: "A stratification exposure (PECO:0001035) involving the absence of, or non-standard exposure to temperature or moisture conditions utilized in the breaking of seed dormancy." [orcid:0000-0002-6379-8932]
 synonym: "abnormal stratification treatment (narrow)" NARROW []
 xref: PECO_GIT:47
 is_a: PECO:0001035 ! stratification exposure
@@ -676,7 +676,7 @@ creation_date: 2013-06-20T14:08:36Z
 id: PECO:0001060
 name: sodium hydroxide exposure
 alt_id: EO:0001060
-def: "An inorganic anion exposure (PECO:0001009) involving the application of sodium hydroxide (CHEBI:32145)." [PECO:cooperl]
+def: "An inorganic anion exposure (PECO:0001009) involving the application of sodium hydroxide (CHEBI:32145)." [orcid:0000-0002-6379-8932]
 synonym: "NaOH treatment (exact)" EXACT []
 synonym: "sodium hydroxide treatment (narrow)" NARROW []
 xref: PECO_GIT:87
@@ -688,7 +688,7 @@ creation_date: 2014-06-04T10:01:38Z
 id: PECO:0001061
 name: polyethylene glycol exposure
 alt_id: EO:0001061
-def: "An organic chemical exposure (PECO:0001003) involving the application of polyethylene glycol (CHEBI:46793)." [PECO:cooperl]
+def: "An organic chemical exposure (PECO:0001003) involving the application of polyethylene glycol (CHEBI:46793)." [orcid:0000-0002-6379-8932]
 synonym: "PEG treatment (exact)" EXACT []
 synonym: "poly(ethylene glycol) treatment (exact)" EXACT []
 synonym: "polyethylene glycol treatment (narrow)" NARROW []
@@ -700,7 +700,7 @@ creation_date: 2014-06-04T10:14:09Z
 id: PECO:0001062
 name: control exposure
 alt_id: EO:0001062
-def: "A plant exposure (PECO:0001001) used as a reference  to compare the effects of one or more treatment factors in a study." [PECO:cooperl]
+def: "A plant exposure (PECO:0001001) used as a reference  to compare the effects of one or more treatment factors in a study." [orcid:0000-0002-6379-8932]
 comment: A control exposure may involve the application of inert factors such as water in an experiment, or no treatment at all.
 synonym: "control treatment (narrow)" NARROW []
 xref: PECO_GIT:88
@@ -721,7 +721,7 @@ creation_date: 2017-08-08T14:58:32Z
 [Term]
 id: PECO:0001064
 name: potassium fertilizer exposure
-def: "A chemical fertilizer exposure (PECO:0007086) involving the use of potassium fertilizer as a supplement to study plant responses." [PECO:cooperl]
+def: "A chemical fertilizer exposure (PECO:0007086) involving the use of potassium fertilizer as a supplement to study plant responses." [orcid:0000-0002-6379-8932]
 xref: PECO_GIT:112
 is_a: PECO:0007086 ! chemical fertilizer exposure
 created_by: Laurel_Cooper
@@ -730,7 +730,7 @@ creation_date: 2018-10-18T17:40:45Z
 [Term]
 id: PECO:0001065
 name: potassium chloride exposure
-def: "A potassium fertilizer exposure (PECO:0001064) involving the use of potassium chloride fertilizer as a supplement to study plant responses." [PECO:cooperl]
+def: "A potassium fertilizer exposure (PECO:0001064) involving the use of potassium chloride fertilizer as a supplement to study plant responses." [orcid:0000-0002-6379-8932]
 synonym: "muriate of potash exposure (related)" RELATED []
 xref: PECO_GIT:112
 is_a: PECO:0001064 ! potassium fertilizer exposure
@@ -749,7 +749,7 @@ creation_date: 2018-10-18T18:51:16Z
 [Term]
 id: PECO:0001067
 name: castor meal exposure
-def: "A natural fertilizer exposure (PECO:0007087) which is the application of castor meal." [PECO:cooperl]
+def: "A natural fertilizer exposure (PECO:0007087) which is the application of castor meal." [orcid:0000-0002-6379-8932]
 comment: Castor meal is a by-product of castor oil production from seeds of the Castor (Ricinus communis) plant and has a high nitrogen content.
 synonym: "castor meal treatment (exact)" EXACT []
 xref: PECO_GIT:115
@@ -772,7 +772,7 @@ creation_date: 2019-03-22T20:43:53Z
 [Term]
 id: PECO:0001069
 name: green manure exposure
-def: "A natural fertilizer exposure (PECO:0007087) which is the application of a green manure." [PECO:cooperl]
+def: "A natural fertilizer exposure (PECO:0007087) which is the application of a green manure." [orcid:0000-0002-6379-8932]
 comment: Green manure is created by leaving uprooted or sown crop parts to wither on a field so that they serve as a mulch and soil amendment.  The plants used for green manure are often cover crops grown primarily for this purpose.
 xref: PECO_GIT:116
 xref: Wikipedia:Green_manure
@@ -783,7 +783,7 @@ creation_date: 2019-03-22T21:10:04Z
 [Term]
 id: PECO:0001070
 name: calcium carbonate exposure
-def: "A salt exposure (PECO:0007185) which is a treatment with calcium carbonate (CHEBI:3311) in order to raise the pH of the growing media." [PECO:cooperl]
+def: "A salt exposure (PECO:0007185) which is a treatment with calcium carbonate (CHEBI:3311) in order to raise the pH of the growing media." [orcid:0000-0002-6379-8932]
 synonym: "lime exposure (broad)" BROAD []
 is_a: PECO:0007185 ! salt exposure
 relationship: part_of PECO:0007133 ! basic pH growth media environment exposure
@@ -793,7 +793,7 @@ creation_date: 2019-09-20T22:36:52Z
 [Term]
 id: PECO:0001071
 name: Zymoseptoria tritici exposure
-def: "An Ascomycota exposure (PECO:0007107) which is the exposure of a plant the to the pathogen Zymoseptoria tritici." [NCBITaxon:1047171, PECO:cooperl]
+def: "An Ascomycota exposure (PECO:0007107) which is the exposure of a plant the to the pathogen Zymoseptoria tritici." [NCBITaxon:1047171, orcid:0000-0002-6379-8932]
 comment: Zymoseptoria tritici (NCBITaxon_1047171) is a causal agent of leaf blotch in wheat.
 xref: PECO_GIT:123
 is_a: PECO:0007107 ! Ascomycota exposure
@@ -801,7 +801,7 @@ is_a: PECO:0007107 ! Ascomycota exposure
 [Term]
 id: PECO:0001072
 name: Rhizobium leguminosarum exposure
-def: "A bacterial plant exposure (PECO:0007246) involving exposure of the plant to Rhizobium leguminosarum." [NCBITaxon:384, PECO:cooperl]
+def: "A bacterial plant exposure (PECO:0007246) involving exposure of the plant to Rhizobium leguminosarum." [NCBITaxon:384, orcid:0000-0002-6379-8932]
 comment: Rhizobium leguminosarum is a mutualistic symbiont which has the has the ability to fix free nitrogen from the air.  It is typically applied as a as a seed dressing.
 xref: PECO_GIT:120
 is_a: PECO:0007246 ! bacterial plant exposure
@@ -1006,7 +1006,7 @@ is_a: PECO:0007005 ! Viridiplantae plant exposure
 id: PECO:0007023
 name: gaseous exposure
 alt_id: EO:0007023
-def: "A physical plant exposure (PECO:0007316) involving the application of a gas or a combination of gasses." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "A physical plant exposure (PECO:0007316) involving the application of a gas or a combination of gasses." [Gramene:pankaj_jaiswal, orcid:0000-0002-6379-8932]
 synonym: "gaseous treatment (narrow)" NARROW []
 xref: PECO_GIT:85
 is_a: PECO:0007316 ! physical plant exposure
@@ -1040,7 +1040,7 @@ is_a: PECO:0007137 ! Echinochloa spp. exposure
 id: PECO:0007027
 name: seasonal environment exposure
 alt_id: EO:0007027
-def: "A plant exposure (PECO:0001001) involving growth during conditions of regional seasons." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "A plant exposure (PECO:0001001) involving growth during conditions of regional seasons." [Gramene:pankaj_jaiswal, orcid:0000-0002-6379-8932]
 synonym: "seasonal environment treatment (narrow)" NARROW []
 xref: PECO_GIT:83
 is_a: PECO:0001001 ! plant exposure
@@ -1165,7 +1165,7 @@ is_a: PECO:0007241 ! plant nutrient exposure
 id: PECO:0007044
 name: mineral exposure
 alt_id: EO:0007044
-def: "An inorganic chemical exposure (PECO:0001004) involving the application of a mineral or a combination of minerals." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "An inorganic chemical exposure (PECO:0001004) involving the application of a mineral or a combination of minerals." [Gramene:pankaj_jaiswal, orcid:0000-0002-6379-8932]
 synonym: "mineral treatment (narrow)" NARROW []
 xref: PECO_GIT:52
 is_a: PECO:0001004 ! inorganic chemical exposure
@@ -1174,7 +1174,7 @@ is_a: PECO:0001004 ! inorganic chemical exposure
 id: PECO:0007045
 name: primary plant macronutrient exposure
 alt_id: EO:0007045
-def: "A plant macronutrient exposure (PECO:0007240)  involving the use of the primary plant macronutrients nitrogen (N), phosphorus (P), and potassium (K)." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "A plant macronutrient exposure (PECO:0007240)  involving the use of the primary plant macronutrients nitrogen (N), phosphorus (P), and potassium (K)." [Gramene:pankaj_jaiswal, orcid:0000-0002-6379-8932]
 comment: These plant macronutrients are required by the plant in greatest quantities for normal growth.
 synonym: "primary plant macronutrient treatment (narrow)" NARROW []
 is_a: PECO:0007240 ! plant macronutrient exposure
@@ -1226,7 +1226,7 @@ is_a: PECO:0007049 ! soil environment exposure
 id: PECO:0007051
 name: sand content exposure
 alt_id: EO:0007051
-def: "An exposure involving growing plants in a sandy soil growth media." [PECO:cooperl]
+def: "An exposure involving growing plants in a sandy soil growth media." [orcid:0000-0002-6379-8932]
 synonym: "sand content treatment (narrow)" NARROW []
 is_a: PECO:0007050 ! soil texture exposure
 
@@ -1234,7 +1234,7 @@ is_a: PECO:0007050 ! soil texture exposure
 id: PECO:0007052
 name: organic matter content exposure
 alt_id: EO:0007052
-def: "An exposure involving growing plants in a growth media containing organic matter." [PECO:cooperl]
+def: "An exposure involving growing plants in a growth media containing organic matter." [orcid:0000-0002-6379-8932]
 synonym: "organic matter content treatment (narrow)" NARROW []
 is_a: PECO:0007050 ! soil texture exposure
 
@@ -1242,7 +1242,7 @@ is_a: PECO:0007050 ! soil texture exposure
 id: PECO:0007053
 name: silt content exposure
 alt_id: EO:0007053
-def: "An exposure involving growing plants in a silty soil growth media." [PECO:cooperl]
+def: "An exposure involving growing plants in a silty soil growth media." [orcid:0000-0002-6379-8932]
 synonym: "silt content treatment (narrow)" NARROW []
 is_a: PECO:0007050 ! soil texture exposure
 
@@ -1250,7 +1250,7 @@ is_a: PECO:0007050 ! soil texture exposure
 id: PECO:0007054
 name: clay content exposure
 alt_id: EO:0007054
-def: "An exposure involving growing plants in a clay soil growth media." [PECO:cooperl]
+def: "An exposure involving growing plants in a clay soil growth media." [orcid:0000-0002-6379-8932]
 synonym: "clay content treatment (narrow)" NARROW []
 is_a: PECO:0007050 ! soil texture exposure
 
@@ -1341,7 +1341,7 @@ is_a: PECO:0007183 ! herbicide exposure
 id: PECO:0007064
 name: ecological environment exposure
 alt_id: EO:0007064
-def: "A plant exposure (PECO:0001001) involving exposure to the various factors that comprise a geographical/regional location." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "A plant exposure (PECO:0001001) involving exposure to the various factors that comprise a geographical/regional location." [Gramene:pankaj_jaiswal, orcid:0000-0002-6379-8932]
 synonym: "ecological environment treatment (narrow)" NARROW []
 xref: PECO_GIT:79
 is_a: PECO:0001001 ! plant exposure
@@ -1796,7 +1796,7 @@ is_a: PECO:0007114 ! Lepidoptera exposure
 id: PECO:0007116
 name: Hemiptera insect plant exposure
 alt_id: EO:0007116
-def: "An insect plant exposure (PECO:0007333) involving the exposure of a plant to an insect(s) of the Hemiptera order." [Gramene:pankaj_jaiswal, NCBI_taxid:7524, PECO:cooperl]
+def: "An insect plant exposure (PECO:0007333) involving the exposure of a plant to an insect(s) of the Hemiptera order." [Gramene:pankaj_jaiswal, NCBI_taxid:7524, orcid:0000-0002-6379-8932]
 comment: Insects of the Hemiptera order include aphids, planthoppers, bugsnwhiteflies, scale insects, psyllids and jumping plant lice.
 synonym: "bug (related)" RELATED []
 synonym: "Hemiptera insect plant treatment (narrow)" NARROW []
@@ -2060,7 +2060,7 @@ is_a: PECO:0007316 ! physical plant exposure
 id: PECO:0007147
 name: plant growth medium exposure
 alt_id: EO:0007147
-def: "An abiotic plant exposure (PECO:0007191) involving the use of a solid or liquid substrate for growing plants or tissue-cultured plant samples." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "An abiotic plant exposure (PECO:0007191) involving the use of a solid or liquid substrate for growing plants or tissue-cultured plant samples." [Gramene:pankaj_jaiswal, orcid:0000-0002-6379-8932]
 synonym: "plant growth medium treatment (narrow)" NARROW []
 xref: PECO_GIT:81
 is_a: PECO:0007191 ! abiotic plant exposure
@@ -2078,7 +2078,7 @@ is_a: PECO:0007145 ! Xanthomonas plant exposure
 id: PECO:0007149
 name: chemical mutagen exposure
 alt_id: EO:0007149
-def: "A chemical exposure (PECO:0007189) involving use of mutagen for the mutagenesis process." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "A chemical exposure (PECO:0007189) involving use of mutagen for the mutagenesis process." [Gramene:pankaj_jaiswal, orcid:0000-0002-6379-8932]
 synonym: "chemical mutagen treatment (narrow)" NARROW []
 xref: PECO_GIT:64
 is_a: PECO:0007189 ! chemical exposure
@@ -2094,7 +2094,7 @@ is_obsolete: true
 id: PECO:0007151
 name: radiation exposure
 alt_id: EO:0007151
-def: "A physical plant exposure (PECO:0007316) involving an exposure with a radiation type, intensity or quantity." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "A physical plant exposure (PECO:0007316) involving an exposure with a radiation type, intensity or quantity." [Gramene:pankaj_jaiswal, orcid:0000-0002-6379-8932]
 comment: Electromagnetic radiation is classified according to the frequency of its waves. The electromagnetic spectrum, in order of increasing frequency and decreasing wavelength, consists of radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays and gamma rays.
 xref: Wikipedia:Electromagnetic_radiation
 synonym: "light regimen (related)" RELATED []
@@ -2392,7 +2392,7 @@ is_a: PECO:0007328 ! Pythium spp. exposure
 id: PECO:0007187
 name: salicylic acid exposure
 alt_id: EO:0007187
-def: "An organic chemical exposure (PECO:0001003) involving the application of salicylic acid (CHEBI:16914)." [CHEBI:16914, Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "An organic chemical exposure (PECO:0001003) involving the application of salicylic acid (CHEBI:16914)." [CHEBI:16914, Gramene:pankaj_jaiswal, orcid:0000-0002-6379-8932]
 comment: An organic chemical treatment (PECO:0001003) invloving the application of salicylic acid (CHEBI:16914).
 synonym: "salicylic acid treatment (narrow)" NARROW []
 xref: PECO_GIT:63
@@ -2411,7 +2411,7 @@ id: PECO:0007189
 name: chemical exposure
 alt_id: EO:0007042
 alt_id: EO:0007189
-def: "An abiotic plant exposure (PECO:0007191) involving the application of chemical(s)." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "An abiotic plant exposure (PECO:0007191) involving the application of chemical(s)." [Gramene:pankaj_jaiswal, orcid:0000-0002-6379-8932]
 synonym: "chemical treatment (narrow)" NARROW []
 synonym: "other chemical regimen (related)" RELATED []
 xref: PECO_GIT:50
@@ -2429,7 +2429,7 @@ is_a: PECO:0007107 ! Ascomycota exposure
 id: PECO:0007191
 name: abiotic plant exposure
 alt_id: EO:0007191
-def: "A plant exposure (PECO:0001001) involving the application of chemical or non-biological factors." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "A plant exposure (PECO:0001001) involving the application of chemical or non-biological factors." [Gramene:pankaj_jaiswal, orcid:0000-0002-6379-8932]
 synonym: "abiotic plant treatment (narrow)" NARROW []
 xref: PECO_GIT:49
 is_a: PECO:0001001 ! plant exposure
@@ -2497,7 +2497,7 @@ is_a: PECO:0007198 ! water environment exposure
 id: PECO:0007198
 name: water environment exposure
 alt_id: EO:0007198
-def: "A physical plant exposure (PECO:0007316) involving an exposure of varying amounts of water and watering frequencies, which may depend on regional environment." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "A physical plant exposure (PECO:0007316) involving an exposure of varying amounts of water and watering frequencies, which may depend on regional environment." [Gramene:pankaj_jaiswal, orcid:0000-0002-6379-8932]
 synonym: "water environment treatment (narrow)" NARROW []
 xref: PECO_GIT:86
 is_a: PECO:0007316 ! physical plant exposure
@@ -2594,7 +2594,7 @@ is_a: PECO:0007107 ! Ascomycota exposure
 id: PECO:0007210
 name: virus plant exposure
 alt_id: EO:0007210
-def: "A biotic plant exposure (PECO:0007357) involving exposure of a plant to a virus or a combination of two or more viruses." [Gramene:pankaj_jaiswal, NCBI_taxid:10239, PECO:cooperl]
+def: "A biotic plant exposure (PECO:0007357) involving exposure of a plant to a virus or a combination of two or more viruses." [Gramene:pankaj_jaiswal, NCBI_taxid:10239, orcid:0000-0002-6379-8932]
 synonym: "virus plant treatment (narrow)" NARROW []
 is_a: PECO:0007357 ! biotic plant exposure
 
@@ -2694,7 +2694,7 @@ is_a: PECO:0007196 ! light exposure
 id: PECO:0007223
 name: cadmium chloride exposure
 alt_id: EO:0007223
-def: "A cadmium exposure (PECO:0001018) involving use of CdCl2 (CHEBI:35456)." [CHEBI:35456, Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "A cadmium exposure (PECO:0001018) involving use of CdCl2 (CHEBI:35456)." [CHEBI:35456, Gramene:pankaj_jaiswal, orcid:0000-0002-6379-8932]
 comment: Can be used to assess plant response to cadmium, a heavy metal.
 synonym: "cadmium chloride treatment (narrow)" NARROW []
 synonym: "CdCl2 (related)" RELATED []
@@ -2769,7 +2769,7 @@ is_a: PECO:0007047 ! other nutrient exposure
 id: PECO:0007231
 name: study type
 alt_id: EO:0007231
-def: "A plant experimental condition (PECO:0007359) or set of conditions describing what kind of plant growth facility was used for the experiment." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "A plant experimental condition (PECO:0007359) or set of conditions describing what kind of plant growth facility was used for the experiment." [Gramene:pankaj_jaiswal, orcid:0000-0002-6379-8932]
 xref: PECO_GIT:80
 is_a: PECO:0007359 ! plant experimental condition
 
@@ -2844,7 +2844,7 @@ is_a: PECO:0007241 ! plant nutrient exposure
 id: PECO:0007240
 name: plant macronutrient exposure
 alt_id: EO:0007240
-def: "A plant nutrient exposure (PECO:0007241) involving the use of a plant macronutrient or combination of plant macronutrients." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "A plant nutrient exposure (PECO:0007241) involving the use of a plant macronutrient or combination of plant macronutrients." [Gramene:pankaj_jaiswal, orcid:0000-0002-6379-8932]
 comment: The macronutrients comprise the elements required by the plant in relatively large quantities for normal growth.
 synonym: "plant macronutrient treatment (narrow)" NARROW []
 is_a: PECO:0007241 ! plant nutrient exposure
@@ -2853,7 +2853,7 @@ is_a: PECO:0007241 ! plant nutrient exposure
 id: PECO:0007241
 name: plant nutrient exposure
 alt_id: EO:0007241
-def: "A plant chemical exposure (PECO:0007189) involving a plant nutrient or a combination of plant nutrients." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "A plant chemical exposure (PECO:0007189) involving a plant nutrient or a combination of plant nutrients." [Gramene:pankaj_jaiswal, orcid:0000-0002-6379-8932]
 synonym: "fertilizer regimen (broad)" BROAD []
 synonym: "plant nutrient treatment (narrow)" NARROW []
 xref: PECO_GIT:84
@@ -2896,7 +2896,7 @@ is_a: PECO:0007143 ! Erwinia plant exposure
 id: PECO:0007246
 name: bacterial plant exposure
 alt_id: EO:0007246
-def: "A biotic plant exposure (PECO:0007357) involving exposure of a plant to bacteria." [Gramene:ivy, NCBI_taxid:2, PECO:cooperl]
+def: "A biotic plant exposure (PECO:0007357) involving exposure of a plant to bacteria." [Gramene:ivy, NCBI_taxid:2, orcid:0000-0002-6379-8932]
 synonym: "bacterial plant treatment (narrow)" NARROW []
 synonym: "eubacteria (related)" RELATED []
 is_a: PECO:0007357 ! biotic plant exposure
@@ -3034,7 +3034,7 @@ is_a: PECO:0007239 ! micronutrient exposure
 id: PECO:0007262
 name: in vitro solid growth medium exposure
 alt_id: EO:0007262
-def: "An in vitro growth medium (PECO:0007266) involving use of a solid growth medium as a substrate." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "An in vitro growth medium (PECO:0007266) involving use of a solid growth medium as a substrate." [Gramene:pankaj_jaiswal, orcid:0000-0002-6379-8932]
 synonym: "in vitro solid growth medium treatment (narrow)" NARROW []
 xref: PECO_GIT:65
 is_a: PECO:0007266 ! in vitro growth medium exposure
@@ -3065,7 +3065,7 @@ is_a: PECO:0007114 ! Lepidoptera exposure
 id: PECO:0007265
 name: in vitro liquid growth medium exposure
 alt_id: EO:0007265
-def: "An in vitro growth medium (PECO:0007265) involving use of liquid culture media as a substrate." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "An in vitro growth medium (PECO:0007265) involving use of liquid culture media as a substrate." [Gramene:pankaj_jaiswal, orcid:0000-0002-6379-8932]
 synonym: "in vitro liquid growth medium treatment (narrow)" NARROW []
 xref: PECO_GIT:65
 is_a: PECO:0007266 ! in vitro growth medium exposure
@@ -3074,7 +3074,7 @@ is_a: PECO:0007266 ! in vitro growth medium exposure
 id: PECO:0007266
 name: in vitro growth medium exposure
 alt_id: EO:0007266
-def: "A growth medium environment (PECO:0007147) for in vitro culture, involving use of a solid or liquid substrate and which may include nutrients and other amendments." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "A growth medium environment (PECO:0007147) for in vitro culture, involving use of a solid or liquid substrate and which may include nutrients and other amendments." [Gramene:pankaj_jaiswal, orcid:0000-0002-6379-8932]
 synonym: "in vitro growth medium treatment (narrow)" NARROW []
 xref: PECO_GIT:65
 is_a: PECO:0007147 ! plant growth medium exposure
@@ -3231,7 +3231,7 @@ is_a: PECO:0007121 ! Thysanoptera exposure
 id: PECO:0007284
 name: nitrogen macronutrient exposure
 alt_id: EO:0007284
-def: "A primary plant macronutrient exposure (PECO:0007045) involving the application of nitrogen." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "A primary plant macronutrient exposure (PECO:0007045) involving the application of nitrogen." [Gramene:pankaj_jaiswal, orcid:0000-0002-6379-8932]
 synonym: "nitrogen macronutrient treatment (narrow)" NARROW []
 xref: PECO_GIT:3
 is_a: PECO:0007045 ! primary plant macronutrient exposure
@@ -3514,7 +3514,7 @@ is_a: PECO:0007146 ! gravity exposure
 id: PECO:0007316
 name: physical plant exposure
 alt_id: EO:0007316
-def: "An abiotic plant exposure (PECO:0007191) involving the application of a physical factor such as temperature, moisture, gravity, wind, radiation, etc. or a combination thereof." [PECO:cooperl]
+def: "An abiotic plant exposure (PECO:0007191) involving the application of a physical factor such as temperature, moisture, gravity, wind, radiation, etc. or a combination thereof." [orcid:0000-0002-6379-8932]
 synonym: "physical plant treatment (narrow)" NARROW []
 xref: PECO_GIT:77
 is_a: PECO:0007191 ! abiotic plant exposure
@@ -3663,7 +3663,7 @@ is_a: PECO:0007174 ! cold temperature exposure
 id: PECO:0007333
 name: insect plant exposure
 alt_id: EO:0007333
-def: "A metazoan plant treatment  (PECO:0007349) involving exposure of a plant to an insect or a mixture of insects." [Gramene:pankaj_jaiswal, NCBI_taxid:50557, PECO:cooperl]
+def: "A metazoan plant treatment  (PECO:0007349) involving exposure of a plant to an insect or a mixture of insects." [Gramene:pankaj_jaiswal, NCBI_taxid:50557, orcid:0000-0002-6379-8932]
 synonym: "insect (related)" RELATED []
 synonym: "insect plant treatment (narrow)" NARROW []
 synonym: "true insects (related)" RELATED []
@@ -3823,7 +3823,7 @@ is_a: PECO:0007109 ! ssRNA positive-strand virus with no DNA stage exposure
 id: PECO:0007349
 name: metazoan plant exposure
 alt_id: EO:0007349
-def: "A biotic plant exposure (PECO:0007357) involving exposure of a plant to a metazoan organism (animal)." [Gramene:pankaj_jaiswal, NCBI_taxid:33208, PECO:cooperl]
+def: "A biotic plant exposure (PECO:0007357) involving exposure of a plant to a metazoan organism (animal)." [Gramene:pankaj_jaiswal, NCBI_taxid:33208, orcid:0000-0002-6379-8932]
 synonym: "Animalia (related)" RELATED []
 synonym: "metazoan plant treatment (narrow)" NARROW []
 is_a: PECO:0007357 ! biotic plant exposure
@@ -3872,7 +3872,7 @@ is_a: PECO:0007111 ! ssRNA negative-strand virus exposure
 id: PECO:0007357
 name: biotic plant exposure
 alt_id: EO:0007357
-def: "A plant exposure (PECO:0001001) involving the application of a biotic or biological factor such as a microbe, insect, animal, or plant or a combination thereof." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "A plant exposure (PECO:0001001) involving the application of a biotic or biological factor such as a microbe, insect, animal, or plant or a combination thereof." [Gramene:pankaj_jaiswal, orcid:0000-0002-6379-8932]
 synonym: "biotic plant treatment (narrow)" NARROW []
 xref: PECO_GIT:78
 is_a: PECO:0001001 ! plant exposure
@@ -3890,7 +3890,7 @@ is_a: PECO:0007111 ! ssRNA negative-strand virus exposure
 id: PECO:0007359
 name: plant experimental condition
 alt_id: EO:0007359
-def: "A plant exposure (PECO:0001001) and/or study type (PECO:0007231) applied to a whole plant (PO:0000003), a plant structure (PO:00090119), and/or a plant population as part of an experiment to evaluate the plant response." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "A plant exposure (PECO:0001001) and/or study type (PECO:0007231) applied to a whole plant (PO:0000003), a plant structure (PO:00090119), and/or a plant population as part of an experiment to evaluate the plant response." [Gramene:pankaj_jaiswal, orcid:0000-0002-6379-8932]
 comment: The Plant Experimental Condition Ontology describes the treatments, growing conditions, and/or study types used in various types of plant biology experiments. The subjects of the studies may also include in vitro plant structures (PO:0000004). The broadest classes are the plant study types (PECO:0007231), where the terms describe the type of growth facility used in an experiment.  Each study type such as field study (PECO:0007256), growth chamber study (PECO:0007269), greenhouse study (PECO:0007248), or laboratory study (PECO:0007255) will also involve different growing conditions, and may also include specific biotic (PECO:0007357) and/or abiotic (PECO:0007191) plant treatments.  A plant treatment (PECO:0001001) may be a component of a plant experimental condition (PECO:0007359), and the plant study type (PECO:0007231).
 synonym: "plant treatment ontology (related)" RELATED []
 synonym: "treatment ontology (related)" RELATED []
@@ -4279,7 +4279,7 @@ is_a: PECO:0007189 ! chemical exposure
 id: PECO:0007403
 name: unknown exposure
 alt_id: EO:0007403
-def: "A plant exposure (PECO:0001001) where there is a lack of information describing the experimental conditions." [PECO:cooperl]
+def: "A plant exposure (PECO:0001001) where there is a lack of information describing the experimental conditions." [orcid:0000-0002-6379-8932]
 comment: In some cases, only the study type (PECO:0007231) is known, without any additional information about the treatments.
 synonym: "unknown treatment (narrow)" NARROW []
 xref: PECO_GIT:82
@@ -4319,7 +4319,7 @@ is_a: PECO:0001003 ! organic chemical exposure
 id: PECO:0007408
 name: 5-methyltryptophan exposure
 alt_id: EO:0007408
-def: "An organic chemical exposure (PECO:0001003) involving the application of the tryptophan (Trp) analog 5-methyltryptophan (5MT; CHEBI: 52446)." [CHEBI:52446, PECO:cooperl]
+def: "An organic chemical exposure (PECO:0001003) involving the application of the tryptophan (Trp) analog 5-methyltryptophan (5MT; CHEBI: 52446)." [CHEBI:52446, orcid:0000-0002-6379-8932]
 synonym: "5-methyltryptophan treatment (narrow)" NARROW []
 xref: PECO_GIT:61
 is_a: PECO:0001003 ! organic chemical exposure
@@ -4346,7 +4346,7 @@ is_a: PECO:0007402 ! fungal elicitor exposure
 id: PECO:0007411
 name: Pseudomonas fluorescens exposure
 alt_id: EO:0007411
-def: "A Pseudomonas plant exposure (PECO:0007144) involving the exposure to bacteria of the Pseudomonas fluorescens group." [PECO:cooperl]
+def: "A Pseudomonas plant exposure (PECO:0007144) involving the exposure to bacteria of the Pseudomonas fluorescens group." [orcid:0000-0002-6379-8932]
 synonym: "Bacillus fluorescens (related)" RELATED []
 synonym: "Bacillus fluorescens liquefaciens (related)" RELATED []
 synonym: "Bacterium fluorescen (related)" RELATED []

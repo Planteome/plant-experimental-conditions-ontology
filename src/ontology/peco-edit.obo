@@ -655,7 +655,7 @@ name: Glomeromycota exposure
 alt_id: EO:0001058
 def: "A fungal plant exposure (PECO:0007233) involving the exposure of plant to the pathogen belonging to Glomeromyetes class." [PECO:laura_moore]
 synonym: "Glomeromycota treatment (narrow)" NARROW []
-xref: NCBI_Taxon_ID:214504
+xref: NCBITaxon:214504
 xref: PECO_GIT:68
 is_a: PECO:0007233 ! fungal plant exposure
 created_by: moorel
@@ -841,7 +841,7 @@ is_a: PECO:0007050 ! soil texture exposure
 id: PECO:0007005
 name: Viridiplantae plant exposure
 alt_id: EO:0007005
-def: "A biotic plant exposure (PECO:0007357) involving exposure of a plant to another plant." [Gramene:pankaj_jaiswal, NCBI_taxid:33090]
+def: "A biotic plant exposure (PECO:0007357) involving exposure of a plant to another plant." [Gramene:pankaj_jaiswal, NCBITaxon:33090]
 comment: Suggests the exposure of plant to other plants found in its growth environment. These plants may be growing as a weed or as part of normal farming practices. This treatment is part of an assay of any direct or indirect, harmful or beneficial effect of one plant on another through the production of chemical compounds (allelochemicals) that escape in the environment.  Viridiplantae include all plants from algae through angiosperms.
 synonym: "green plant (related)" RELATED []
 synonym: "Viridiplantae plant treatment (narrow)" NARROW []
@@ -865,7 +865,7 @@ is_obsolete: true
 id: PECO:0007008
 name: Monochoria vaginalis exposure
 alt_id: EO:0007008
-def: "An exposure of a reference or experimental plant to the monocot plant Monochoria vaginalis, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBI_taxid:44972]
+def: "An exposure of a reference or experimental plant to the monocot plant Monochoria vaginalis, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBITaxon:44972]
 synonym: "Asian pickerel weed (related)" RELATED []
 synonym: "heartshape false pickerelweed (related)" RELATED []
 synonym: "Monochoria vaginalis treatment (narrow)" NARROW []
@@ -875,7 +875,7 @@ is_a: PECO:0007022 ! Liliopsida exposure
 id: PECO:0007009
 name: Eudicotyledon exposure
 alt_id: EO:0007009
-def: "An exposure of a reference or experimental plant to dicot plants found in its growth environment. These plants may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBI_taxid:71240]
+def: "An exposure of a reference or experimental plant to dicot plants found in its growth environment. These plants may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBITaxon:71240]
 synonym: "dicot (related)" RELATED []
 synonym: "Eudicot (related)" RELATED []
 synonym: "Eudicotyledon treatment (narrow)" NARROW []
@@ -885,7 +885,7 @@ is_a: PECO:0007005 ! Viridiplantae plant exposure
 id: PECO:0007010
 name: Sagittaria montevidensis exposure
 alt_id: EO:0007010
-def: "An exposure of a reference or experimental plant to the monocot plant Sagittaria montevidensis, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBI_taxid:118780]
+def: "An exposure of a reference or experimental plant to the monocot plant Sagittaria montevidensis, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBITaxon:118780]
 synonym: "giant arrowhead (related)" RELATED []
 synonym: "Sagittaria montevidensis treatment (narrow)" NARROW []
 is_a: PECO:0007139 ! Sagittaria spp. exposure
@@ -905,7 +905,7 @@ is_a: PECO:0007139 ! Sagittaria spp. exposure
 id: PECO:0007012
 name: Heteranthera limosa exposure
 alt_id: EO:0007012
-def: "An exposure of a reference or experimental plant to the monocot plant Heteranthera limosa, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBI_taxid:44958]
+def: "An exposure of a reference or experimental plant to the monocot plant Heteranthera limosa, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBITaxon:44958]
 synonym: "blue mud-plantain (related)" RELATED []
 synonym: "ducksalad (related)" RELATED []
 synonym: "Heteranthera limosa treatment (narrow)" NARROW []
@@ -924,7 +924,7 @@ is_a: PECO:0007138 ! Echinodorus spp. exposure
 id: PECO:0007014
 name: Echinodorus cordifolius exposure
 alt_id: EO:0007014
-def: "An exposure of a reference or experimental plant to the monocot plant Echinodorus cordifolius, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBI_taxid:13048]
+def: "An exposure of a reference or experimental plant to the monocot plant Echinodorus cordifolius, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBITaxon:13048]
 synonym: "creeping burhead (related)" RELATED []
 synonym: "Echinodorus cordifolius treatment (narrow)" NARROW []
 synonym: "Texas mudbaby (related)" RELATED []
@@ -987,7 +987,7 @@ is_a: PECO:0007140 ! Scirpus spp. exposure
 id: PECO:0007021
 name: Alisma plantago-aquatica exposure
 alt_id: EO:0007021
-def: "An exposure of a reference or experimental plant to the monocot plant Alisma plantago-aquatica, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBI_taxid:15000]
+def: "An exposure of a reference or experimental plant to the monocot plant Alisma plantago-aquatica, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBITaxon:15000]
 synonym: "Alisma plantago-aquatica treatment (narrow)" NARROW []
 synonym: "water plantain (related)" RELATED []
 is_a: PECO:0007022 ! Liliopsida exposure
@@ -996,7 +996,7 @@ is_a: PECO:0007022 ! Liliopsida exposure
 id: PECO:0007022
 name: Liliopsida exposure
 alt_id: EO:0007022
-def: "An exposure of a reference or experimental plant to monocot plants found in its growth environment. These plants may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBI_taxid:4447]
+def: "An exposure of a reference or experimental plant to monocot plants found in its growth environment. These plants may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBITaxon:4447]
 synonym: "Liliopsida treatment (narrow)" NARROW []
 synonym: "monocot (related)" RELATED []
 synonym: "monocotyledon (related)" RELATED []
@@ -1049,7 +1049,7 @@ is_a: PECO:0001001 ! plant exposure
 id: PECO:0007028
 name: Echinochloa crus-galli exposure
 alt_id: EO:0007028
-def: "An exposure of a reference or experimental plant to the monocot plant Echinochloa crus-galli, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBI_taxid:90397]
+def: "An exposure of a reference or experimental plant to the monocot plant Echinochloa crus-galli, found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBITaxon:90397]
 synonym: "barnyardgrass (related)" RELATED []
 synonym: "cockspur grass (related)" RELATED []
 synonym: "Echinochloa crus-galli treatment (narrow)" NARROW []
@@ -1059,7 +1059,7 @@ is_a: PECO:0007137 ! Echinochloa spp. exposure
 id: PECO:0007029
 name: Typha spp. exposure
 alt_id: EO:0007029
-def: "An exposure of a reference or experimental plant to the monocot plants of genus Typha spp., found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBI_taxid:4732]
+def: "An exposure of a reference or experimental plant to the monocot plants of genus Typha spp., found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBITaxon:4732]
 synonym: "cattail (related)" RELATED []
 synonym: "Typha spp. treatment (narrow)" NARROW []
 is_a: PECO:0007022 ! Liliopsida exposure
@@ -1077,7 +1077,7 @@ is_a: PECO:0007022 ! Liliopsida exposure
 id: PECO:0007031
 name: Mammalia exposure
 alt_id: EO:0007031
-def: "An exposure of a plant to mammalian animals that may damage the plant due to grazing or feeding practices." [Gramene:pankaj_jaiswal, NCBI_taxid:40674]
+def: "An exposure of a plant to mammalian animals that may damage the plant due to grazing or feeding practices." [Gramene:pankaj_jaiswal, NCBITaxon:40674]
 synonym: "mammal (related)" RELATED []
 synonym: "Mammalia treatment (narrow)" NARROW []
 is_a: PECO:0007349 ! metazoan plant exposure
@@ -1258,7 +1258,7 @@ is_a: PECO:0007050 ! soil texture exposure
 id: PECO:0007055
 name: Cochliobolus spp. exposure
 alt_id: EO:0007055
-def: "An exposure involving the growth of a plant with the pathogen Cochliobolus spp." [Gramene:ivy, NCBI_taxid:5015]
+def: "An exposure involving the growth of a plant with the pathogen Cochliobolus spp." [Gramene:ivy, NCBITaxon:5015]
 synonym: "Cochliobolus spp. treatment (narrow)" NARROW []
 is_a: PECO:0007107 ! Ascomycota exposure
 
@@ -1297,12 +1297,12 @@ is_a: PECO:0007134 ! acidic pH growth media environment exposure
 id: PECO:0007060
 name: Sphaerulina oryzina exposure
 alt_id: EO:0007060
-def: "A plant fungal exposure (PECO:0007233) involving the exposure of plant to the pathogen Sphaerulina oryzina." [Gramene:ivy, NCBI_taxid:237189]
+def: "A plant fungal exposure (PECO:0007233) involving the exposure of plant to the pathogen Sphaerulina oryzina." [Gramene:ivy, NCBITaxon:237189]
 comment: Sphaerulina oryzina is a causal agent for rice Narrow Brown Leaf Spot disease.
 synonym: "Cercospora janseana (related)" RELATED []
 synonym: "Cercospora oryzae (related)" RELATED []
 synonym: "Sphaerulina oryzina treatment (narrow)" NARROW []
-xref: NCBI_Taxon_ID:706553
+xref: NCBITaxon:706553
 is_a: PECO:0007233 ! fungal plant exposure
 
 [Term]
@@ -1428,10 +1428,10 @@ is_a: PECO:0007107 ! Ascomycota exposure
 id: PECO:0007073
 name: Basidiomycota exposure
 alt_id: EO:0007073
-def: "A fungal plant exposure (PECO:0007233) involving the exposure of plant to the pathogen belonging to Basidiomycetes class." [Gramene:ivy, NCBI_taxid:5204]
+def: "A fungal plant exposure (PECO:0007233) involving the exposure of plant to the pathogen belonging to Basidiomycetes class." [Gramene:ivy, NCBITaxon:5204]
 synonym: "basidiomycetes (related)" RELATED []
 synonym: "Basidiomycota treatment (narrow)" NARROW []
-xref: NCBI_Taxon_ID:5204
+xref: NCBITaxon:5204
 is_a: PECO:0007233 ! fungal plant exposure
 
 [Term]
@@ -1461,7 +1461,7 @@ is_a: PECO:0007224 ! light intensity exposure
 id: PECO:0007077
 name: Tilletia barclayana exposure
 alt_id: EO:0007077
-def: "Treatment involving the exposure of plant to the pathogen Tilletia barclayana. It is a causal agent for rice Kernel Smut disease." [Gramene:ivy, NCBI_taxid:157178]
+def: "Treatment involving the exposure of plant to the pathogen Tilletia barclayana. It is a causal agent for rice Kernel Smut disease." [Gramene:ivy, NCBITaxon:157178]
 synonym: "Neovossia horrida (related)" RELATED []
 synonym: "Tilletia barclayana treatment (narrow)" NARROW []
 is_a: PECO:0007073 ! Basidiomycota exposure
@@ -1511,10 +1511,10 @@ is_a: PECO:0007396 ! flood prone region exposure
 id: PECO:0007083
 name: Phoma sorghina exposure
 alt_id: EO:0007083
-def: "Treatment involving the exposure of plant to the pathogen Phoma sorghina." [Gramene:ivy, NCBI_taxid:73005]
+def: "Treatment involving the exposure of plant to the pathogen Phoma sorghina." [Gramene:ivy, NCBITaxon:73005]
 comment: It is a causal agent for rice Glume Blight Disease.
 synonym: "Phoma sorghina treatment (narrow)" NARROW []
-xref: NCBI_taxid:73005
+xref: NCBITaxon:73005
 is_a: PECO:0007107 ! Ascomycota exposure
 
 [Term]
@@ -1554,7 +1554,7 @@ is_a: PECO:0007085 ! fertilizer exposure
 id: PECO:0007088
 name: Ceratobasidium oryzae-sativae exposure
 alt_id: EO:0007088
-def: "Treatment involving the exposure of plant to the pathogen Ceratobasidium oryzae-sativae. It is a causal agent for rice Aggregate Sheath Spot disease, which is also known as Brown Sclerotial disease." [Gramene:ivy, NCBI_taxid:63189]
+def: "Treatment involving the exposure of plant to the pathogen Ceratobasidium oryzae-sativae. It is a causal agent for rice Aggregate Sheath Spot disease, which is also known as Brown Sclerotial disease." [Gramene:ivy, NCBITaxon:63189]
 synonym: "Ceratobasidium oryzae-sativae (related)" RELATED []
 synonym: "Ceratobasidium oryzae-sativae treatment (narrow)" NARROW []
 synonym: "Ceratobasidium sativae (related)" RELATED []
@@ -1705,7 +1705,7 @@ is_a: PECO:0007165 ! growth hormone exposure
 id: PECO:0007106
 name: Stramenopiles exposure
 alt_id: EO:0007106
-def: "Treatment involving the exposure of plant to the Stramenopiles (heterokonts) present in the growth environment." [Gramene:pankaj_jaiswal, NCBI_taxid:33634]
+def: "Treatment involving the exposure of plant to the Stramenopiles (heterokonts) present in the growth environment." [Gramene:pankaj_jaiswal, NCBITaxon:33634]
 synonym: "chromophyta (related)" RELATED []
 synonym: "heterokont (related)" RELATED []
 synonym: "Stramenopiles treatment (narrow)" NARROW []
@@ -1715,10 +1715,10 @@ is_a: PECO:0007357 ! biotic plant exposure
 id: PECO:0007107
 name: Ascomycota exposure
 alt_id: EO:0007107
-def: "A fungal plant exposure (PECO:0007233) involving the exposure of plant to the pathogen belonging to Ascomycetes class." [Gramene:ivy, NCBI_taxid:4890]
+def: "A fungal plant exposure (PECO:0007233) involving the exposure of plant to the pathogen belonging to Ascomycetes class." [Gramene:ivy, NCBITaxon:4890]
 synonym: "ascomycetes (related)" RELATED []
 synonym: "Ascomycota treatment (narrow)" NARROW []
-xref: NCBI_Taxon_ID:4890
+xref: NCBITaxon:4890
 is_a: PECO:0007233 ! fungal plant exposure
 
 [Term]
@@ -1742,7 +1742,7 @@ is_a: PECO:0007210 ! virus plant exposure
 id: PECO:0007110
 name: dsRNA virus exposure
 alt_id: EO:0007110
-def: "Treatment involving the exposure of plant to the pathogenic double stranded RNA virus." [Gramene:pankaj_jaiswal, NCBI_taxid:35325]
+def: "Treatment involving the exposure of plant to the pathogenic double stranded RNA virus." [Gramene:pankaj_jaiswal, NCBITaxon:35325]
 synonym: "dsRNA nonenveloped viruses (related)" RELATED []
 synonym: "dsRNA virus treatment (narrow)" NARROW []
 is_a: PECO:0007210 ! virus plant exposure
@@ -1759,7 +1759,7 @@ is_a: PECO:0007210 ! virus plant exposure
 id: PECO:0007112
 name: retroid virus exposure
 alt_id: EO:0007112
-def: "Treatment involving the exposure of plant to the pathogenic retroid virus." [Gramene:pankaj_jaiswal, NCBI_taxid:35268]
+def: "Treatment involving the exposure of plant to the pathogenic retroid virus." [Gramene:pankaj_jaiswal, NCBITaxon:35268]
 synonym: "retroid virus treatment (narrow)" NARROW []
 is_a: PECO:0007210 ! virus plant exposure
 
@@ -1768,7 +1768,7 @@ id: PECO:0007113
 name: rice necrosis mosaic virus exposure
 alt_id: EO:0007113
 alt_id: EO:0007354
-def: "Treatment involving the exposure of plant to the rice necrosis mosaic virus. It is a causal agent for rice necrosis mosaic disease." [Gramene:ivy, NCBI_taxid:59500]
+def: "Treatment involving the exposure of plant to the rice necrosis mosaic virus. It is a causal agent for rice necrosis mosaic disease." [Gramene:ivy, NCBITaxon:59500]
 synonym: "rice necrosis mosaic virus (related)" RELATED []
 synonym: "rice necrosis mosaic virus treatment (narrow)" NARROW []
 synonym: "RNMV (related)" RELATED []
@@ -1778,7 +1778,7 @@ is_a: PECO:0007109 ! ssRNA positive-strand virus with no DNA stage exposure
 id: PECO:0007114
 name: Lepidoptera exposure
 alt_id: EO:0007114
-def: "Treatment involving the exposure of plant to the pest of lepidoptera class." [Gramene:pankaj_jaiswal, NCBI_taxid:7088]
+def: "Treatment involving the exposure of plant to the pest of lepidoptera class." [Gramene:pankaj_jaiswal, NCBITaxon:7088]
 synonym: "butterfly (related)" RELATED []
 synonym: "Lepidoptera treatment (narrow)" NARROW []
 synonym: "moth (related)" RELATED []
@@ -1788,7 +1788,7 @@ is_a: PECO:0007333 ! insect plant exposure
 id: PECO:0007115
 name: Spodoptera spp. exposure
 alt_id: EO:0007115
-def: "Treatment involving the exposure of plant to the pest Spodoptera spp." [Gramene:pankaj_jaiswal, NCBI_taxid:7106]
+def: "Treatment involving the exposure of plant to the pest Spodoptera spp." [Gramene:pankaj_jaiswal, NCBITaxon:7106]
 synonym: "Spodoptera spp. treatment (narrow)" NARROW []
 is_a: PECO:0007114 ! Lepidoptera exposure
 
@@ -1796,7 +1796,7 @@ is_a: PECO:0007114 ! Lepidoptera exposure
 id: PECO:0007116
 name: Hemiptera insect plant exposure
 alt_id: EO:0007116
-def: "An insect plant exposure (PECO:0007333) involving the exposure of a plant to an insect(s) of the Hemiptera order." [Gramene:pankaj_jaiswal, NCBI_taxid:7524, PECO:cooperl]
+def: "An insect plant exposure (PECO:0007333) involving the exposure of a plant to an insect(s) of the Hemiptera order." [Gramene:pankaj_jaiswal, NCBITaxon:7524, PECO:cooperl]
 comment: Insects of the Hemiptera order include aphids, planthoppers, bugsnwhiteflies, scale insects, psyllids and jumping plant lice.
 synonym: "bug (related)" RELATED []
 synonym: "Hemiptera insect plant treatment (narrow)" NARROW []
@@ -1806,7 +1806,7 @@ is_a: PECO:0007333 ! insect plant exposure
 id: PECO:0007117
 name: Pseudaletia spp. exposure
 alt_id: EO:0007117
-def: "Treatment involving the exposure of plant to the pest rice army worm." [Gramene:pankaj_jaiswal, NCBI_taxid:7104]
+def: "Treatment involving the exposure of plant to the pest rice army worm." [Gramene:pankaj_jaiswal, NCBITaxon:7104]
 synonym: "armyworm (related)" RELATED []
 synonym: "Pseudaletia spp. treatment (narrow)" NARROW []
 is_a: PECO:0007114 ! Lepidoptera exposure
@@ -1815,7 +1815,7 @@ is_a: PECO:0007114 ! Lepidoptera exposure
 id: PECO:0007118
 name: Gibberella spp. exposure
 alt_id: EO:0007118
-def: "Treatment involving the exposure of plant to the pathogen Gibberella spp." [Gramene:ivy, NCBI_taxid:5126]
+def: "Treatment involving the exposure of plant to the pathogen Gibberella spp." [Gramene:ivy, NCBITaxon:5126]
 synonym: "Gibberella spp. treatment (narrow)" NARROW []
 is_a: PECO:0007107 ! Ascomycota exposure
 
@@ -1823,7 +1823,7 @@ is_a: PECO:0007107 ! Ascomycota exposure
 id: PECO:0007119
 name: Dipteran insect plant exposure
 alt_id: EO:0007119
-def: "An insect plant exposure (PECO:0007333) involving the exposure of a plant to an insect(s) of the Diptera order." [Gramene:pankaj_jaiswal, NCBI_taxid:7147]
+def: "An insect plant exposure (PECO:0007333) involving the exposure of a plant to an insect(s) of the Diptera order." [Gramene:pankaj_jaiswal, NCBITaxon:7147]
 synonym: "Dipteran insect plant treatment (narrow)" NARROW []
 synonym: "fly (related)" RELATED []
 is_a: PECO:0007333 ! insect plant exposure
@@ -1832,7 +1832,7 @@ is_a: PECO:0007333 ! insect plant exposure
 id: PECO:0007120
 name: Coleoptera exposure
 alt_id: EO:0007120
-def: "Treatment involving the exposure of plant to the pest commonly called as beetles or Coleoptera." [Gramene:pankaj_jaiswal, NCBI_taxid:7041]
+def: "Treatment involving the exposure of plant to the pest commonly called as beetles or Coleoptera." [Gramene:pankaj_jaiswal, NCBITaxon:7041]
 synonym: "beetle (related)" RELATED []
 synonym: "Coleoptera treatment (narrow)" NARROW []
 is_a: PECO:0007333 ! insect plant exposure
@@ -1841,7 +1841,7 @@ is_a: PECO:0007333 ! insect plant exposure
 id: PECO:0007121
 name: Thysanoptera exposure
 alt_id: EO:0007121
-def: "Treatment involving the exposure of plant to the pest of Thysanoptera class." [Gramene:pankaj_jaiswal, NCBI_taxid:30262]
+def: "Treatment involving the exposure of plant to the pest of Thysanoptera class." [Gramene:pankaj_jaiswal, NCBITaxon:30262]
 synonym: "thrips (related)" RELATED []
 synonym: "Thysanoptera treatment (narrow)" NARROW []
 is_a: PECO:0007333 ! insect plant exposure
@@ -1850,7 +1850,7 @@ is_a: PECO:0007333 ! insect plant exposure
 id: PECO:0007122
 name: Chilo exposure
 alt_id: EO:0007122
-def: "Treatment involving the exposure of plant to the pest Chilo." [Gramene:pankaj_jaiswal, NCBI_taxid:168630]
+def: "Treatment involving the exposure of plant to the pest Chilo." [Gramene:pankaj_jaiswal, NCBITaxon:168630]
 synonym: "Chilo treatment (narrow)" NARROW []
 synonym: "stalk borer (related)" RELATED []
 synonym: "stemborer (related)" RELATED []
@@ -1892,7 +1892,7 @@ is_a: PECO:0007337 ! Nematoda exposure
 id: PECO:0007127
 name: Meloidogyne spp. exposure
 alt_id: EO:0007127
-def: "Treatment involving the exposure of plant to the pest Meloidogyne spp. It is a causal agent for rice root knot nematode disease." [Gramene:pankaj_jaiswal, NCBI_taxid:189290]
+def: "Treatment involving the exposure of plant to the pest Meloidogyne spp. It is a causal agent for rice root knot nematode disease." [Gramene:pankaj_jaiswal, NCBITaxon:189290]
 synonym: "Meloidogyne spp. treatment (narrow)" NARROW []
 synonym: "root-knot nematode (related)" RELATED []
 is_a: PECO:0007337 ! Nematoda exposure
@@ -1962,7 +1962,7 @@ is_a: PECO:0007171 ! pH exposure
 id: PECO:0007135
 name: Magnaporthe spp. exposure
 alt_id: EO:0007135
-def: "The treatment involving an exposure of plant to the pathogen Magnaporthe spp." [Gramene:ivy, NCBI_taxid:148303]
+def: "The treatment involving an exposure of plant to the pathogen Magnaporthe spp." [Gramene:ivy, NCBITaxon:148303]
 synonym: "Magnaporthe spp. treatment (narrow)" NARROW []
 is_a: PECO:0007107 ! Ascomycota exposure
 
@@ -1970,7 +1970,7 @@ is_a: PECO:0007107 ! Ascomycota exposure
 id: PECO:0007136
 name: Achlya spp. exposure
 alt_id: EO:0007136
-def: "The treatment involving an exposure of plant to the Achlya spp." [Gramene:pankaj_jaiswal, NCBI_taxid:4765]
+def: "The treatment involving an exposure of plant to the Achlya spp." [Gramene:pankaj_jaiswal, NCBITaxon:4765]
 synonym: "Achlya spp. treatment (narrow)" NARROW []
 is_a: PECO:0007106 ! Stramenopiles exposure
 
@@ -1978,7 +1978,7 @@ is_a: PECO:0007106 ! Stramenopiles exposure
 id: PECO:0007137
 name: Echinochloa spp. exposure
 alt_id: EO:0007137
-def: "The treatment involving an exposure of reference/experimental plant to monocot plant genus Echinochloa found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBI_taxid:45618]
+def: "The treatment involving an exposure of reference/experimental plant to monocot plant genus Echinochloa found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBITaxon:45618]
 synonym: "Echinochloa spp. treatment (narrow)" NARROW []
 is_a: PECO:0007022 ! Liliopsida exposure
 
@@ -1986,7 +1986,7 @@ is_a: PECO:0007022 ! Liliopsida exposure
 id: PECO:0007138
 name: Echinodorus spp. exposure
 alt_id: EO:0007138
-def: "The treatment involving an exposure of reference/experimental plant to monocot plant genus Echinodorus found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBI_taxid:13047]
+def: "The treatment involving an exposure of reference/experimental plant to monocot plant genus Echinodorus found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBITaxon:13047]
 synonym: "burhead (related)" RELATED []
 synonym: "Echinodorus spp. treatment (narrow)" NARROW []
 is_a: PECO:0007022 ! Liliopsida exposure
@@ -1995,7 +1995,7 @@ is_a: PECO:0007022 ! Liliopsida exposure
 id: PECO:0007139
 name: Sagittaria spp. exposure
 alt_id: EO:0007139
-def: "The treatment involving an exposure of reference/experimental plant to monocot plant genus Sagittaria found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBI_taxid:4450]
+def: "The treatment involving an exposure of reference/experimental plant to monocot plant genus Sagittaria found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBITaxon:4450]
 synonym: "arrowhead (related)" RELATED []
 synonym: "Sagittaria spp. treatment (narrow)" NARROW []
 is_a: PECO:0007022 ! Liliopsida exposure
@@ -2004,7 +2004,7 @@ is_a: PECO:0007022 ! Liliopsida exposure
 id: PECO:0007140
 name: Scirpus spp. exposure
 alt_id: EO:0007140
-def: "The treatment involving an exposure of reference/experimental plant to monocot plant genus Scirpus found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBI_taxid:46334]
+def: "The treatment involving an exposure of reference/experimental plant to monocot plant genus Scirpus found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBITaxon:46334]
 synonym: "Scirpus spp. treatment (narrow)" NARROW []
 is_a: PECO:0007022 ! Liliopsida exposure
 
@@ -2012,7 +2012,7 @@ is_a: PECO:0007022 ! Liliopsida exposure
 id: PECO:0007141
 name: Cyperus spp. exposure
 alt_id: EO:0007141
-def: "The treatment involving an exposure of reference/experimental plant to monocot plant genus Cyperus found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBI_taxid:4610]
+def: "The treatment involving an exposure of reference/experimental plant to monocot plant genus Cyperus found in its growth environment. This plant may be growing as a weed or as part of normal farming practices." [Gramene:pankaj_jaiswal, NCBITaxon:4610]
 synonym: "Cyperus spp. treatment (narrow)" NARROW []
 is_a: PECO:0007022 ! Liliopsida exposure
 
@@ -2020,7 +2020,7 @@ is_a: PECO:0007022 ! Liliopsida exposure
 id: PECO:0007142
 name: Scirpophaga spp. exposure
 alt_id: EO:0007142
-def: "The treatment involving an exposure of plant to the pest Scirpophaga spp." [Gramene:pankaj_jaiswal, NCBI_taxid:72365]
+def: "The treatment involving an exposure of plant to the pest Scirpophaga spp." [Gramene:pankaj_jaiswal, NCBITaxon:72365]
 synonym: "Scirpophaga spp. treatment (narrow)" NARROW []
 is_a: PECO:0007114 ! Lepidoptera exposure
 
@@ -2028,7 +2028,7 @@ is_a: PECO:0007114 ! Lepidoptera exposure
 id: PECO:0007143
 name: Erwinia plant exposure
 alt_id: EO:0007143
-def: "A bacterial plant exposure (PECO:0007246) involving the exposure to bacteria of the genus Erwinia." [Gramene:ivy, NCBI_taxid:551]
+def: "A bacterial plant exposure (PECO:0007246) involving the exposure to bacteria of the genus Erwinia." [Gramene:ivy, NCBITaxon:551]
 synonym: "Erwinia plant treatment (narrow)" NARROW []
 is_a: PECO:0007246 ! bacterial plant exposure
 
@@ -2036,7 +2036,7 @@ is_a: PECO:0007246 ! bacterial plant exposure
 id: PECO:0007144
 name: Pseudomonas plant exposure
 alt_id: EO:0007144
-def: "A bacterial plant exposure (PECO:0007246) involving the exposure to bacteria of the genus Pseudomonas." [Gramene:ivy, NCBI_taxid:286]
+def: "A bacterial plant exposure (PECO:0007246) involving the exposure to bacteria of the genus Pseudomonas." [Gramene:ivy, NCBITaxon:286]
 synonym: "Pseudomonas plant treatment (narrow)" NARROW []
 is_a: PECO:0007246 ! bacterial plant exposure
 
@@ -2044,7 +2044,7 @@ is_a: PECO:0007246 ! bacterial plant exposure
 id: PECO:0007145
 name: Xanthomonas plant exposure
 alt_id: EO:0007145
-def: "A bacterial plant exposure (PECO:0007246) involving the exposure to bacteria of the genus Xanthomonas." [Gramene:ivy, NCBI_taxid:338]
+def: "A bacterial plant exposure (PECO:0007246) involving the exposure to bacteria of the genus Xanthomonas." [Gramene:ivy, NCBITaxon:338]
 synonym: "Xanthomonas plant treatment (narrow)" NARROW []
 is_a: PECO:0007246 ! bacterial plant exposure
 
@@ -2069,7 +2069,7 @@ is_a: PECO:0007191 ! abiotic plant exposure
 id: PECO:0007148
 name: Xanthomonas oryzae exposure
 alt_id: EO:0007148
-def: "The treatment involving an exposure of plant to the pathogen Xanthomonas oryzae. It is a causal agent for rice bacterial blight disease." [Gramene:ivy, NCBI_taxid:347]
+def: "The treatment involving an exposure of plant to the pathogen Xanthomonas oryzae. It is a causal agent for rice bacterial blight disease." [Gramene:ivy, NCBITaxon:347]
 synonym: "Pseudomonas oryzae (related)" RELATED []
 synonym: "Xanthomonas oryzae treatment (narrow)" NARROW []
 is_a: PECO:0007145 ! Xanthomonas plant exposure
@@ -2216,7 +2216,7 @@ is_a: PECO:0007189 ! chemical exposure
 id: PECO:0007166
 name: Pythium spinosum exposure
 alt_id: EO:0007166
-def: "The treatment involving an exposure of plant to the Pythium spinosum. It is a causal agent for rice seedling blight (fungal) or feeder root necrosis or water mold dieases. Water mold diease is also called as seed rot or seedling damping-off disease." [Gramene:pankaj_jaiswal, NCBI_taxid:82948]
+def: "The treatment involving an exposure of plant to the Pythium spinosum. It is a causal agent for rice seedling blight (fungal) or feeder root necrosis or water mold dieases. Water mold diease is also called as seed rot or seedling damping-off disease." [Gramene:pankaj_jaiswal, NCBITaxon:82948]
 synonym: "Pythium spinosum treatment (narrow)" NARROW []
 is_a: PECO:0007328 ! Pythium spp. exposure
 
@@ -2293,7 +2293,7 @@ is_a: PECO:0007064 ! ecological environment exposure
 id: PECO:0007177
 name: Pythium myriotylum exposure
 alt_id: EO:0007177
-def: "Suggests the exposure of plant to the Pythium myriotylum. It is a causal agent for rice feeder root necrosis disease." [Gramene:pankaj_jaiswal, NCBI_taxid:82941]
+def: "Suggests the exposure of plant to the Pythium myriotylum. It is a causal agent for rice feeder root necrosis disease." [Gramene:pankaj_jaiswal, NCBITaxon:82941]
 synonym: "Pythium myriotylum treatment (narrow)" NARROW []
 is_a: PECO:0007328 ! Pythium spp. exposure
 
@@ -2310,7 +2310,7 @@ is_a: PECO:0007064 ! ecological environment exposure
 id: PECO:0007179
 name: Pythium irregulare exposure
 alt_id: EO:0007179
-def: "The treatment involving exposure of plant to the Pythium irregulare. It is a causal agent for rice feeder root necrosis disease." [Gramene:pankaj_jaiswal, NCBI_taxid:36331]
+def: "The treatment involving exposure of plant to the Pythium irregulare. It is a causal agent for rice feeder root necrosis disease." [Gramene:pankaj_jaiswal, NCBITaxon:36331]
 synonym: "Pythium irregulare treatment (narrow)" NARROW []
 is_a: PECO:0007328 ! Pythium spp. exposure
 
@@ -2347,7 +2347,7 @@ is_a: PECO:0007198 ! water environment exposure
 id: PECO:0007182
 name: Pythium graminicola exposure
 alt_id: EO:0007182
-def: "The treatment involving exposure of plant to the Pythium graminicola. It is a causal agent for rice feeder root necrosis disease." [Gramene:pankaj_jaiswal, NCBI_taxid:82937]
+def: "The treatment involving exposure of plant to the Pythium graminicola. It is a causal agent for rice feeder root necrosis disease." [Gramene:pankaj_jaiswal, NCBITaxon:82937]
 synonym: "Pythium graminicola treatment (narrow)" NARROW []
 is_a: PECO:0007328 ! Pythium spp. exposure
 
@@ -2365,7 +2365,7 @@ is_a: PECO:0007167 ! pesticide exposure
 id: PECO:0007184
 name: Pythium dissotocum exposure
 alt_id: EO:0007184
-def: "The treatment involving exposure of plant to the Pythium dissotocum. It is a causal agent for rice seedling blight (fungal) or water mold dieases. Water mold diease is also called as seed rot or seedling damping-off disease." [Gramene:pankaj_jaiswal, NCBI_taxid:82936]
+def: "The treatment involving exposure of plant to the Pythium dissotocum. It is a causal agent for rice seedling blight (fungal) or water mold dieases. Water mold diease is also called as seed rot or seedling damping-off disease." [Gramene:pankaj_jaiswal, NCBITaxon:82936]
 synonym: "Pythium dissotocum treatment (narrow)" NARROW []
 is_a: PECO:0007328 ! Pythium spp. exposure
 
@@ -2384,7 +2384,7 @@ is_a: PECO:0007189 ! chemical exposure
 id: PECO:0007186
 name: Pythium catenulatum exposure
 alt_id: EO:0007186
-def: "The treatment involving exposure of plant to the Pythium catenulatum. It is a causal agent for rice feeder root necrosis disease." [Gramene:pankaj_jaiswal, NCBI_taxid:83917]
+def: "The treatment involving exposure of plant to the Pythium catenulatum. It is a causal agent for rice feeder root necrosis disease." [Gramene:pankaj_jaiswal, NCBITaxon:83917]
 synonym: "Pythium catenulatum treatment (narrow)" NARROW []
 is_a: PECO:0007328 ! Pythium spp. exposure
 
@@ -2402,7 +2402,7 @@ is_a: PECO:0001003 ! organic chemical exposure
 id: PECO:0007188
 name: Pythium arrhenomanes exposure
 alt_id: EO:0007188
-def: "The treatment involving exposure of plant to the Pythium arrhenomanes. It is a causal agent for rice feeder root necrosis disease." [Gramene:pankaj_jaiswal, NCBI_taxid:83932]
+def: "The treatment involving exposure of plant to the Pythium arrhenomanes. It is a causal agent for rice feeder root necrosis disease." [Gramene:pankaj_jaiswal, NCBITaxon:83932]
 synonym: "Pythium arrhenomanes treatment (narrow)" NARROW []
 is_a: PECO:0007328 ! Pythium spp. exposure
 
@@ -2421,7 +2421,7 @@ is_a: PECO:0007191 ! abiotic plant exposure
 id: PECO:0007190
 name: Ustilaginoidea virens exposure
 alt_id: EO:0007190
-def: "The treatment involving exposure of plant to the pathogen Ustilaginoidea virens. It is a causal agent for rice False Smut Disease also called as Green Smut disease." [Gramene:ivy, NCBI_taxid:124427]
+def: "The treatment involving exposure of plant to the pathogen Ustilaginoidea virens. It is a causal agent for rice False Smut Disease also called as Green Smut disease." [Gramene:ivy, NCBITaxon:124427]
 synonym: "Ustilaginoidea virens treatment (narrow)" NARROW []
 is_a: PECO:0007107 ! Ascomycota exposure
 
@@ -2463,7 +2463,7 @@ id: PECO:0007195
 name: rice ragged stunt virus exposure
 alt_id: EO:0007195
 alt_id: EO:0007352
-def: "The treatment involving exposure of plant to the rice ragged stunt virus. It is a causal agent for rice ragged stunt disease." [Gramene:ivy, NCBI_taxid:42475]
+def: "The treatment involving exposure of plant to the rice ragged stunt virus. It is a causal agent for rice ragged stunt disease." [Gramene:ivy, NCBITaxon:42475]
 synonym: "rice ragged stunt oryzavirus (related)" RELATED []
 synonym: "rice ragged stunt virus (related)" RELATED []
 synonym: "rice ragged stunt virus treatment (narrow)" NARROW []
@@ -2550,7 +2550,7 @@ is_a: PECO:0007074 ! auxin exposure
 id: PECO:0007205
 name: rice grassy stunt 2 virus exposure
 alt_id: EO:0007205
-def: "The treatment involving exposure of plant to the rice grassy stunt 2 virus. It is a causal agent for rice grassy stunt disease." [Gramene:ivy, NCBI_taxid:66266]
+def: "The treatment involving exposure of plant to the rice grassy stunt 2 virus. It is a causal agent for rice grassy stunt disease." [Gramene:ivy, NCBITaxon:66266]
 synonym: "RGSV-2 (related)" RELATED []
 synonym: "rice grassy stunt 2 virus treatment (narrow)" NARROW []
 is_a: PECO:0007358 ! rice grassy stunt virus exposure
@@ -2559,7 +2559,7 @@ is_a: PECO:0007358 ! rice grassy stunt virus exposure
 id: PECO:0007206
 name: Gaeumannomyces graminis exposure
 alt_id: EO:0007206
-def: "The treatment involving exposure of plant to the pathogen Gaeumannomyces graminis. It is a causal agent for rice Crown Sheath Rot Disease also called as Arkansas Foot Rot Disease, Black Sheath Rot Disease and Brown Sheath Rot Disease." [Gramene:ivy, NCBI_taxid:29850]
+def: "The treatment involving exposure of plant to the pathogen Gaeumannomyces graminis. It is a causal agent for rice Crown Sheath Rot Disease also called as Arkansas Foot Rot Disease, Black Sheath Rot Disease and Brown Sheath Rot Disease." [Gramene:ivy, NCBITaxon:29850]
 synonym: "Gaeumannomyces graminis treatment (narrow)" NARROW []
 is_a: PECO:0007107 ! Ascomycota exposure
 
@@ -2576,7 +2576,7 @@ is_a: PECO:0007221 ! visible light exposure
 id: PECO:0007208
 name: rice grassy stunt 1 virus exposure
 alt_id: EO:0007208
-def: "The treatment involving exposure of plant to the rice grassy stunt 1 virus. It is a causal agent for rice grassy stunt disease." [Gramene:ivy, NCBI_taxid:66266]
+def: "The treatment involving exposure of plant to the rice grassy stunt 1 virus. It is a causal agent for rice grassy stunt disease." [Gramene:ivy, NCBITaxon:66266]
 synonym: "RGSV-1 (related)" RELATED []
 synonym: "rice grassy stunt 1 virus treatment (narrow)" NARROW []
 is_a: PECO:0007358 ! rice grassy stunt virus exposure
@@ -2585,7 +2585,7 @@ is_a: PECO:0007358 ! rice grassy stunt virus exposure
 id: PECO:0007209
 name: Phomopsis oryzae-sativae exposure
 alt_id: EO:0007209
-def: "The treatment involving exposure of plant to the pathogen Phomopsis oryzae-sativae." [Gramene:ivy, NCBI_taxid:107452]
+def: "The treatment involving exposure of plant to the pathogen Phomopsis oryzae-sativae." [Gramene:ivy, NCBITaxon:107452]
 comment: It is a causal agent for rice Collar Rot Disease.
 synonym: "Phomopsis oryzae-sativae treatment (narrow)" NARROW []
 is_a: PECO:0007107 ! Ascomycota exposure
@@ -2594,7 +2594,7 @@ is_a: PECO:0007107 ! Ascomycota exposure
 id: PECO:0007210
 name: virus plant exposure
 alt_id: EO:0007210
-def: "A biotic plant exposure (PECO:0007357) involving exposure of a plant to a virus or a combination of two or more viruses." [Gramene:pankaj_jaiswal, NCBI_taxid:10239, PECO:cooperl]
+def: "A biotic plant exposure (PECO:0007357) involving exposure of a plant to a virus or a combination of two or more viruses." [Gramene:pankaj_jaiswal, NCBITaxon:10239, PECO:cooperl]
 synonym: "virus plant treatment (narrow)" NARROW []
 is_a: PECO:0007357 ! biotic plant exposure
 
@@ -2602,7 +2602,7 @@ is_a: PECO:0007357 ! biotic plant exposure
 id: PECO:0007211
 name: Cochliobolus miyabeanus exposure
 alt_id: EO:0007211
-def: "The treatment involving exposure of plant to the pathogen Cochliobolus miyabeanus. It is a causal agent for rice Brown Spot diseaseand/or Seedling Blight (Fungal) disease." [Gramene:ivy, NCBI_taxid:101162]
+def: "The treatment involving exposure of plant to the pathogen Cochliobolus miyabeanus. It is a causal agent for rice Brown Spot diseaseand/or Seedling Blight (Fungal) disease." [Gramene:ivy, NCBITaxon:101162]
 synonym: "Bipolaris oryzae (related)" RELATED []
 synonym: "Cochliobolus miyabeanus treatment (narrow)" NARROW []
 synonym: "Dreschlera oryzae (related)" RELATED []
@@ -2613,7 +2613,7 @@ is_a: PECO:0007055 ! Cochliobolus spp. exposure
 id: PECO:0007212
 name: Mycoplasma exposure
 alt_id: EO:0007212
-def: "The treatment involving exposure of plant to the mycoplasma pest." [Gramene:pankaj_jaiswal, NCBI_taxid:2093]
+def: "The treatment involving exposure of plant to the mycoplasma pest." [Gramene:pankaj_jaiswal, NCBITaxon:2093]
 synonym: "Mycoplasma treatment (narrow)" NARROW []
 is_a: PECO:0007357 ! biotic plant exposure
 
@@ -2621,7 +2621,7 @@ is_a: PECO:0007357 ! biotic plant exposure
 id: PECO:0007214
 name: Alternaria spp. exposure
 alt_id: EO:0007214
-def: "The treatment involving exposure of plant to the pathogenic Alternaria sp." [Gramene:ivy, NCBI_taxid:5598]
+def: "The treatment involving exposure of plant to the pathogenic Alternaria sp." [Gramene:ivy, NCBITaxon:5598]
 synonym: "Alternaria spp. treatment (narrow)" NARROW []
 is_a: PECO:0007107 ! Ascomycota exposure
 
@@ -2721,7 +2721,7 @@ is_a: PECO:0007047 ! other nutrient exposure
 id: PECO:0007226
 name: Magnaporthe grisea exposure
 alt_id: EO:0007226
-def: "The treatment involving exposure of plant to the pathogen Magnaporthe grisea. It is a causal agent for rice various forms of Blast diseases such as Collar Blast, Leaf Blast, Neck Blast, Panicle Blast and Nodal Blast disease." [Gramene:ivy, NCBI_taxid:148305]
+def: "The treatment involving exposure of plant to the pathogen Magnaporthe grisea. It is a causal agent for rice various forms of Blast diseases such as Collar Blast, Leaf Blast, Neck Blast, Panicle Blast and Nodal Blast disease." [Gramene:ivy, NCBITaxon:148305]
 synonym: "Magnaporthe grisea treatment (narrow)" NARROW []
 synonym: "Piricularia grisea (related)" RELATED []
 synonym: "Pyricularia grisea (related)" RELATED []
@@ -2733,7 +2733,7 @@ is_a: PECO:0007135 ! Magnaporthe spp. exposure
 id: PECO:0007227
 name: Cochliobolus lunatus exposure
 alt_id: EO:0007227
-def: "The treatment involving exposure of plant to the pathogen Cochliobolus lunatus." [Gramene:ivy, NCBI_taxid:5503]
+def: "The treatment involving exposure of plant to the pathogen Cochliobolus lunatus." [Gramene:ivy, NCBITaxon:5503]
 synonym: "Cochliobolus lunatus treatment (narrow)" NARROW []
 is_a: PECO:0007055 ! Cochliobolus spp. exposure
 
@@ -2750,7 +2750,7 @@ id: PECO:0007229
 name: Gibberella fujikuroi exposure
 alt_id: EO:0007229
 alt_id: EO:0007299
-def: "The treatment involving exposure of plant to the pathogen Gibberella fujikuroi." [Gramene:ivy, NCBI_taxid:5127]
+def: "The treatment involving exposure of plant to the pathogen Gibberella fujikuroi." [Gramene:ivy, NCBITaxon:5127]
 comment: It is a causal agent for rice Bakanae disease and also for a form of rice Seedling Blight (Fungal) Disease.
 synonym: "Fusarium fujikuroi (related)" RELATED []
 synonym: "Fusarium moniliforme (related)" RELATED []
@@ -2785,7 +2785,7 @@ is_a: PECO:0007047 ! other nutrient exposure
 id: PECO:0007233
 name: fungal plant exposure
 alt_id: EO:0007233
-def: "A biotic plant exposure (PECO:0007357) involving exposure of a plant to a fungus or a combination of fungi." [Gramene:ivy, NCBI_taxid:4751]
+def: "A biotic plant exposure (PECO:0007357) involving exposure of a plant to a fungus or a combination of fungi." [Gramene:ivy, NCBITaxon:4751]
 synonym: "fungal plant treatment (narrow)" NARROW []
 is_a: PECO:0007357 ! biotic plant exposure
 
@@ -2793,10 +2793,10 @@ is_a: PECO:0007357 ! biotic plant exposure
 id: PECO:0007234
 name: Pseudomonas fuscovaginae exposure
 alt_id: EO:0007234
-def: "The treatment involving exposure of plant to the pathogen Pseudomonas fuscovaginae. It is a causal agent for rice Sheath Brown Rot disease." [Gramene:ivy, NCBI_taxid:50340]
+def: "The treatment involving exposure of plant to the pathogen Pseudomonas fuscovaginae. It is a causal agent for rice Sheath Brown Rot disease." [Gramene:ivy, NCBITaxon:50340]
 synonym: "Pseudomonas fuscivaginae (related)" RELATED []
 synonym: "Pseudomonas fuscovaginae treatment (narrow)" NARROW []
-xref: NCBI_taxid:50340
+xref: NCBITaxon:50340
 is_a: PECO:0007144 ! Pseudomonas plant exposure
 
 [Term]
@@ -2811,7 +2811,7 @@ is_a: PECO:0007047 ! other nutrient exposure
 id: PECO:0007236
 name: Pseudomonas plantarii exposure
 alt_id: EO:0007236
-def: "The treatment involving exposure of plant to the pathogen Pseudomonas plantarii. It is a causal agent for rice Seedling Blight (Bacterial) disease." [Gramene:ivy, NCBI_taxid:41899]
+def: "The treatment involving exposure of plant to the pathogen Pseudomonas plantarii. It is a causal agent for rice Seedling Blight (Bacterial) disease." [Gramene:ivy, NCBITaxon:41899]
 synonym: "Burkholderia plantarii (related)" RELATED []
 synonym: "Burkholderia vandii (related)" RELATED []
 synonym: "Pseudomonas plantarii treatment (narrow)" NARROW []
@@ -2871,7 +2871,7 @@ is_a: PECO:0007239 ! micronutrient exposure
 id: PECO:0007243
 name: Pseudomonas glumae exposure
 alt_id: EO:0007243
-def: "The treatment involving exposure of plant to the pathogen Pseudomonas glumae. It is a causal agent for rice Grain Rot disease." [Gramene:ivy, NCBI_taxid:337]
+def: "The treatment involving exposure of plant to the pathogen Pseudomonas glumae. It is a causal agent for rice Grain Rot disease." [Gramene:ivy, NCBITaxon:337]
 synonym: "Burkholderia glumae (related)" RELATED []
 synonym: "Pseudomonas glumae treatment (narrow)" NARROW []
 is_a: PECO:0007144 ! Pseudomonas plant exposure
@@ -2888,7 +2888,7 @@ is_a: PECO:0007239 ! micronutrient exposure
 id: PECO:0007245
 name: Erwinia chrysanthemi exposure
 alt_id: EO:0007245
-def: "The treatment involving exposure of plant to the pathogen Erwinia chrysanthemi. It is a causal agent for rice Foot Rot disease." [Gramene:ivy, NCBI_taxid:556]
+def: "The treatment involving exposure of plant to the pathogen Erwinia chrysanthemi. It is a causal agent for rice Foot Rot disease." [Gramene:ivy, NCBITaxon:556]
 synonym: "Erwinia chrysanthemi treatment (narrow)" NARROW []
 is_a: PECO:0007143 ! Erwinia plant exposure
 
@@ -2896,7 +2896,7 @@ is_a: PECO:0007143 ! Erwinia plant exposure
 id: PECO:0007246
 name: bacterial plant exposure
 alt_id: EO:0007246
-def: "A biotic plant exposure (PECO:0007357) involving exposure of a plant to bacteria." [Gramene:ivy, NCBI_taxid:2, PECO:cooperl]
+def: "A biotic plant exposure (PECO:0007357) involving exposure of a plant to bacteria." [Gramene:ivy, NCBITaxon:2, PECO:cooperl]
 synonym: "bacterial plant treatment (narrow)" NARROW []
 synonym: "eubacteria (related)" RELATED []
 is_a: PECO:0007357 ! biotic plant exposure
@@ -2905,7 +2905,7 @@ is_a: PECO:0007357 ! biotic plant exposure
 id: PECO:0007247
 name: Erwinia herbicola exposure
 alt_id: EO:0007247
-def: "The treatment involving exposure of plant to the pathogen Erwinia herbicola. The susceptible plants suffer from Bacterial Palea Browning disease." [Gramene:ivy, NCBI_taxid:549]
+def: "The treatment involving exposure of plant to the pathogen Erwinia herbicola. The susceptible plants suffer from Bacterial Palea Browning disease." [Gramene:ivy, NCBITaxon:549]
 synonym: "Erwinia herbicola treatment (narrow)" NARROW []
 synonym: "Pantoea agglomerans (related)" RELATED []
 is_a: PECO:0007143 ! Erwinia plant exposure
@@ -2921,7 +2921,7 @@ is_a: PECO:0007231 ! study type
 id: PECO:0007249
 name: Xanthomonas oryzae pv. oryzicola exposure
 alt_id: EO:0007249
-def: "The treatment involving exposure of plant to the pathogen Xanthomonas oryzae pv. oryzicola. It is a causal agent for rice bacterial blight disease." [Gramene:ivy, NCBI_taxid:129394]
+def: "The treatment involving exposure of plant to the pathogen Xanthomonas oryzae pv. oryzicola. It is a causal agent for rice bacterial blight disease." [Gramene:ivy, NCBITaxon:129394]
 synonym: "Xanthomonas campestris pv. oryzicola (related)" RELATED []
 synonym: "Xanthomonas oryzae pv. oryzicola treatment (narrow)" NARROW []
 is_a: PECO:0007148 ! Xanthomonas oryzae exposure
@@ -2948,7 +2948,7 @@ is_a: PECO:0001034 ! Pseudomonas syringae plant exposure
 id: PECO:0007252
 name: Sogatella furcifera exposure
 alt_id: EO:0007252
-def: "The treatment involving exposure of plant to the pest white-backed planthopper." [Gramene:pankaj_jaiswal, NCBI_taxid:113103]
+def: "The treatment involving exposure of plant to the pest white-backed planthopper." [Gramene:pankaj_jaiswal, NCBITaxon:113103]
 synonym: "Sogatella furcifera treatment (narrow)" NARROW []
 synonym: "white-backed planthopper (related)" RELATED []
 is_a: PECO:0007116 ! Hemiptera insect plant exposure
@@ -2965,7 +2965,7 @@ is_a: PECO:0007239 ! micronutrient exposure
 id: PECO:0007254
 name: Pseudomonas avenae exposure
 alt_id: EO:0007254
-def: "The treatment involving exposure of plant to the pathogen Pseudomonas avenae. It is a causal agent for rice Bacterial Brown Stripe disease." [Gramene:ivy, NCBI_taxid:80867]
+def: "The treatment involving exposure of plant to the pathogen Pseudomonas avenae. It is a causal agent for rice Bacterial Brown Stripe disease." [Gramene:ivy, NCBITaxon:80867]
 synonym: "Acidovorax avenae (related)" RELATED []
 synonym: "Pseudomonas avenae treatment (narrow)" NARROW []
 is_a: PECO:0007144 ! Pseudomonas plant exposure
@@ -2989,7 +2989,7 @@ is_a: PECO:0007231 ! study type
 id: PECO:0007257
 name: Xanthomonas oryzae pv. oryzae exposure
 alt_id: EO:0007257
-def: "The treatment involving exposure of plant to the pathogen Xanthomonas oryzae pv. oryzae. It is a causal agent for rice bacterial blight disease." [Gramene:ivy, NCBI_taxid:64187]
+def: "The treatment involving exposure of plant to the pathogen Xanthomonas oryzae pv. oryzae. It is a causal agent for rice bacterial blight disease." [Gramene:ivy, NCBITaxon:64187]
 synonym: "Xanthomonas campestris pv. oryza (related)" RELATED []
 synonym: "Xanthomonas oryzae pv. oryzae treatment (narrow)" NARROW []
 is_a: PECO:0007148 ! Xanthomonas oryzae exposure
@@ -3148,7 +3148,7 @@ alt_id: EO:0007274
 def: "The treatment involving exposure of plant to the pest Scirpophaga incertulas." [Gramene:pankaj_jaiswal]
 synonym: "Scirpophaga incertulas treatment (narrow)" NARROW []
 synonym: "yellow stem borer (related)" RELATED []
-xref: NCBI_taxid:72366
+xref: NCBITaxon:72366
 is_a: PECO:0007142 ! Scirpophaga spp. exposure
 
 [Term]
@@ -3189,7 +3189,7 @@ is_a: PECO:0007043 ! non-mineral nutrient exposure
 id: PECO:0007279
 name: Chilo suppressalis exposure
 alt_id: EO:0007279
-def: "The treatment involving exposure of plant to the pest rice striped stemborer." [Gramene:pankaj_jaiswal, NCBI_taxid:168631]
+def: "The treatment involving exposure of plant to the pest rice striped stemborer." [Gramene:pankaj_jaiswal, NCBITaxon:168631]
 synonym: "Asiatic rice borer (related)" RELATED []
 synonym: "Chilo suppressalis treatment (narrow)" NARROW []
 synonym: "striped stemborer (related)" RELATED []
@@ -3353,7 +3353,7 @@ is_a: PECO:0007046 ! secondary macronutrient exposure
 id: PECO:0007296
 name: Dicladispa armigera exposure
 alt_id: EO:0007296
-def: "The treatment involving exposure of plant to the pest Dicladispa armigera." [Gramene:pankaj_jaiswal, NCBI_taxid:111238]
+def: "The treatment involving exposure of plant to the pest Dicladispa armigera." [Gramene:pankaj_jaiswal, NCBITaxon:111238]
 synonym: "Dicladispa armigera treatment (narrow)" NARROW []
 synonym: "rice hispa (related)" RELATED []
 is_a: PECO:0007120 ! Coleoptera exposure
@@ -3443,7 +3443,7 @@ is_a: PECO:0007532 ! DNA exposure
 id: PECO:0007308
 name: Nephotettix spp exposure
 alt_id: EO:0007308
-def: "The treatment involving exposure of plant to the pest green leaf hopper." [Gramene:pankaj_jaiswal, NCBI_taxid:94399]
+def: "The treatment involving exposure of plant to the pest green leaf hopper." [Gramene:pankaj_jaiswal, NCBITaxon:94399]
 synonym: "green leafhopper (related)" RELATED []
 synonym: "Nephotettix spp treatment (narrow)" NARROW []
 is_a: PECO:0007116 ! Hemiptera insect plant exposure
@@ -3468,7 +3468,7 @@ is_a: PECO:0007307 ! transposable element insert exposure
 id: PECO:0007311
 name: Orseolia oryzae exposure
 alt_id: EO:0007311
-def: "The treatment involving exposure of plant to the pest rice gall midge." [Gramene:pankaj_jaiswal, NCBI_taxid:33408]
+def: "The treatment involving exposure of plant to the pest rice gall midge." [Gramene:pankaj_jaiswal, NCBITaxon:33408]
 synonym: "Asian rice gall midge (related)" RELATED []
 synonym: "gall midge (related)" RELATED []
 synonym: "Orseolia oryzae treatment (narrow)" NARROW []
@@ -3489,7 +3489,7 @@ alt_id: EO:0007313
 def: "The treatment involving exposure of plant to the pest Pseudaletia separata." [Gramene:pankaj_jaiswal]
 synonym: "armyworm (related)" RELATED []
 synonym: "Pseudaletia separata treatment (narrow)" NARROW []
-xref: NCBI_taxid:7105
+xref: NCBITaxon:7105
 is_a: PECO:0007117 ! Pseudaletia spp. exposure
 
 [Term]
@@ -3523,7 +3523,7 @@ is_a: PECO:0007191 ! abiotic plant exposure
 id: PECO:0007317
 name: Nilaparvata lugens exposure
 alt_id: EO:0007317
-def: "The treatment involving exposure of plant to the pest brown planthopper." [Gramene:pankaj_jaiswal, NCBI_taxid:108931]
+def: "The treatment involving exposure of plant to the pest brown planthopper." [Gramene:pankaj_jaiswal, NCBITaxon:108931]
 synonym: "brown planthopper (related)" RELATED []
 synonym: "Nilaparvata lugens treatment (narrow)" NARROW []
 is_a: PECO:0007116 ! Hemiptera insect plant exposure
@@ -3532,7 +3532,7 @@ is_a: PECO:0007116 ! Hemiptera insect plant exposure
 id: PECO:0007318
 name: rice yellow mottle virus exposure
 alt_id: EO:0007318
-def: "The treatment involving exposure of plant to the rice yellow mottle virus. It is a causal agent for rice yellow mottle disease." [Gramene:ivy, NCBI_taxid:31744]
+def: "The treatment involving exposure of plant to the rice yellow mottle virus. It is a causal agent for rice yellow mottle disease." [Gramene:ivy, NCBITaxon:31744]
 synonym: "rice yellow mottle virus treatment (narrow)" NARROW []
 synonym: "RYMV (related)" RELATED []
 is_a: PECO:0007109 ! ssRNA positive-strand virus with no DNA stage exposure
@@ -3550,7 +3550,7 @@ is_a: PECO:0007173 ! warm/hot temperature exposure
 id: PECO:0007320
 name: Meloidogyne arenaria exposure
 alt_id: EO:0007320
-def: "The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease." [Gramene:pankaj_jaiswal, NCBI_taxid:6304]
+def: "The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease." [Gramene:pankaj_jaiswal, NCBITaxon:6304]
 synonym: "Meloidogyne arenaria treatment (narrow)" NARROW []
 is_a: PECO:0007127 ! Meloidogyne spp. exposure
 
@@ -3617,7 +3617,7 @@ is_a: PECO:0007107 ! Ascomycota exposure
 id: PECO:0007328
 name: Pythium spp. exposure
 alt_id: EO:0007328
-def: "The treatment involving exposure of plant to the heterokont Pythium." [Gramene:pankaj_jaiswal, NCBI_taxid:4797]
+def: "The treatment involving exposure of plant to the heterokont Pythium." [Gramene:pankaj_jaiswal, NCBITaxon:4797]
 synonym: "Pythium spp. treatment (narrow)" NARROW []
 is_a: PECO:0007106 ! Stramenopiles exposure
 
@@ -3647,7 +3647,7 @@ alt_id: EO:0007331
 def: "The treatment involving exposure of plant to the pest Pseudaletia unipuncta." [Gramene:pankaj_jaiswal]
 synonym: "armyworm (related)" RELATED []
 synonym: "Pseudaletia unipuncta treatment (narrow)" NARROW []
-xref: NCBI_taxid:42880
+xref: NCBITaxon:42880
 is_a: PECO:0007117 ! Pseudaletia spp. exposure
 
 [Term]
@@ -3663,7 +3663,7 @@ is_a: PECO:0007174 ! cold temperature exposure
 id: PECO:0007333
 name: insect plant exposure
 alt_id: EO:0007333
-def: "A metazoan plant treatment  (PECO:0007349) involving exposure of a plant to an insect or a mixture of insects." [Gramene:pankaj_jaiswal, NCBI_taxid:50557, PECO:cooperl]
+def: "A metazoan plant treatment  (PECO:0007349) involving exposure of a plant to an insect or a mixture of insects." [Gramene:pankaj_jaiswal, NCBITaxon:50557, PECO:cooperl]
 synonym: "insect (related)" RELATED []
 synonym: "insect plant treatment (narrow)" NARROW []
 synonym: "true insects (related)" RELATED []
@@ -3683,7 +3683,7 @@ is_a: PECO:0007335 ! Mollusca exposure
 id: PECO:0007335
 name: Mollusca exposure
 alt_id: EO:0007335
-def: "The treatment involving exposure of plant to the pest molluscs." [Gramene:pankaj_jaiswal, NCBI_taxid:6447]
+def: "The treatment involving exposure of plant to the pest molluscs." [Gramene:pankaj_jaiswal, NCBITaxon:6447]
 synonym: "mollusc (related)" RELATED []
 synonym: "Mollusca treatment (narrow)" NARROW []
 synonym: "mollusk (related)" RELATED []
@@ -3703,7 +3703,7 @@ is_a: PECO:0007337 ! Nematoda exposure
 id: PECO:0007337
 name: Nematoda exposure
 alt_id: EO:0007337
-def: "The treatment involving exposure of plant to the nematode pests." [Gramene:pankaj_jaiswal, NCBI_taxid:6231]
+def: "The treatment involving exposure of plant to the nematode pests." [Gramene:pankaj_jaiswal, NCBITaxon:6231]
 synonym: "Nematoda treatment (narrow)" NARROW []
 synonym: "round worm (related)" RELATED []
 synonym: "roundworm (related)" RELATED []
@@ -3722,7 +3722,7 @@ is_a: PECO:0007174 ! cold temperature exposure
 id: PECO:0007339
 name: rice tungro spherical virus exposure
 alt_id: EO:0007339
-def: "The treatment involving exposure of plant to the rice tungro spherical virus. It is a causal agent for rice tungro disease, which is also called as Mentek or Waika diease." [Gramene:ivy, NCBI_taxid:35287]
+def: "The treatment involving exposure of plant to the rice tungro spherical virus. It is a causal agent for rice tungro disease, which is also called as Mentek or Waika diease." [Gramene:ivy, NCBITaxon:35287]
 synonym: "rice leaf yellowing virus (related)" RELATED []
 synonym: "rice penyakit mentek virus (related)" RELATED []
 synonym: "rice tungro spherical virus treatment (narrow)" NARROW []
@@ -3737,7 +3737,7 @@ is_a: PECO:0007109 ! ssRNA positive-strand virus with no DNA stage exposure
 id: PECO:0007340
 name: Achlya conspicua exposure
 alt_id: EO:0007340
-def: "The treatment involving exposure of plant to the heterokont Achlya conspicua. It is a causal agent for rice water mold diease which is also called as seed rot or seedling damping-off disease." [Gramene:pankaj_jaiswal, NCBI_taxid:112027]
+def: "The treatment involving exposure of plant to the heterokont Achlya conspicua. It is a causal agent for rice water mold diease which is also called as seed rot or seedling damping-off disease." [Gramene:pankaj_jaiswal, NCBITaxon:112027]
 synonym: "Achlya conspicua treatment (narrow)" NARROW []
 is_a: PECO:0007136 ! Achlya spp. exposure
 
@@ -3746,7 +3746,7 @@ id: PECO:0007341
 name: Fusarium exposure
 alt_id: EO:0007301
 alt_id: EO:0007341
-def: "The treatment involving exposure of plant to the pathogenic Fusarium spp. It is a causal agent for rice Water Mold disease also called as Seed Rot Disease or Seedling Damping-off Disease." [Gramene:ivy, NCBI_taxid:5506]
+def: "The treatment involving exposure of plant to the pathogenic Fusarium spp. It is a causal agent for rice Water Mold disease also called as Seed Rot Disease or Seedling Damping-off Disease." [Gramene:ivy, NCBITaxon:5506]
 synonym: "Fusarium spp. (related)" RELATED []
 synonym: "Fusarium treatment (narrow)" NARROW []
 is_a: PECO:0007118 ! Gibberella spp. exposure
@@ -3755,7 +3755,7 @@ is_a: PECO:0007118 ! Gibberella spp. exposure
 id: PECO:0007342
 name: Achlya klebsiana exposure
 alt_id: EO:0007342
-def: "The treatment involving exposure of plant to the heterokont Achlya klebsiana. It is a causal agent for rice water mold diease which is also called as seed rot or seedling damping-off disease." [Gramene:pankaj_jaiswal, NCBI_taxid:4767]
+def: "The treatment involving exposure of plant to the heterokont Achlya klebsiana. It is a causal agent for rice water mold diease which is also called as seed rot or seedling damping-off disease." [Gramene:pankaj_jaiswal, NCBITaxon:4767]
 synonym: "Achlya klebsiana treatment (narrow)" NARROW []
 is_a: PECO:0007136 ! Achlya spp. exposure
 
@@ -3763,7 +3763,7 @@ is_a: PECO:0007136 ! Achlya spp. exposure
 id: PECO:0007343
 name: Bovinae exposure
 alt_id: EO:0007343
-def: "The treatment involving exposure of plant to the cattle." [Gramene:pankaj_jaiswal, NCBI_taxid:27592]
+def: "The treatment involving exposure of plant to the cattle." [Gramene:pankaj_jaiswal, NCBITaxon:27592]
 synonym: "Bovinae treatment (narrow)" NARROW []
 synonym: "cattle (related)" RELATED []
 is_a: PECO:0007031 ! Mammalia exposure
@@ -3772,7 +3772,7 @@ is_a: PECO:0007031 ! Mammalia exposure
 id: PECO:0007344
 name: rice tungro bacilliform virus exposure
 alt_id: EO:0007344
-def: "The treatment involving exposure of plant to the rice tungro bacilliform virus. It is a causal agent for rice tungra disease which is also called as Mentek or Waika disease." [Gramene:ivy, NCBI_taxid:10654]
+def: "The treatment involving exposure of plant to the rice tungro bacilliform virus. It is a causal agent for rice tungra disease which is also called as Mentek or Waika disease." [Gramene:ivy, NCBITaxon:10654]
 synonym: "rice tungro bacilliform virus treatment (narrow)" NARROW []
 synonym: "rice yellow orange leaf virus (related)" RELATED []
 synonym: "RTBV (related)" RELATED []
@@ -3782,7 +3782,7 @@ is_a: PECO:0007112 ! retroid virus exposure
 id: PECO:0007345
 name: Rodentia exposure
 alt_id: EO:0007345
-def: "The treatment involving exposure of plant to the pest rats and mouse." [Gramene:pankaj_jaiswal, NCBI_taxid:9989]
+def: "The treatment involving exposure of plant to the pest rats and mouse." [Gramene:pankaj_jaiswal, NCBITaxon:9989]
 synonym: "mouse (related)" RELATED []
 synonym: "rat (related)" RELATED []
 synonym: "rodent (related)" RELATED []
@@ -3793,7 +3793,7 @@ is_a: PECO:0007031 ! Mammalia exposure
 id: PECO:0007346
 name: rice yellow stunt virus exposure
 alt_id: EO:0007346
-def: "The treatment involving exposure of plant to the rice yellow stunt virus. It is a causal agent for rice transitory yellowing disease." [Gramene:ivy, NCBI_taxid:59380]
+def: "The treatment involving exposure of plant to the rice yellow stunt virus. It is a causal agent for rice transitory yellowing disease." [Gramene:ivy, NCBITaxon:59380]
 synonym: "rice transitory yellowing virus (related)" RELATED []
 synonym: "rice yellow stunt rhabdovirus (related)" RELATED []
 synonym: "rice yellow stunt virus treatment (narrow)" NARROW []
@@ -3805,7 +3805,7 @@ is_a: PECO:0007111 ! ssRNA negative-strand virus exposure
 id: PECO:0007347
 name: Aves exposure
 alt_id: EO:0007347
-def: "The treatment involving exposure of plants to the birds." [Gramene:pankaj_jaiswal, NCBI_taxid:8782]
+def: "The treatment involving exposure of plants to the birds." [Gramene:pankaj_jaiswal, NCBITaxon:8782]
 synonym: "Aves treatment (narrow)" NARROW []
 synonym: "bird (related)" RELATED []
 is_a: PECO:0007349 ! metazoan plant exposure
@@ -3823,7 +3823,7 @@ is_a: PECO:0007109 ! ssRNA positive-strand virus with no DNA stage exposure
 id: PECO:0007349
 name: metazoan plant exposure
 alt_id: EO:0007349
-def: "A biotic plant exposure (PECO:0007357) involving exposure of a plant to a metazoan organism (animal)." [Gramene:pankaj_jaiswal, NCBI_taxid:33208, PECO:cooperl]
+def: "A biotic plant exposure (PECO:0007357) involving exposure of a plant to a metazoan organism (animal)." [Gramene:pankaj_jaiswal, NCBITaxon:33208, PECO:cooperl]
 synonym: "Animalia (related)" RELATED []
 synonym: "metazoan plant treatment (narrow)" NARROW []
 is_a: PECO:0007357 ! biotic plant exposure
@@ -3832,7 +3832,7 @@ is_a: PECO:0007357 ! biotic plant exposure
 id: PECO:0007350
 name: rice stripe virus exposure
 alt_id: EO:0007350
-def: "The treatment involving exposure of plant to the rice stripe virus. It is a causal agent for rice stripe disease." [Gramene:ivy, NCBI_taxid:12331]
+def: "The treatment involving exposure of plant to the rice stripe virus. It is a causal agent for rice stripe disease." [Gramene:ivy, NCBITaxon:12331]
 synonym: "rice stripe virus treatment (narrow)" NARROW []
 synonym: "RSV (related)" RELATED []
 is_a: PECO:0007111 ! ssRNA negative-strand virus exposure
@@ -3862,7 +3862,7 @@ is_obsolete: true
 id: PECO:0007356
 name: rice hoja blanca virus exposure
 alt_id: EO:0007356
-def: "The treatment involving exposure of plant to the rice hoja blanca virus. It is a causal agent for rice hoja blanca disease." [Gramene:ivy, NCBI_taxid:12332]
+def: "The treatment involving exposure of plant to the rice hoja blanca virus. It is a causal agent for rice hoja blanca disease." [Gramene:ivy, NCBITaxon:12332]
 synonym: "hoja blanca (related)" RELATED []
 synonym: "rice hoja blanca tenuivirus (related)" RELATED []
 synonym: "rice hoja blanca virus treatment (narrow)" NARROW []
@@ -3881,7 +3881,7 @@ is_a: PECO:0001001 ! plant exposure
 id: PECO:0007358
 name: rice grassy stunt virus exposure
 alt_id: EO:0007358
-def: "The treatment involving exposure of plant to the rice grassy stunt virus. It is a causal agent for rice grassy stunt disease." [Gramene:ivy, NCBI_taxid:66266]
+def: "The treatment involving exposure of plant to the rice grassy stunt virus. It is a causal agent for rice grassy stunt disease." [Gramene:ivy, NCBITaxon:66266]
 synonym: "RGSV (related)" RELATED []
 synonym: "rice grassy stunt virus treatment (narrow)" NARROW []
 is_a: PECO:0007111 ! ssRNA negative-strand virus exposure
@@ -3900,7 +3900,7 @@ xref: PECO_GIT:4
 id: PECO:0007360
 name: barley yellow dwarf virus exposure
 alt_id: EO:0007360
-def: "The treatment involving exposure of plant to the barley yellow dwarf virus. It is a causal agent for rice Giallume disease." [Gramene:ivy, NCBI_taxid:12037]
+def: "The treatment involving exposure of plant to the barley yellow dwarf virus. It is a causal agent for rice Giallume disease." [Gramene:ivy, NCBITaxon:12037]
 synonym: "barley yellow dwarf virus treatment (narrow)" NARROW []
 synonym: "BYDV (related)" RELATED []
 is_a: PECO:0007109 ! ssRNA positive-strand virus with no DNA stage exposure
@@ -3919,7 +3919,7 @@ is_a: PECO:0007110 ! dsRNA virus exposure
 id: PECO:0007362
 name: Balansia oryzae-sativae exposure
 alt_id: EO:0007362
-def: "The treatment involving exposure of plant to the pathogen Balansia oryzae-sativae. It is a causal agent for rice Udbatta diesase which is also called as Black Choke Disease, False Ergot Disease, Incense Rod Disease." [Gramene:ivy, NCBI_taxid:116609]
+def: "The treatment involving exposure of plant to the pathogen Balansia oryzae-sativae. It is a causal agent for rice Udbatta diesase which is also called as Black Choke Disease, False Ergot Disease, Incense Rod Disease." [Gramene:ivy, NCBITaxon:116609]
 synonym: "Balansia oryzae-sativae treatment (narrow)" NARROW []
 synonym: "Ephelis japonica (related)" RELATED []
 synonym: "Ephelis oryzae (related)" RELATED []
@@ -3930,7 +3930,7 @@ id: PECO:0007363
 name: Magnaporthe salvinii exposure
 alt_id: EO:0007213
 alt_id: EO:0007363
-def: "The treatment involving exposure of plant to the pathogen Magnaporthe salvinii. It is a causal agent for rice stem rot disease and Seedling Blight (Fungal) Disease." [Gramene:ivy, NCBI_taxid:165778]
+def: "The treatment involving exposure of plant to the pathogen Magnaporthe salvinii. It is a causal agent for rice stem rot disease and Seedling Blight (Fungal) Disease." [Gramene:ivy, NCBITaxon:165778]
 synonym: "Helminthosporium sigmoideum (related)" RELATED []
 synonym: "Helminthosporium sigmoideum var.irregulare. (related)" RELATED []
 synonym: "Leptosphaeria salvinii (related)" RELATED []
@@ -3943,7 +3943,7 @@ is_a: PECO:0007135 ! Magnaporthe spp. exposure
 id: PECO:0007364
 name: Rhizoctonia oryzae exposure
 alt_id: EO:0007364
-def: "The treatment involving exposure of plant to the pathogen Rhizoctonia oryzae. It is a causal agent for rice Sheath Spot disease such as Bordered Sheath Spot Disease, Red Sclerotial Disease and Rhizoctonia Sheath Spot Disease." [Gramene:ivy, NCBI_taxid:63190]
+def: "The treatment involving exposure of plant to the pathogen Rhizoctonia oryzae. It is a causal agent for rice Sheath Spot disease such as Bordered Sheath Spot Disease, Red Sclerotial Disease and Rhizoctonia Sheath Spot Disease." [Gramene:ivy, NCBITaxon:63190]
 synonym: "Rhizoctonia oryzae treatment (narrow)" NARROW []
 synonym: "Rhizoctonia zeae (related)" RELATED []
 synonym: "Waitea circinata (related)" RELATED []
@@ -3953,19 +3953,19 @@ is_a: PECO:0007073 ! Basidiomycota exposure
 id: PECO:0007365
 name: rice dwarf virus exposure
 alt_id: EO:0007365
-def: "The treatment involving exposure of plant to the pathogen rice dwarf virus. It is a causal agent for rice dwarf phytoreo virus disease." [Gramene:ivy, NCBI_taxid:10991]
+def: "The treatment involving exposure of plant to the pathogen rice dwarf virus. It is a causal agent for rice dwarf phytoreo virus disease." [Gramene:ivy, NCBITaxon:10991]
 synonym: "RDV (related)" RELATED []
 synonym: "rice dwarf phytoreovirus (related)" RELATED []
 synonym: "rice dwarf phytoreovirus RDV (related)" RELATED []
 synonym: "rice dwarf virus treatment (narrow)" NARROW []
-xref: NCBI_taxid:10991
+xref: NCBITaxon:10991
 is_a: PECO:0007110 ! dsRNA virus exposure
 
 [Term]
 id: PECO:0007366
 name: rice black streak dwarf virus exposure
 alt_id: EO:0007366
-def: "The treatment involving exposure of plant to the pathogen rice black streak dwarf virus. It is a causal agent for rice blast steak dwarf disease." [Gramene:ivy, NCBI_taxid:10990]
+def: "The treatment involving exposure of plant to the pathogen rice black streak dwarf virus. It is a causal agent for rice blast steak dwarf disease." [Gramene:ivy, NCBITaxon:10990]
 synonym: "RBSDV (related)" RELATED []
 synonym: "rice black streak dwarf virus treatment (narrow)" NARROW []
 synonym: "Rice black streak virus (related)" RELATED []
@@ -4012,7 +4012,7 @@ is_a: PECO:0007127 ! Meloidogyne spp. exposure
 id: PECO:0007371
 name: Meloidogyne javanica exposure
 alt_id: EO:0007371
-def: "The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease." [Gramene:pankaj_jaiswal, NCBI_taxid:6303]
+def: "The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease." [Gramene:pankaj_jaiswal, NCBITaxon:6303]
 synonym: "Meloidogyne javanica treatment (narrow)" NARROW []
 synonym: "root-knot nematode (related)" RELATED []
 is_a: PECO:0007127 ! Meloidogyne spp. exposure
@@ -4021,7 +4021,7 @@ is_a: PECO:0007127 ! Meloidogyne spp. exposure
 id: PECO:0007372
 name: Meloidogyne incognita exposure
 alt_id: EO:0007372
-def: "The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease." [Gramene:pankaj_jaiswal, NCBI_taxid:6306]
+def: "The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease." [Gramene:pankaj_jaiswal, NCBITaxon:6306]
 synonym: "Meloidogyne incognita treatment (narrow)" NARROW []
 synonym: "southern root-knot nematode (related)" RELATED []
 is_a: PECO:0007127 ! Meloidogyne spp. exposure
@@ -4040,7 +4040,7 @@ is_a: PECO:0007316 ! physical plant exposure
 id: PECO:0007374
 name: Cylindrocladium scoparium exposure
 alt_id: EO:0007374
-def: "The treatment involving exposure of plant to the pathogen Cylindrocladium scoparium. It is a causal agent for rice Sheath Net Blotch Disease." [Gramene:ivy, NCBI_taxid:40624]
+def: "The treatment involving exposure of plant to the pathogen Cylindrocladium scoparium. It is a causal agent for rice Sheath Net Blotch Disease." [Gramene:ivy, NCBITaxon:40624]
 synonym: "Calonectria morganii (related)" RELATED []
 synonym: "Cylindrocladium scoparium treatment (narrow)" NARROW []
 is_a: PECO:0007107 ! Ascomycota exposure
@@ -4049,7 +4049,7 @@ is_a: PECO:0007107 ! Ascomycota exposure
 id: PECO:0007375
 name: Meloidogyne graminicola exposure
 alt_id: EO:0007375
-def: "The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease." [Gramene:pankaj_jaiswal, NCBI_taxid:189291]
+def: "The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease." [Gramene:pankaj_jaiswal, NCBITaxon:189291]
 synonym: "Meloidogyne graminicola treatment (narrow)" NARROW []
 is_a: PECO:0007127 ! Meloidogyne spp. exposure
 
@@ -4065,7 +4065,7 @@ is_a: PECO:0007107 ! Ascomycota exposure
 id: PECO:0007377
 name: Athelia rolfsii exposure
 alt_id: EO:0007377
-def: "The treatment involving exposure of plant to the pathogen Athelia rolfsii. It is a causal agent for rice Seedling Blight (Fungal) disease." [Gramene:ivy, NCBI_taxid:109385]
+def: "The treatment involving exposure of plant to the pathogen Athelia rolfsii. It is a causal agent for rice Seedling Blight (Fungal) disease." [Gramene:ivy, NCBITaxon:109385]
 synonym: "Athelia rolfsii treatment (narrow)" NARROW []
 synonym: "Sclerotium rolfsii (related)" RELATED []
 is_a: PECO:0007073 ! Basidiomycota exposure
@@ -4077,14 +4077,14 @@ alt_id: EO:0007378
 def: "A plant fungal exposure (PECO:0007233) involving exposure of plant to the pathogen Sarocladium oryzae. It is a causal agent for rice Seedling Blight (Fungal) disease and/or Sheath Rot disease." [Gramene:ivy]
 synonym: "Acrocylindrium oryzae (related)" RELATED []
 synonym: "Sarocladium oryzae treatment (narrow)" NARROW []
-xref: NCBI_taxid:284135
+xref: NCBITaxon:284135
 is_a: PECO:0007233 ! fungal plant exposure
 
 [Term]
 id: PECO:0007379
 name: Thanatephorus cucumeris exposure
 alt_id: EO:0007379
-def: "The treatment involving exposure of plant to the pathogen Thanatephorus cucumeris." [Gramene:ivy, NCBI_taxid:107832]
+def: "The treatment involving exposure of plant to the pathogen Thanatephorus cucumeris." [Gramene:ivy, NCBITaxon:107832]
 comment: It is a causal agent for rice Sheath Blight diseases  such as Brown-bordered Leaf and Sheath Spot disease and/or Oriental Leaf and Sheath Blight disease.
 synonym: "black scurf of potato (related)" RELATED []
 synonym: "Rhizoctonia praticola (related)" RELATED []
@@ -4144,7 +4144,7 @@ is_a: PECO:0007064 ! ecological environment exposure
 id: PECO:0007386
 name: Gerlachia oryzae exposure
 alt_id: EO:0007386
-def: "The treatment involving exposure of plant to the pathogen Gerlachia oryzae. It is a causal agent for a form of rice Seedling Blight (Fungal) disease." [Gramene:ivy, NCBI_taxid:87749]
+def: "The treatment involving exposure of plant to the pathogen Gerlachia oryzae. It is a causal agent for a form of rice Seedling Blight (Fungal) disease." [Gramene:ivy, NCBITaxon:87749]
 synonym: "Gerlachia oryzae treatment (narrow)" NARROW []
 synonym: "Monographella albescens (related)" RELATED []
 synonym: "rice leaf scald (related)" RELATED []
@@ -4171,7 +4171,7 @@ is_a: PECO:0007214 ! Alternaria spp. exposure
 id: PECO:0007389
 name: Gibberella zeae exposure
 alt_id: EO:0007389
-def: "The treatment involving exposure of plant to the pathogen Gibberella zeae. It is a causal agent for rice Scab disease." [Gramene:ivy, NCBI_taxid:5518]
+def: "The treatment involving exposure of plant to the pathogen Gibberella zeae. It is a causal agent for rice Scab disease." [Gramene:ivy, NCBITaxon:5518]
 synonym: "Fusarium graminearum (related)" RELATED []
 synonym: "Gibberella zeae treatment (narrow)" NARROW []
 is_a: PECO:0007118 ! Gibberella spp. exposure
@@ -4352,7 +4352,7 @@ synonym: "Bacillus fluorescens liquefaciens (related)" RELATED []
 synonym: "Bacterium fluorescen (related)" RELATED []
 synonym: "Liquidomonas fluorescens (related)" RELATED []
 synonym: "Pseudomonas fluorescens treatment (narrow)" NARROW []
-xref: NCBI_taxid:294
+xref: NCBITaxon:294
 is_a: PECO:0007144 ! Pseudomonas plant exposure
 
 [Term]
@@ -5173,7 +5173,7 @@ is_a: PECO:0007106 ! Stramenopiles exposure
 id: PECO:0007631
 name: Sclerospora graminicola exposure
 alt_id: EO:0007631
-def: "The treatment involving exposure of plant to the pathogen Sclerophthora graminicola. It is a causal agent for downy mildew disease." [Gramene:pankaj_jaiswal, NCBI_taxid:162130]
+def: "The treatment involving exposure of plant to the pathogen Sclerophthora graminicola. It is a causal agent for downy mildew disease." [Gramene:pankaj_jaiswal, NCBITaxon:162130]
 synonym: "Sclerospora graminicola treatment (narrow)" NARROW []
 is_a: PECO:0007630 ! Sclerospora spp. exposure
 

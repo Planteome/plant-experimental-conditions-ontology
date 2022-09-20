@@ -376,8 +376,8 @@ alt_id: EO:0001033
 def: "A Hymenoptera insect plant exposure (PECO:0001032) that involves exposure to parasitic wasps." [PECO:cooperl]
 comment: Parasitic wasp (or parasitoid wasp) refers to a large evolutionary grade of hymenopteran superfamilies, mainly in the Apocrita.
 synonym: "parasitic wasp insect plant treatment (narrow)" NARROW []
-xref: Wikipedia:Parasitoid_wasp
 xref: PECO_GIT:38
+xref: Wikipedia:Parasitoid_wasp
 is_a: PECO:0001032 ! Hymenoptera insect plant exposure
 created_by: cooperl
 creation_date: 2013-04-13T13:38:41Z
@@ -805,6 +805,15 @@ def: "A bacterial plant exposure (PECO:0007246) involving exposure of the plant 
 comment: Rhizobium leguminosarum is a mutualistic symbiont which has the has the ability to fix free nitrogen from the air.  It is typically applied as a as a seed dressing.
 xref: PECO_GIT:120
 is_a: PECO:0007246 ! bacterial plant exposure
+
+[Term]
+id: PECO:0001073
+name: aeroponic plant growth media exposure
+def: "A plant growth medium exposure (PECO:0007147) involving the growth of plants in an air and/or a mist environment, without the use of soil or an aggregate medium." [PECO:cooperl, Wikipedia: Aeroponics]
+xref: PECO_GIT:128
+is_a: PECO:0007147 ! plant growth medium exposure
+created_by: http://orcid.org/0000-0002-6379-8932
+creation_date: 2022-09-20T23:04:36Z
 
 [Term]
 id: PECO:0007001
@@ -2096,9 +2105,9 @@ name: radiation exposure
 alt_id: EO:0007151
 def: "A physical plant exposure (PECO:0007316) involving an exposure with a radiation type, intensity or quantity." [Gramene:pankaj_jaiswal, PECO:cooperl]
 comment: Electromagnetic radiation is classified according to the frequency of its waves. The electromagnetic spectrum, in order of increasing frequency and decreasing wavelength, consists of radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays and gamma rays.
-xref: Wikipedia:Electromagnetic_radiation
 synonym: "light regimen (related)" RELATED []
 synonym: "radiation treatment (narrow)" NARROW []
+xref: Wikipedia:Electromagnetic_radiation
 is_a: PECO:0007316 ! physical plant exposure
 
 [Term]

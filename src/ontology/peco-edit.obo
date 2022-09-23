@@ -809,7 +809,7 @@ is_a: PECO:0007246 ! bacterial plant exposure
 [Term]
 id: PECO:0001073
 name: aeroponic plant growth media exposure
-def: "A plant growth medium exposure (PECO:0007147) involving the growth of plants in an air and/or a mist environment, without the use of soil or an aggregate medium." [PECO:cooperl, Wikipedia: Aeroponics]
+def: "A plant growth medium exposure (PECO:0007147) involving the growth of plants in an air and/or a mist environment, without the use of soil or an aggregate medium." [PECO:cooperl, Wikipedia:Aeroponics]
 xref: PECO_GIT:128
 is_a: PECO:0007147 ! plant growth medium exposure
 created_by: http://orcid.org/0000-0002-6379-8932

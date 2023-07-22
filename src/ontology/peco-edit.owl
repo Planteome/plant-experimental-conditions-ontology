@@ -4476,17 +4476,17 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007127">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne spp. exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007337"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant nematode exposure (PECO:0007337) which is the exposure of a plant structure (PO:0009011) to a Meloidogyne sp. nematode.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007127</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne spp. treatment (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne spp. treatment (related)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007127</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the exposure of plant to the pest Meloidogyne spp. It is a causal agent for rice root knot nematode disease.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root-knot nematode (related)</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant nematode exposure (PECO:0007337) which is the exposure of a plant structure (PO:0009011) to a Meloidogyne sp. nematode.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:189290</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the exposure of plant to the pest Meloidogyne spp. It is a causal agent for rice root knot nematode disease.</owl:annotatedTarget>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007127"/>
     </owl:Axiom>
@@ -5529,14 +5529,20 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-Selektonon (related)</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:94-75-7</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U-5043 (related)</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007180"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:94-75-7</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weed Tox (related)</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crotilin (related)</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007180"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-Selektonon (related)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:94-75-7</oboInOwl:hasDbXref>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007180"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -5548,19 +5554,13 @@
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:94-75-7</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dicopur (related)</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weedar 64A (related)</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007180"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:94-75-7</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Decamine (related)</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007180"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:94-75-7</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crotilin (related)</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007180"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -5573,19 +5573,19 @@
     </owl:Axiom>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:94-75-7</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weed Tox (related)</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007180"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:94-75-7</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dicopur (related)</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007180"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:94-75-7</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weedone-2,4-DP (related)</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007180"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:94-75-7</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weedar 64A (related)</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007180"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:94-75-7</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U-5043 (related)</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007180"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     </owl:Axiom>
@@ -8473,15 +8473,17 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne arenaria exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007127"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007320</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne arenaria treatment (narrow)</oboInOwl:hasNarrowSynonym>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne arenaria is a causal agent for rice root-knot nematode disease.</rdfs:comment>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne arenaria treatment (related)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007320</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne arenaria.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:6304</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne arenaria.</owl:annotatedTarget>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007320"/>
     </owl:Axiom>
@@ -8832,20 +8834,21 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007337 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007337">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nematoda exposure</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant nematode exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007349"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant metazoan exposure (PECO:0007349) which is the exposure of a plant structure (PO:0009011) to a nematode (NCBITaxon:6231).</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007337</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nematoda treatment (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nematode treatment (related)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007337</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the nematode pests.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">round worm (related)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">roundworm (related)</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant metazoan exposure (PECO:0007349) which is the exposure of a plant structure (PO:0009011) to a nematode (NCBITaxon:6231).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:6231</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the nematode pests.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007337"/>
     </owl:Axiom>
@@ -9511,14 +9514,17 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne salasi exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007127"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007369</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne salasi treatment (narrow)</oboInOwl:hasNarrowSynonym>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne salasi is a causal agent for rice root-knot nematode disease.</rdfs:comment>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne salasi treatment (related)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007369</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne salasi. It is a causal agent for rice root knot nematode disease.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne salasi.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne salasi. It is a causal agent for rice root knot nematode disease.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2109886</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne salasi.</owl:annotatedTarget>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007369"/>
     </owl:Axiom>
@@ -9531,14 +9537,17 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne oryzae exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007127"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007370</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne oryzae treatment (narrow)</oboInOwl:hasNarrowSynonym>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne oryzae is a causal agent for rice root-knot nematode disease.</rdfs:comment>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne oryzae treatment (related)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007370</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne oryzae.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:325757</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne oryzae.</owl:annotatedTarget>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007370"/>
     </owl:Axiom>
@@ -9551,16 +9560,18 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne javanica exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007127"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007371</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne javanica treatment (narrow)</oboInOwl:hasNarrowSynonym>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne javanica is a causal agent for rice root-knot nematode disease.</rdfs:comment>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne javanica treatment (related)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007371</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne javanica.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root-knot nematode (related)</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:6303</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne javanica.</owl:annotatedTarget>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007371"/>
     </owl:Axiom>
@@ -9573,16 +9584,18 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne incognita exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007127"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007372</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne incognita treatment (narrow)</oboInOwl:hasNarrowSynonym>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne incognita is a causal agent for rice root-knot nematode disease.</rdfs:comment>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne incognita treatment (related)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007372</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne incognita.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">southern root-knot nematode (related)</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:6306</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease.</owl:annotatedTarget>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</rdfs:comment>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne incognita.</owl:annotatedTarget>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007372"/>
     </owl:Axiom>
@@ -9633,15 +9646,17 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne graminicola exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007127"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007375</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne graminicola treatment (narrow)</oboInOwl:hasNarrowSynonym>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne graminicola is a causal agent for rice root-knot nematode disease.</rdfs:comment>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meloidogyne graminicola treatment (related)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007375</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne graminicola.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:189291</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Meloidogyne graminicola.</owl:annotatedTarget>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007375"/>
     </owl:Axiom>

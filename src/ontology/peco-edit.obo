@@ -25,7 +25,7 @@ creation_date: 2013-04-10T13:21:11Z
 
 [Term]
 id: PECO:0001002
-name: plant growth environment
+name: OBSOLETE plant growth environment
 alt_id: EO:0001002
 def: "OBSOLETE: A plant environment (PECO:0007359) involving a plant exposure (PECO:0001001), or a combination plant treatments, as well as natural conditions for plant growth." [PECO:cooperl]
 synonym: "plant growing conditions (exact)" EXACT []
@@ -858,14 +858,14 @@ is_a: PECO:0007357 ! biotic plant exposure
 
 [Term]
 id: PECO:0007006
-name: monocot mixed crop neighbor
+name: OBSOLETE monocot mixed crop neighbor
 alt_id: EO:0007006
 def: "OBSOLETE." [Gramene:pankaj_jaiswal]
 is_obsolete: true
 
 [Term]
 id: PECO:0007007
-name: monocot weed plant neighbor
+name: OBSOLETE monocot weed plant neighbor
 alt_id: EO:0007007
 def: "OBSOLETE" [Gramene:pankaj_jaiswal]
 is_obsolete: true
@@ -1141,14 +1141,14 @@ is_a: PECO:0007027 ! seasonal environment exposure
 
 [Term]
 id: PECO:0007039
-name: dicot weed plant neighbor
+name: OBSOLETE dicot weed plant neighbor
 alt_id: EO:0007039
 def: "OBSOLETE." [Gramene:pankaj_jaiswal]
 is_obsolete: true
 
 [Term]
 id: PECO:0007040
-name: dicot mixed crop neighbor
+name: OBSOLETE dicot mixed crop neighbor
 alt_id: EO:0007040
 def: "OBSOLETE." [Gramene:pankaj_jaiswal]
 is_obsolete: true
@@ -1273,14 +1273,14 @@ is_a: PECO:0007107 ! Ascomycota exposure
 
 [Term]
 id: PECO:0007056
-name: soil flora
+name: OBSOLETE soil flora
 alt_id: EO:0007056
 def: "OBSOLETE: A treatment involving growing plants and  exposing them to varying types of flora in soil growth media." [Gramene:pankaj_jaiswal]
 is_obsolete: true
 
 [Term]
 id: PECO:0007057
-name: soil fauna
+name: OBSOLETE soil fauna
 alt_id: EO:0007057
 def: "OBSOLETE: A treatment involving growing plants and  exposing them to varying types of fauna in soil growth media." [Gramene:pankaj_jaiswal]
 is_obsolete: true
@@ -1732,7 +1732,7 @@ is_a: PECO:0007233 ! fungal plant exposure
 
 [Term]
 id: PECO:0007108
-name: Proteobacterial plant exposure
+name: OBSOLETE Proteobacterial plant exposure
 alt_id: EO:0007108
 def: "OBSOLETE: A bacterial plant exposure (PECO:0007246) involving the exposure of bacteria of the Proteobacteria." [Gramene:ivy, NCBITaxon:1224]
 synonym: "Proteobacterial plant treatment (narrow)" NARROW []
@@ -1876,7 +1876,7 @@ is_a: PECO:0007116 ! Hemiptera insect plant exposure
 
 [Term]
 id: PECO:0007124
-name: pest/pathogen/animal/plant environment
+name: OBSOLETE pest/pathogen/animal/plant environment
 alt_id: EO:0007124
 def: "OBSOLETE: Treatment involving the exposure of plant to the pest/pathogen/animal/plants present as part of its growth environment." [Gramene:pankaj_jaiswal]
 comment: Consider: biotic plant treatment (PECO:0007357).
@@ -1884,7 +1884,7 @@ is_obsolete: true
 
 [Term]
 id: PECO:0007125
-name: genetic environment
+name: OBSOLETE genetic environment
 alt_id: EO:0007125
 def: "OBSOLETE." [Gramene:pankaj_jaiswal]
 is_obsolete: true
@@ -2094,7 +2094,7 @@ is_a: PECO:0007189 ! chemical exposure
 
 [Term]
 id: PECO:0007150
-name: facultative anaerobic environment
+name: OBSOLETE facultative anaerobic environment
 alt_id: EO:0007150
 def: "OBSOLETE." [Gramene:pankaj_jaiswal]
 is_obsolete: true
@@ -2828,14 +2828,14 @@ is_a: PECO:0007144 ! Pseudomonas plant exposure
 
 [Term]
 id: PECO:0007237
-name: normal temperature regimen
+name: OBSOLETE normal temperature regimen
 alt_id: EO:0007237
 def: "OBSOLETE." [Gramene:pankaj_jaiswal]
 is_obsolete: true
 
 [Term]
 id: PECO:0007238
-name: optimal temperature regimen
+name: OBSOLETE optimal temperature regimen
 alt_id: EO:0007238
 def: "OBSOLETE." [Gramene:pankaj_jaiswal]
 is_obsolete: true
@@ -3213,7 +3213,7 @@ is_a: PECO:0007231 ! study type
 
 [Term]
 id: PECO:0007281
-name: obsolete environment term
+name: OBSOLETE environment term
 alt_id: EO:0007281
 def: "OBSOLETE: The treatment involving the terms that are no longer in use or were deleted are placed under this parent term." [Gramene:pankaj_jaiswal]
 is_obsolete: true
@@ -3601,7 +3601,7 @@ is_a: PECO:0007126 ! Hirschmaniella spp. exposure
 id: PECO:0007325
 name: Hirschmaniella caudacrena exposure
 alt_id: EO:0007325
-def: "The treatment involving exposure of plant to the pest Hirschmaniella imamuri. It is a causal agent for rice root nematode disease." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to the pest Hirschmaniella caudacrena. It is a causal agent for rice root nematode disease." [Gramene:pankaj_jaiswal]
 synonym: "Hirschmaniella caudacrena treatment (narrow)" NARROW []
 is_a: PECO:0007126 ! Hirschmaniella spp. exposure
 
@@ -3849,21 +3849,21 @@ is_a: PECO:0007111 ! ssRNA negative-strand virus exposure
 
 [Term]
 id: PECO:0007351
-name: genetic background
+name: OBSOLETE genetic background
 alt_id: EO:0007351
 def: "OBSOLETE." [Gramene:pankaj_jaiswal]
 is_obsolete: true
 
 [Term]
 id: PECO:0007353
-name: germplasm
+name: OBSOLETE germplasm
 alt_id: EO:0007353
 def: "OBSOLETE." [Gramene:pankaj_jaiswal]
 is_obsolete: true
 
 [Term]
 id: PECO:0007355
-name: genotype
+name: OBSOLETE genotype
 alt_id: EO:0007355
 def: "OBSOLETE." [Gramene:pankaj_jaiswal]
 is_obsolete: true
@@ -4110,14 +4110,14 @@ is_a: PECO:0007073 ! Basidiomycota exposure
 
 [Term]
 id: PECO:0007380
-name: cytoplasmic genetic background
+name: OBSOLETE cytoplasmic genetic background
 alt_id: EO:0007380
 def: "OBSOLETE." [Gramene:pankaj_jaiswal]
 is_obsolete: true
 
 [Term]
 id: PECO:0007381
-name: nuclear genetic background
+name: OBSOLETE nuclear genetic background
 alt_id: EO:0007381
 def: "OBSOLETE" [Gramene:pankaj_jaiswal]
 is_obsolete: true
@@ -4211,7 +4211,7 @@ is_a: PECO:0007064 ! ecological environment exposure
 
 [Term]
 id: PECO:0007393
-name: sub-sahara region
+name: OBSOLETE sub-sahara region
 alt_id: EO:0007393
 def: "OBSOLETE." [Gramene:pankaj_jaiswal]
 is_obsolete: true

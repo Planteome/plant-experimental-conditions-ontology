@@ -164,8 +164,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure to a chemical that has the role of nematicide</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nematicide exposure</rdfs:label>
+        <rdfs:label>nematicide exposure</rdfs:label>
     </owl:Class>
     
 
@@ -194,8 +193,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure to a chemical that has the role of antimicrobial agent</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antimicrobial agent exposure</rdfs:label>
+        <obo:IAO_0000115>An exposure to a chemical that has the role of antimicrobial agent</obo:IAO_0000115>
+        <rdfs:label>antimicrobial agent exposure</rdfs:label>
     </owl:Class>
     
 
@@ -224,8 +223,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure to a chemical that has the role of cytokinin</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytokinin exposure</rdfs:label>
+        <obo:IAO_0000115>An exposure to a chemical that has the role of cytokinin</obo:IAO_0000115>
+        <rdfs:label>cytokinin exposure</rdfs:label>
     </owl:Class>
     
 
@@ -254,8 +253,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure to a chemical that has the role of auxin</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auxin exposure</rdfs:label>
+        <obo:IAO_0000115>An exposure to a chemical that has the role of auxin</obo:IAO_0000115>
+        <rdfs:label>auxin exposure</rdfs:label>
     </owl:Class>
     
 
@@ -284,8 +283,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure to a chemical that has the role of fertilizer</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fertilizer exposure</rdfs:label>
+        <obo:IAO_0000115>An exposure to a chemical that has the role of fertilizer</obo:IAO_0000115>
+        <rdfs:label>fertilizer exposure</rdfs:label>
     </owl:Class>
     
 
@@ -314,8 +313,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure to a chemical that has the role of growth hormone</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth hormone exposure</rdfs:label>
+        <obo:IAO_0000115>An exposure to a chemical that has the role of growth hormone</obo:IAO_0000115>
+        <rdfs:label>growth hormone exposure</rdfs:label>
     </owl:Class>
     
 
@@ -344,8 +343,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure to a chemical that has the role of pesticide</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pesticide exposure</rdfs:label>
+        <obo:IAO_0000115>An exposure to a chemical that has the role of pesticide</obo:IAO_0000115>
+        <rdfs:label>pesticide exposure</rdfs:label>
     </owl:Class>
     
 
@@ -374,8 +373,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure to a chemical that has the role of herbicide</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">herbicide exposure</rdfs:label>
+        <obo:IAO_0000115>An exposure to a chemical that has the role of herbicide</obo:IAO_0000115>
+        <rdfs:label>herbicide exposure</rdfs:label>
     </owl:Class>
     
 
@@ -404,8 +403,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure to a chemical that has the role of micronutrient</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">micronutrient exposure</rdfs:label>
+        <obo:IAO_0000115>An exposure to a chemical that has the role of micronutrient</obo:IAO_0000115>
+        <rdfs:label>micronutrient exposure</rdfs:label>
     </owl:Class>
     
 
@@ -434,8 +433,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure to a chemical that has the role of fungicide</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fungicide exposure</rdfs:label>
+        <obo:IAO_0000115>An exposure to a chemical that has the role of fungicide</obo:IAO_0000115>
+        <rdfs:label>fungicide exposure</rdfs:label>
     </owl:Class>
     
 
@@ -464,12 +463,12 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure to a chemical that has the role of insecticide</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insecticide exposure</rdfs:label>
+        <obo:IAO_0000115>An exposure to a chemical that has the role of insecticide</obo:IAO_0000115>
+        <rdfs:label>insecticide exposure</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
 

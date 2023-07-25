@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2023-07-17
+data-version: releases/2023-07-25
 date: 12:10:2015 15:21
 saved-by: cooperl
 default-namespace: plant_experimental_conditions_ontology
@@ -8379,7 +8379,7 @@ creation_date: 2013-04-10T13:21:11Z
 
 [Term]
 id: PECO:0001002
-name: plant growth environment
+name: OBSOLETE plant growth environment
 alt_id: EO:0001002
 def: "OBSOLETE: A plant environment (PECO:0007359) involving a plant exposure (PECO:0001001), or a combination plant treatments, as well as natural conditions for plant growth." [PECO:cooperl]
 synonym: "plant growing conditions (exact)" EXACT []
@@ -9220,14 +9220,14 @@ is_a: PECO:0007357 ! biotic plant exposure
 
 [Term]
 id: PECO:0007006
-name: monocot mixed crop neighbor
+name: OBSOLETE monocot mixed crop neighbor
 alt_id: EO:0007006
 def: "OBSOLETE." [Gramene:pankaj_jaiswal]
 is_obsolete: true
 
 [Term]
 id: PECO:0007007
-name: monocot weed plant neighbor
+name: OBSOLETE monocot weed plant neighbor
 alt_id: EO:0007007
 def: "OBSOLETE" [Gramene:pankaj_jaiswal]
 is_obsolete: true
@@ -9504,14 +9504,14 @@ is_a: PECO:0007027 ! seasonal environment exposure
 
 [Term]
 id: PECO:0007039
-name: dicot weed plant neighbor
+name: OBSOLETE dicot weed plant neighbor
 alt_id: EO:0007039
 def: "OBSOLETE." [Gramene:pankaj_jaiswal]
 is_obsolete: true
 
 [Term]
 id: PECO:0007040
-name: dicot mixed crop neighbor
+name: OBSOLETE dicot mixed crop neighbor
 alt_id: EO:0007040
 def: "OBSOLETE." [Gramene:pankaj_jaiswal]
 is_obsolete: true
@@ -9638,14 +9638,14 @@ is_a: PECO:0007107 ! Ascomycota exposure
 
 [Term]
 id: PECO:0007056
-name: soil flora
+name: OBSOLETE soil flora
 alt_id: EO:0007056
 def: "OBSOLETE: A treatment involving growing plants and  exposing them to varying types of flora in soil growth media." [Gramene:pankaj_jaiswal]
 is_obsolete: true
 
 [Term]
 id: PECO:0007057
-name: soil fauna
+name: OBSOLETE soil fauna
 alt_id: EO:0007057
 def: "OBSOLETE: A treatment involving growing plants and  exposing them to varying types of fauna in soil growth media." [Gramene:pankaj_jaiswal]
 is_obsolete: true
@@ -10108,7 +10108,7 @@ is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007108
-name: Proteobacterial plant exposure
+name: OBSOLETE Proteobacterial plant exposure
 alt_id: EO:0007108
 def: "OBSOLETE: A bacterial plant exposure (PECO:0007246) involving the exposure of bacteria of the Proteobacteria." [Gramene:ivy, NCBITaxon:1224]
 synonym: "Proteobacterial plant treatment (narrow)" NARROW []
@@ -10253,7 +10253,7 @@ is_a: PECO:0007116 ! Hemiptera insect plant exposure
 
 [Term]
 id: PECO:0007124
-name: pest/pathogen/animal/plant environment
+name: OBSOLETE pest/pathogen/animal/plant environment
 alt_id: EO:0007124
 def: "OBSOLETE: Treatment involving the exposure of plant to the pest/pathogen/animal/plants present as part of its growth environment." [Gramene:pankaj_jaiswal]
 comment: Consider: biotic plant treatment (PECO:0007357).
@@ -10261,7 +10261,7 @@ is_obsolete: true
 
 [Term]
 id: PECO:0007125
-name: genetic environment
+name: OBSOLETE genetic environment
 alt_id: EO:0007125
 def: "OBSOLETE." [Gramene:pankaj_jaiswal]
 is_obsolete: true
@@ -10272,16 +10272,16 @@ name: Hirschmaniella spp. exposure
 alt_id: EO:0007126
 def: "Treatment involving the exposure of plant to the pest Hirschmaniella spp. It is a causal agent for rice root nematode disease." [Gramene:pankaj_jaiswal]
 synonym: "Hirschmaniella spp. treatment (narrow)" NARROW []
-is_a: PECO:0007337 ! Nematoda exposure
+is_a: PECO:0007337 ! plant nematode exposure
 
 [Term]
 id: PECO:0007127
 name: Meloidogyne spp. exposure
 alt_id: EO:0007127
-def: "Treatment involving the exposure of plant to the pest Meloidogyne spp. It is a causal agent for rice root knot nematode disease." [Gramene:pankaj_jaiswal, NCBITaxon:189290]
-synonym: "Meloidogyne spp. treatment (narrow)" NARROW []
+def: "A plant nematode exposure (PECO:0007337) which is the exposure of a plant structure (PO:0009011) to a Meloidogyne sp. nematode." [Gramene:pankaj_jaiswal, NCBITaxon:189290]
+synonym: "Meloidogyne spp. treatment (related)" RELATED []
 synonym: "root-knot nematode (related)" RELATED []
-is_a: PECO:0007337 ! Nematoda exposure
+is_a: PECO:0007337 ! plant nematode exposure
 
 [Term]
 id: PECO:0007128
@@ -10471,7 +10471,7 @@ is_a: PECO:0007189 ! chemical exposure
 
 [Term]
 id: PECO:0007150
-name: facultative anaerobic environment
+name: OBSOLETE facultative anaerobic environment
 alt_id: EO:0007150
 def: "OBSOLETE." [Gramene:pankaj_jaiswal]
 is_obsolete: true
@@ -10934,7 +10934,7 @@ is_a: PECO:0007196 ! light exposure
 id: PECO:0007204
 name: 1-naphthaleneacetic acid exposure
 alt_id: EO:0007204
-def: "An auxin exposure (PECO:0007074) involving use of 1-naphthaleneacetic acid growth hormone and herbicide." [CAS:\[68-87-3\], Gramene:pankaj_jaiswal]
+def: "An auxin exposure (PECO:0007074) involving use of 1-naphthaleneacetic acid growth hormone and herbicide." [CAS:[68-87-3\], Gramene:pankaj_jaiswal]
 synonym: "1-naphthaleneacetic acid treatment (narrow)" NARROW []
 synonym: "NAA (related)" RELATED []
 synonym: "Naphthylacetic acid (related)" RELATED []
@@ -11214,14 +11214,14 @@ is_a: PECO:0007144 ! Pseudomonas plant exposure
 
 [Term]
 id: PECO:0007237
-name: normal temperature regimen
+name: OBSOLETE normal temperature regimen
 alt_id: EO:0007237
 def: "OBSOLETE." [Gramene:pankaj_jaiswal]
 is_obsolete: true
 
 [Term]
 id: PECO:0007238
-name: optimal temperature regimen
+name: OBSOLETE optimal temperature regimen
 alt_id: EO:0007238
 def: "OBSOLETE." [Gramene:pankaj_jaiswal]
 is_obsolete: true
@@ -11603,7 +11603,7 @@ is_a: PECO:0007231 ! study type
 
 [Term]
 id: PECO:0007281
-name: obsolete environment term
+name: OBSOLETE environment term
 alt_id: EO:0007281
 def: "OBSOLETE: The treatment involving the terms that are no longer in use or were deleted are placed under this parent term." [Gramene:pankaj_jaiswal]
 is_obsolete: true
@@ -11950,8 +11950,9 @@ is_a: PECO:0007173 ! warm/hot temperature exposure
 id: PECO:0007320
 name: Meloidogyne arenaria exposure
 alt_id: EO:0007320
-def: "The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease." [Gramene:pankaj_jaiswal, NCBITaxon:6304]
-synonym: "Meloidogyne arenaria treatment (narrow)" NARROW []
+def: "The treatment involving exposure of plant to the pest Meloidogyne arenaria." [Gramene:pankaj_jaiswal, NCBITaxon:6304, PECO:cooperl]
+comment: Meloidogyne arenaria is a causal agent for rice root-knot nematode disease.
+synonym: "Meloidogyne arenaria treatment (related)" RELATED []
 is_a: PECO:0007127 ! Meloidogyne spp. exposure
 
 [Term]
@@ -11991,7 +11992,7 @@ is_a: PECO:0007126 ! Hirschmaniella spp. exposure
 id: PECO:0007325
 name: Hirschmaniella caudacrena exposure
 alt_id: EO:0007325
-def: "The treatment involving exposure of plant to the pest Hirschmaniella imamuri. It is a causal agent for rice root nematode disease." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to the pest Hirschmaniella caudacrena. It is a causal agent for rice root nematode disease." [Gramene:pankaj_jaiswal]
 synonym: "Hirschmaniella caudacrena treatment (narrow)" NARROW []
 is_a: PECO:0007126 ! Hirschmaniella spp. exposure
 
@@ -12097,14 +12098,14 @@ def: "The treatment involving exposure of plant to the pest Ditylenchus angustus
 synonym: "Ditylenchus angustus treatment (narrow)" NARROW []
 synonym: "rice stem nematode (related)" RELATED []
 synonym: "ufra nematode (related)" RELATED []
-is_a: PECO:0007337 ! Nematoda exposure
+is_a: PECO:0007337 ! plant nematode exposure
 
 [Term]
 id: PECO:0007337
-name: Nematoda exposure
+name: plant nematode exposure
 alt_id: EO:0007337
-def: "The treatment involving exposure of plant to the nematode pests." [Gramene:pankaj_jaiswal, NCBITaxon:6231]
-synonym: "Nematoda treatment (narrow)" NARROW []
+def: "A plant metazoan exposure (PECO:0007349) which is the exposure of a plant structure (PO:0009011) to a nematode (NCBITaxon:6231)." [Gramene:pankaj_jaiswal, NCBITaxon:6231, PECO:cooperl]
+synonym: "Nematode treatment (related)" RELATED []
 synonym: "round worm (related)" RELATED []
 synonym: "roundworm (related)" RELATED []
 is_a: PECO:0007349 ! metazoan plant exposure
@@ -12241,21 +12242,21 @@ is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007351
-name: genetic background
+name: OBSOLETE genetic background
 alt_id: EO:0007351
 def: "OBSOLETE." [Gramene:pankaj_jaiswal]
 is_obsolete: true
 
 [Term]
 id: PECO:0007353
-name: germplasm
+name: OBSOLETE germplasm
 alt_id: EO:0007353
 def: "OBSOLETE." [Gramene:pankaj_jaiswal]
 is_obsolete: true
 
 [Term]
 id: PECO:0007355
-name: genotype
+name: OBSOLETE genotype
 alt_id: EO:0007355
 def: "OBSOLETE." [Gramene:pankaj_jaiswal]
 is_obsolete: true
@@ -12386,7 +12387,7 @@ alt_id: EO:0007367
 def: "The treatment involving exposure of plant to the pest Aphelenchoides besseyi. It is a causal agent for rice white tip nematode disease." [Gramene:pankaj_jaiswal]
 synonym: "Aphelenchoides besseyi treatment (narrow)" NARROW []
 synonym: "rice white-tip nematode (related)" RELATED []
-is_a: PECO:0007337 ! Nematoda exposure
+is_a: PECO:0007337 ! plant nematode exposure
 
 [Term]
 id: PECO:0007368
@@ -12401,24 +12402,27 @@ is_a: PECO:0007173 ! warm/hot temperature exposure
 id: PECO:0007369
 name: Meloidogyne salasi exposure
 alt_id: EO:0007369
-def: "The treatment involving exposure of plant to the pest Meloidogyne salasi. It is a causal agent for rice root knot nematode disease." [Gramene:pankaj_jaiswal]
-synonym: "Meloidogyne salasi treatment (narrow)" NARROW []
+def: "The treatment involving exposure of plant to the pest Meloidogyne salasi." [Gramene:pankaj_jaiswal, NCBITaxon:2109886, PECO:cooperl]
+comment: Meloidogyne salasi is a causal agent for rice root-knot nematode disease.
+synonym: "Meloidogyne salasi treatment (related)" RELATED []
 is_a: PECO:0007127 ! Meloidogyne spp. exposure
 
 [Term]
 id: PECO:0007370
 name: Meloidogyne oryzae exposure
 alt_id: EO:0007370
-def: "The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease." [Gramene:pankaj_jaiswal]
-synonym: "Meloidogyne oryzae treatment (narrow)" NARROW []
+def: "The treatment involving exposure of plant to the pest Meloidogyne oryzae." [Gramene:pankaj_jaiswal, NCBITaxon:325757, PECO:cooperl]
+comment: Meloidogyne oryzae is a causal agent for rice root-knot nematode disease.
+synonym: "Meloidogyne oryzae treatment (related)" RELATED []
 is_a: PECO:0007127 ! Meloidogyne spp. exposure
 
 [Term]
 id: PECO:0007371
 name: Meloidogyne javanica exposure
 alt_id: EO:0007371
-def: "The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease." [Gramene:pankaj_jaiswal, NCBITaxon:6303]
-synonym: "Meloidogyne javanica treatment (narrow)" NARROW []
+def: "The treatment involving exposure of plant to the pest Meloidogyne javanica." [Gramene:pankaj_jaiswal, NCBITaxon:6303, PECO:cooperl]
+comment: Meloidogyne javanica is a causal agent for rice root-knot nematode disease.
+synonym: "Meloidogyne javanica treatment (related)" RELATED []
 synonym: "root-knot nematode (related)" RELATED []
 is_a: PECO:0007127 ! Meloidogyne spp. exposure
 
@@ -12426,8 +12430,9 @@ is_a: PECO:0007127 ! Meloidogyne spp. exposure
 id: PECO:0007372
 name: Meloidogyne incognita exposure
 alt_id: EO:0007372
-def: "The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease." [Gramene:pankaj_jaiswal, NCBITaxon:6306]
-synonym: "Meloidogyne incognita treatment (narrow)" NARROW []
+def: "The treatment involving exposure of plant to the pest Meloidogyne incognita." [Gramene:pankaj_jaiswal, NCBITaxon:6306] {comment="PECO:cooperl"}
+comment: Meloidogyne incognita is a causal agent for rice root-knot nematode disease.
+synonym: "Meloidogyne incognita treatment (related)" RELATED []
 synonym: "southern root-knot nematode (related)" RELATED []
 is_a: PECO:0007127 ! Meloidogyne spp. exposure
 
@@ -12454,8 +12459,9 @@ is_a: PECO:0007107 ! Ascomycota exposure
 id: PECO:0007375
 name: Meloidogyne graminicola exposure
 alt_id: EO:0007375
-def: "The treatment involving exposure of plant to the pest Meloidogyne oryzae. It is a causal agent for rice root knot nematode disease." [Gramene:pankaj_jaiswal, NCBITaxon:189291]
-synonym: "Meloidogyne graminicola treatment (narrow)" NARROW []
+def: "The treatment involving exposure of plant to the pest Meloidogyne graminicola." [Gramene:pankaj_jaiswal, NCBITaxon:189291, PECO:cooperl]
+comment: Meloidogyne graminicola is a causal agent for rice root-knot nematode disease.
+synonym: "Meloidogyne graminicola treatment (related)" RELATED []
 is_a: PECO:0007127 ! Meloidogyne spp. exposure
 
 [Term]
@@ -12500,14 +12506,14 @@ is_a: PECO:0007073 ! Basidiomycota exposure
 
 [Term]
 id: PECO:0007380
-name: cytoplasmic genetic background
+name: OBSOLETE cytoplasmic genetic background
 alt_id: EO:0007380
 def: "OBSOLETE." [Gramene:pankaj_jaiswal]
 is_obsolete: true
 
 [Term]
 id: PECO:0007381
-name: nuclear genetic background
+name: OBSOLETE nuclear genetic background
 alt_id: EO:0007381
 def: "OBSOLETE" [Gramene:pankaj_jaiswal]
 is_obsolete: true
@@ -12601,7 +12607,7 @@ is_a: PECO:0007064 ! ecological environment exposure
 
 [Term]
 id: PECO:0007393
-name: sub-sahara region
+name: OBSOLETE sub-sahara region
 alt_id: EO:0007393
 def: "OBSOLETE." [Gramene:pankaj_jaiswal]
 is_obsolete: true
@@ -12810,7 +12816,7 @@ is_a: PECO:0007414 ! peroxide exposure
 id: PECO:0007503
 name: 1,2-dibromoethane exposure
 alt_id: EO:0007503
-def: "The treatment involving use of 1,2-dibromoethane for mutagenesis process." [CAS:\[106-93-4\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 1,2-dibromoethane for mutagenesis process." [CAS:[106-93-4\], Gramene:pankaj_jaiswal]
 synonym: "1,2-dibromoethane treatment (narrow)" NARROW []
 synonym: "DBE (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -12820,7 +12826,7 @@ is_a: PECO:0007167 ! pesticide exposure
 id: PECO:0007504
 name: 1,2-dichloroethane exposure
 alt_id: EO:0007504
-def: "The treatment involving use of 1,2-dichloroethane for mutagenesis process." [CAS:\[107-06-2\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 1,2-dichloroethane for mutagenesis process." [CAS:[107-06-2\], Gramene:pankaj_jaiswal]
 synonym: "1,2-dichloroethane treatment (narrow)" NARROW []
 synonym: "DCE (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -12830,7 +12836,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007505
 name: 1,2:5,6-dibenzanthracene exposure
 alt_id: EO:0007505
-def: "The treatment involving use of 1,2:5,6-dibenzanthracene for mutagenesis process." [CAS:\[53-70-3\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 1,2:5,6-dibenzanthracene for mutagenesis process." [CAS:[53-70-3\], Gramene:pankaj_jaiswal]
 synonym: "1,2:5,6-dibenzanthracene treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -12839,7 +12845,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007506
 name: 1,4-dimethanesulfonoxy-1:4-dimethylbutane exposure
 alt_id: EO:0007506
-def: "The treatment involving use of 1,4-dimethanesulfonoxy-1:4-dimethylbutane for mutagenesis process." [CAS:\[2514-83-2\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 1,4-dimethanesulfonoxy-1:4-dimethylbutane for mutagenesis process." [CAS:[2514-83-2\], Gramene:pankaj_jaiswal]
 synonym: "1,4-dimethanesulfonoxy-1:4-dimethylbutane treatment (narrow)" NARROW []
 synonym: "CB2348 (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -12849,7 +12855,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007507
 name: 1,4-dimethanesulfonoxybut-2-yne exposure
 alt_id: EO:0007507
-def: "The treatment involving use of 1,4-dimethanesulfonoxybut-2-yne for mutagenesis process." [CAS:\[2917-96-6\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 1,4-dimethanesulfonoxybut-2-yne for mutagenesis process." [CAS:[2917-96-6\], Gramene:pankaj_jaiswal]
 synonym: "1,4-dimethanesulfonoxybut-2-yne treatment (narrow)" NARROW []
 synonym: "CB2058 (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -12859,7 +12865,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007508
 name: 1,4-dimethanesulfonoxybutane exposure
 alt_id: EO:0007508
-def: "The treatment involving use of 1,4-dimethanesulfonoxybutane for mutagenesis process." [CAS:\[55-98-1\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 1,4-dimethanesulfonoxybutane for mutagenesis process." [CAS:[55-98-1\], Gramene:pankaj_jaiswal]
 synonym: "1,4-dimethanesulfonoxybutane treatment (narrow)" NARROW []
 synonym: "busulfan (related)" RELATED []
 synonym: "CB2041 (related)" RELATED []
@@ -12870,7 +12876,7 @@ is_a: PECO:0007632 ! insecticide exposure
 id: PECO:0007509
 name: 1,6-dimethylsulfonoxy D-mannitol exposure
 alt_id: EO:0007509
-def: "The treatment involving use of 1,6-dimethylsulfonoxy D-mannitol for mutagenesis process." [CAS:\[1187-00-4\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 1,6-dimethylsulfonoxy D-mannitol for mutagenesis process." [CAS:[1187-00-4\], Gramene:pankaj_jaiswal]
 synonym: "1,6-dimethylsulfonoxy D-mannitol treatment (narrow)" NARROW []
 synonym: "CB2511 (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -12880,7 +12886,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007510
 name: 1,6-dimethylsulfonoxy L-mannitol exposure
 alt_id: EO:0007510
-def: "The treatment involving use of 1,6-dimethylsulfonoxy L-mannitol for mutagenesis process." [CAS:\[2514-83-2\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 1,6-dimethylsulfonoxy L-mannitol for mutagenesis process." [CAS:[2514-83-2\], Gramene:pankaj_jaiswal]
 synonym: "1,6-dimethylsulfonoxy L-mannitol treatment (narrow)" NARROW []
 synonym: "CB2628 (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -12890,7 +12896,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007511
 name: 1-amino-2-naphthol-4-sulfonic acid exposure
 alt_id: EO:0007511
-def: "The treatment involving use of 1-amino-2-naphthol-4-sulfonic acid for mutagenesis process." [CAS:\[116-63-2\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 1-amino-2-naphthol-4-sulfonic acid for mutagenesis process." [CAS:[116-63-2\], Gramene:pankaj_jaiswal]
 synonym: "1-amino-2-naphthol-4-sulfonic acid treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -12899,7 +12905,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007512
 name: 1-bromo-2-chloroethane exposure
 alt_id: EO:0007512
-def: "The treatment involving use of 1-bromo-2-chloroethane for mutagenesis process." [CAS:\[107-04-0\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 1-bromo-2-chloroethane for mutagenesis process." [CAS:[107-04-0\], Gramene:pankaj_jaiswal]
 synonym: "1-bromo-2-chloroethane treatment (narrow)" NARROW []
 synonym: "BCE (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -12909,7 +12915,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007513
 name: 1-diethylaminoethylethylamino-4-methyl-thioxanthenone exposure
 alt_id: EO:0007513
-def: "The treatment involving use of 1-diethylaminoethylethylamino-4-methyl-thioxanthenone for mutagenesis process." [CAS:\[479-50-5\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 1-diethylaminoethylethylamino-4-methyl-thioxanthenone for mutagenesis process." [CAS:[479-50-5\], Gramene:pankaj_jaiswal]
 synonym: "1-diethylaminoethylethylamino-4-methyl-thioxanthenone treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -12918,7 +12924,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007514
 name: 2,5,-bisethylene-imine-1,4-benzoquinone exposure
 alt_id: EO:0007514
-def: "The treatment involving use of 2,5,-bisethylene-imine-1,4-benzoquinone for mutagenesis process." [CAS:\[526-62-5\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 2,5,-bisethylene-imine-1,4-benzoquinone for mutagenesis process." [CAS:[526-62-5\], Gramene:pankaj_jaiswal]
 synonym: "2,5,-bisethylene-imine-1,4-benzoquinone treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -12927,7 +12933,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007515
 name: 2-chloroethyl methanesulfonate exposure
 alt_id: EO:0007515
-def: "The treatment involving use of 2-chloroethyl methanesulfonate for mutagenesis process." [CAS:\[3570-58-9\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 2-chloroethyl methanesulfonate for mutagenesis process." [CAS:[3570-58-9\], Gramene:pankaj_jaiswal]
 synonym: "2-chloroethyl methanesulfonate treatment (narrow)" NARROW []
 synonym: "CB1506 (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -12937,7 +12943,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007516
 name: 2-fluoroethyl methanesulfonate exposure
 alt_id: EO:0007516
-def: "The treatment involving use of 2-fluoroethyl methanesulfonate for mutagenesis process." [CAS:\[461-31-4\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 2-fluoroethyl methanesulfonate for mutagenesis process." [CAS:[461-31-4\], Gramene:pankaj_jaiswal]
 synonym: "2-fluoroethyl methanesulfonate treatment (narrow)" NARROW []
 synonym: "CB1522 (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -12947,7 +12953,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007517
 name: 2-methoxyethanol exposure
 alt_id: EO:0007517
-def: "The treatment involving use of 2-methoxyethanol for mutagenesis process." [CAS:\[109-86-4\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 2-methoxyethanol for mutagenesis process." [CAS:[109-86-4\], Gramene:pankaj_jaiswal]
 synonym: "2-methoxyethanol treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -12956,7 +12962,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007518
 name: 5-bromouracil exposure
 alt_id: EO:0007518
-def: "The treatment involving use of 5-bromouracil for mutagenesis process." [CAS:\[51-20-7\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 5-bromouracil for mutagenesis process." [CAS:[51-20-7\], Gramene:pankaj_jaiswal]
 synonym: "5-bromouracil treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -12965,7 +12971,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007519
 name: 5-bromouridine exposure
 alt_id: EO:0007519
-def: "The treatment involving use of 5-bromouridine for mutagenesis process." [CAS:\[957-75-5\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 5-bromouridine for mutagenesis process." [CAS:[957-75-5\], Gramene:pankaj_jaiswal]
 synonym: "5-bromouridine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -12974,7 +12980,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007520
 name: 7-bromomethyl 12 methyl benz or agr/anthracine exposure
 alt_id: EO:0007520
-def: "The treatment involving use of 7-bromomethyl 12 methyl benz or agr/anthracine for mutagenesis process." [CAS:\[16238-56-5\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 7-bromomethyl 12 methyl benz or agr/anthracine for mutagenesis process." [CAS:[16238-56-5\], Gramene:pankaj_jaiswal]
 synonym: "7-bromomethyl 12 methyl benz or agr/anthracine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 
@@ -12982,7 +12988,7 @@ is_a: PECO:0007149 ! chemical mutagen exposure
 id: PECO:0007521
 name: actinomycin D exposure
 alt_id: EO:0007521
-def: "An antibiotic exposure (PECO:0007041) involving use of actinomycin D for mutagenesis process." [CAS:\[50-76-0\], Gramene:pankaj_jaiswal, TO:moorel]
+def: "An antibiotic exposure (PECO:0007041) involving use of actinomycin D for mutagenesis process." [CAS:[50-76-0\], Gramene:pankaj_jaiswal, TO:moorel]
 synonym: "actinomycin D treatment (narrow)" NARROW []
 xref: PECO_GIT:69
 is_a: PECO:0007041 ! antibiotic exposure
@@ -12992,7 +12998,7 @@ is_a: PECO:0007149 ! chemical mutagen exposure
 id: PECO:0007522
 name: aminopterin exposure
 alt_id: EO:0007522
-def: "The treatment involving use of aminopterin for mutagenesis process." [CAS:\[54-62-6\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of aminopterin for mutagenesis process." [CAS:[54-62-6\], Gramene:pankaj_jaiswal]
 synonym: "aminopterin treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13001,7 +13007,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007523
 name: benzo (or agr)pyrene exposure
 alt_id: EO:0007523
-def: "The treatment involving use of benzo (or agr)pyrene for mutagenesis process." [CAS:\[50-32-8\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of benzo (or agr)pyrene for mutagenesis process." [CAS:[50-32-8\], Gramene:pankaj_jaiswal]
 synonym: "benzo (or agr)pyrene treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 
@@ -13009,7 +13015,7 @@ is_a: PECO:0007149 ! chemical mutagen exposure
 id: PECO:0007524
 name: caffeine exposure
 alt_id: EO:0007524
-def: "The treatment involving use of caffeine for mutagenesis process." [CAS:\[58-08-2\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of caffeine for mutagenesis process." [CAS:[58-08-2\], Gramene:pankaj_jaiswal]
 synonym: "caffeine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13018,7 +13024,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007525
 name: cisplatin exposure
 alt_id: EO:0007525
-def: "The treatment involving use of cisplatin for mutagenesis process." [CAS:\[15663-27-1\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of cisplatin for mutagenesis process." [CAS:[15663-27-1\], Gramene:pankaj_jaiswal]
 synonym: "cis-dichlorodiammineplatinum(II) (related)" RELATED []
 synonym: "cisplatin treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13028,7 +13034,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007526
 name: colchicine exposure
 alt_id: EO:0007526
-def: "The treatment involving use of colchicine for mutagenesis process." [CAS:\[64-86-8\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of colchicine for mutagenesis process." [CAS:[64-86-8\], Gramene:pankaj_jaiswal]
 synonym: "colchicine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13037,7 +13043,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007527
 name: cupric sulfate exposure
 alt_id: EO:0007527
-def: "The treatment involving use of cupric sulfate for mutagenesis process." [CAS:\[7758-98-7\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of cupric sulfate for mutagenesis process." [CAS:[7758-98-7\], Gramene:pankaj_jaiswal]
 synonym: "cupric sulfate treatment (narrow)" NARROW []
 is_a: PECO:0007085 ! fertilizer exposure
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13047,7 +13053,7 @@ is_a: PECO:0007185 ! salt exposure
 id: PECO:0007528
 name: diepoxybutane exposure
 alt_id: EO:0007528
-def: "The treatment involving use of diepoxybutane for mutagenesis process." [CAS:\[1464-53-5\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of diepoxybutane for mutagenesis process." [CAS:[1464-53-5\], Gramene:pankaj_jaiswal]
 synonym: "DEB (related)" RELATED []
 synonym: "diepoxybutane treatment (narrow)" NARROW []
 synonym: "erythritol anhydride (related)" RELATED []
@@ -13058,7 +13064,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007529
 name: diepoxyoctane exposure
 alt_id: EO:0007529
-def: "The treatment involving use of diepoxyoctane for mutagenesis process." [CAS:\[2426-07-5\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of diepoxyoctane for mutagenesis process." [CAS:[2426-07-5\], Gramene:pankaj_jaiswal]
 synonym: "diepoxyoctane treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 
@@ -13066,7 +13072,7 @@ is_a: PECO:0007149 ! chemical mutagen exposure
 id: PECO:0007530
 name: diethyl sulfate exposure
 alt_id: EO:0007530
-def: "The treatment involving use of diethyl sulfate for mutagenesis process." [CAS:\[64-67-5\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of diethyl sulfate for mutagenesis process." [CAS:[64-67-5\], Gramene:pankaj_jaiswal]
 synonym: "DES (related)" RELATED []
 synonym: "diethyl sulfate treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13076,7 +13082,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007531
 name: dimethyl sulfoxide exposure
 alt_id: EO:0007531
-def: "The treatment involving use of dimthyl sulfate for mutagenesis process." [CAS:\[67-68-5\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of dimthyl sulfate for mutagenesis process." [CAS:[67-68-5\], Gramene:pankaj_jaiswal]
 synonym: "dimethyl sulfoxide treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13085,7 +13091,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007532
 name: DNA exposure
 alt_id: EO:0007532
-def: "The treatment involving use of DNA fragment insertion or deletion as part of mutagenesis." [CAS:\[9007-49-2\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of DNA fragment insertion or deletion as part of mutagenesis." [CAS:[9007-49-2\], Gramene:pankaj_jaiswal]
 synonym: "DNA treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13094,7 +13100,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007533
 name: ethyl ether exposure
 alt_id: EO:0007533
-def: "The treatment involving use of ethyl ether for mutagenesis process." [CAS:\[60-29-7\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of ethyl ether for mutagenesis process." [CAS:[60-29-7\], Gramene:pankaj_jaiswal]
 synonym: "ethyl ether treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13103,7 +13109,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007534
 name: ethyl methanesulfonate exposure
 alt_id: EO:0007534
-def: "The treatment involving use of EMS as a mutagen by damaging DNA and is used experimentally for that effect." [CAS:\[62-50-0\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of EMS as a mutagen by damaging DNA and is used experimentally for that effect." [CAS:[62-50-0\], Gramene:pankaj_jaiswal]
 synonym: "CB1528 (related)" RELATED []
 synonym: "EMS (related)" RELATED []
 synonym: "ethyl methanesulfonate treatment (narrow)" NARROW []
@@ -13115,7 +13121,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007535
 name: ethyl nitrosourea exposure
 alt_id: EO:0007535
-def: "The treatment involving use of ethyl nitrosourea for mutagenesis process." [CAS:\[759-73-9\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of ethyl nitrosourea for mutagenesis process." [CAS:[759-73-9\], Gramene:pankaj_jaiswal]
 synonym: "ENU (related)" RELATED []
 synonym: "ethyl nitrosourea treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13134,7 +13140,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007537
 name: ethylenimine exposure
 alt_id: EO:0007537
-def: "The treatment involving use of ethylenimine for mutagenesis process." [CAS:\[151-56-4\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of ethylenimine for mutagenesis process." [CAS:[151-56-4\], Gramene:pankaj_jaiswal]
 synonym: "EI (related)" RELATED []
 synonym: "ethylenimine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13153,7 +13159,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007539
 name: formaldehyde exposure
 alt_id: EO:0007539
-def: "The treatment involving use of formaldehyde for mutagenesis process." [CAS:\[50-00-0\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of formaldehyde for mutagenesis process." [CAS:[50-00-0\], Gramene:pankaj_jaiswal]
 synonym: "formaldehyde treatment (narrow)" NARROW []
 is_a: PECO:0007041 ! antibiotic exposure
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13172,7 +13178,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007541
 name: hesperidine exposure
 alt_id: EO:0007541
-def: "The treatment involving use of hesperidine for mutagenesis process." [CAS:\[520-26-3\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of hesperidine for mutagenesis process." [CAS:[520-26-3\], Gramene:pankaj_jaiswal]
 synonym: "hesperidine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 
@@ -13180,7 +13186,7 @@ is_a: PECO:0007149 ! chemical mutagen exposure
 id: PECO:0007542
 name: hexamethylmelamine exposure
 alt_id: EO:0007542
-def: "The treatment involving use of hexamethylmelamine for mutagenesis process." [CAS:\[645-05-6\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of hexamethylmelamine for mutagenesis process." [CAS:[645-05-6\], Gramene:pankaj_jaiswal]
 synonym: "altretamine (related)" RELATED []
 synonym: "hexamethylmelamine treatment (narrow)" NARROW []
 synonym: "HMM (related)" RELATED []
@@ -13191,7 +13197,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007543
 name: hexamethylphosphoramide exposure
 alt_id: EO:0007543
-def: "The treatment involving use of hexamethylphosphoramide for mutagenesis process." [CAS:\[680-31-9\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of hexamethylphosphoramide for mutagenesis process." [CAS:[680-31-9\], Gramene:pankaj_jaiswal]
 synonym: "hexamethylphosphoramide treatment (narrow)" NARROW []
 synonym: "HMPA (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13201,7 +13207,7 @@ is_a: PECO:0007632 ! insecticide exposure
 id: PECO:0007544
 name: hycanthon methanesulfonate exposure
 alt_id: EO:0007544
-def: "The treatment involving use of hycanthon methanesulfonate for mutagenesis process." [CAS:\[23255-93-8\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of hycanthon methanesulfonate for mutagenesis process." [CAS:[23255-93-8\], Gramene:pankaj_jaiswal]
 synonym: "HMS (related)" RELATED []
 synonym: "hycanthon methanesulfonate treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13210,7 +13216,7 @@ is_a: PECO:0007149 ! chemical mutagen exposure
 id: PECO:0007545
 name: ICR 100 exposure
 alt_id: EO:0007545
-def: "The treatment involving use of ICR 100 for mutagenesis process." [CAS:\[4213-45-0\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of ICR 100 for mutagenesis process." [CAS:[4213-45-0\], Gramene:pankaj_jaiswal]
 synonym: "2-methoxy-6-[3-(ethyl-2-chloroethyl)aminopropylamino]acridine (related)" RELATED []
 synonym: "ICR 100 treatment (narrow)" NARROW []
 synonym: "quinacrine mustard (related)" RELATED []
@@ -13220,7 +13226,7 @@ is_a: PECO:0007149 ! chemical mutagen exposure
 id: PECO:0007546
 name: ICR 170 exposure
 alt_id: EO:0007546
-def: "The treatment involving use of ICR 170 for mutagenesis process." [CAS:\[146-59-8\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of ICR 170 for mutagenesis process." [CAS:[146-59-8\], Gramene:pankaj_jaiswal]
 synonym: "2-methoxy-6-dichloro-9-(3-ethyl-2-chloroethyl-aminopropylamino)acridine-dihydrochloride (related)" RELATED []
 synonym: "ICR 170 treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13230,7 +13236,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007547
 name: iodine exposure
 alt_id: EO:0007547
-def: "The treatment involving use of iodine for mutagenesis process." [CAS:\[7553-56-2\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of iodine for mutagenesis process." [CAS:[7553-56-2\], Gramene:pankaj_jaiswal]
 synonym: "iodine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13239,7 +13245,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007548
 name: Janus green B exposure
 alt_id: EO:0007548
-def: "The treatment involving use of Janus green B for mutagenesis process." [CAS:\[2869-83-2\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of Janus green B for mutagenesis process." [CAS:[2869-83-2\], Gramene:pankaj_jaiswal]
 synonym: "Janus green B treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: PECO:0007185 ! salt exposure
@@ -13257,7 +13263,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007550
 name: methyl methanesulfonate exposure
 alt_id: EO:0007550
-def: "The treatment involving use of methyl methanesulfonate for mutagenesis process." [CAS:\[66-27-3\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of methyl methanesulfonate for mutagenesis process." [CAS:[66-27-3\], Gramene:pankaj_jaiswal]
 synonym: "CB1540 (related)" RELATED []
 synonym: "methyl methanesulfonate treatment (narrow)" NARROW []
 synonym: "MMS (related)" RELATED []
@@ -13268,7 +13274,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007551
 name: mitomycin C exposure
 alt_id: EO:0007551
-def: "An antibiotic exposure (PECO:0007551) involving use of mitomycin C for mutagenesis process." [CAS:\[50-07-7\], Gramene:pankaj_jaiswal, TO:moorel]
+def: "An antibiotic exposure (PECO:0007551) involving use of mitomycin C for mutagenesis process." [CAS:[50-07-7\], Gramene:pankaj_jaiswal, TO:moorel]
 synonym: "mitomycin C treatment (narrow)" NARROW []
 xref: PECO_GIT:69
 is_a: PECO:0007041 ! antibiotic exposure
@@ -13278,7 +13284,7 @@ is_a: PECO:0007149 ! chemical mutagen exposure
 id: PECO:0007552
 name: mustard gas exposure
 alt_id: EO:0007552
-def: "The treatment involving use of mustard gas for mutagenesis process." [CAS:\[505-60-2\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of mustard gas for mutagenesis process." [CAS:[505-60-2\], Gramene:pankaj_jaiswal]
 synonym: "1,1'-thiobis[2-chloroethane (related)" RELATED []
 synonym: "mustard gas treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13288,7 +13294,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007553
 name: N-methyl-N'-nitro-N-nitrosoguanidine exposure
 alt_id: EO:0007553
-def: "The treatment involving use of N-methyl-N'-nitro-N-nitrosoguanidine for mutagenesis process." [CAS:\[70-25-7\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of N-methyl-N'-nitro-N-nitrosoguanidine for mutagenesis process." [CAS:[70-25-7\], Gramene:pankaj_jaiswal]
 synonym: "MNNG (related)" RELATED []
 synonym: "N-methyl-N'-nitro-N-nitrosoguanidine treatment (narrow)" NARROW []
 synonym: "NNG (related)" RELATED []
@@ -13299,7 +13305,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007554
 name: N-nitrosodimethylamine exposure
 alt_id: EO:0007554
-def: "The treatment involving use of N-nitrosodimethylamine for mutagenesis process." [CAS:\[62-75-9\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of N-nitrosodimethylamine for mutagenesis process." [CAS:[62-75-9\], Gramene:pankaj_jaiswal]
 synonym: "DMN (related)" RELATED []
 synonym: "N-nitrosodimethylamine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13318,7 +13324,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007556
 name: nitrogen mustard exposure
 alt_id: EO:0007556
-def: "The treatment involving use of nitrogen mustard for mutagenesis process." [CAS:\[51-75-2\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of nitrogen mustard for mutagenesis process." [CAS:[51-75-2\], Gramene:pankaj_jaiswal]
 synonym: "2-chloro-N-(2-chloroethyl)-N-methylethanamine (related)" RELATED []
 synonym: "CB1414 (related)" RELATED []
 synonym: "HN2 (related)" RELATED []
@@ -13331,7 +13337,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007557
 name: nitrosomethyl urea exposure
 alt_id: EO:0007557
-def: "The treatment involving use of nitrosomethyl urea for mutagenesis process." [CAS:\[684-93-5\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of nitrosomethyl urea for mutagenesis process." [CAS:[684-93-5\], Gramene:pankaj_jaiswal]
 synonym: "MNU (related)" RELATED []
 synonym: "N-methyl-N-nitrosourea (related)" RELATED []
 synonym: "nitrosomethyl urea treatment (narrow)" NARROW []
@@ -13342,7 +13348,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007558
 name: p-N,N-di(2-chloroethyl)aminophenylvaleric acid exposure
 alt_id: EO:0007558
-def: "The treatment involving use of p-N,N-di(2-chloroethyl)aminophenylvaleric acid for mutagenesis process." [CAS:\[64508-90-3\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of p-N,N-di(2-chloroethyl)aminophenylvaleric acid for mutagenesis process." [CAS:[64508-90-3\], Gramene:pankaj_jaiswal]
 synonym: "CB1356 (related)" RELATED []
 synonym: "p-N,N-di(2-chloroethyl)aminophenylvaleric acid treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13352,7 +13358,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007559
 name: p-N,N-di-(2-chloroethyl)amino-D-phenylalanine exposure
 alt_id: EO:0007559
-def: "The treatment involving use of p-N,N-di-(2-chloroethyl)amino-D-phenylalanine for mutagenesis process." [CAS:\[13045-94-8\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of p-N,N-di-(2-chloroethyl)amino-D-phenylalanine for mutagenesis process." [CAS:[13045-94-8\], Gramene:pankaj_jaiswal]
 synonym: "CB3026 (related)" RELATED []
 synonym: "p-N,N-di-(2-chloroethyl)amino-D-phenylalanine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13362,7 +13368,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007560
 name: p-N,N-di-(2-chloroethyl)amino-DL-phenylalanine exposure
 alt_id: EO:0007560
-def: "The treatment involving use of p-N,N-di-(2-chloroethyl)amino-DL-phenylalanine for mutagenesis process." [CAS:\[148-82-3\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of p-N,N-di-(2-chloroethyl)amino-DL-phenylalanine for mutagenesis process." [CAS:[148-82-3\], Gramene:pankaj_jaiswal]
 synonym: "CB3007 (related)" RELATED []
 synonym: "melphalan (related)" RELATED []
 synonym: "p-N,N-di-(2-chloroethyl)amino-DL-phenylalanine treatment (narrow)" NARROW []
@@ -13382,7 +13388,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007562
 name: p-N,N-di-(2-chloroethyl)aminophenylbutyric acid exposure
 alt_id: EO:0007562
-def: "The treatment involving use of p-N,N-di-(2-chloroethyl)aminophenylbutyric acid for mutagenesis process." [CAS:\[305-03-3\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of p-N,N-di-(2-chloroethyl)aminophenylbutyric acid for mutagenesis process." [CAS:[305-03-3\], Gramene:pankaj_jaiswal]
 synonym: "CB1348 (related)" RELATED []
 synonym: "chlorambucil (related)" RELATED []
 synonym: "p-N,N-di-(2-chloroethyl)aminophenylbutyric acid treatment (narrow)" NARROW []
@@ -13392,7 +13398,7 @@ is_a: PECO:0007556 ! nitrogen mustard exposure
 id: PECO:0007563
 name: p-N,N-di-(2-chloroethyl)aminophenylethylamine exposure
 alt_id: EO:0007563
-def: "The treatment involving use of p-N,N-di-(2-chloroethyl)aminophenylethylamine for mutagenesis process." [CAS:\[58880-18-5\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of p-N,N-di-(2-chloroethyl)aminophenylethylamine for mutagenesis process." [CAS:[58880-18-5\], Gramene:pankaj_jaiswal]
 synonym: "CB3034 (related)" RELATED []
 synonym: "p-N,N-di-(2-chloroethyl)aminophenylethylamine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13402,7 +13408,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007564
 name: p-p'-N,N-di(2-chloroethyl)aminophenoxyphenylalanine exposure
 alt_id: EO:0007564
-def: "The treatment involving use of p-p'-N,N-di(2-chloroethyl)aminophenoxyphenylalanine for mutagenesis process." [CAS:\[857-95-4\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of p-p'-N,N-di(2-chloroethyl)aminophenoxyphenylalanine for mutagenesis process." [CAS:[857-95-4\], Gramene:pankaj_jaiswal]
 synonym: "CB3051 (related)" RELATED []
 synonym: "p-p'-N,N-di(2-chloroethyl)aminophenoxyphenylalanine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13412,7 +13418,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007565
 name: quinhydrone exposure
 alt_id: EO:0007565
-def: "The treatment involving use of quinhydrone for mutagenesis process." [CAS:\[106-34-3\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of quinhydrone for mutagenesis process." [CAS:[106-34-3\], Gramene:pankaj_jaiswal]
 synonym: "quinhydrone treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13421,7 +13427,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007566
 name: S-2-chloroethylcysteine exposure
 alt_id: EO:0007566
-def: "The treatment involving use of S-2-chloroethylcysteine for mutagenesis process." [CAS:\[28361-96-8\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of S-2-chloroethylcysteine for mutagenesis process." [CAS:[28361-96-8\], Gramene:pankaj_jaiswal]
 synonym: "CB1592 (related)" RELATED []
 synonym: "S-2-chloroethylcysteine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13431,7 +13437,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007567
 name: sodium bisulfite exposure
 alt_id: EO:0007567
-def: "The treatment involving use of sodium bisulfite for mutagenesis process." [CAS:\[7631-90-5\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of sodium bisulfite for mutagenesis process." [CAS:[7631-90-5\], Gramene:pankaj_jaiswal]
 synonym: "sodium bisulfite treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: PECO:0007185 ! salt exposure
@@ -13440,7 +13446,7 @@ is_a: PECO:0007185 ! salt exposure
 id: PECO:0007568
 name: sodium fluoride exposure
 alt_id: EO:0007568
-def: "The treatment involving use of sodium fluoride for mutagenesis process." [CAS:\[7681-49-4\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of sodium fluoride for mutagenesis process." [CAS:[7681-49-4\], Gramene:pankaj_jaiswal]
 synonym: "sodium fluoride treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: PECO:0007185 ! salt exposure
@@ -13459,7 +13465,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007570
 name: sulfur mustard exposure
 alt_id: EO:0007570
-def: "The treatment involving use of sulfur mustard for mutagenesis process." [CAS:\[505-60-2\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of sulfur mustard for mutagenesis process." [CAS:[505-60-2\], Gramene:pankaj_jaiswal]
 synonym: "CB1735 (related)" RELATED []
 synonym: "sulfur mustard treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13469,7 +13475,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007571
 name: triaziquone exposure
 alt_id: EO:0007571
-def: "The treatment involving use of triaziquone for mutagenesis process." [CAS:\[68-76-8\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of triaziquone for mutagenesis process." [CAS:[68-76-8\], Gramene:pankaj_jaiswal]
 synonym: "triaziquone treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13478,7 +13484,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007572
 name: triethylenemelamine exposure
 alt_id: EO:0007572
-def: "The treatment involving use of triethylenemelamine for mutagenesis process." [CAS:\[51-18-3\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of triethylenemelamine for mutagenesis process." [CAS:[51-18-3\], Gramene:pankaj_jaiswal]
 synonym: "CB1246 (related)" RELATED []
 synonym: "TEM (related)" RELATED []
 synonym: "triethylenemelamine treatment (narrow)" NARROW []
@@ -13489,7 +13495,7 @@ is_a: PECO:0007632 ! insecticide exposure
 id: PECO:0007573
 name: urethane exposure
 alt_id: EO:0007573
-def: "The treatment involving use of urethane for mutagenesis process." [CAS:\[51-79-6\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of urethane for mutagenesis process." [CAS:[51-79-6\], Gramene:pankaj_jaiswal]
 synonym: "urethane treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13498,7 +13504,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007574
 name: vinyl carbamate exposure
 alt_id: EO:0007574
-def: "The treatment involving use of vinyl carbamate for mutagenesis process." [CAS:\[15805-73-9\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of vinyl carbamate for mutagenesis process." [CAS:[15805-73-9\], Gramene:pankaj_jaiswal]
 synonym: "vinyl carbamate treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process

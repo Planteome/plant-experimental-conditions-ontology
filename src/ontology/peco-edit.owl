@@ -229,7 +229,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0001002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001002">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant growth environment</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE plant growth environment</rdfs:label>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-10T13:28:27Z</oboInOwl:creation_date>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001002</oboInOwl:hasAlternativeId>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE: A plant environment (PECO:0007359) involving a plant exposure (PECO:0001001), or a combination plant treatments, as well as natural conditions for plant growth.</obo:IAO_0000115>
@@ -2014,7 +2014,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007006">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monocot mixed crop neighbor</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE monocot mixed crop neighbor</rdfs:label>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007006</oboInOwl:hasAlternativeId>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007006</oboInOwl:id>
@@ -2033,7 +2033,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007007">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monocot weed plant neighbor</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE monocot weed plant neighbor</rdfs:label>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007007</oboInOwl:hasAlternativeId>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007007</oboInOwl:id>
@@ -2693,7 +2693,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007039 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007039">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dicot weed plant neighbor</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE dicot weed plant neighbor</rdfs:label>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007039</oboInOwl:hasAlternativeId>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007039</oboInOwl:id>
@@ -2712,7 +2712,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007040">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dicot mixed crop neighbor</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE dicot mixed crop neighbor</rdfs:label>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007040</oboInOwl:hasAlternativeId>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007040</oboInOwl:id>
@@ -3021,7 +3021,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007056">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soil flora</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE soil flora</rdfs:label>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007056</oboInOwl:hasAlternativeId>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE: A treatment involving growing plants and  exposing them to varying types of flora in soil growth media.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007056</oboInOwl:id>
@@ -3040,7 +3040,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007057 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007057">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soil fauna</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE soil fauna</rdfs:label>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007057</oboInOwl:hasAlternativeId>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE: A treatment involving growing plants and  exposing them to varying types of fauna in soil growth media.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007057</oboInOwl:id>
@@ -4065,7 +4065,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007108 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007108">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proteobacterial plant exposure</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE Proteobacterial plant exposure</rdfs:label>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007108</oboInOwl:hasAlternativeId>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE: A bacterial plant exposure (PECO:0007246) involving the exposure of bacteria of the Proteobacteria.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007108</oboInOwl:id>
@@ -4415,7 +4415,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007124 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007124">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pest/pathogen/animal/plant environment</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE pest/pathogen/animal/plant environment</rdfs:label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Consider: biotic plant treatment (PECO:0007357).</rdfs:comment>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007124</oboInOwl:hasAlternativeId>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE: Treatment involving the exposure of plant to the pest/pathogen/animal/plants present as part of its growth environment.</obo:IAO_0000115>
@@ -4435,7 +4435,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007125">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic environment</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE genetic environment</rdfs:label>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007125</oboInOwl:hasAlternativeId>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007125</oboInOwl:id>
@@ -4960,7 +4960,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007150 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007150">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">facultative anaerobic environment</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE facultative anaerobic environment</rdfs:label>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007150</oboInOwl:hasAlternativeId>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007150</oboInOwl:id>
@@ -6750,7 +6750,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007237 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007237">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">normal temperature regimen</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE normal temperature regimen</rdfs:label>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007237</oboInOwl:hasAlternativeId>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007237</oboInOwl:id>
@@ -6769,7 +6769,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007238 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007238">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">optimal temperature regimen</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE optimal temperature regimen</rdfs:label>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007238</oboInOwl:hasAlternativeId>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007238</oboInOwl:id>
@@ -7672,7 +7672,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007281 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007281">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete environment term</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE environment term</rdfs:label>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007281</oboInOwl:hasAlternativeId>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE: The treatment involving the terms that are no longer in use or were deleted are placed under this parent term.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007281</oboInOwl:id>
@@ -8579,12 +8579,12 @@
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007325</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hirschmaniella caudacrena treatment (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007325</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Hirschmaniella imamuri. It is a causal agent for rice root nematode disease.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Hirschmaniella caudacrena. It is a causal agent for rice root nematode disease.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Hirschmaniella imamuri. It is a causal agent for rice root nematode disease.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pest Hirschmaniella caudacrena. It is a causal agent for rice root nematode disease.</owl:annotatedTarget>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007325"/>
     </owl:Axiom>
@@ -9154,7 +9154,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007351 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007351">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic background</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE genetic background</rdfs:label>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007351</oboInOwl:hasAlternativeId>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007351</oboInOwl:id>
@@ -9173,7 +9173,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007353 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007353">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">germplasm</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE germplasm</rdfs:label>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007353</oboInOwl:hasAlternativeId>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007353</oboInOwl:id>
@@ -9192,7 +9192,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007355 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007355">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genotype</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE genotype</rdfs:label>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007355</oboInOwl:hasAlternativeId>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007355</oboInOwl:id>
@@ -9756,7 +9756,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007380 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007380">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytoplasmic genetic background</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE cytoplasmic genetic background</rdfs:label>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007380</oboInOwl:hasAlternativeId>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007380</oboInOwl:id>
@@ -9775,7 +9775,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007381 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007381">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear genetic background</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE nuclear genetic background</rdfs:label>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007381</oboInOwl:hasAlternativeId>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007381</oboInOwl:id>
@@ -10003,7 +10003,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007393 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007393">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sub-sahara region</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE sub-sahara region</rdfs:label>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007393</oboInOwl:hasAlternativeId>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007393</oboInOwl:id>

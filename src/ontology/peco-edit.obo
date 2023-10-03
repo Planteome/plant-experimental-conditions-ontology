@@ -816,6 +816,18 @@ created_by: http://orcid.org/0000-0002-6379-8932
 creation_date: 2022-09-20T23:04:36Z
 
 [Term]
+id: PECO:0001074
+name: Knop's solution exposure
+def: "A hydroponic plant culture media exposure (PECO:0007067) which is an exposure to Knop's solution during growth." [PECO:cooperl]
+comment: Knop's solution is a nutrient solution used in growth experiments with higher plants and containing definite proportions of calcium nitrate, potassium nitrate, magnesium sulfate, monobasic potassium phosphate, and potassium chloride dissolved in water (https://www.merriam-webster.com/dictionary).
+synonym: "Knop ME (related)" RELATED []
+synonym: "Knop medium (related)" RELATED []
+xref: PECO_GIT:134
+is_a: PECO:0007067 ! hydroponic plant culture media exposure
+created_by: https://orcid.org/0000-0002-6379-8932
+creation_date: 2023-10-03T21:37:34Z
+
+[Term]
 id: PECO:0007001
 name: UV-B light exposure
 alt_id: EO:0007001
@@ -1381,7 +1393,7 @@ is_a: PECO:0007165 ! growth hormone exposure
 id: PECO:0007067
 name: hydroponic plant culture media exposure
 alt_id: EO:0007067
-def: "An exposure involving growing plants in liquid growth media." [Gramene:pankaj_jaiswal]
+def: "A plant growth medium exposure (PECO:0007147) involving growing plants in liquid growth media." [Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "hydroponic plant culture media treatment (narrow)" NARROW []
 synonym: "soilless pant culture media (related)" RELATED []
 is_a: PECO:0007147 ! plant growth medium exposure
@@ -4311,6 +4323,8 @@ is_a: PECO:0007198 ! water environment exposure
 id: PECO:0007405
 name: Hoagland solution exposure
 alt_id: EO:0007405
+def: "A hydroponic plant culture media exposure (PECO:0007067) which is an exposure to Hoagland solution during growth." [PECO:cooperl]
+comment: The Hoagland solution, originally intended to imitate a (nutrient-) rich soil solution, has high concentrations of N and K so it is very well suited for the development of large plants like tomato and bell pepper. (https://en.wikipedia.org/wiki/Hoagland_solution)
 synonym: "Hoagland solution treatment (narrow)" NARROW []
 is_a: PECO:0007067 ! hydroponic plant culture media exposure
 

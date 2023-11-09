@@ -77,6 +77,36 @@ intersection_of: PECO:0001001
 intersection_of: RO:0002309 CHEBI:25812
 
 [Term]
+id: PECO:0001025
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:16199
+
+[Term]
+id: PECO:0001027
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:16449
+
+[Term]
+id: PECO:0001028
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:29987
+
+[Term]
+id: PECO:0001029
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:29016
+
+[Term]
+id: PECO:0001030
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:18257
+
+[Term]
+id: PECO:0001031
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:28300
+
+[Term]
 id: PECO:0001060
 intersection_of: PECO:0001001
 intersection_of: RO:0002309 CHEBI:32145
@@ -127,6 +157,11 @@ intersection_of: PECO:0001001
 intersection_of: RO:0002309 CHEBI:16411
 
 [Term]
+id: PECO:0007079
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:16189
+
+[Term]
 id: PECO:0007080
 intersection_of: PECO:0001001
 intersection_of: RO:0002309 CHEBI:18292
@@ -172,6 +207,16 @@ intersection_of: PECO:0001001
 intersection_of: RO:0002309 CHEBI:16199
 
 [Term]
+id: PECO:0007102
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:25555
+
+[Term]
+id: PECO:0007103
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:26020
+
+[Term]
 id: PECO:0007105
 intersection_of: PECO:0001001
 intersection_of: RO:0002309 CHEBI:22152
@@ -212,9 +257,64 @@ intersection_of: PECO:0001001
 intersection_of: RO:0002309 CHEBI:35456
 
 [Term]
+id: PECO:0007225
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:24061
+
+[Term]
+id: PECO:0007228
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:24859
+
+[Term]
+id: PECO:0007230
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:24859
+
+[Term]
+id: PECO:0007232
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:27568
+
+[Term]
+id: PECO:0007235
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:27573
+
+[Term]
+id: PECO:0007242
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:18248
+
+[Term]
+id: PECO:0007244
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:23116
+
+[Term]
+id: PECO:0007253
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:28685
+
+[Term]
+id: PECO:0007261
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:28694
+
+[Term]
 id: PECO:0007267
 intersection_of: PECO:0001001
 intersection_of: RO:0002309 CHEBI:48864
+
+[Term]
+id: PECO:0007273
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:27560
+
+[Term]
+id: PECO:0007276
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:27638
 
 [Term]
 id: PECO:0007278
@@ -222,9 +322,19 @@ intersection_of: PECO:0001001
 intersection_of: RO:0002309 CHEBI:25805
 
 [Term]
+id: PECO:0007284
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:25555
+
+[Term]
 id: PECO:0007287
 intersection_of: PECO:0001001
 intersection_of: RO:0002309 CHEBI:19371
+
+[Term]
+id: PECO:0007288
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:25107
 
 [Term]
 id: PECO:0007290
@@ -240,6 +350,46 @@ intersection_of: RO:0002309 CHEBI:29022
 id: PECO:0007292
 intersection_of: PECO:0001001
 intersection_of: RO:0002309 CHEBI:35889
+
+[Term]
+id: PECO:0007293
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:26216
+
+[Term]
+id: PECO:0007295
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:26833
+
+[Term]
+id: PECO:0007297
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:22984
+
+[Term]
+id: PECO:0007303
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:27594
+
+[Term]
+id: PECO:0007306
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:28984
+
+[Term]
+id: PECO:0007309
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:27363
+
+[Term]
+id: PECO:0007387
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:18291
+
+[Term]
+id: PECO:0007397
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 CHEBI:28659
 
 [Term]
 id: PECO:0007406

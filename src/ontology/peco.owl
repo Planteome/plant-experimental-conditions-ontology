@@ -11,7 +11,7 @@
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/peco.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/peco/releases/2023-07-25/peco.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/peco/releases/2023-11-10/peco.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/peco/imports/chebi_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/peco/imports/envo_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/peco/imports/ncbitaxon_import.owl"/>
@@ -355,7 +355,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_116509 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_116509">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_134043"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_157693"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23697"/>
     </rdf:Description>
     
@@ -381,6 +381,7 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_131860">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_2580"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_57560"/>
     </rdf:Description>
     
 
@@ -389,6 +390,7 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_131862">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_131860"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_134019"/>
     </rdf:Description>
     
 
@@ -456,6 +458,15 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_133790">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_57560"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59203"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_76567"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_134019 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_134019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64012"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_76567"/>
     </rdf:Description>
     
@@ -634,11 +645,35 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_139520 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_139520">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33853"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_139588 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_139588">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30879"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52396"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_140948 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_140948">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35366"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_140949 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_140949">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35366"/>
     </rdf:Description>
     
 
@@ -720,6 +755,14 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_149552">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15022 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_15022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17891"/>
     </rdf:Description>
     
 
@@ -809,7 +852,6 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_156230 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_156230">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25477"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35757"/>
     </rdf:Description>
     
@@ -843,6 +885,14 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_15740">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35757"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_157693 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_157693">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_134043"/>
     </rdf:Description>
     
 
@@ -885,6 +935,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_15929 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_15929">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_167055"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25248"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52464"/>
     </rdf:Description>
@@ -1054,6 +1105,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16449 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_16449">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33704"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_16482 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_16482">
@@ -1115,6 +1174,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_167055 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_167055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36326"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_16708 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_16708">
@@ -1134,10 +1201,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_167164 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_167164">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46662"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_16733 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_16733">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_83925"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_167559 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_167559">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_78616"/>
     </rdf:Description>
     
 
@@ -1253,10 +1336,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_172390 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_172390">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46789"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_17258 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17258">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35584"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17272 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17272">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_78113"/>
     </rdf:Description>
     
 
@@ -1266,6 +1365,23 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17295">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28044"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_73690"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_173084 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_173084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35222"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52206"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_173085 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_173085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52206"/>
     </rdf:Description>
     
 
@@ -1404,6 +1520,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_176497 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_176497">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50267"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_176842 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_176842">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_75769"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_17701 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17701">
@@ -1445,6 +1577,7 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17855">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47778"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_76579"/>
     </rdf:Description>
     
 
@@ -1511,6 +1644,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_180906 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_180906">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26873"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_18133 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_18133">
@@ -1540,6 +1681,7 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_18154">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_167559"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33694"/>
     </rdf:Description>
     
@@ -1584,6 +1726,14 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_18254">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33838"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47019"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18257 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_18257">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_83925"/>
     </rdf:Description>
     
 
@@ -1671,11 +1821,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_189832 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_189832">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_194321"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26208"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_19024 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_19024">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36336"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38034"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_190303 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_190303">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_167164"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24839"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26218"/>
     </rdf:Description>
     
 
@@ -1686,6 +1855,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24469"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36683"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37141"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_192499 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_192499">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47916"/>
     </rdf:Description>
     
 
@@ -1715,11 +1892,37 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_194095 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_194095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_194321 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_194321">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27208"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64009"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_19508 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_19508">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25223"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36683"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_195274 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_195274">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28965"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_58496"/>
     </rdf:Description>
     
 
@@ -2021,6 +2224,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22495 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_22495">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22723"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33856"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_22507 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_22507">
@@ -2134,6 +2346,7 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_22718">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35757"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_91007"/>
     </rdf:Description>
     
 
@@ -2670,7 +2883,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_24043 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24043">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47916"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_192499"/>
     </rdf:Description>
     
 
@@ -2819,7 +3032,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_24469 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24469">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17792"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24472"/>
     </rdf:Description>
     
 
@@ -3108,7 +3321,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_24840 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24840">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24835"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24839"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35175"/>
     </rdf:Description>
     
@@ -3537,7 +3750,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_25626 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_25626">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_57560"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_131860"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_76567"/>
     </rdf:Description>
     
@@ -3546,8 +3759,9 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_25627 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_25627">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15904"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_140949"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26208"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36326"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53339"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59202"/>
     </rdf:Description>
@@ -3578,6 +3792,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_25634 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_25634">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_140948"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15904"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25413"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53339"/>
@@ -4769,6 +4984,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28300 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26167"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33704"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_28425 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28425">
@@ -4981,6 +5205,16 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_28984">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33317"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33521"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29016 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_29016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24436"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26167"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33704"/>
     </rdf:Description>
     
 
@@ -5312,6 +5546,7 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_29991">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35391"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59869"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_62031"/>
     </rdf:Description>
     
@@ -5423,6 +5658,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30768 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_30768">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26607"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26666"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_30823 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_30823">
@@ -5469,7 +5713,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_32036 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_32036">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26218"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190303"/>
     </rdf:Description>
     
 
@@ -5486,6 +5730,22 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_32387">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_133790"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32439 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_32439">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33558"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32440 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_32440">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33719"/>
     </rdf:Description>
     
 
@@ -5584,7 +5844,48 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_32588 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_32588">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_190303"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36093"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32678 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_32678">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33558"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32679 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_32679">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33719"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32695 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_32695">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33558"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32696 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_32696">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33719"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32697 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_32697">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33719"/>
     </rdf:Description>
     
 
@@ -5649,6 +5950,14 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_32955">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37407"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32964 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_32964">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33558"/>
     </rdf:Description>
     
 
@@ -7808,6 +8117,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_35682 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_35682">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_139520"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25392"/>
     </rdf:Description>
     
@@ -8221,6 +8531,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_36326 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_36326">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15904"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27208"/>
     </rdf:Description>
     
@@ -8229,8 +8540,8 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_36329 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_36329">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_189832"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36326"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_61051"/>
     </rdf:Description>
     
 
@@ -8764,6 +9075,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_37445 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_37445">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_176842"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26375"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_83982"/>
     </rdf:Description>
@@ -9700,7 +10012,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_46790 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_46790">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46789"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_172390"/>
     </rdf:Description>
     
 
@@ -9735,6 +10047,22 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_46883">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33249"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_46912 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_46912">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33719"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_46913 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_46913">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33719"/>
     </rdf:Description>
     
 
@@ -10260,9 +10588,25 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50331 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_50331">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50325"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_50337 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_50337">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50325"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50340 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_50340">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50325"/>
     </rdf:Description>
     
@@ -10313,6 +10657,7 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_50699">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_167559"/>
     </rdf:Description>
     
 
@@ -10395,6 +10740,22 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_50906">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50908 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_50908">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52209"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50909 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_50909">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52209"/>
     </rdf:Description>
     
 
@@ -10493,7 +10854,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_51084 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_51084">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24835"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24839"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51082"/>
     </rdf:Description>
     
@@ -10873,6 +11234,7 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_58431">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_136184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_167055"/>
     </rdf:Description>
     
 
@@ -11206,6 +11568,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_60952 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_60952">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_180906"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23849"/>
     </rdf:Description>
     
@@ -11214,6 +11577,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_61015 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_61015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50909"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64909"/>
     </rdf:Description>
     
@@ -11222,6 +11586,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_61051 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_61051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18059"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35924"/>
     </rdf:Description>
     
@@ -11486,6 +11851,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_64009 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_64009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35366"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_61051"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_64012 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_64012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28868"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_64047 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_64047">
@@ -11643,6 +12025,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_65212 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_65212">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_167559"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33694"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_63299"/>
     </rdf:Description>
@@ -11683,6 +12066,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_66916 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_66916">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35238"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_66981 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_66981">
@@ -11694,6 +12085,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_67011 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_67011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_176842"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59874"/>
     </rdf:Description>
     
@@ -11961,8 +12353,8 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_75769 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_75769">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27314"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50733"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35352"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36963"/>
     </rdf:Description>
     
 
@@ -12053,6 +12445,14 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_76567">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_2580"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_76579 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_76579">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35741"/>
     </rdf:Description>
     
 
@@ -12485,6 +12885,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_78113 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_78113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_58951"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_58953"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_78125 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_78125">
@@ -12814,6 +13223,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_84087 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_84087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_77746"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_84143 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_84143">
@@ -12860,6 +13277,15 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_86264">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_75768"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_86327 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_86327">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35441"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35718"/>
     </rdf:Description>
     
 
@@ -22784,6 +23210,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007086"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An inorganic anion exposure (PECO:0001009) involving the application of phosphate (CHEBI:18367).</obo1:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cooperl</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-10T14:54:09Z</oboInOwl:creation_date>
@@ -22832,6 +23259,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007086"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An inorganic anion exposure (PECO:0001009) involving the application of sulfate (CHEBI:35175).</obo1:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cooperl</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-10T15:29:20Z</oboInOwl:creation_date>
@@ -23245,6 +23673,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0001025 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007284"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to urea (CHEBI:16199) as the primary or sole source of nitrogen.</obo1:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cooperl</oboInOwl:created_by>
@@ -23268,6 +23697,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0001026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007284"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen macronutrient exposure (PECO:0007284) involving exposure of plant to 5&apos;-S-methyl-5&apos;-thioadenosine (MTA; CHEBI:17509) as the primary or sole source of nitrogen.</obo1:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cooperl</oboInOwl:created_by>
@@ -23292,6 +23722,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0001027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007284"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen macronutrient exposure (PECO:0007284) involving exposure of plant to alanine (CHEBI:16449) as the primary or sole source of nitrogen.</obo1:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cooperl</oboInOwl:created_by>
@@ -23316,6 +23747,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0001028 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007284"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to glutamate (CHEBI:29987) as the primary or sole source of nitrogen.</obo1:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cooperl</oboInOwl:created_by>
@@ -23340,6 +23772,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0001029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007284"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to arginine (CHEBI:29016) as the primary or sole source of nitrogen.</obo1:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cooperl</oboInOwl:created_by>
@@ -23364,6 +23797,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0001030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007284"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to ornithine (CHEBI:18257) as the primary or sole source of nitrogen.</obo1:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cooperl</oboInOwl:created_by>
@@ -23388,6 +23822,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0001031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007284"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to glutamine (CHEBI:28300) as the primary or sole source of nitrogen.</obo1:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cooperl</oboInOwl:created_by>
@@ -23719,6 +24154,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001045">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007079"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sulfate exposure (PECO:0001008) involving exposure to limiting amounts or the absence of sulfate (CHEBI:35175).</obo1:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moorel</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-24T12:37:29Z</oboInOwl:creation_date>
@@ -23743,6 +24179,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001046">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007103"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A phosphate exposure (PECO:0001006) involving exposure to limiting amounts or absence of phosphate (CHEBI:18367).</obo1:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moorel</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-24T12:43:48Z</oboInOwl:creation_date>
@@ -23839,6 +24276,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0001050 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007284"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen macronutrient exposure (PECO:0007284) involving exposure to limiting amounts or the absence of nitrogen (CHEBI:25555).</obo1:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moorel</oboInOwl:created_by>
@@ -23865,6 +24303,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0001051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001064"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007293"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A potassium nutrient exposure (PECO:0007293) involving exposure to limiting amounts or the absence of potassium (CHEBI:26216).</obo1:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">moorel</oboInOwl:created_by>
@@ -24173,6 +24612,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0001064 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007045"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007086"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical fertilizer exposure (PECO:0007086) involving the use of potassium fertilizer as a supplement to study plant responses.</obo1:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laurel_Cooper</oboInOwl:created_by>
@@ -24195,6 +24635,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001064"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007044"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007185"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007293"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A potassium fertilizer exposure (PECO:0001064) involving the use of potassium chloride fertilizer as a supplement to study plant responses.</obo1:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laurel_Cooper</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-10-18T17:51:54Z</oboInOwl:creation_date>
@@ -24379,6 +24822,30 @@
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant growth medium exposure (PECO:0007147) involving the growth of plants in an air and/or a mist environment, without the use of soil or an aggregate medium.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Aeroponics</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PECO_0001074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007067"/>
+        <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hydroponic plant culture media exposure (PECO:0007067) which is an exposure to Knop&apos;s solution during growth.</obo1:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-6379-8932</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2023-10-03T21:37:34Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO_GIT:134</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knop ME (related)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knop medium (related)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0001074</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knop&apos;s solution is a nutrient solution used in growth experiments with higher plants and containing definite proportions of calcium nitrate, potassium nitrate, magnesium sulfate, monobasic potassium phosphate, and potassium chloride dissolved in water (https://www.merriam-webster.com/dictionary).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knop&apos;s solution exposure</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0001074"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hydroponic plant culture media exposure (PECO:0007067) which is an exposure to Knop&apos;s solution during growth.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -25740,7 +26207,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007067">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007147"/>
-        <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure involving growing plants in liquid growth media.</obo1:IAO_0000115>
+        <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant growth medium exposure (PECO:0007147) involving growing plants in liquid growth media.</obo1:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007067</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydroponic plant culture media treatment (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
@@ -25751,8 +26218,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007067"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure involving growing plants in liquid growth media.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant growth medium exposure (PECO:0007147) involving growing plants in liquid growth media.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -25981,6 +26449,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007079 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001009"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007086"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of sulfate fertilizer and its components as supplements to study various types of responses.</obo1:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007079</oboInOwl:hasAlternativeId>
@@ -26318,9 +26787,11 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007097 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001008"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007079"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007185"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007284"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of ammonium sulfate supplement to study various types of responses.</obo1:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007097</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ammonium sulfate treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -26340,6 +26811,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007098 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001008"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007079"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007185"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of ferrous sulfate supplement to study various types of responses.</obo1:IAO_0000115>
@@ -26361,6 +26833,8 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007099 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007044"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007079"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007185"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of potassium sulfate supplement to study various types of responses.</obo1:IAO_0000115>
@@ -26382,6 +26856,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007100 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001006"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007103"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of super phosphate supplement to study various types of responses.</obo1:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007100</oboInOwl:hasAlternativeId>
@@ -26403,6 +26878,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007101">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007284"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of urea as source of nitrogen supplement to study various types of responses.</obo1:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007101</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urea treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -26422,6 +26898,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007102 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007045"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007086"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of nitrogen fertilizer and its components as supplements to study various types of responses.</obo1:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007102</oboInOwl:hasAlternativeId>
@@ -26442,6 +26919,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007103 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001009"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007086"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of phosphate fertilizer and its components as supplements to study various types of responses.</obo1:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007103</oboInOwl:hasAlternativeId>
@@ -26462,8 +26940,10 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007104 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001006"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007103"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007284"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of nitrogen, phosphorus and potassium supplements to study various types of responses.</obo1:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007104</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPK fertilizer treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -28994,6 +29474,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007225">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007047"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007239"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to fluorine as supplement to study various types of responses.</obo1:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007225</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluorine nutrient treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -29060,6 +29541,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007228">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007047"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007239"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to chromium as supplement to study various types of responses.</obo1:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007228</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromium nutrient treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -29105,6 +29587,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007230">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007047"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007239"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to iodine as supplement to study various types of responses.</obo1:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007230</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iodine nutrient treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -29146,6 +29629,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007232">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007047"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007239"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to selenium as supplement to study various types of responses.</obo1:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007232</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">selenium nutrient treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -29210,6 +29694,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007235">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007047"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002310"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to silicon as supplement to study various types of responses.</obo1:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007235</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">silicon nutrient treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -30077,6 +30562,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007276">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007047"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007239"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to cobalt as supplement to study various types of responses.</obo1:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007276</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cobalt nutrient treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -30243,6 +30729,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007284">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007045"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007086"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A primary plant macronutrient exposure (PECO:0007045) involving the application of nitrogen.</obo1:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007284</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO_GIT:3</oboInOwl:hasDbXref>
@@ -30333,6 +30820,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007288">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007046"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002310"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to macronutrient magnesium as supplement to study various types of responses.</obo1:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007288</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO_GIT:17</oboInOwl:hasDbXref>
@@ -30451,6 +30939,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007293">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007045"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007086"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to macronutrient potassium as supplement to study various types of responses.</obo1:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007293</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">potassium nutrient treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -30494,6 +30983,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007295">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007046"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002310"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to macronutrient sulfur as supplement to study various types of responses.</obo1:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007295</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sulfur nutrient treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -30536,6 +31026,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007297">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007046"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002310"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to macronutrient calcium as supplement to study various types of responses.</obo1:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007297</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">calcium nutrient treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -30620,6 +31111,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007303">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007043"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002310"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to carbon source as supplement to study various types of responses.</obo1:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007303</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon nutrient treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -30684,6 +31176,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007306">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007047"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002310"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to aluminium as supplement to study various types of responses.</obo1:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007306</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aluminum nutrient treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -32601,6 +33094,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007397">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007045"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002310"/>
         <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to macronutrient phosphorus as supplement to study various types of responses.</obo1:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007397</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phosphorus nutrient treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -32758,12 +33252,20 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007405">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007067"/>
+        <obo1:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hydroponic plant culture media exposure (PECO:0007067) which is an exposure to Hoagland solution during growth.</obo1:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007405</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoagland solution treatment (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007405</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Hoagland solution, originally intended to imitate a (nutrient-) rich soil solution, has high concentrations of N and K so it is very well suited for the development of large plants like tomato and bell pepper. (https://en.wikipedia.org/wiki/Hoagland_solution)</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoagland solution exposure</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007405"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hydroponic plant culture media exposure (PECO:0007067) which is an exposure to Hoagland solution during growth.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -32772,6 +33274,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007406">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001009"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007284"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007406</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrate treatment (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2023-07-25
+data-version: releases/2023-11-10
 date: 12:10:2015 15:21
 saved-by: cooperl
 default-namespace: plant_experimental_conditions_ontology
@@ -80,7 +80,7 @@ is_a: CHEBI:36338 ! lepton
 
 [Term]
 id: CHEBI:116509 ! diuron
-is_a: CHEBI:134043 ! phenylureas
+is_a: CHEBI:157693 ! 3-(3,4-substituted-phenyl)-1,1-dimethylurea
 is_a: CHEBI:23697 ! dichlorobenzene
 
 [Term]
@@ -94,10 +94,12 @@ is_a: CHEBI:29067 ! carboxylic acid anion
 [Term]
 id: CHEBI:131860 ! octadecanoid anion
 is_a: CHEBI:2580 ! unsaturated fatty acid anion
+is_a: CHEBI:57560 ! long-chain fatty acid anion
 
 [Term]
 id: CHEBI:131862 ! HPODE(1-)
 is_a: CHEBI:131860 ! octadecanoid anion
+is_a: CHEBI:134019 ! hydroperoxy polyunsaturated fatty acid anion
 
 [Term]
 id: CHEBI:131927 ! dicarboxylic acids and O-substituted derivatives
@@ -133,6 +135,11 @@ is_a: CHEBI:58945 ! organophosphate oxoanion
 id: CHEBI:133790 ! linolenate
 is_a: CHEBI:57560 ! long-chain fatty acid anion
 is_a: CHEBI:59203 ! straight-chain fatty acid anion
+is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
+
+[Term]
+id: CHEBI:134019 ! hydroperoxy polyunsaturated fatty acid anion
+is_a: CHEBI:64012 ! hydroperoxy fatty acid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
@@ -195,11 +202,11 @@ id: CHEBI:138675 ! gas molecular entity
 is_a: CHEBI:33579 ! main group molecular entity
 
 [Term]
-id: CHEBI:139114 ! carotenoid  psi-end group
+id: CHEBI:139114 ! carotenoid psi-end derivative
 is_a: CHEBI:23044 ! carotenoid
 
 [Term]
-id: CHEBI:139120 ! carotenoid beta-end group
+id: CHEBI:139120 ! carotenoid beta-end derivative
 is_a: CHEBI:23044 ! carotenoid
 
 [Term]
@@ -225,9 +232,21 @@ id: CHEBI:139492 ! sensitiser
 is_a: CHEBI:52209 ! aetiopathogenetic role
 
 [Term]
+id: CHEBI:139520 ! phenolic donor
+is_a: CHEBI:33853 ! phenols
+
+[Term]
 id: CHEBI:139588 ! alpha-hydroxy ketone
 is_a: CHEBI:30879 ! alcohol
 is_a: CHEBI:52396 ! alpha-oxyketone
+
+[Term]
+id: CHEBI:140948 ! fatty acid 18:1
+is_a: CHEBI:35366 ! fatty acid
+
+[Term]
+id: CHEBI:140949 ! fatty acid 18:2
+is_a: CHEBI:35366 ! fatty acid
 
 [Term]
 id: CHEBI:142851 ! 2-amino-4-[hydroxy(methyl)phosphoryl]butanoic acid
@@ -269,6 +288,10 @@ is_a: CHEBI:131862 ! HPODE(1-)
 [Term]
 id: CHEBI:149552 ! emetic
 is_a: CHEBI:23888 ! drug
+
+[Term]
+id: CHEBI:15022 ! electron donor
+is_a: CHEBI:17891 ! donor
 
 [Term]
 id: CHEBI:15318 ! xanthine
@@ -318,7 +341,6 @@ is_a: CHEBI:26650 ! serine family amino acid
 
 [Term]
 id: CHEBI:156230 ! 1-naphthaleneacetate
-is_a: CHEBI:25477 ! naphthalenes
 is_a: CHEBI:35757 ! monocarboxylic acid anion
 
 [Term]
@@ -336,6 +358,10 @@ is_a: CHEBI:30879 ! alcohol
 [Term]
 id: CHEBI:15740 ! formate
 is_a: CHEBI:35757 ! monocarboxylic acid anion
+
+[Term]
+id: CHEBI:157693 ! 3-(3,4-substituted-phenyl)-1,1-dimethylurea
+is_a: CHEBI:134043 ! phenylureas
 
 [Term]
 id: CHEBI:15778 ! N-acyl-D-amino acid
@@ -358,6 +384,7 @@ is_a: CHEBI:35366 ! fatty acid
 
 [Term]
 id: CHEBI:15929 ! (-)-methyl jasmonate
+is_a: CHEBI:167055 ! Jasmonate derivatives
 is_a: CHEBI:25248 ! methyl ester
 is_a: CHEBI:52464 ! jasmonate ester
 
@@ -453,6 +480,10 @@ is_a: CHEBI:24803 ! indole-3-acetic acids
 is_a: CHEBI:25384 ! monocarboxylic acid
 
 [Term]
+id: CHEBI:16449 ! alanine
+is_a: CHEBI:33704 ! alpha-amino acid
+
+[Term]
 id: CHEBI:16482 ! naphthalene
 is_a: CHEBI:25477 ! naphthalenes
 is_a: CHEBI:35426 ! ortho-fused bicyclic arene
@@ -486,6 +517,10 @@ is_a: CHEBI:37622 ! carboxamide
 is_a: CHEBI:50047 ! organic amino compound
 
 [Term]
+id: CHEBI:167055 ! Jasmonate derivatives
+is_a: CHEBI:36326 ! octadecanoid
+
+[Term]
 id: CHEBI:16708 ! adenine
 is_a: CHEBI:20706 ! 6-aminopurines
 is_a: CHEBI:26386 ! purine nucleobase
@@ -497,8 +532,16 @@ is_a: CHEBI:22712 ! benzenes
 is_a: CHEBI:33842 ! aromatic annulene
 
 [Term]
+id: CHEBI:167164 ! mineral nutrient
+is_a: CHEBI:46662 ! mineral
+
+[Term]
 id: CHEBI:16733 ! D-alpha-amino acid
 is_a: CHEBI:83925 ! non-proteinogenic alpha-amino acid
+
+[Term]
+id: CHEBI:167559 ! glycan
+is_a: CHEBI:78616 ! carbohydrates and carbohydrate derivatives
 
 [Term]
 id: CHEBI:16842 ! formaldehyde
@@ -560,13 +603,30 @@ id: CHEBI:17234 ! glucose
 is_a: CHEBI:33917 ! aldohexose
 
 [Term]
+id: CHEBI:172390 ! glycol ether
+is_a: CHEBI:46789 ! hydroxyether
+
+[Term]
 id: CHEBI:17258 ! 7H-purine
 is_a: CHEBI:35584 ! purine
+
+[Term]
+id: CHEBI:17272 ! propionate
+is_a: CHEBI:78113 ! fatty acid anion 3:0
 
 [Term]
 id: CHEBI:17295 ! L-phenylalanine
 is_a: CHEBI:28044 ! phenylalanine
 is_a: CHEBI:73690 ! erythrose 4-phosphate/phosphoenolpyruvate family amino acid
+
+[Term]
+id: CHEBI:173084 ! ferroptosis inhibitor
+is_a: CHEBI:35222 ! inhibitor
+is_a: CHEBI:52206 ! biochemical role
+
+[Term]
+id: CHEBI:173085 ! ferroptosis inducer
+is_a: CHEBI:52206 ! biochemical role
 
 [Term]
 id: CHEBI:17351 ! linoleic acid
@@ -624,7 +684,7 @@ is_a: CHEBI:38975 ! methylbenzene
 
 [Term]
 id: CHEBI:17579 ! beta-carotene
-is_a: CHEBI:139120 ! carotenoid beta-end group
+is_a: CHEBI:139120 ! carotenoid beta-end derivative
 is_a: CHEBI:35163 ! cyclic carotene
 
 [Term]
@@ -641,6 +701,14 @@ id: CHEBI:17632 ! nitrate
 is_a: CHEBI:33458 ! nitrogen oxoanion
 is_a: CHEBI:62764 ! reactive nitrogen species
 is_a: CHEBI:79389 ! monovalent inorganic anion
+
+[Term]
+id: CHEBI:176497 ! geroprotector
+is_a: CHEBI:50267 ! protective agent
+
+[Term]
+id: CHEBI:176842 ! vitamin B9
+is_a: CHEBI:75769 ! B vitamin
 
 [Term]
 id: CHEBI:17701 ! benzenediol
@@ -666,6 +734,7 @@ is_a: CHEBI:37578 ! halide
 [Term]
 id: CHEBI:17855 ! triglyceride
 is_a: CHEBI:47778 ! glyceride
+is_a: CHEBI:76579 ! triradylglycerol
 
 [Term]
 id: CHEBI:17883 ! hydrogen chloride
@@ -702,6 +771,10 @@ id: CHEBI:18059 ! lipid
 is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
+id: CHEBI:180906 ! terpenoid phytoalexin
+is_a: CHEBI:26873 ! terpenoid
+
+[Term]
 id: CHEBI:18133 ! hexose
 is_a: CHEBI:35381 ! monosaccharide
 
@@ -717,6 +790,7 @@ is_a: CHEBI:32878 ! alkene
 [Term]
 id: CHEBI:18154 ! polysaccharide
 is_a: CHEBI:16646 ! carbohydrate
+is_a: CHEBI:167559 ! glycan
 is_a: CHEBI:33694 ! biomacromolecule
 
 [Term]
@@ -741,6 +815,10 @@ is_a: CHEBI:33356 ! iron group element atom
 id: CHEBI:18254 ! ribonucleoside
 is_a: CHEBI:33838 ! nucleoside
 is_a: CHEBI:47019 ! dihydroxytetrahydrofuran
+
+[Term]
+id: CHEBI:18257 ! ornithine
+is_a: CHEBI:83925 ! non-proteinogenic alpha-amino acid
 
 [Term]
 id: CHEBI:18282 ! nucleobase
@@ -786,15 +864,30 @@ id: CHEBI:18954 ! L-mannitol 1,6-bis(methanesulfonate)
 is_a: CHEBI:38029 ! carbohydrate sulfonate
 
 [Term]
+id: CHEBI:189832 ! hydroperoxy polyunsaturated fatty acid
+is_a: CHEBI:194321 ! hydroperoxy unsaturated fatty acid
+is_a: CHEBI:26208 ! polyunsaturated fatty acid
+
+[Term]
 id: CHEBI:19024 ! 4-amino-3-hydroxynaphthalene-1-sulfonic acid
 is_a: CHEBI:36336 ! naphthalenesulfonic acid
 is_a: CHEBI:38034 ! aminonaphthalene
+
+[Term]
+id: CHEBI:190303 ! inorganic potassium salt
+is_a: CHEBI:167164 ! mineral nutrient
+is_a: CHEBI:24839 ! inorganic salt
+is_a: CHEBI:26218 ! potassium salt
 
 [Term]
 id: CHEBI:19032 ! 1-bromo-2-chloroethane
 is_a: CHEBI:24469 ! haloalkane
 is_a: CHEBI:36683 ! organochlorine compound
 is_a: CHEBI:37141 ! organobromine compound
+
+[Term]
+id: CHEBI:192499 ! anthoxanthin
+is_a: CHEBI:47916 ! flavonoid
 
 [Term]
 id: CHEBI:19351 ! (2,4-dichlorophenoxy)acetate
@@ -810,9 +903,23 @@ id: CHEBI:19371 ! dibromothymoquinone
 is_a: CHEBI:132124 ! 1,4-benzoquinones
 
 [Term]
+id: CHEBI:194095 ! mitomycin C(1-)
+is_a: CHEBI:50860 ! organic molecular entity
+
+[Term]
+id: CHEBI:194321 ! hydroperoxy unsaturated fatty acid
+is_a: CHEBI:27208 ! unsaturated fatty acid
+is_a: CHEBI:64009 ! hydroperoxy fatty acid
+
+[Term]
 id: CHEBI:19508 ! 2-chloroethyl methanesulfonate
 is_a: CHEBI:25223 ! methanesulfonate ester
 is_a: CHEBI:36683 ! organochlorine compound
+
+[Term]
+id: CHEBI:195274 ! N-acetyl-D-aspartate(2-)
+is_a: CHEBI:28965 ! dicarboxylic acid dianion
+is_a: CHEBI:58496 ! N-acetyl-D-amino acid anion
 
 [Term]
 id: CHEBI:19579 ! 2-fluoroethyl methanesulfonate
@@ -972,6 +1079,11 @@ id: CHEBI:22494 ! aminobenzoate
 is_a: CHEBI:22718 ! benzoates
 
 [Term]
+id: CHEBI:22495 ! aminobenzoic acid
+is_a: CHEBI:22723 ! benzoic acids
+is_a: CHEBI:33856 ! aromatic amino acid
+
+[Term]
 id: CHEBI:22507 ! aminoglycoside antibiotic
 is_a: CHEBI:23007 ! carbohydrate-containing antibiotic
 is_a: CHEBI:47779 ! aminoglycoside
@@ -1031,6 +1143,7 @@ is_a: CHEBI:33554 ! organosulfonate oxoanion
 [Term]
 id: CHEBI:22718 ! benzoates
 is_a: CHEBI:35757 ! monocarboxylic acid anion
+is_a: CHEBI:91007 ! aromatic carboxylate
 
 [Term]
 id: CHEBI:22723 ! benzoic acids
@@ -1311,7 +1424,7 @@ is_a: CHEBI:35618 ! aromatic ether
 
 [Term]
 id: CHEBI:24043 ! flavones
-is_a: CHEBI:47916 ! flavonoid
+is_a: CHEBI:192499 ! anthoxanthin
 
 [Term]
 id: CHEBI:24060 ! fluoride salt
@@ -1388,7 +1501,7 @@ is_a: CHEBI:35352 ! organonitrogen compound
 
 [Term]
 id: CHEBI:24469 ! haloalkane
-is_a: CHEBI:17792 ! organohalogen compound
+is_a: CHEBI:24472 ! halohydrocarbon
 
 [Term]
 id: CHEBI:24471 ! halogen molecular entity
@@ -1541,7 +1654,7 @@ is_a: CHEBI:24866 ! salt
 
 [Term]
 id: CHEBI:24840 ! inorganic sulfate salt
-is_a: CHEBI:24835 ! inorganic molecular entity
+is_a: CHEBI:24839 ! inorganic salt
 is_a: CHEBI:35175 ! sulfate salt
 
 [Term]
@@ -1766,13 +1879,14 @@ is_a: CHEBI:33250 ! atom
 
 [Term]
 id: CHEBI:25626 ! octadecadienoate
-is_a: CHEBI:57560 ! long-chain fatty acid anion
+is_a: CHEBI:131860 ! octadecanoid anion
 is_a: CHEBI:76567 ! polyunsaturated fatty acid anion
 
 [Term]
 id: CHEBI:25627 ! octadecadienoic acid
-is_a: CHEBI:15904 ! long-chain fatty acid
+is_a: CHEBI:140949 ! fatty acid 18:2
 is_a: CHEBI:26208 ! polyunsaturated fatty acid
+is_a: CHEBI:36326 ! octadecanoid
 is_a: CHEBI:53339 ! olefinic fatty acid
 is_a: CHEBI:59202 ! straight-chain fatty acid
 
@@ -1791,6 +1905,7 @@ is_a: CHEBI:59202 ! straight-chain fatty acid
 
 [Term]
 id: CHEBI:25634 ! octadecenoic acid
+is_a: CHEBI:140948 ! fatty acid 18:1
 is_a: CHEBI:15904 ! long-chain fatty acid
 is_a: CHEBI:25413 ! monounsaturated fatty acid
 is_a: CHEBI:53339 ! olefinic fatty acid
@@ -2252,8 +2367,8 @@ id: CHEBI:27311 ! volatile oil component
 is_a: CHEBI:76924 ! plant metabolite
 
 [Term]
-id: CHEBI:27314 ! water-soluble vitamin
-is_a: CHEBI:33229 ! vitamin
+id: CHEBI:27314 ! water-soluble vitamin (role)
+is_a: CHEBI:33229 ! vitamin (role)
 
 [Term]
 id: CHEBI:27325 ! xanthophyll
@@ -2420,8 +2535,13 @@ is_a: CHEBI:134179 ! volatile organic compound
 is_a: CHEBI:22063 ! sulfoxide
 
 [Term]
+id: CHEBI:28300 ! glutamine
+is_a: CHEBI:26167 ! polar amino acid
+is_a: CHEBI:33704 ! alpha-amino acid
+
+[Term]
 id: CHEBI:28425 ! alpha-carotene
-is_a: CHEBI:139120 ! carotenoid beta-end group
+is_a: CHEBI:139120 ! carotenoid beta-end derivative
 is_a: CHEBI:35163 ! cyclic carotene
 
 [Term]
@@ -2538,6 +2658,12 @@ is_a: CHEBI:36961 ! chalcocarbonic acid
 id: CHEBI:28984 ! aluminium atom
 is_a: CHEBI:33317 ! boron group element atom
 is_a: CHEBI:33521 ! metal atom
+
+[Term]
+id: CHEBI:29016 ! arginine
+is_a: CHEBI:24436 ! guanidines
+is_a: CHEBI:26167 ! polar amino acid
+is_a: CHEBI:33704 ! alpha-amino acid
 
 [Term]
 id: CHEBI:29022 ! N-benzyladenine
@@ -2717,6 +2843,7 @@ is_a: CHEBI:35391 ! aspartate(1-)
 [Term]
 id: CHEBI:29991 ! L-aspartate(1-)
 is_a: CHEBI:35391 ! aspartate(1-)
+is_a: CHEBI:59869 ! L-alpha-amino acid zwitterion
 is_a: CHEBI:62031 ! polar amino acid zwitterion
 
 [Term]
@@ -2774,6 +2901,11 @@ id: CHEBI:30762 ! salicylate
 is_a: CHEBI:25388 ! monohydroxybenzoate
 
 [Term]
+id: CHEBI:30768 ! propionic acid
+is_a: CHEBI:26607 ! saturated fatty acid
+is_a: CHEBI:26666 ! short-chain fatty acid
+
+[Term]
 id: CHEBI:30823 ! oleate
 is_a: CHEBI:132944 ! octadec-9-enoate
 
@@ -2798,7 +2930,7 @@ is_a: CHEBI:58954 ! straight-chain saturated fatty acid anion
 
 [Term]
 id: CHEBI:32036 ! potassium sulfate
-is_a: CHEBI:26218 ! potassium salt
+is_a: CHEBI:190303 ! inorganic potassium salt
 
 [Term]
 id: CHEBI:32145 ! sodium hydroxide
@@ -2807,6 +2939,14 @@ is_a: CHEBI:33978 ! alkali metal hydroxide
 [Term]
 id: CHEBI:32387 ! alpha-linolenate
 is_a: CHEBI:133790 ! linolenate
+
+[Term]
+id: CHEBI:32439 ! alaninate
+is_a: CHEBI:33558 ! alpha-amino-acid anion
+
+[Term]
+id: CHEBI:32440 ! alaninium
+is_a: CHEBI:33719 ! alpha-amino-acid cation
 
 [Term]
 id: CHEBI:32456 ! cysteinate(1-)
@@ -2856,6 +2996,31 @@ id: CHEBI:32508 ! glycinate
 is_a: CHEBI:33558 ! alpha-amino-acid anion
 
 [Term]
+id: CHEBI:32588 ! potassium chloride
+is_a: CHEBI:190303 ! inorganic potassium salt
+is_a: CHEBI:36093 ! inorganic chloride
+
+[Term]
+id: CHEBI:32678 ! glutaminate
+is_a: CHEBI:33558 ! alpha-amino-acid anion
+
+[Term]
+id: CHEBI:32679 ! glutaminium
+is_a: CHEBI:33719 ! alpha-amino-acid cation
+
+[Term]
+id: CHEBI:32695 ! argininate
+is_a: CHEBI:33558 ! alpha-amino-acid anion
+
+[Term]
+id: CHEBI:32696 ! argininium(1+)
+is_a: CHEBI:33719 ! alpha-amino-acid cation
+
+[Term]
+id: CHEBI:32697 ! argininium(2+)
+is_a: CHEBI:33719 ! alpha-amino-acid cation
+
+[Term]
 id: CHEBI:32727 ! tryptophanate
 is_a: CHEBI:33558 ! alpha-amino-acid anion
 
@@ -2876,7 +3041,7 @@ id: CHEBI:32878 ! alkene
 is_a: CHEBI:33645 ! acyclic olefin
 
 [Term]
-id: CHEBI:32918 ! 1-naphthylacetic acid
+id: CHEBI:32918 ! 1-naphthaleneacetic acid
 is_a: CHEBI:35629 ! naphthylacetic acid
 
 [Term]
@@ -2886,6 +3051,10 @@ is_a: CHEBI:83563 ! long-chain alkane
 [Term]
 id: CHEBI:32955 ! epoxide
 is_a: CHEBI:37407 ! cyclic ether
+
+[Term]
+id: CHEBI:32964 ! ornithinate
+is_a: CHEBI:33558 ! alpha-amino-acid anion
 
 [Term]
 id: CHEBI:32988 ! amide
@@ -2906,7 +3075,7 @@ is_a: CHEBI:22916 ! boron molecular entity
 is_a: CHEBI:24833 ! oxoacid
 
 [Term]
-id: CHEBI:33229 ! vitamin
+id: CHEBI:33229 ! vitamin (role)
 is_a: CHEBI:27027 ! micronutrient
 is_a: CHEBI:52206 ! biochemical role
 
@@ -4017,6 +4186,7 @@ is_a: CHEBI:30879 ! alcohol
 
 [Term]
 id: CHEBI:35682 ! naphthol
+is_a: CHEBI:139520 ! phenolic donor
 is_a: CHEBI:25392 ! naphthols
 
 [Term]
@@ -4234,12 +4404,13 @@ is_a: CHEBI:47882 ! cyclic polypyrrole
 
 [Term]
 id: CHEBI:36326 ! octadecanoid
+is_a: CHEBI:15904 ! long-chain fatty acid
 is_a: CHEBI:27208 ! unsaturated fatty acid
 
 [Term]
 id: CHEBI:36329 ! HPODE
+is_a: CHEBI:189832 ! hydroperoxy polyunsaturated fatty acid
 is_a: CHEBI:36326 ! octadecanoid
-is_a: CHEBI:61051 ! lipid hydroperoxide
 
 [Term]
 id: CHEBI:36336 ! naphthalenesulfonic acid
@@ -4517,6 +4688,7 @@ is_a: CHEBI:38104 ! oxacycle
 
 [Term]
 id: CHEBI:37445 ! folic acids
+is_a: CHEBI:176842 ! vitamin B9
 is_a: CHEBI:26375 ! pterins
 is_a: CHEBI:83982 ! L-glutamic acid derivative
 
@@ -5009,7 +5181,7 @@ is_a: CHEBI:30879 ! alcohol
 
 [Term]
 id: CHEBI:46790 ! 2-methoxyethanol
-is_a: CHEBI:46789 ! hydroxyether
+is_a: CHEBI:172390 ! glycol ether
 
 [Term]
 id: CHEBI:46792 ! hydroxypolyether
@@ -5028,6 +5200,14 @@ is_a: CHEBI:33575 ! carboxylic acid
 [Term]
 id: CHEBI:46883 ! carboxy group
 is_a: CHEBI:33249 ! organyl group
+
+[Term]
+id: CHEBI:46912 ! ornithinium(1+)
+is_a: CHEBI:33719 ! alpha-amino-acid cation
+
+[Term]
+id: CHEBI:46913 ! ornithinium(2+)
+is_a: CHEBI:33719 ! alpha-amino-acid cation
 
 [Term]
 id: CHEBI:47017 ! tetrahydrofuranol
@@ -5299,7 +5479,15 @@ id: CHEBI:50329 ! 2-carboxyethyl group
 is_a: CHEBI:50325 ! proteinogenic amino-acid side-chain group
 
 [Term]
+id: CHEBI:50331 ! 3-amino-3-oxopropyl group
+is_a: CHEBI:50325 ! proteinogenic amino-acid side-chain group
+
+[Term]
 id: CHEBI:50337 ! 1H-indol-3-ylmethyl group
+is_a: CHEBI:50325 ! proteinogenic amino-acid side-chain group
+
+[Term]
+id: CHEBI:50340 ! 3-carbamimidamidopropyl group
 is_a: CHEBI:50325 ! proteinogenic amino-acid side-chain group
 
 [Term]
@@ -5326,6 +5514,7 @@ is_a: CHEBI:33893 ! reagent
 [Term]
 id: CHEBI:50699 ! oligosaccharide
 is_a: CHEBI:16646 ! carbohydrate
+is_a: CHEBI:167559 ! glycan
 
 [Term]
 id: CHEBI:50733 ! nutraceutical
@@ -5363,6 +5552,14 @@ is_a: CHEBI:52209 ! aetiopathogenetic role
 
 [Term]
 id: CHEBI:50905 ! teratogenic agent
+is_a: CHEBI:52209 ! aetiopathogenetic role
+
+[Term]
+id: CHEBI:50908 ! hepatotoxic agent
+is_a: CHEBI:52209 ! aetiopathogenetic role
+
+[Term]
+id: CHEBI:50909 ! nephrotoxic agent
 is_a: CHEBI:52209 ! aetiopathogenetic role
 
 [Term]
@@ -5414,7 +5611,7 @@ is_a: CHEBI:24866 ! salt
 
 [Term]
 id: CHEBI:51084 ! inorganic nitrate salt
-is_a: CHEBI:24835 ! inorganic molecular entity
+is_a: CHEBI:24839 ! inorganic salt
 is_a: CHEBI:51082 ! nitrate salt
 
 [Term]
@@ -5584,7 +5781,7 @@ id: CHEBI:57305 ! glycine zwitterion
 is_a: CHEBI:35238 ! amino acid zwitterion
 
 [Term]
-id: CHEBI:57545 ! 2-(3,4-dihydroxyphenyl)-5-hydroxy-4-oxo-4H-chromen-7-olate luteolin-7-olate(1-)
+id: CHEBI:57545 ! luteolin-7-olate
 is_a: CHEBI:60038 ! flavonoid oxoanion
 
 [Term]
@@ -5610,6 +5807,7 @@ is_a: CHEBI:139291 ! chlorophyll(1-)
 [Term]
 id: CHEBI:58431 ! jasmonate(1-)
 is_a: CHEBI:136184 ! jasmonic acid anion
+is_a: CHEBI:167055 ! Jasmonate derivatives
 
 [Term]
 id: CHEBI:58496 ! N-acetyl-D-amino acid anion
@@ -5779,14 +5977,17 @@ is_a: CHEBI:28963 ! amino sugar
 
 [Term]
 id: CHEBI:60952 ! diterpene phytoalexin
+is_a: CHEBI:180906 ! terpenoid phytoalexin
 is_a: CHEBI:23849 ! diterpenoid
 
 [Term]
 id: CHEBI:61015 ! nephrotoxin
+is_a: CHEBI:50909 ! nephrotoxic agent
 is_a: CHEBI:64909 ! poison
 
 [Term]
 id: CHEBI:61051 ! lipid hydroperoxide
+is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:35924 ! peroxol
 
 [Term]
@@ -5925,6 +6126,15 @@ id: CHEBI:63726 ! neuroprotective agent
 is_a: CHEBI:50267 ! protective agent
 
 [Term]
+id: CHEBI:64009 ! hydroperoxy fatty acid
+is_a: CHEBI:35366 ! fatty acid
+is_a: CHEBI:61051 ! lipid hydroperoxide
+
+[Term]
+id: CHEBI:64012 ! hydroperoxy fatty acid anion
+is_a: CHEBI:28868 ! fatty acid anion
+
+[Term]
 id: CHEBI:64047 ! food additive
 is_a: CHEBI:33232 ! application
 is_a: CHEBI:78295 ! food component
@@ -6004,6 +6214,7 @@ is_a: CHEBI:48706 ! antagonist
 
 [Term]
 id: CHEBI:65212 ! polysaccharide derivative
+is_a: CHEBI:167559 ! glycan
 is_a: CHEBI:33694 ! biomacromolecule
 is_a: CHEBI:63299 ! carbohydrate derivative
 
@@ -6026,11 +6237,16 @@ id: CHEBI:66873 ! C4-dicarboxylic acid
 is_a: CHEBI:35692 ! dicarboxylic acid
 
 [Term]
+id: CHEBI:66916 ! alanine zwitterion
+is_a: CHEBI:35238 ! amino acid zwitterion
+
+[Term]
 id: CHEBI:66981 ! ophthalmology drug
 is_a: CHEBI:23888 ! drug
 
 [Term]
 id: CHEBI:67011 ! folates
+is_a: CHEBI:176842 ! vitamin B9
 is_a: CHEBI:59874 ! N-acyl-L-alpha-amino acid anion
 
 [Term]
@@ -6170,8 +6386,8 @@ is_a: CHEBI:75767 ! animal metabolite
 
 [Term]
 id: CHEBI:75769 ! B vitamin
-is_a: CHEBI:27314 ! water-soluble vitamin
-is_a: CHEBI:50733 ! nutraceutical
+is_a: CHEBI:35352 ! organonitrogen compound
+is_a: CHEBI:36963 ! organooxygen compound
 
 [Term]
 id: CHEBI:75771 ! mouse metabolite
@@ -6218,6 +6434,10 @@ is_a: CHEBI:47857 ! ureas
 [Term]
 id: CHEBI:76567 ! polyunsaturated fatty acid anion
 is_a: CHEBI:2580 ! unsaturated fatty acid anion
+
+[Term]
+id: CHEBI:76579 ! triradylglycerol
+is_a: CHEBI:35741 ! glycerolipid
 
 [Term]
 id: CHEBI:76595 ! nephroprotective agent
@@ -6436,6 +6656,11 @@ id: CHEBI:78049 ! octadecenoate
 is_a: CHEBI:82680 ! monounsaturated fatty acid anion
 
 [Term]
+id: CHEBI:78113 ! fatty acid anion 3:0
+is_a: CHEBI:58951 ! short-chain fatty acid anion
+is_a: CHEBI:58953 ! saturated fatty acid anion
+
+[Term]
 id: CHEBI:78125 ! fatty acid anion 18:0
 is_a: CHEBI:58953 ! saturated fatty acid anion
 
@@ -6605,6 +6830,10 @@ is_a: CHEBI:24315 ! glutamic acid derivative
 is_a: CHEBI:83811 ! proteinogenic amino acid derivative
 
 [Term]
+id: CHEBI:84087 ! human urinary metabolite
+is_a: CHEBI:77746 ! human metabolite
+
+[Term]
 id: CHEBI:84143 ! D-phenylalanine derivative
 is_a: CHEBI:25985 ! phenylalanine derivative
 is_a: CHEBI:83812 ! non-proteinogenic amino acid derivative
@@ -6629,6 +6858,11 @@ is_a: CHEBI:77746 ! human metabolite
 [Term]
 id: CHEBI:86264 ! rat metabolite
 is_a: CHEBI:75768 ! mammalian metabolite
+
+[Term]
+id: CHEBI:86327 ! antifungal drug
+is_a: CHEBI:35441 ! antiinfective agent
+is_a: CHEBI:35718 ! antifungal agent
 
 [Term]
 id: CHEBI:86360 ! manganese(II) sulfate
@@ -8430,6 +8664,7 @@ def: "An inorganic anion exposure (PECO:0001009) involving the application of ph
 synonym: "phosphate treatment (narrow)" NARROW []
 xref: PECO_GIT:7
 is_a: PECO:0001009 ! inorganic anion exposure
+is_a: PECO:0007086 ! chemical fertilizer exposure
 created_by: cooperl
 creation_date: 2013-04-10T14:54:09Z
 
@@ -8453,6 +8688,7 @@ def: "An inorganic anion exposure (PECO:0001009) involving the application of su
 synonym: "sulfate treatment (narrow)" NARROW []
 xref: PECO_GIT:8
 is_a: PECO:0001009 ! inorganic anion exposure
+is_a: PECO:0007086 ! chemical fertilizer exposure
 created_by: cooperl
 creation_date: 2013-04-10T15:29:20Z
 
@@ -8650,6 +8886,7 @@ alt_id: EO:0001025
 def: "A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to urea (CHEBI:16199) as the primary or sole source of nitrogen." [PECO:cooperl]
 synonym: "urea nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
+is_a: PECO:0007102 ! nitrogen fertilizer exposure
 is_a: PECO:0007284 ! nitrogen macronutrient exposure
 created_by: cooperl
 creation_date: 2013-04-12T19:19:27Z
@@ -8661,6 +8898,7 @@ alt_id: EO:0001026
 def: "A nitrogen macronutrient exposure (PECO:0007284) involving exposure of plant to 5'-S-methyl-5'-thioadenosine (MTA; CHEBI:17509) as the primary or sole source of nitrogen." [CHEBI:17509, PECO:cooperl]
 synonym: "MTA nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
+is_a: PECO:0007102 ! nitrogen fertilizer exposure
 is_a: PECO:0007284 ! nitrogen macronutrient exposure
 created_by: cooperl
 creation_date: 2013-04-12T19:23:02Z
@@ -8672,6 +8910,7 @@ alt_id: EO:0001027
 def: "A nitrogen macronutrient exposure (PECO:0007284) involving exposure of plant to alanine (CHEBI:16449) as the primary or sole source of nitrogen." [CHEBI:16449, PECO:cooperl]
 synonym: "alanine nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
+is_a: PECO:0007102 ! nitrogen fertilizer exposure
 is_a: PECO:0007284 ! nitrogen macronutrient exposure
 created_by: cooperl
 creation_date: 2013-04-12T19:23:17Z
@@ -8683,6 +8922,7 @@ alt_id: EO:0001028
 def: "A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to glutamate (CHEBI:29987) as the primary or sole source of nitrogen." [CHEBI:29987, PECO:cooperl]
 synonym: "glutamate nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
+is_a: PECO:0007102 ! nitrogen fertilizer exposure
 is_a: PECO:0007284 ! nitrogen macronutrient exposure
 created_by: cooperl
 creation_date: 2013-04-12T19:35:46Z
@@ -8694,6 +8934,7 @@ alt_id: EO:0001029
 def: "A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to arginine (CHEBI:29016) as the primary or sole source of nitrogen." [CHEBI:29016, PECO:cooperl]
 synonym: "arginine nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
+is_a: PECO:0007102 ! nitrogen fertilizer exposure
 is_a: PECO:0007284 ! nitrogen macronutrient exposure
 created_by: cooperl
 creation_date: 2013-04-12T19:36:14Z
@@ -8705,6 +8946,7 @@ alt_id: EO:0001030
 def: "A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to ornithine (CHEBI:18257) as the primary or sole source of nitrogen." [CHEBI:18257, PECO:cooperl]
 synonym: "ornithine nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
+is_a: PECO:0007102 ! nitrogen fertilizer exposure
 is_a: PECO:0007284 ! nitrogen macronutrient exposure
 created_by: cooperl
 creation_date: 2013-04-12T19:40:51Z
@@ -8716,6 +8958,7 @@ alt_id: EO:0001031
 def: "A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to glutamine (CHEBI:28300) as the primary or sole source of nitrogen." [CHEBI:28300, PECO:cooperl]
 synonym: "glutamine nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
+is_a: PECO:0007102 ! nitrogen fertilizer exposure
 is_a: PECO:0007284 ! nitrogen macronutrient exposure
 created_by: cooperl
 creation_date: 2013-04-12T19:41:18Z
@@ -8873,6 +9116,7 @@ def: "A sulfate exposure (PECO:0001008) involving exposure to limiting amounts o
 synonym: "limited sulfate treatment (narrow)" NARROW []
 xref: PECO_GIT:27
 is_a: PECO:0001008 ! sulfate exposure
+is_a: PECO:0007079 ! sulfate fertilizer exposure
 created_by: moorel
 creation_date: 2013-04-24T12:37:29Z
 
@@ -8885,6 +9129,7 @@ synonym: "limited phosphate treatment (narrow)" NARROW []
 xref: PECO_GIT:20
 xref: PECO_GIT:26
 is_a: PECO:0001006 ! phosphate exposure
+is_a: PECO:0007103 ! phosphate fertilizer exposure
 created_by: moorel
 creation_date: 2013-04-24T12:43:48Z
 
@@ -8930,6 +9175,7 @@ synonym: "limited nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:19
 xref: PECO_GIT:2
 xref: PECO_GIT:25
+is_a: PECO:0007102 ! nitrogen fertilizer exposure
 is_a: PECO:0007284 ! nitrogen macronutrient exposure
 created_by: moorel
 creation_date: 2013-04-24T13:45:43Z
@@ -8941,6 +9187,7 @@ alt_id: EO:0001051
 def: "A potassium nutrient exposure (PECO:0007293) involving exposure to limiting amounts or the absence of potassium (CHEBI:26216)." [CHEBI:26216, PECO:cooperl]
 synonym: "limited potassium treatment (narrow)" NARROW []
 xref: PECO_GIT:21
+is_a: PECO:0001064 ! potassium fertilizer exposure
 is_a: PECO:0007293 ! potassium nutrient exposure
 created_by: moorel
 creation_date: 2013-04-24T13:54:39Z
@@ -9085,6 +9332,7 @@ id: PECO:0001064
 name: potassium fertilizer exposure
 def: "A chemical fertilizer exposure (PECO:0007086) involving the use of potassium fertilizer as a supplement to study plant responses." [PECO:cooperl]
 xref: PECO_GIT:112
+is_a: PECO:0007045 ! primary plant macronutrient exposure
 is_a: PECO:0007086 ! chemical fertilizer exposure
 created_by: Laurel_Cooper
 creation_date: 2018-10-18T17:40:45Z
@@ -9096,6 +9344,9 @@ def: "A potassium fertilizer exposure (PECO:0001064) involving the use of potass
 synonym: "muriate of potash exposure (related)" RELATED []
 xref: PECO_GIT:112
 is_a: PECO:0001064 ! potassium fertilizer exposure
+is_a: PECO:0007044 ! mineral exposure
+is_a: PECO:0007185 ! salt exposure
+is_a: PECO:0007293 ! potassium nutrient exposure
 created_by: Laurel_Cooper
 creation_date: 2018-10-18T17:51:54Z
 
@@ -9176,6 +9427,18 @@ xref: PECO_GIT:128
 is_a: PECO:0007147 ! plant growth medium exposure
 created_by: http://orcid.org/0000-0002-6379-8932
 creation_date: 2022-09-20T23:04:36Z
+
+[Term]
+id: PECO:0001074
+name: Knop's solution exposure
+def: "A hydroponic plant culture media exposure (PECO:0007067) which is an exposure to Knop's solution during growth." [PECO:cooperl]
+comment: Knop's solution is a nutrient solution used in growth experiments with higher plants and containing definite proportions of calcium nitrate, potassium nitrate, magnesium sulfate, monobasic potassium phosphate, and potassium chloride dissolved in water (https://www.merriam-webster.com/dictionary).
+synonym: "Knop ME (related)" RELATED []
+synonym: "Knop medium (related)" RELATED []
+xref: PECO_GIT:134
+is_a: PECO:0007067 ! hydroponic plant culture media exposure
+created_by: https://orcid.org/0000-0002-6379-8932
+creation_date: 2023-10-03T21:37:34Z
 
 [Term]
 id: PECO:0007001
@@ -9746,7 +10009,7 @@ is_a: PECO:0007165 ! growth hormone exposure
 id: PECO:0007067
 name: hydroponic plant culture media exposure
 alt_id: EO:0007067
-def: "An exposure involving growing plants in liquid growth media." [Gramene:pankaj_jaiswal]
+def: "A plant growth medium exposure (PECO:0007147) involving growing plants in liquid growth media." [Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "hydroponic plant culture media treatment (narrow)" NARROW []
 synonym: "soilless pant culture media (related)" RELATED []
 is_a: PECO:0007147 ! plant growth medium exposure
@@ -9856,6 +10119,7 @@ name: sulfate fertilizer exposure
 alt_id: EO:0007079
 def: "Treatment involving the use of sulfate fertilizer and its components as supplements to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "sulfate fertilizer treatment (narrow)" NARROW []
+is_a: PECO:0001009 ! inorganic anion exposure
 is_a: PECO:0007086 ! chemical fertilizer exposure
 
 [Term]
@@ -10011,9 +10275,11 @@ name: ammonium sulfate exposure
 alt_id: EO:0007097
 def: "Treatment involving the use of ammonium sulfate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "ammonium sulfate treatment (narrow)" NARROW []
+is_a: PECO:0001008 ! sulfate exposure
 is_a: PECO:0007079 ! sulfate fertilizer exposure
 is_a: PECO:0007102 ! nitrogen fertilizer exposure
 is_a: PECO:0007185 ! salt exposure
+is_a: PECO:0007284 ! nitrogen macronutrient exposure
 
 [Term]
 id: PECO:0007098
@@ -10021,6 +10287,7 @@ name: ferrous sulfate exposure
 alt_id: EO:0007098
 def: "Treatment involving the use of ferrous sulfate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "ferrous sulfate treatment (narrow)" NARROW []
+is_a: PECO:0001008 ! sulfate exposure
 is_a: PECO:0007079 ! sulfate fertilizer exposure
 is_a: PECO:0007185 ! salt exposure
 
@@ -10030,6 +10297,8 @@ name: potassium sulfate exposure
 alt_id: EO:0007099
 def: "Treatment involving the use of potassium sulfate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "potassium sulfate treatment (narrow)" NARROW []
+is_a: PECO:0001008 ! sulfate exposure
+is_a: PECO:0007044 ! mineral exposure
 is_a: PECO:0007079 ! sulfate fertilizer exposure
 is_a: PECO:0007185 ! salt exposure
 
@@ -10039,6 +10308,7 @@ name: superphosphate exposure
 alt_id: EO:0007100
 def: "Treatment involving the use of super phosphate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "superphosphate treatment (narrow)" NARROW []
+is_a: PECO:0001006 ! phosphate exposure
 is_a: PECO:0007103 ! phosphate fertilizer exposure
 
 [Term]
@@ -10048,6 +10318,7 @@ alt_id: EO:0007101
 def: "Treatment involving the use of urea as source of nitrogen supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "urea treatment (narrow)" NARROW []
 is_a: PECO:0007102 ! nitrogen fertilizer exposure
+is_a: PECO:0007284 ! nitrogen macronutrient exposure
 
 [Term]
 id: PECO:0007102
@@ -10055,6 +10326,7 @@ name: nitrogen fertilizer exposure
 alt_id: EO:0007102
 def: "Treatment involving the use of nitrogen fertilizer and its components as supplements to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "nitrogen fertilizer treatment (narrow)" NARROW []
+is_a: PECO:0007045 ! primary plant macronutrient exposure
 is_a: PECO:0007086 ! chemical fertilizer exposure
 
 [Term]
@@ -10063,6 +10335,7 @@ name: phosphate fertilizer exposure
 alt_id: EO:0007103
 def: "Treatment involving the use of phosphate fertilizer and its components as supplements to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "phosphate fertilizer treatment (narrow)" NARROW []
+is_a: PECO:0001009 ! inorganic anion exposure
 is_a: PECO:0007086 ! chemical fertilizer exposure
 
 [Term]
@@ -10071,8 +10344,10 @@ name: NPK fertilizer exposure
 alt_id: EO:0007104
 def: "Treatment involving the use of nitrogen, phosphorus and potassium supplements to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "NPK fertilizer treatment (narrow)" NARROW []
+is_a: PECO:0001006 ! phosphate exposure
 is_a: PECO:0007102 ! nitrogen fertilizer exposure
 is_a: PECO:0007103 ! phosphate fertilizer exposure
+is_a: PECO:0007284 ! nitrogen macronutrient exposure
 
 [Term]
 id: PECO:0007105
@@ -11111,6 +11386,7 @@ alt_id: EO:0007225
 def: "The treatment involving exposure of plant to fluorine as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "fluorine nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007047 ! other nutrient exposure
+is_a: PECO:0007239 ! micronutrient exposure
 
 [Term]
 id: PECO:0007226
@@ -11139,6 +11415,7 @@ alt_id: EO:0007228
 def: "The treatment involving exposure of plant to chromium as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "chromium nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007047 ! other nutrient exposure
+is_a: PECO:0007239 ! micronutrient exposure
 
 [Term]
 id: PECO:0007229
@@ -11159,6 +11436,7 @@ alt_id: EO:0007230
 def: "The treatment involving exposure of plant to iodine as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "iodine nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007047 ! other nutrient exposure
+is_a: PECO:0007239 ! micronutrient exposure
 
 [Term]
 id: PECO:0007231
@@ -11175,6 +11453,7 @@ alt_id: EO:0007232
 def: "The treatment involving exposure of plant to selenium as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "selenium nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007047 ! other nutrient exposure
+is_a: PECO:0007239 ! micronutrient exposure
 
 [Term]
 id: PECO:0007233
@@ -11201,6 +11480,7 @@ alt_id: EO:0007235
 def: "The treatment involving exposure of plant to silicon as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "silicon nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007047 ! other nutrient exposure
+is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007236
@@ -11565,6 +11845,7 @@ alt_id: EO:0007276
 def: "The treatment involving exposure of plant to cobalt as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "cobalt nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007047 ! other nutrient exposure
+is_a: PECO:0007239 ! micronutrient exposure
 
 [Term]
 id: PECO:0007277
@@ -11634,6 +11915,7 @@ def: "A primary plant macronutrient exposure (PECO:0007045) involving the applic
 synonym: "nitrogen macronutrient treatment (narrow)" NARROW []
 xref: PECO_GIT:3
 is_a: PECO:0007045 ! primary plant macronutrient exposure
+is_a: PECO:0007086 ! chemical fertilizer exposure
 
 [Term]
 id: PECO:0007285
@@ -11674,6 +11956,7 @@ def: "The treatment involving exposure of plant to macronutrient magnesium as su
 synonym: "magnesium nutrient treatment (narrow)" NARROW []
 xref: PECO_GIT:17
 is_a: PECO:0007046 ! secondary macronutrient exposure
+is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007289
@@ -11728,6 +12011,7 @@ alt_id: EO:0007293
 def: "The treatment involving exposure of plant to macronutrient potassium as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "potassium nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007045 ! primary plant macronutrient exposure
+is_a: PECO:0007086 ! chemical fertilizer exposure
 
 [Term]
 id: PECO:0007294
@@ -11747,6 +12031,7 @@ alt_id: EO:0007295
 def: "The treatment involving exposure of plant to macronutrient sulfur as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "sulfur nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007046 ! secondary macronutrient exposure
+is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007296
@@ -11764,6 +12049,7 @@ alt_id: EO:0007297
 def: "The treatment involving exposure of plant to macronutrient calcium as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "calcium nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007046 ! secondary macronutrient exposure
+is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007298
@@ -11800,6 +12086,7 @@ alt_id: EO:0007303
 def: "The treatment involving exposure of plant to carbon source as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "carbon nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007043 ! non-mineral nutrient exposure
+is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007304
@@ -11828,6 +12115,7 @@ alt_id: EO:0007306
 def: "The treatment involving exposure of plant to aluminium as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "aluminum nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007047 ! other nutrient exposure
+is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007307
@@ -12645,6 +12933,7 @@ alt_id: EO:0007397
 def: "The treatment involving exposure of plant to macronutrient phosphorus as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "phosphorus nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007045 ! primary plant macronutrient exposure
+is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007398
@@ -12709,6 +12998,8 @@ is_a: PECO:0007198 ! water environment exposure
 id: PECO:0007405
 name: Hoagland solution exposure
 alt_id: EO:0007405
+def: "A hydroponic plant culture media exposure (PECO:0007067) which is an exposure to Hoagland solution during growth." [PECO:cooperl]
+comment: The Hoagland solution, originally intended to imitate a (nutrient-) rich soil solution, has high concentrations of N and K so it is very well suited for the development of large plants like tomato and bell pepper. (https://en.wikipedia.org/wiki/Hoagland_solution)
 synonym: "Hoagland solution treatment (narrow)" NARROW []
 is_a: PECO:0007067 ! hydroponic plant culture media exposure
 
@@ -12719,6 +13010,7 @@ alt_id: EO:0007406
 synonym: "nitrate treatment (narrow)" NARROW []
 is_a: PECO:0001009 ! inorganic anion exposure
 is_a: PECO:0007102 ! nitrogen fertilizer exposure
+is_a: PECO:0007284 ! nitrogen macronutrient exposure
 
 [Term]
 id: PECO:0007407

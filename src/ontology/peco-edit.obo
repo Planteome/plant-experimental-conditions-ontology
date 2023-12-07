@@ -1318,13 +1318,13 @@ is_a: PECO:0007134 ! acidic pH growth media environment exposure
 id: PECO:0007060
 name: Sphaerulina oryzina exposure
 alt_id: EO:0007060
-def: "A plant fungal exposure (PECO:0007233) involving the exposure of plant to the pathogen Sphaerulina oryzina." [Gramene:ivy, NCBITaxon:237189]
+def: "An Ascomycta exposure (PECO:0007107) involving the exposure of plant to the pathogen Sphaerulina oryzina." [Gramene:ivy, NCBITaxon:237189, PECO:Cooperl]
 comment: Sphaerulina oryzina is a causal agent for rice Narrow Brown Leaf Spot disease.
 synonym: "Cercospora janseana (related)" RELATED []
 synonym: "Cercospora oryzae (related)" RELATED []
 synonym: "Sphaerulina oryzina treatment (narrow)" NARROW []
 xref: NCBITaxon:706553
-is_a: PECO:0007233 ! fungal plant exposure
+is_a: PECO:0007107 ! Ascomycota exposure
 
 [Term]
 id: PECO:0007061
@@ -4101,11 +4101,11 @@ is_a: PECO:0007073 ! Basidiomycota exposure
 id: PECO:0007378
 name: Sarocladium oryzae exposure
 alt_id: EO:0007378
-def: "A plant fungal exposure (PECO:0007233) involving exposure of plant to the pathogen Sarocladium oryzae. It is a causal agent for rice Seedling Blight (Fungal) disease and/or Sheath Rot disease." [Gramene:ivy]
+def: "An Ascomycta exposure (PECO:0007107) involving exposure of plant to the pathogen Sarocladium oryzae. It is a causal agent for rice Seedling Blight (Fungal) disease and/or Sheath Rot disease." [Gramene:ivy, NCBITaxon:284135, PECO:Cooperl]
 synonym: "Acrocylindrium oryzae (related)" RELATED []
 synonym: "Sarocladium oryzae treatment (narrow)" NARROW []
 xref: NCBITaxon:284135
-is_a: PECO:0007233 ! fungal plant exposure
+is_a: PECO:0007107 ! Ascomycota exposure
 
 [Term]
 id: PECO:0007379

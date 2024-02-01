@@ -1279,7 +1279,7 @@ is_a: PECO:0007050 ! soil texture exposure
 id: PECO:0007055
 name: Cochliobolus spp. exposure
 alt_id: EO:0007055
-def: "An exposure involving the growth of a plant with the pathogen Cochliobolus spp." [Gramene:ivy, NCBITaxon:5015]
+def: "An Ascomycota exposure (PECO:0007107) involving the exposure of a plant with the pathogen Cochliobolus spp." [Gramene:ivy, NCBITaxon:5015, PECO:cooperl]
 synonym: "Cochliobolus spp. treatment (narrow)" NARROW []
 is_a: PECO:0007107 ! Ascomycota exposure
 
@@ -1318,7 +1318,7 @@ is_a: PECO:0007134 ! acidic pH growth media environment exposure
 id: PECO:0007060
 name: Sphaerulina oryzina exposure
 alt_id: EO:0007060
-def: "An Ascomycta exposure (PECO:0007107) involving the exposure of plant to the pathogen Sphaerulina oryzina." [Gramene:ivy, NCBITaxon:237189, PECO:Cooperl]
+def: "An Ascomycota exposure (PECO:0007107) involving the exposure of plant to the pathogen Sphaerulina oryzina." [Gramene:ivy, NCBITaxon:237189, PECO:Cooperl]
 comment: Sphaerulina oryzina is a causal agent for rice Narrow Brown Leaf Spot disease.
 synonym: "Cercospora janseana (related)" RELATED []
 synonym: "Cercospora oryzae (related)" RELATED []
@@ -1449,7 +1449,7 @@ is_a: PECO:0007107 ! Ascomycota exposure
 id: PECO:0007073
 name: Basidiomycota exposure
 alt_id: EO:0007073
-def: "A fungal plant exposure (PECO:0007233) involving the exposure of plant to the pathogen belonging to Basidiomycetes class." [Gramene:ivy, NCBITaxon:5204]
+def: "A fungal plant exposure (PECO:0007233) involving the exposure of plant to a fungal pathogen belonging to Basidiomycetes class." [Gramene:ivy, NCBITaxon:5204, PECO:cooperl]
 synonym: "basidiomycetes (related)" RELATED []
 synonym: "Basidiomycota treatment (narrow)" NARROW []
 xref: NCBITaxon:5204
@@ -1736,7 +1736,7 @@ is_a: PECO:0007357 ! biotic plant exposure
 id: PECO:0007107
 name: Ascomycota exposure
 alt_id: EO:0007107
-def: "A fungal plant exposure (PECO:0007233) involving the exposure of plant to the pathogen belonging to Ascomycetes class." [Gramene:ivy, NCBITaxon:4890]
+def: "A fungal plant exposure (PECO:0007233) involving the exposure of plant to a fungal pathogen belonging to Ascomycetes class." [Gramene:ivy, NCBITaxon:4890, PECO:cooperl]
 synonym: "ascomycetes (related)" RELATED []
 synonym: "Ascomycota treatment (narrow)" NARROW []
 xref: NCBITaxon:4890
@@ -2642,7 +2642,7 @@ is_a: PECO:0007357 ! biotic plant exposure
 id: PECO:0007214
 name: Alternaria spp. exposure
 alt_id: EO:0007214
-def: "The treatment involving exposure of plant to the pathogenic Alternaria sp." [Gramene:ivy, NCBITaxon:5598]
+def: "An Ascomycota exposure (PECO:0007107) involving exposure of a plant to Alternaria sp." [Gramene:ivy, NCBITaxon:5598, PECO:cooperl]
 synonym: "Alternaria spp. treatment (narrow)" NARROW []
 is_a: PECO:0007107 ! Ascomycota exposure
 
@@ -3941,7 +3941,8 @@ is_a: PECO:0007110 ! dsRNA virus exposure
 id: PECO:0007362
 name: Balansia oryzae-sativae exposure
 alt_id: EO:0007362
-def: "The treatment involving exposure of plant to the pathogen Balansia oryzae-sativae. It is a causal agent for rice Udbatta diesase which is also called as Black Choke Disease, False Ergot Disease, Incense Rod Disease." [Gramene:ivy, NCBITaxon:116609]
+def: "An Ascomycota exposure (PECO:0007107) involving exposure of a plant to the pathogen Balansia oryzae-sativae." [Gramene:ivy, NCBITaxon:116609, PECO:cooperl]
+comment: The fungal pathogen  Balansia oryzae-sativae is a causal agent of rice Udbatta diesase, which is also called as Black Choke Disease, False Ergot Disease, and Incense Rod Disease.
 synonym: "Balansia oryzae-sativae treatment (narrow)" NARROW []
 synonym: "Ephelis japonica (related)" RELATED []
 synonym: "Ephelis oryzae (related)" RELATED []
@@ -4101,7 +4102,7 @@ is_a: PECO:0007073 ! Basidiomycota exposure
 id: PECO:0007378
 name: Sarocladium oryzae exposure
 alt_id: EO:0007378
-def: "An Ascomycta exposure (PECO:0007107) involving exposure of plant to the pathogen Sarocladium oryzae. It is a causal agent for rice Seedling Blight (Fungal) disease and/or Sheath Rot disease." [Gramene:ivy, NCBITaxon:284135, PECO:Cooperl]
+def: "An Ascomycota exposure (PECO:0007107) involving exposure of plant to the pathogen Sarocladium oryzae. It is a causal agent for rice Seedling Blight (Fungal) disease and/or Sheath Rot disease." [Gramene:ivy, NCBITaxon:284135, PECO:Cooperl]
 synonym: "Acrocylindrium oryzae (related)" RELATED []
 synonym: "Sarocladium oryzae treatment (narrow)" NARROW []
 xref: NCBITaxon:284135

@@ -1,4 +1,5 @@
 defined_class	defined_class_label	stimulus	stimulus_label
+PECO:0001075	"Oomycota exposure"	NCBITaxon:4762	"Oomycota"
 PECO:0007022	"Liliopsida exposure"	NCBITaxon:4447	"Liliopsida"
 PECO:0007031	"Mammalia exposure"	NCBITaxon:40674	"Mammalia"
 PECO:0007060	"Sphaerulina oryzina exposure"	NCBITaxon:706553	"Passalora janseana"
@@ -57,4 +58,9 @@ PECO:0007379	"Thanatephorus cucumeris exposure"	NCBITaxon:107832	"Thanatephorus 
 PECO:0007388	"Alternaria padwickii exposure"	NCBITaxon:714880	"Alternaria padwickii"
 PECO:0007389	"Gibberella zeae exposure"	NCBITaxon:5518	"Fusarium graminearum"
 PECO:0007411	"Pseudomonas fluorescens exposure"	NCBITaxon:294	"Pseudomonas fluorescens"
+PECO:0007630	"Sclerospora sp. exposure"	NCBITaxon:162130	"Sclerospora sp."
 PECO:0007631	"Sclerospora graminicola exposure"	NCBITaxon:162130	"Sclerospora graminicola"
+
+
+
+

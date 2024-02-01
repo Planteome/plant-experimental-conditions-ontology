@@ -828,6 +828,14 @@ created_by: https://orcid.org/0000-0002-6379-8932
 creation_date: 2023-10-03T21:37:34Z
 
 [Term]
+id: PECO:0001075
+name: Oomycota exposure
+def: "A biotic plant exposure (PECO:0007357) involving the exposure of a plant structure (PO:0009011) to an Oomycete organism." [NCBITaxon:4762, PECO:cooperl]
+is_a: PECO:0007106 ! Stramenopiles exposure
+created_by: https://orcid.org/0000-0002-6379-8932
+creation_date: 2024-02-01T20:31:08Z
+
+[Term]
 id: PECO:0007001
 name: UV-B light exposure
 alt_id: EO:0007001
@@ -1989,11 +1997,11 @@ is_a: PECO:0007107 ! Ascomycota exposure
 
 [Term]
 id: PECO:0007136
-name: Achlya spp. exposure
+name: Achlya sp. exposure
 alt_id: EO:0007136
-def: "The treatment involving an exposure of plant to the Achlya spp." [Gramene:pankaj_jaiswal, NCBITaxon:4765]
-synonym: "Achlya spp. treatment (narrow)" NARROW []
-is_a: PECO:0007106 ! Stramenopiles exposure
+def: "An Oomycota exposure (PECO:0001074) involving the exposure of a plant structure (PO:0009011) to an Achyla sp. organism." [Gramene:pankaj_jaiswal, NCBITaxon:4765, PECO:cooperl]
+synonym: "Achlya sp. treatment (narrow)" NARROW []
+is_a: PECO:0001075 ! Oomycota exposure
 
 [Term]
 id: PECO:0007137
@@ -2239,7 +2247,7 @@ name: Pythium spinosum exposure
 alt_id: EO:0007166
 def: "The treatment involving an exposure of plant to the Pythium spinosum. It is a causal agent for rice seedling blight (fungal) or feeder root necrosis or water mold dieases. Water mold diease is also called as seed rot or seedling damping-off disease." [Gramene:pankaj_jaiswal, NCBITaxon:82948]
 synonym: "Pythium spinosum treatment (narrow)" NARROW []
-is_a: PECO:0007328 ! Pythium spp. exposure
+is_a: PECO:0007328 ! Pythium sp. exposure
 
 [Term]
 id: PECO:0007167
@@ -2316,7 +2324,7 @@ name: Pythium myriotylum exposure
 alt_id: EO:0007177
 def: "Suggests the exposure of plant to the Pythium myriotylum. It is a causal agent for rice feeder root necrosis disease." [Gramene:pankaj_jaiswal, NCBITaxon:82941]
 synonym: "Pythium myriotylum treatment (narrow)" NARROW []
-is_a: PECO:0007328 ! Pythium spp. exposure
+is_a: PECO:0007328 ! Pythium sp. exposure
 
 [Term]
 id: PECO:0007178
@@ -2333,7 +2341,7 @@ name: Pythium irregulare exposure
 alt_id: EO:0007179
 def: "The treatment involving exposure of plant to the Pythium irregulare. It is a causal agent for rice feeder root necrosis disease." [Gramene:pankaj_jaiswal, NCBITaxon:36331]
 synonym: "Pythium irregulare treatment (narrow)" NARROW []
-is_a: PECO:0007328 ! Pythium spp. exposure
+is_a: PECO:0007328 ! Pythium sp. exposure
 
 [Term]
 id: PECO:0007180
@@ -2370,7 +2378,7 @@ name: Pythium graminicola exposure
 alt_id: EO:0007182
 def: "The treatment involving exposure of plant to the Pythium graminicola. It is a causal agent for rice feeder root necrosis disease." [Gramene:pankaj_jaiswal, NCBITaxon:82937]
 synonym: "Pythium graminicola treatment (narrow)" NARROW []
-is_a: PECO:0007328 ! Pythium spp. exposure
+is_a: PECO:0007328 ! Pythium sp. exposure
 
 [Term]
 id: PECO:0007183
@@ -2388,7 +2396,7 @@ name: Pythium dissotocum exposure
 alt_id: EO:0007184
 def: "The treatment involving exposure of plant to the Pythium dissotocum. It is a causal agent for rice seedling blight (fungal) or water mold dieases. Water mold diease is also called as seed rot or seedling damping-off disease." [Gramene:pankaj_jaiswal, NCBITaxon:82936]
 synonym: "Pythium dissotocum treatment (narrow)" NARROW []
-is_a: PECO:0007328 ! Pythium spp. exposure
+is_a: PECO:0007328 ! Pythium sp. exposure
 
 [Term]
 id: PECO:0007185
@@ -2407,7 +2415,7 @@ name: Pythium catenulatum exposure
 alt_id: EO:0007186
 def: "The treatment involving exposure of plant to the Pythium catenulatum. It is a causal agent for rice feeder root necrosis disease." [Gramene:pankaj_jaiswal, NCBITaxon:83917]
 synonym: "Pythium catenulatum treatment (narrow)" NARROW []
-is_a: PECO:0007328 ! Pythium spp. exposure
+is_a: PECO:0007328 ! Pythium sp. exposure
 
 [Term]
 id: PECO:0007187
@@ -2425,7 +2433,7 @@ name: Pythium arrhenomanes exposure
 alt_id: EO:0007188
 def: "The treatment involving exposure of plant to the Pythium arrhenomanes. It is a causal agent for rice feeder root necrosis disease." [Gramene:pankaj_jaiswal, NCBITaxon:83932]
 synonym: "Pythium arrhenomanes treatment (narrow)" NARROW []
-is_a: PECO:0007328 ! Pythium spp. exposure
+is_a: PECO:0007328 ! Pythium sp. exposure
 
 [Term]
 id: PECO:0007189
@@ -2477,7 +2485,7 @@ alt_id: EO:0007194
 def: "The treatment involving exposure of plant to the pathogen Sclerophthora macrospora. It is a causal agent for rice Downy Mildew disease." [Gramene:ivy]
 synonym: "Sclerophthora macrospora (related)" RELATED []
 synonym: "Sclerospora macrospora treatment (narrow)" NARROW []
-is_a: PECO:0007630 ! Sclerospora spp. exposure
+is_a: PECO:0007630 ! Sclerospora sp. exposure
 
 [Term]
 id: PECO:0007195
@@ -3637,11 +3645,11 @@ is_a: PECO:0007107 ! Ascomycota exposure
 
 [Term]
 id: PECO:0007328
-name: Pythium spp. exposure
+name: Pythium sp. exposure
 alt_id: EO:0007328
-def: "The treatment involving exposure of plant to the heterokont Pythium." [Gramene:pankaj_jaiswal, NCBITaxon:4797]
-synonym: "Pythium spp. treatment (narrow)" NARROW []
-is_a: PECO:0007106 ! Stramenopiles exposure
+def: "An Oomycota exposure (PECO:0001074) involving the exposure of a plant structure (PO:0009011) to a Pythium sp. organism." [Gramene:pankaj_jaiswal, NCBITaxon:4797, PECO:cooperl]
+synonym: "Pythium sp. treatment (narrow)" NARROW []
+is_a: PECO:0001075 ! Oomycota exposure
 
 [Term]
 id: PECO:0007329
@@ -3761,7 +3769,7 @@ name: Achlya conspicua exposure
 alt_id: EO:0007340
 def: "The treatment involving exposure of plant to the heterokont Achlya conspicua. It is a causal agent for rice water mold diease which is also called as seed rot or seedling damping-off disease." [Gramene:pankaj_jaiswal, NCBITaxon:112027]
 synonym: "Achlya conspicua treatment (narrow)" NARROW []
-is_a: PECO:0007136 ! Achlya spp. exposure
+is_a: PECO:0007136 ! Achlya sp. exposure
 
 [Term]
 id: PECO:0007341
@@ -3779,7 +3787,7 @@ name: Achlya klebsiana exposure
 alt_id: EO:0007342
 def: "The treatment involving exposure of plant to the heterokont Achlya klebsiana. It is a causal agent for rice water mold diease which is also called as seed rot or seedling damping-off disease." [Gramene:pankaj_jaiswal, NCBITaxon:4767]
 synonym: "Achlya klebsiana treatment (narrow)" NARROW []
-is_a: PECO:0007136 ! Achlya spp. exposure
+is_a: PECO:0007136 ! Achlya sp. exposure
 
 [Term]
 id: PECO:0007343
@@ -5193,19 +5201,21 @@ is_a: PECO:0007043 ! non-mineral nutrient exposure
 
 [Term]
 id: PECO:0007630
-name: Sclerospora spp. exposure
+name: Sclerospora sp. exposure
 alt_id: EO:0007630
-def: "The treatment involving exposure of plant to the pathogenic Sclerospora sp." [Gramene:pankaj_jaiswal]
-synonym: "Sclerospora spp. treatment (narrow)" NARROW []
-is_a: PECO:0007106 ! Stramenopiles exposure
+def: "An Oomycota exposure (PECO:0001074) involving the exposure of a plant structure (PO:0009011) to a Sclerospora sp. organism." [Gramene:pankaj_jaiswal, NCBITaxon:162129, PECO:cooperl]
+synonym: "downy mildews (exact)" EXACT []
+synonym: "Sclerospora sp. treatment (narrow)" NARROW []
+is_a: PECO:0001075 ! Oomycota exposure
 
 [Term]
 id: PECO:0007631
 name: Sclerospora graminicola exposure
 alt_id: EO:0007631
-def: "The treatment involving exposure of plant to the pathogen Sclerophthora graminicola. It is a causal agent for downy mildew disease." [Gramene:pankaj_jaiswal, NCBITaxon:162130]
+def: "A Sclerospora sp. exposure (PECO:0001074) involving the exposure of a plant structure (PO:0009011) to Sclerospora graminicola." [Gramene:pankaj_jaiswal, NCBITaxon:162130, PECO:cooperl]
+comment: Sclerospora graminicola is a causal agent for downy mildew disease.
 synonym: "Sclerospora graminicola treatment (narrow)" NARROW []
-is_a: PECO:0007630 ! Sclerospora spp. exposure
+is_a: PECO:0007630 ! Sclerospora sp. exposure
 
 [Term]
 id: PECO:0007632

@@ -3655,7 +3655,7 @@ is_a: PECO:0001075 ! Oomycota exposure
 id: PECO:0007329
 name: Spodoptera praefica exposure
 alt_id: EO:0007329
-def: "The treatment involving exposure of plant to the pest commonly called as western yellowstriped armyworm." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to the pest commonly called western yellowstriped armyworm." [Gramene:pankaj_jaiswal]
 synonym: "Spodoptera praefica treatment (narrow)" NARROW []
 synonym: "western yellowstriped armyworm (related)" RELATED []
 is_a: PECO:0007115 ! Spodoptera spp. exposure
@@ -3664,7 +3664,7 @@ is_a: PECO:0007115 ! Spodoptera spp. exposure
 id: PECO:0007330
 name: Spodoptera mauritia exposure
 alt_id: EO:0007330
-def: "The treatment involving exposure of plant to the pest commonly calles as lawn armyworm." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to the pest commonly called lawn armyworm." [Gramene:pankaj_jaiswal]
 synonym: "lawn armyworm (related)" RELATED []
 synonym: "Prodenia acronyctoides (related)" RELATED []
 synonym: "Spodoptera mauritia treatment (narrow)" NARROW []
@@ -5241,7 +5241,7 @@ is_a: PECO:0007183 ! herbicide exposure
 id: PECO:0007634
 name: Spodoptera litura exposure
 alt_id: EO:0007634
-def: "The treatment involving exposure of plant to the pest commonly calles as cutworm." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to the pest commonly called cutworm." [Gramene:pankaj_jaiswal]
 synonym: "Spodoptera litura treatment (narrow)" NARROW []
 is_a: PECO:0007115 ! Spodoptera spp. exposure
 

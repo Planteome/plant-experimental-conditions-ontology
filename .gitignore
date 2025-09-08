@@ -32,3 +32,5 @@ src/ontology/mirror/ro.obo
 src/ontology/mirror/ro.owl
 
 src/ontology/dosdp-tools.log
+src/.DS_Store
+.DS_Store

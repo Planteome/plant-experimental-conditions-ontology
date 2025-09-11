@@ -1982,7 +1982,7 @@ id: PECO:0007134
 name: acidic pH growth media environment exposure
 alt_id: EO:0007134
 alt_id: EO:0007170
-def: "The treatment involving an exposure to acidic pH levels of the growth media." [Gramene:pankaj_jaiswal]
+def: "The treatment involving an exposure to acidic pH levels of the growth media." [CHEBI:37527, Gramene:pankaj_jaiswal]
 synonym: "acidic pH environment (related)" RELATED []
 synonym: "acidic pH growth media environment treatment (narrow)" NARROW []
 is_a: PECO:0007171 ! pH exposure
@@ -2742,7 +2742,7 @@ is_a: PECO:0007152 ! radiation intensity exposure
 id: PECO:0007225
 name: fluorine nutrient exposure
 alt_id: EO:0007225
-def: "The treatment involving exposure of plant to fluorine as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to fluorine as supplement to study various types of responses." [CHEBI:24061, Gramene:pankaj_jaiswal]
 synonym: "fluorine nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007047 ! other nutrient exposure
 
@@ -2770,7 +2770,7 @@ is_a: PECO:0007055 ! Cochliobolus spp. exposure
 id: PECO:0007228
 name: chromium nutrient exposure
 alt_id: EO:0007228
-def: "The treatment involving exposure of plant to chromium as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to chromium as supplement to study various types of responses." [CHEBI:28073, Gramene:pankaj_jaiswal]
 synonym: "chromium nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007047 ! other nutrient exposure
 
@@ -2790,7 +2790,7 @@ is_a: PECO:0007118 ! Gibberella spp. exposure
 id: PECO:0007230
 name: iodine nutrient exposure
 alt_id: EO:0007230
-def: "The treatment involving exposure of plant to iodine as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to iodine as supplement to study various types of responses." [CHEBI:24859, Gramene:pankaj_jaiswal]
 synonym: "iodine nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007047 ! other nutrient exposure
 
@@ -2806,7 +2806,7 @@ is_a: PECO:0007359 ! plant experimental condition
 id: PECO:0007232
 name: selenium nutrient exposure
 alt_id: EO:0007232
-def: "The treatment involving exposure of plant to selenium as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to selenium as supplement to study various types of responses." [CHEBI:27568, Gramene:pankaj_jaiswal]
 synonym: "selenium nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007047 ! other nutrient exposure
 
@@ -2832,7 +2832,7 @@ is_a: PECO:0007144 ! Pseudomonas plant exposure
 id: PECO:0007235
 name: silicon nutrient exposure
 alt_id: EO:0007235
-def: "The treatment involving exposure of plant to silicon as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to silicon as supplement to study various types of responses." [CHEBI:27573, Gramene:pankaj_jaiswal]
 synonym: "silicon nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007047 ! other nutrient exposure
 
@@ -2892,7 +2892,7 @@ is_a: PECO:0007189 ! chemical exposure
 id: PECO:0007242
 name: iron nutrient exposure
 alt_id: EO:0007242
-def: "The treatment involving exposure of plant to micronutrient iron as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to micronutrient iron as supplement to study various types of responses." [CHEBI:18248, Gramene:pankaj_jaiswal]
 synonym: "iron nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007239 ! micronutrient exposure
 
@@ -2909,7 +2909,7 @@ is_a: PECO:0007144 ! Pseudomonas plant exposure
 id: PECO:0007244
 name: chlorine nutrient exposure
 alt_id: EO:0007244
-def: "The treatment involving exposure of plant to micronutrient chlorine as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to micronutrient chlorine as supplement to study various types of responses." [CHEBI:23116, Gramene:pankaj_jaiswal]
 synonym: "chlorine nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007239 ! micronutrient exposure
 
@@ -2986,7 +2986,7 @@ is_a: PECO:0007116 ! Hemiptera insect plant exposure
 id: PECO:0007253
 name: molybdenum nutrient exposure
 alt_id: EO:0007253
-def: "The treatment involving exposure of plant to micronutrient molybdenum as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to micronutrient molybdenum as supplement to study various types of responses." [CHEBI:28685, Gramene:pankaj_jaiswal]
 synonym: "molybdenum nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007239 ! micronutrient exposure
 
@@ -3055,7 +3055,7 @@ is_a: PECO:0007119 ! Dipteran insect plant exposure
 id: PECO:0007261
 name: copper nutrient exposure
 alt_id: EO:0007261
-def: "The treatment involving exposure of plant to micronutrient copper as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to micronutrient copper as supplement to study various types of responses." [CHEBI:28694, Gramene:pankaj_jaiswal]
 synonym: "copper nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007239 ! micronutrient exposure
 
@@ -3166,7 +3166,7 @@ is_a: PECO:0007142 ! Scirpophaga spp. exposure
 id: PECO:0007273
 name: boron nutrient exposure
 alt_id: EO:0007273
-def: "The treatment involving exposure of plant to micronutrient boron as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to micronutrient boron as supplement to study various types of responses." [CHEBI:27560, Gramene:pankaj_jaiswal]
 synonym: "boron nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007239 ! micronutrient exposure
 
@@ -3193,7 +3193,7 @@ is_a: PECO:0007114 ! Lepidoptera exposure
 id: PECO:0007276
 name: cobalt nutrient exposure
 alt_id: EO:0007276
-def: "The treatment involving exposure of plant to cobalt as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to cobalt as supplement to study various types of responses." [CHEBI:27638, Gramene:pankaj_jaiswal]
 synonym: "cobalt nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007047 ! other nutrient exposure
 
@@ -3260,7 +3260,7 @@ is_a: PECO:0007121 ! Thysanoptera exposure
 id: PECO:0007284
 name: nitrogen macronutrient exposure
 alt_id: EO:0007284
-def: "A primary plant macronutrient exposure (PECO:0007045) involving the application of nitrogen." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "A primary plant macronutrient exposure (PECO:0007045) involving the application of nitrogen." [CHEBI:25555, Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "nitrogen macronutrient treatment (narrow)" NARROW []
 xref: PECO_GIT:3
 is_a: PECO:0007045 ! primary plant macronutrient exposure
@@ -3300,7 +3300,7 @@ is_a: PECO:0007183 ! herbicide exposure
 id: PECO:0007288
 name: magnesium nutrient exposure
 alt_id: EO:0007288
-def: "The treatment involving exposure of plant to macronutrient magnesium as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to macronutrient magnesium as supplement to study various types of responses." [CHEBI:25107, Gramene:pankaj_jaiswal]
 synonym: "magnesium nutrient treatment (narrow)" NARROW []
 xref: PECO_GIT:17
 is_a: PECO:0007046 ! secondary macronutrient exposure
@@ -3355,7 +3355,7 @@ is_a: PECO:0007183 ! herbicide exposure
 id: PECO:0007293
 name: potassium nutrient exposure
 alt_id: EO:0007293
-def: "The treatment involving exposure of plant to macronutrient potassium as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to macronutrient potassium as supplement to study various types of responses." [CHEBI:26216, Gramene:pankaj_jaiswal]
 synonym: "potassium nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007045 ! primary plant macronutrient exposure
 
@@ -3374,7 +3374,7 @@ is_a: PECO:0007114 ! Lepidoptera exposure
 id: PECO:0007295
 name: sulfur nutrient exposure
 alt_id: EO:0007295
-def: "The treatment involving exposure of plant to macronutrient sulfur as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to macronutrient sulfur as supplement to study various types of responses." [CHEBI:26833, Gramene:pankaj_jaiswal]
 synonym: "sulfur nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007046 ! secondary macronutrient exposure
 
@@ -3391,7 +3391,7 @@ is_a: PECO:0007120 ! Coleoptera exposure
 id: PECO:0007297
 name: calcium nutrient exposure
 alt_id: EO:0007297
-def: "The treatment involving exposure of plant to macronutrient calcium as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to macronutrient calcium as supplement to study various types of responses." [CHEBI:22984, Gramene:pankaj_jaiswal]
 synonym: "calcium nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007046 ! secondary macronutrient exposure
 
@@ -3429,6 +3429,7 @@ name: carbon nutrient exposure
 alt_id: EO:0007303
 def: "The treatment involving exposure of plant to carbon source as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "carbon nutrient treatment (narrow)" NARROW []
+xref: CHEBI:27594
 is_a: PECO:0007043 ! non-mineral nutrient exposure
 
 [Term]
@@ -3444,7 +3445,7 @@ is_a: PECO:0007114 ! Lepidoptera exposure
 id: PECO:0007305
 name: Cnaphalocrocis medinalis exposure
 alt_id: EO:0007305
-def: "The treatment involving exposure of plant to the pest Cnaphalocrocis medinalis." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to the pest Cnaphalocrocis medinalis." [Gramene:pankaj_jaiswal, NCBITaxon:437488]
 synonym: "Cnaphalocrocis medinalis treatment (narrow)" NARROW []
 synonym: "defloiator (related)" RELATED []
 synonym: "leaffolder (related)" RELATED []
@@ -3455,7 +3456,7 @@ is_a: PECO:0007114 ! Lepidoptera exposure
 id: PECO:0007306
 name: aluminum nutrient exposure
 alt_id: EO:0007306
-def: "The treatment involving exposure of plant to aluminium as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to aluminium as supplement to study various types of responses." [CHEBI:28984, Gramene:pankaj_jaiswal]
 synonym: "aluminum nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007047 ! other nutrient exposure
 
@@ -3481,7 +3482,7 @@ is_a: PECO:0007116 ! Hemiptera insect plant exposure
 id: PECO:0007309
 name: zinc nutrient exposure
 alt_id: EO:0007309
-def: "The treatment involving exposure of plant to micronutrient zinc as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to micronutrient zinc as supplement to study various types of responses." [CHEBI:27363, Gramene:pankaj_jaiswal]
 synonym: "zinc nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007239 ! micronutrient exposure
 
@@ -4190,7 +4191,7 @@ is_a: PECO:0007107 ! Ascomycota exposure
 id: PECO:0007387
 name: manganese nutrient exposure
 alt_id: EO:0007387
-def: "The treatment involving exposure of plant to micronutrient manganese as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to micronutrient manganese as supplement to study various types of responses." [CHEBI:18291, Gramene:pankaj_jaiswal]
 synonym: "manganese nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007239 ! micronutrient exposure
 
@@ -4266,7 +4267,7 @@ is_a: PECO:0007064 ! ecological environment exposure
 id: PECO:0007397
 name: phosphorus nutrient exposure
 alt_id: EO:0007397
-def: "The treatment involving exposure of plant to macronutrient phosphorus as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to macronutrient phosphorus as supplement to study various types of responses." [CHEBI:28659, Gramene:pankaj_jaiswal]
 synonym: "phosphorus nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007045 ! primary plant macronutrient exposure
 

@@ -2082,7 +2082,7 @@ is_a: PECO:0007246 ! bacterial plant exposure
 id: PECO:0007146
 name: gravity exposure
 alt_id: EO:0007146
-def: "The treatment involving use of gravity factor to study various types of responses in presence, absence or modified levels of gravity." [Gramene:pankaj_jaiswal]
+def: "A physical plant exposure (PECO:0007316) involving a treatment or exposure of a plant structure (PO:0009011) to different levels of gravity." [Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "gravity treatment (narrow)" NARROW []
 is_a: PECO:0007316 ! physical plant exposure
 
@@ -2124,7 +2124,7 @@ is_obsolete: true
 id: PECO:0007151
 name: radiation exposure
 alt_id: EO:0007151
-def: "A physical plant exposure (PECO:0007316) involving an exposure with a radiation type, intensity or quantity." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "A physical plant exposure (PECO:0007316) involvinga treatment or exposure of a plant structure (PO:0009011) with a radiation type, intensity or quantity." [Gramene:pankaj_jaiswal, PECO:cooperl]
 comment: Electromagnetic radiation is classified according to the frequency of its waves. The electromagnetic spectrum, in order of increasing frequency and decreasing wavelength, consists of radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays and gamma rays.
 synonym: "light regimen (related)" RELATED []
 synonym: "radiation treatment (narrow)" NARROW []
@@ -2167,6 +2167,7 @@ is_a: PECO:0007049 ! soil environment exposure
 id: PECO:0007156
 name: clay soil exposure
 alt_id: EO:0007156
+def: "A soil type exposure (PECO:0007155) involving a treatment or exposure of a plant structure (PO:0009011) to clay soil." [ENVO:00002262, PECO:cooperl]
 synonym: "clay soil treatment (narrow)" NARROW []
 is_a: PECO:0007155 ! soil type exposure
 
@@ -2174,6 +2175,7 @@ is_a: PECO:0007155 ! soil type exposure
 id: PECO:0007157
 name: loam soil exposure
 alt_id: EO:0007157
+def: "A soil type exposure (PECO:0007155) involving a treatment or exposure of a plant structure (PO:0009011) to loam soil." [ENVO:00002258, PECO:cooperl]
 synonym: "loam soil treatment (narrow)" NARROW []
 is_a: PECO:0007155 ! soil type exposure
 
@@ -2181,6 +2183,7 @@ is_a: PECO:0007155 ! soil type exposure
 id: PECO:0007158
 name: sandy soil exposure
 alt_id: EO:0007158
+def: "A soil type exposure (PECO:0007155) involving a treatment or exposure of a plant structure (PO:0009011) to sandy soil." [ENVO:00002229, PECO:cooperl]
 synonym: "sandy soil treatment (narrow)" NARROW []
 is_a: PECO:0007155 ! soil type exposure
 
@@ -2188,6 +2191,7 @@ is_a: PECO:0007155 ! soil type exposure
 id: PECO:0007159
 name: sandy loam soil exposure
 alt_id: EO:0007159
+def: "A soil type exposure (PECO:0007155) involving a treatment or exposure of a plant structure (PO:0009011) to sandy loam soil." [ENVO:06105274, PECO:cooperl]
 synonym: "sandy loam soil treatment (narrow)" NARROW []
 is_a: PECO:0007155 ! soil type exposure
 
@@ -2307,7 +2311,7 @@ is_a: PECO:0007175 ! temperature environment exposure
 id: PECO:0007175
 name: temperature environment exposure
 alt_id: EO:0007175
-def: "A physical plant exposure (PECO:0007316) involving an exposure to varying degree of temperature, which may depend on regional environment." [Gramene:pankaj_jaiswal]
+def: "A physical plant exposure (PECO:0007316) involving a treatment or exposure of a plant structure (PO:0009011) to variations in temperature." [Gramene:pankaj_jaiswal]
 synonym: "temperature environment treatment (narrow)" NARROW []
 is_a: PECO:0007316 ! physical plant exposure
 
@@ -4067,6 +4071,7 @@ is_a: PECO:0007127 ! Meloidogyne spp. exposure
 id: PECO:0007373
 name: mechanical damage exposure
 alt_id: EO:0007373
+def: "A physical plant exposure (PECO:0007316) involving a treatment or exposure of a plant structure (PO:0009011) to mechanical damage." [PECO:cooperl]
 synonym: "mechanical damage treatment (narrow)" NARROW []
 synonym: "wound (related)" RELATED []
 synonym: "wound treatment (related)" RELATED []
@@ -4325,7 +4330,7 @@ is_a: PECO:0001001 ! plant exposure
 
 [Term]
 id: PECO:0007404
-name: drought environment exposure
+name: drought exposure
 alt_id: EO:0007404
 synonym: "drought environment treatment (narrow)" NARROW []
 is_a: PECO:0007198 ! water environment exposure
@@ -4343,6 +4348,7 @@ is_a: PECO:0007067 ! hydroponic plant culture media exposure
 id: PECO:0007406
 name: nitrate exposure
 alt_id: EO:0007406
+def: "A nitrogen fertilizer exposure (PECO:0007102) involving a treatment or exposure of a plant structure (PO:0009011) to nitrate." [PECO:cooperl]
 synonym: "nitrate treatment (narrow)" NARROW []
 is_a: PECO:0007102 ! nitrogen fertilizer exposure
 

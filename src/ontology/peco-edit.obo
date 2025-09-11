@@ -5073,82 +5073,92 @@ is_a: PECO:0007149 ! chemical mutagen exposure
 
 [Term]
 id: PECO:0007610
-name: 3-H exposure
+name: OBSOLETE 3-H exposure
 alt_id: EO:0007610
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "3-H treatment (narrow)" NARROW []
 synonym: "tritium (related)" RELATED []
-is_a: PECO:0007154 ! radiation quality exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007611
-name: 3-H-deoxycytidine exposure
+name: OBSOLETE 3-H-deoxycytidine exposure
 alt_id: EO:0007611
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "3-H-deoxycytidine treatment (narrow)" NARROW []
-is_a: PECO:0007154 ! radiation quality exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007612
-name: 3-H-thymidine exposure
+name: OBSOLETE 3-H-thymidine exposure
 alt_id: EO:0007612
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "3-H-thymidine treatment (narrow)" NARROW []
-is_a: PECO:0007154 ! radiation quality exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007613
-name: 32-P exposure
+name: OBSOLETE 32-P exposure
 alt_id: EO:0007613
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "32-P treatment (narrow)" NARROW []
-is_a: PECO:0007154 ! radiation quality exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007614
-name: agr ray exposure
+name: OBSOLETE agr ray exposure
 alt_id: EO:0007614
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "agr ray treatment (narrow)" NARROW []
-is_a: PECO:0007154 ! radiation quality exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007615
-name: Bevatron irradiation exposure
+name: OBSOLETE Bevatron irradiation exposure
 alt_id: EO:0007615
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "Bevatron irradiation treatment (narrow)" NARROW []
-is_a: PECO:0007154 ! radiation quality exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007616
-name: deuteron irradiation exposure
+name: OBSOLETE deuteron irradiation exposure
 alt_id: EO:0007616
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "deuteron irradiation treatment (narrow)" NARROW []
-is_a: PECO:0007154 ! radiation quality exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007617
-name: ggr ray exposure
+name: OBSOLETE ggr ray exposure
 alt_id: EO:0007617
+def: "OBSOLETE" []
 synonym: "ggr ray treatment (narrow)" NARROW []
-is_a: PECO:0007154 ! radiation quality exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007618
-name: 137-Cs or ggr ray exposure
+name: OBSOLETE 137-Cs or ggr ray exposure
 alt_id: EO:0007618
+def: "OBSOLETE" []
 synonym: "137-Cs or ggr ray treatment (narrow)" NARROW []
-is_a: PECO:0007617 ! ggr ray exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007619
-name: 226-Ra or agr ray exposure
+name: OBSOLETE 226-Ra or agr ray exposure
 alt_id: EO:0007619
+def: "OBSOLETE" []
 synonym: "226-Ra or agr ray treatment (narrow)" NARROW []
 synonym: "radium (related)" RELATED []
-is_a: PECO:0007617 ! ggr ray exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007620
-name: 60-Co or ggr ray exposure
+name: OBSOLETE 60-Co or ggr ray exposure
 alt_id: EO:0007620
 synonym: "60-Co or ggr ray treatment (narrow)" NARROW []
-is_a: PECO:0007617 ! ggr ray exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007621

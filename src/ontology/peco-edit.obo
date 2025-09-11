@@ -2350,15 +2350,15 @@ alt_id: EO:0007180
 def: "An auxin exposure (PECO:0007074) involving use of 2,4-D growth hormone and herbicide." [CAS:94-75-7, Gramene:pankaj_jaiswal]
 synonym: "2,4-D regimen (related)" RELATED []
 synonym: "2,4-dichlorophenoxyacetic acid treatment (narrow)" NARROW []
-synonym: "Amidox (related)" RELATED [CAS:94-75-7]
-synonym: "B-Selektonon (related)" RELATED [CAS:94-75-7]
-synonym: "Crotilin (related)" RELATED [CAS:94-75-7]
-synonym: "Decamine (related)" RELATED [CAS:94-75-7]
-synonym: "Dicopur (related)" RELATED [CAS:94-75-7]
-synonym: "U-5043 (related)" RELATED [CAS:94-75-7]
-synonym: "Weed Tox (related)" RELATED [CAS:94-75-7]
-synonym: "Weedar 64A (related)" RELATED [CAS:94-75-7]
-synonym: "Weedone-2,4-DP (related)" RELATED [CAS:94-75-7]
+synonym: "Amidox (related)" RELATED []
+synonym: "B-Selektonon (related)" RELATED []
+synonym: "Crotilin (related)" RELATED []
+synonym: "Decamine (related)" RELATED []
+synonym: "Dicopur (related)" RELATED []
+synonym: "U-5043 (related)" RELATED []
+synonym: "Weed Tox (related)" RELATED []
+synonym: "Weedar 64A (related)" RELATED []
+synonym: "Weedone-2,4-DP (related)" RELATED []
 xref: PECO_GIT:71
 is_a: PECO:0007074 ! auxin exposure
 is_a: PECO:0007183 ! herbicide exposure
@@ -2568,7 +2568,7 @@ is_a: PECO:0007196 ! light exposure
 id: PECO:0007204
 name: 1-naphthaleneacetic acid exposure
 alt_id: EO:0007204
-def: "An auxin exposure (PECO:0007074) involving use of 1-naphthaleneacetic acid growth hormone and herbicide." [CAS:68-87-3, Gramene:pankaj_jaiswal]
+def: "An auxin exposure (PECO:0007074) involving use of 1-naphthaleneacetic acid growth hormone and herbicide." [CAS:86-87-3, Gramene:pankaj_jaiswal]
 synonym: "1-naphthaleneacetic acid treatment (narrow)" NARROW []
 synonym: "NAA (related)" RELATED []
 synonym: "Naphthylacetic acid (related)" RELATED []

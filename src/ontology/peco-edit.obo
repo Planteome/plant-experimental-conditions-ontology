@@ -861,10 +861,11 @@ is_a: PECO:0007064 ! ecological environment exposure
 
 [Term]
 id: PECO:0007004
-name: loam content exposure
+name: OBSOLETE loam content exposure
 alt_id: EO:0007004
+def: "OBSOLETE" []
 synonym: "loam content treatment (narrow)" NARROW []
-is_a: PECO:0007050 ! soil texture exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007005
@@ -1265,7 +1266,7 @@ name: organic matter content exposure
 alt_id: EO:0007052
 def: "An exposure involving growing plants in a growth media containing organic matter." [PECO:cooperl]
 synonym: "organic matter content treatment (narrow)" NARROW []
-is_a: PECO:0007050 ! soil texture exposure
+is_a: PECO:0007049 ! soil environment exposure
 
 [Term]
 id: PECO:0007053
@@ -1307,7 +1308,7 @@ is_obsolete: true
 
 [Term]
 id: PECO:0007058
-name: soil pH environment exposure
+name: soil pH exposure
 alt_id: EO:0007058
 def: "An exposure involving growing plants in soil growth media of varying pH levels." [Gramene:pankaj_jaiswal]
 synonym: "soil pH environment treatment (narrow)" NARROW []
@@ -1315,11 +1316,11 @@ is_a: PECO:0007049 ! soil environment exposure
 
 [Term]
 id: PECO:0007059
-name: acidic pH soil environment exposure
+name: acidic pH soil exposure
 alt_id: EO:0007059
 def: "An exposure involving growing plants in acidic (low pH) soil growth media." [Gramene:pankaj_jaiswal]
 synonym: "acidic pH soil environment treatment (narrow)" NARROW []
-is_a: PECO:0007058 ! soil pH environment exposure
+is_a: PECO:0007058 ! soil pH exposure
 is_a: PECO:0007134 ! acidic pH growth media environment exposure
 
 [Term]
@@ -1345,11 +1346,11 @@ is_a: PECO:0007064 ! ecological environment exposure
 
 [Term]
 id: PECO:0007062
-name: basic pH soil environment exposure
+name: basic pH soil exposure
 alt_id: EO:0007062
 def: "An exposure involving growing plants in basic (high pH) soil growth media." [Gramene:pankaj_jaiswal]
 synonym: "basic pH soil environment treatment (narrow)" NARROW []
-is_a: PECO:0007058 ! soil pH environment exposure
+is_a: PECO:0007058 ! soil pH exposure
 is_a: PECO:0007133 ! basic pH growth media environment exposure
 
 [Term]

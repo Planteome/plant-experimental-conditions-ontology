@@ -839,17 +839,19 @@ creation_date: 2024-02-01T20:31:08Z
 id: PECO:0007001
 name: UV-B light exposure
 alt_id: EO:0007001
-def: "The exposure using UV-B light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 315-280nm." [Gramene:pankaj_jaiswal]
+def: "An ultravoilet light (PECO:0007222) exposure involving light in the wavelength range of 280-315nm." [Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "UV-B light treatment (narrow)" NARROW []
-is_a: PECO:0007222 ! UV light exposure
+synonym: "UVB exposure (exact)" EXACT []
+is_a: PECO:0007222 ! ultravoilet light exposure
 
 [Term]
 id: PECO:0007002
 name: UV-A light exposure
 alt_id: EO:0007002
-def: "The exposure using UV-A light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 380-315nm." [Gramene:pankaj_jaiswal]
-synonym: "UV-A light treatment (narrow)" NARROW []
-is_a: PECO:0007222 ! UV light exposure
+def: "An ultravoilet light (PECO:0007222) exposure involving light in the wavelength range of 315-400nm." [Gramene:pankaj_jaiswal, PECO:cooperl]
+synonym: "UV-A light treatment (exact)" EXACT []
+synonym: "UVA exposure (exact)" EXACT []
+is_a: PECO:0007222 ! ultravoilet light exposure
 
 [Term]
 id: PECO:0007003
@@ -863,7 +865,7 @@ is_a: PECO:0007064 ! ecological environment exposure
 id: PECO:0007004
 name: OBSOLETE loam content exposure
 alt_id: EO:0007004
-def: "OBSOLETE" []
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "loam content treatment (narrow)" NARROW []
 is_obsolete: true
 
@@ -1939,34 +1941,34 @@ is_a: PECO:0007078 ! light quantity exposure
 id: PECO:0007129
 name: UV-C light exposure
 alt_id: EO:0007129
-def: "The treatment using UV-C light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 280-10nm." [Gramene:pankaj_jaiswal]
+def: "An ultravoilet light (PECO:0007222) exposure involving light in the wavelength range of 100-280nm." [Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "UV-C light treatment (narrow)" NARROW []
-is_a: PECO:0007222 ! UV light exposure
+synonym: "UVC exposure (exact)" EXACT []
 
 [Term]
 id: PECO:0007130
-name: near infra-red light exposure
+name: near infrared light exposure
 alt_id: EO:0007130
-def: "The treatment using infra-red light either exclusively or as part of a supplemental light of near IR band that contains energy in the range of wavelengths 750-1300nm, which is closest to the visible light." [Gramene:pankaj_jaiswal]
+def: "The treatment using infrared light that contains energy in the range of wavelengths 750-1300nm, which is closest to visible light." [Gramene:pankaj_jaiswal]
 synonym: "near infra-red light treatment (narrow)" NARROW []
 synonym: "near IR light regimen (related)" RELATED []
-is_a: PECO:0007202 ! IR light exposure
+is_a: PECO:0007202 ! infrared light exposure
 
 [Term]
 id: PECO:0007131
-name: middle infra-red light exposure
+name: middle infrared light exposure
 alt_id: EO:0007131
-def: "The treatment using middle infra-red light either exclusively or as part of a supplemental light treatment involving middle IR band that contains energy in the range of wavelengths 1300-3000nm." [Gramene:pankaj_jaiswal]
+def: "The treatment using middle infrared light involving middle light that contains energy in the range of wavelengths 1300-3000nm." [Gramene:pankaj_jaiswal]
 synonym: "middle infra-red light treatment (narrow)" NARROW []
-is_a: PECO:0007202 ! IR light exposure
+is_a: PECO:0007202 ! infrared light exposure
 
 [Term]
 id: PECO:0007132
-name: far infra-red light exposure
+name: far infrared light exposure
 alt_id: EO:0007132
-def: "The treatment using far infra-red light either exclusively or as part of a supplemental light treatment involving far IR band that contains energy in the range of wavelengths 3000-14000nm." [Gramene:pankaj_jaiswal]
-synonym: "far infra-red light treatment (narrow)" NARROW []
-is_a: PECO:0007202 ! IR light exposure
+def: "The treatment using far infrared light involving light that contains energy in the range of wavelengths 3000-14000nm." [Gramene:pankaj_jaiswal, PECO:cooperl]
+synonym: "far infrared light treatment (narrow)" NARROW []
+is_a: PECO:0007202 ! infrared light exposure
 
 [Term]
 id: PECO:0007133
@@ -2554,9 +2556,9 @@ is_a: PECO:0007128 ! intermittent light exposure
 
 [Term]
 id: PECO:0007202
-name: IR light exposure
+name: infrared light exposure
 alt_id: EO:0007202
-def: "The treatment using infra red (IR) light either exclusively or as part of a supplemental light treatment involving IR light in the wavelength range of 700nm-1mm." [Gramene:pankaj_jaiswal]
+def: "The treatment using infrared (IR) light in the wavelength range of 700nm-1mm." [Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "IR light treatment (narrow)" NARROW []
 is_a: PECO:0007196 ! light exposure
 
@@ -2712,16 +2714,17 @@ id: PECO:0007221
 name: visible light exposure
 alt_id: EO:0007221
 def: "The treatment using visible light in the wavelength range of 380-780 nM." [Gramene:pankaj_jaiswal]
-comment: Visible light  is the portion of the electromagnetic spectrum that is visible to the human eye. The optical spectrum is a composite, or mixture, of the various colors.
+comment: Visible light is the portion of the electromagnetic spectrum that is visible to the human eye. The optical spectrum is a composite, or mixture, of the various colors.
 synonym: "visible light treatment (narrow)" NARROW []
 is_a: PECO:0007196 ! light exposure
 
 [Term]
 id: PECO:0007222
-name: UV light exposure
+name: ultravoilet light exposure
 alt_id: EO:0007222
-def: "The treatment using UV-B light either exclusively or as part of a supplemental light involving electromagnetic radiation in the wavelength range of 315-10nm." [Gramene:pankaj_jaiswal]
-synonym: "UV light treatment (narrow)" NARROW []
+def: "The treatment using UV light involving electromagnetic radiation in the wavelength range of 100-400nm." [Gramene:pankaj_jaiswal, PECO:cooperl]
+synonym: "ultravoilet light treatment (exact)" EXACT []
+synonym: "UV light exposure (exact)" EXACT []
 is_a: PECO:0007196 ! light exposure
 
 [Term]

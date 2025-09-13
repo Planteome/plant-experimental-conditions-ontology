@@ -5166,44 +5166,51 @@ is_obsolete: true
 
 [Term]
 id: PECO:0007621
-name: magnetic field exposure
+name: OBSOLETE magnetic field exposure
 alt_id: EO:0007621
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "magnetic field treatment (narrow)" NARROW []
-is_a: PECO:0007154 ! radiation quality exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007622
-name: neutrons exposure
+name: OBSOLETE neutrons exposure
 alt_id: EO:0007622
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "neutrons treatment (narrow)" NARROW []
-is_a: PECO:0007154 ! radiation quality exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007623
-name: 252-Cf fission neutrons exposure
+name: OBSOLETE 252-Cf fission neutrons exposure
 alt_id: EO:0007623
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "252-Cf fission neutrons treatment (narrow)" NARROW []
-is_a: PECO:0007622 ! neutrons exposure
+is_a: PECO:0007622 ! OBSOLETE neutrons exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007624
-name: radio wave exposure
+name: OBSOLETE radio wave exposure
 alt_id: EO:0007624
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "radio wave treatment (narrow)" NARROW []
-is_a: PECO:0007154 ! radiation quality exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007625
-name: stratosphere exposure
+name: OBSOLETE stratosphere exposure
 alt_id: EO:0007625
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "stratosphere exposure treatment (narrow)" NARROW []
-is_a: PECO:0007154 ! radiation quality exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007626
-name: supersonic exposure
+name: OBSOLETE supersonic exposure
 alt_id: EO:0007626
-is_a: PECO:0007154 ! radiation quality exposure
+def: "OBSOLETE" [PECO:cooperl]
+is_obsolete: true
 
 [Term]
 id: PECO:0007628

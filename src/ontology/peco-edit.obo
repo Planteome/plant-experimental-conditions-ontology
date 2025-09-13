@@ -1944,6 +1944,7 @@ alt_id: EO:0007129
 def: "An ultravoilet light (PECO:0007222) exposure involving light in the wavelength range of 100-280nm." [Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "UV-C light treatment (narrow)" NARROW []
 synonym: "UVC exposure (exact)" EXACT []
+is_a: PECO:0007222 ! ultravoilet light exposure
 
 [Term]
 id: PECO:0007130
@@ -2508,10 +2509,10 @@ is_a: PECO:0007110 ! dsRNA virus exposure
 
 [Term]
 id: PECO:0007196
-name: light exposure
+name: OBSOLETE light exposure
 alt_id: EO:0007196
 alt_id: EO:0007201
-def: "The treatment involving day light as the light of the sun or the artificial light in a growth chamber." [Gramene:pankaj_jaiswal]
+def: "OBSOLETE The treatment involving day light as the light of the sun or the artificial light in a growth chamber." [Gramene:pankaj_jaiswal]
 comment: A type of light used in a commercial light box to simulate natural daylight. For experiments carried out in growth chambers, the daylight is a light source providing a color temperature of 6500+/-200 K at an illumination of 90 to 120 ft/candles. This source is typically provided by fluorescent,  tungsten or halogen lamps.
 synonym: "artificial daylight (related)" RELATED []
 synonym: "artificial light (related)" RELATED []
@@ -2519,7 +2520,7 @@ synonym: "day light (related)" RELATED []
 synonym: "light treatment (narrow)" NARROW []
 synonym: "natural light (related)" RELATED []
 synonym: "sun light (related)" RELATED []
-is_a: PECO:0007154 ! radiation quality exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007197
@@ -2560,7 +2561,7 @@ name: infrared light exposure
 alt_id: EO:0007202
 def: "The treatment using infrared (IR) light in the wavelength range of 700nm-1mm." [Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "IR light treatment (narrow)" NARROW []
-is_a: PECO:0007196 ! light exposure
+is_a: PECO:0007154 ! radiation quality exposure
 
 [Term]
 id: PECO:0007203
@@ -2569,7 +2570,7 @@ alt_id: EO:0007203
 def: "The treatment using far red light either exclusively or as part of a supplemental light treatment involving red color light in the wavelength range of 800-700 nM." [Gramene:pankaj_jaiswal]
 synonym: "far red light treatment (narrow)" NARROW []
 synonym: "Pfr light (related)" RELATED []
-is_a: PECO:0007196 ! light exposure
+is_a: PECO:0007154 ! radiation quality exposure
 
 [Term]
 id: PECO:0007204
@@ -2716,7 +2717,7 @@ alt_id: EO:0007221
 def: "The treatment using visible light in the wavelength range of 380-780 nM." [Gramene:pankaj_jaiswal]
 comment: Visible light is the portion of the electromagnetic spectrum that is visible to the human eye. The optical spectrum is a composite, or mixture, of the various colors.
 synonym: "visible light treatment (narrow)" NARROW []
-is_a: PECO:0007196 ! light exposure
+is_a: PECO:0007154 ! radiation quality exposure
 
 [Term]
 id: PECO:0007222
@@ -2725,7 +2726,7 @@ alt_id: EO:0007222
 def: "The treatment using UV light involving electromagnetic radiation in the wavelength range of 100-400nm." [Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "ultravoilet light treatment (exact)" EXACT []
 synonym: "UV light exposure (exact)" EXACT []
-is_a: PECO:0007196 ! light exposure
+is_a: PECO:0007154 ! radiation quality exposure
 
 [Term]
 id: PECO:0007223

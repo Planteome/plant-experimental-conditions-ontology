@@ -839,7 +839,7 @@ creation_date: 2024-02-01T20:31:08Z
 id: PECO:0007001
 name: UV-B light exposure
 alt_id: EO:0007001
-def: "An ultraviolett light (PECO:0007222) exposure involving light in the wavelength range of 280-315nm." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "An ultraviolet light (PECO:0007222) exposure involving light in the wavelength range of 280-315nm." [Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "UV-B light treatment (narrow)" NARROW []
 synonym: "UVB exposure (exact)" EXACT []
 is_a: PECO:0007222 ! ultraviolet light exposure

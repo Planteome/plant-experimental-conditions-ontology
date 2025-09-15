@@ -839,19 +839,19 @@ creation_date: 2024-02-01T20:31:08Z
 id: PECO:0007001
 name: UV-B light exposure
 alt_id: EO:0007001
-def: "An ultravoilet light (PECO:0007222) exposure involving light in the wavelength range of 280-315nm." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "An ultraviolett light (PECO:0007222) exposure involving light in the wavelength range of 280-315nm." [Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "UV-B light treatment (narrow)" NARROW []
 synonym: "UVB exposure (exact)" EXACT []
-is_a: PECO:0007222 ! ultravoilet light exposure
+is_a: PECO:0007222 ! ultraviolet light exposure
 
 [Term]
 id: PECO:0007002
 name: UV-A light exposure
 alt_id: EO:0007002
-def: "An ultravoilet light (PECO:0007222) exposure involving light in the wavelength range of 315-400nm." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "An ultraviolet light (PECO:0007222) exposure involving light in the wavelength range of 315-400nm." [Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "UV-A light treatment (exact)" EXACT []
 synonym: "UVA exposure (exact)" EXACT []
-is_a: PECO:0007222 ! ultravoilet light exposure
+is_a: PECO:0007222 ! ultraviolet light exposure
 
 [Term]
 id: PECO:0007003
@@ -1941,10 +1941,10 @@ is_a: PECO:0007078 ! light quantity exposure
 id: PECO:0007129
 name: UV-C light exposure
 alt_id: EO:0007129
-def: "An ultravoilet light (PECO:0007222) exposure involving light in the wavelength range of 100-280nm." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "An ultraviolet light (PECO:0007222) exposure involving light in the wavelength range of 100-280nm." [Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "UV-C light treatment (narrow)" NARROW []
 synonym: "UVC exposure (exact)" EXACT []
-is_a: PECO:0007222 ! ultravoilet light exposure
+is_a: PECO:0007222 ! ultraviolet light exposure
 
 [Term]
 id: PECO:0007130
@@ -2721,10 +2721,10 @@ is_a: PECO:0007154 ! radiation quality exposure
 
 [Term]
 id: PECO:0007222
-name: ultravoilet light exposure
+name: ultraviolet light exposure
 alt_id: EO:0007222
 def: "The treatment using UV light involving electromagnetic radiation in the wavelength range of 100-400nm." [Gramene:pankaj_jaiswal, PECO:cooperl]
-synonym: "ultravoilet light treatment (exact)" EXACT []
+synonym: "ultraviolet light treatment (exact)" EXACT []
 synonym: "UV light exposure (exact)" EXACT []
 is_a: PECO:0007154 ! radiation quality exposure
 

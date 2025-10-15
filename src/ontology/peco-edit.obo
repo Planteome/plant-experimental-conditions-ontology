@@ -1375,6 +1375,7 @@ id: PECO:0007064
 name: ecological environment exposure
 alt_id: EO:0007064
 def: "A plant exposure (PECO:0001001) involving exposure to the various factors that comprise a geographical/regional location." [Gramene:pankaj_jaiswal, PECO:cooperl]
+comment: An ecological environment includes both biotic and abiotic factors such as climate, soil, and water.
 synonym: "ecological environment treatment (narrow)" NARROW []
 xref: PECO_GIT:79
 is_a: PECO:0001001 ! plant exposure
@@ -1528,17 +1529,20 @@ is_a: PECO:0007165 ! growth hormone exposure
 
 [Term]
 id: PECO:0007081
-name: river bank region exposure
+name: riverbank region exposure
 alt_id: EO:0007081
-synonym: "river bank region treatment (narrow)" NARROW []
-is_a: PECO:0007396 ! flood prone region exposure
+def: "A flood-prone region exposure (PECO:0007396) in which a plant is growing on the side of a river where flooding can occur." [PECO:cooperl]
+synonym: "river bank region exposure (exact)" EXACT []
+synonym: "riverbank region treatment (narrow)" NARROW []
+is_a: PECO:0007396 ! flood-prone region exposure
 
 [Term]
 id: PECO:0007082
 name: sea coast region exposure
 alt_id: EO:0007082
+def: "A flood-prone region exposure (PECO:0007396) in which a plant is growing near the edge of an ocean where flooding can occur." [PECO:cooperl]
 synonym: "sea coast region treatment (narrow)" NARROW []
-is_a: PECO:0007396 ! flood prone region exposure
+is_a: PECO:0007396 ! flood-prone region exposure
 
 [Term]
 id: PECO:0007083
@@ -2323,7 +2327,7 @@ is_a: PECO:0007316 ! physical plant exposure
 id: PECO:0007176
 name: altitude exposure
 alt_id: EO:0007176
-def: "The treatment involving an exposure to a given elevation/height above sea level." [Gramene:pankaj_jaiswal]
+def: "An ecological environment exposure (PECO:0007064) involving growth at a given elevation or height above sea level." [Gramene:pankaj_jaiswal]
 synonym: "altitude treatment (narrow)" NARROW []
 is_a: PECO:0007064 ! ecological environment exposure
 
@@ -2339,7 +2343,8 @@ is_a: PECO:0007328 ! Pythium sp. exposure
 id: PECO:0007178
 name: atmospheric pressure exposure
 alt_id: EO:0007178
-def: "The treatment involving an exposure to a given pressure of the atmosphere at a given point. Its measurement can be expressed in several ways. One is in millibars. Another is in inches or millimeters of mercury (Hg)." [Gramene:pankaj_jaiswal]
+def: "An ecological environment exposure (PECO:0007064) involving growth at a given air pressure." [Gramene:pankaj_jaiswal]
+comment: Atmospheric pressure is measured using a barometer and is expressed in Pascals (Pa), millibars (mb), the standard atmosphere (atm), or in inches or millimeters of mercury (Hg).
 synonym: "atmospheric pressure treatment (narrow)" NARROW []
 synonym: "barometric pressure (related)" RELATED []
 is_a: PECO:0007064 ! ecological environment exposure
@@ -4251,9 +4256,9 @@ is_obsolete: true
 
 [Term]
 id: PECO:0007394
-name: desert like region exposure
+name: desert-like region exposure
 alt_id: EO:0007394
-def: "The treatment involving an exposure to the conditions found in a type of biome characterized by low moisture levels and infrequent and unpredictable precipitation of rainfall." [Gramene:pankaj_jaiswal]
+def: "The treatment involving an exposure to the conditions found in a type of biome characterized by low moisture levels and infrequent and unpredictable precipitation or rainfall." [Gramene:pankaj_jaiswal]
 synonym: "desert like region treatment (narrow)" NARROW []
 is_a: PECO:0007064 ! ecological environment exposure
 
@@ -4261,14 +4266,15 @@ is_a: PECO:0007064 ! ecological environment exposure
 id: PECO:0007395
 name: river delta region exposure
 alt_id: EO:0007395
+def: "A flood-prone region exposure (PECO:0007396) in which a plant is growing in the delta of a river where flooding can occur." [PECO:cooperl]
 synonym: "river delta region treatment (narrow)" NARROW []
-is_a: PECO:0007396 ! flood prone region exposure
+is_a: PECO:0007396 ! flood-prone region exposure
 
 [Term]
 id: PECO:0007396
-name: flood prone region exposure
+name: flood-prone region exposure
 alt_id: EO:0007396
-def: "A treatment in terms of plant's exposure to the regional conditions found in the vicinity of the water bodies like, sea, river, lake etc. Growth conditions may include aerobic to anaerobic soil,  salinity or toxicity in tidal areas. Treatment may include standing or flash flooding." [Gramene:pankaj_jaiswal]
+def: "A treatment in terms of plant's exposure to the regional conditions found in the vicinity of the water bodies like, sea, river, lake, etc. Growth conditions may include aerobic to anaerobic soil, salinity or toxicity in tidal areas. Treatment may include standing or flash flooding." [Gramene:pankaj_jaiswal]
 synonym: "deep water (related)" RELATED []
 synonym: "flood prone region treatment (narrow)" NARROW []
 synonym: "flooding (related)" RELATED []
@@ -4304,7 +4310,7 @@ name: arid region exposure
 alt_id: EO:0007400
 def: "The treatment involving the plant or the populations grown in regions where the land is excessively dry and receives insufficient rainfall to support agriculture." [Gramene:pankaj_jaiswal]
 synonym: "arid region treatment (narrow)" NARROW []
-is_a: PECO:0007394 ! desert like region exposure
+is_a: PECO:0007394 ! desert-like region exposure
 
 [Term]
 id: PECO:0007401

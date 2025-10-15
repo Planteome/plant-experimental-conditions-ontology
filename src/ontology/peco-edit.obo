@@ -454,7 +454,7 @@ creation_date: 2013-04-16T14:19:13Z
 id: PECO:0001040
 name: light-induced photooxidative stress exposure
 alt_id: EO:0001040
-def: "A light intensity exposure (PECO:0007224) involving use of light-dependent generations of reactive oxygen species." [PECO:cooperl]
+def: "A light intensity exposure (PECO:0007224) involving the light-dependent generation of reactive oxygen species." [PECO:cooperl]
 synonym: "light-induced photooxidative stress treatment (narrow)" NARROW []
 xref: PECO_GIT:44
 is_a: PECO:0007224 ! light intensity exposure
@@ -1481,6 +1481,8 @@ is_a: PECO:0007165 ! growth hormone exposure
 id: PECO:0007075
 name: high light intensity exposure
 alt_id: EO:0007075
+def: "A light intensity exposure (PECO:0007224) where the intensity of the light for plant growth is between 500–1,000 foot-candles." [PECO:cooperl]
+comment: A foot-candle is a unit of illuminance equal to one lumen per square foot, measuring how much light is received by a surface.
 synonym: "high light intensity treatment (narrow)" NARROW []
 is_a: PECO:0007224 ! light intensity exposure
 
@@ -1488,6 +1490,8 @@ is_a: PECO:0007224 ! light intensity exposure
 id: PECO:0007076
 name: moderate light intensity exposure
 alt_id: EO:0007076
+def: "A light intensity exposure (PECO:0007224) where the intensity of the light for plant growth is between 200–1,000 foot-candles." [PECO:cooperl]
+comment: A foot-candle is a unit of illuminance equal to one lumen per square foot, measuring how much light is received by a surface.
 synonym: "moderate light intensity treatment (narrow)" NARROW []
 is_a: PECO:0007224 ! light intensity exposure
 
@@ -2143,7 +2147,7 @@ is_a: PECO:0007316 ! physical plant exposure
 id: PECO:0007152
 name: radiation intensity exposure
 alt_id: EO:0007152
-def: "The treatment involving amount of energy of any radiation incident upon (or flowing through) unit area, perpendicular to the radiation source, in unit time." [Gramene:pankaj_jaiswal]
+def: "The treatment involving amount of energy of any radiation incident upon (or flowing through) unit area, in unit time." [Gramene:pankaj_jaiswal]
 synonym: "radiation intensity treatment (narrow)" NARROW []
 is_a: PECO:0007151 ! radiation exposure
 
@@ -2383,7 +2387,6 @@ name: rainfall exposure
 alt_id: EO:0007181
 def: "The treatment involving an exposure to a given amount of rainfall." [Gramene:pankaj_jaiswal]
 synonym: "rainfall treatment (narrow)" NARROW []
-is_a: PECO:0007064 ! ecological environment exposure
 is_a: PECO:0007198 ! water environment exposure
 
 [Term]
@@ -2487,10 +2490,11 @@ is_a: PECO:0007107 ! Ascomycota exposure
 
 [Term]
 id: PECO:0007193
-name: day light intensity exposure
+name: OBSOLETE day light intensity exposure
 alt_id: EO:0007193
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "day light intensity treatment (narrow)" NARROW []
-is_a: PECO:0007224 ! light intensity exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007194
@@ -2749,7 +2753,8 @@ is_a: PECO:0001018 ! cadmium exposure
 id: PECO:0007224
 name: light intensity exposure
 alt_id: EO:0007224
-def: "The treatment involving exposure of plant or a plant part to the amount of light energy incident upon (or flowing through) unit area, perpendicular to the radiation source, in unit time." [Gramene:pankaj_jaiswal]
+def: "An exposure of a plant or a plant part to the amount of light energy incident upon (or flowing through) a unit area in unit time." [Gramene:pankaj_jaiswal]
+comment: Light intensity can be expressed in photometric units like lumens (total light output) or lux (light per area). The formula for intensity (I) is power (P) divided by area (A): (I=P/A). A foot-candle is a unit of illuminance equal to one lumen per square foot, measuring how much light is received by a surface
 synonym: "light intensity treatment (narrow)" NARROW []
 is_a: PECO:0007152 ! radiation intensity exposure
 
@@ -3163,6 +3168,8 @@ is_a: PECO:0007078 ! light quantity exposure
 id: PECO:0007271
 name: low light intensity exposure
 alt_id: EO:0007271
+def: "A light intensity exposure (PECO:0007224) where the intensity of the light for plant growth is less than 200 foot-candles" [PECO:cooperl]
+comment: A foot-candle is a unit of illuminance equal to one lumen per square foot, measuring how much light is received by a surface.
 synonym: "low light intensity treatment (narrow)" NARROW []
 is_a: PECO:0007224 ! light intensity exposure
 
@@ -4274,7 +4281,8 @@ is_a: PECO:0007396 ! flood-prone region exposure
 id: PECO:0007396
 name: flood-prone region exposure
 alt_id: EO:0007396
-def: "A treatment in terms of plant's exposure to the regional conditions found in the vicinity of the water bodies like, sea, river, lake, etc. Growth conditions may include aerobic to anaerobic soil, salinity or toxicity in tidal areas. Treatment may include standing or flash flooding." [Gramene:pankaj_jaiswal]
+def: "An ecological environment exposure (PECO:0007064) involving a plant's exposure to growth conditions susceptible to inundation by water." [Gramene:pankaj_jaiswal, PECO:cooperl]
+comment: Growth in flood-prone conditions may include exposure to anaerobic soils, salinity or toxicity, and may include standing water or intermittent flooding.  These conditions may be found in the vicinity of a water body such as an ocean or sea, river, lake, etc.
 synonym: "deep water (related)" RELATED []
 synonym: "flood prone region treatment (narrow)" NARROW []
 synonym: "flooding (related)" RELATED []
@@ -4343,6 +4351,7 @@ is_a: PECO:0001001 ! plant exposure
 id: PECO:0007404
 name: drought exposure
 alt_id: EO:0007404
+def: "A water environment exposure (PECO:0007198) which is the treatment or exposure of plants to a prolonged dry period." [PECO:cooperl]
 synonym: "drought environment treatment (narrow)" NARROW []
 is_a: PECO:0007198 ! water environment exposure
 

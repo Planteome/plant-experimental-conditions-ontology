@@ -2963,7 +2963,8 @@ is_a: PECO:0007143 ! Erwinia plant exposure
 id: PECO:0007248
 name: greenhouse study
 alt_id: EO:0007248
-def: "The treatment where the plants were grown under greenhouse conditions. This may involve supplemental treatments in addition to any standard conditions." [Gramene:pankaj_jaiswal]
+def: "A plant study condition (PECO:0007231) where the plants were grown under greenhouse conditions." [Gramene:pankaj_jaiswal, PECO:cooperl]
+comment: This may involve supplemental treatments in addition to any naturally occurring conditions.
 is_a: PECO:0007231 ! plant study condition
 
 [Term]
@@ -3023,14 +3024,15 @@ is_a: PECO:0007144 ! Pseudomonas plant exposure
 id: PECO:0007255
 name: laboratory study
 alt_id: EO:0007255
-def: "The treatment where the plants were grown under laboratory / open room conditions, with very few controlled parameters. This may involve supplemental treatments in addition to any naturally occurring conditions." [Gramene:pankaj_jaiswal]
+def: "A plant study condition (PECO:0007231) where the plants were grown under in vitro growth conditions in a laboratory." [Gramene:pankaj_jaiswal, PECO:cooperl]
 is_a: PECO:0007231 ! plant study condition
 
 [Term]
 id: PECO:0007256
 name: field study
 alt_id: EO:0007256
-def: "The treatment where the plants were grown under field conditions. This may involve supplemental treatments in addition to any naturally occurring conditions." [Gramene:pankaj_jaiswal]
+def: "A plant study condition (PECO:0007231) where the plants were grown outdoors under field conditions." [Gramene:pankaj_jaiswal, PECO:cooperl]
+comment: This may involve supplemental treatments in addition to any naturally occurring conditions.
 synonym: "open field study (related)" RELATED []
 is_a: PECO:0007231 ! plant study condition
 
@@ -3152,7 +3154,7 @@ is_a: PECO:0007167 ! pesticide exposure
 id: PECO:0007269
 name: growth chamber study
 alt_id: EO:0007269
-def: "The treatment involving study type in which plants were grown in growth chambers." [Gramene:pankaj_jaiswal]
+def: "A plant study condition (PECO:0007231) where plants were grown in growth chambers under controlled light and temperature conditions." [Gramene:pankaj_jaiswal, PECO:cooperl]
 is_a: PECO:0007231 ! plant study condition
 
 [Term]
@@ -3248,10 +3250,10 @@ is_a: PECO:0007122 ! Chilo exposure
 
 [Term]
 id: PECO:0007280
-name: unknown study type
+name: OBSOLETE unknown study type
 alt_id: EO:0007280
-def: "The treatment involving study type where nothing is known in the reported literature/study about the kind of growth facilities used." [Gramene:pankaj_jaiswal]
-is_a: PECO:0007231 ! plant study condition
+def: "OBSOLETE The treatment involving study type where nothing is known in the reported literature/study about the kind of growth facilities used." [Gramene:pankaj_jaiswal]
+is_obsolete: true
 
 [Term]
 id: PECO:0007281
@@ -4339,13 +4341,13 @@ is_a: PECO:0007189 ! chemical exposure
 
 [Term]
 id: PECO:0007403
-name: unknown exposure
+name: OBSOLETE unknown exposure
 alt_id: EO:0007403
-def: "A plant exposure (PECO:0001001) where there is a lack of information describing the experimental conditions." [PECO:cooperl]
+def: "OBSOLETE A plant exposure (PECO:0001001) where there is a lack of information describing the experimental conditions." [PECO:cooperl]
 comment: In some cases, only the study type (PECO:0007231) is known, without any additional information about the treatments.
 synonym: "unknown treatment (narrow)" NARROW []
 xref: PECO_GIT:82
-is_a: PECO:0001001 ! plant exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007404

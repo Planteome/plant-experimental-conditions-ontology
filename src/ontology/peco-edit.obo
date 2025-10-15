@@ -3168,7 +3168,7 @@ is_a: PECO:0007078 ! light quantity exposure
 id: PECO:0007271
 name: low light intensity exposure
 alt_id: EO:0007271
-def: "A light intensity exposure (PECO:0007224) where the intensity of the light for plant growth is less than 200 foot-candles" [PECO:cooperl]
+def: "A light intensity exposure (PECO:0007224) where the intensity of the light for plant growth is less than 200 foot-candles." [PECO:cooperl]
 comment: A foot-candle is a unit of illuminance equal to one lumen per square foot, measuring how much light is received by a surface.
 synonym: "low light intensity treatment (narrow)" NARROW []
 is_a: PECO:0007224 ! light intensity exposure

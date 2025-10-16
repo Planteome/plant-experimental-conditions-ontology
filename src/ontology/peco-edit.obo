@@ -3946,9 +3946,8 @@ id: PECO:0007359
 name: plant experimental condition
 alt_id: EO:0007359
 def: "A plant exposure (PECO:0001001) and/or study condition (PECO:0007231) applied to a whole plant (PO:0000003), a plant structure (PO:00090119), and/or a plant population." [Gramene:pankaj_jaiswal, PECO:cooperl]
-comment: The Plant Experimental Condition Ontology describes the treatments  and/or study conditions used in various plant biology experiments. The subjects of the studies may also include in vitro plant structures (PO:0000004). The broadest classes are the plant study conditions (PECO:0007231), where the terms describe the type of growth facility used in an experiment.  Each study type such as field study (PECO:0007256), growth chamber study (PECO:0007269), greenhouse study (PECO:0007248), or laboratory study (PECO:0007255) will also involve different growing conditions, and may also include specific biotic (PECO:0007357) and/or abiotic (PECO:0007191) plant treatments.  A plant exposure (PECO:0001001) may be a component of a plant experimental condition (PECO:0007359), and the plant study condition (PECO:0007231).
-synonym: "plant treatment ontology (related)" RELATED []
-synonym: "treatment ontology (related)" RELATED []
+comment: The Plant Experimental Condition Ontology describes the treatments and/or study conditions used in plant biology experiments. The subjects of the studies may also include in vitro plant structures (PO:0000004). The broadest classes are the plant study conditions (PECO:0007231), where the terms describe the type of growth facility used in an experiment. Each study type such as field study (PECO:0007256), growth chamber study (PECO:0007269), greenhouse study (PECO:0007248), or laboratory study (PECO:0007255) will also involve different growing conditions, and may also include specific biotic (PECO:0007357) and/or abiotic (PECO:0007191) plant treatments. A plant exposure (PECO:0001001) may be a component of a plant experimental condition (PECO:0007359), and the plant study condition (PECO:0007231).
+synonym: "plant treatment (related)" RELATED []
 xref: PECO_GIT:4
 
 [Term]

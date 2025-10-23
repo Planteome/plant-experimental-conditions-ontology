@@ -2209,20 +2209,19 @@ is_a: PECO:0007155 ! soil type exposure
 
 [Term]
 id: PECO:0007160
-name: water temperature exposure
+name: OBSOLETE water temperature exposure
 alt_id: EO:0007160
-def: "The treatment involving an exposure to water with varying degree of temperature, which may depend on regional environment." [Gramene:pankaj_jaiswal]
+def: "OBSOLETE The treatment involving an exposure to water with varying degree of temperature, which may depend on regional environment." [Gramene:pankaj_jaiswal]
 synonym: "water temperature treatment (narrow)" NARROW []
-is_a: PECO:0007175 ! temperature environment exposure
-is_a: PECO:0007198 ! water environment exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007161
-name: air temperature exposure
+name: OBSOLETE air temperature exposure
 alt_id: EO:0007161
-def: "The treatment involving an exposure to wind with varying degree of temperature, which may depend on the study type or the regional environment." [Gramene:pankaj_jaiswal]
+def: "OBSOLETE The treatment involving an exposure to wind with varying degree of temperature, which may depend on the study type or the regional environment." [Gramene:pankaj_jaiswal]
 synonym: "air temperature treatment (narrow)" NARROW []
-is_a: PECO:0007175 ! temperature environment exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007162
@@ -2304,23 +2303,23 @@ is_a: PECO:0007282 ! standing water exposure
 
 [Term]
 id: PECO:0007173
-name: warm/hot temperature exposure
+name: high temperature exposure
 alt_id: EO:0007173
-def: "The treatment involving an exposure to above optimal temperature, which may depend on the study type or the regional environment." [Gramene:pankaj_jaiswal]
-synonym: "warm/hot temperature treatment (narrow)" NARROW []
-is_a: PECO:0007175 ! temperature environment exposure
+def: "The treatment involving an exposure to above optimal temperature." [Gramene:pankaj_jaiswal]
+synonym: "high temperature treatment (narrow)" NARROW []
+is_a: PECO:0007175 ! temperature exposure
 
 [Term]
 id: PECO:0007174
 name: cold temperature exposure
 alt_id: EO:0007174
-def: "The treatment involving an exposure to cold or sub-optimal temperature, which may depend on the study type or the regional environment." [Gramene:pankaj_jaiswal]
+def: "The treatment involving an exposure to cold or sub-optimal temperature." [Gramene:pankaj_jaiswal]
 synonym: "cold temperature treatment (narrow)" NARROW []
-is_a: PECO:0007175 ! temperature environment exposure
+is_a: PECO:0007175 ! temperature exposure
 
 [Term]
 id: PECO:0007175
-name: temperature environment exposure
+name: temperature exposure
 alt_id: EO:0007175
 def: "A physical plant exposure (PECO:0007316) involving a treatment or exposure of a plant structure (PO:0009011) to variations in temperature." [Gramene:pankaj_jaiswal]
 synonym: "temperature environment treatment (narrow)" NARROW []
@@ -3592,12 +3591,11 @@ is_a: PECO:0007109 ! ssRNA positive-strand virus with no DNA stage exposure
 
 [Term]
 id: PECO:0007319
-name: warm/hot air temperature exposure
+name: high air temperature exposure
 alt_id: EO:0007319
 def: "The treatment involving an exposure to above optimal air temperature, which may depend on the study type or the regional environment." [Gramene:pankaj_jaiswal]
 synonym: "warm/hot air temperature treatment (narrow)" NARROW []
-is_a: PECO:0007161 ! air temperature exposure
-is_a: PECO:0007173 ! warm/hot temperature exposure
+is_a: PECO:0007173 ! high temperature exposure
 
 [Term]
 id: PECO:0007320
@@ -3710,7 +3708,6 @@ name: cold air temperature exposure
 alt_id: EO:0007332
 def: "The treatment involving an exposure to cold or sub-optimal air temperature, which may depend on the study type or the regional environment." [Gramene:pankaj_jaiswal]
 synonym: "cold air temperature treatment (narrow)" NARROW []
-is_a: PECO:0007161 ! air temperature exposure
 is_a: PECO:0007174 ! cold temperature exposure
 
 [Term]
@@ -3769,7 +3766,6 @@ name: cold water temperature exposure
 alt_id: EO:0007338
 def: "The treatment involving an exposure to cold or sub-optimal water temperature, which may depend on the study type or the regional environment." [Gramene:pankaj_jaiswal]
 synonym: "cold water temperature treatment (narrow)" NARROW []
-is_a: PECO:0007160 ! water temperature exposure
 is_a: PECO:0007174 ! cold temperature exposure
 
 [Term]
@@ -4039,12 +4035,11 @@ is_a: PECO:0007337 ! plant nematode exposure
 
 [Term]
 id: PECO:0007368
-name: warm/hot water temperature exposure
+name: high water temperature exposure
 alt_id: EO:0007368
 def: "The treatment involving an exposure to above optimal water temperature, which may depend on the study type or the regional environment." [Gramene:pankaj_jaiswal]
 synonym: "warm/hot water temperature treatment (narrow)" NARROW []
-is_a: PECO:0007160 ! water temperature exposure
-is_a: PECO:0007173 ! warm/hot temperature exposure
+is_a: PECO:0007173 ! high temperature exposure
 
 [Term]
 id: PECO:0007369

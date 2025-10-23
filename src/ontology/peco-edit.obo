@@ -2223,7 +2223,6 @@ alt_id: EO:0007161
 def: "The treatment involving an exposure to wind with varying degree of temperature, which may depend on the study type or the regional environment." [Gramene:pankaj_jaiswal]
 synonym: "air temperature treatment (narrow)" NARROW []
 is_a: PECO:0007175 ! temperature environment exposure
-is_a: PECO:0007382 ! wind environment exposure
 
 [Term]
 id: PECO:0007162
@@ -4174,7 +4173,6 @@ name: wind environment exposure
 alt_id: EO:0007382
 def: "The treatment involving an exposure to wind, which may depend on regional environment." [Gramene:pankaj_jaiswal]
 synonym: "wind environment treatment (narrow)" NARROW []
-is_a: PECO:0007064 ! ecological environment exposure
 is_a: PECO:0007316 ! physical plant exposure
 
 [Term]

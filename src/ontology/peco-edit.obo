@@ -398,10 +398,10 @@ creation_date: 2013-04-13T14:56:13Z
 id: PECO:0001035
 name: stratification exposure
 alt_id: EO:0001035
-def: "A physical exposure (PECO:0007316) involving both low temperature and moist conditions to overcome seed dormancy." [PECO:cooperl]
-comment: A stratification process is used to pretreat seeds to simulate natural winter conditions in order to overcome dormancy and allow germination.
+def: "A physical exposure (PECO:0007316) which involves treating seeds to simulate natural conditions that the seeds must experience to overcome dormancy and allow germination to occur." [PECO:cooperl]
+comment: Stratification refers to the the layering of seeds between moist papers or layers of soil and often involves cold and moist conditions, but some seeds require a period of warm stratification, followed by cold temperatures.
 synonym: "stratification treatment (narrow)" NARROW []
-xref: PECO_GIT:47
+xref: PECO_GIT:132
 is_a: PECO:0007316 ! physical plant exposure
 created_by: cooperl
 creation_date: 2013-04-25T14:11:44Z

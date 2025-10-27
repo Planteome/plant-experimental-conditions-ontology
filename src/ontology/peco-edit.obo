@@ -80,13 +80,13 @@ creation_date: 2013-04-10T14:54:09Z
 
 [Term]
 id: PECO:0001007
-name: mineral salt exposure
+name: OBSOLETE mineral salt exposure
 alt_id: EO:0001007
-def: "A mineral exposure (PECO:0007044) involving exposure of the plant(s) to mineral salts (CHEBI:24866)." [PECO:cooperl]
+def: "OBSOLETE A mineral exposure (PECO:0007044) involving exposure of the plant(s) to mineral salts (CHEBI:24866)." [PECO:cooperl]
 comment: A salt (CHEBI:24866) is defined as an assembly of cations and anions. This is a genral term to include the salts of various minerals.
 synonym: "mineral salt treatment (narrow)" NARROW []
 xref: PECO_GIT:53
-is_a: PECO:0007044 ! mineral exposure
+is_obsolete: true
 created_by: cooperl
 creation_date: 2013-04-10T15:26:58Z
 
@@ -212,7 +212,7 @@ alt_id: EO:0001018
 def: "A mineral exposure (PECO:0007044) involving exposure of plant to cadmium (CHEBI:22977)." [CHEBI:22977, PECO:cooperl]
 synonym: "cadmium treatment (narrow)" NARROW []
 xref: PECO_GIT:30
-is_a: PECO:0007044 ! mineral exposure
+is_a: PECO:0001004 ! inorganic chemical exposure
 created_by: cooperl
 creation_date: 2013-04-12T12:14:55Z
 
@@ -230,10 +230,10 @@ creation_date: 2013-04-12T12:38:49Z
 id: PECO:0001020
 name: carbon dioxide exposure
 alt_id: EO:0001020
-def: "An inorganic gas exposure (PECO:0001055) that involves the application of carbon dioxide (CHEBI:16526)." [CHEBI:16526, PECO:cooperl]
+def: "A gaseous exposure that involves the application of carbon dioxide (CHEBI:16526)." [CHEBI:16526, PECO:cooperl]
 synonym: "carbon dioxide treatment (narrow)" NARROW []
 xref: PECO_GIT:28
-is_a: PECO:0001055 ! inorganic gas exposure
+is_a: PECO:0007023 ! gaseous exposure
 created_by: cooperl
 creation_date: 2013-04-12T12:41:25Z
 
@@ -619,12 +619,12 @@ creation_date: 2013-04-24T14:28:43Z
 
 [Term]
 id: PECO:0001055
-name: inorganic gas exposure
+name: OBSOLETE inorganic gas exposure
 alt_id: EO:0001055
-def: "An inorganic chemical exposure (PECO:0001004) involving the application of a gas or mixture of gases." [PECO:cooperl]
+def: "OBSOLETE An inorganic chemical exposure (PECO:0001004) involving the application of a gas or mixture of gases." [PECO:cooperl]
 synonym: "inorganic gas treatment (narrow)" NARROW []
 xref: PECO_GIT:66
-is_a: PECO:0001004 ! inorganic chemical exposure
+is_obsolete: true
 created_by: moorel
 creation_date: 2013-04-25T13:16:47Z
 
@@ -786,8 +786,7 @@ id: PECO:0001070
 name: calcium carbonate exposure
 def: "A salt exposure (PECO:0007185) which is a treatment with calcium carbonate (CHEBI:3311) in order to raise the pH of the growing media." [PECO:cooperl]
 synonym: "lime exposure (broad)" BROAD []
-is_a: PECO:0007185 ! salt exposure
-relationship: part_of PECO:0007133 ! basic pH growth media environment exposure
+is_a: PECO:0007297 ! calcium nutrient exposure
 created_by: cooperl
 creation_date: 2019-09-20T22:36:52Z
 
@@ -1048,7 +1047,7 @@ is_a: PECO:0007316 ! physical plant exposure
 id: PECO:0007024
 name: aerobic environment exposure
 alt_id: EO:0007024
-def: "An exposure to conditions in which gaseous or dissolved oxygen is present." [Gramene:pankaj_jaiswal]
+def: "An exposure to conditions in which oxygen is present." [Gramene:pankaj_jaiswal]
 synonym: "aerobic environment treatment (narrow)" NARROW []
 is_a: PECO:0007023 ! gaseous exposure
 
@@ -1056,7 +1055,7 @@ is_a: PECO:0007023 ! gaseous exposure
 id: PECO:0007025
 name: anaerobic environment exposure
 alt_id: EO:0007025
-def: "An exposure to conditions in which gaseous or dissolved oxygen is absent." [Gramene:pankaj_jaiswal]
+def: "An exposure to conditions in which oxygen is absent." [Gramene:pankaj_jaiswal]
 synonym: "anaerobic environment treatment (narrow)" NARROW []
 is_a: PECO:0007023 ! gaseous exposure
 
@@ -1232,12 +1231,12 @@ is_a: PECO:0007241 ! plant nutrient exposure
 id: PECO:0007048
 name: sodium chloride exposure
 alt_id: EO:0007048
-def: "A salt exposure (PECO:0007185) involving the use of sodium chloride salt as supplement to liquid and soil growth media to study various types of responses on its application." [Gramene:pankaj_jaiswal]
+def: "An exposure involving the use of sodium chloride salt in the growth media." [Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "NaCl treatment (related)" RELATED []
 synonym: "sodium chloride treatment (narrow)" NARROW []
 xref: CHEBI:26710
 xref: PECO_GIT:76
-is_a: PECO:0007185 ! salt exposure
+is_a: PECO:0001004 ! inorganic chemical exposure
 
 [Term]
 id: PECO:0007049
@@ -2415,14 +2414,14 @@ is_a: PECO:0007328 ! Pythium sp. exposure
 
 [Term]
 id: PECO:0007185
-name: salt exposure
+name: OBSOLETE salt exposure
 alt_id: EO:0007185
 def: "A chemical exposure (PECO:0007189) involving use of salts as supplement to liquid and soil growth media to study various types of responses on their application." [Gramene:pankaj_jaiswal]
 comment: This treatment may be used to simulate the growth conditions of sea coast regions and saline/sodic soils.
 synonym: "salt treatment (narrow)" NARROW []
 xref: CHEBI:24866
 xref: PECO_GIT:76
-is_a: PECO:0007189 ! chemical exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007186

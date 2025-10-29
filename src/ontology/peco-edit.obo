@@ -2436,7 +2436,6 @@ id: PECO:0007187
 name: salicylic acid exposure
 alt_id: EO:0007187
 def: "An organic chemical exposure (PECO:0001003) involving the application of salicylic acid (CHEBI:16914)." [CHEBI:16914, Gramene:pankaj_jaiswal, PECO:cooperl]
-comment: An organic chemical treatment (PECO:0001003) invloving the application of salicylic acid (CHEBI:16914).
 synonym: "salicylic acid treatment (narrow)" NARROW []
 xref: PECO_GIT:63
 is_a: PECO:0001003 ! organic chemical exposure

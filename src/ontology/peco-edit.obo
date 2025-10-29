@@ -218,11 +218,11 @@ creation_date: 2013-04-12T12:14:55Z
 
 [Term]
 id: PECO:0001019
-name: organic gas exposure
+name: OBSOLETE organic gas exposure
 alt_id: EO:0001019
-def: "An organic chemical exposure (PECO:0001003) involving the application of a gas or mixture of gases." [PECO:cooperl]
+def: "OBSOLETE An organic chemical exposure (PECO:0001003) involving the application of a gas or mixture of gases." [PECO:cooperl]
 synonym: "organic gas treatment (narrow)" NARROW []
-is_a: PECO:0001003 ! organic chemical exposure
+is_obsolete: true
 created_by: cooperl
 creation_date: 2013-04-12T12:38:49Z
 
@@ -1393,13 +1393,10 @@ is_a: PECO:0007073 ! Basidiomycota exposure
 id: PECO:0007066
 name: cytokinin exposure
 alt_id: EO:0007066
-def: "A growth hormone exposure (PECO:0007165) involving the use of cytokinin (or its homolog) growth hormone." [Gramene:pankaj_jaiswal]
-synonym: "6-benzylaminopurine (related)" RELATED []
+def: "A growth hormone exposure (PECO:0007165) involving the use of a cytokinin." [Gramene:pankaj_jaiswal]
 synonym: "cytokinin treatment (narrow)" NARROW []
-synonym: "N-benzyl-adenine (related)" RELATED []
-synonym: "verdan senescence (related)" RELATED []
 xref: PECO_GIT:71
-is_a: PECO:0007165 ! growth hormone exposure
+is_a: PECO:0007165 ! plant growth hormone exposure
 
 [Term]
 id: PECO:0007067
@@ -1417,8 +1414,8 @@ alt_id: EO:0007068
 def: "A growth hormone exposure (PECO:0007165) involving the use of ethylene (or its homolog) growth hormone." [Gramene:pankaj_jaiswal]
 synonym: "ethylene treatment (narrow)" NARROW []
 xref: PECO_GIT:71
-is_a: PECO:0001019 ! organic gas exposure
-is_a: PECO:0007165 ! growth hormone exposure
+is_a: PECO:0007023 ! gaseous exposure
+is_a: PECO:0007165 ! plant growth hormone exposure
 
 [Term]
 id: PECO:0007069
@@ -1428,13 +1425,13 @@ def: "A growth hormone exposure (PECO:0007165) involving the use of GA (or its h
 synonym: "GA regimen (related)" RELATED []
 synonym: "gibberellic acid treatment (narrow)" NARROW []
 xref: PECO_GIT:71
-is_a: PECO:0007165 ! growth hormone exposure
+is_a: PECO:0007165 ! plant growth hormone exposure
 
 [Term]
 id: PECO:0007070
 name: indole acetic acid exposure
 alt_id: EO:0007070
-def: "An auxin exposure (PECO:0007074) involving the use of IAA (or its homolog) growth hormone." [Gramene:pankaj_jaiswal]
+def: "An auxin exposure (PECO:0007074) involving the use of indole acetic acid." [Gramene:pankaj_jaiswal]
 synonym: "IAA regimen (related)" RELATED []
 synonym: "indole acetic acid treatment (narrow)" NARROW []
 xref: PECO_GIT:71
@@ -1471,10 +1468,10 @@ is_a: PECO:0007233 ! fungal plant exposure
 id: PECO:0007074
 name: auxin exposure
 alt_id: EO:0007074
-def: "A growth hormone exposure (PECO:0007165) involving the use of auxin (or its homolog)." [Gramene:pankaj_jaiswal]
+def: "A plant growth hormone exposure (PECO:0007165) involving the use of an auxin." [Gramene:pankaj_jaiswal]
 synonym: "auxin treatment (narrow)" NARROW []
 xref: PECO_GIT:71
-is_a: PECO:0007165 ! growth hormone exposure
+is_a: PECO:0007165 ! plant growth hormone exposure
 
 [Term]
 id: PECO:0007075
@@ -1528,7 +1525,7 @@ def: "A growth hormone exposure (PECO:0007165) involving the use of JA (or its h
 synonym: "JA regimen (related)" RELATED []
 synonym: "jasmonic acid treatment (narrow)" NARROW []
 xref: PECO_GIT:71
-is_a: PECO:0007165 ! growth hormone exposure
+is_a: PECO:0007165 ! plant growth hormone exposure
 
 [Term]
 id: PECO:0007081
@@ -1735,11 +1732,11 @@ is_a: PECO:0007103 ! phosphate fertilizer exposure
 id: PECO:0007105
 name: abscisic acid exposure
 alt_id: EO:0007105
-def: "A growth hormone exposure (PECO:0007165) involving the use of abscisic acid (or its homolog)." [Gramene:pankaj_jaiswal]
+def: "A plant growth hormone exposure (PECO:0007165) involving the use of abscisic acid." [Gramene:pankaj_jaiswal]
 synonym: "ABA regimen (related)" RELATED []
 synonym: "abscisic acid treatment (narrow)" NARROW []
 xref: PECO_GIT:71
-is_a: PECO:0007165 ! growth hormone exposure
+is_a: PECO:0007165 ! plant growth hormone exposure
 
 [Term]
 id: PECO:0007106
@@ -2248,7 +2245,7 @@ is_a: PECO:0007282 ! standing water exposure
 
 [Term]
 id: PECO:0007165
-name: growth hormone exposure
+name: plant growth hormone exposure
 alt_id: EO:0007165
 def: "A chemical exposure (PECO:0007189) involving the application of one or more plant growth hormones." [Gramene:pankaj_jaiswal]
 synonym: "growth hormone treatment (narrow)" NARROW []
@@ -2362,8 +2359,8 @@ is_a: PECO:0007328 ! Pythium sp. exposure
 id: PECO:0007180
 name: 2,4-dichlorophenoxyacetic acid exposure
 alt_id: EO:0007180
-def: "An auxin exposure (PECO:0007074) involving use of 2,4-D growth hormone and herbicide." [CAS:94-75-7, Gramene:pankaj_jaiswal]
-synonym: "2,4-D regimen (related)" RELATED []
+def: "An auxin exposure (PECO:0007074) involving use of 2,4-dichlorophenoxyacetic acid." [CAS:94-75-7, Gramene:pankaj_jaiswal]
+synonym: "2,4-D exposure (related)" RELATED []
 synonym: "2,4-dichlorophenoxyacetic acid treatment (narrow)" NARROW []
 synonym: "Amidox (related)" RELATED []
 synonym: "B-Selektonon (related)" RELATED []
@@ -2582,7 +2579,7 @@ is_a: PECO:0007154 ! radiation quality exposure
 id: PECO:0007204
 name: 1-naphthaleneacetic acid exposure
 alt_id: EO:0007204
-def: "An auxin exposure (PECO:0007074) involving use of 1-naphthaleneacetic acid growth hormone and herbicide." [CAS:86-87-3, Gramene:pankaj_jaiswal]
+def: "An auxin exposure (PECO:0007074) involving use of 1-naphthaleneacetic acid." [CAS:86-87-3, Gramene:pankaj_jaiswal]
 synonym: "1-naphthaleneacetic acid treatment (narrow)" NARROW []
 synonym: "NAA (related)" RELATED []
 synonym: "Naphthylacetic acid (related)" RELATED []
@@ -3338,7 +3335,7 @@ is_a: PECO:0007119 ! Dipteran insect plant exposure
 id: PECO:0007290
 name: kinetin exposure
 alt_id: EO:0007290
-def: "A cytokinin exposure (PECO:0007066) involving use of kinetin, a cytokinin homolog." [Gramene:pankaj_jaiswal]
+def: "A cytokinin exposure (PECO:0007066) involving use of kinetin, a synthetic cytokinin that promotes cell division.." [Gramene:pankaj_jaiswal, Wikipedi:Kinetin]
 synonym: "kinetin treatment (narrow)" NARROW []
 xref: PECO_GIT:71
 is_a: PECO:0007066 ! cytokinin exposure
@@ -3347,9 +3344,9 @@ is_a: PECO:0007066 ! cytokinin exposure
 id: PECO:0007291
 name: benzyladenine exposure
 alt_id: EO:0007291
-def: "A cytokinin exposure (PECO:0007066) involving use of benzyladenine, a cytokinin homolog." [CAS:1214-39-7, CHEBI:29022, Gramene:pankaj_jaiswal, Wikipedia:6-Benzylaminopurine]
-comment: Benzyladenine is a first-generation synthetic cytokinin which elicits plant growth and development responses, setting blossoms and stimulating fruit richness by stimulating cell division. It is an inhibitor of respiratory kinase in plants, and increases post-harvest life of green vegetables.
-synonym: "6-benzylaminopurine (related)" RELATED []
+def: "A cytokinin exposure (PECO:0007066) involving use of benzyladenine, a synthetic cytokinin." [CAS:1214-39-7, CHEBI:29022, Gramene:pankaj_jaiswal, Wikipedia:6-Benzylaminopurine]
+comment: Benzyladenine (also known as 6-benzylaminopurine, or 6-BA) is a synthetic cytokinin which inhibits respiratory kinases in plants and promotes cell division.  Treatment with 6-BA promotes fruit quality and increases post-harvest life of green vegetables.
+synonym: "6-benzylaminopurine (exact)" EXACT []
 synonym: "BAP (related)" RELATED []
 synonym: "benzyladenine treatment (narrow)" NARROW []
 synonym: "Benzylaminopurine (related)" RELATED []
@@ -4386,10 +4383,10 @@ is_a: PECO:0001003 ! organic chemical exposure
 id: PECO:0007409
 name: brassinosteroid exposure
 alt_id: EO:0007409
-def: "A growth hormone exposure (PECO:0007165) involving the use of brassinosteroid (or its homolog)." [TO:moorel]
+def: "A plant growth hormone exposure (PECO:0007165) involving the use of a brassinosteroid." [TO:moorel]
 synonym: "brassinosteroid treatment (narrow)" NARROW []
 xref: PECO_GIT:71
-is_a: PECO:0007165 ! growth hormone exposure
+is_a: PECO:0007165 ! plant growth hormone exposure
 
 [Term]
 id: PECO:0007410

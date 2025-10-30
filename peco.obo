@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2023-11-10
+data-version: releases/2025-10-30
 date: 12:10:2015 15:21
 saved-by: cooperl
 default-namespace: plant_experimental_conditions_ontology
@@ -8651,7 +8651,6 @@ alt_id: EO:0001005
 def: "A mineral exposure (PECO:0007044) involving exposure of plant to nickel (CHEBI:28112)." [CHEBI:28112, PECO:cooperl]
 synonym: "nickel treatment (narrow)" NARROW []
 xref: PECO_GIT:6
-is_a: PECO:0001016 ! inorganic cation exposure
 is_a: PECO:0007044 ! mineral exposure
 created_by: cooperl
 creation_date: 2013-04-10T14:35:26Z
@@ -8670,13 +8669,13 @@ creation_date: 2013-04-10T14:54:09Z
 
 [Term]
 id: PECO:0001007
-name: mineral salt exposure
+name: OBSOLETE mineral salt exposure
 alt_id: EO:0001007
-def: "A mineral exposure (PECO:0007044) involving exposure of the plant(s) to mineral salts (CHEBI:24866)." [PECO:cooperl]
+def: "OBSOLETE A mineral exposure (PECO:0007044) involving exposure of the plant(s) to mineral salts (CHEBI:24866)." [PECO:cooperl]
 comment: A salt (CHEBI:24866) is defined as an assembly of cations and anions. This is a genral term to include the salts of various minerals.
 synonym: "mineral salt treatment (narrow)" NARROW []
 xref: PECO_GIT:53
-is_a: PECO:0007044 ! mineral exposure
+is_obsolete: true
 created_by: cooperl
 creation_date: 2013-04-10T15:26:58Z
 
@@ -8806,18 +8805,17 @@ alt_id: EO:0001018
 def: "A mineral exposure (PECO:0007044) involving exposure of plant to cadmium (CHEBI:22977)." [CHEBI:22977, PECO:cooperl]
 synonym: "cadmium treatment (narrow)" NARROW []
 xref: PECO_GIT:30
-is_a: PECO:0001016 ! inorganic cation exposure
-is_a: PECO:0007044 ! mineral exposure
+is_a: PECO:0001004 ! inorganic chemical exposure
 created_by: cooperl
 creation_date: 2013-04-12T12:14:55Z
 
 [Term]
 id: PECO:0001019
-name: organic gas exposure
+name: OBSOLETE organic gas exposure
 alt_id: EO:0001019
-def: "An organic chemical exposure (PECO:0001003) involving the application of a gas or mixture of gases." [PECO:cooperl]
+def: "OBSOLETE An organic chemical exposure (PECO:0001003) involving the application of a gas or mixture of gases." [PECO:cooperl]
 synonym: "organic gas treatment (narrow)" NARROW []
-is_a: PECO:0001003 ! organic chemical exposure
+is_obsolete: true
 created_by: cooperl
 creation_date: 2013-04-12T12:38:49Z
 
@@ -8825,11 +8823,10 @@ creation_date: 2013-04-12T12:38:49Z
 id: PECO:0001020
 name: carbon dioxide exposure
 alt_id: EO:0001020
-def: "An inorganic gas exposure (PECO:0001055) that involves the application of carbon dioxide (CHEBI:16526)." [CHEBI:16526, PECO:cooperl]
+def: "A gaseous exposure that involves the application of carbon dioxide (CHEBI:16526)." [CHEBI:16526, PECO:cooperl]
 synonym: "carbon dioxide treatment (narrow)" NARROW []
 xref: PECO_GIT:28
-is_a: PECO:0001055 ! inorganic gas exposure
-is_a: RO:0002310 ! exposure event or process
+is_a: PECO:0007023 ! gaseous exposure
 created_by: cooperl
 creation_date: 2013-04-12T12:41:25Z
 
@@ -8850,6 +8847,7 @@ id: PECO:0001022
 name: gamma radiation exposure
 alt_id: EO:0001022
 def: "A radiation quality exposure (PECO:0007154) involving the exposure to gamma radiation." [PECO:cooperl]
+comment: Gamma radiation is high-energy electromagnetic radiation originating from an unstable atomic nucleus, or a process like nuclear fission or gamma decay.
 synonym: "gamma radiation treatment (narrow)" NARROW []
 synonym: "gamma rays (exact)" EXACT []
 xref: PECO_GIT:41
@@ -9001,10 +8999,10 @@ creation_date: 2013-04-13T14:56:13Z
 id: PECO:0001035
 name: stratification exposure
 alt_id: EO:0001035
-def: "A physical exposure (PECO:0007316) involving both low temperature and moist conditions to overcome seed dormancy." [PECO:cooperl]
-comment: A stratification process is used to pretreat seeds to simulate natural winter conditions in order to overcome dormancy and allow germination.
+def: "A physical exposure (PECO:0007316) which involves treating seeds to simulate natural conditions that the seeds must experience to overcome dormancy and allow germination to occur." [PECO:cooperl]
+comment: Stratification refers to the the layering of seeds between moist papers or layers of soil and often involves cold and moist conditions, but some seeds require a period of warm stratification, followed by cold temperatures.
 synonym: "stratification treatment (narrow)" NARROW []
-xref: PECO_GIT:47
+xref: PECO_GIT:132
 is_a: PECO:0007316 ! physical plant exposure
 created_by: cooperl
 creation_date: 2013-04-25T14:11:44Z
@@ -9057,7 +9055,7 @@ creation_date: 2013-04-16T14:19:13Z
 id: PECO:0001040
 name: light-induced photooxidative stress exposure
 alt_id: EO:0001040
-def: "A light intensity exposure (PECO:0007224) involving use of light-dependent generations of reactive oxygen species." [PECO:cooperl]
+def: "A light intensity exposure (PECO:0007224) involving the light-dependent generation of reactive oxygen species." [PECO:cooperl]
 synonym: "light-induced photooxidative stress treatment (narrow)" NARROW []
 xref: PECO_GIT:44
 is_a: PECO:0007224 ! light intensity exposure
@@ -9226,12 +9224,12 @@ creation_date: 2013-04-24T14:28:43Z
 
 [Term]
 id: PECO:0001055
-name: inorganic gas exposure
+name: OBSOLETE inorganic gas exposure
 alt_id: EO:0001055
-def: "An inorganic chemical exposure (PECO:0001004) involving the application of a gas or mixture of gases." [PECO:cooperl]
+def: "OBSOLETE An inorganic chemical exposure (PECO:0001004) involving the application of a gas or mixture of gases." [PECO:cooperl]
 synonym: "inorganic gas treatment (narrow)" NARROW []
 xref: PECO_GIT:66
-is_a: PECO:0001004 ! inorganic chemical exposure
+is_obsolete: true
 created_by: moorel
 creation_date: 2013-04-25T13:16:47Z
 
@@ -9309,7 +9307,7 @@ creation_date: 2014-06-04T10:14:09Z
 id: PECO:0001062
 name: control exposure
 alt_id: EO:0001062
-def: "A plant exposure (PECO:0001001) used as a reference  to compare the effects of one or more treatment factors in a study." [PECO:cooperl]
+def: "A plant exposure (PECO:0001001) used as a reference to compare the effects of one or more treatment factors in a study." [PECO:cooperl]
 comment: A control exposure may involve the application of inert factors such as water in an experiment, or no treatment at all.
 synonym: "control treatment (narrow)" NARROW []
 xref: PECO_GIT:88
@@ -9344,8 +9342,6 @@ def: "A potassium fertilizer exposure (PECO:0001064) involving the use of potass
 synonym: "muriate of potash exposure (related)" RELATED []
 xref: PECO_GIT:112
 is_a: PECO:0001064 ! potassium fertilizer exposure
-is_a: PECO:0007044 ! mineral exposure
-is_a: PECO:0007185 ! salt exposure
 is_a: PECO:0007293 ! potassium nutrient exposure
 created_by: Laurel_Cooper
 creation_date: 2018-10-18T17:51:54Z
@@ -9398,8 +9394,7 @@ id: PECO:0001070
 name: calcium carbonate exposure
 def: "A salt exposure (PECO:0007185) which is a treatment with calcium carbonate (CHEBI:3311) in order to raise the pH of the growing media." [PECO:cooperl]
 synonym: "lime exposure (broad)" BROAD []
-is_a: PECO:0007185 ! salt exposure
-relationship: part_of PECO:0007133 ! basic pH growth media environment exposure
+is_a: PECO:0007297 ! calcium nutrient exposure
 created_by: cooperl
 creation_date: 2019-09-20T22:36:52Z
 
@@ -9441,20 +9436,30 @@ created_by: https://orcid.org/0000-0002-6379-8932
 creation_date: 2023-10-03T21:37:34Z
 
 [Term]
+id: PECO:0001075
+name: Oomycota exposure
+def: "A biotic plant exposure (PECO:0007357) involving the exposure of a plant structure (PO:0009011) to an Oomycete organism." [NCBITaxon:4762, PECO:cooperl]
+is_a: PECO:0007106 ! Stramenopiles exposure
+created_by: https://orcid.org/0000-0002-6379-8932
+creation_date: 2024-02-01T20:31:08Z
+
+[Term]
 id: PECO:0007001
 name: UV-B light exposure
 alt_id: EO:0007001
-def: "The exposure using UV-B light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 315-280nm." [Gramene:pankaj_jaiswal]
+def: "An ultraviolet light (PECO:0007222) exposure involving light in the wavelength range of 280-315 nm." [Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "UV-B light treatment (narrow)" NARROW []
-is_a: PECO:0007222 ! UV light exposure
+synonym: "UVB exposure (exact)" EXACT []
+is_a: PECO:0007222 ! ultraviolet light exposure
 
 [Term]
 id: PECO:0007002
 name: UV-A light exposure
 alt_id: EO:0007002
-def: "The exposure using UV-A light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 380-315nm." [Gramene:pankaj_jaiswal]
-synonym: "UV-A light treatment (narrow)" NARROW []
-is_a: PECO:0007222 ! UV light exposure
+def: "An ultraviolet light (PECO:0007222) exposure involving light in the wavelength range of 315-400 nm." [Gramene:pankaj_jaiswal, PECO:cooperl]
+synonym: "UV-A light treatment (exact)" EXACT []
+synonym: "UVA exposure (exact)" EXACT []
+is_a: PECO:0007222 ! ultraviolet light exposure
 
 [Term]
 id: PECO:0007003
@@ -9466,10 +9471,11 @@ is_a: PECO:0007064 ! ecological environment exposure
 
 [Term]
 id: PECO:0007004
-name: loam content exposure
+name: OBSOLETE loam content exposure
 alt_id: EO:0007004
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "loam content treatment (narrow)" NARROW []
-is_a: PECO:0007050 ! soil texture exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007005
@@ -9650,7 +9656,7 @@ is_a: PECO:0007316 ! physical plant exposure
 id: PECO:0007024
 name: aerobic environment exposure
 alt_id: EO:0007024
-def: "An exposure to conditions in which gaseous or dissolved oxygen is present." [Gramene:pankaj_jaiswal]
+def: "An exposure to conditions in which oxygen is present." [Gramene:pankaj_jaiswal]
 synonym: "aerobic environment treatment (narrow)" NARROW []
 is_a: PECO:0007023 ! gaseous exposure
 
@@ -9658,7 +9664,7 @@ is_a: PECO:0007023 ! gaseous exposure
 id: PECO:0007025
 name: anaerobic environment exposure
 alt_id: EO:0007025
-def: "An exposure to conditions in which gaseous or dissolved oxygen is absent." [Gramene:pankaj_jaiswal]
+def: "An exposure to conditions in which oxygen is absent." [Gramene:pankaj_jaiswal]
 synonym: "anaerobic environment treatment (narrow)" NARROW []
 is_a: PECO:0007023 ! gaseous exposure
 
@@ -9805,7 +9811,6 @@ def: "An inorganic chemical exposure (PECO:0001004) involving the application of
 synonym: "mineral treatment (narrow)" NARROW []
 xref: PECO_GIT:52
 is_a: PECO:0001004 ! inorganic chemical exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007045
@@ -9836,12 +9841,12 @@ is_a: PECO:0007241 ! plant nutrient exposure
 id: PECO:0007048
 name: sodium chloride exposure
 alt_id: EO:0007048
-def: "A salt exposure (PECO:0007185) involving the use of sodium chloride salt as supplement to liquid and soil growth media to study various types of responses on its application." [Gramene:pankaj_jaiswal]
+def: "An exposure involving the use of sodium chloride salt in the growth media." [Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "NaCl treatment (related)" RELATED []
 synonym: "sodium chloride treatment (narrow)" NARROW []
 xref: CHEBI:26710
 xref: PECO_GIT:76
-is_a: PECO:0007185 ! salt exposure
+is_a: PECO:0001004 ! inorganic chemical exposure
 
 [Term]
 id: PECO:0007049
@@ -9873,7 +9878,7 @@ name: organic matter content exposure
 alt_id: EO:0007052
 def: "An exposure involving growing plants in a growth media containing organic matter." [PECO:cooperl]
 synonym: "organic matter content treatment (narrow)" NARROW []
-is_a: PECO:0007050 ! soil texture exposure
+is_a: PECO:0007049 ! soil environment exposure
 
 [Term]
 id: PECO:0007053
@@ -9895,7 +9900,7 @@ is_a: PECO:0007050 ! soil texture exposure
 id: PECO:0007055
 name: Cochliobolus spp. exposure
 alt_id: EO:0007055
-def: "An exposure involving the growth of a plant with the pathogen Cochliobolus spp." [Gramene:ivy, NCBITaxon:5015]
+def: "An Ascomycota exposure (PECO:0007107) involving the exposure of a plant with the pathogen Cochliobolus spp." [Gramene:ivy, NCBITaxon:5015, PECO:cooperl]
 synonym: "Cochliobolus spp. treatment (narrow)" NARROW []
 is_a: PECO:0007107 ! Ascomycota exposure
 
@@ -9915,7 +9920,7 @@ is_obsolete: true
 
 [Term]
 id: PECO:0007058
-name: soil pH environment exposure
+name: soil pH exposure
 alt_id: EO:0007058
 def: "An exposure involving growing plants in soil growth media of varying pH levels." [Gramene:pankaj_jaiswal]
 synonym: "soil pH environment treatment (narrow)" NARROW []
@@ -9923,18 +9928,18 @@ is_a: PECO:0007049 ! soil environment exposure
 
 [Term]
 id: PECO:0007059
-name: acidic pH soil environment exposure
+name: acidic pH soil exposure
 alt_id: EO:0007059
 def: "An exposure involving growing plants in acidic (low pH) soil growth media." [Gramene:pankaj_jaiswal]
 synonym: "acidic pH soil environment treatment (narrow)" NARROW []
-is_a: PECO:0007058 ! soil pH environment exposure
+is_a: PECO:0007058 ! soil pH exposure
 is_a: PECO:0007134 ! acidic pH growth media environment exposure
 
 [Term]
 id: PECO:0007060
 name: Sphaerulina oryzina exposure
 alt_id: EO:0007060
-def: "A plant fungal exposure (PECO:0007233) involving the exposure of plant to the pathogen Sphaerulina oryzina." [Gramene:ivy, NCBITaxon:237189]
+def: "An Ascomycota exposure (PECO:0007107) involving the exposure of plant to the pathogen Sphaerulina oryzina." [Gramene:ivy, NCBITaxon:237189, PECO:Cooperl]
 comment: Sphaerulina oryzina is a causal agent for rice Narrow Brown Leaf Spot disease.
 synonym: "Cercospora janseana (related)" RELATED []
 synonym: "Cercospora oryzae (related)" RELATED []
@@ -9953,11 +9958,11 @@ is_a: PECO:0007064 ! ecological environment exposure
 
 [Term]
 id: PECO:0007062
-name: basic pH soil environment exposure
+name: basic pH soil exposure
 alt_id: EO:0007062
 def: "An exposure involving growing plants in basic (high pH) soil growth media." [Gramene:pankaj_jaiswal]
 synonym: "basic pH soil environment treatment (narrow)" NARROW []
-is_a: PECO:0007058 ! soil pH environment exposure
+is_a: PECO:0007058 ! soil pH exposure
 is_a: PECO:0007133 ! basic pH growth media environment exposure
 
 [Term]
@@ -9979,6 +9984,7 @@ id: PECO:0007064
 name: ecological environment exposure
 alt_id: EO:0007064
 def: "A plant exposure (PECO:0001001) involving exposure to the various factors that comprise a geographical/regional location." [Gramene:pankaj_jaiswal, PECO:cooperl]
+comment: An ecological environment includes both biotic and abiotic factors such as climate, soil, and water.
 synonym: "ecological environment treatment (narrow)" NARROW []
 xref: PECO_GIT:79
 is_a: PECO:0001001 ! plant exposure
@@ -9997,13 +10003,10 @@ is_a: PECO:0007073 ! Basidiomycota exposure
 id: PECO:0007066
 name: cytokinin exposure
 alt_id: EO:0007066
-def: "A growth hormone exposure (PECO:0007165) involving the use of cytokinin (or its homolog) growth hormone." [Gramene:pankaj_jaiswal]
-synonym: "6-benzylaminopurine (related)" RELATED []
+def: "A growth hormone exposure (PECO:0007165) involving the use of a cytokinin." [Gramene:pankaj_jaiswal]
 synonym: "cytokinin treatment (narrow)" NARROW []
-synonym: "N-benzyl-adenine (related)" RELATED []
-synonym: "verdan senescence (related)" RELATED []
 xref: PECO_GIT:71
-is_a: PECO:0007165 ! growth hormone exposure
+is_a: PECO:0007165 ! plant growth hormone exposure
 
 [Term]
 id: PECO:0007067
@@ -10021,8 +10024,8 @@ alt_id: EO:0007068
 def: "A growth hormone exposure (PECO:0007165) involving the use of ethylene (or its homolog) growth hormone." [Gramene:pankaj_jaiswal]
 synonym: "ethylene treatment (narrow)" NARROW []
 xref: PECO_GIT:71
-is_a: PECO:0001019 ! organic gas exposure
-is_a: PECO:0007165 ! growth hormone exposure
+is_a: PECO:0007023 ! gaseous exposure
+is_a: PECO:0007165 ! plant growth hormone exposure
 
 [Term]
 id: PECO:0007069
@@ -10032,13 +10035,13 @@ def: "A growth hormone exposure (PECO:0007165) involving the use of GA (or its h
 synonym: "GA regimen (related)" RELATED []
 synonym: "gibberellic acid treatment (narrow)" NARROW []
 xref: PECO_GIT:71
-is_a: PECO:0007165 ! growth hormone exposure
+is_a: PECO:0007165 ! plant growth hormone exposure
 
 [Term]
 id: PECO:0007070
 name: indole acetic acid exposure
 alt_id: EO:0007070
-def: "An auxin exposure (PECO:0007074) involving the use of IAA (or its homolog) growth hormone." [Gramene:pankaj_jaiswal]
+def: "An auxin exposure (PECO:0007074) involving the use of indole acetic acid." [Gramene:pankaj_jaiswal]
 synonym: "IAA regimen (related)" RELATED []
 synonym: "indole acetic acid treatment (narrow)" NARROW []
 xref: PECO_GIT:71
@@ -10065,7 +10068,7 @@ is_a: PECO:0007107 ! Ascomycota exposure
 id: PECO:0007073
 name: Basidiomycota exposure
 alt_id: EO:0007073
-def: "A fungal plant exposure (PECO:0007233) involving the exposure of plant to the pathogen belonging to Basidiomycetes class." [Gramene:ivy, NCBITaxon:5204]
+def: "A fungal plant exposure (PECO:0007233) involving the exposure of plant to a fungal pathogen belonging to Basidiomycetes class." [Gramene:ivy, NCBITaxon:5204, PECO:cooperl]
 synonym: "basidiomycetes (related)" RELATED []
 synonym: "Basidiomycota treatment (narrow)" NARROW []
 xref: NCBITaxon:5204
@@ -10076,15 +10079,17 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007074
 name: auxin exposure
 alt_id: EO:0007074
-def: "A growth hormone exposure (PECO:0007165) involving the use of auxin (or its homolog)." [Gramene:pankaj_jaiswal]
+def: "A plant growth hormone exposure (PECO:0007165) involving the use of an auxin." [Gramene:pankaj_jaiswal]
 synonym: "auxin treatment (narrow)" NARROW []
 xref: PECO_GIT:71
-is_a: PECO:0007165 ! growth hormone exposure
+is_a: PECO:0007165 ! plant growth hormone exposure
 
 [Term]
 id: PECO:0007075
 name: high light intensity exposure
 alt_id: EO:0007075
+def: "A light intensity exposure (PECO:0007224) where the intensity of the light for plant growth is between 500–1,000 foot-candles." [PECO:cooperl]
+comment: A foot-candle is a unit of illuminance equal to one lumen per square foot, measuring how much light is received by a surface.
 synonym: "high light intensity treatment (narrow)" NARROW []
 is_a: PECO:0007224 ! light intensity exposure
 
@@ -10092,6 +10097,8 @@ is_a: PECO:0007224 ! light intensity exposure
 id: PECO:0007076
 name: moderate light intensity exposure
 alt_id: EO:0007076
+def: "A light intensity exposure (PECO:0007224) where the intensity of the light for plant growth is between 200–1,000 foot-candles." [PECO:cooperl]
+comment: A foot-candle is a unit of illuminance equal to one lumen per square foot, measuring how much light is received by a surface.
 synonym: "moderate light intensity treatment (narrow)" NARROW []
 is_a: PECO:0007224 ! light intensity exposure
 
@@ -10130,21 +10137,24 @@ def: "A growth hormone exposure (PECO:0007165) involving the use of JA (or its h
 synonym: "JA regimen (related)" RELATED []
 synonym: "jasmonic acid treatment (narrow)" NARROW []
 xref: PECO_GIT:71
-is_a: PECO:0007165 ! growth hormone exposure
+is_a: PECO:0007165 ! plant growth hormone exposure
 
 [Term]
 id: PECO:0007081
-name: river bank region exposure
+name: riverbank region exposure
 alt_id: EO:0007081
-synonym: "river bank region treatment (narrow)" NARROW []
-is_a: PECO:0007396 ! flood prone region exposure
+def: "A flood-prone region exposure (PECO:0007396) in which a plant is growing on the side of a river where flooding can occur." [PECO:cooperl]
+synonym: "river bank region exposure (exact)" EXACT []
+synonym: "riverbank region treatment (narrow)" NARROW []
+is_a: PECO:0007396 ! flood-prone region exposure
 
 [Term]
 id: PECO:0007082
 name: sea coast region exposure
 alt_id: EO:0007082
+def: "A flood-prone region exposure (PECO:0007396) in which a plant is growing near the edge of an ocean where flooding can occur." [PECO:cooperl]
 synonym: "sea coast region treatment (narrow)" NARROW []
-is_a: PECO:0007396 ! flood prone region exposure
+is_a: PECO:0007396 ! flood-prone region exposure
 
 [Term]
 id: PECO:0007083
@@ -10215,7 +10225,6 @@ name: ammonium nitrate exposure
 alt_id: EO:0007090
 def: "Treatment involving the use of ammonium nitrate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "ammonium nitrate treatment (narrow)" NARROW []
-is_a: PECO:0007185 ! salt exposure
 is_a: PECO:0007406 ! nitrate exposure
 
 [Term]
@@ -10248,7 +10257,6 @@ name: sodium nitrate exposure
 alt_id: EO:0007094
 def: "Treatment involving the use of sodium nitrate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "sodium nitrate treatment (narrow)" NARROW []
-is_a: PECO:0007185 ! salt exposure
 is_a: PECO:0007406 ! nitrate exposure
 
 [Term]
@@ -10257,7 +10265,6 @@ name: calcium nitrate exposure
 alt_id: EO:0007095
 def: "Treatment involving the use of calcium nitrate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "calcium nitrate treatment (narrow)" NARROW []
-is_a: PECO:0007185 ! salt exposure
 is_a: PECO:0007406 ! nitrate exposure
 
 [Term]
@@ -10266,7 +10273,6 @@ name: potassium nitrate exposure
 alt_id: EO:0007096
 def: "Treatment involving the use of potassiumium nitrate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "potassium nitrate treatment (narrow)" NARROW []
-is_a: PECO:0007185 ! salt exposure
 is_a: PECO:0007406 ! nitrate exposure
 
 [Term]
@@ -10278,7 +10284,6 @@ synonym: "ammonium sulfate treatment (narrow)" NARROW []
 is_a: PECO:0001008 ! sulfate exposure
 is_a: PECO:0007079 ! sulfate fertilizer exposure
 is_a: PECO:0007102 ! nitrogen fertilizer exposure
-is_a: PECO:0007185 ! salt exposure
 is_a: PECO:0007284 ! nitrogen macronutrient exposure
 
 [Term]
@@ -10289,7 +10294,6 @@ def: "Treatment involving the use of ferrous sulfate supplement to study various
 synonym: "ferrous sulfate treatment (narrow)" NARROW []
 is_a: PECO:0001008 ! sulfate exposure
 is_a: PECO:0007079 ! sulfate fertilizer exposure
-is_a: PECO:0007185 ! salt exposure
 
 [Term]
 id: PECO:0007099
@@ -10298,9 +10302,7 @@ alt_id: EO:0007099
 def: "Treatment involving the use of potassium sulfate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "potassium sulfate treatment (narrow)" NARROW []
 is_a: PECO:0001008 ! sulfate exposure
-is_a: PECO:0007044 ! mineral exposure
 is_a: PECO:0007079 ! sulfate fertilizer exposure
-is_a: PECO:0007185 ! salt exposure
 
 [Term]
 id: PECO:0007100
@@ -10353,11 +10355,11 @@ is_a: PECO:0007284 ! nitrogen macronutrient exposure
 id: PECO:0007105
 name: abscisic acid exposure
 alt_id: EO:0007105
-def: "A growth hormone exposure (PECO:0007165) involving the use of abscisic acid (or its homolog)." [Gramene:pankaj_jaiswal]
+def: "A plant growth hormone exposure (PECO:0007165) involving the use of abscisic acid." [Gramene:pankaj_jaiswal]
 synonym: "ABA regimen (related)" RELATED []
 synonym: "abscisic acid treatment (narrow)" NARROW []
 xref: PECO_GIT:71
-is_a: PECO:0007165 ! growth hormone exposure
+is_a: PECO:0007165 ! plant growth hormone exposure
 
 [Term]
 id: PECO:0007106
@@ -10374,7 +10376,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007107
 name: Ascomycota exposure
 alt_id: EO:0007107
-def: "A fungal plant exposure (PECO:0007233) involving the exposure of plant to the pathogen belonging to Ascomycetes class." [Gramene:ivy, NCBITaxon:4890]
+def: "A fungal plant exposure (PECO:0007233) involving the exposure of plant to a fungal pathogen belonging to Ascomycetes class." [Gramene:ivy, NCBITaxon:4890, PECO:cooperl]
 synonym: "ascomycetes (related)" RELATED []
 synonym: "Ascomycota treatment (narrow)" NARROW []
 xref: NCBITaxon:4890
@@ -10570,34 +10572,35 @@ is_a: PECO:0007078 ! light quantity exposure
 id: PECO:0007129
 name: UV-C light exposure
 alt_id: EO:0007129
-def: "The treatment using UV-C light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 280-10nm." [Gramene:pankaj_jaiswal]
+def: "An ultraviolet light (PECO:0007222) exposure involving light in the wavelength range of 100-280 nm." [Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "UV-C light treatment (narrow)" NARROW []
-is_a: PECO:0007222 ! UV light exposure
+synonym: "UVC exposure (exact)" EXACT []
+is_a: PECO:0007222 ! ultraviolet light exposure
 
 [Term]
 id: PECO:0007130
-name: near infra-red light exposure
+name: near infrared light exposure
 alt_id: EO:0007130
-def: "The treatment using infra-red light either exclusively or as part of a supplemental light of near IR band that contains energy in the range of wavelengths 750-1300nm, which is closest to the visible light." [Gramene:pankaj_jaiswal]
+def: "The treatment using infrared light that contains energy in the range of wavelengths 750-1300 nm, which is closest to visible light." [Gramene:pankaj_jaiswal]
 synonym: "near infra-red light treatment (narrow)" NARROW []
 synonym: "near IR light regimen (related)" RELATED []
-is_a: PECO:0007202 ! IR light exposure
+is_a: PECO:0007202 ! infrared light exposure
 
 [Term]
 id: PECO:0007131
-name: middle infra-red light exposure
+name: middle infrared light exposure
 alt_id: EO:0007131
-def: "The treatment using middle infra-red light either exclusively or as part of a supplemental light treatment involving middle IR band that contains energy in the range of wavelengths 1300-3000nm." [Gramene:pankaj_jaiswal]
+def: "The treatment using middle infrared light involving middle light that contains energy in the range of wavelengths 1300-3000 nm." [Gramene:pankaj_jaiswal]
 synonym: "middle infra-red light treatment (narrow)" NARROW []
-is_a: PECO:0007202 ! IR light exposure
+is_a: PECO:0007202 ! infrared light exposure
 
 [Term]
 id: PECO:0007132
-name: far infra-red light exposure
+name: far infrared light exposure
 alt_id: EO:0007132
-def: "The treatment using far infra-red light either exclusively or as part of a supplemental light treatment involving far IR band that contains energy in the range of wavelengths 3000-14000nm." [Gramene:pankaj_jaiswal]
-synonym: "far infra-red light treatment (narrow)" NARROW []
-is_a: PECO:0007202 ! IR light exposure
+def: "The treatment using far infrared light involving light that contains energy in the range of wavelengths 3000-14000 nm." [Gramene:pankaj_jaiswal, PECO:cooperl]
+synonym: "far infrared light treatment (narrow)" NARROW []
+is_a: PECO:0007202 ! infrared light exposure
 
 [Term]
 id: PECO:0007133
@@ -10614,7 +10617,7 @@ id: PECO:0007134
 name: acidic pH growth media environment exposure
 alt_id: EO:0007134
 alt_id: EO:0007170
-def: "The treatment involving an exposure to acidic pH levels of the growth media." [Gramene:pankaj_jaiswal]
+def: "The treatment involving an exposure to acidic pH levels of the growth media." [CHEBI:37527, Gramene:pankaj_jaiswal]
 synonym: "acidic pH environment (related)" RELATED []
 synonym: "acidic pH growth media environment treatment (narrow)" NARROW []
 is_a: PECO:0007171 ! pH exposure
@@ -10629,11 +10632,11 @@ is_a: PECO:0007107 ! Ascomycota exposure
 
 [Term]
 id: PECO:0007136
-name: Achlya spp. exposure
+name: Achlya sp. exposure
 alt_id: EO:0007136
-def: "The treatment involving an exposure of plant to the Achlya spp." [Gramene:pankaj_jaiswal, NCBITaxon:4765]
-synonym: "Achlya spp. treatment (narrow)" NARROW []
-is_a: PECO:0007106 ! Stramenopiles exposure
+def: "An Oomycota exposure (PECO:0001074) involving the exposure of a plant structure (PO:0009011) to an Achyla sp. organism." [Gramene:pankaj_jaiswal, NCBITaxon:4765, PECO:cooperl]
+synonym: "Achlya sp. treatment (narrow)" NARROW []
+is_a: PECO:0001075 ! Oomycota exposure
 
 [Term]
 id: PECO:0007137
@@ -10713,7 +10716,7 @@ is_a: PECO:0007246 ! bacterial plant exposure
 id: PECO:0007146
 name: gravity exposure
 alt_id: EO:0007146
-def: "The treatment involving use of gravity factor to study various types of responses in presence, absence or modified levels of gravity." [Gramene:pankaj_jaiswal]
+def: "A physical plant exposure (PECO:0007316) involving a treatment or exposure of a plant structure (PO:0009011) to different levels of gravity." [Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "gravity treatment (narrow)" NARROW []
 is_a: PECO:0007316 ! physical plant exposure
 
@@ -10755,19 +10758,18 @@ is_obsolete: true
 id: PECO:0007151
 name: radiation exposure
 alt_id: EO:0007151
-def: "A physical plant exposure (PECO:0007316) involving an exposure with a radiation type, intensity or quantity." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "A physical plant exposure (PECO:0007316) involvinga treatment or exposure of a plant structure (PO:0009011) with a radiation type, intensity or quantity." [Gramene:pankaj_jaiswal, PECO:cooperl]
 comment: Electromagnetic radiation is classified according to the frequency of its waves. The electromagnetic spectrum, in order of increasing frequency and decreasing wavelength, consists of radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays and gamma rays.
 synonym: "light regimen (related)" RELATED []
 synonym: "radiation treatment (narrow)" NARROW []
 xref: Wikipedia:Electromagnetic_radiation
 is_a: PECO:0007316 ! physical plant exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007152
 name: radiation intensity exposure
 alt_id: EO:0007152
-def: "The treatment involving amount of energy of any radiation incident upon (or flowing through) unit area, perpendicular to the radiation source, in unit time." [Gramene:pankaj_jaiswal]
+def: "The treatment involving amount of energy of any radiation incident upon (or flowing through) unit area, in unit time." [Gramene:pankaj_jaiswal]
 synonym: "radiation intensity treatment (narrow)" NARROW []
 is_a: PECO:0007151 ! radiation exposure
 
@@ -10799,6 +10801,7 @@ is_a: PECO:0007049 ! soil environment exposure
 id: PECO:0007156
 name: clay soil exposure
 alt_id: EO:0007156
+def: "A soil type exposure (PECO:0007155) involving a treatment or exposure of a plant structure (PO:0009011) to clay soil." [ENVO:00002262, PECO:cooperl]
 synonym: "clay soil treatment (narrow)" NARROW []
 is_a: PECO:0007155 ! soil type exposure
 is_a: RO:0002310 ! exposure event or process
@@ -10807,6 +10810,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007157
 name: loam soil exposure
 alt_id: EO:0007157
+def: "A soil type exposure (PECO:0007155) involving a treatment or exposure of a plant structure (PO:0009011) to loam soil." [ENVO:00002258, PECO:cooperl]
 synonym: "loam soil treatment (narrow)" NARROW []
 is_a: PECO:0007155 ! soil type exposure
 
@@ -10814,6 +10818,7 @@ is_a: PECO:0007155 ! soil type exposure
 id: PECO:0007158
 name: sandy soil exposure
 alt_id: EO:0007158
+def: "A soil type exposure (PECO:0007155) involving a treatment or exposure of a plant structure (PO:0009011) to sandy soil." [ENVO:00002229, PECO:cooperl]
 synonym: "sandy soil treatment (narrow)" NARROW []
 is_a: PECO:0007155 ! soil type exposure
 is_a: RO:0002310 ! exposure event or process
@@ -10822,27 +10827,25 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007159
 name: sandy loam soil exposure
 alt_id: EO:0007159
+def: "A soil type exposure (PECO:0007155) involving a treatment or exposure of a plant structure (PO:0009011) to sandy loam soil." [ENVO:06105274, PECO:cooperl]
 synonym: "sandy loam soil treatment (narrow)" NARROW []
 is_a: PECO:0007155 ! soil type exposure
 
 [Term]
 id: PECO:0007160
-name: water temperature exposure
+name: OBSOLETE water temperature exposure
 alt_id: EO:0007160
-def: "The treatment involving an exposure to water with varying degree of temperature, which may depend on regional environment." [Gramene:pankaj_jaiswal]
+def: "OBSOLETE The treatment involving an exposure to water with varying degree of temperature, which may depend on regional environment." [Gramene:pankaj_jaiswal]
 synonym: "water temperature treatment (narrow)" NARROW []
-is_a: PECO:0007175 ! temperature environment exposure
-is_a: PECO:0007198 ! water environment exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007161
-name: air temperature exposure
+name: OBSOLETE air temperature exposure
 alt_id: EO:0007161
-def: "The treatment involving an exposure to wind with varying degree of temperature, which may depend on the study type or the regional environment." [Gramene:pankaj_jaiswal]
+def: "OBSOLETE The treatment involving an exposure to wind with varying degree of temperature, which may depend on the study type or the regional environment." [Gramene:pankaj_jaiswal]
 synonym: "air temperature treatment (narrow)" NARROW []
-is_a: PECO:0007175 ! temperature environment exposure
-is_a: PECO:0007382 ! wind environment exposure
-is_a: RO:0002310 ! exposure event or process
+is_obsolete: true
 
 [Term]
 id: PECO:0007162
@@ -10870,7 +10873,7 @@ is_a: PECO:0007282 ! standing water exposure
 
 [Term]
 id: PECO:0007165
-name: growth hormone exposure
+name: plant growth hormone exposure
 alt_id: EO:0007165
 def: "A chemical exposure (PECO:0007189) involving the application of one or more plant growth hormones." [Gramene:pankaj_jaiswal]
 synonym: "growth hormone treatment (narrow)" NARROW []
@@ -10884,7 +10887,7 @@ name: Pythium spinosum exposure
 alt_id: EO:0007166
 def: "The treatment involving an exposure of plant to the Pythium spinosum. It is a causal agent for rice seedling blight (fungal) or feeder root necrosis or water mold dieases. Water mold diease is also called as seed rot or seedling damping-off disease." [Gramene:pankaj_jaiswal, NCBITaxon:82948]
 synonym: "Pythium spinosum treatment (narrow)" NARROW []
-is_a: PECO:0007328 ! Pythium spp. exposure
+is_a: PECO:0007328 ! Pythium sp. exposure
 
 [Term]
 id: PECO:0007167
@@ -10926,25 +10929,25 @@ is_a: PECO:0007282 ! standing water exposure
 
 [Term]
 id: PECO:0007173
-name: warm/hot temperature exposure
+name: high temperature exposure
 alt_id: EO:0007173
-def: "The treatment involving an exposure to above optimal temperature, which may depend on the study type or the regional environment." [Gramene:pankaj_jaiswal]
-synonym: "warm/hot temperature treatment (narrow)" NARROW []
-is_a: PECO:0007175 ! temperature environment exposure
+def: "The treatment involving an exposure to above optimal temperature." [Gramene:pankaj_jaiswal]
+synonym: "high temperature treatment (narrow)" NARROW []
+is_a: PECO:0007175 ! temperature exposure
 
 [Term]
 id: PECO:0007174
 name: cold temperature exposure
 alt_id: EO:0007174
-def: "The treatment involving an exposure to cold or sub-optimal temperature, which may depend on the study type or the regional environment." [Gramene:pankaj_jaiswal]
+def: "The treatment involving an exposure to cold or sub-optimal temperature." [Gramene:pankaj_jaiswal]
 synonym: "cold temperature treatment (narrow)" NARROW []
-is_a: PECO:0007175 ! temperature environment exposure
+is_a: PECO:0007175 ! temperature exposure
 
 [Term]
 id: PECO:0007175
-name: temperature environment exposure
+name: temperature exposure
 alt_id: EO:0007175
-def: "A physical plant exposure (PECO:0007316) involving an exposure to varying degree of temperature, which may depend on regional environment." [Gramene:pankaj_jaiswal]
+def: "A physical plant exposure (PECO:0007316) involving a treatment or exposure of a plant structure (PO:0009011) to variations in temperature." [Gramene:pankaj_jaiswal]
 synonym: "temperature environment treatment (narrow)" NARROW []
 is_a: PECO:0007316 ! physical plant exposure
 
@@ -10952,7 +10955,7 @@ is_a: PECO:0007316 ! physical plant exposure
 id: PECO:0007176
 name: altitude exposure
 alt_id: EO:0007176
-def: "The treatment involving an exposure to a given elevation/height above sea level." [Gramene:pankaj_jaiswal]
+def: "An ecological environment exposure (PECO:0007064) involving growth at a given elevation or height above sea level." [Gramene:pankaj_jaiswal]
 synonym: "altitude treatment (narrow)" NARROW []
 is_a: PECO:0007064 ! ecological environment exposure
 
@@ -10962,13 +10965,14 @@ name: Pythium myriotylum exposure
 alt_id: EO:0007177
 def: "Suggests the exposure of plant to the Pythium myriotylum. It is a causal agent for rice feeder root necrosis disease." [Gramene:pankaj_jaiswal, NCBITaxon:82941]
 synonym: "Pythium myriotylum treatment (narrow)" NARROW []
-is_a: PECO:0007328 ! Pythium spp. exposure
+is_a: PECO:0007328 ! Pythium sp. exposure
 
 [Term]
 id: PECO:0007178
 name: atmospheric pressure exposure
 alt_id: EO:0007178
-def: "The treatment involving an exposure to a given pressure of the atmosphere at a given point. Its measurement can be expressed in several ways. One is in millibars. Another is in inches or millimeters of mercury (Hg)." [Gramene:pankaj_jaiswal]
+def: "An ecological environment exposure (PECO:0007064) involving growth at a given air pressure." [Gramene:pankaj_jaiswal]
+comment: Atmospheric pressure is measured using a barometer and is expressed in Pascals (Pa), millibars (mb), the standard atmosphere (atm), or in inches or millimeters of mercury (Hg).
 synonym: "atmospheric pressure treatment (narrow)" NARROW []
 synonym: "barometric pressure (related)" RELATED []
 is_a: PECO:0007064 ! ecological environment exposure
@@ -10979,24 +10983,24 @@ name: Pythium irregulare exposure
 alt_id: EO:0007179
 def: "The treatment involving exposure of plant to the Pythium irregulare. It is a causal agent for rice feeder root necrosis disease." [Gramene:pankaj_jaiswal, NCBITaxon:36331]
 synonym: "Pythium irregulare treatment (narrow)" NARROW []
-is_a: PECO:0007328 ! Pythium spp. exposure
+is_a: PECO:0007328 ! Pythium sp. exposure
 
 [Term]
 id: PECO:0007180
 name: 2,4-dichlorophenoxyacetic acid exposure
 alt_id: EO:0007180
-def: "An auxin exposure (PECO:0007074) involving use of 2,4-D growth hormone and herbicide." [CAS:94-75-7, Gramene:pankaj_jaiswal]
-synonym: "2,4-D regimen (related)" RELATED []
+def: "An auxin exposure (PECO:0007074) involving use of 2,4-dichlorophenoxyacetic acid." [CAS:94-75-7, Gramene:pankaj_jaiswal]
+synonym: "2,4-D exposure (related)" RELATED []
 synonym: "2,4-dichlorophenoxyacetic acid treatment (narrow)" NARROW []
-synonym: "Amidox (related)" RELATED [CAS:94-75-7]
-synonym: "B-Selektonon (related)" RELATED [CAS:94-75-7]
-synonym: "Crotilin (related)" RELATED [CAS:94-75-7]
-synonym: "Decamine (related)" RELATED [CAS:94-75-7]
-synonym: "Dicopur (related)" RELATED [CAS:94-75-7]
-synonym: "U-5043 (related)" RELATED [CAS:94-75-7]
-synonym: "Weed Tox (related)" RELATED [CAS:94-75-7]
-synonym: "Weedar 64A (related)" RELATED [CAS:94-75-7]
-synonym: "Weedone-2,4-DP (related)" RELATED [CAS:94-75-7]
+synonym: "Amidox (related)" RELATED []
+synonym: "B-Selektonon (related)" RELATED []
+synonym: "Crotilin (related)" RELATED []
+synonym: "Decamine (related)" RELATED []
+synonym: "Dicopur (related)" RELATED []
+synonym: "U-5043 (related)" RELATED []
+synonym: "Weed Tox (related)" RELATED []
+synonym: "Weedar 64A (related)" RELATED []
+synonym: "Weedone-2,4-DP (related)" RELATED []
 xref: PECO_GIT:71
 is_a: PECO:0007074 ! auxin exposure
 is_a: PECO:0007183 ! herbicide exposure
@@ -11007,7 +11011,6 @@ name: rainfall exposure
 alt_id: EO:0007181
 def: "The treatment involving an exposure to a given amount of rainfall." [Gramene:pankaj_jaiswal]
 synonym: "rainfall treatment (narrow)" NARROW []
-is_a: PECO:0007064 ! ecological environment exposure
 is_a: PECO:0007198 ! water environment exposure
 is_a: RO:0002310 ! exposure event or process
 
@@ -11017,7 +11020,7 @@ name: Pythium graminicola exposure
 alt_id: EO:0007182
 def: "The treatment involving exposure of plant to the Pythium graminicola. It is a causal agent for rice feeder root necrosis disease." [Gramene:pankaj_jaiswal, NCBITaxon:82937]
 synonym: "Pythium graminicola treatment (narrow)" NARROW []
-is_a: PECO:0007328 ! Pythium spp. exposure
+is_a: PECO:0007328 ! Pythium sp. exposure
 
 [Term]
 id: PECO:0007183
@@ -11035,19 +11038,18 @@ name: Pythium dissotocum exposure
 alt_id: EO:0007184
 def: "The treatment involving exposure of plant to the Pythium dissotocum. It is a causal agent for rice seedling blight (fungal) or water mold dieases. Water mold diease is also called as seed rot or seedling damping-off disease." [Gramene:pankaj_jaiswal, NCBITaxon:82936]
 synonym: "Pythium dissotocum treatment (narrow)" NARROW []
-is_a: PECO:0007328 ! Pythium spp. exposure
+is_a: PECO:0007328 ! Pythium sp. exposure
 
 [Term]
 id: PECO:0007185
-name: salt exposure
+name: OBSOLETE salt exposure
 alt_id: EO:0007185
 def: "A chemical exposure (PECO:0007189) involving use of salts as supplement to liquid and soil growth media to study various types of responses on their application." [Gramene:pankaj_jaiswal]
 comment: This treatment may be used to simulate the growth conditions of sea coast regions and saline/sodic soils.
 synonym: "salt treatment (narrow)" NARROW []
 xref: CHEBI:24866
 xref: PECO_GIT:76
-is_a: PECO:0007189 ! chemical exposure
-is_a: RO:0002310 ! exposure event or process
+is_obsolete: true
 
 [Term]
 id: PECO:0007186
@@ -11055,14 +11057,13 @@ name: Pythium catenulatum exposure
 alt_id: EO:0007186
 def: "The treatment involving exposure of plant to the Pythium catenulatum. It is a causal agent for rice feeder root necrosis disease." [Gramene:pankaj_jaiswal, NCBITaxon:83917]
 synonym: "Pythium catenulatum treatment (narrow)" NARROW []
-is_a: PECO:0007328 ! Pythium spp. exposure
+is_a: PECO:0007328 ! Pythium sp. exposure
 
 [Term]
 id: PECO:0007187
 name: salicylic acid exposure
 alt_id: EO:0007187
 def: "An organic chemical exposure (PECO:0001003) involving the application of salicylic acid (CHEBI:16914)." [CHEBI:16914, Gramene:pankaj_jaiswal, PECO:cooperl]
-comment: An organic chemical treatment (PECO:0001003) invloving the application of salicylic acid (CHEBI:16914).
 synonym: "salicylic acid treatment (narrow)" NARROW []
 xref: PECO_GIT:63
 is_a: PECO:0001003 ! organic chemical exposure
@@ -11074,7 +11075,7 @@ name: Pythium arrhenomanes exposure
 alt_id: EO:0007188
 def: "The treatment involving exposure of plant to the Pythium arrhenomanes. It is a causal agent for rice feeder root necrosis disease." [Gramene:pankaj_jaiswal, NCBITaxon:83932]
 synonym: "Pythium arrhenomanes treatment (narrow)" NARROW []
-is_a: PECO:0007328 ! Pythium spp. exposure
+is_a: PECO:0007328 ! Pythium sp. exposure
 
 [Term]
 id: PECO:0007189
@@ -11114,10 +11115,11 @@ is_a: PECO:0007107 ! Ascomycota exposure
 
 [Term]
 id: PECO:0007193
-name: day light intensity exposure
+name: OBSOLETE day light intensity exposure
 alt_id: EO:0007193
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "day light intensity treatment (narrow)" NARROW []
-is_a: PECO:0007224 ! light intensity exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007194
@@ -11126,7 +11128,8 @@ alt_id: EO:0007194
 def: "The treatment involving exposure of plant to the pathogen Sclerophthora macrospora. It is a causal agent for rice Downy Mildew disease." [Gramene:ivy]
 synonym: "Sclerophthora macrospora (related)" RELATED []
 synonym: "Sclerospora macrospora treatment (narrow)" NARROW []
-is_a: PECO:0007630 ! Sclerospora spp. exposure
+is_a: PECO:0007630 ! Sclerospora sp. exposure
+is_a: PECO:0007631 ! Sclerospora graminicola exposure
 
 [Term]
 id: PECO:0007195
@@ -11142,10 +11145,10 @@ is_a: PECO:0007110 ! dsRNA virus exposure
 
 [Term]
 id: PECO:0007196
-name: light exposure
+name: OBSOLETE light exposure
 alt_id: EO:0007196
 alt_id: EO:0007201
-def: "The treatment involving day light as the light of the sun or the artificial light in a growth chamber." [Gramene:pankaj_jaiswal]
+def: "OBSOLETE The treatment involving day light as the light of the sun or the artificial light in a growth chamber." [Gramene:pankaj_jaiswal]
 comment: A type of light used in a commercial light box to simulate natural daylight. For experiments carried out in growth chambers, the daylight is a light source providing a color temperature of 6500+/-200 K at an illumination of 90 to 120 ft/candles. This source is typically provided by fluorescent,  tungsten or halogen lamps.
 synonym: "artificial daylight (related)" RELATED []
 synonym: "artificial light (related)" RELATED []
@@ -11153,7 +11156,7 @@ synonym: "day light (related)" RELATED []
 synonym: "light treatment (narrow)" NARROW []
 synonym: "natural light (related)" RELATED []
 synonym: "sun light (related)" RELATED []
-is_a: PECO:0007154 ! radiation quality exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007197
@@ -11190,26 +11193,26 @@ is_a: PECO:0007128 ! intermittent light exposure
 
 [Term]
 id: PECO:0007202
-name: IR light exposure
+name: infrared light exposure
 alt_id: EO:0007202
-def: "The treatment using infra red (IR) light either exclusively or as part of a supplemental light treatment involving IR light in the wavelength range of 700nm-1mm." [Gramene:pankaj_jaiswal]
+def: "A radiation quality exposure (PECO:0007154) involving the exposure to infrared (IR) light in the wavelength range of 780 nm-1mm." [Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "IR light treatment (narrow)" NARROW []
-is_a: PECO:0007196 ! light exposure
+is_a: PECO:0007154 ! radiation quality exposure
 
 [Term]
 id: PECO:0007203
 name: far red light exposure
 alt_id: EO:0007203
-def: "The treatment using far red light either exclusively or as part of a supplemental light treatment involving red color light in the wavelength range of 800-700 nM." [Gramene:pankaj_jaiswal]
+def: "A radiation quality exposure (PECO:0007154) involving the exposure to far red light in the wavelength range of 700-800 nm." [Gramene:pankaj_jaiswal, TO:cooperl]
 synonym: "far red light treatment (narrow)" NARROW []
 synonym: "Pfr light (related)" RELATED []
-is_a: PECO:0007196 ! light exposure
+is_a: PECO:0007154 ! radiation quality exposure
 
 [Term]
 id: PECO:0007204
 name: 1-naphthaleneacetic acid exposure
 alt_id: EO:0007204
-def: "An auxin exposure (PECO:0007074) involving use of 1-naphthaleneacetic acid growth hormone and herbicide." [CAS:[68-87-3\], Gramene:pankaj_jaiswal]
+def: "An auxin exposure (PECO:0007074) involving use of 1-naphthaleneacetic acid." [CAS:86-87-3, Gramene:pankaj_jaiswal]
 synonym: "1-naphthaleneacetic acid treatment (narrow)" NARROW []
 synonym: "NAA (related)" RELATED []
 synonym: "Naphthylacetic acid (related)" RELATED []
@@ -11291,7 +11294,7 @@ is_a: PECO:0007357 ! biotic plant exposure
 id: PECO:0007214
 name: Alternaria spp. exposure
 alt_id: EO:0007214
-def: "The treatment involving exposure of plant to the pathogenic Alternaria sp." [Gramene:ivy, NCBITaxon:5598]
+def: "An Ascomycota exposure (PECO:0007107) involving exposure of a plant to Alternaria sp." [Gramene:ivy, NCBITaxon:5598, PECO:cooperl]
 synonym: "Alternaria spp. treatment (narrow)" NARROW []
 is_a: PECO:0007107 ! Ascomycota exposure
 
@@ -11347,18 +11350,19 @@ is_a: PECO:0007221 ! visible light exposure
 id: PECO:0007221
 name: visible light exposure
 alt_id: EO:0007221
-def: "The treatment using visible light in the wavelength range of 380-780 nM." [Gramene:pankaj_jaiswal]
-comment: Visible light  is the portion of the electromagnetic spectrum that is visible to the human eye. The optical spectrum is a composite, or mixture, of the various colors.
+def: "A radiation quality exposure (PECO:0007154) involving the exposure to visible light with the wavelength range of 380-780 nm." [Gramene:pankaj_jaiswal]
+comment: Visible light is the portion of the electromagnetic spectrum that is visible to the human eye. The optical spectrum is a composite, or mixture, of the various colors.
 synonym: "visible light treatment (narrow)" NARROW []
-is_a: PECO:0007196 ! light exposure
+is_a: PECO:0007154 ! radiation quality exposure
 
 [Term]
 id: PECO:0007222
-name: UV light exposure
+name: ultraviolet light exposure
 alt_id: EO:0007222
-def: "The treatment using UV-B light either exclusively or as part of a supplemental light involving electromagnetic radiation in the wavelength range of 315-10nm." [Gramene:pankaj_jaiswal]
-synonym: "UV light treatment (narrow)" NARROW []
-is_a: PECO:0007196 ! light exposure
+def: "A radiation quality exposure (PECO:0007154) involving the exposure to electromagnetic radiation in the wavelength range of 100-400 nm." [Gramene:pankaj_jaiswal, PECO:cooperl]
+synonym: "ultraviolet light treatment (exact)" EXACT []
+synonym: "UV light exposure (exact)" EXACT []
+is_a: PECO:0007154 ! radiation quality exposure
 
 [Term]
 id: PECO:0007223
@@ -11370,12 +11374,14 @@ synonym: "cadmium chloride treatment (narrow)" NARROW []
 synonym: "CdCl2 (related)" RELATED []
 xref: PECO_GIT:60
 is_a: PECO:0001018 ! cadmium exposure
+is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007224
 name: light intensity exposure
 alt_id: EO:0007224
-def: "The treatment involving exposure of plant or a plant part to the amount of light energy incident upon (or flowing through) unit area, perpendicular to the radiation source, in unit time." [Gramene:pankaj_jaiswal]
+def: "An exposure of a plant or a plant part to the amount of light energy incident upon (or flowing through) a unit area in unit time." [Gramene:pankaj_jaiswal]
+comment: Light intensity can be expressed in photometric units like lumens (total light output) or lux (light per area). The formula for intensity (I) is power (P) divided by area (A): (I=P/A). A foot-candle is a unit of illuminance equal to one lumen per square foot, measuring how much light is received by a surface
 synonym: "light intensity treatment (narrow)" NARROW []
 is_a: PECO:0007152 ! radiation intensity exposure
 
@@ -11383,7 +11389,7 @@ is_a: PECO:0007152 ! radiation intensity exposure
 id: PECO:0007225
 name: fluorine nutrient exposure
 alt_id: EO:0007225
-def: "The treatment involving exposure of plant to fluorine as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to fluorine as supplement to study various types of responses." [CHEBI:24061, Gramene:pankaj_jaiswal]
 synonym: "fluorine nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007047 ! other nutrient exposure
 is_a: PECO:0007239 ! micronutrient exposure
@@ -11412,7 +11418,7 @@ is_a: PECO:0007055 ! Cochliobolus spp. exposure
 id: PECO:0007228
 name: chromium nutrient exposure
 alt_id: EO:0007228
-def: "The treatment involving exposure of plant to chromium as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to chromium as supplement to study various types of responses." [CHEBI:28073, Gramene:pankaj_jaiswal]
 synonym: "chromium nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007047 ! other nutrient exposure
 is_a: PECO:0007239 ! micronutrient exposure
@@ -11433,14 +11439,14 @@ is_a: PECO:0007341 ! Fusarium exposure
 id: PECO:0007230
 name: iodine nutrient exposure
 alt_id: EO:0007230
-def: "The treatment involving exposure of plant to iodine as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to iodine as supplement to study various types of responses." [CHEBI:24859, Gramene:pankaj_jaiswal]
 synonym: "iodine nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007047 ! other nutrient exposure
 is_a: PECO:0007239 ! micronutrient exposure
 
 [Term]
 id: PECO:0007231
-name: study type
+name: plant study condition
 alt_id: EO:0007231
 def: "A plant experimental condition (PECO:0007359) or set of conditions describing what kind of plant growth facility was used for the experiment." [Gramene:pankaj_jaiswal, PECO:cooperl]
 xref: PECO_GIT:80
@@ -11450,7 +11456,7 @@ is_a: PECO:0007359 ! plant experimental condition
 id: PECO:0007232
 name: selenium nutrient exposure
 alt_id: EO:0007232
-def: "The treatment involving exposure of plant to selenium as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to selenium as supplement to study various types of responses." [CHEBI:27568, Gramene:pankaj_jaiswal]
 synonym: "selenium nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007047 ! other nutrient exposure
 is_a: PECO:0007239 ! micronutrient exposure
@@ -11477,7 +11483,7 @@ is_a: PECO:0007144 ! Pseudomonas plant exposure
 id: PECO:0007235
 name: silicon nutrient exposure
 alt_id: EO:0007235
-def: "The treatment involving exposure of plant to silicon as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to silicon as supplement to study various types of responses." [CHEBI:27573, Gramene:pankaj_jaiswal]
 synonym: "silicon nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007047 ! other nutrient exposure
 is_a: RO:0002310 ! exposure event or process
@@ -11539,7 +11545,7 @@ is_a: PECO:0007189 ! chemical exposure
 id: PECO:0007242
 name: iron nutrient exposure
 alt_id: EO:0007242
-def: "The treatment involving exposure of plant to micronutrient iron as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to micronutrient iron as supplement to study various types of responses." [CHEBI:18248, Gramene:pankaj_jaiswal]
 synonym: "iron nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007239 ! micronutrient exposure
 
@@ -11556,7 +11562,7 @@ is_a: PECO:0007144 ! Pseudomonas plant exposure
 id: PECO:0007244
 name: chlorine nutrient exposure
 alt_id: EO:0007244
-def: "The treatment involving exposure of plant to micronutrient chlorine as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to micronutrient chlorine as supplement to study various types of responses." [CHEBI:23116, Gramene:pankaj_jaiswal]
 synonym: "chlorine nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007239 ! micronutrient exposure
 
@@ -11591,8 +11597,9 @@ is_a: PECO:0007143 ! Erwinia plant exposure
 id: PECO:0007248
 name: greenhouse study
 alt_id: EO:0007248
-def: "The treatment where the plants were grown under greenhouse conditions. This may involve supplemental treatments in addition to any standard conditions." [Gramene:pankaj_jaiswal]
-is_a: PECO:0007231 ! study type
+def: "A plant study condition (PECO:0007231) where the plants were grown under greenhouse conditions." [Gramene:pankaj_jaiswal, PECO:cooperl]
+comment: This may involve supplemental treatments in addition to any naturally occurring conditions.
+is_a: PECO:0007231 ! plant study condition
 
 [Term]
 id: PECO:0007249
@@ -11634,7 +11641,7 @@ is_a: PECO:0007116 ! Hemiptera insect plant exposure
 id: PECO:0007253
 name: molybdenum nutrient exposure
 alt_id: EO:0007253
-def: "The treatment involving exposure of plant to micronutrient molybdenum as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to micronutrient molybdenum as supplement to study various types of responses." [CHEBI:28685, Gramene:pankaj_jaiswal]
 synonym: "molybdenum nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007239 ! micronutrient exposure
 
@@ -11651,16 +11658,17 @@ is_a: PECO:0007144 ! Pseudomonas plant exposure
 id: PECO:0007255
 name: laboratory study
 alt_id: EO:0007255
-def: "The treatment where the plants were grown under laboratory / open room conditions, with very few controlled parameters. This may involve supplemental treatments in addition to any naturally occurring conditions." [Gramene:pankaj_jaiswal]
-is_a: PECO:0007231 ! study type
+def: "A plant study condition (PECO:0007231) where the plants were grown under in vitro growth conditions in a laboratory." [Gramene:pankaj_jaiswal, PECO:cooperl]
+is_a: PECO:0007231 ! plant study condition
 
 [Term]
 id: PECO:0007256
 name: field study
 alt_id: EO:0007256
-def: "The treatment where the plants were grown under field conditions. This may involve supplemental treatments in addition to any naturally occurring conditions." [Gramene:pankaj_jaiswal]
+def: "A plant study condition (PECO:0007231) where the plants were grown outdoors under field conditions." [Gramene:pankaj_jaiswal, PECO:cooperl]
+comment: This may involve supplemental treatments in addition to any naturally occurring conditions.
 synonym: "open field study (related)" RELATED []
-is_a: PECO:0007231 ! study type
+is_a: PECO:0007231 ! plant study condition
 
 [Term]
 id: PECO:0007257
@@ -11703,7 +11711,7 @@ is_a: PECO:0007119 ! Dipteran insect plant exposure
 id: PECO:0007261
 name: copper nutrient exposure
 alt_id: EO:0007261
-def: "The treatment involving exposure of plant to micronutrient copper as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to micronutrient copper as supplement to study various types of responses." [CHEBI:28694, Gramene:pankaj_jaiswal]
 synonym: "copper nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007239 ! micronutrient exposure
 
@@ -11781,8 +11789,8 @@ is_a: PECO:0007167 ! pesticide exposure
 id: PECO:0007269
 name: growth chamber study
 alt_id: EO:0007269
-def: "The treatment involving study type in which plants were grown in growth chambers." [Gramene:pankaj_jaiswal]
-is_a: PECO:0007231 ! study type
+def: "A plant study condition (PECO:0007231) where plants were grown in growth chambers under controlled light and temperature conditions." [Gramene:pankaj_jaiswal, PECO:cooperl]
+is_a: PECO:0007231 ! plant study condition
 
 [Term]
 id: PECO:0007270
@@ -11797,6 +11805,8 @@ is_a: PECO:0007078 ! light quantity exposure
 id: PECO:0007271
 name: low light intensity exposure
 alt_id: EO:0007271
+def: "A light intensity exposure (PECO:0007224) where the intensity of the light for plant growth is less than 200 foot-candles." [PECO:cooperl]
+comment: A foot-candle is a unit of illuminance equal to one lumen per square foot, measuring how much light is received by a surface.
 synonym: "low light intensity treatment (narrow)" NARROW []
 is_a: PECO:0007224 ! light intensity exposure
 
@@ -11815,7 +11825,7 @@ is_a: PECO:0007142 ! Scirpophaga spp. exposure
 id: PECO:0007273
 name: boron nutrient exposure
 alt_id: EO:0007273
-def: "The treatment involving exposure of plant to micronutrient boron as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to micronutrient boron as supplement to study various types of responses." [CHEBI:27560, Gramene:pankaj_jaiswal]
 synonym: "boron nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007239 ! micronutrient exposure
 
@@ -11842,7 +11852,7 @@ is_a: PECO:0007114 ! Lepidoptera exposure
 id: PECO:0007276
 name: cobalt nutrient exposure
 alt_id: EO:0007276
-def: "The treatment involving exposure of plant to cobalt as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to cobalt as supplement to study various types of responses." [CHEBI:27638, Gramene:pankaj_jaiswal]
 synonym: "cobalt nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007047 ! other nutrient exposure
 is_a: PECO:0007239 ! micronutrient exposure
@@ -11877,10 +11887,10 @@ is_a: PECO:0007122 ! Chilo exposure
 
 [Term]
 id: PECO:0007280
-name: unknown study type
+name: OBSOLETE unknown study type
 alt_id: EO:0007280
-def: "The treatment involving study type where nothing is known in the reported literature/study about the kind of growth facilities used." [Gramene:pankaj_jaiswal]
-is_a: PECO:0007231 ! study type
+def: "OBSOLETE The treatment involving study type where nothing is known in the reported literature/study about the kind of growth facilities used." [Gramene:pankaj_jaiswal]
+is_obsolete: true
 
 [Term]
 id: PECO:0007281
@@ -11911,7 +11921,7 @@ is_a: PECO:0007121 ! Thysanoptera exposure
 id: PECO:0007284
 name: nitrogen macronutrient exposure
 alt_id: EO:0007284
-def: "A primary plant macronutrient exposure (PECO:0007045) involving the application of nitrogen." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "A primary plant macronutrient exposure (PECO:0007045) involving the application of nitrogen." [CHEBI:25555, Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "nitrogen macronutrient treatment (narrow)" NARROW []
 xref: PECO_GIT:3
 is_a: PECO:0007045 ! primary plant macronutrient exposure
@@ -11952,7 +11962,7 @@ is_a: PECO:0007183 ! herbicide exposure
 id: PECO:0007288
 name: magnesium nutrient exposure
 alt_id: EO:0007288
-def: "The treatment involving exposure of plant to macronutrient magnesium as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to macronutrient magnesium as supplement to study various types of responses." [CHEBI:25107, Gramene:pankaj_jaiswal]
 synonym: "magnesium nutrient treatment (narrow)" NARROW []
 xref: PECO_GIT:17
 is_a: PECO:0007046 ! secondary macronutrient exposure
@@ -11971,7 +11981,7 @@ is_a: PECO:0007119 ! Dipteran insect plant exposure
 id: PECO:0007290
 name: kinetin exposure
 alt_id: EO:0007290
-def: "A cytokinin exposure (PECO:0007066) involving use of kinetin, a cytokinin homolog." [Gramene:pankaj_jaiswal]
+def: "A cytokinin exposure (PECO:0007066) involving use of kinetin, a synthetic cytokinin that promotes cell division." [Gramene:pankaj_jaiswal, Wikipedia:Kinetin]
 synonym: "kinetin treatment (narrow)" NARROW []
 xref: PECO_GIT:71
 is_a: PECO:0007066 ! cytokinin exposure
@@ -11980,9 +11990,9 @@ is_a: PECO:0007066 ! cytokinin exposure
 id: PECO:0007291
 name: benzyladenine exposure
 alt_id: EO:0007291
-def: "A cytokinin exposure (PECO:0007066) involving use of benzyladenine, a cytokinin homolog." [CAS:1214-39-7, CHEBI:29022, Gramene:pankaj_jaiswal, Wikipedia:6-Benzylaminopurine]
-comment: Benzyladenine is a first-generation synthetic cytokinin which elicits plant growth and development responses, setting blossoms and stimulating fruit richness by stimulating cell division. It is an inhibitor of respiratory kinase in plants, and increases post-harvest life of green vegetables.
-synonym: "6-benzylaminopurine (related)" RELATED []
+def: "A cytokinin exposure (PECO:0007066) involving use of benzyladenine, a synthetic cytokinin." [CAS:1214-39-7, CHEBI:29022, Gramene:pankaj_jaiswal, Wikipedia:6-Benzylaminopurine]
+comment: Benzyladenine (also known as 6-benzylaminopurine, or 6-BA) is a synthetic cytokinin which inhibits respiratory kinases in plants and promotes cell division.  Treatment with 6-BA promotes fruit quality and increases post-harvest life of green vegetables.
+synonym: "6-benzylaminopurine (exact)" EXACT []
 synonym: "BAP (related)" RELATED []
 synonym: "benzyladenine treatment (narrow)" NARROW []
 synonym: "Benzylaminopurine (related)" RELATED []
@@ -12008,7 +12018,7 @@ is_a: PECO:0007183 ! herbicide exposure
 id: PECO:0007293
 name: potassium nutrient exposure
 alt_id: EO:0007293
-def: "The treatment involving exposure of plant to macronutrient potassium as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to macronutrient potassium as supplement to study various types of responses." [CHEBI:26216, Gramene:pankaj_jaiswal]
 synonym: "potassium nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007045 ! primary plant macronutrient exposure
 is_a: PECO:0007086 ! chemical fertilizer exposure
@@ -12028,7 +12038,7 @@ is_a: PECO:0007114 ! Lepidoptera exposure
 id: PECO:0007295
 name: sulfur nutrient exposure
 alt_id: EO:0007295
-def: "The treatment involving exposure of plant to macronutrient sulfur as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to macronutrient sulfur as supplement to study various types of responses." [CHEBI:26833, Gramene:pankaj_jaiswal]
 synonym: "sulfur nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007046 ! secondary macronutrient exposure
 is_a: RO:0002310 ! exposure event or process
@@ -12046,10 +12056,9 @@ is_a: PECO:0007120 ! Coleoptera exposure
 id: PECO:0007297
 name: calcium nutrient exposure
 alt_id: EO:0007297
-def: "The treatment involving exposure of plant to macronutrient calcium as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to macronutrient calcium as supplement to study various types of responses." [CHEBI:22984, Gramene:pankaj_jaiswal]
 synonym: "calcium nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007046 ! secondary macronutrient exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007298
@@ -12085,6 +12094,7 @@ name: carbon nutrient exposure
 alt_id: EO:0007303
 def: "The treatment involving exposure of plant to carbon source as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "carbon nutrient treatment (narrow)" NARROW []
+xref: CHEBI:27594
 is_a: PECO:0007043 ! non-mineral nutrient exposure
 is_a: RO:0002310 ! exposure event or process
 
@@ -12101,7 +12111,7 @@ is_a: PECO:0007114 ! Lepidoptera exposure
 id: PECO:0007305
 name: Cnaphalocrocis medinalis exposure
 alt_id: EO:0007305
-def: "The treatment involving exposure of plant to the pest Cnaphalocrocis medinalis." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to the pest Cnaphalocrocis medinalis." [Gramene:pankaj_jaiswal, NCBITaxon:437488]
 synonym: "Cnaphalocrocis medinalis treatment (narrow)" NARROW []
 synonym: "defloiator (related)" RELATED []
 synonym: "leaffolder (related)" RELATED []
@@ -12112,7 +12122,7 @@ is_a: PECO:0007114 ! Lepidoptera exposure
 id: PECO:0007306
 name: aluminum nutrient exposure
 alt_id: EO:0007306
-def: "The treatment involving exposure of plant to aluminium as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to aluminium as supplement to study various types of responses." [CHEBI:28984, Gramene:pankaj_jaiswal]
 synonym: "aluminum nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007047 ! other nutrient exposure
 is_a: RO:0002310 ! exposure event or process
@@ -12139,7 +12149,7 @@ is_a: PECO:0007116 ! Hemiptera insect plant exposure
 id: PECO:0007309
 name: zinc nutrient exposure
 alt_id: EO:0007309
-def: "The treatment involving exposure of plant to micronutrient zinc as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to micronutrient zinc as supplement to study various types of responses." [CHEBI:27363, Gramene:pankaj_jaiswal]
 synonym: "zinc nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007239 ! micronutrient exposure
 
@@ -12227,12 +12237,11 @@ is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007319
-name: warm/hot air temperature exposure
+name: high air temperature exposure
 alt_id: EO:0007319
 def: "The treatment involving an exposure to above optimal air temperature, which may depend on the study type or the regional environment." [Gramene:pankaj_jaiswal]
 synonym: "warm/hot air temperature treatment (narrow)" NARROW []
-is_a: PECO:0007161 ! air temperature exposure
-is_a: PECO:0007173 ! warm/hot temperature exposure
+is_a: PECO:0007173 ! high temperature exposure
 
 [Term]
 id: PECO:0007320
@@ -12304,17 +12313,17 @@ is_a: PECO:0007107 ! Ascomycota exposure
 
 [Term]
 id: PECO:0007328
-name: Pythium spp. exposure
+name: Pythium sp. exposure
 alt_id: EO:0007328
-def: "The treatment involving exposure of plant to the heterokont Pythium." [Gramene:pankaj_jaiswal, NCBITaxon:4797]
-synonym: "Pythium spp. treatment (narrow)" NARROW []
-is_a: PECO:0007106 ! Stramenopiles exposure
+def: "An Oomycota exposure (PECO:0001074) involving the exposure of a plant structure (PO:0009011) to a Pythium sp. organism." [Gramene:pankaj_jaiswal, NCBITaxon:4797, PECO:cooperl]
+synonym: "Pythium sp. treatment (narrow)" NARROW []
+is_a: PECO:0001075 ! Oomycota exposure
 
 [Term]
 id: PECO:0007329
 name: Spodoptera praefica exposure
 alt_id: EO:0007329
-def: "The treatment involving exposure of plant to the pest commonly called as western yellowstriped armyworm." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to the pest commonly called western yellowstriped armyworm." [Gramene:pankaj_jaiswal]
 synonym: "Spodoptera praefica treatment (narrow)" NARROW []
 synonym: "western yellowstriped armyworm (related)" RELATED []
 is_a: PECO:0007115 ! Spodoptera spp. exposure
@@ -12323,7 +12332,7 @@ is_a: PECO:0007115 ! Spodoptera spp. exposure
 id: PECO:0007330
 name: Spodoptera mauritia exposure
 alt_id: EO:0007330
-def: "The treatment involving exposure of plant to the pest commonly calles as lawn armyworm." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to the pest commonly called lawn armyworm." [Gramene:pankaj_jaiswal]
 synonym: "lawn armyworm (related)" RELATED []
 synonym: "Prodenia acronyctoides (related)" RELATED []
 synonym: "Spodoptera mauritia treatment (narrow)" NARROW []
@@ -12345,7 +12354,6 @@ name: cold air temperature exposure
 alt_id: EO:0007332
 def: "The treatment involving an exposure to cold or sub-optimal air temperature, which may depend on the study type or the regional environment." [Gramene:pankaj_jaiswal]
 synonym: "cold air temperature treatment (narrow)" NARROW []
-is_a: PECO:0007161 ! air temperature exposure
 is_a: PECO:0007174 ! cold temperature exposure
 
 [Term]
@@ -12404,7 +12412,6 @@ name: cold water temperature exposure
 alt_id: EO:0007338
 def: "The treatment involving an exposure to cold or sub-optimal water temperature, which may depend on the study type or the regional environment." [Gramene:pankaj_jaiswal]
 synonym: "cold water temperature treatment (narrow)" NARROW []
-is_a: PECO:0007160 ! water temperature exposure
 is_a: PECO:0007174 ! cold temperature exposure
 
 [Term]
@@ -12428,7 +12435,7 @@ name: Achlya conspicua exposure
 alt_id: EO:0007340
 def: "The treatment involving exposure of plant to the heterokont Achlya conspicua. It is a causal agent for rice water mold diease which is also called as seed rot or seedling damping-off disease." [Gramene:pankaj_jaiswal, NCBITaxon:112027]
 synonym: "Achlya conspicua treatment (narrow)" NARROW []
-is_a: PECO:0007136 ! Achlya spp. exposure
+is_a: PECO:0007136 ! Achlya sp. exposure
 
 [Term]
 id: PECO:0007341
@@ -12446,7 +12453,7 @@ name: Achlya klebsiana exposure
 alt_id: EO:0007342
 def: "The treatment involving exposure of plant to the heterokont Achlya klebsiana. It is a causal agent for rice water mold diease which is also called as seed rot or seedling damping-off disease." [Gramene:pankaj_jaiswal, NCBITaxon:4767]
 synonym: "Achlya klebsiana treatment (narrow)" NARROW []
-is_a: PECO:0007136 ! Achlya spp. exposure
+is_a: PECO:0007136 ! Achlya sp. exposure
 
 [Term]
 id: PECO:0007343
@@ -12583,10 +12590,9 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007359
 name: plant experimental condition
 alt_id: EO:0007359
-def: "A plant exposure (PECO:0001001) and/or study type (PECO:0007231) applied to a whole plant (PO:0000003), a plant structure (PO:00090119), and/or a plant population as part of an experiment to evaluate the plant response." [Gramene:pankaj_jaiswal, PECO:cooperl]
-comment: The Plant Experimental Condition Ontology describes the treatments, growing conditions, and/or study types used in various types of plant biology experiments. The subjects of the studies may also include in vitro plant structures (PO:0000004). The broadest classes are the plant study types (PECO:0007231), where the terms describe the type of growth facility used in an experiment.  Each study type such as field study (PECO:0007256), growth chamber study (PECO:0007269), greenhouse study (PECO:0007248), or laboratory study (PECO:0007255) will also involve different growing conditions, and may also include specific biotic (PECO:0007357) and/or abiotic (PECO:0007191) plant treatments.  A plant treatment (PECO:0001001) may be a component of a plant experimental condition (PECO:0007359), and the plant study type (PECO:0007231).
-synonym: "plant treatment ontology (related)" RELATED []
-synonym: "treatment ontology (related)" RELATED []
+def: "A plant exposure (PECO:0001001) and/or study condition (PECO:0007231) applied to a whole plant (PO:0000003), a plant structure (PO:00090119), and/or a plant population." [Gramene:pankaj_jaiswal, PECO:cooperl]
+comment: The Plant Experimental Condition Ontology describes the treatments and/or study conditions used in plant biology experiments. The subjects of the studies may also include in vitro plant structures (PO:0000004). The broadest classes are the plant study conditions (PECO:0007231), where the terms describe the type of growth facility used in an experiment. Each study type such as field study (PECO:0007256), growth chamber study (PECO:0007269), greenhouse study (PECO:0007248), or laboratory study (PECO:0007255) will also involve different growing conditions, and may also include specific biotic (PECO:0007357) and/or abiotic (PECO:0007191) plant treatments. A plant exposure (PECO:0001001) may be a component of a plant experimental condition (PECO:0007359), and the plant study condition (PECO:0007231).
+synonym: "plant treatment (related)" RELATED []
 xref: PECO_GIT:4
 
 [Term]
@@ -12613,7 +12619,8 @@ is_a: PECO:0007110 ! dsRNA virus exposure
 id: PECO:0007362
 name: Balansia oryzae-sativae exposure
 alt_id: EO:0007362
-def: "The treatment involving exposure of plant to the pathogen Balansia oryzae-sativae. It is a causal agent for rice Udbatta diesase which is also called as Black Choke Disease, False Ergot Disease, Incense Rod Disease." [Gramene:ivy, NCBITaxon:116609]
+def: "An Ascomycota exposure (PECO:0007107) involving exposure of a plant to the pathogen Balansia oryzae-sativae." [Gramene:ivy, NCBITaxon:116609, PECO:cooperl]
+comment: The fungal pathogen  Balansia oryzae-sativae is a causal agent of rice Udbatta diesase, which is also called as Black Choke Disease, False Ergot Disease, and Incense Rod Disease.
 synonym: "Balansia oryzae-sativae treatment (narrow)" NARROW []
 synonym: "Ephelis japonica (related)" RELATED []
 synonym: "Ephelis oryzae (related)" RELATED []
@@ -12679,12 +12686,11 @@ is_a: PECO:0007337 ! plant nematode exposure
 
 [Term]
 id: PECO:0007368
-name: warm/hot water temperature exposure
+name: high water temperature exposure
 alt_id: EO:0007368
 def: "The treatment involving an exposure to above optimal water temperature, which may depend on the study type or the regional environment." [Gramene:pankaj_jaiswal]
 synonym: "warm/hot water temperature treatment (narrow)" NARROW []
-is_a: PECO:0007160 ! water temperature exposure
-is_a: PECO:0007173 ! warm/hot temperature exposure
+is_a: PECO:0007173 ! high temperature exposure
 
 [Term]
 id: PECO:0007369
@@ -12728,6 +12734,7 @@ is_a: PECO:0007127 ! Meloidogyne spp. exposure
 id: PECO:0007373
 name: mechanical damage exposure
 alt_id: EO:0007373
+def: "A physical plant exposure (PECO:0007316) involving a treatment or exposure of a plant structure (PO:0009011) to mechanical damage." [PECO:cooperl]
 synonym: "mechanical damage treatment (narrow)" NARROW []
 synonym: "wound (related)" RELATED []
 synonym: "wound treatment (related)" RELATED []
@@ -12773,7 +12780,7 @@ is_a: PECO:0007073 ! Basidiomycota exposure
 id: PECO:0007378
 name: Sarocladium oryzae exposure
 alt_id: EO:0007378
-def: "A plant fungal exposure (PECO:0007233) involving exposure of plant to the pathogen Sarocladium oryzae. It is a causal agent for rice Seedling Blight (Fungal) disease and/or Sheath Rot disease." [Gramene:ivy]
+def: "An Ascomycota exposure (PECO:0007107) involving exposure of plant to the pathogen Sarocladium oryzae. It is a causal agent for rice Seedling Blight (Fungal) disease and/or Sheath Rot disease." [Gramene:ivy, NCBITaxon:284135, PECO:Cooperl]
 synonym: "Acrocylindrium oryzae (related)" RELATED []
 synonym: "Sarocladium oryzae treatment (narrow)" NARROW []
 xref: NCBITaxon:284135
@@ -12812,7 +12819,6 @@ name: wind environment exposure
 alt_id: EO:0007382
 def: "The treatment involving an exposure to wind, which may depend on regional environment." [Gramene:pankaj_jaiswal]
 synonym: "wind environment treatment (narrow)" NARROW []
-is_a: PECO:0007064 ! ecological environment exposure
 is_a: PECO:0007316 ! physical plant exposure
 
 [Term]
@@ -12853,7 +12859,7 @@ is_a: PECO:0007107 ! Ascomycota exposure
 id: PECO:0007387
 name: manganese nutrient exposure
 alt_id: EO:0007387
-def: "The treatment involving exposure of plant to micronutrient manganese as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to micronutrient manganese as supplement to study various types of responses." [CHEBI:18291, Gramene:pankaj_jaiswal]
 synonym: "manganese nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007239 ! micronutrient exposure
 
@@ -12902,9 +12908,9 @@ is_obsolete: true
 
 [Term]
 id: PECO:0007394
-name: desert like region exposure
+name: desert-like region exposure
 alt_id: EO:0007394
-def: "The treatment involving an exposure to the conditions found in a type of biome characterized by low moisture levels and infrequent and unpredictable precipitation of rainfall." [Gramene:pankaj_jaiswal]
+def: "The treatment involving an exposure to the conditions found in a type of biome characterized by low moisture levels and infrequent and unpredictable precipitation or rainfall." [Gramene:pankaj_jaiswal]
 synonym: "desert like region treatment (narrow)" NARROW []
 is_a: PECO:0007064 ! ecological environment exposure
 
@@ -12912,14 +12918,16 @@ is_a: PECO:0007064 ! ecological environment exposure
 id: PECO:0007395
 name: river delta region exposure
 alt_id: EO:0007395
+def: "A flood-prone region exposure (PECO:0007396) in which a plant is growing in the delta of a river where flooding can occur." [PECO:cooperl]
 synonym: "river delta region treatment (narrow)" NARROW []
-is_a: PECO:0007396 ! flood prone region exposure
+is_a: PECO:0007396 ! flood-prone region exposure
 
 [Term]
 id: PECO:0007396
-name: flood prone region exposure
+name: flood-prone region exposure
 alt_id: EO:0007396
-def: "A treatment in terms of plant's exposure to the regional conditions found in the vicinity of the water bodies like, sea, river, lake etc. Growth conditions may include aerobic to anaerobic soil,  salinity or toxicity in tidal areas. Treatment may include standing or flash flooding." [Gramene:pankaj_jaiswal]
+def: "An ecological environment exposure (PECO:0007064) involving a plant's exposure to growth conditions susceptible to inundation by water." [Gramene:pankaj_jaiswal, PECO:cooperl]
+comment: Growth in flood-prone conditions may include exposure to anaerobic soils, salinity or toxicity, and may include standing water or intermittent flooding.  These conditions may be found in the vicinity of a water body such as an ocean or sea, river, lake, etc.
 synonym: "deep water (related)" RELATED []
 synonym: "flood prone region treatment (narrow)" NARROW []
 synonym: "flooding (related)" RELATED []
@@ -12930,7 +12938,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007397
 name: phosphorus nutrient exposure
 alt_id: EO:0007397
-def: "The treatment involving exposure of plant to macronutrient phosphorus as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to macronutrient phosphorus as supplement to study various types of responses." [CHEBI:28659, Gramene:pankaj_jaiswal]
 synonym: "phosphorus nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007045 ! primary plant macronutrient exposure
 is_a: RO:0002310 ! exposure event or process
@@ -12957,7 +12965,7 @@ name: arid region exposure
 alt_id: EO:0007400
 def: "The treatment involving the plant or the populations grown in regions where the land is excessively dry and receives insufficient rainfall to support agriculture." [Gramene:pankaj_jaiswal]
 synonym: "arid region treatment (narrow)" NARROW []
-is_a: PECO:0007394 ! desert like region exposure
+is_a: PECO:0007394 ! desert-like region exposure
 is_a: RO:0002310 ! exposure event or process
 
 [Term]
@@ -12979,18 +12987,19 @@ is_a: PECO:0007189 ! chemical exposure
 
 [Term]
 id: PECO:0007403
-name: unknown exposure
+name: OBSOLETE unknown exposure
 alt_id: EO:0007403
-def: "A plant exposure (PECO:0001001) where there is a lack of information describing the experimental conditions." [PECO:cooperl]
+def: "OBSOLETE A plant exposure (PECO:0001001) where there is a lack of information describing the experimental conditions." [PECO:cooperl]
 comment: In some cases, only the study type (PECO:0007231) is known, without any additional information about the treatments.
 synonym: "unknown treatment (narrow)" NARROW []
 xref: PECO_GIT:82
-is_a: PECO:0001001 ! plant exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007404
-name: drought environment exposure
+name: drought exposure
 alt_id: EO:0007404
+def: "A water environment exposure (PECO:0007198) which is the treatment or exposure of plants to a prolonged dry period." [PECO:cooperl]
 synonym: "drought environment treatment (narrow)" NARROW []
 is_a: PECO:0007198 ! water environment exposure
 
@@ -13007,6 +13016,7 @@ is_a: PECO:0007067 ! hydroponic plant culture media exposure
 id: PECO:0007406
 name: nitrate exposure
 alt_id: EO:0007406
+def: "A nitrogen fertilizer exposure (PECO:0007102) involving a treatment or exposure of a plant structure (PO:0009011) to nitrate." [PECO:cooperl]
 synonym: "nitrate treatment (narrow)" NARROW []
 is_a: PECO:0001009 ! inorganic anion exposure
 is_a: PECO:0007102 ! nitrogen fertilizer exposure
@@ -13036,10 +13046,10 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007409
 name: brassinosteroid exposure
 alt_id: EO:0007409
-def: "A growth hormone exposure (PECO:0007165) involving the use of brassinosteroid (or its homolog)." [TO:moorel]
+def: "A plant growth hormone exposure (PECO:0007165) involving the use of a brassinosteroid." [TO:moorel]
 synonym: "brassinosteroid treatment (narrow)" NARROW []
 xref: PECO_GIT:71
-is_a: PECO:0007165 ! growth hormone exposure
+is_a: PECO:0007165 ! plant growth hormone exposure
 
 [Term]
 id: PECO:0007410
@@ -13071,7 +13081,6 @@ def: "The treatment involving exposure of plant to micronutrient zinc by adding 
 synonym: "zinc sulphate treatment (narrow)" NARROW []
 synonym: "ZnSO4 (related)" RELATED []
 is_a: PECO:0007085 ! fertilizer exposure
-is_a: PECO:0007185 ! salt exposure
 is_a: PECO:0007309 ! zinc nutrient exposure
 
 [Term]
@@ -13081,7 +13090,6 @@ alt_id: EO:0007413
 def: "The treatment involving exposure of plant to micronutrient manganese by adding MnSO4  supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "manganese sulfate treatment (narrow)" NARROW []
 synonym: "MnSO4 (related)" RELATED []
-is_a: PECO:0007185 ! salt exposure
 is_a: PECO:0007387 ! manganese nutrient exposure
 
 [Term]
@@ -13108,7 +13116,7 @@ is_a: PECO:0007414 ! peroxide exposure
 id: PECO:0007503
 name: 1,2-dibromoethane exposure
 alt_id: EO:0007503
-def: "The treatment involving use of 1,2-dibromoethane for mutagenesis process." [CAS:[106-93-4\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 1,2-dibromoethane for mutagenesis process." [CAS:106-93-4, Gramene:pankaj_jaiswal]
 synonym: "1,2-dibromoethane treatment (narrow)" NARROW []
 synonym: "DBE (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13118,7 +13126,7 @@ is_a: PECO:0007167 ! pesticide exposure
 id: PECO:0007504
 name: 1,2-dichloroethane exposure
 alt_id: EO:0007504
-def: "The treatment involving use of 1,2-dichloroethane for mutagenesis process." [CAS:[107-06-2\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 1,2-dichloroethane for mutagenesis process." [CAS:107-06-2, Gramene:pankaj_jaiswal]
 synonym: "1,2-dichloroethane treatment (narrow)" NARROW []
 synonym: "DCE (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13128,7 +13136,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007505
 name: 1,2:5,6-dibenzanthracene exposure
 alt_id: EO:0007505
-def: "The treatment involving use of 1,2:5,6-dibenzanthracene for mutagenesis process." [CAS:[53-70-3\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 1,2:5,6-dibenzanthracene for mutagenesis process." [CAS:53-70-3, Gramene:pankaj_jaiswal]
 synonym: "1,2:5,6-dibenzanthracene treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13137,7 +13145,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007506
 name: 1,4-dimethanesulfonoxy-1:4-dimethylbutane exposure
 alt_id: EO:0007506
-def: "The treatment involving use of 1,4-dimethanesulfonoxy-1:4-dimethylbutane for mutagenesis process." [CAS:[2514-83-2\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 1,4-dimethanesulfonoxy-1:4-dimethylbutane for mutagenesis process." [CAS:2514-83-2, Gramene:pankaj_jaiswal]
 synonym: "1,4-dimethanesulfonoxy-1:4-dimethylbutane treatment (narrow)" NARROW []
 synonym: "CB2348 (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13147,7 +13155,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007507
 name: 1,4-dimethanesulfonoxybut-2-yne exposure
 alt_id: EO:0007507
-def: "The treatment involving use of 1,4-dimethanesulfonoxybut-2-yne for mutagenesis process." [CAS:[2917-96-6\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 1,4-dimethanesulfonoxybut-2-yne for mutagenesis process." [CAS:2917-96-6, Gramene:pankaj_jaiswal]
 synonym: "1,4-dimethanesulfonoxybut-2-yne treatment (narrow)" NARROW []
 synonym: "CB2058 (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13157,7 +13165,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007508
 name: 1,4-dimethanesulfonoxybutane exposure
 alt_id: EO:0007508
-def: "The treatment involving use of 1,4-dimethanesulfonoxybutane for mutagenesis process." [CAS:[55-98-1\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 1,4-dimethanesulfonoxybutane for mutagenesis process." [CAS:55-98-1, Gramene:pankaj_jaiswal]
 synonym: "1,4-dimethanesulfonoxybutane treatment (narrow)" NARROW []
 synonym: "busulfan (related)" RELATED []
 synonym: "CB2041 (related)" RELATED []
@@ -13168,7 +13176,7 @@ is_a: PECO:0007632 ! insecticide exposure
 id: PECO:0007509
 name: 1,6-dimethylsulfonoxy D-mannitol exposure
 alt_id: EO:0007509
-def: "The treatment involving use of 1,6-dimethylsulfonoxy D-mannitol for mutagenesis process." [CAS:[1187-00-4\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 1,6-dimethylsulfonoxy D-mannitol for mutagenesis process." [CAS:1187-00-4, Gramene:pankaj_jaiswal]
 synonym: "1,6-dimethylsulfonoxy D-mannitol treatment (narrow)" NARROW []
 synonym: "CB2511 (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13178,7 +13186,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007510
 name: 1,6-dimethylsulfonoxy L-mannitol exposure
 alt_id: EO:0007510
-def: "The treatment involving use of 1,6-dimethylsulfonoxy L-mannitol for mutagenesis process." [CAS:[2514-83-2\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 1,6-dimethylsulfonoxy L-mannitol for mutagenesis process." [CAS:2514-83-2, Gramene:pankaj_jaiswal]
 synonym: "1,6-dimethylsulfonoxy L-mannitol treatment (narrow)" NARROW []
 synonym: "CB2628 (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13188,7 +13196,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007511
 name: 1-amino-2-naphthol-4-sulfonic acid exposure
 alt_id: EO:0007511
-def: "The treatment involving use of 1-amino-2-naphthol-4-sulfonic acid for mutagenesis process." [CAS:[116-63-2\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 1-amino-2-naphthol-4-sulfonic acid for mutagenesis process." [CAS:116-63-2, Gramene:pankaj_jaiswal]
 synonym: "1-amino-2-naphthol-4-sulfonic acid treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13197,7 +13205,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007512
 name: 1-bromo-2-chloroethane exposure
 alt_id: EO:0007512
-def: "The treatment involving use of 1-bromo-2-chloroethane for mutagenesis process." [CAS:[107-04-0\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 1-bromo-2-chloroethane for mutagenesis process." [CAS:107-04-0, Gramene:pankaj_jaiswal]
 synonym: "1-bromo-2-chloroethane treatment (narrow)" NARROW []
 synonym: "BCE (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13207,7 +13215,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007513
 name: 1-diethylaminoethylethylamino-4-methyl-thioxanthenone exposure
 alt_id: EO:0007513
-def: "The treatment involving use of 1-diethylaminoethylethylamino-4-methyl-thioxanthenone for mutagenesis process." [CAS:[479-50-5\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 1-diethylaminoethylethylamino-4-methyl-thioxanthenone for mutagenesis process." [CAS:479-50-5, Gramene:pankaj_jaiswal]
 synonym: "1-diethylaminoethylethylamino-4-methyl-thioxanthenone treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13216,7 +13224,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007514
 name: 2,5,-bisethylene-imine-1,4-benzoquinone exposure
 alt_id: EO:0007514
-def: "The treatment involving use of 2,5,-bisethylene-imine-1,4-benzoquinone for mutagenesis process." [CAS:[526-62-5\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 2,5,-bisethylene-imine-1,4-benzoquinone for mutagenesis process." [CAS:526-62-5, Gramene:pankaj_jaiswal]
 synonym: "2,5,-bisethylene-imine-1,4-benzoquinone treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13225,7 +13233,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007515
 name: 2-chloroethyl methanesulfonate exposure
 alt_id: EO:0007515
-def: "The treatment involving use of 2-chloroethyl methanesulfonate for mutagenesis process." [CAS:[3570-58-9\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 2-chloroethyl methanesulfonate for mutagenesis process." [CAS:3570-58-9, Gramene:pankaj_jaiswal]
 synonym: "2-chloroethyl methanesulfonate treatment (narrow)" NARROW []
 synonym: "CB1506 (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13235,7 +13243,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007516
 name: 2-fluoroethyl methanesulfonate exposure
 alt_id: EO:0007516
-def: "The treatment involving use of 2-fluoroethyl methanesulfonate for mutagenesis process." [CAS:[461-31-4\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 2-fluoroethyl methanesulfonate for mutagenesis process." [CAS:461-31-4, Gramene:pankaj_jaiswal]
 synonym: "2-fluoroethyl methanesulfonate treatment (narrow)" NARROW []
 synonym: "CB1522 (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13245,7 +13253,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007517
 name: 2-methoxyethanol exposure
 alt_id: EO:0007517
-def: "The treatment involving use of 2-methoxyethanol for mutagenesis process." [CAS:[109-86-4\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 2-methoxyethanol for mutagenesis process." [CAS:109-86-4, Gramene:pankaj_jaiswal]
 synonym: "2-methoxyethanol treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13254,7 +13262,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007518
 name: 5-bromouracil exposure
 alt_id: EO:0007518
-def: "The treatment involving use of 5-bromouracil for mutagenesis process." [CAS:[51-20-7\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 5-bromouracil for mutagenesis process." [CAS:51-20-7, Gramene:pankaj_jaiswal]
 synonym: "5-bromouracil treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13263,7 +13271,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007519
 name: 5-bromouridine exposure
 alt_id: EO:0007519
-def: "The treatment involving use of 5-bromouridine for mutagenesis process." [CAS:[957-75-5\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 5-bromouridine for mutagenesis process." [CAS:957-75-5, Gramene:pankaj_jaiswal]
 synonym: "5-bromouridine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13272,7 +13280,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007520
 name: 7-bromomethyl 12 methyl benz or agr/anthracine exposure
 alt_id: EO:0007520
-def: "The treatment involving use of 7-bromomethyl 12 methyl benz or agr/anthracine for mutagenesis process." [CAS:[16238-56-5\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of 7-bromomethyl 12 methyl benz or agr/anthracine for mutagenesis process." [CAS:16238-56-5, Gramene:pankaj_jaiswal]
 synonym: "7-bromomethyl 12 methyl benz or agr/anthracine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 
@@ -13280,7 +13288,7 @@ is_a: PECO:0007149 ! chemical mutagen exposure
 id: PECO:0007521
 name: actinomycin D exposure
 alt_id: EO:0007521
-def: "An antibiotic exposure (PECO:0007041) involving use of actinomycin D for mutagenesis process." [CAS:[50-76-0\], Gramene:pankaj_jaiswal, TO:moorel]
+def: "An antibiotic exposure (PECO:0007041) involving use of actinomycin D for mutagenesis process." [CAS:50-76-0, Gramene:pankaj_jaiswal, TO:moorel]
 synonym: "actinomycin D treatment (narrow)" NARROW []
 xref: PECO_GIT:69
 is_a: PECO:0007041 ! antibiotic exposure
@@ -13290,7 +13298,7 @@ is_a: PECO:0007149 ! chemical mutagen exposure
 id: PECO:0007522
 name: aminopterin exposure
 alt_id: EO:0007522
-def: "The treatment involving use of aminopterin for mutagenesis process." [CAS:[54-62-6\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of aminopterin for mutagenesis process." [CAS:54-62-6, Gramene:pankaj_jaiswal]
 synonym: "aminopterin treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13299,7 +13307,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007523
 name: benzo (or agr)pyrene exposure
 alt_id: EO:0007523
-def: "The treatment involving use of benzo (or agr)pyrene for mutagenesis process." [CAS:[50-32-8\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of benzo (or agr)pyrene for mutagenesis process." [CAS:50-32-8, Gramene:pankaj_jaiswal]
 synonym: "benzo (or agr)pyrene treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 
@@ -13307,7 +13315,7 @@ is_a: PECO:0007149 ! chemical mutagen exposure
 id: PECO:0007524
 name: caffeine exposure
 alt_id: EO:0007524
-def: "The treatment involving use of caffeine for mutagenesis process." [CAS:[58-08-2\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of caffeine for mutagenesis process." [CAS:58-08-2, Gramene:pankaj_jaiswal]
 synonym: "caffeine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13316,7 +13324,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007525
 name: cisplatin exposure
 alt_id: EO:0007525
-def: "The treatment involving use of cisplatin for mutagenesis process." [CAS:[15663-27-1\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of cisplatin for mutagenesis process." [CAS:15663-27-1, Gramene:pankaj_jaiswal]
 synonym: "cis-dichlorodiammineplatinum(II) (related)" RELATED []
 synonym: "cisplatin treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13326,7 +13334,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007526
 name: colchicine exposure
 alt_id: EO:0007526
-def: "The treatment involving use of colchicine for mutagenesis process." [CAS:[64-86-8\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of colchicine for mutagenesis process." [CAS:64-86-8, Gramene:pankaj_jaiswal]
 synonym: "colchicine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13335,17 +13343,16 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007527
 name: cupric sulfate exposure
 alt_id: EO:0007527
-def: "The treatment involving use of cupric sulfate for mutagenesis process." [CAS:[7758-98-7\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of cupric sulfate for mutagenesis process." [CAS:7758-98-7, Gramene:pankaj_jaiswal]
 synonym: "cupric sulfate treatment (narrow)" NARROW []
 is_a: PECO:0007085 ! fertilizer exposure
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: PECO:0007185 ! salt exposure
 
 [Term]
 id: PECO:0007528
 name: diepoxybutane exposure
 alt_id: EO:0007528
-def: "The treatment involving use of diepoxybutane for mutagenesis process." [CAS:[1464-53-5\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of diepoxybutane for mutagenesis process." [CAS:1464-53-5, Gramene:pankaj_jaiswal]
 synonym: "DEB (related)" RELATED []
 synonym: "diepoxybutane treatment (narrow)" NARROW []
 synonym: "erythritol anhydride (related)" RELATED []
@@ -13356,7 +13363,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007529
 name: diepoxyoctane exposure
 alt_id: EO:0007529
-def: "The treatment involving use of diepoxyoctane for mutagenesis process." [CAS:[2426-07-5\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of diepoxyoctane for mutagenesis process." [CAS:2426-07-5, Gramene:pankaj_jaiswal]
 synonym: "diepoxyoctane treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 
@@ -13364,7 +13371,7 @@ is_a: PECO:0007149 ! chemical mutagen exposure
 id: PECO:0007530
 name: diethyl sulfate exposure
 alt_id: EO:0007530
-def: "The treatment involving use of diethyl sulfate for mutagenesis process." [CAS:[64-67-5\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of diethyl sulfate for mutagenesis process." [CAS:64-67-5, Gramene:pankaj_jaiswal]
 synonym: "DES (related)" RELATED []
 synonym: "diethyl sulfate treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13374,7 +13381,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007531
 name: dimethyl sulfoxide exposure
 alt_id: EO:0007531
-def: "The treatment involving use of dimthyl sulfate for mutagenesis process." [CAS:[67-68-5\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of dimthyl sulfate for mutagenesis process." [CAS:67-68-5, Gramene:pankaj_jaiswal]
 synonym: "dimethyl sulfoxide treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13383,7 +13390,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007532
 name: DNA exposure
 alt_id: EO:0007532
-def: "The treatment involving use of DNA fragment insertion or deletion as part of mutagenesis." [CAS:[9007-49-2\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of DNA fragment insertion or deletion as part of mutagenesis." [CAS:9007-49-2, Gramene:pankaj_jaiswal]
 synonym: "DNA treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13392,7 +13399,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007533
 name: ethyl ether exposure
 alt_id: EO:0007533
-def: "The treatment involving use of ethyl ether for mutagenesis process." [CAS:[60-29-7\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of ethyl ether for mutagenesis process." [CAS:60-29-7, Gramene:pankaj_jaiswal]
 synonym: "ethyl ether treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13401,7 +13408,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007534
 name: ethyl methanesulfonate exposure
 alt_id: EO:0007534
-def: "The treatment involving use of EMS as a mutagen by damaging DNA and is used experimentally for that effect." [CAS:[62-50-0\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of EMS as a mutagen by damaging DNA and is used experimentally for that effect." [CAS:62-50-0, Gramene:pankaj_jaiswal]
 synonym: "CB1528 (related)" RELATED []
 synonym: "EMS (related)" RELATED []
 synonym: "ethyl methanesulfonate treatment (narrow)" NARROW []
@@ -13413,7 +13420,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007535
 name: ethyl nitrosourea exposure
 alt_id: EO:0007535
-def: "The treatment involving use of ethyl nitrosourea for mutagenesis process." [CAS:[759-73-9\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of ethyl nitrosourea for mutagenesis process." [CAS:759-73-9, Gramene:pankaj_jaiswal]
 synonym: "ENU (related)" RELATED []
 synonym: "ethyl nitrosourea treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13432,7 +13439,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007537
 name: ethylenimine exposure
 alt_id: EO:0007537
-def: "The treatment involving use of ethylenimine for mutagenesis process." [CAS:[151-56-4\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of ethylenimine for mutagenesis process." [CAS:151-56-4, Gramene:pankaj_jaiswal]
 synonym: "EI (related)" RELATED []
 synonym: "ethylenimine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13451,7 +13458,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007539
 name: formaldehyde exposure
 alt_id: EO:0007539
-def: "The treatment involving use of formaldehyde for mutagenesis process." [CAS:[50-00-0\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of formaldehyde for mutagenesis process." [CAS:50-00-0, Gramene:pankaj_jaiswal]
 synonym: "formaldehyde treatment (narrow)" NARROW []
 is_a: PECO:0007041 ! antibiotic exposure
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13470,7 +13477,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007541
 name: hesperidine exposure
 alt_id: EO:0007541
-def: "The treatment involving use of hesperidine for mutagenesis process." [CAS:[520-26-3\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of hesperidine for mutagenesis process." [CAS:520-26-3, Gramene:pankaj_jaiswal]
 synonym: "hesperidine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 
@@ -13478,7 +13485,7 @@ is_a: PECO:0007149 ! chemical mutagen exposure
 id: PECO:0007542
 name: hexamethylmelamine exposure
 alt_id: EO:0007542
-def: "The treatment involving use of hexamethylmelamine for mutagenesis process." [CAS:[645-05-6\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of hexamethylmelamine for mutagenesis process." [CAS:645-05-6, Gramene:pankaj_jaiswal]
 synonym: "altretamine (related)" RELATED []
 synonym: "hexamethylmelamine treatment (narrow)" NARROW []
 synonym: "HMM (related)" RELATED []
@@ -13489,7 +13496,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007543
 name: hexamethylphosphoramide exposure
 alt_id: EO:0007543
-def: "The treatment involving use of hexamethylphosphoramide for mutagenesis process." [CAS:[680-31-9\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of hexamethylphosphoramide for mutagenesis process." [CAS:680-31-9, Gramene:pankaj_jaiswal]
 synonym: "hexamethylphosphoramide treatment (narrow)" NARROW []
 synonym: "HMPA (related)" RELATED []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13499,7 +13506,7 @@ is_a: PECO:0007632 ! insecticide exposure
 id: PECO:0007544
 name: hycanthon methanesulfonate exposure
 alt_id: EO:0007544
-def: "The treatment involving use of hycanthon methanesulfonate for mutagenesis process." [CAS:[23255-93-8\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of hycanthon methanesulfonate for mutagenesis process." [CAS:23255-93-8, Gramene:pankaj_jaiswal]
 synonym: "HMS (related)" RELATED []
 synonym: "hycanthon methanesulfonate treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13508,7 +13515,7 @@ is_a: PECO:0007149 ! chemical mutagen exposure
 id: PECO:0007545
 name: ICR 100 exposure
 alt_id: EO:0007545
-def: "The treatment involving use of ICR 100 for mutagenesis process." [CAS:[4213-45-0\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of ICR 100 for mutagenesis process." [CAS:4213-45-0, Gramene:pankaj_jaiswal]
 synonym: "2-methoxy-6-[3-(ethyl-2-chloroethyl)aminopropylamino]acridine (related)" RELATED []
 synonym: "ICR 100 treatment (narrow)" NARROW []
 synonym: "quinacrine mustard (related)" RELATED []
@@ -13518,7 +13525,7 @@ is_a: PECO:0007149 ! chemical mutagen exposure
 id: PECO:0007546
 name: ICR 170 exposure
 alt_id: EO:0007546
-def: "The treatment involving use of ICR 170 for mutagenesis process." [CAS:[146-59-8\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of ICR 170 for mutagenesis process." [CAS:146-59-8, Gramene:pankaj_jaiswal]
 synonym: "2-methoxy-6-dichloro-9-(3-ethyl-2-chloroethyl-aminopropylamino)acridine-dihydrochloride (related)" RELATED []
 synonym: "ICR 170 treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13528,7 +13535,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007547
 name: iodine exposure
 alt_id: EO:0007547
-def: "The treatment involving use of iodine for mutagenesis process." [CAS:[7553-56-2\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of iodine for mutagenesis process." [CAS:7553-56-2, Gramene:pankaj_jaiswal]
 synonym: "iodine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13537,10 +13544,10 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007548
 name: Janus green B exposure
 alt_id: EO:0007548
-def: "The treatment involving use of Janus green B for mutagenesis process." [CAS:[2869-83-2\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of Janus green B for mutagenesis process." [CAS:2869-83-2, Gramene:pankaj_jaiswal]
 synonym: "Janus green B treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: PECO:0007185 ! salt exposure
+is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007549
@@ -13555,7 +13562,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007550
 name: methyl methanesulfonate exposure
 alt_id: EO:0007550
-def: "The treatment involving use of methyl methanesulfonate for mutagenesis process." [CAS:[66-27-3\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of methyl methanesulfonate for mutagenesis process." [CAS:66-27-3, Gramene:pankaj_jaiswal]
 synonym: "CB1540 (related)" RELATED []
 synonym: "methyl methanesulfonate treatment (narrow)" NARROW []
 synonym: "MMS (related)" RELATED []
@@ -13566,7 +13573,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007551
 name: mitomycin C exposure
 alt_id: EO:0007551
-def: "An antibiotic exposure (PECO:0007551) involving use of mitomycin C for mutagenesis process." [CAS:[50-07-7\], Gramene:pankaj_jaiswal, TO:moorel]
+def: "An antibiotic exposure (PECO:0007551) involving use of mitomycin C for mutagenesis process." [CAS:50-07-7, Gramene:pankaj_jaiswal, TO:moorel]
 synonym: "mitomycin C treatment (narrow)" NARROW []
 xref: PECO_GIT:69
 is_a: PECO:0007041 ! antibiotic exposure
@@ -13576,7 +13583,7 @@ is_a: PECO:0007149 ! chemical mutagen exposure
 id: PECO:0007552
 name: mustard gas exposure
 alt_id: EO:0007552
-def: "The treatment involving use of mustard gas for mutagenesis process." [CAS:[505-60-2\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of mustard gas for mutagenesis process." [CAS:505-60-2, Gramene:pankaj_jaiswal]
 synonym: "1,1'-thiobis[2-chloroethane (related)" RELATED []
 synonym: "mustard gas treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13586,7 +13593,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007553
 name: N-methyl-N'-nitro-N-nitrosoguanidine exposure
 alt_id: EO:0007553
-def: "The treatment involving use of N-methyl-N'-nitro-N-nitrosoguanidine for mutagenesis process." [CAS:[70-25-7\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of N-methyl-N'-nitro-N-nitrosoguanidine for mutagenesis process." [CAS:70-25-7, Gramene:pankaj_jaiswal]
 synonym: "MNNG (related)" RELATED []
 synonym: "N-methyl-N'-nitro-N-nitrosoguanidine treatment (narrow)" NARROW []
 synonym: "NNG (related)" RELATED []
@@ -13597,7 +13604,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007554
 name: N-nitrosodimethylamine exposure
 alt_id: EO:0007554
-def: "The treatment involving use of N-nitrosodimethylamine for mutagenesis process." [CAS:[62-75-9\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of N-nitrosodimethylamine for mutagenesis process." [CAS:62-75-9, Gramene:pankaj_jaiswal]
 synonym: "DMN (related)" RELATED []
 synonym: "N-nitrosodimethylamine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13616,7 +13623,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007556
 name: nitrogen mustard exposure
 alt_id: EO:0007556
-def: "The treatment involving use of nitrogen mustard for mutagenesis process." [CAS:[51-75-2\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of nitrogen mustard for mutagenesis process." [CAS:51-75-2, Gramene:pankaj_jaiswal]
 synonym: "2-chloro-N-(2-chloroethyl)-N-methylethanamine (related)" RELATED []
 synonym: "CB1414 (related)" RELATED []
 synonym: "HN2 (related)" RELATED []
@@ -13629,7 +13636,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007557
 name: nitrosomethyl urea exposure
 alt_id: EO:0007557
-def: "The treatment involving use of nitrosomethyl urea for mutagenesis process." [CAS:[684-93-5\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of nitrosomethyl urea for mutagenesis process." [CAS:684-93-5, Gramene:pankaj_jaiswal]
 synonym: "MNU (related)" RELATED []
 synonym: "N-methyl-N-nitrosourea (related)" RELATED []
 synonym: "nitrosomethyl urea treatment (narrow)" NARROW []
@@ -13640,7 +13647,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007558
 name: p-N,N-di(2-chloroethyl)aminophenylvaleric acid exposure
 alt_id: EO:0007558
-def: "The treatment involving use of p-N,N-di(2-chloroethyl)aminophenylvaleric acid for mutagenesis process." [CAS:[64508-90-3\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of p-N,N-di(2-chloroethyl)aminophenylvaleric acid for mutagenesis process." [CAS:64508-90-3, Gramene:pankaj_jaiswal]
 synonym: "CB1356 (related)" RELATED []
 synonym: "p-N,N-di(2-chloroethyl)aminophenylvaleric acid treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13650,7 +13657,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007559
 name: p-N,N-di-(2-chloroethyl)amino-D-phenylalanine exposure
 alt_id: EO:0007559
-def: "The treatment involving use of p-N,N-di-(2-chloroethyl)amino-D-phenylalanine for mutagenesis process." [CAS:[13045-94-8\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of p-N,N-di-(2-chloroethyl)amino-D-phenylalanine for mutagenesis process." [CAS:13045-94-8, Gramene:pankaj_jaiswal]
 synonym: "CB3026 (related)" RELATED []
 synonym: "p-N,N-di-(2-chloroethyl)amino-D-phenylalanine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13660,7 +13667,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007560
 name: p-N,N-di-(2-chloroethyl)amino-DL-phenylalanine exposure
 alt_id: EO:0007560
-def: "The treatment involving use of p-N,N-di-(2-chloroethyl)amino-DL-phenylalanine for mutagenesis process." [CAS:[148-82-3\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of p-N,N-di-(2-chloroethyl)amino-DL-phenylalanine for mutagenesis process." [CAS:148-82-3, Gramene:pankaj_jaiswal]
 synonym: "CB3007 (related)" RELATED []
 synonym: "melphalan (related)" RELATED []
 synonym: "p-N,N-di-(2-chloroethyl)amino-DL-phenylalanine treatment (narrow)" NARROW []
@@ -13680,7 +13687,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007562
 name: p-N,N-di-(2-chloroethyl)aminophenylbutyric acid exposure
 alt_id: EO:0007562
-def: "The treatment involving use of p-N,N-di-(2-chloroethyl)aminophenylbutyric acid for mutagenesis process." [CAS:[305-03-3\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of p-N,N-di-(2-chloroethyl)aminophenylbutyric acid for mutagenesis process." [CAS:305-03-3, Gramene:pankaj_jaiswal]
 synonym: "CB1348 (related)" RELATED []
 synonym: "chlorambucil (related)" RELATED []
 synonym: "p-N,N-di-(2-chloroethyl)aminophenylbutyric acid treatment (narrow)" NARROW []
@@ -13690,7 +13697,7 @@ is_a: PECO:0007556 ! nitrogen mustard exposure
 id: PECO:0007563
 name: p-N,N-di-(2-chloroethyl)aminophenylethylamine exposure
 alt_id: EO:0007563
-def: "The treatment involving use of p-N,N-di-(2-chloroethyl)aminophenylethylamine for mutagenesis process." [CAS:[58880-18-5\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of p-N,N-di-(2-chloroethyl)aminophenylethylamine for mutagenesis process." [CAS:58880-18-5, Gramene:pankaj_jaiswal]
 synonym: "CB3034 (related)" RELATED []
 synonym: "p-N,N-di-(2-chloroethyl)aminophenylethylamine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13700,7 +13707,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007564
 name: p-p'-N,N-di(2-chloroethyl)aminophenoxyphenylalanine exposure
 alt_id: EO:0007564
-def: "The treatment involving use of p-p'-N,N-di(2-chloroethyl)aminophenoxyphenylalanine for mutagenesis process." [CAS:[857-95-4\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of p-p'-N,N-di(2-chloroethyl)aminophenoxyphenylalanine for mutagenesis process." [CAS:857-95-4, Gramene:pankaj_jaiswal]
 synonym: "CB3051 (related)" RELATED []
 synonym: "p-p'-N,N-di(2-chloroethyl)aminophenoxyphenylalanine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13710,7 +13717,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007565
 name: quinhydrone exposure
 alt_id: EO:0007565
-def: "The treatment involving use of quinhydrone for mutagenesis process." [CAS:[106-34-3\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of quinhydrone for mutagenesis process." [CAS:106-34-3, Gramene:pankaj_jaiswal]
 synonym: "quinhydrone treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13719,7 +13726,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007566
 name: S-2-chloroethylcysteine exposure
 alt_id: EO:0007566
-def: "The treatment involving use of S-2-chloroethylcysteine for mutagenesis process." [CAS:[28361-96-8\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of S-2-chloroethylcysteine for mutagenesis process." [CAS:28361-96-8, Gramene:pankaj_jaiswal]
 synonym: "CB1592 (related)" RELATED []
 synonym: "S-2-chloroethylcysteine treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13729,19 +13736,19 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007567
 name: sodium bisulfite exposure
 alt_id: EO:0007567
-def: "The treatment involving use of sodium bisulfite for mutagenesis process." [CAS:[7631-90-5\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of sodium bisulfite for mutagenesis process." [CAS:7631-90-5, Gramene:pankaj_jaiswal]
 synonym: "sodium bisulfite treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: PECO:0007185 ! salt exposure
+is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007568
 name: sodium fluoride exposure
 alt_id: EO:0007568
-def: "The treatment involving use of sodium fluoride for mutagenesis process." [CAS:[7681-49-4\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of sodium fluoride for mutagenesis process." [CAS:7681-49-4, Gramene:pankaj_jaiswal]
 synonym: "sodium fluoride treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: PECO:0007185 ! salt exposure
+is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007569
@@ -13757,7 +13764,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007570
 name: sulfur mustard exposure
 alt_id: EO:0007570
-def: "The treatment involving use of sulfur mustard for mutagenesis process." [CAS:[505-60-2\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of sulfur mustard for mutagenesis process." [CAS:505-60-2, Gramene:pankaj_jaiswal]
 synonym: "CB1735 (related)" RELATED []
 synonym: "sulfur mustard treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
@@ -13767,7 +13774,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007571
 name: triaziquone exposure
 alt_id: EO:0007571
-def: "The treatment involving use of triaziquone for mutagenesis process." [CAS:[68-76-8\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of triaziquone for mutagenesis process." [CAS:68-76-8, Gramene:pankaj_jaiswal]
 synonym: "triaziquone treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13776,7 +13783,7 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007572
 name: triethylenemelamine exposure
 alt_id: EO:0007572
-def: "The treatment involving use of triethylenemelamine for mutagenesis process." [CAS:[51-18-3\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of triethylenemelamine for mutagenesis process." [CAS:51-18-3, Gramene:pankaj_jaiswal]
 synonym: "CB1246 (related)" RELATED []
 synonym: "TEM (related)" RELATED []
 synonym: "triethylenemelamine treatment (narrow)" NARROW []
@@ -13787,7 +13794,7 @@ is_a: PECO:0007632 ! insecticide exposure
 id: PECO:0007573
 name: urethane exposure
 alt_id: EO:0007573
-def: "The treatment involving use of urethane for mutagenesis process." [CAS:[51-79-6\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of urethane for mutagenesis process." [CAS:51-79-6, Gramene:pankaj_jaiswal]
 synonym: "urethane treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
@@ -13796,137 +13803,153 @@ is_a: RO:0002310 ! exposure event or process
 id: PECO:0007574
 name: vinyl carbamate exposure
 alt_id: EO:0007574
-def: "The treatment involving use of vinyl carbamate for mutagenesis process." [CAS:[15805-73-9\], Gramene:pankaj_jaiswal]
+def: "The treatment involving use of vinyl carbamate for mutagenesis process." [CAS:15805-73-9, Gramene:pankaj_jaiswal]
 synonym: "vinyl carbamate treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
 is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007610
-name: 3-H exposure
+name: OBSOLETE 3-H exposure
 alt_id: EO:0007610
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "3-H treatment (narrow)" NARROW []
 synonym: "tritium (related)" RELATED []
-is_a: PECO:0007154 ! radiation quality exposure
-is_a: PECO:0007629 ! hydrogen exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007611
-name: 3-H-deoxycytidine exposure
+name: OBSOLETE 3-H-deoxycytidine exposure
 alt_id: EO:0007611
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "3-H-deoxycytidine treatment (narrow)" NARROW []
-is_a: PECO:0007154 ! radiation quality exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007612
-name: 3-H-thymidine exposure
+name: OBSOLETE 3-H-thymidine exposure
 alt_id: EO:0007612
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "3-H-thymidine treatment (narrow)" NARROW []
-is_a: PECO:0007154 ! radiation quality exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007613
-name: 32-P exposure
+name: OBSOLETE 32-P exposure
 alt_id: EO:0007613
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "32-P treatment (narrow)" NARROW []
-is_a: PECO:0007154 ! radiation quality exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007614
-name: agr ray exposure
+name: OBSOLETE agr ray exposure
 alt_id: EO:0007614
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "agr ray treatment (narrow)" NARROW []
-is_a: PECO:0007154 ! radiation quality exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007615
-name: Bevatron irradiation exposure
+name: OBSOLETE Bevatron irradiation exposure
 alt_id: EO:0007615
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "Bevatron irradiation treatment (narrow)" NARROW []
-is_a: PECO:0007154 ! radiation quality exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007616
-name: deuteron irradiation exposure
+name: OBSOLETE deuteron irradiation exposure
 alt_id: EO:0007616
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "deuteron irradiation treatment (narrow)" NARROW []
-is_a: PECO:0007154 ! radiation quality exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007617
-name: ggr ray exposure
+name: OBSOLETE ggr ray exposure
 alt_id: EO:0007617
+def: "OBSOLETE" []
 synonym: "ggr ray treatment (narrow)" NARROW []
-is_a: PECO:0007154 ! radiation quality exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007618
-name: 137-Cs or ggr ray exposure
+name: OBSOLETE 137-Cs or ggr ray exposure
 alt_id: EO:0007618
+def: "OBSOLETE" []
 synonym: "137-Cs or ggr ray treatment (narrow)" NARROW []
-is_a: PECO:0007617 ! ggr ray exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007619
-name: 226-Ra or agr ray exposure
+name: OBSOLETE 226-Ra or agr ray exposure
 alt_id: EO:0007619
+def: "OBSOLETE" []
 synonym: "226-Ra or agr ray treatment (narrow)" NARROW []
 synonym: "radium (related)" RELATED []
-is_a: PECO:0007617 ! ggr ray exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007620
-name: 60-Co or ggr ray exposure
+name: OBSOLETE 60-Co or ggr ray exposure
 alt_id: EO:0007620
 synonym: "60-Co or ggr ray treatment (narrow)" NARROW []
-is_a: PECO:0007617 ! ggr ray exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007621
-name: magnetic field exposure
+name: OBSOLETE magnetic field exposure
 alt_id: EO:0007621
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "magnetic field treatment (narrow)" NARROW []
-is_a: PECO:0007154 ! radiation quality exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007622
-name: neutrons exposure
+name: OBSOLETE neutrons exposure
 alt_id: EO:0007622
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "neutrons treatment (narrow)" NARROW []
-is_a: PECO:0007154 ! radiation quality exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007623
-name: 252-Cf fission neutrons exposure
+name: OBSOLETE 252-Cf fission neutrons exposure
 alt_id: EO:0007623
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "252-Cf fission neutrons treatment (narrow)" NARROW []
-is_a: PECO:0007622 ! neutrons exposure
+is_a: PECO:0007622 ! OBSOLETE neutrons exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007624
-name: radio wave exposure
+name: OBSOLETE radio wave exposure
 alt_id: EO:0007624
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "radio wave treatment (narrow)" NARROW []
-is_a: PECO:0007154 ! radiation quality exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007625
-name: stratosphere exposure
+name: OBSOLETE stratosphere exposure
 alt_id: EO:0007625
+def: "OBSOLETE" [PECO:cooperl]
 synonym: "stratosphere exposure treatment (narrow)" NARROW []
-is_a: PECO:0007154 ! radiation quality exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007626
-name: supersonic exposure
+name: OBSOLETE supersonic exposure
 alt_id: EO:0007626
-is_a: PECO:0007154 ! radiation quality exposure
+def: "OBSOLETE" [PECO:cooperl]
+is_obsolete: true
 
 [Term]
 id: PECO:0007628
 name: X-ray exposure
 alt_id: EO:0007628
-def: "The treatment using X-ray either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 5pm-10nm." [Gramene:pankaj_jaiswal]
+def: "A radiation quality exposure (PECO:0007154) involving the exposure to  electromagnetic radiation with the wavelength range of 5 pm-10 nm." [Gramene:pankaj_jaiswal, TO:cooperl]
 synonym: "X-ray treatment (narrow)" NARROW []
 is_a: PECO:0007154 ! radiation quality exposure
 
@@ -13941,19 +13964,21 @@ is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007630
-name: Sclerospora spp. exposure
+name: Sclerospora sp. exposure
 alt_id: EO:0007630
-def: "The treatment involving exposure of plant to the pathogenic Sclerospora sp." [Gramene:pankaj_jaiswal]
-synonym: "Sclerospora spp. treatment (narrow)" NARROW []
-is_a: PECO:0007106 ! Stramenopiles exposure
+def: "An Oomycota exposure (PECO:0001074) involving the exposure of a plant structure (PO:0009011) to a Sclerospora sp. organism." [Gramene:pankaj_jaiswal, NCBITaxon:162129, PECO:cooperl]
+synonym: "downy mildews (exact)" EXACT []
+synonym: "Sclerospora sp. treatment (narrow)" NARROW []
+is_a: PECO:0001075 ! Oomycota exposure
 
 [Term]
 id: PECO:0007631
 name: Sclerospora graminicola exposure
 alt_id: EO:0007631
-def: "The treatment involving exposure of plant to the pathogen Sclerophthora graminicola. It is a causal agent for downy mildew disease." [Gramene:pankaj_jaiswal, NCBITaxon:162130]
+def: "A Sclerospora sp. exposure (PECO:0001074) involving the exposure of a plant structure (PO:0009011) to Sclerospora graminicola." [Gramene:pankaj_jaiswal, NCBITaxon:162130, PECO:cooperl]
+comment: Sclerospora graminicola is a causal agent for downy mildew disease.
 synonym: "Sclerospora graminicola treatment (narrow)" NARROW []
-is_a: PECO:0007630 ! Sclerospora spp. exposure
+is_a: PECO:0001075 ! Oomycota exposure
 
 [Term]
 id: PECO:0007632
@@ -13979,7 +14004,7 @@ is_a: PECO:0007183 ! herbicide exposure
 id: PECO:0007634
 name: Spodoptera litura exposure
 alt_id: EO:0007634
-def: "The treatment involving exposure of plant to the pest commonly calles as cutworm." [Gramene:pankaj_jaiswal]
+def: "The treatment involving exposure of plant to the pest commonly called cutworm." [Gramene:pankaj_jaiswal]
 synonym: "Spodoptera litura treatment (narrow)" NARROW []
 is_a: PECO:0007115 ! Spodoptera spp. exposure
 

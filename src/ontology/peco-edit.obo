@@ -3335,7 +3335,7 @@ is_a: PECO:0007119 ! Dipteran insect plant exposure
 id: PECO:0007290
 name: kinetin exposure
 alt_id: EO:0007290
-def: "A cytokinin exposure (PECO:0007066) involving use of kinetin, a synthetic cytokinin that promotes cell division.." [Gramene:pankaj_jaiswal, Wikipedi:Kinetin]
+def: "A cytokinin exposure (PECO:0007066) involving use of kinetin, a synthetic cytokinin that promotes cell division." [Gramene:pankaj_jaiswal, Wikipedia:Kinetin]
 synonym: "kinetin treatment (narrow)" NARROW []
 xref: PECO_GIT:71
 is_a: PECO:0007066 ! cytokinin exposure

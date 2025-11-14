@@ -224,7 +224,7 @@ intersection_of: RO:0002309 CHEBI:24061
 [Term]
 id: PECO:0007228
 intersection_of: PECO:0001001
-intersection_of: RO:0002309 CHEBI:24859
+intersection_of: RO:0002309 CHEBI:28073
 
 [Term]
 id: PECO:0007230

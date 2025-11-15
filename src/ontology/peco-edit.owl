@@ -779,18 +779,19 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0001025 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001025">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urea nitrogen exposure</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE urea nitrogen exposure</rdfs:label>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-12T19:19:27Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to urea (CHEBI:16199) as the primary or sole source of nitrogen.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001025</oboInOwl:hasAlternativeId>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to urea (CHEBI:16199) as the primary or sole source of nitrogen.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0001025</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO_GIT:3</oboInOwl:hasDbXref>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cooperl</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urea nitrogen treatment (narrow)</oboInOwl:hasNarrowSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to urea (CHEBI:16199) as the primary or sole source of nitrogen.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to urea (CHEBI:16199) as the primary or sole source of nitrogen.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0001025"/>
@@ -1705,17 +1706,17 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0001064 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001064">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">potassium fertilizer exposure</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007240"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE potassium fertilizer exposure</rdfs:label>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-10-18T17:40:45Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical fertilizer exposure (PECO:0007086) involving the use of potassium fertilizer as a supplement to study plant responses.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laurel_Cooper</oboInOwl:created_by>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE A chemical fertilizer exposure (PECO:0007086) involving the use of potassium fertilizer as a supplement to study plant responses.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0001064</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO_GIT:112</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical fertilizer exposure (PECO:0007086) involving the use of potassium fertilizer as a supplement to study plant responses.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE A chemical fertilizer exposure (PECO:0007086) involving the use of potassium fertilizer as a supplement to study plant responses.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0001064"/>
@@ -1727,7 +1728,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001065">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">potassium chloride exposure</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001064"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007293"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-10-18T17:51:54Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A potassium fertilizer exposure (PECO:0001064) involving the use of potassium chloride fertilizer as a supplement to study plant responses.</obo:IAO_0000115>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laurel_Cooper</oboInOwl:created_by>
@@ -3572,17 +3573,17 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007079 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007079">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sulfate fertilizer exposure</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007295"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE sulfate fertilizer exposure</rdfs:label>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007079</oboInOwl:hasAlternativeId>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE Treatment involving the use of sulfate fertilizer and its components as supplements to study various types of responses.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007079</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of sulfate fertilizer and its components as supplements to study various types of responses.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sulfate fertilizer treatment (narrow)</oboInOwl:hasNarrowSynonym>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of sulfate fertilizer and its components as supplements to study various types of responses.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE Treatment involving the use of sulfate fertilizer and its components as supplements to study various types of responses.</owl:annotatedTarget>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007079"/>
     </owl:Axiom>
@@ -3920,7 +3921,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007097">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ammonium sulfate exposure</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007079"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007097</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007097</oboInOwl:id>
@@ -3941,7 +3941,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007098">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ferrous sulfate exposure</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007079"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007098</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007098</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of ferrous sulfate supplement to study various types of responses.</obo:IAO_0000115>
@@ -3961,7 +3960,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007099">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">potassium sulfate exposure</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007079"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007099</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007099</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of potassium sulfate supplement to study various types of responses.</obo:IAO_0000115>
@@ -3981,7 +3979,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007100">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">superphosphate exposure</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007103"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001006"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007100</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007100</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of super phosphate supplement to study various types of responses.</obo:IAO_0000115>
@@ -4020,7 +4018,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007102 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007102">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen fertilizer exposure</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007240"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007102</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007102</oboInOwl:id>
@@ -4040,17 +4038,17 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007103 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007103">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phosphate fertilizer exposure</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007240"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE phosphate fertilizer exposure</rdfs:label>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007103</oboInOwl:hasAlternativeId>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE  Treatment involving the use of phosphate fertilizer and its components as supplements to study various types of responses.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007103</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of phosphate fertilizer and its components as supplements to study various types of responses.</obo:IAO_0000115>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phosphate fertilizer treatment (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of phosphate fertilizer and its components as supplements to study various types of responses.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE  Treatment involving the use of phosphate fertilizer and its components as supplements to study various types of responses.</owl:annotatedTarget>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007103"/>
     </owl:Axiom>
@@ -4062,7 +4060,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007104">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPK fertilizer exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007103"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007104</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPK fertilizer treatment (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007104</oboInOwl:id>
@@ -8048,8 +8045,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007293 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007293">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">potassium nutrient exposure</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007045"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">potassium exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007240"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007293</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007293</oboInOwl:id>

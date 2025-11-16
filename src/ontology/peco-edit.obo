@@ -1676,6 +1676,7 @@ name: ferrous sulfate exposure
 alt_id: EO:0007098
 def: "Treatment involving the use of ferrous sulfate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "ferrous sulfate treatment (narrow)" NARROW []
+is_a: PECO:0001008 ! sulfate exposure
 
 [Term]
 id: PECO:0007099
@@ -1683,6 +1684,7 @@ name: potassium sulfate exposure
 alt_id: EO:0007099
 def: "Treatment involving the use of potassium sulfate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "potassium sulfate treatment (narrow)" NARROW []
+is_a: PECO:0001008 ! sulfate exposure
 
 [Term]
 id: PECO:0007100
@@ -5035,12 +5037,12 @@ is_a: PECO:0007149 ! chemical mutagen exposure
 
 [Term]
 id: PECO:0007570
-name: sulfur mustard exposure
+name: OBSOLETE sulfur mustard exposure
 alt_id: EO:0007570
-def: "The treatment involving use of sulfur mustard for mutagenesis process." [CAS:505-60-2, Gramene:pankaj_jaiswal]
+def: "OBSOLETE The treatment involving use of sulfur mustard for mutagenesis process." [CAS:505-60-2, Gramene:pankaj_jaiswal]
 synonym: "CB1735 (related)" RELATED []
 synonym: "sulfur mustard treatment (narrow)" NARROW []
-is_a: PECO:0007149 ! chemical mutagen exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007571

@@ -244,7 +244,7 @@ alt_id: EO:0001021
 def: "An inorganic anion exposure (PECO:0001009) involving the application of ozone (CHEBI:29382)." [CHEBI:29382, PECO:cooperl]
 synonym: "ozone treatment (narrow)" NARROW []
 xref: PECO_GIT:29
-is_a: PECO:0001009 ! inorganic anion exposure
+is_a: PECO:0007023 ! gaseous exposure
 created_by: cooperl
 creation_date: 2013-04-12T13:04:10Z
 
@@ -5188,7 +5188,6 @@ name: OBSOLETE 252-Cf fission neutrons exposure
 alt_id: EO:0007623
 def: "OBSOLETE" [PECO:cooperl]
 synonym: "252-Cf fission neutrons treatment (narrow)" NARROW []
-is_a: PECO:0007622 ! OBSOLETE neutrons exposure
 is_obsolete: true
 
 [Term]

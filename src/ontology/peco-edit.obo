@@ -2489,12 +2489,11 @@ is_obsolete: true
 
 [Term]
 id: PECO:0007194
-name: Sclerospora macrospora exposure
+name: Sclerophthora macrospora exposure
 alt_id: EO:0007194
-def: "The treatment involving exposure of plant to the pathogen Sclerophthora macrospora. It is a causal agent for rice Downy Mildew disease." [Gramene:ivy]
-synonym: "Sclerophthora macrospora (related)" RELATED []
+def: "The treatment involving exposure of plant to the pathogen Sclerophthora macrospora. It is a causal agent for rice Downy Mildew disease." [Gramene:ivy, NCBITaxon:467176, PECO:cooperl]
 synonym: "Sclerospora macrospora treatment (narrow)" NARROW []
-is_a: PECO:0007630 ! Sclerospora sp. exposure
+is_a: PECO:0001075 ! Oomycota exposure
 
 [Term]
 id: PECO:0007195

@@ -2,11 +2,6 @@ format-version: 1.2
 ontology: peco/patterns/exposure-chebi_pattern
 
 [Term]
-id: PECO:0001006
-intersection_of: PECO:0001001
-intersection_of: RO:0002309 CHEBI:26020
-
-[Term]
 id: PECO:0001008
 intersection_of: PECO:0001001
 intersection_of: RO:0002309 CHEBI:16189
@@ -62,11 +57,6 @@ intersection_of: PECO:0001001
 intersection_of: RO:0002309 CHEBI:25812
 
 [Term]
-id: PECO:0001025
-intersection_of: PECO:0001001
-intersection_of: RO:0002309 CHEBI:16199
-
-[Term]
 id: PECO:0001027
 intersection_of: PECO:0001001
 intersection_of: RO:0002309 CHEBI:16449
@@ -102,11 +92,6 @@ intersection_of: PECO:0001001
 intersection_of: RO:0002309 CHEBI:46793
 
 [Term]
-id: PECO:0001064
-intersection_of: PECO:0001001
-intersection_of: RO:0002309 CHEBI:26216
-
-[Term]
 id: PECO:0001065
 intersection_of: PECO:0001001
 intersection_of: RO:0002309 CHEBI:32588
@@ -125,11 +110,6 @@ intersection_of: RO:0002309 CHEBI:86644
 id: PECO:0007070
 intersection_of: PECO:0001001
 intersection_of: RO:0002309 CHEBI:16411
-
-[Term]
-id: PECO:0007079
-intersection_of: PECO:0001001
-intersection_of: RO:0002309 CHEBI:16189
 
 [Term]
 id: PECO:0007080
@@ -182,11 +162,6 @@ intersection_of: PECO:0001001
 intersection_of: RO:0002309 CHEBI:25555
 
 [Term]
-id: PECO:0007103
-intersection_of: PECO:0001001
-intersection_of: RO:0002309 CHEBI:26020
-
-[Term]
 id: PECO:0007105
 intersection_of: PECO:0001001
 intersection_of: RO:0002309 CHEBI:22152
@@ -220,11 +195,6 @@ intersection_of: RO:0002309 CHEBI:35456
 id: PECO:0007225
 intersection_of: PECO:0001001
 intersection_of: RO:0002309 CHEBI:24061
-
-[Term]
-id: PECO:0007228
-intersection_of: PECO:0001001
-intersection_of: RO:0002309 CHEBI:28073
 
 [Term]
 id: PECO:0007230
@@ -280,11 +250,6 @@ intersection_of: RO:0002309 CHEBI:27638
 id: PECO:0007278
 intersection_of: PECO:0001001
 intersection_of: RO:0002309 CHEBI:25805
-
-[Term]
-id: PECO:0007284
-intersection_of: PECO:0001001
-intersection_of: RO:0002309 CHEBI:25555
 
 [Term]
 id: PECO:0007287
@@ -685,11 +650,6 @@ intersection_of: RO:0002309 CHEBI:28741
 id: PECO:0007569
 intersection_of: PECO:0001001
 intersection_of: RO:0002309 CHEBI:26800
-
-[Term]
-id: PECO:0007570
-intersection_of: PECO:0001001
-intersection_of: RO:0002309 CHEBI:25434
 
 [Term]
 id: PECO:0007571

@@ -685,7 +685,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001021">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ozone exposure</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007023"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-12T13:04:10Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An inorganic anion exposure (PECO:0001009) involving the application of ozone (CHEBI:29382).</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001021</oboInOwl:hasAlternativeId>
@@ -5941,17 +5941,18 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007194 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007194">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sclerospora macrospora exposure</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007630"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sclerophthora macrospora exposure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001075"/>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007194</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007194</oboInOwl:id>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sclerophthora macrospora (related)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sclerospora macrospora treatment (narrow)</oboInOwl:hasNarrowSynonym>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pathogen Sclerophthora macrospora. It is a causal agent for rice Downy Mildew disease.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:ivy</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:467176</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to the pathogen Sclerophthora macrospora. It is a causal agent for rice Downy Mildew disease.</owl:annotatedTarget>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007194"/>
@@ -12409,7 +12410,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007623">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE 252-Cf fission neutrons exposure</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007622"/>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">252-Cf fission neutrons treatment (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007623</oboInOwl:hasAlternativeId>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBSOLETE</obo:IAO_0000115>

@@ -17,6 +17,11 @@ intersection_of: PECO:0001001
 intersection_of: RO:0002309 ENVO:00002229
 
 [Term]
+id: PECO:0007161
+intersection_of: PECO:0001001
+intersection_of: RO:0002309 ENVO:09200001
+
+[Term]
 id: PECO:0007181
 intersection_of: PECO:0001001
 intersection_of: RO:0002309 ENVO:01000830

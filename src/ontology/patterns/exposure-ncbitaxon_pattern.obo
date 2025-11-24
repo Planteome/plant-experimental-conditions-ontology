@@ -1,5 +1,5 @@
 format-version: 1.2
-ontology: urn:unnamed:ontology#ont1
+ontology: peco/patterns/exposure-ncbitaxon_pattern
 
 [Term]
 id: PECO:0001075
@@ -304,5 +304,5 @@ intersection_of: RO:0002309 NCBITaxon:162130
 [Term]
 id: PECO:0007631
 intersection_of: PECO:0001001
-intersection_of: RO:0002309 NCBITaxon:162130
+intersection_of: RO:0002309 NCBITaxon:162131
 

@@ -1,8 +1,9 @@
 format-version: 1.2
-data-version: releases/2025-10-30
+data-version: releases/2025-11-24
 date: 12:10:2015 15:21
 saved-by: cooperl
 default-namespace: plant_experimental_conditions_ontology
+idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 import: http://purl.obolibrary.org/obo/peco/imports/chebi_import.owl
 import: http://purl.obolibrary.org/obo/peco/imports/envo_import.owl
 import: http://purl.obolibrary.org/obo/peco/imports/ncbitaxon_import.owl
@@ -30,6 +31,14 @@ id: BFO:0000015 ! process
 is_a: BFO:0000003 ! occurrent
 
 [Term]
+id: BFO:0000016 ! disposition
+is_a: BFO:0000017 ! realizable entity
+
+[Term]
+id: BFO:0000017 ! realizable entity
+is_a: BFO:0000020 ! specifically dependent continuant
+
+[Term]
 id: BFO:0000019 ! quality
 is_a: BFO:0000020 ! specifically dependent continuant
 
@@ -38,12 +47,12 @@ id: BFO:0000020 ! specifically dependent continuant
 is_a: BFO:0000002 ! continuant
 
 [Term]
-id: BFO:0000024 ! fiat object
-is_a: BFO:0000040 ! material entity
+id: BFO:0000023 ! role
+is_a: BFO:0000017 ! realizable entity
 
 [Term]
-id: BFO:0000029 ! site
-is_a: BFO:0000141 ! immaterial entity
+id: BFO:0000024 ! fiat object
+is_a: BFO:0000040 ! material entity
 
 [Term]
 id: BFO:0000030 ! object
@@ -51,10 +60,6 @@ is_a: BFO:0000040 ! material entity
 
 [Term]
 id: BFO:0000040 ! material entity
-is_a: BFO:0000004 ! independent continuant
-
-[Term]
-id: BFO:0000141 ! immaterial entity
 is_a: BFO:0000004 ! independent continuant
 
 [Term]
@@ -237,8 +242,8 @@ is_a: CHEBI:33853 ! phenols
 
 [Term]
 id: CHEBI:139588 ! alpha-hydroxy ketone
-is_a: CHEBI:30879 ! alcohol
-is_a: CHEBI:52396 ! alpha-oxyketone
+is_a: CHEBI:17087 ! ketone
+is_a: CHEBI:33822 ! organic hydroxy compound
 
 [Term]
 id: CHEBI:140948 ! fatty acid 18:1
@@ -263,19 +268,19 @@ is_a: CHEBI:142851 ! 2-amino-4-[hydroxy(methyl)phosphoryl]butanoic acid
 
 [Term]
 id: CHEBI:142854 ! (2R)-glufosinate zwitterion
-is_a: CHEBI:35238 ! amino acid zwitterion
+is_a: CHEBI:35238 ! amino-acid zwitterion
 
 [Term]
 id: CHEBI:142856 ! glufosinate-P zwitterion
-is_a: CHEBI:35238 ! amino acid zwitterion
+is_a: CHEBI:35238 ! amino-acid zwitterion
 
 [Term]
 id: CHEBI:142858 ! (2R)-glufosinate zwitterion(1-)
-is_a: CHEBI:25696 ! organic anion
+is_a: CHEBI:58882 ! phosphinothricin(1-)
 
 [Term]
 id: CHEBI:142859 ! glufosinate-P zwitterion(1-)
-is_a: CHEBI:25696 ! organic anion
+is_a: CHEBI:58882 ! phosphinothricin(1-)
 
 [Term]
 id: CHEBI:14321 ! glutamate(1-)
@@ -338,6 +343,7 @@ is_a: CHEBI:33263 ! diatomic oxygen
 [Term]
 id: CHEBI:15428 ! glycine
 is_a: CHEBI:26650 ! serine family amino acid
+is_a: CHEBI:83813 ! proteinogenic amino acid
 
 [Term]
 id: CHEBI:156230 ! 1-naphthaleneacetate
@@ -564,6 +570,7 @@ is_a: CHEBI:25389 ! monohydroxybenzoic acid
 
 [Term]
 id: CHEBI:16953 ! N-acetyl-L-aspartate(2-)
+is_a: CHEBI:233443 ! N-acetyl-L-alpha-amino acid anion
 is_a: CHEBI:28965 ! dicarboxylic acid dianion
 is_a: CHEBI:59874 ! N-acyl-L-alpha-amino acid anion
 
@@ -693,8 +700,8 @@ is_a: CHEBI:17701 ! benzenediol
 is_a: CHEBI:24646 ! hydroquinones
 
 [Term]
-id: CHEBI:17620 ! ferulic acid
-is_a: CHEBI:24031 ! ferulic acids
+id: CHEBI:17620 ! trans-ferulic acid
+is_a: CHEBI:193350 ! ferulic acid
 
 [Term]
 id: CHEBI:17632 ! nitrate
@@ -848,6 +855,10 @@ is_a: CHEBI:33405 ! hydracid
 is_a: CHEBI:64708 ! one-carbon compound
 
 [Term]
+id: CHEBI:188147 ! urea herbicide
+is_a: CHEBI:24527 ! herbicide
+
+[Term]
 id: CHEBI:18934 ! hexane-2,5-diyl bis(methanesulfonate)
 is_a: CHEBI:25223 ! methanesulfonate ester
 
@@ -888,6 +899,10 @@ is_a: CHEBI:37141 ! organobromine compound
 [Term]
 id: CHEBI:192499 ! anthoxanthin
 is_a: CHEBI:47916 ! flavonoid
+
+[Term]
+id: CHEBI:193350 ! ferulic acid
+is_a: CHEBI:24031 ! ferulic acids
 
 [Term]
 id: CHEBI:19351 ! (2,4-dichlorophenoxy)acetate
@@ -1031,7 +1046,7 @@ is_a: CHEBI:37622 ! carboxamide
 
 [Term]
 id: CHEBI:22195 ! acetyl-amino acid
-is_a: CHEBI:83821 ! amino acid derivative
+is_a: CHEBI:83821 ! amino-acid derivative
 
 [Term]
 id: CHEBI:22213 ! acridines
@@ -1117,7 +1132,7 @@ is_a: CHEBI:66873 ! C4-dicarboxylic acid
 
 [Term]
 id: CHEBI:22661 ! aspartic acid derivative
-is_a: CHEBI:83821 ! amino acid derivative
+is_a: CHEBI:83821 ! amino-acid derivative
 
 [Term]
 id: CHEBI:22676 ! auxin
@@ -1169,6 +1184,11 @@ is_a: CHEBI:36141 ! quinone
 id: CHEBI:22744 ! benzyl group
 is_a: CHEBI:33452 ! benzylic group
 is_a: CHEBI:50325 ! proteinogenic amino-acid side-chain group
+
+[Term]
+id: CHEBI:228364 ! NMR chemical shift reference compound
+is_a: CHEBI:33232 ! application
+is_a: CHEBI:51086 ! chemical role
 
 [Term]
 id: CHEBI:22908 ! borate
@@ -1314,6 +1334,14 @@ is_a: CHEBI:78840 ! olefinic compound
 is_a: CHEBI:79020 ! alpha,beta-unsaturated monocarboxylic acid
 
 [Term]
+id: CHEBI:233443 ! N-acetyl-L-alpha-amino acid anion
+is_a: CHEBI:48927 ! N-acyl-L-alpha-amino acid
+
+[Term]
+id: CHEBI:233500 ! post-transition metal atom
+is_a: CHEBI:33521 ! metal atom
+
+[Term]
 id: CHEBI:23357 ! cofactor
 is_a: CHEBI:52206 ! biochemical role
 
@@ -1351,7 +1379,7 @@ is_a: CHEBI:26191 ! polyol
 
 [Term]
 id: CHEBI:23509 ! cysteine derivative
-is_a: CHEBI:83821 ! amino acid derivative
+is_a: CHEBI:83821 ! amino-acid derivative
 
 [Term]
 id: CHEBI:23529 ! cytochrome-b6f complex inhibitor
@@ -1460,7 +1488,7 @@ is_a: CHEBI:24586 ! hexosamine
 
 [Term]
 id: CHEBI:24315 ! glutamic acid derivative
-is_a: CHEBI:83821 ! amino acid derivative
+is_a: CHEBI:83821 ! amino-acid derivative
 
 [Term]
 id: CHEBI:24318 ! glutamine family amino acid
@@ -2030,7 +2058,7 @@ is_a: CHEBI:33232 ! application
 
 [Term]
 id: CHEBI:25985 ! phenylalanine derivative
-is_a: CHEBI:83821 ! amino acid derivative
+is_a: CHEBI:83821 ! amino-acid derivative
 
 [Term]
 id: CHEBI:26004 ! phenylpropanoid
@@ -2188,8 +2216,7 @@ is_a: CHEBI:35366 ! fatty acid
 
 [Term]
 id: CHEBI:26650 ! serine family amino acid
-is_a: CHEBI:15705 ! L-alpha-amino acid
-is_a: CHEBI:83813 ! proteinogenic amino acid
+is_a: CHEBI:33704 ! alpha-amino acid
 
 [Term]
 id: CHEBI:26658 ! sesquiterpenoid
@@ -2335,7 +2362,7 @@ is_a: CHEBI:50699 ! oligosaccharide
 
 [Term]
 id: CHEBI:27164 ! tryptophan derivative
-is_a: CHEBI:83821 ! amino acid derivative
+is_a: CHEBI:83821 ! amino-acid derivative
 
 [Term]
 id: CHEBI:27171 ! organic heterobicyclic compound
@@ -2656,8 +2683,8 @@ is_a: CHEBI:36961 ! chalcocarbonic acid
 
 [Term]
 id: CHEBI:28984 ! aluminium atom
+is_a: CHEBI:233500 ! post-transition metal atom
 is_a: CHEBI:33317 ! boron group element atom
-is_a: CHEBI:33521 ! metal atom
 
 [Term]
 id: CHEBI:29016 ! arginine
@@ -2790,7 +2817,7 @@ is_a: CHEBI:33693 ! oxygen hydride
 is_a: CHEBI:50313 ! onium cation
 
 [Term]
-id: CHEBI:29749 ! ferulate
+id: CHEBI:29749 ! trans-ferulate
 is_a: CHEBI:35757 ! monocarboxylic acid anion
 
 [Term]
@@ -2817,7 +2844,6 @@ is_a: CHEBI:33246 ! inorganic group
 [Term]
 id: CHEBI:29985 ! L-glutamate(1-)
 is_a: CHEBI:14321 ! glutamate(1-)
-is_a: CHEBI:62031 ! polar amino acid zwitterion
 
 [Term]
 id: CHEBI:29986 ! D-glutamate(1-)
@@ -3654,6 +3680,7 @@ is_a: CHEBI:36916 ! cation
 
 [Term]
 id: CHEBI:33703 ! amino-acid cation
+is_a: CHEBI:25697 ! organic cation
 is_a: CHEBI:33702 ! polyatomic cation
 
 [Term]
@@ -3928,10 +3955,10 @@ is_a: CHEBI:33292 ! fuel
 
 [Term]
 id: CHEBI:35237 ! cysteine zwitterion
-is_a: CHEBI:35238 ! amino acid zwitterion
+is_a: CHEBI:35238 ! amino-acid zwitterion
 
 [Term]
-id: CHEBI:35238 ! amino acid zwitterion
+id: CHEBI:35238 ! amino-acid zwitterion
 is_a: CHEBI:27369 ! zwitterion
 
 [Term]
@@ -4321,6 +4348,10 @@ is_a: CHEBI:37863 ! chalcoperoxol
 id: CHEBI:35942 ! neurotransmitter agent
 is_a: CHEBI:23888 ! drug
 is_a: CHEBI:52210 ! pharmacological role
+
+[Term]
+id: CHEBI:35952 ! 5-oxo monocarboxylic acid
+is_a: CHEBI:35871 ! oxo monocarboxylic acid
 
 [Term]
 id: CHEBI:35975 ! 5-oxo monocarboxylic acid anion
@@ -5658,7 +5689,7 @@ is_a: CHEBI:33247 ! organic group
 id: CHEBI:51569 ! N-acyl-amino acid
 is_a: CHEBI:33575 ! carboxylic acid
 is_a: CHEBI:37622 ! carboxamide
-is_a: CHEBI:83821 ! amino acid derivative
+is_a: CHEBI:83821 ! amino-acid derivative
 
 [Term]
 id: CHEBI:51689 ! enone
@@ -5713,14 +5744,6 @@ is_a: CHEBI:24432 ! biological role
 [Term]
 id: CHEBI:52217 ! pharmaceutical
 is_a: CHEBI:33232 ! application
-
-[Term]
-id: CHEBI:52395 ! oxyketone
-is_a: CHEBI:17087 ! ketone
-
-[Term]
-id: CHEBI:52396 ! alpha-oxyketone
-is_a: CHEBI:52395 ! oxyketone
 
 [Term]
 id: CHEBI:52464 ! jasmonate ester
@@ -5778,7 +5801,7 @@ is_a: CHEBI:33595 ! cyclic compound
 
 [Term]
 id: CHEBI:57305 ! glycine zwitterion
-is_a: CHEBI:35238 ! amino acid zwitterion
+is_a: CHEBI:35238 ! amino-acid zwitterion
 
 [Term]
 id: CHEBI:57545 ! luteolin-7-olate
@@ -5798,7 +5821,7 @@ is_a: CHEBI:59871 ! D-alpha-amino acid zwitterion
 
 [Term]
 id: CHEBI:58095 ! L-phenylalanine zwitterion
-is_a: CHEBI:35238 ! amino acid zwitterion
+is_a: CHEBI:35238 ! amino-acid zwitterion
 
 [Term]
 id: CHEBI:58416 ! chlorophyll a(1-)
@@ -5833,6 +5856,10 @@ is_a: CHEBI:25696 ! organic anion
 [Term]
 id: CHEBI:58941 ! cyclic tetrapyrrole anion
 is_a: CHEBI:25696 ! organic anion
+
+[Term]
+id: CHEBI:58942 ! cationic amino-acid residue
+is_a: CHEBI:64769 ! organic cationic group
 
 [Term]
 id: CHEBI:58945 ! organophosphate oxoanion
@@ -5904,11 +5931,11 @@ is_a: CHEBI:33558 ! alpha-amino-acid anion
 
 [Term]
 id: CHEBI:59869 ! L-alpha-amino acid zwitterion
-is_a: CHEBI:78608 ! alpha-amino acid zwitterion
+is_a: CHEBI:78608 ! alpha-amino-acid zwitterion
 
 [Term]
 id: CHEBI:59871 ! D-alpha-amino acid zwitterion
-is_a: CHEBI:35238 ! amino acid zwitterion
+is_a: CHEBI:35238 ! amino-acid zwitterion
 
 [Term]
 id: CHEBI:59874 ! N-acyl-L-alpha-amino acid anion
@@ -5981,11 +6008,6 @@ is_a: CHEBI:180906 ! terpenoid phytoalexin
 is_a: CHEBI:23849 ! diterpenoid
 
 [Term]
-id: CHEBI:61015 ! nephrotoxin
-is_a: CHEBI:50909 ! nephrotoxic agent
-is_a: CHEBI:64909 ! poison
-
-[Term]
 id: CHEBI:61051 ! lipid hydroperoxide
 is_a: CHEBI:18059 ! lipid
 is_a: CHEBI:35924 ! peroxol
@@ -6015,7 +6037,7 @@ is_a: CHEBI:64911 ! antimitotic
 
 [Term]
 id: CHEBI:62031 ! polar amino acid zwitterion
-is_a: CHEBI:35238 ! amino acid zwitterion
+is_a: CHEBI:35238 ! amino-acid zwitterion
 
 [Term]
 id: CHEBI:62071 ! 2-cis-abscisate
@@ -6154,7 +6176,7 @@ is_a: CHEBI:33232 ! application
 
 [Term]
 id: CHEBI:64554 ! tryptophan zwitterion
-is_a: CHEBI:35238 ! amino acid zwitterion
+is_a: CHEBI:35238 ! amino-acid zwitterion
 
 [Term]
 id: CHEBI:6457 ! lignin
@@ -6185,8 +6207,28 @@ id: CHEBI:64709 ! organic acid
 is_a: CHEBI:50860 ! organic molecular entity
 
 [Term]
+id: CHEBI:64766 ! cationic group
+is_a: CHEBI:24433 ! group
+
+[Term]
+id: CHEBI:64767 ! anionic group
+is_a: CHEBI:24433 ! group
+
+[Term]
+id: CHEBI:64769 ! organic cationic group
+is_a: CHEBI:64766 ! cationic group
+
+[Term]
+id: CHEBI:64775 ! organic anionic group
+is_a: CHEBI:64767 ! anionic group
+
+[Term]
 id: CHEBI:64857 ! cosmetic
 is_a: CHEBI:33232 ! application
+
+[Term]
+id: CHEBI:64898 ! anionic amino-acid residue
+is_a: CHEBI:64775 ! organic anionic group
 
 [Term]
 id: CHEBI:64909 ! poison
@@ -6238,7 +6280,7 @@ is_a: CHEBI:35692 ! dicarboxylic acid
 
 [Term]
 id: CHEBI:66916 ! alanine zwitterion
-is_a: CHEBI:35238 ! amino acid zwitterion
+is_a: CHEBI:35238 ! amino-acid zwitterion
 
 [Term]
 id: CHEBI:66981 ! ophthalmology drug
@@ -6408,7 +6450,7 @@ is_a: CHEBI:51336 ! metal sulfate
 
 [Term]
 id: CHEBI:76042 ! aromatic amino-acid zwitterion
-is_a: CHEBI:35238 ! amino acid zwitterion
+is_a: CHEBI:35238 ! amino-acid zwitterion
 
 [Term]
 id: CHEBI:76206 ! xenobiotic metabolite
@@ -6613,6 +6655,11 @@ id: CHEBI:77941 ! EC 3.5.1.4 (amidase) inhibitor
 is_a: CHEBI:76807 ! EC 3.5.1.* (non-peptide linear amide C-N hydrolase) inhibitor
 
 [Term]
+id: CHEBI:77962 ! food antioxidant
+is_a: CHEBI:22586 ! antioxidant
+is_a: CHEBI:65255 ! food preservative
+
+[Term]
 id: CHEBI:77964 ! anticaking agent
 is_a: CHEBI:33232 ! application
 
@@ -6644,6 +6691,10 @@ is_a: CHEBI:64047 ! food additive
 
 [Term]
 id: CHEBI:78004 ! food bulking agent
+is_a: CHEBI:64047 ! food additive
+
+[Term]
+id: CHEBI:78006 ! food colour retention agent
 is_a: CHEBI:64047 ! food additive
 
 [Term]
@@ -6685,8 +6736,8 @@ id: CHEBI:78592 ! vesicant
 is_a: CHEBI:52208 ! biophysical role
 
 [Term]
-id: CHEBI:78608 ! alpha-amino acid zwitterion
-is_a: CHEBI:35238 ! amino acid zwitterion
+id: CHEBI:78608 ! alpha-amino-acid zwitterion
+is_a: CHEBI:35238 ! amino-acid zwitterion
 
 [Term]
 id: CHEBI:78616 ! carbohydrates and carbohydrate derivatives
@@ -6786,23 +6837,22 @@ is_a: CHEBI:18310 ! alkane
 
 [Term]
 id: CHEBI:83811 ! proteinogenic amino acid derivative
-is_a: CHEBI:83821 ! amino acid derivative
+is_a: CHEBI:83821 ! amino-acid derivative
 
 [Term]
 id: CHEBI:83812 ! non-proteinogenic amino acid derivative
-is_a: CHEBI:83821 ! amino acid derivative
+is_a: CHEBI:83821 ! amino-acid derivative
 
 [Term]
 id: CHEBI:83813 ! proteinogenic amino acid
-is_a: CHEBI:33575 ! carboxylic acid
-is_a: CHEBI:35352 ! organonitrogen compound
+is_a: CHEBI:33709 ! amino acid
 
 [Term]
 id: CHEBI:83820 ! non-proteinogenic amino acid
 is_a: CHEBI:33709 ! amino acid
 
 [Term]
-id: CHEBI:83821 ! amino acid derivative
+id: CHEBI:83821 ! amino-acid derivative
 is_a: CHEBI:35352 ! organonitrogen compound
 
 [Term]
@@ -6903,6 +6953,10 @@ id: CHEBI:91007 ! aromatic carboxylate
 is_a: CHEBI:29067 ! carboxylic acid anion
 
 [Term]
+id: COB:0001000 ! exposure of organism
+is_a: BFO:0000015 ! process
+
+[Term]
 id: ENVO:00000063 ! water body
 is_a: ENVO:01000685 ! water mass
 
@@ -6912,31 +6966,30 @@ is_a: ENVO:01000752 ! area of barren land
 
 [Term]
 id: ENVO:00000191 ! solid astronomical body part
-is_a: ENVO:01000813 ! astronomical body part
+is_a: ENVO:01001784 ! compound astronomical body part
 
 [Term]
-id: ENVO:00000194 ! scree
-is_a: ENVO:00010483 ! environmental material
+id: ENVO:00000340 ! particle of sand
+is_a: ENVO:01003002 ! particle
 
 [Term]
-id: ENVO:00000339 ! piece of rock
-is_a: ENVO:01001687 ! mass of solid material
+id: ENVO:00000343 ! particle of silt
+is_a: ENVO:01003002 ! particle
 
 [Term]
 id: ENVO:00000428 ! biome
+is_a: ENVO:01000813 ! astronomical body part
 is_a: ENVO:01001110 ! ecosystem
 
 [Term]
 id: ENVO:00000446 ! terrestrial biome
 is_a: ENVO:00000428 ! biome
-
-[Term]
-id: ENVO:00001995 ! rock
-is_a: ENVO:01000814 ! solid environmental material
+is_a: ENVO:01001790 ! terrestrial ecosystem
 
 [Term]
 id: ENVO:00001998 ! soil
 is_a: ENVO:00010483 ! environmental material
+is_a: ENVO:01000813 ! astronomical body part
 
 [Term]
 id: ENVO:00002005 ! air
@@ -6961,7 +7014,7 @@ is_a: ENVO:00001998 ! soil
 
 [Term]
 id: ENVO:00002982 ! clay
-is_a: ENVO:00010483 ! environmental material
+is_a: ENVO:01000060 ! particulate environmental material
 
 [Term]
 id: ENVO:00003082 ! enriched soil
@@ -6969,7 +7022,7 @@ is_a: ENVO:00001998 ! soil
 
 [Term]
 id: ENVO:00010483 ! environmental material
-is_a: BFO:0000024 ! fiat object
+is_a: BFO:0000040 ! material entity
 
 [Term]
 id: ENVO:00010504 ! surface layer
@@ -6977,10 +7030,14 @@ is_a: ENVO:01001684 ! interface layer
 
 [Term]
 id: ENVO:01000016 ! silt
-is_a: ENVO:00010483 ! environmental material
+is_a: ENVO:01000060 ! particulate environmental material
 
 [Term]
 id: ENVO:01000017 ! sand
+is_a: ENVO:01000060 ! particulate environmental material
+
+[Term]
+id: ENVO:01000060 ! particulate environmental material
 is_a: ENVO:00010483 ! environmental material
 
 [Term]
@@ -7020,10 +7077,6 @@ id: ENVO:01000281 ! layer
 is_a: BFO:0000040 ! material entity
 
 [Term]
-id: ENVO:01000303 ! endolithic environment
-is_a: ENVO:01000254 ! environmental system
-
-[Term]
 id: ENVO:01000317 ! aquatic environment
 is_a: ENVO:01000997 ! environmental system determined by a quality
 is_a: ENVO:01000998 ! environmental system determined by a material
@@ -7043,7 +7096,7 @@ is_a: ENVO:01001273 ! liquid layer
 
 [Term]
 id: ENVO:01000408 ! environmental zone
-is_a: BFO:0000029 ! site
+is_a: BFO:0000024 ! fiat object
 
 [Term]
 id: ENVO:01000543 ! atmospheric layer
@@ -7078,9 +7131,11 @@ is_a: ENVO:01000639 ! planetary structural layer
 [Term]
 id: ENVO:01000639 ! planetary structural layer
 is_a: ENVO:01000281 ! layer
+is_a: ENVO:01000813 ! astronomical body part
 
 [Term]
 id: ENVO:01000646 ! lithosphere
+is_a: ENVO:00000191 ! solid astronomical body part
 is_a: ENVO:01000639 ! planetary structural layer
 is_a: ENVO:01001275 ! solid layer
 
@@ -7097,19 +7152,11 @@ id: ENVO:01000724 ! condensation process
 is_a: ENVO:01001510 ! material congelation process
 
 [Term]
-id: ENVO:01000739 ! habitat
-is_a: ENVO:01001110 ! ecosystem
-
-[Term]
 id: ENVO:01000752 ! area of barren land
 is_a: ENVO:01001199 ! terrestrial environmental zone
 
 [Term]
 id: ENVO:01000797 ! gaseous environmental material
-is_a: ENVO:02000140 ! fluid environmental material
-
-[Term]
-id: ENVO:01000798 ! plasma
 is_a: ENVO:02000140 ! fluid environmental material
 
 [Term]
@@ -7126,7 +7173,7 @@ is_a: BFO:0000030 ! object
 
 [Term]
 id: ENVO:01000813 ! astronomical body part
-is_a: BFO:0000024 ! fiat object
+is_a: BFO:0000040 ! material entity
 
 [Term]
 id: ENVO:01000814 ! solid environmental material
@@ -7138,8 +7185,7 @@ is_a: ENVO:02000140 ! fluid environmental material
 
 [Term]
 id: ENVO:01000817 ! biosphere
-is_a: ENVO:01001479 ! fluid astronomical body part
-is_a: ENVO:01001784 ! compound astronomical body part
+is_a: ENVO:01000813 ! astronomical body part
 
 [Term]
 id: ENVO:01000819 ! hydrosphere
@@ -7147,8 +7193,7 @@ is_a: ENVO:01001477 ! liquid astronomical body part
 
 [Term]
 id: ENVO:01000820 ! pedosphere
-is_a: ENVO:01001479 ! fluid astronomical body part
-is_a: ENVO:01001784 ! compound astronomical body part
+is_a: ENVO:01000813 ! astronomical body part
 
 [Term]
 id: ENVO:01000828 ! humid air
@@ -7179,13 +7224,9 @@ id: ENVO:01000875 ! precipitation process
 is_a: ENVO:03000010 ! material transport process
 
 [Term]
-id: ENVO:01000981 ! mass liquid flow
-is_a: ENVO:01001747 ! mass fluid flow
-
-[Term]
 id: ENVO:01000982 ! water flow process
-is_a: ENVO:01000981 ! mass liquid flow
 is_a: ENVO:02500031 ! hydrological process
+is_a: ENVO:03000010 ! material transport process
 
 [Term]
 id: ENVO:01000997 ! environmental system determined by a quality
@@ -7196,7 +7237,12 @@ id: ENVO:01000998 ! environmental system determined by a material
 is_a: ENVO:01000254 ! environmental system
 
 [Term]
+id: ENVO:01001000 ! environmental system determined by an organism
+is_a: ENVO:01000254 ! environmental system
+
+[Term]
 id: ENVO:01001044 ! soil environment
+is_a: ENVO:01000813 ! astronomical body part
 is_a: ENVO:01000997 ! environmental system determined by a quality
 is_a: ENVO:01000998 ! environmental system determined by a material
 
@@ -7211,6 +7257,12 @@ is_a: PATO:0001241 ! physical object quality
 [Term]
 id: ENVO:01001199 ! terrestrial environmental zone
 is_a: ENVO:01000408 ! environmental zone
+is_a: ENVO:01000813 ! astronomical body part
+
+[Term]
+id: ENVO:01001220 ! water accumulation process
+is_a: ENVO:01001856 ! liquid accumulation process
+is_a: ENVO:02500031 ! hydrological process
 
 [Term]
 id: ENVO:01001273 ! liquid layer
@@ -7234,10 +7286,6 @@ is_a: ENVO:00010504 ! surface layer
 is_a: ENVO:01001275 ! solid layer
 
 [Term]
-id: ENVO:01001334 ! advective transport process
-is_a: ENVO:03000010 ! material transport process
-
-[Term]
 id: ENVO:01001476 ! body of liquid
 is_a: ENVO:01001477 ! liquid astronomical body part
 
@@ -7258,6 +7306,7 @@ is_a: ENVO:01000813 ! astronomical body part
 [Term]
 id: ENVO:01001483 ! surface of an astronomical body
 is_a: ENVO:00010504 ! surface layer
+is_a: ENVO:01000813 ! astronomical body part
 
 [Term]
 id: ENVO:01001510 ! material congelation process
@@ -7309,10 +7358,6 @@ id: ENVO:01001691 ! mass of compounded environmental materials
 is_a: ENVO:01001686 ! mass of environmental material
 
 [Term]
-id: ENVO:01001747 ! mass fluid flow
-is_a: ENVO:01001334 ! advective transport process
-
-[Term]
 id: ENVO:01001781 ! part of a landmass
 is_a: ENVO:00000191 ! solid astronomical body part
 
@@ -7326,16 +7371,56 @@ is_a: ENVO:01000813 ! astronomical body part
 
 [Term]
 id: ENVO:01001785 ! land
+is_a: ENVO:00000191 ! solid astronomical body part
 is_a: ENVO:01001311 ! solid surface layer
 is_a: ENVO:01001483 ! surface of an astronomical body
 
 [Term]
 id: ENVO:01001787 ! aquatic ecosystem
+is_a: ENVO:01000813 ! astronomical body part
 is_a: ENVO:01001110 ! ecosystem
+
+[Term]
+id: ENVO:01001790 ! terrestrial ecosystem
+is_a: ENVO:01000813 ! astronomical body part
+is_a: ENVO:01000997 ! environmental system determined by a quality
+is_a: ENVO:01001110 ! ecosystem
+
+[Term]
+id: ENVO:01001795 ! ecosystem process
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:01001814 ! organic object
+is_a: ENVO:01001686 ! mass of environmental material
+
+[Term]
+id: ENVO:01001824 ! ecological succession
+is_a: ENVO:01001795 ! ecosystem process
+
+[Term]
+id: ENVO:01001827 ! climactic ecological succession
+is_a: ENVO:01001824 ! ecological succession
 
 [Term]
 id: ENVO:01001838 ! arid biome
 is_a: ENVO:00000428 ! biome
+
+[Term]
+id: ENVO:01001856 ! liquid accumulation process
+is_a: ENVO:03000009 ! material accumulation process
+
+[Term]
+id: ENVO:01003001 ! water-holding capacity
+is_a: BFO:0000016 ! disposition
+
+[Term]
+id: ENVO:01003002 ! particle
+is_a: ENVO:01001687 ! mass of solid material
+
+[Term]
+id: ENVO:01003003 ! particle of clay
+is_a: ENVO:01003002 ! particle
 
 [Term]
 id: ENVO:02000054 ! bone meal
@@ -7355,10 +7440,18 @@ is_a: BFO:0000015 ! process
 
 [Term]
 id: ENVO:02500002 ! flooding
-is_a: ENVO:03000010 ! material transport process
+is_a: ENVO:01000982 ! water flow process
+
+[Term]
+id: ENVO:02500003 ! atmospheric process
+is_a: ENVO:02500000 ! environmental system process
 
 [Term]
 id: ENVO:02500031 ! hydrological process
+is_a: ENVO:02500000 ! environmental system process
+
+[Term]
+id: ENVO:03000009 ! material accumulation process
 is_a: ENVO:02500000 ! environmental system process
 
 [Term]
@@ -7371,8 +7464,22 @@ is_a: ENVO:02500000 ! environmental system process
 
 [Term]
 id: ENVO:04000010 ! soil surface layer
+is_a: ENVO:00000191 ! solid astronomical body part
 is_a: ENVO:01001311 ! solid surface layer
 is_a: ENVO:01001483 ! surface of an astronomical body
+is_a: ENVO:06105266 ! soil layer
+
+[Term]
+id: ENVO:06105266 ! soil layer
+is_a: ENVO:01000281 ! layer
+
+[Term]
+id: ENVO:06105271 ! soil texture
+is_a: PATO:0000150 ! texture
+
+[Term]
+id: ENVO:06105304 ! water-holding capacity of soil
+is_a: ENVO:01003001 ! water-holding capacity
 
 [Term]
 id: ENVO:09200000 ! temperature of environmental material
@@ -7381,6 +7488,10 @@ is_a: PATO:0000146 ! temperature
 [Term]
 id: ENVO:09200001 ! temperature of air
 is_a: ENVO:09200000 ! temperature of environmental material
+
+[Term]
+id: ENVO:09200002 ! environmental system process quality
+is_a: PATO:0001236 ! process quality
 
 [Term]
 id: ENVO:09200004 ! porosity of soil
@@ -7417,28 +7528,16 @@ id: ENVO:2000045 ! hydrocarbon-based environmental material
 is_a: ENVO:00010483 ! environmental material
 
 [Term]
-id: GO:0003674 ! molecular_function
-is_a: BFO:0000015 ! process
+id: ENVO:2100000 ! anatomical entity environment
+is_a: ENVO:01000254 ! environmental system
 
 [Term]
-id: GO:0003824 ! catalytic activity
-is_a: GO:0003674 ! molecular_function
+id: FOODON:00002403 ! food material
+is_a: ENVO:00010483 ! environmental material
 
 [Term]
-id: GO:0008150 ! biological_process
-is_a: BFO:0000015 ! process
-
-[Term]
-id: GO:0016301 ! kinase activity
-is_a: GO:0016772 ! transferase activity, transferring phosphorus-containing groups
-
-[Term]
-id: GO:0016740 ! transferase activity
-is_a: GO:0003824 ! catalytic activity
-
-[Term]
-id: GO:0016772 ! transferase activity, transferring phosphorus-containing groups
-is_a: GO:0016740 ! transferase activity
+id: NCBITaxon:1 ! root
+is_a: BFO:0000040 ! material entity
 
 [Term]
 id: NCBITaxon:101162 ! Bipolaris oryzae
@@ -7465,20 +7564,16 @@ id: NCBITaxon:107832 ! Thanatephorus cucumeris
 is_a: NCBITaxon:5238 ! Thanatephorus
 
 [Term]
-id: NCBITaxon:10880 ! Reoviridae
-is_a: NCBITaxon:2559587 ! Riboviria
-
-[Term]
 id: NCBITaxon:10985 ! Phytoreovirus
-is_a: NCBITaxon:689832 ! Sedoreovirinae
+is_a: NCBITaxon:2946186 ! Sedoreoviridae
 
 [Term]
 id: NCBITaxon:10991 ! Rice dwarf virus
-is_a: NCBITaxon:10985 ! Phytoreovirus
+is_a: NCBITaxon:3431664 ! Phytoreovirus alphaoryzae
 
 [Term]
 id: NCBITaxon:10992 ! Oryzavirus
-is_a: NCBITaxon:689831 ! Spinareovirinae
+is_a: NCBITaxon:2946187 ! Spinareoviridae
 
 [Term]
 id: NCBITaxon:110618 ! Nectriaceae
@@ -7533,12 +7628,8 @@ id: NCBITaxon:119089 ! Chromadorea
 is_a: NCBITaxon:6231 ! Nematoda
 
 [Term]
-id: NCBITaxon:119163 ! Luteoviridae
-is_a: NCBITaxon:2559587 ! Riboviria
-
-[Term]
 id: NCBITaxon:12036 ! Luteovirus
-is_a: NCBITaxon:119163 ! Luteoviridae
+is_a: NCBITaxon:2560078 ! Regressovirinae
 
 [Term]
 id: NCBITaxon:12037 ! Barley yellow dwarf virus
@@ -7554,51 +7645,31 @@ is_a: NCBITaxon:33283 ! Tylenchomorpha
 
 [Term]
 id: NCBITaxon:121069 ! Pythiales
-is_a: NCBITaxon:4762 ! Oomycota
+is_a: NCBITaxon:3418804 ! Peronosporomycetes
 
 [Term]
 id: NCBITaxon:12137 ! Sobemovirus
 is_a: NCBITaxon:2169577 ! Solemoviridae
 
 [Term]
-id: NCBITaxon:1224 ! Proteobacteria
-is_a: NCBITaxon:2 ! Bacteria
-
-[Term]
-id: NCBITaxon:12329 ! Tenuivirus
-is_a: NCBITaxon:1980418 ! Phenuiviridae
-
-[Term]
-id: NCBITaxon:12331 ! Rice stripe tenuivirus
-is_a: NCBITaxon:12329 ! Tenuivirus
-
-[Term]
-id: NCBITaxon:12332 ! Rice hoja blanca tenuivirus
-is_a: NCBITaxon:12329 ! Tenuivirus
+id: NCBITaxon:1224 ! Pseudomonadota
+is_a: NCBITaxon:3379134 ! Pseudomonadati
 
 [Term]
 id: NCBITaxon:1236 ! Gammaproteobacteria
-is_a: NCBITaxon:1224 ! Proteobacteria
+is_a: NCBITaxon:1224 ! Pseudomonadota
 
 [Term]
 id: NCBITaxon:124426 ! Ustilaginoidea
-is_a: NCBITaxon:162454 ! Hypocreales incertae sedis
+is_a: NCBITaxon:34397 ! Clavicipitaceae
 
 [Term]
 id: NCBITaxon:125628 ! Ceratorhiza
 is_a: NCBITaxon:5250 ! Ceratobasidiaceae
 
 [Term]
-id: NCBITaxon:12916 ! Acidovorax
-is_a: NCBITaxon:80864 ! Comamonadaceae
-
-[Term]
 id: NCBITaxon:131221 ! Streptophytina
 is_a: NCBITaxon:35493 ! Streptophyta
-
-[Term]
-id: NCBITaxon:131316 ! Passalora
-is_a: NCBITaxon:93133 ! Mycosphaerellaceae
 
 [Term]
 id: NCBITaxon:131567 ! cellular organisms
@@ -7613,7 +7684,7 @@ id: NCBITaxon:1338369 ! Dipnotetrapodomorpha
 is_a: NCBITaxon:8287 ! Sarcopterygii
 
 [Term]
-id: NCBITaxon:135614 ! Xanthomonadales
+id: NCBITaxon:135614 ! Lysobacterales
 is_a: NCBITaxon:1236 ! Gammaproteobacteria
 
 [Term]
@@ -7625,12 +7696,12 @@ id: NCBITaxon:136843 ! Pseudomonas fluorescens group
 is_a: NCBITaxon:286 ! Pseudomonas
 
 [Term]
-id: NCBITaxon:136849 ! Pseudomonas syringae group
-is_a: NCBITaxon:286 ! Pseudomonas
-
-[Term]
 id: NCBITaxon:1437183 ! Mesangiospermae
 is_a: NCBITaxon:3398 ! Magnoliopsida
+
+[Term]
+id: NCBITaxon:1448052 ! Globisporangium
+is_a: NCBITaxon:4782 ! Pythiaceae
 
 [Term]
 id: NCBITaxon:147538 ! Pezizomycotina
@@ -7665,10 +7736,6 @@ id: NCBITaxon:162130 ! Sclerospora graminicola
 is_a: NCBITaxon:162129 ! Sclerospora
 
 [Term]
-id: NCBITaxon:162454 ! Hypocreales incertae sedis
-is_a: NCBITaxon:5125 ! Hypocreales
-
-[Term]
 id: NCBITaxon:1654067 ! Pantoea agglomerans group
 is_a: NCBITaxon:53335 ! Pantoea
 
@@ -7685,7 +7752,7 @@ id: NCBITaxon:171627 ! Fusarium fujikuroi species complex
 is_a: NCBITaxon:5506 ! Fusarium
 
 [Term]
-id: NCBITaxon:1783272 ! Terrabacteria group
+id: NCBITaxon:1783272 ! Bacillati
 is_a: NCBITaxon:2 ! Bacteria
 
 [Term]
@@ -7717,14 +7784,6 @@ id: NCBITaxon:197563 ! Mandibulata
 is_a: NCBITaxon:6656 ! Arthropoda
 
 [Term]
-id: NCBITaxon:1980410 ! Bunyavirales
-is_a: NCBITaxon:2497576 ! Ellioviricetes
-
-[Term]
-id: NCBITaxon:1980418 ! Phenuiviridae
-is_a: NCBITaxon:1980410 ! Bunyavirales
-
-[Term]
 id: NCBITaxon:2 ! Bacteria
 is_a: NCBITaxon:131567 ! cellular organisms
 
@@ -7746,7 +7805,7 @@ is_a: NCBITaxon:2092 ! Mycoplasmataceae
 
 [Term]
 id: NCBITaxon:2169577 ! Solemoviridae
-is_a: NCBITaxon:2559587 ! Riboviria
+is_a: NCBITaxon:2732553 ! Sobelivirales
 
 [Term]
 id: NCBITaxon:222543 ! Hypocreomycetidae
@@ -7761,18 +7820,6 @@ id: NCBITaxon:228882 ! Nakataea
 is_a: NCBITaxon:81093 ! Magnaporthaceae
 
 [Term]
-id: NCBITaxon:2497569 ! Negarnaviricota
-is_a: NCBITaxon:2559587 ! Riboviria
-
-[Term]
-id: NCBITaxon:2497571 ! Polyploviricotina
-is_a: NCBITaxon:2497569 ! Negarnaviricota
-
-[Term]
-id: NCBITaxon:2497576 ! Ellioviricetes
-is_a: NCBITaxon:2497571 ! Polyploviricotina
-
-[Term]
 id: NCBITaxon:2502719 ! Sarocladiaceae
 is_a: NCBITaxon:5125 ! Hypocreales
 
@@ -7783,6 +7830,10 @@ is_a: NCBITaxon:639021 ! Magnaporthales
 [Term]
 id: NCBITaxon:2559587 ! Riboviria
 is_a: NCBITaxon:10239 ! Viruses
+
+[Term]
+id: NCBITaxon:2560078 ! Regressovirinae
+is_a: NCBITaxon:39738 ! Tombusviridae
 
 [Term]
 id: NCBITaxon:268499 ! Crambidae
@@ -7801,6 +7852,46 @@ id: NCBITaxon:2726947 ! Mycosphaerellales
 is_a: NCBITaxon:451867 ! Dothideomycetidae
 
 [Term]
+id: NCBITaxon:2732396 ! Orthornavirae
+is_a: NCBITaxon:2559587 ! Riboviria
+
+[Term]
+id: NCBITaxon:2732405 ! Duplornaviricota
+is_a: NCBITaxon:2732396 ! Orthornavirae
+
+[Term]
+id: NCBITaxon:2732406 ! Kitrinoviricota
+is_a: NCBITaxon:2732396 ! Orthornavirae
+
+[Term]
+id: NCBITaxon:2732408 ! Pisuviricota
+is_a: NCBITaxon:2732396 ! Orthornavirae
+
+[Term]
+id: NCBITaxon:2732459 ! Resentoviricetes
+is_a: NCBITaxon:2732405 ! Duplornaviricota
+
+[Term]
+id: NCBITaxon:2732463 ! Tolucaviricetes
+is_a: NCBITaxon:2732406 ! Kitrinoviricota
+
+[Term]
+id: NCBITaxon:2732506 ! Pisoniviricetes
+is_a: NCBITaxon:2732408 ! Pisuviricota
+
+[Term]
+id: NCBITaxon:2732541 ! Reovirales
+is_a: NCBITaxon:2788829 ! unclassified Resentoviricetes
+
+[Term]
+id: NCBITaxon:2732548 ! Tolivirales
+is_a: NCBITaxon:2788833 ! unclassified Tolucaviricetes
+
+[Term]
+id: NCBITaxon:2732553 ! Sobelivirales
+is_a: NCBITaxon:2732506 ! Pisoniviricetes
+
+[Term]
 id: NCBITaxon:27439 ! Chrysomelidae
 is_a: NCBITaxon:71528 ! Chrysomeloidea
 
@@ -7809,8 +7900,24 @@ id: NCBITaxon:2759 ! Eukaryota
 is_a: NCBITaxon:131567 ! cellular organisms
 
 [Term]
+id: NCBITaxon:2768475 ! Chiasmini
+is_a: NCBITaxon:33372 ! Deltocephalinae
+
+[Term]
+id: NCBITaxon:2779495 ! Calonectria cylindrospora species complex
+is_a: NCBITaxon:57138 ! Calonectria
+
+[Term]
+id: NCBITaxon:2788829 ! unclassified Resentoviricetes
+is_a: NCBITaxon:2732459 ! Resentoviricetes
+
+[Term]
+id: NCBITaxon:2788833 ! unclassified Tolucaviricetes
+is_a: NCBITaxon:2732463 ! Tolucaviricetes
+
+[Term]
 id: NCBITaxon:28216 ! Betaproteobacteria
-is_a: NCBITaxon:1224 ! Proteobacteria
+is_a: NCBITaxon:1224 ! Pseudomonadota
 
 [Term]
 id: NCBITaxon:284134 ! Sarocladium
@@ -7829,8 +7936,20 @@ id: NCBITaxon:286 ! Pseudomonas
 is_a: NCBITaxon:135621 ! Pseudomonadaceae
 
 [Term]
+id: NCBITaxon:29002 ! Cercospora
+is_a: NCBITaxon:93133 ! Mycosphaerellaceae
+
+[Term]
 id: NCBITaxon:294 ! Pseudomonas fluorescens
 is_a: NCBITaxon:136843 ! Pseudomonas fluorescens group
+
+[Term]
+id: NCBITaxon:2946186 ! Sedoreoviridae
+is_a: NCBITaxon:2732541 ! Reovirales
+
+[Term]
+id: NCBITaxon:2946187 ! Spinareoviridae
+is_a: NCBITaxon:2732541 ! Reovirales
 
 [Term]
 id: NCBITaxon:29849 ! Gaeumannomyces
@@ -7845,6 +7964,14 @@ id: NCBITaxon:30102 ! Cicadellidae
 is_a: NCBITaxon:33368 ! Membracoidea
 
 [Term]
+id: NCBITaxon:3051137 ! Paracidovorax
+is_a: NCBITaxon:80864 ! Comamonadaceae
+
+[Term]
+id: NCBITaxon:3072477 ! Agroathelia
+is_a: NCBITaxon:721957 ! Amylocorticiaceae
+
+[Term]
 id: NCBITaxon:312687 ! Sphaerularioidea
 is_a: NCBITaxon:33283 ! Tylenchomorpha
 
@@ -7854,7 +7981,7 @@ is_a: NCBITaxon:33284 ! Tylenchoidea
 
 [Term]
 id: NCBITaxon:31744 ! Rice yellow mottle virus
-is_a: NCBITaxon:12137 ! Sobemovirus
+is_a: NCBITaxon:3432506 ! Sobemovirus RYMV
 
 [Term]
 id: NCBITaxon:3193 ! Embryophyta
@@ -7862,15 +7989,15 @@ is_a: NCBITaxon:131221 ! Streptophytina
 
 [Term]
 id: NCBITaxon:31969 ! Mollicutes
-is_a: NCBITaxon:544448 ! Tenericutes
+is_a: NCBITaxon:544448 ! Mycoplasmatota
 
 [Term]
 id: NCBITaxon:32008 ! Burkholderia
 is_a: NCBITaxon:119060 ! Burkholderiaceae
 
 [Term]
-id: NCBITaxon:32033 ! Xanthomonadaceae
-is_a: NCBITaxon:135614 ! Xanthomonadales
+id: NCBITaxon:32033 ! Lysobacteraceae
+is_a: NCBITaxon:135614 ! Lysobacterales
 
 [Term]
 id: NCBITaxon:32523 ! Tetrapoda
@@ -7937,7 +8064,7 @@ id: NCBITaxon:33372 ! Deltocephalinae
 is_a: NCBITaxon:30102 ! Cicadellidae
 
 [Term]
-id: NCBITaxon:33392 ! Holometabola
+id: NCBITaxon:33392 ! Endopterygota
 is_a: NCBITaxon:33340 ! Neoptera
 
 [Term]
@@ -7953,8 +8080,12 @@ id: NCBITaxon:337 ! Burkholderia glumae
 is_a: NCBITaxon:32008 ! Burkholderia
 
 [Term]
+id: NCBITaxon:3379134 ! Pseudomonadati
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
 id: NCBITaxon:338 ! Xanthomonas
-is_a: NCBITaxon:32033 ! Xanthomonadaceae
+is_a: NCBITaxon:32033 ! Lysobacteraceae
 
 [Term]
 id: NCBITaxon:33823 ! Aphelenchoididae
@@ -7965,12 +8096,36 @@ id: NCBITaxon:3398 ! Magnoliopsida
 is_a: NCBITaxon:58024 ! Spermatophyta
 
 [Term]
+id: NCBITaxon:3418804 ! Peronosporomycetes
+is_a: NCBITaxon:4762 ! Oomycota
+
+[Term]
+id: NCBITaxon:3431514 ! Oryzavirus oryzae
+is_a: NCBITaxon:10992 ! Oryzavirus
+
+[Term]
+id: NCBITaxon:3431664 ! Phytoreovirus alphaoryzae
+is_a: NCBITaxon:10985 ! Phytoreovirus
+
+[Term]
+id: NCBITaxon:3432506 ! Sobemovirus RYMV
+is_a: NCBITaxon:12137 ! Sobemovirus
+
+[Term]
 id: NCBITaxon:34397 ! Clavicipitaceae
 is_a: NCBITaxon:5125 ! Hypocreales
 
 [Term]
 id: NCBITaxon:344380 ! Ditylenchus angustus
 is_a: NCBITaxon:166009 ! Ditylenchus
+
+[Term]
+id: NCBITaxon:3456997 ! Saprolegniomycetes
+is_a: NCBITaxon:4762 ! Oomycota
+
+[Term]
+id: NCBITaxon:3456998 ! Achlyaceae
+is_a: NCBITaxon:4763 ! Saprolegniales
 
 [Term]
 id: NCBITaxon:347 ! Xanthomonas oryzae
@@ -7997,8 +8152,8 @@ id: NCBITaxon:362338 ! Hirschmanniella oryzae
 is_a: NCBITaxon:46009 ! Hirschmanniella
 
 [Term]
-id: NCBITaxon:36331 ! Pythium irregulare
-is_a: NCBITaxon:4797 ! Pythium
+id: NCBITaxon:36331 ! Globisporangium irregulare
+is_a: NCBITaxon:1448052 ! Globisporangium
 
 [Term]
 id: NCBITaxon:368617 ! unclassified Luteovirus
@@ -8013,8 +8168,12 @@ id: NCBITaxon:37573 ! Pyraloidea
 is_a: NCBITaxon:104431 ! Obtectomera
 
 [Term]
-id: NCBITaxon:39291 ! Athelia rolfsii
-is_a: NCBITaxon:5309 ! Athelia
+id: NCBITaxon:39291 ! Agroathelia rolfsii
+is_a: NCBITaxon:3072477 ! Agroathelia
+
+[Term]
+id: NCBITaxon:39738 ! Tombusviridae
+is_a: NCBITaxon:2732548 ! Tolivirales
 
 [Term]
 id: NCBITaxon:40080 ! Pyraustinae
@@ -8022,7 +8181,7 @@ is_a: NCBITaxon:268499 ! Crambidae
 
 [Term]
 id: NCBITaxon:40624 ! Calonectria cylindrospora
-is_a: NCBITaxon:57138 ! Calonectria
+is_a: NCBITaxon:2779495 ! Calonectria cylindrospora species complex
 
 [Term]
 id: NCBITaxon:40674 ! Mammalia
@@ -8050,7 +8209,7 @@ is_a: NCBITaxon:41196 ! Neolepidoptera
 
 [Term]
 id: NCBITaxon:42475 ! Rice ragged stunt virus
-is_a: NCBITaxon:10992 ! Oryzavirus
+is_a: NCBITaxon:3431514 ! Oryzavirus oryzae
 
 [Term]
 id: NCBITaxon:437487 ! Cnaphalocrocis
@@ -8089,10 +8248,6 @@ id: NCBITaxon:452333 ! Agaricomycetidae
 is_a: NCBITaxon:155619 ! Agaricomycetes
 
 [Term]
-id: NCBITaxon:452334 ! Atheliales
-is_a: NCBITaxon:452333 ! Agaricomycetidae
-
-[Term]
 id: NCBITaxon:45926 ! Pratylenchidae
 is_a: NCBITaxon:33284 ! Tylenchoidea
 
@@ -8122,15 +8277,11 @@ is_a: NCBITaxon:33634 ! Stramenopiles
 
 [Term]
 id: NCBITaxon:4763 ! Saprolegniales
-is_a: NCBITaxon:4762 ! Oomycota
-
-[Term]
-id: NCBITaxon:4764 ! Saprolegniaceae
-is_a: NCBITaxon:4763 ! Saprolegniales
+is_a: NCBITaxon:3456997 ! Saprolegniomycetes
 
 [Term]
 id: NCBITaxon:4765 ! Achlya <oomycetes>
-is_a: NCBITaxon:4764 ! Saprolegniaceae
+is_a: NCBITaxon:3456998 ! Achlyaceae
 
 [Term]
 id: NCBITaxon:4767 ! Achlya klebsiana
@@ -8138,7 +8289,7 @@ is_a: NCBITaxon:4765 ! Achlya <oomycetes>
 
 [Term]
 id: NCBITaxon:4776 ! Peronosporales
-is_a: NCBITaxon:4762 ! Oomycota
+is_a: NCBITaxon:3418804 ! Peronosporomycetes
 
 [Term]
 id: NCBITaxon:4777 ! Peronosporaceae
@@ -8159,10 +8310,6 @@ is_a: NCBITaxon:2528436 ! Pyriculariaceae
 [Term]
 id: NCBITaxon:4890 ! Ascomycota
 is_a: NCBITaxon:451864 ! Dikarya
-
-[Term]
-id: NCBITaxon:50340 ! Pseudomonas fuscovaginae
-is_a: NCBITaxon:136849 ! Pseudomonas syringae group
 
 [Term]
 id: NCBITaxon:50557 ! Insecta
@@ -8197,16 +8344,12 @@ id: NCBITaxon:5302 ! Agaricomycotina
 is_a: NCBITaxon:5204 ! Basidiomycota
 
 [Term]
-id: NCBITaxon:5309 ! Athelia
-is_a: NCBITaxon:80628 ! Atheliaceae
-
-[Term]
 id: NCBITaxon:53335 ! Pantoea
 is_a: NCBITaxon:1903409 ! Erwiniaceae
 
 [Term]
-id: NCBITaxon:544448 ! Tenericutes
-is_a: NCBITaxon:1783272 ! Terrabacteria group
+id: NCBITaxon:544448 ! Mycoplasmatota
+is_a: NCBITaxon:1783272 ! Bacillati
 
 [Term]
 id: NCBITaxon:549 ! Pantoea agglomerans
@@ -8297,10 +8440,6 @@ id: NCBITaxon:654580 ! Meloidogyne incognita group
 is_a: NCBITaxon:189290 ! Meloidogyne
 
 [Term]
-id: NCBITaxon:66266 ! Rice grassy stunt tenuivirus
-is_a: NCBITaxon:12329 ! Tenuivirus
-
-[Term]
 id: NCBITaxon:6656 ! Arthropoda
 is_a: NCBITaxon:88770 ! Panarthropoda
 
@@ -8309,24 +8448,16 @@ id: NCBITaxon:683158 ! Didymellaceae
 is_a: NCBITaxon:715340 ! Pleosporineae
 
 [Term]
-id: NCBITaxon:689831 ! Spinareovirinae
-is_a: NCBITaxon:10880 ! Reoviridae
-
-[Term]
-id: NCBITaxon:689832 ! Sedoreovirinae
-is_a: NCBITaxon:10880 ! Reoviridae
-
-[Term]
 id: NCBITaxon:6960 ! Hexapoda
 is_a: NCBITaxon:197562 ! Pancrustacea
 
 [Term]
 id: NCBITaxon:7041 ! Coleoptera
-is_a: NCBITaxon:33392 ! Holometabola
+is_a: NCBITaxon:33392 ! Endopterygota
 
 [Term]
-id: NCBITaxon:706553 ! Passalora janseana
-is_a: NCBITaxon:131316 ! Passalora
+id: NCBITaxon:706553 ! Cercospora janseana
+is_a: NCBITaxon:29002 ! Cercospora
 
 [Term]
 id: NCBITaxon:7088 ! Lepidoptera
@@ -8359,6 +8490,14 @@ is_a: NCBITaxon:4890 ! Ascomycota
 [Term]
 id: NCBITaxon:716546 ! leotiomyceta
 is_a: NCBITaxon:147538 ! Pezizomycotina
+
+[Term]
+id: NCBITaxon:721947 ! Amylocorticiales
+is_a: NCBITaxon:452333 ! Agaricomycetidae
+
+[Term]
+id: NCBITaxon:721957 ! Amylocorticiaceae
+is_a: NCBITaxon:721947 ! Amylocorticiales
 
 [Term]
 id: NCBITaxon:72274 ! Pseudomonadales
@@ -8397,10 +8536,6 @@ id: NCBITaxon:79506 ! Dicladispa
 is_a: NCBITaxon:107219 ! Cassidinae
 
 [Term]
-id: NCBITaxon:80628 ! Atheliaceae
-is_a: NCBITaxon:452334 ! Atheliales
-
-[Term]
 id: NCBITaxon:80840 ! Burkholderiales
 is_a: NCBITaxon:28216 ! Betaproteobacteria
 
@@ -8409,8 +8544,8 @@ id: NCBITaxon:80864 ! Comamonadaceae
 is_a: NCBITaxon:80840 ! Burkholderiales
 
 [Term]
-id: NCBITaxon:80867 ! Acidovorax avenae
-is_a: NCBITaxon:12916 ! Acidovorax
+id: NCBITaxon:80867 ! Paracidovorax avenae
+is_a: NCBITaxon:3051137 ! Paracidovorax
 
 [Term]
 id: NCBITaxon:81093 ! Magnaporthaceae
@@ -8442,7 +8577,7 @@ is_a: NCBITaxon:50557 ! Insecta
 
 [Term]
 id: NCBITaxon:85604 ! Amphiesmenoptera
-is_a: NCBITaxon:33392 ! Holometabola
+is_a: NCBITaxon:33392 ! Endopterygota
 
 [Term]
 id: NCBITaxon:88770 ! Panarthropoda
@@ -8470,7 +8605,7 @@ is_a: NCBITaxon:2726947 ! Mycosphaerellales
 
 [Term]
 id: NCBITaxon:94399 ! Nephotettix
-is_a: NCBITaxon:33372 ! Deltocephalinae
+is_a: NCBITaxon:2768475 ! Chiasmini
 
 [Term]
 id: PATO:0000001 ! quality
@@ -8481,12 +8616,12 @@ id: PATO:0000025 ! composition
 is_a: PATO:0000141 ! structure
 
 [Term]
-id: PATO:0000048 ! hardness
-is_a: PATO:0001546 ! quality of a solid
-
-[Term]
 id: PATO:0000051 ! morphology
 is_a: PATO:0001241 ! physical object quality
+
+[Term]
+id: PATO:0000057 ! occurrence
+is_a: PATO:0002323 ! temporal distribution quality
 
 [Term]
 id: PATO:0000068 ! qualitative
@@ -8505,9 +8640,12 @@ id: PATO:0000146 ! temperature
 is_a: PATO:0001018 ! physical quality
 
 [Term]
-id: PATO:0000386 ! hard
-is_a: PATO:0000048 ! hardness
-is_a: PATO:0002305 ! increased object quality
+id: PATO:0000150 ! texture
+is_a: PATO:0000051 ! morphology
+
+[Term]
+id: PATO:0000689 ! continuous
+is_a: PATO:0000057 ! occurrence
 
 [Term]
 id: PATO:0000973 ! porosity
@@ -8520,6 +8658,10 @@ is_a: PATO:0000973 ! porosity
 [Term]
 id: PATO:0001018 ! physical quality
 is_a: PATO:0001241 ! physical object quality
+
+[Term]
+id: PATO:0001236 ! process quality
+is_a: PATO:0000001 ! quality
 
 [Term]
 id: PATO:0001241 ! physical object quality
@@ -8551,6 +8693,10 @@ id: PATO:0001759 ! granular
 is_a: PATO:0000025 ! composition
 
 [Term]
+id: PATO:0002062 ! physical quality of a process
+is_a: PATO:0001236 ! process quality
+
+[Term]
 id: PATO:0002124 ! laminar
 is_a: PATO:0000141 ! structure
 
@@ -8566,6 +8712,10 @@ is_a: PATO:0000069 ! deviation (from_normal)
 id: PATO:0002305 ! increased object quality
 is_a: PATO:0001241 ! physical object quality
 is_a: PATO:0002300 ! increased quality
+
+[Term]
+id: PATO:0002323 ! temporal distribution quality
+is_a: PATO:0002062 ! physical quality of a process
 
 [Term]
 id: PATO:0015009 ! humidity
@@ -8585,16 +8735,8 @@ id: PCO:0000000 ! collection of organisms
 is_a: PCO:0000031 ! organismal entity
 
 [Term]
-id: PCO:0000001 ! population of organisms
-is_a: PCO:0000018 ! single-species collection of organisms
-
-[Term]
 id: PCO:0000002 ! ecological community
 is_a: PCO:0000029 ! multi-species collection of organisms
-
-[Term]
-id: PCO:0000018 ! single-species collection of organisms
-is_a: PCO:0000000 ! collection of organisms
 
 [Term]
 id: PCO:0000029 ! multi-species collection of organisms
@@ -8651,6 +8793,7 @@ alt_id: EO:0001005
 def: "A mineral exposure (PECO:0007044) involving exposure of plant to nickel (CHEBI:28112)." [CHEBI:28112, PECO:cooperl]
 synonym: "nickel treatment (narrow)" NARROW []
 xref: PECO_GIT:6
+is_a: PECO:0001016 ! inorganic cation exposure
 is_a: PECO:0007044 ! mineral exposure
 created_by: cooperl
 creation_date: 2013-04-10T14:35:26Z
@@ -8662,8 +8805,8 @@ alt_id: EO:0001006
 def: "An inorganic anion exposure (PECO:0001009) involving the application of phosphate (CHEBI:18367)." [CHEBI:18367, PECO:cooperl]
 synonym: "phosphate treatment (narrow)" NARROW []
 xref: PECO_GIT:7
-is_a: PECO:0001009 ! inorganic anion exposure
-is_a: PECO:0007086 ! chemical fertilizer exposure
+is_a: COB:0001000 ! exposure of organism
+is_a: PECO:0007240 ! plant macronutrient exposure
 created_by: cooperl
 creation_date: 2013-04-10T14:54:09Z
 
@@ -8687,7 +8830,7 @@ def: "An inorganic anion exposure (PECO:0001009) involving the application of su
 synonym: "sulfate treatment (narrow)" NARROW []
 xref: PECO_GIT:8
 is_a: PECO:0001009 ! inorganic anion exposure
-is_a: PECO:0007086 ! chemical fertilizer exposure
+is_a: PECO:0007295 ! sulfur nutrient exposure
 created_by: cooperl
 creation_date: 2013-04-10T15:29:20Z
 
@@ -8699,8 +8842,8 @@ def: "An inorganic chemical exposure (PECO:0001004) involving the application of
 comment: An anion (CHEBI:22653) is defined as a monoatomic or polyatomic species having one or more elementary charges of the electron.
 synonym: "inorganic anion treatment (narrow)" NARROW []
 xref: PECO_GIT:54
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0001004 ! inorganic chemical exposure
-is_a: RO:0002310 ! exposure event or process
 created_by: cooperl
 creation_date: 2013-04-11T12:29:25Z
 
@@ -8712,8 +8855,8 @@ def: "An organic chemical exposure (PECO:0001003) involving the application of a
 comment: Carbohydrate (CHEBI:16646) is defined as the generic term 'carbohydrate' includes monosaccharides, oligosaccharides and polysaccharides as well as substances derived from monosaccharides by reduction of the carbonyl group (alditols), by oxidation of one or more hydroxy groups to afford the corresponding aldehydes, ketones, or carboxylic acids, or by replacement of one or more hydroxy group(s) by a hydrogen atom. Cyclitols are generally not regarded as carbohydrates.
 synonym: "carbohydrate treatment (narrow)" NARROW []
 xref: PECO_GIT:9
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0001003 ! organic chemical exposure
-is_a: RO:0002310 ! exposure event or process
 created_by: moorel
 creation_date: 2013-04-11T13:43:22Z
 
@@ -8782,8 +8925,8 @@ name: inorganic cation exposure
 alt_id: EO:0001016
 def: "An inorganic chemical exposure (PECO:0001004) involving the application of a cation (CHEBI:36916) or mixture of cations ." [CHEBI:36916, PECO:cooperl]
 synonym: "inorganic cation treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0001004 ! inorganic chemical exposure
-is_a: RO:0002310 ! exposure event or process
 created_by: cooperl
 creation_date: 2013-04-12T11:42:16Z
 
@@ -8805,7 +8948,7 @@ alt_id: EO:0001018
 def: "A mineral exposure (PECO:0007044) involving exposure of plant to cadmium (CHEBI:22977)." [CHEBI:22977, PECO:cooperl]
 synonym: "cadmium treatment (narrow)" NARROW []
 xref: PECO_GIT:30
-is_a: PECO:0001004 ! inorganic chemical exposure
+is_a: PECO:0001016 ! inorganic cation exposure
 created_by: cooperl
 creation_date: 2013-04-12T12:14:55Z
 
@@ -8826,6 +8969,7 @@ alt_id: EO:0001020
 def: "A gaseous exposure that involves the application of carbon dioxide (CHEBI:16526)." [CHEBI:16526, PECO:cooperl]
 synonym: "carbon dioxide treatment (narrow)" NARROW []
 xref: PECO_GIT:28
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007023 ! gaseous exposure
 created_by: cooperl
 creation_date: 2013-04-12T12:41:25Z
@@ -8837,7 +8981,7 @@ alt_id: EO:0001021
 def: "An inorganic anion exposure (PECO:0001009) involving the application of ozone (CHEBI:29382)." [CHEBI:29382, PECO:cooperl]
 synonym: "ozone treatment (narrow)" NARROW []
 xref: PECO_GIT:29
-is_a: PECO:0001009 ! inorganic anion exposure
+is_a: PECO:0007023 ! gaseous exposure
 is_a: PECO:0007041 ! antibiotic exposure
 created_by: cooperl
 creation_date: 2013-04-12T13:04:10Z
@@ -8879,13 +9023,12 @@ creation_date: 2013-04-12T18:30:23Z
 
 [Term]
 id: PECO:0001025
-name: urea nitrogen exposure
+name: OBSOLETE urea nitrogen exposure
 alt_id: EO:0001025
-def: "A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to urea (CHEBI:16199) as the primary or sole source of nitrogen." [PECO:cooperl]
+def: "OBSOLETE A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to urea (CHEBI:16199) as the primary or sole source of nitrogen." [PECO:cooperl]
 synonym: "urea nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
-is_a: PECO:0007102 ! nitrogen fertilizer exposure
-is_a: PECO:0007284 ! nitrogen macronutrient exposure
+is_obsolete: true
 created_by: cooperl
 creation_date: 2013-04-12T19:19:27Z
 
@@ -8896,8 +9039,7 @@ alt_id: EO:0001026
 def: "A nitrogen macronutrient exposure (PECO:0007284) involving exposure of plant to 5'-S-methyl-5'-thioadenosine (MTA; CHEBI:17509) as the primary or sole source of nitrogen." [CHEBI:17509, PECO:cooperl]
 synonym: "MTA nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
-is_a: PECO:0007102 ! nitrogen fertilizer exposure
-is_a: PECO:0007284 ! nitrogen macronutrient exposure
+is_a: PECO:0007102 ! nitrogen exposure
 created_by: cooperl
 creation_date: 2013-04-12T19:23:02Z
 
@@ -8908,8 +9050,8 @@ alt_id: EO:0001027
 def: "A nitrogen macronutrient exposure (PECO:0007284) involving exposure of plant to alanine (CHEBI:16449) as the primary or sole source of nitrogen." [CHEBI:16449, PECO:cooperl]
 synonym: "alanine nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
-is_a: PECO:0007102 ! nitrogen fertilizer exposure
-is_a: PECO:0007284 ! nitrogen macronutrient exposure
+is_a: COB:0001000 ! exposure of organism
+is_a: PECO:0007102 ! nitrogen exposure
 created_by: cooperl
 creation_date: 2013-04-12T19:23:17Z
 
@@ -8920,8 +9062,8 @@ alt_id: EO:0001028
 def: "A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to glutamate (CHEBI:29987) as the primary or sole source of nitrogen." [CHEBI:29987, PECO:cooperl]
 synonym: "glutamate nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
-is_a: PECO:0007102 ! nitrogen fertilizer exposure
-is_a: PECO:0007284 ! nitrogen macronutrient exposure
+is_a: COB:0001000 ! exposure of organism
+is_a: PECO:0007102 ! nitrogen exposure
 created_by: cooperl
 creation_date: 2013-04-12T19:35:46Z
 
@@ -8932,8 +9074,8 @@ alt_id: EO:0001029
 def: "A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to arginine (CHEBI:29016) as the primary or sole source of nitrogen." [CHEBI:29016, PECO:cooperl]
 synonym: "arginine nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
-is_a: PECO:0007102 ! nitrogen fertilizer exposure
-is_a: PECO:0007284 ! nitrogen macronutrient exposure
+is_a: COB:0001000 ! exposure of organism
+is_a: PECO:0007102 ! nitrogen exposure
 created_by: cooperl
 creation_date: 2013-04-12T19:36:14Z
 
@@ -8944,8 +9086,8 @@ alt_id: EO:0001030
 def: "A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to ornithine (CHEBI:18257) as the primary or sole source of nitrogen." [CHEBI:18257, PECO:cooperl]
 synonym: "ornithine nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
-is_a: PECO:0007102 ! nitrogen fertilizer exposure
-is_a: PECO:0007284 ! nitrogen macronutrient exposure
+is_a: COB:0001000 ! exposure of organism
+is_a: PECO:0007102 ! nitrogen exposure
 created_by: cooperl
 creation_date: 2013-04-12T19:40:51Z
 
@@ -8956,8 +9098,8 @@ alt_id: EO:0001031
 def: "A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to glutamine (CHEBI:28300) as the primary or sole source of nitrogen." [CHEBI:28300, PECO:cooperl]
 synonym: "glutamine nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
-is_a: PECO:0007102 ! nitrogen fertilizer exposure
-is_a: PECO:0007284 ! nitrogen macronutrient exposure
+is_a: COB:0001000 ! exposure of organism
+is_a: PECO:0007102 ! nitrogen exposure
 created_by: cooperl
 creation_date: 2013-04-12T19:41:18Z
 
@@ -9114,7 +9256,6 @@ def: "A sulfate exposure (PECO:0001008) involving exposure to limiting amounts o
 synonym: "limited sulfate treatment (narrow)" NARROW []
 xref: PECO_GIT:27
 is_a: PECO:0001008 ! sulfate exposure
-is_a: PECO:0007079 ! sulfate fertilizer exposure
 created_by: moorel
 creation_date: 2013-04-24T12:37:29Z
 
@@ -9127,7 +9268,6 @@ synonym: "limited phosphate treatment (narrow)" NARROW []
 xref: PECO_GIT:20
 xref: PECO_GIT:26
 is_a: PECO:0001006 ! phosphate exposure
-is_a: PECO:0007103 ! phosphate fertilizer exposure
 created_by: moorel
 creation_date: 2013-04-24T12:43:48Z
 
@@ -9173,8 +9313,7 @@ synonym: "limited nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:19
 xref: PECO_GIT:2
 xref: PECO_GIT:25
-is_a: PECO:0007102 ! nitrogen fertilizer exposure
-is_a: PECO:0007284 ! nitrogen macronutrient exposure
+is_a: PECO:0007102 ! nitrogen exposure
 created_by: moorel
 creation_date: 2013-04-24T13:45:43Z
 
@@ -9185,8 +9324,7 @@ alt_id: EO:0001051
 def: "A potassium nutrient exposure (PECO:0007293) involving exposure to limiting amounts or the absence of potassium (CHEBI:26216)." [CHEBI:26216, PECO:cooperl]
 synonym: "limited potassium treatment (narrow)" NARROW []
 xref: PECO_GIT:21
-is_a: PECO:0001064 ! potassium fertilizer exposure
-is_a: PECO:0007293 ! potassium nutrient exposure
+is_a: PECO:0007293 ! potassium exposure
 created_by: moorel
 creation_date: 2013-04-24T13:54:39Z
 
@@ -9298,8 +9436,8 @@ def: "An organic chemical exposure (PECO:0001003) involving the application of p
 synonym: "PEG treatment (exact)" EXACT []
 synonym: "poly(ethylene glycol) treatment (exact)" EXACT []
 synonym: "polyethylene glycol treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0001003 ! organic chemical exposure
-is_a: RO:0002310 ! exposure event or process
 created_by: cooperl
 creation_date: 2014-06-04T10:14:09Z
 
@@ -9327,11 +9465,10 @@ creation_date: 2017-08-08T14:58:32Z
 
 [Term]
 id: PECO:0001064
-name: potassium fertilizer exposure
-def: "A chemical fertilizer exposure (PECO:0007086) involving the use of potassium fertilizer as a supplement to study plant responses." [PECO:cooperl]
+name: OBSOLETE potassium fertilizer exposure
+def: "OBSOLETE A chemical fertilizer exposure (PECO:0007086) involving the use of potassium fertilizer as a supplement to study plant responses." [PECO:cooperl]
 xref: PECO_GIT:112
-is_a: PECO:0007045 ! primary plant macronutrient exposure
-is_a: PECO:0007086 ! chemical fertilizer exposure
+is_obsolete: true
 created_by: Laurel_Cooper
 creation_date: 2018-10-18T17:40:45Z
 
@@ -9341,8 +9478,10 @@ name: potassium chloride exposure
 def: "A potassium fertilizer exposure (PECO:0001064) involving the use of potassium chloride fertilizer as a supplement to study plant responses." [PECO:cooperl]
 synonym: "muriate of potash exposure (related)" RELATED []
 xref: PECO_GIT:112
-is_a: PECO:0001064 ! potassium fertilizer exposure
-is_a: PECO:0007293 ! potassium nutrient exposure
+is_a: PECO:0007044 ! mineral exposure
+is_a: PECO:0007085 ! OBSOLETE fertilizer exposure
+is_a: PECO:0007185 ! OBSOLETE salt exposure
+is_a: PECO:0007293 ! potassium exposure
 created_by: Laurel_Cooper
 creation_date: 2018-10-18T17:51:54Z
 
@@ -9640,8 +9779,8 @@ def: "An exposure of a reference or experimental plant to monocot plants found i
 synonym: "Liliopsida treatment (narrow)" NARROW []
 synonym: "monocot (related)" RELATED []
 synonym: "monocotyledon (related)" RELATED []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007005 ! Viridiplantae plant exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007023
@@ -9792,8 +9931,8 @@ alt_id: EO:0007041
 def: "A chemical exposure (PECO:0007189) involving the use of antibiotic for selection purposes." [Gramene:pankaj_jaiswal, TO:moorel]
 synonym: "antibiotic treatment (narrow)" NARROW []
 xref: PECO_GIT:69
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007189 ! chemical exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007043
@@ -9810,16 +9949,17 @@ alt_id: EO:0007044
 def: "An inorganic chemical exposure (PECO:0001004) involving the application of a mineral or a combination of minerals." [Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "mineral treatment (narrow)" NARROW []
 xref: PECO_GIT:52
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0001004 ! inorganic chemical exposure
 
 [Term]
 id: PECO:0007045
-name: primary plant macronutrient exposure
+name: OBSOLETE primary plant macronutrient exposure
 alt_id: EO:0007045
-def: "A plant macronutrient exposure (PECO:0007240)  involving the use of the primary plant macronutrients nitrogen (N), phosphorus (P), and potassium (K)." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "OBSOLETE A plant macronutrient exposure (PECO:0007240)  involving the use of the primary plant macronutrients nitrogen (N), phosphorus (P), and potassium (K)." [Gramene:pankaj_jaiswal, PECO:cooperl]
 comment: These plant macronutrients are required by the plant in greatest quantities for normal growth.
 synonym: "primary plant macronutrient treatment (narrow)" NARROW []
-is_a: PECO:0007240 ! plant macronutrient exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007046
@@ -9847,6 +9987,7 @@ synonym: "sodium chloride treatment (narrow)" NARROW []
 xref: CHEBI:26710
 xref: PECO_GIT:76
 is_a: PECO:0001004 ! inorganic chemical exposure
+is_a: PECO:0007185 ! OBSOLETE salt exposure
 
 [Term]
 id: PECO:0007049
@@ -10072,8 +10213,8 @@ def: "A fungal plant exposure (PECO:0007233) involving the exposure of plant to 
 synonym: "basidiomycetes (related)" RELATED []
 synonym: "Basidiomycota treatment (narrow)" NARROW []
 xref: NCBITaxon:5204
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007233 ! fungal plant exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007074
@@ -10122,12 +10263,11 @@ is_a: PECO:0007153 ! radiation quantity exposure
 
 [Term]
 id: PECO:0007079
-name: sulfate fertilizer exposure
+name: OBSOLETE sulfate fertilizer exposure
 alt_id: EO:0007079
-def: "Treatment involving the use of sulfate fertilizer and its components as supplements to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "OBSOLETE Treatment involving the use of sulfate fertilizer and its components as supplements to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "sulfate fertilizer treatment (narrow)" NARROW []
-is_a: PECO:0001009 ! inorganic anion exposure
-is_a: PECO:0007086 ! chemical fertilizer exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007080
@@ -10176,20 +10316,21 @@ is_a: PECO:0007349 ! metazoan plant exposure
 
 [Term]
 id: PECO:0007085
-name: fertilizer exposure
+name: OBSOLETE fertilizer exposure
 alt_id: EO:0007085
-def: "A plant nutrient exposure (PECO:0007241) involving the use of a fertilizer, a combination of plant nutrients." [Gramene:pankaj_jaiswal]
+def: "OBSOLETE A plant nutrient exposure (PECO:0007241) involving the use of a fertilizer, a combination of plant nutrients." [Gramene:pankaj_jaiswal]
 synonym: "fertilizer treatment (narrow)" NARROW []
-is_a: PECO:0007241 ! plant nutrient exposure
-is_a: RO:0002310 ! exposure event or process
+is_a: COB:0001000 ! exposure of organism
+is_a: PECO:0001001 ! plant exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007086
-name: chemical fertilizer exposure
+name: OBSOLETE chemical fertilizer exposure
 alt_id: EO:0007086
-def: "Treatment involving the use of inorganic fertilizer and its components as supplements to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "OBSOLETE  Treatment involving the use of inorganic fertilizer and its components as supplements to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "chemical fertilizer treatment (narrow)" NARROW []
-is_a: PECO:0007085 ! fertilizer exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007087
@@ -10198,7 +10339,7 @@ alt_id: EO:0007087
 def: "Treatment involving the use of organic fertilizer and its component as supplements to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "natural fertilizer treatment (narrow)" NARROW []
 synonym: "organic fertilizer regimen (related)" RELATED []
-is_a: PECO:0007085 ! fertilizer exposure
+is_a: PECO:0007241 ! plant nutrient exposure
 
 [Term]
 id: PECO:0007088
@@ -10217,6 +10358,7 @@ name: bone meal exposure
 alt_id: EO:0007089
 def: "A natural fertilizer exposure (PECO:0007087) which is the application of bone meal." []
 synonym: "bone meal treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007087 ! natural fertilizer exposure
 
 [Term]
@@ -10225,7 +10367,9 @@ name: ammonium nitrate exposure
 alt_id: EO:0007090
 def: "Treatment involving the use of ammonium nitrate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "ammonium nitrate treatment (narrow)" NARROW []
-is_a: PECO:0007406 ! nitrate exposure
+is_a: PECO:0007085 ! OBSOLETE fertilizer exposure
+is_a: PECO:0007102 ! nitrogen exposure
+is_a: PECO:0007185 ! OBSOLETE salt exposure
 
 [Term]
 id: PECO:0007091
@@ -10257,6 +10401,8 @@ name: sodium nitrate exposure
 alt_id: EO:0007094
 def: "Treatment involving the use of sodium nitrate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "sodium nitrate treatment (narrow)" NARROW []
+is_a: PECO:0007085 ! OBSOLETE fertilizer exposure
+is_a: PECO:0007185 ! OBSOLETE salt exposure
 is_a: PECO:0007406 ! nitrate exposure
 
 [Term]
@@ -10265,7 +10411,9 @@ name: calcium nitrate exposure
 alt_id: EO:0007095
 def: "Treatment involving the use of calcium nitrate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "calcium nitrate treatment (narrow)" NARROW []
-is_a: PECO:0007406 ! nitrate exposure
+is_a: PECO:0007085 ! OBSOLETE fertilizer exposure
+is_a: PECO:0007102 ! nitrogen exposure
+is_a: PECO:0007185 ! OBSOLETE salt exposure
 
 [Term]
 id: PECO:0007096
@@ -10273,6 +10421,8 @@ name: potassium nitrate exposure
 alt_id: EO:0007096
 def: "Treatment involving the use of potassiumium nitrate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "potassium nitrate treatment (narrow)" NARROW []
+is_a: PECO:0007085 ! OBSOLETE fertilizer exposure
+is_a: PECO:0007185 ! OBSOLETE salt exposure
 is_a: PECO:0007406 ! nitrate exposure
 
 [Term]
@@ -10281,10 +10431,9 @@ name: ammonium sulfate exposure
 alt_id: EO:0007097
 def: "Treatment involving the use of ammonium sulfate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "ammonium sulfate treatment (narrow)" NARROW []
-is_a: PECO:0001008 ! sulfate exposure
-is_a: PECO:0007079 ! sulfate fertilizer exposure
-is_a: PECO:0007102 ! nitrogen fertilizer exposure
-is_a: PECO:0007284 ! nitrogen macronutrient exposure
+is_a: PECO:0007085 ! OBSOLETE fertilizer exposure
+is_a: PECO:0007102 ! nitrogen exposure
+is_a: PECO:0007185 ! OBSOLETE salt exposure
 
 [Term]
 id: PECO:0007098
@@ -10293,7 +10442,7 @@ alt_id: EO:0007098
 def: "Treatment involving the use of ferrous sulfate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "ferrous sulfate treatment (narrow)" NARROW []
 is_a: PECO:0001008 ! sulfate exposure
-is_a: PECO:0007079 ! sulfate fertilizer exposure
+is_a: PECO:0007185 ! OBSOLETE salt exposure
 
 [Term]
 id: PECO:0007099
@@ -10302,7 +10451,8 @@ alt_id: EO:0007099
 def: "Treatment involving the use of potassium sulfate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "potassium sulfate treatment (narrow)" NARROW []
 is_a: PECO:0001008 ! sulfate exposure
-is_a: PECO:0007079 ! sulfate fertilizer exposure
+is_a: PECO:0007044 ! mineral exposure
+is_a: PECO:0007185 ! OBSOLETE salt exposure
 
 [Term]
 id: PECO:0007100
@@ -10311,7 +10461,6 @@ alt_id: EO:0007100
 def: "Treatment involving the use of super phosphate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "superphosphate treatment (narrow)" NARROW []
 is_a: PECO:0001006 ! phosphate exposure
-is_a: PECO:0007103 ! phosphate fertilizer exposure
 
 [Term]
 id: PECO:0007101
@@ -10319,26 +10468,24 @@ name: urea exposure
 alt_id: EO:0007101
 def: "Treatment involving the use of urea as source of nitrogen supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "urea treatment (narrow)" NARROW []
-is_a: PECO:0007102 ! nitrogen fertilizer exposure
-is_a: PECO:0007284 ! nitrogen macronutrient exposure
+is_a: PECO:0007085 ! OBSOLETE fertilizer exposure
+is_a: PECO:0007102 ! nitrogen exposure
 
 [Term]
 id: PECO:0007102
-name: nitrogen fertilizer exposure
+name: nitrogen exposure
 alt_id: EO:0007102
 def: "Treatment involving the use of nitrogen fertilizer and its components as supplements to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "nitrogen fertilizer treatment (narrow)" NARROW []
-is_a: PECO:0007045 ! primary plant macronutrient exposure
-is_a: PECO:0007086 ! chemical fertilizer exposure
+is_a: PECO:0007240 ! plant macronutrient exposure
 
 [Term]
 id: PECO:0007103
-name: phosphate fertilizer exposure
+name: OBSOLETE phosphate fertilizer exposure
 alt_id: EO:0007103
-def: "Treatment involving the use of phosphate fertilizer and its components as supplements to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "OBSOLETE  Treatment involving the use of phosphate fertilizer and its components as supplements to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "phosphate fertilizer treatment (narrow)" NARROW []
-is_a: PECO:0001009 ! inorganic anion exposure
-is_a: PECO:0007086 ! chemical fertilizer exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007104
@@ -10346,10 +10493,7 @@ name: NPK fertilizer exposure
 alt_id: EO:0007104
 def: "Treatment involving the use of nitrogen, phosphorus and potassium supplements to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "NPK fertilizer treatment (narrow)" NARROW []
-is_a: PECO:0001006 ! phosphate exposure
-is_a: PECO:0007102 ! nitrogen fertilizer exposure
-is_a: PECO:0007103 ! phosphate fertilizer exposure
-is_a: PECO:0007284 ! nitrogen macronutrient exposure
+is_a: PECO:0007102 ! nitrogen exposure
 
 [Term]
 id: PECO:0007105
@@ -10369,8 +10513,8 @@ def: "Treatment involving the exposure of plant to the Stramenopiles (heterokont
 synonym: "chromophyta (related)" RELATED []
 synonym: "heterokont (related)" RELATED []
 synonym: "Stramenopiles treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007357 ! biotic plant exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007107
@@ -10380,8 +10524,8 @@ def: "A fungal plant exposure (PECO:0007233) involving the exposure of plant to 
 synonym: "ascomycetes (related)" RELATED []
 synonym: "Ascomycota treatment (narrow)" NARROW []
 xref: NCBITaxon:4890
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007233 ! fungal plant exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007108
@@ -10407,8 +10551,8 @@ alt_id: EO:0007110
 def: "Treatment involving the exposure of plant to the pathogenic double stranded RNA virus." [Gramene:pankaj_jaiswal, NCBITaxon:35325]
 synonym: "dsRNA nonenveloped viruses (related)" RELATED []
 synonym: "dsRNA virus treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007210 ! virus plant exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007111
@@ -10763,6 +10907,7 @@ comment: Electromagnetic radiation is classified according to the frequency of i
 synonym: "light regimen (related)" RELATED []
 synonym: "radiation treatment (narrow)" NARROW []
 xref: Wikipedia:Electromagnetic_radiation
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007316 ! physical plant exposure
 
 [Term]
@@ -10803,8 +10948,8 @@ name: clay soil exposure
 alt_id: EO:0007156
 def: "A soil type exposure (PECO:0007155) involving a treatment or exposure of a plant structure (PO:0009011) to clay soil." [ENVO:00002262, PECO:cooperl]
 synonym: "clay soil treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007155 ! soil type exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007157
@@ -10820,8 +10965,8 @@ name: sandy soil exposure
 alt_id: EO:0007158
 def: "A soil type exposure (PECO:0007155) involving a treatment or exposure of a plant structure (PO:0009011) to sandy soil." [ENVO:00002229, PECO:cooperl]
 synonym: "sandy soil treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007155 ! soil type exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007159
@@ -10845,6 +10990,8 @@ name: OBSOLETE air temperature exposure
 alt_id: EO:0007161
 def: "OBSOLETE The treatment involving an exposure to wind with varying degree of temperature, which may depend on the study type or the regional environment." [Gramene:pankaj_jaiswal]
 synonym: "air temperature treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
+is_a: PECO:0001001 ! plant exposure
 is_obsolete: true
 
 [Term]
@@ -10878,8 +11025,8 @@ alt_id: EO:0007165
 def: "A chemical exposure (PECO:0007189) involving the application of one or more plant growth hormones." [Gramene:pankaj_jaiswal]
 synonym: "growth hormone treatment (narrow)" NARROW []
 xref: PECO_GIT:71
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007189 ! chemical exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007166
@@ -10897,8 +11044,8 @@ def: "A chemical exposure (PECO:0007189) involving the application of a pesticid
 synonym: "pesticide treatment (narrow)" NARROW []
 xref: CHEBI:25944
 xref: PECO_GIT:73
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007189 ! chemical exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007168
@@ -11011,8 +11158,8 @@ name: rainfall exposure
 alt_id: EO:0007181
 def: "The treatment involving an exposure to a given amount of rainfall." [Gramene:pankaj_jaiswal]
 synonym: "rainfall treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007198 ! water environment exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007182
@@ -11049,6 +11196,8 @@ comment: This treatment may be used to simulate the growth conditions of sea coa
 synonym: "salt treatment (narrow)" NARROW []
 xref: CHEBI:24866
 xref: PECO_GIT:76
+is_a: COB:0001000 ! exposure of organism
+is_a: PECO:0001001 ! plant exposure
 is_obsolete: true
 
 [Term]
@@ -11123,13 +11272,11 @@ is_obsolete: true
 
 [Term]
 id: PECO:0007194
-name: Sclerospora macrospora exposure
+name: Sclerophthora macrospora exposure
 alt_id: EO:0007194
-def: "The treatment involving exposure of plant to the pathogen Sclerophthora macrospora. It is a causal agent for rice Downy Mildew disease." [Gramene:ivy]
-synonym: "Sclerophthora macrospora (related)" RELATED []
+def: "The treatment involving exposure of plant to the pathogen Sclerophthora macrospora. It is a causal agent for rice Downy Mildew disease." [Gramene:ivy, NCBITaxon:467176, PECO:cooperl]
 synonym: "Sclerospora macrospora treatment (narrow)" NARROW []
-is_a: PECO:0007630 ! Sclerospora sp. exposure
-is_a: PECO:0007631 ! Sclerospora graminicola exposure
+is_a: PECO:0001075 ! Oomycota exposure
 
 [Term]
 id: PECO:0007195
@@ -11374,7 +11521,6 @@ synonym: "cadmium chloride treatment (narrow)" NARROW []
 synonym: "CdCl2 (related)" RELATED []
 xref: PECO_GIT:60
 is_a: PECO:0001018 ! cadmium exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007224
@@ -11420,8 +11566,8 @@ name: chromium nutrient exposure
 alt_id: EO:0007228
 def: "The treatment involving exposure of plant to chromium as supplement to study various types of responses." [CHEBI:28073, Gramene:pankaj_jaiswal]
 synonym: "chromium nutrient treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007047 ! other nutrient exposure
-is_a: PECO:0007239 ! micronutrient exposure
 
 [Term]
 id: PECO:0007229
@@ -11485,8 +11631,8 @@ name: silicon nutrient exposure
 alt_id: EO:0007235
 def: "The treatment involving exposure of plant to silicon as supplement to study various types of responses." [CHEBI:27573, Gramene:pankaj_jaiswal]
 synonym: "silicon nutrient treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007047 ! other nutrient exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007236
@@ -11519,8 +11665,8 @@ alt_id: EO:0007239
 def: "The treatment involving exposure of plant to elements that are required in tiny quantities for growth, as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "micronutrient treatment (narrow)" NARROW []
 synonym: "trace element regimen (related)" RELATED []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007241 ! plant nutrient exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007240
@@ -11581,8 +11727,8 @@ alt_id: EO:0007246
 def: "A biotic plant exposure (PECO:0007357) involving exposure of a plant to bacteria." [Gramene:ivy, NCBITaxon:2, PECO:cooperl]
 synonym: "bacterial plant treatment (narrow)" NARROW []
 synonym: "eubacteria (related)" RELATED []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007357 ! biotic plant exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007247
@@ -11872,8 +12018,8 @@ name: oxygen exposure
 alt_id: EO:0007278
 def: "The treatment involving exposure of plant to oxygen to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "oxygen treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007043 ! non-mineral nutrient exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007279
@@ -11919,13 +12065,14 @@ is_a: PECO:0007121 ! Thysanoptera exposure
 
 [Term]
 id: PECO:0007284
-name: nitrogen macronutrient exposure
+name: OBSOLETE nitrogen macronutrient exposure
 alt_id: EO:0007284
-def: "A primary plant macronutrient exposure (PECO:0007045) involving the application of nitrogen." [CHEBI:25555, Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "OBSOLETE A primary plant macronutrient exposure (PECO:0007045) involving the application of nitrogen." [CHEBI:25555, Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "nitrogen macronutrient treatment (narrow)" NARROW []
 xref: PECO_GIT:3
-is_a: PECO:0007045 ! primary plant macronutrient exposure
-is_a: PECO:0007086 ! chemical fertilizer exposure
+is_a: COB:0001000 ! exposure of organism
+is_a: PECO:0001001 ! plant exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007285
@@ -11965,8 +12112,8 @@ alt_id: EO:0007288
 def: "The treatment involving exposure of plant to macronutrient magnesium as supplement to study various types of responses." [CHEBI:25107, Gramene:pankaj_jaiswal]
 synonym: "magnesium nutrient treatment (narrow)" NARROW []
 xref: PECO_GIT:17
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007046 ! secondary macronutrient exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007289
@@ -12016,12 +12163,12 @@ is_a: PECO:0007183 ! herbicide exposure
 
 [Term]
 id: PECO:0007293
-name: potassium nutrient exposure
+name: potassium exposure
 alt_id: EO:0007293
 def: "The treatment involving exposure of plant to macronutrient potassium as supplement to study various types of responses." [CHEBI:26216, Gramene:pankaj_jaiswal]
 synonym: "potassium nutrient treatment (narrow)" NARROW []
-is_a: PECO:0007045 ! primary plant macronutrient exposure
-is_a: PECO:0007086 ! chemical fertilizer exposure
+is_a: COB:0001000 ! exposure of organism
+is_a: PECO:0007240 ! plant macronutrient exposure
 
 [Term]
 id: PECO:0007294
@@ -12040,8 +12187,8 @@ name: sulfur nutrient exposure
 alt_id: EO:0007295
 def: "The treatment involving exposure of plant to macronutrient sulfur as supplement to study various types of responses." [CHEBI:26833, Gramene:pankaj_jaiswal]
 synonym: "sulfur nutrient treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007046 ! secondary macronutrient exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007296
@@ -12058,6 +12205,7 @@ name: calcium nutrient exposure
 alt_id: EO:0007297
 def: "The treatment involving exposure of plant to macronutrient calcium as supplement to study various types of responses." [CHEBI:22984, Gramene:pankaj_jaiswal]
 synonym: "calcium nutrient treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007046 ! secondary macronutrient exposure
 
 [Term]
@@ -12095,8 +12243,8 @@ alt_id: EO:0007303
 def: "The treatment involving exposure of plant to carbon source as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "carbon nutrient treatment (narrow)" NARROW []
 xref: CHEBI:27594
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007043 ! non-mineral nutrient exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007304
@@ -12124,8 +12272,8 @@ name: aluminum nutrient exposure
 alt_id: EO:0007306
 def: "The treatment involving exposure of plant to aluminium as supplement to study various types of responses." [CHEBI:28984, Gramene:pankaj_jaiswal]
 synonym: "aluminum nutrient treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007047 ! other nutrient exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007307
@@ -12232,8 +12380,8 @@ alt_id: EO:0007318
 def: "The treatment involving exposure of plant to the rice yellow mottle virus. It is a causal agent for rice yellow mottle disease." [Gramene:ivy, NCBITaxon:31744]
 synonym: "rice yellow mottle virus treatment (narrow)" NARROW []
 synonym: "RYMV (related)" RELATED []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007109 ! ssRNA positive-strand virus with no DNA stage exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007319
@@ -12522,8 +12670,8 @@ alt_id: EO:0007349
 def: "A biotic plant exposure (PECO:0007357) involving exposure of a plant to a metazoan organism (animal)." [Gramene:pankaj_jaiswal, NCBITaxon:33208, PECO:cooperl]
 synonym: "Animalia (related)" RELATED []
 synonym: "metazoan plant treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007357 ! biotic plant exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007350
@@ -12532,8 +12680,8 @@ alt_id: EO:0007350
 def: "The treatment involving exposure of plant to the rice stripe virus. It is a causal agent for rice stripe disease." [Gramene:ivy, NCBITaxon:12331]
 synonym: "rice stripe virus treatment (narrow)" NARROW []
 synonym: "RSV (related)" RELATED []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007111 ! ssRNA negative-strand virus exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007351
@@ -12564,8 +12712,8 @@ def: "The treatment involving exposure of plant to the rice hoja blanca virus. I
 synonym: "hoja blanca (related)" RELATED []
 synonym: "rice hoja blanca tenuivirus (related)" RELATED []
 synonym: "rice hoja blanca virus treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007111 ! ssRNA negative-strand virus exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007357
@@ -12583,8 +12731,8 @@ alt_id: EO:0007358
 def: "The treatment involving exposure of plant to the rice grassy stunt virus. It is a causal agent for rice grassy stunt disease." [Gramene:ivy, NCBITaxon:66266]
 synonym: "RGSV (related)" RELATED []
 synonym: "rice grassy stunt virus treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007111 ! ssRNA negative-strand virus exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007359
@@ -12602,8 +12750,8 @@ alt_id: EO:0007360
 def: "The treatment involving exposure of plant to the barley yellow dwarf virus. It is a causal agent for rice Giallume disease." [Gramene:ivy, NCBITaxon:12037]
 synonym: "barley yellow dwarf virus treatment (narrow)" NARROW []
 synonym: "BYDV (related)" RELATED []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007109 ! ssRNA positive-strand virus with no DNA stage exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007361
@@ -12931,8 +13079,8 @@ comment: Growth in flood-prone conditions may include exposure to anaerobic soil
 synonym: "deep water (related)" RELATED []
 synonym: "flood prone region treatment (narrow)" NARROW []
 synonym: "flooding (related)" RELATED []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007064 ! ecological environment exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007397
@@ -12940,8 +13088,8 @@ name: phosphorus nutrient exposure
 alt_id: EO:0007397
 def: "The treatment involving exposure of plant to macronutrient phosphorus as supplement to study various types of responses." [CHEBI:28659, Gramene:pankaj_jaiswal]
 synonym: "phosphorus nutrient treatment (narrow)" NARROW []
-is_a: PECO:0007045 ! primary plant macronutrient exposure
-is_a: RO:0002310 ! exposure event or process
+is_a: COB:0001000 ! exposure of organism
+is_a: PECO:0007240 ! plant macronutrient exposure
 
 [Term]
 id: PECO:0007398
@@ -12965,8 +13113,8 @@ name: arid region exposure
 alt_id: EO:0007400
 def: "The treatment involving the plant or the populations grown in regions where the land is excessively dry and receives insufficient rainfall to support agriculture." [Gramene:pankaj_jaiswal]
 synonym: "arid region treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007394 ! desert-like region exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007401
@@ -13019,8 +13167,7 @@ alt_id: EO:0007406
 def: "A nitrogen fertilizer exposure (PECO:0007102) involving a treatment or exposure of a plant structure (PO:0009011) to nitrate." [PECO:cooperl]
 synonym: "nitrate treatment (narrow)" NARROW []
 is_a: PECO:0001009 ! inorganic anion exposure
-is_a: PECO:0007102 ! nitrogen fertilizer exposure
-is_a: PECO:0007284 ! nitrogen macronutrient exposure
+is_a: PECO:0007102 ! nitrogen exposure
 
 [Term]
 id: PECO:0007407
@@ -13029,8 +13176,8 @@ alt_id: EO:0007407
 def: "An organic chemical exposure (PECO:0001003) involving the application of  methyl jasmonate (MeJa; CHEBI:15929)." [CHEBI:15929, PO:Cooperl]
 synonym: "methyl jasmonate treatment (narrow)" NARROW []
 xref: PECO_GIT:62
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0001003 ! organic chemical exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007408
@@ -13039,8 +13186,8 @@ alt_id: EO:0007408
 def: "An organic chemical exposure (PECO:0001003) involving the application of the tryptophan (Trp) analog 5-methyltryptophan (5MT; CHEBI: 52446)." [CHEBI:52446, PECO:cooperl]
 synonym: "5-methyltryptophan treatment (narrow)" NARROW []
 xref: PECO_GIT:61
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0001003 ! organic chemical exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007409
@@ -13080,7 +13227,8 @@ alt_id: EO:0007412
 def: "The treatment involving exposure of plant to micronutrient zinc by adding ZnSO4 as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "zinc sulphate treatment (narrow)" NARROW []
 synonym: "ZnSO4 (related)" RELATED []
-is_a: PECO:0007085 ! fertilizer exposure
+is_a: PECO:0007085 ! OBSOLETE fertilizer exposure
+is_a: PECO:0007185 ! OBSOLETE salt exposure
 is_a: PECO:0007309 ! zinc nutrient exposure
 
 [Term]
@@ -13090,6 +13238,7 @@ alt_id: EO:0007413
 def: "The treatment involving exposure of plant to micronutrient manganese by adding MnSO4  supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "manganese sulfate treatment (narrow)" NARROW []
 synonym: "MnSO4 (related)" RELATED []
+is_a: PECO:0007185 ! OBSOLETE salt exposure
 is_a: PECO:0007387 ! manganese nutrient exposure
 
 [Term]
@@ -13099,8 +13248,8 @@ alt_id: EO:0007414
 def: "A chemical exposure (PECO:0007189) involving exposure of plant to a peroxide to study various types of oxidative stress responses." [Gramene:pankaj_jaiswal]
 synonym: "peroxide treatment (narrow)" NARROW []
 xref: PECO_GIT:72
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007189 ! chemical exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007415
@@ -13129,8 +13278,8 @@ alt_id: EO:0007504
 def: "The treatment involving use of 1,2-dichloroethane for mutagenesis process." [CAS:107-06-2, Gramene:pankaj_jaiswal]
 synonym: "1,2-dichloroethane treatment (narrow)" NARROW []
 synonym: "DCE (related)" RELATED []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007505
@@ -13138,8 +13287,8 @@ name: 1,2:5,6-dibenzanthracene exposure
 alt_id: EO:0007505
 def: "The treatment involving use of 1,2:5,6-dibenzanthracene for mutagenesis process." [CAS:53-70-3, Gramene:pankaj_jaiswal]
 synonym: "1,2:5,6-dibenzanthracene treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007506
@@ -13148,8 +13297,8 @@ alt_id: EO:0007506
 def: "The treatment involving use of 1,4-dimethanesulfonoxy-1:4-dimethylbutane for mutagenesis process." [CAS:2514-83-2, Gramene:pankaj_jaiswal]
 synonym: "1,4-dimethanesulfonoxy-1:4-dimethylbutane treatment (narrow)" NARROW []
 synonym: "CB2348 (related)" RELATED []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007507
@@ -13158,8 +13307,8 @@ alt_id: EO:0007507
 def: "The treatment involving use of 1,4-dimethanesulfonoxybut-2-yne for mutagenesis process." [CAS:2917-96-6, Gramene:pankaj_jaiswal]
 synonym: "1,4-dimethanesulfonoxybut-2-yne treatment (narrow)" NARROW []
 synonym: "CB2058 (related)" RELATED []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007508
@@ -13179,8 +13328,8 @@ alt_id: EO:0007509
 def: "The treatment involving use of 1,6-dimethylsulfonoxy D-mannitol for mutagenesis process." [CAS:1187-00-4, Gramene:pankaj_jaiswal]
 synonym: "1,6-dimethylsulfonoxy D-mannitol treatment (narrow)" NARROW []
 synonym: "CB2511 (related)" RELATED []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007510
@@ -13189,8 +13338,8 @@ alt_id: EO:0007510
 def: "The treatment involving use of 1,6-dimethylsulfonoxy L-mannitol for mutagenesis process." [CAS:2514-83-2, Gramene:pankaj_jaiswal]
 synonym: "1,6-dimethylsulfonoxy L-mannitol treatment (narrow)" NARROW []
 synonym: "CB2628 (related)" RELATED []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007511
@@ -13198,8 +13347,8 @@ name: 1-amino-2-naphthol-4-sulfonic acid exposure
 alt_id: EO:0007511
 def: "The treatment involving use of 1-amino-2-naphthol-4-sulfonic acid for mutagenesis process." [CAS:116-63-2, Gramene:pankaj_jaiswal]
 synonym: "1-amino-2-naphthol-4-sulfonic acid treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007512
@@ -13208,8 +13357,8 @@ alt_id: EO:0007512
 def: "The treatment involving use of 1-bromo-2-chloroethane for mutagenesis process." [CAS:107-04-0, Gramene:pankaj_jaiswal]
 synonym: "1-bromo-2-chloroethane treatment (narrow)" NARROW []
 synonym: "BCE (related)" RELATED []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007513
@@ -13217,8 +13366,8 @@ name: 1-diethylaminoethylethylamino-4-methyl-thioxanthenone exposure
 alt_id: EO:0007513
 def: "The treatment involving use of 1-diethylaminoethylethylamino-4-methyl-thioxanthenone for mutagenesis process." [CAS:479-50-5, Gramene:pankaj_jaiswal]
 synonym: "1-diethylaminoethylethylamino-4-methyl-thioxanthenone treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007514
@@ -13226,8 +13375,8 @@ name: 2,5,-bisethylene-imine-1,4-benzoquinone exposure
 alt_id: EO:0007514
 def: "The treatment involving use of 2,5,-bisethylene-imine-1,4-benzoquinone for mutagenesis process." [CAS:526-62-5, Gramene:pankaj_jaiswal]
 synonym: "2,5,-bisethylene-imine-1,4-benzoquinone treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007515
@@ -13236,8 +13385,8 @@ alt_id: EO:0007515
 def: "The treatment involving use of 2-chloroethyl methanesulfonate for mutagenesis process." [CAS:3570-58-9, Gramene:pankaj_jaiswal]
 synonym: "2-chloroethyl methanesulfonate treatment (narrow)" NARROW []
 synonym: "CB1506 (related)" RELATED []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007516
@@ -13246,8 +13395,8 @@ alt_id: EO:0007516
 def: "The treatment involving use of 2-fluoroethyl methanesulfonate for mutagenesis process." [CAS:461-31-4, Gramene:pankaj_jaiswal]
 synonym: "2-fluoroethyl methanesulfonate treatment (narrow)" NARROW []
 synonym: "CB1522 (related)" RELATED []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007517
@@ -13255,8 +13404,8 @@ name: 2-methoxyethanol exposure
 alt_id: EO:0007517
 def: "The treatment involving use of 2-methoxyethanol for mutagenesis process." [CAS:109-86-4, Gramene:pankaj_jaiswal]
 synonym: "2-methoxyethanol treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007518
@@ -13264,8 +13413,8 @@ name: 5-bromouracil exposure
 alt_id: EO:0007518
 def: "The treatment involving use of 5-bromouracil for mutagenesis process." [CAS:51-20-7, Gramene:pankaj_jaiswal]
 synonym: "5-bromouracil treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007519
@@ -13273,8 +13422,8 @@ name: 5-bromouridine exposure
 alt_id: EO:0007519
 def: "The treatment involving use of 5-bromouridine for mutagenesis process." [CAS:957-75-5, Gramene:pankaj_jaiswal]
 synonym: "5-bromouridine treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007520
@@ -13300,8 +13449,8 @@ name: aminopterin exposure
 alt_id: EO:0007522
 def: "The treatment involving use of aminopterin for mutagenesis process." [CAS:54-62-6, Gramene:pankaj_jaiswal]
 synonym: "aminopterin treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007523
@@ -13317,8 +13466,8 @@ name: caffeine exposure
 alt_id: EO:0007524
 def: "The treatment involving use of caffeine for mutagenesis process." [CAS:58-08-2, Gramene:pankaj_jaiswal]
 synonym: "caffeine treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007525
@@ -13327,8 +13476,8 @@ alt_id: EO:0007525
 def: "The treatment involving use of cisplatin for mutagenesis process." [CAS:15663-27-1, Gramene:pankaj_jaiswal]
 synonym: "cis-dichlorodiammineplatinum(II) (related)" RELATED []
 synonym: "cisplatin treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007526
@@ -13336,8 +13485,8 @@ name: colchicine exposure
 alt_id: EO:0007526
 def: "The treatment involving use of colchicine for mutagenesis process." [CAS:64-86-8, Gramene:pankaj_jaiswal]
 synonym: "colchicine treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007527
@@ -13345,8 +13494,9 @@ name: cupric sulfate exposure
 alt_id: EO:0007527
 def: "The treatment involving use of cupric sulfate for mutagenesis process." [CAS:7758-98-7, Gramene:pankaj_jaiswal]
 synonym: "cupric sulfate treatment (narrow)" NARROW []
-is_a: PECO:0007085 ! fertilizer exposure
+is_a: PECO:0007085 ! OBSOLETE fertilizer exposure
 is_a: PECO:0007149 ! chemical mutagen exposure
+is_a: PECO:0007185 ! OBSOLETE salt exposure
 
 [Term]
 id: PECO:0007528
@@ -13356,8 +13506,8 @@ def: "The treatment involving use of diepoxybutane for mutagenesis process." [CA
 synonym: "DEB (related)" RELATED []
 synonym: "diepoxybutane treatment (narrow)" NARROW []
 synonym: "erythritol anhydride (related)" RELATED []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007529
@@ -13374,8 +13524,8 @@ alt_id: EO:0007530
 def: "The treatment involving use of diethyl sulfate for mutagenesis process." [CAS:64-67-5, Gramene:pankaj_jaiswal]
 synonym: "DES (related)" RELATED []
 synonym: "diethyl sulfate treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007531
@@ -13383,8 +13533,8 @@ name: dimethyl sulfoxide exposure
 alt_id: EO:0007531
 def: "The treatment involving use of dimthyl sulfate for mutagenesis process." [CAS:67-68-5, Gramene:pankaj_jaiswal]
 synonym: "dimethyl sulfoxide treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007532
@@ -13392,8 +13542,8 @@ name: DNA exposure
 alt_id: EO:0007532
 def: "The treatment involving use of DNA fragment insertion or deletion as part of mutagenesis." [CAS:9007-49-2, Gramene:pankaj_jaiswal]
 synonym: "DNA treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007533
@@ -13401,8 +13551,8 @@ name: ethyl ether exposure
 alt_id: EO:0007533
 def: "The treatment involving use of ethyl ether for mutagenesis process." [CAS:60-29-7, Gramene:pankaj_jaiswal]
 synonym: "ethyl ether treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007534
@@ -13413,8 +13563,8 @@ synonym: "CB1528 (related)" RELATED []
 synonym: "EMS (related)" RELATED []
 synonym: "ethyl methanesulfonate treatment (narrow)" NARROW []
 synonym: "Methanesulfonic acid ethyl ester (related)" RELATED []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007535
@@ -13423,8 +13573,8 @@ alt_id: EO:0007535
 def: "The treatment involving use of ethyl nitrosourea for mutagenesis process." [CAS:759-73-9, Gramene:pankaj_jaiswal]
 synonym: "ENU (related)" RELATED []
 synonym: "ethyl nitrosourea treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007536
@@ -13432,8 +13582,8 @@ name: ethylene oxide exposure
 alt_id: EO:0007536
 def: "The treatment involving use of ethylene oxide for mutagenesis process." [Gramene:pankaj_jaiswal]
 synonym: "ethylene oxide treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007537
@@ -13442,8 +13592,8 @@ alt_id: EO:0007537
 def: "The treatment involving use of ethylenimine for mutagenesis process." [CAS:151-56-4, Gramene:pankaj_jaiswal]
 synonym: "EI (related)" RELATED []
 synonym: "ethylenimine treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007538
@@ -13451,8 +13601,8 @@ name: fagaronine exposure
 alt_id: EO:0007538
 def: "The treatment involving use of fagaronine for mutagenesis process." [Gramene:pankaj_jaiswal]
 synonym: "fagaronine treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007539
@@ -13470,8 +13620,8 @@ alt_id: EO:0007540
 def: "The treatment involving use of boric acid for mutagenesis process." [Gramene:pankaj_jaiswal]
 synonym: "boric acid treatment (narrow)" NARROW []
 synonym: "H3BO3 (related)" RELATED []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007541
@@ -13489,8 +13639,8 @@ def: "The treatment involving use of hexamethylmelamine for mutagenesis process.
 synonym: "altretamine (related)" RELATED []
 synonym: "hexamethylmelamine treatment (narrow)" NARROW []
 synonym: "HMM (related)" RELATED []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007543
@@ -13528,8 +13678,8 @@ alt_id: EO:0007546
 def: "The treatment involving use of ICR 170 for mutagenesis process." [CAS:146-59-8, Gramene:pankaj_jaiswal]
 synonym: "2-methoxy-6-dichloro-9-(3-ethyl-2-chloroethyl-aminopropylamino)acridine-dihydrochloride (related)" RELATED []
 synonym: "ICR 170 treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007547
@@ -13537,8 +13687,8 @@ name: iodine exposure
 alt_id: EO:0007547
 def: "The treatment involving use of iodine for mutagenesis process." [CAS:7553-56-2, Gramene:pankaj_jaiswal]
 synonym: "iodine treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007548
@@ -13547,7 +13697,7 @@ alt_id: EO:0007548
 def: "The treatment involving use of Janus green B for mutagenesis process." [CAS:2869-83-2, Gramene:pankaj_jaiswal]
 synonym: "Janus green B treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
+is_a: PECO:0007185 ! OBSOLETE salt exposure
 
 [Term]
 id: PECO:0007549
@@ -13555,8 +13705,8 @@ name: methoxy diethylnitrosamine exposure
 alt_id: EO:0007549
 def: "The treatment involving use of methoxy diethylnitrosamine for mutagenesis process." [Gramene:pankaj_jaiswal]
 synonym: "methoxy diethylnitrosamine treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007550
@@ -13566,8 +13716,8 @@ def: "The treatment involving use of methyl methanesulfonate for mutagenesis pro
 synonym: "CB1540 (related)" RELATED []
 synonym: "methyl methanesulfonate treatment (narrow)" NARROW []
 synonym: "MMS (related)" RELATED []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007551
@@ -13587,7 +13737,6 @@ def: "The treatment involving use of mustard gas for mutagenesis process." [CAS:
 synonym: "1,1'-thiobis[2-chloroethane (related)" RELATED []
 synonym: "mustard gas treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007553
@@ -13597,8 +13746,8 @@ def: "The treatment involving use of N-methyl-N'-nitro-N-nitrosoguanidine for mu
 synonym: "MNNG (related)" RELATED []
 synonym: "N-methyl-N'-nitro-N-nitrosoguanidine treatment (narrow)" NARROW []
 synonym: "NNG (related)" RELATED []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007554
@@ -13607,8 +13756,8 @@ alt_id: EO:0007554
 def: "The treatment involving use of N-nitrosodimethylamine for mutagenesis process." [CAS:62-75-9, Gramene:pankaj_jaiswal]
 synonym: "DMN (related)" RELATED []
 synonym: "N-nitrosodimethylamine treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007555
@@ -13616,8 +13765,8 @@ name: natural gas exposure
 alt_id: EO:0007555
 def: "The treatment involving use of natural gas for mutagenesis process." [Gramene:pankaj_jaiswal]
 synonym: "natural gas treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007556
@@ -13629,8 +13778,8 @@ synonym: "CB1414 (related)" RELATED []
 synonym: "HN2 (related)" RELATED []
 synonym: "mechlorethamine (related)" RELATED []
 synonym: "nitrogen mustard treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007557
@@ -13640,8 +13789,8 @@ def: "The treatment involving use of nitrosomethyl urea for mutagenesis process.
 synonym: "MNU (related)" RELATED []
 synonym: "N-methyl-N-nitrosourea (related)" RELATED []
 synonym: "nitrosomethyl urea treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007558
@@ -13650,8 +13799,8 @@ alt_id: EO:0007558
 def: "The treatment involving use of p-N,N-di(2-chloroethyl)aminophenylvaleric acid for mutagenesis process." [CAS:64508-90-3, Gramene:pankaj_jaiswal]
 synonym: "CB1356 (related)" RELATED []
 synonym: "p-N,N-di(2-chloroethyl)aminophenylvaleric acid treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007559
@@ -13660,8 +13809,8 @@ alt_id: EO:0007559
 def: "The treatment involving use of p-N,N-di-(2-chloroethyl)amino-D-phenylalanine for mutagenesis process." [CAS:13045-94-8, Gramene:pankaj_jaiswal]
 synonym: "CB3026 (related)" RELATED []
 synonym: "p-N,N-di-(2-chloroethyl)amino-D-phenylalanine treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007560
@@ -13680,8 +13829,8 @@ alt_id: EO:0007561
 def: "The treatment involving use of p-N,N-di-(2-chloroethyl)amino-L-phenylalanine for mutagenesis process." [Gramene:pankaj_jaiswal]
 synonym: "CB3025 (related)" RELATED []
 synonym: "p-N,N-di-(2-chloroethyl)amino-L-phenylalanine treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007562
@@ -13700,8 +13849,8 @@ alt_id: EO:0007563
 def: "The treatment involving use of p-N,N-di-(2-chloroethyl)aminophenylethylamine for mutagenesis process." [CAS:58880-18-5, Gramene:pankaj_jaiswal]
 synonym: "CB3034 (related)" RELATED []
 synonym: "p-N,N-di-(2-chloroethyl)aminophenylethylamine treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007564
@@ -13710,8 +13859,8 @@ alt_id: EO:0007564
 def: "The treatment involving use of p-p'-N,N-di(2-chloroethyl)aminophenoxyphenylalanine for mutagenesis process." [CAS:857-95-4, Gramene:pankaj_jaiswal]
 synonym: "CB3051 (related)" RELATED []
 synonym: "p-p'-N,N-di(2-chloroethyl)aminophenoxyphenylalanine treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007565
@@ -13719,8 +13868,8 @@ name: quinhydrone exposure
 alt_id: EO:0007565
 def: "The treatment involving use of quinhydrone for mutagenesis process." [CAS:106-34-3, Gramene:pankaj_jaiswal]
 synonym: "quinhydrone treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007566
@@ -13729,8 +13878,8 @@ alt_id: EO:0007566
 def: "The treatment involving use of S-2-chloroethylcysteine for mutagenesis process." [CAS:28361-96-8, Gramene:pankaj_jaiswal]
 synonym: "CB1592 (related)" RELATED []
 synonym: "S-2-chloroethylcysteine treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007567
@@ -13739,7 +13888,7 @@ alt_id: EO:0007567
 def: "The treatment involving use of sodium bisulfite for mutagenesis process." [CAS:7631-90-5, Gramene:pankaj_jaiswal]
 synonym: "sodium bisulfite treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
+is_a: PECO:0007185 ! OBSOLETE salt exposure
 
 [Term]
 id: PECO:0007568
@@ -13748,7 +13897,7 @@ alt_id: EO:0007568
 def: "The treatment involving use of sodium fluoride for mutagenesis process." [CAS:7681-49-4, Gramene:pankaj_jaiswal]
 synonym: "sodium fluoride treatment (narrow)" NARROW []
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
+is_a: PECO:0007185 ! OBSOLETE salt exposure
 
 [Term]
 id: PECO:0007569
@@ -13757,18 +13906,19 @@ alt_id: EO:0007569
 def: "The treatment involving use of styryl quinoline for mutagenesis process." [Gramene:pankaj_jaiswal]
 synonym: "CB3086 (related)" RELATED []
 synonym: "styryl quinoline treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007570
-name: sulfur mustard exposure
+name: OBSOLETE sulfur mustard exposure
 alt_id: EO:0007570
-def: "The treatment involving use of sulfur mustard for mutagenesis process." [CAS:505-60-2, Gramene:pankaj_jaiswal]
+def: "OBSOLETE The treatment involving use of sulfur mustard for mutagenesis process." [CAS:505-60-2, Gramene:pankaj_jaiswal]
 synonym: "CB1735 (related)" RELATED []
 synonym: "sulfur mustard treatment (narrow)" NARROW []
-is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
+is_a: COB:0001000 ! exposure of organism
+is_a: PECO:0001001 ! plant exposure
+is_obsolete: true
 
 [Term]
 id: PECO:0007571
@@ -13776,8 +13926,8 @@ name: triaziquone exposure
 alt_id: EO:0007571
 def: "The treatment involving use of triaziquone for mutagenesis process." [CAS:68-76-8, Gramene:pankaj_jaiswal]
 synonym: "triaziquone treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007572
@@ -13796,8 +13946,8 @@ name: urethane exposure
 alt_id: EO:0007573
 def: "The treatment involving use of urethane for mutagenesis process." [CAS:51-79-6, Gramene:pankaj_jaiswal]
 synonym: "urethane treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007574
@@ -13805,8 +13955,8 @@ name: vinyl carbamate exposure
 alt_id: EO:0007574
 def: "The treatment involving use of vinyl carbamate for mutagenesis process." [CAS:15805-73-9, Gramene:pankaj_jaiswal]
 synonym: "vinyl carbamate treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007610
@@ -13888,6 +14038,8 @@ alt_id: EO:0007619
 def: "OBSOLETE" []
 synonym: "226-Ra or agr ray treatment (narrow)" NARROW []
 synonym: "radium (related)" RELATED []
+is_a: COB:0001000 ! exposure of organism
+is_a: PECO:0001001 ! plant exposure
 is_obsolete: true
 
 [Term]
@@ -13919,7 +14071,6 @@ name: OBSOLETE 252-Cf fission neutrons exposure
 alt_id: EO:0007623
 def: "OBSOLETE" [PECO:cooperl]
 synonym: "252-Cf fission neutrons treatment (narrow)" NARROW []
-is_a: PECO:0007622 ! OBSOLETE neutrons exposure
 is_obsolete: true
 
 [Term]
@@ -13959,8 +14110,8 @@ name: hydrogen exposure
 alt_id: EO:0007629
 def: "An exposure involving exposure of plant to molecular or ionic forms of hydrogen to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "hydrogen treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007043 ! non-mineral nutrient exposure
-is_a: RO:0002310 ! exposure event or process
 
 [Term]
 id: PECO:0007630
@@ -13978,7 +14129,7 @@ alt_id: EO:0007631
 def: "A Sclerospora sp. exposure (PECO:0001074) involving the exposure of a plant structure (PO:0009011) to Sclerospora graminicola." [Gramene:pankaj_jaiswal, NCBITaxon:162130, PECO:cooperl]
 comment: Sclerospora graminicola is a causal agent for downy mildew disease.
 synonym: "Sclerospora graminicola treatment (narrow)" NARROW []
-is_a: PECO:0001075 ! Oomycota exposure
+is_a: PECO:0007630 ! Sclerospora sp. exposure
 
 [Term]
 id: PECO:0007632
@@ -14009,12 +14160,12 @@ synonym: "Spodoptera litura treatment (narrow)" NARROW []
 is_a: PECO:0007115 ! Spodoptera spp. exposure
 
 [Term]
-id: RO:0002310 ! exposure event or process
-is_a: BFO:0000015 ! process
-
-[Term]
 id: RO:0002577 ! system
 is_a: BFO:0000040 ! material entity
+
+[Term]
+id: UBERON:0001062 ! anatomical entity
+is_a: BFO:0000004 ! independent continuant
 
 [Typedef]
 id: part_of

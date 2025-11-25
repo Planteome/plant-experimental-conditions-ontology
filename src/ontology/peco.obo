@@ -10990,8 +10990,6 @@ name: OBSOLETE air temperature exposure
 alt_id: EO:0007161
 def: "OBSOLETE The treatment involving an exposure to wind with varying degree of temperature, which may depend on the study type or the regional environment." [Gramene:pankaj_jaiswal]
 synonym: "air temperature treatment (narrow)" NARROW []
-is_a: COB:0001000 ! exposure of organism
-is_a: PECO:0001001 ! plant exposure
 is_obsolete: true
 
 [Term]

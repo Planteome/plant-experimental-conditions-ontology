@@ -28520,8 +28520,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007161 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007161">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0001000"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001001"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000115>OBSOLETE The treatment involving an exposure to wind with varying degree of temperature, which may depend on the study type or the regional environment.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>EO:0007161</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym>air temperature treatment (narrow)</oboInOwl:hasNarrowSynonym>

@@ -1,9 +1,0 @@
-defined_class	defined_class_label	stimulus	stimulus_label
-PECO:0007089	"bone meal exposure"	ENVO:02000054	"bone meal"
-PECO:0007156	"clay soil exposure"	ENVO:00002262	"clay soil"
-PECO:0007158	"sandy soil exposure"	ENVO:00002229	"arenosol"
-PECO:0007161	"air temperature exposure"	ENVO:09200001	"temperature of air"
-PECO:0007181	"rainfall exposure"	ENVO:01000830	"water-based rainfall"
-PECO:0007396	"flood prone region exposure"	ENVO:02500002	"flooding"
-PECO:0007400	"arid region exposure"	ENVO:00000097	"desert"
-PECO:0007555	"natural gas exposure"	ENVO:01000552	"natural gas"

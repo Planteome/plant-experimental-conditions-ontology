@@ -110,12 +110,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_162131 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_162131"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_165778 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_165778"/>
@@ -1482,24 +1476,6 @@
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002309"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_162130"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PECO_0007631 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007631">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002309"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_162131"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>

@@ -301,8 +301,3 @@ id: PECO:0007630
 intersection_of: PECO:0001001
 intersection_of: RO:0002309 NCBITaxon:162130
 
-[Term]
-id: PECO:0007631
-intersection_of: PECO:0001001
-intersection_of: RO:0002309 NCBITaxon:162131
-

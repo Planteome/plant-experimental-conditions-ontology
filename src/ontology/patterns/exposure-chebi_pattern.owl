@@ -1772,24 +1772,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PECO_0007228 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007228">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002309"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28073 chromium atom"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PECO_0007230 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007230">
@@ -3587,12 +3569,6 @@
             </owl:Class>
         </owl:equivalentClass>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_28073 chromium atom -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28073 chromium atom"/>
 </rdf:RDF>
 
 

@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/peco.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/peco/releases/2025-11-25/peco.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/peco/releases/2025-12-02/peco.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/peco/imports/chebi_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/peco/imports/envo_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/peco/imports/ncbitaxon_import.owl"/>
@@ -24924,8 +24924,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007044"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007085"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007185"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007293"/>
         <obo:IAO_0000115>A potassium fertilizer exposure (PECO:0001064) involving the use of potassium chloride fertilizer as a supplement to study plant responses.</obo:IAO_0000115>
         <oboInOwl:created_by>Laurel_Cooper</oboInOwl:created_by>
@@ -26116,8 +26114,8 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007048 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0001000"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001004"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007185"/>
         <obo:IAO_0000115>An exposure involving the use of sodium chloride salt in the growth media.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>EO:0007048</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>CHEBI:26710</oboInOwl:hasDbXref>
@@ -26912,8 +26910,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007085 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007085">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0001000"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001001"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000115>OBSOLETE A plant nutrient exposure (PECO:0007241) involving the use of a fertilizer, a combination of plant nutrients.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>EO:0007085</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym>fertilizer treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -27015,9 +27012,8 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007090 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007090">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007085"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0001000"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007185"/>
         <obo:IAO_0000115>Treatment involving the use of ammonium nitrate supplement to study various types of responses.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>EO:0007090</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym>ammonium nitrate treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -27079,8 +27075,6 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007094 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007094">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007085"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007185"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007406"/>
         <obo:IAO_0000115>Treatment involving the use of sodium nitrate supplement to study various types of responses.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>EO:0007094</oboInOwl:hasAlternativeId>
@@ -27101,9 +27095,8 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007095 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007095">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007085"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0001000"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007185"/>
         <obo:IAO_0000115>Treatment involving the use of calcium nitrate supplement to study various types of responses.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>EO:0007095</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym>calcium nitrate treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -27123,8 +27116,6 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007096 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007096">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007085"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007185"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007406"/>
         <obo:IAO_0000115>Treatment involving the use of potassiumium nitrate supplement to study various types of responses.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>EO:0007096</oboInOwl:hasAlternativeId>
@@ -27145,9 +27136,8 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007097 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007097">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007085"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0001000"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007185"/>
         <obo:IAO_0000115>Treatment involving the use of ammonium sulfate supplement to study various types of responses.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>EO:0007097</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym>ammonium sulfate treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -27168,7 +27158,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007098">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001008"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007185"/>
         <obo:IAO_0000115>Treatment involving the use of ferrous sulfate supplement to study various types of responses.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>EO:0007098</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym>ferrous sulfate treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -27190,7 +27179,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007099">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001008"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007044"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007185"/>
         <obo:IAO_0000115>Treatment involving the use of potassium sulfate supplement to study various types of responses.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>EO:0007099</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym>potassium sulfate treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -27230,7 +27218,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007101 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007101">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007085"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0001000"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
         <obo:IAO_0000115>Treatment involving the use of urea as source of nitrogen supplement to study various types of responses.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>EO:0007101</oboInOwl:hasAlternativeId>
@@ -28993,8 +28981,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007185 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007185">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0001000"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001001"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000115>A chemical exposure (PECO:0007189) involving use of salts as supplement to liquid and soil growth media to study various types of responses on their application.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>EO:0007185</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>CHEBI:24866</oboInOwl:hasDbXref>
@@ -31102,8 +31089,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007284 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007284">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0001000"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001001"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000115>OBSOLETE A primary plant macronutrient exposure (PECO:0007045) involving the application of nitrogen.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>EO:0007284</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>PECO_GIT:3</oboInOwl:hasDbXref>
@@ -33816,8 +33802,6 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007412 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007412">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007085"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007185"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007309"/>
         <obo:IAO_0000115>The treatment involving exposure of plant to micronutrient zinc by adding ZnSO4 as supplement to study various types of responses.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>EO:0007412</oboInOwl:hasAlternativeId>
@@ -33839,7 +33823,6 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007413 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007413">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007185"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007387"/>
         <obo:IAO_0000115>The treatment involving exposure of plant to micronutrient manganese by adding MnSO4  supplement to study various types of responses.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>EO:0007413</oboInOwl:hasAlternativeId>
@@ -34445,9 +34428,8 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007527 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007527">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007085"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0001000"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007149"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007185"/>
         <obo:IAO_0000115>The treatment involving use of cupric sulfate for mutagenesis process.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>EO:0007527</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym>cupric sulfate treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -34917,8 +34899,8 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007548 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007548">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0001000"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007149"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007185"/>
         <obo:IAO_0000115>The treatment involving use of Janus green B for mutagenesis process.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>EO:0007548</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym>Janus green B treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -35353,8 +35335,8 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007567 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007567">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0001000"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007149"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007185"/>
         <obo:IAO_0000115>The treatment involving use of sodium bisulfite for mutagenesis process.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>EO:0007567</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym>sodium bisulfite treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -35375,8 +35357,8 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007568 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007568">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0001000"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007149"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007185"/>
         <obo:IAO_0000115>The treatment involving use of sodium fluoride for mutagenesis process.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>EO:0007568</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym>sodium fluoride treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -35419,8 +35401,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007570 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007570">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0001000"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001001"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000115>OBSOLETE The treatment involving use of sulfur mustard for mutagenesis process.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>EO:0007570</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym>sulfur mustard treatment (narrow)</oboInOwl:hasNarrowSynonym>
@@ -35711,8 +35692,7 @@
     <!-- http://purl.obolibrary.org/obo/PECO_0007619 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007619">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0001000"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001001"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000115>OBSOLETE</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>EO:0007619</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym>226-Ra or agr ray treatment (narrow)</oboInOwl:hasNarrowSynonym>

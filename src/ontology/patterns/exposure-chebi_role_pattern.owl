@@ -104,12 +104,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_33287 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33287"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_37845 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37845"/>
@@ -222,34 +216,6 @@
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22676"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PECO_0007085 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007085">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002244"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33287"/>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2025-11-25
+data-version: releases/2025-12-02
 date: 12:10:2015 15:21
 saved-by: cooperl
 default-namespace: plant_experimental_conditions_ontology
@@ -9479,8 +9479,6 @@ def: "A potassium fertilizer exposure (PECO:0001064) involving the use of potass
 synonym: "muriate of potash exposure (related)" RELATED []
 xref: PECO_GIT:112
 is_a: PECO:0007044 ! mineral exposure
-is_a: PECO:0007085 ! OBSOLETE fertilizer exposure
-is_a: PECO:0007185 ! OBSOLETE salt exposure
 is_a: PECO:0007293 ! potassium exposure
 created_by: Laurel_Cooper
 creation_date: 2018-10-18T17:51:54Z
@@ -9986,8 +9984,8 @@ synonym: "NaCl treatment (related)" RELATED []
 synonym: "sodium chloride treatment (narrow)" NARROW []
 xref: CHEBI:26710
 xref: PECO_GIT:76
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0001004 ! inorganic chemical exposure
-is_a: PECO:0007185 ! OBSOLETE salt exposure
 
 [Term]
 id: PECO:0007049
@@ -10320,8 +10318,6 @@ name: OBSOLETE fertilizer exposure
 alt_id: EO:0007085
 def: "OBSOLETE A plant nutrient exposure (PECO:0007241) involving the use of a fertilizer, a combination of plant nutrients." [Gramene:pankaj_jaiswal]
 synonym: "fertilizer treatment (narrow)" NARROW []
-is_a: COB:0001000 ! exposure of organism
-is_a: PECO:0001001 ! plant exposure
 is_obsolete: true
 
 [Term]
@@ -10367,9 +10363,8 @@ name: ammonium nitrate exposure
 alt_id: EO:0007090
 def: "Treatment involving the use of ammonium nitrate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "ammonium nitrate treatment (narrow)" NARROW []
-is_a: PECO:0007085 ! OBSOLETE fertilizer exposure
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007102 ! nitrogen exposure
-is_a: PECO:0007185 ! OBSOLETE salt exposure
 
 [Term]
 id: PECO:0007091
@@ -10401,8 +10396,6 @@ name: sodium nitrate exposure
 alt_id: EO:0007094
 def: "Treatment involving the use of sodium nitrate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "sodium nitrate treatment (narrow)" NARROW []
-is_a: PECO:0007085 ! OBSOLETE fertilizer exposure
-is_a: PECO:0007185 ! OBSOLETE salt exposure
 is_a: PECO:0007406 ! nitrate exposure
 
 [Term]
@@ -10411,9 +10404,8 @@ name: calcium nitrate exposure
 alt_id: EO:0007095
 def: "Treatment involving the use of calcium nitrate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "calcium nitrate treatment (narrow)" NARROW []
-is_a: PECO:0007085 ! OBSOLETE fertilizer exposure
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007102 ! nitrogen exposure
-is_a: PECO:0007185 ! OBSOLETE salt exposure
 
 [Term]
 id: PECO:0007096
@@ -10421,8 +10413,6 @@ name: potassium nitrate exposure
 alt_id: EO:0007096
 def: "Treatment involving the use of potassiumium nitrate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "potassium nitrate treatment (narrow)" NARROW []
-is_a: PECO:0007085 ! OBSOLETE fertilizer exposure
-is_a: PECO:0007185 ! OBSOLETE salt exposure
 is_a: PECO:0007406 ! nitrate exposure
 
 [Term]
@@ -10431,9 +10421,8 @@ name: ammonium sulfate exposure
 alt_id: EO:0007097
 def: "Treatment involving the use of ammonium sulfate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "ammonium sulfate treatment (narrow)" NARROW []
-is_a: PECO:0007085 ! OBSOLETE fertilizer exposure
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007102 ! nitrogen exposure
-is_a: PECO:0007185 ! OBSOLETE salt exposure
 
 [Term]
 id: PECO:0007098
@@ -10442,7 +10431,6 @@ alt_id: EO:0007098
 def: "Treatment involving the use of ferrous sulfate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "ferrous sulfate treatment (narrow)" NARROW []
 is_a: PECO:0001008 ! sulfate exposure
-is_a: PECO:0007185 ! OBSOLETE salt exposure
 
 [Term]
 id: PECO:0007099
@@ -10452,7 +10440,6 @@ def: "Treatment involving the use of potassium sulfate supplement to study vario
 synonym: "potassium sulfate treatment (narrow)" NARROW []
 is_a: PECO:0001008 ! sulfate exposure
 is_a: PECO:0007044 ! mineral exposure
-is_a: PECO:0007185 ! OBSOLETE salt exposure
 
 [Term]
 id: PECO:0007100
@@ -10468,7 +10455,7 @@ name: urea exposure
 alt_id: EO:0007101
 def: "Treatment involving the use of urea as source of nitrogen supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "urea treatment (narrow)" NARROW []
-is_a: PECO:0007085 ! OBSOLETE fertilizer exposure
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007102 ! nitrogen exposure
 
 [Term]
@@ -11194,8 +11181,6 @@ comment: This treatment may be used to simulate the growth conditions of sea coa
 synonym: "salt treatment (narrow)" NARROW []
 xref: CHEBI:24866
 xref: PECO_GIT:76
-is_a: COB:0001000 ! exposure of organism
-is_a: PECO:0001001 ! plant exposure
 is_obsolete: true
 
 [Term]
@@ -12067,8 +12052,6 @@ alt_id: EO:0007284
 def: "OBSOLETE A primary plant macronutrient exposure (PECO:0007045) involving the application of nitrogen." [CHEBI:25555, Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "nitrogen macronutrient treatment (narrow)" NARROW []
 xref: PECO_GIT:3
-is_a: COB:0001000 ! exposure of organism
-is_a: PECO:0001001 ! plant exposure
 is_obsolete: true
 
 [Term]
@@ -13224,8 +13207,6 @@ alt_id: EO:0007412
 def: "The treatment involving exposure of plant to micronutrient zinc by adding ZnSO4 as supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "zinc sulphate treatment (narrow)" NARROW []
 synonym: "ZnSO4 (related)" RELATED []
-is_a: PECO:0007085 ! OBSOLETE fertilizer exposure
-is_a: PECO:0007185 ! OBSOLETE salt exposure
 is_a: PECO:0007309 ! zinc nutrient exposure
 
 [Term]
@@ -13235,7 +13216,6 @@ alt_id: EO:0007413
 def: "The treatment involving exposure of plant to micronutrient manganese by adding MnSO4  supplement to study various types of responses." [Gramene:pankaj_jaiswal]
 synonym: "manganese sulfate treatment (narrow)" NARROW []
 synonym: "MnSO4 (related)" RELATED []
-is_a: PECO:0007185 ! OBSOLETE salt exposure
 is_a: PECO:0007387 ! manganese nutrient exposure
 
 [Term]
@@ -13491,9 +13471,8 @@ name: cupric sulfate exposure
 alt_id: EO:0007527
 def: "The treatment involving use of cupric sulfate for mutagenesis process." [CAS:7758-98-7, Gramene:pankaj_jaiswal]
 synonym: "cupric sulfate treatment (narrow)" NARROW []
-is_a: PECO:0007085 ! OBSOLETE fertilizer exposure
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: PECO:0007185 ! OBSOLETE salt exposure
 
 [Term]
 id: PECO:0007528
@@ -13693,8 +13672,8 @@ name: Janus green B exposure
 alt_id: EO:0007548
 def: "The treatment involving use of Janus green B for mutagenesis process." [CAS:2869-83-2, Gramene:pankaj_jaiswal]
 synonym: "Janus green B treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: PECO:0007185 ! OBSOLETE salt exposure
 
 [Term]
 id: PECO:0007549
@@ -13884,8 +13863,8 @@ name: sodium bisulfite exposure
 alt_id: EO:0007567
 def: "The treatment involving use of sodium bisulfite for mutagenesis process." [CAS:7631-90-5, Gramene:pankaj_jaiswal]
 synonym: "sodium bisulfite treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: PECO:0007185 ! OBSOLETE salt exposure
 
 [Term]
 id: PECO:0007568
@@ -13893,8 +13872,8 @@ name: sodium fluoride exposure
 alt_id: EO:0007568
 def: "The treatment involving use of sodium fluoride for mutagenesis process." [CAS:7681-49-4, Gramene:pankaj_jaiswal]
 synonym: "sodium fluoride treatment (narrow)" NARROW []
+is_a: COB:0001000 ! exposure of organism
 is_a: PECO:0007149 ! chemical mutagen exposure
-is_a: PECO:0007185 ! OBSOLETE salt exposure
 
 [Term]
 id: PECO:0007569
@@ -13913,8 +13892,6 @@ alt_id: EO:0007570
 def: "OBSOLETE The treatment involving use of sulfur mustard for mutagenesis process." [CAS:505-60-2, Gramene:pankaj_jaiswal]
 synonym: "CB1735 (related)" RELATED []
 synonym: "sulfur mustard treatment (narrow)" NARROW []
-is_a: COB:0001000 ! exposure of organism
-is_a: PECO:0001001 ! plant exposure
 is_obsolete: true
 
 [Term]
@@ -14035,8 +14012,6 @@ alt_id: EO:0007619
 def: "OBSOLETE" []
 synonym: "226-Ra or agr ray treatment (narrow)" NARROW []
 synonym: "radium (related)" RELATED []
-is_a: COB:0001000 ! exposure of organism
-is_a: PECO:0001001 ! plant exposure
 is_obsolete: true
 
 [Term]

@@ -35,7 +35,6 @@ PECO:0007105	abscisic acid exposure	CHEBI:22152	2-cis-abscisic acid
 PECO:0007151	radiation exposure	CHEBI:30212	photon
 PECO:0007168	hygromycin exposure	CHEBI:24753	hygromycin
 PECO:0007180	"2	4-dichlorophenoxyacetic acid exposure"	CHEBI:19351	"(2	4-dichlorophenoxy)acetate"
-PECO:0007185	salt exposure	CHEBI:24866	salt
 PECO:0007187	salicylic acid exposure	CHEBI:16914	salicylic acid
 PECO:0007204	1-naphthaleneacetic acid exposure	CHEBI:32918	1-naphthylacetic acid
 PECO:0007223	cadmium chloride exposure	CHEBI:35456	cadmium dichloride
@@ -112,12 +111,10 @@ PECO:0007566	S-2-chloroethylcysteine exposure	CHEBI:22025	S-2-chloroethylcystein
 PECO:0007567	sodium bisulfite exposure	CHEBI:26709	sodium hydrogensulfite
 PECO:0007568	sodium fluoride exposure	CHEBI:28741	sodium fluoride
 PECO:0007569	styryl quinoline exposure	CHEBI:26800	styrylquinoline
-PECO:0007570	sulfur mustard exposure	CHEBI:25434	bis(2-chloroethyl) sulfide
 PECO:0007571	triaziquone exposure	CHEBI:27090	triaziquone
 PECO:0007572	triethylenemelamine exposure	CHEBI:27919	tretamine
 PECO:0007573	urethane exposure	CHEBI:17967	urethane
 PECO:0007574	vinyl carbamate exposure	CHEBI:27292	vinyl carbamate
-PECO:0007619	226-Ra or agr ray exposure	CHEBI:33325	radium atom
 PECO:0007629	hydrogen exposure	CHEBI:49637	hydrogen atom
 PECO:0007633	imidazolinone exposure	CHEBI:24781	imidazolinone
 PECO:0001065	potassium chloride exposure	CHEBI:32588	potassium chloride
@@ -129,7 +126,6 @@ PECO:0007387	manganese nutrient exposure	CHEBI:18291	manganese atom
 PECO:0007235	silicon nutrient exposure	CHEBI:27573	silicon atom
 PECO:0007303	carbon nutrient exposure	CHEBI:27594	carbon atom
 PECO:0007297	calcium nutrient exposure	CHEBI:22984	calcium atom
-PECO:0007284	nitrogen macronutrient exposure	CHEBI:25555	nitrogen atom
 PECO:0007225	fluorine nutrient exposure	CHEBI:24061	fluorine atom
 PECO:0007397	phosphorus nutrient exposure	CHEBI:28659	phosphorus atom
 PECO:0007253	molybdenum nutrient exposure	CHEBI:28685	molybdenum atom

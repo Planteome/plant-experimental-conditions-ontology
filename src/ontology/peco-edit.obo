@@ -8,7 +8,6 @@ import: http://purl.obolibrary.org/obo/peco/imports/ncbitaxon_import.owl
 import: http://purl.obolibrary.org/obo/peco/imports/ro_import.owl
 import: http://purl.obolibrary.org/obo/peco/patterns/exposure-chebi_pattern.owl
 import: http://purl.obolibrary.org/obo/peco/patterns/exposure-chebi_role_pattern.owl
-import: http://purl.obolibrary.org/obo/peco/patterns/exposure-envo_pattern.owl
 import: http://purl.obolibrary.org/obo/peco/patterns/exposure-ncbitaxon_pattern.owl
 ontology: peco
 

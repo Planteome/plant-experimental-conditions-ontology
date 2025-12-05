@@ -368,12 +368,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_24866 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24866"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_25107 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25107"/>
@@ -392,21 +386,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_25434 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25434"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_25516 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25516"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_25555 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25555"/>
     
 
 
@@ -680,12 +662,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_29238 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29238"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_29362 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29362"/>
@@ -743,12 +719,6 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_33118 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33118"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_33325 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33325"/>
     
 
 
@@ -934,13 +904,37 @@
 
     <!-- http://purl.obolibrary.org/obo/PECO_0001005 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001005"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001005">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002309"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25516"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PECO_0001006 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001006"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001006">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002309"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26020"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
     
 
 
@@ -1126,13 +1120,37 @@
 
     <!-- http://purl.obolibrary.org/obo/PECO_0001018 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001018"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001018">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002309"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_63063"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PECO_0001020 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001020"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001020">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002309"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16526"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
     
 
 
@@ -1151,12 +1169,6 @@
             </owl:Class>
         </owl:equivalentClass>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PECO_0001025 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001025"/>
     
 
 
@@ -1286,12 +1298,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PECO_0001064 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001064"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PECO_0001065 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0001065">
@@ -1312,13 +1318,37 @@
 
     <!-- http://purl.obolibrary.org/obo/PECO_0007044 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007044"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007044">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002309"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46662"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/PECO_0007048 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007048"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007048">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002309"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26710"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
     
 
 
@@ -1342,7 +1372,19 @@
 
     <!-- http://purl.obolibrary.org/obo/PECO_0007068 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007068"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007068">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002309"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29362"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
     
 
 
@@ -1379,12 +1421,6 @@
             </owl:Class>
         </owl:equivalentClass>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PECO_0007079 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007079"/>
     
 
 
@@ -1550,30 +1586,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PECO_0007102 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007102">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002309"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25555"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PECO_0007103 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007103"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PECO_0007105 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007105">
@@ -1594,7 +1606,19 @@
 
     <!-- http://purl.obolibrary.org/obo/PECO_0007151 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007151"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007151">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002309"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30212"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
     
 
 
@@ -1631,12 +1655,6 @@
             </owl:Class>
         </owl:equivalentClass>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PECO_0007185 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007185"/>
     
 
 
@@ -1709,12 +1727,6 @@
             </owl:Class>
         </owl:equivalentClass>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PECO_0007228 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007228"/>
     
 
 
@@ -1916,12 +1928,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PECO_0007284 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007284"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PECO_0007287 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007287">
@@ -2050,7 +2056,19 @@
 
     <!-- http://purl.obolibrary.org/obo/PECO_0007297 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007297"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007297">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002309"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22984"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
     
 
 
@@ -3062,24 +3080,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PECO_0007552 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007552">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PECO_0001001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002309"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25434"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PECO_0007553 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007553">
@@ -3368,12 +3368,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PECO_0007570 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007570"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PECO_0007571 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007571">
@@ -3446,18 +3440,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PECO_0007610 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007610"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PECO_0007619 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007619"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PECO_0007629 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007629">
@@ -3495,5 +3477,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
 

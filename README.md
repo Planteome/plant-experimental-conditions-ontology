@@ -5,8 +5,8 @@
 Repository for the Plant Experimental Conditions Ontology
 The current release version of the PECO can be accessed through its official PURLs:
 
-    http://purl.obolibrary.org/obo/peco.owl
-    http://purl.obolibrary.org/obo/peco.obo
+    * http://purl.obolibrary.org/obo/peco.owl
+    * http://purl.obolibrary.org/obo/peco.obo
 
 Or at http://planteome.org/
 

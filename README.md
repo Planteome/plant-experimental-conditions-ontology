@@ -4,4 +4,10 @@
 # plant-experimental-conditions-ontology
 Repository for the Plant Experimental Conditions Ontology
 
+This repository contains the most current, working version of the PECO editors' file: peco-edit.owl
 
+Note that if you are NOT a Planteome ontology developer then you are probably in the wrong place.
+
+** DO NOT EDIT peco.obo OR peco.owl **
+
+Files in this repository:

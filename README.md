@@ -13,8 +13,11 @@ Or at http://planteome.org/
 All releases can be found here: https://github.com/Planteome/plant-experimental-conditions-ontology/releases
 
 This repository contains the most current, working version of the PECO editors' file: peco-edit.owl
+(path plant-experimental-conditions-ontology > src > ontology > peco-edit.owl)
 
 Note that if you are NOT a Planteome ontology developer then you are probably in the wrong place.
+
+Note that this file is subject to frequent changes, and may contain terms that will later destroyed (permanently deleted from the ontology, rather than made obsolete). Users should use this file with caution.
 
 ** DO NOT EDIT peco.obo OR peco.owl **
 

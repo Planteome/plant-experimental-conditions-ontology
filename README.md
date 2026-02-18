@@ -3,6 +3,14 @@
 
 # plant-experimental-conditions-ontology
 Repository for the Plant Experimental Conditions Ontology
+The current release version of the PECO can be accessed through its official PURLs:
+
+    http://purl.obolibrary.org/obo/peco.owl
+    http://purl.obolibrary.org/obo/peco.obo
+
+Or at http://planteome.org/
+
+All releases can be found here: https://github.com/Planteome/plant-experimental-conditions-ontology/releases
 
 This repository contains the most current, working version of the PECO editors' file: peco-edit.owl
 

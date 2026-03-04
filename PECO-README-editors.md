@@ -1,14 +1,26 @@
 # plant-experimental-conditions-ontology
 Repository for the Plant Experimental Conditions Ontology
 
+* All editing is done on the peco-edit.obo file in Protege, 
+Path: GitHub/plant-experimental-conditions-ontology/src/ontology/peco-edit.obo
 
-Plant Experimental Conditions Ontology: 
- https://github.com/Planteome/plant-environment-ontology/wiki/PECO-Numberspaces
+* Except for the classes generated through the patterns- these are indicated by the "equals" sign in the orange dot.
+See: 
+GitHub/plant-experimental-conditions-ontology/src/ontology/patterns
+* exposure-chebi_role.tsv
+* exposure-chebi.tsv
+* exposure-ncbitaxon.tsv
 
-All editing is done on the peco-edit.obo file
+* Protege Instructions:
+- Open peco-edit.obo
+- Start Reasoner - Elk 6.0
+- Open Entities tab
+- Switch from Asserted to Inferred view (background turns yellow)
+
+* Plant Experimental Conditions Ontology Numberspaces:
+See: https://github.com/Planteome/plant-environment-ontology/wiki/PECO-Numberspaces
 
 
-PECO (EO) Number spaces- gSheet: PECO (EO) Numberspaces: (https://docs.google.com/spreadsheets/d/1Lhh533l13767gk_rR5-nEO4TiSQTJYg_fl8oaT8b2O4/edit#gid=0)
 
 
-More details TBA
+

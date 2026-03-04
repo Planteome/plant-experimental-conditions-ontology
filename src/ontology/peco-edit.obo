@@ -59,7 +59,7 @@ creation_date: 2013-04-10T14:03:18Z
 id: PECO:0001005
 name: nickel exposure
 alt_id: EO:0001005
-def: "A mineral exposure (PECO:0007044) involving exposure of plant to nickel (CHEBI:28112)." [CHEBI:28112, PECO:cooperl]
+def: "An inorganic cation exposure (PECO:0001016) involving exposure of plant to nickel (CHEBI:28112)." [CHEBI:28112, PECO:cooperl]
 synonym: "nickel treatment (narrow)" NARROW []
 xref: PECO_GIT:6
 is_a: PECO:0007044 ! mineral exposure
@@ -70,7 +70,7 @@ creation_date: 2013-04-10T14:35:26Z
 id: PECO:0001006
 name: phosphate exposure
 alt_id: EO:0001006
-def: "An inorganic anion exposure (PECO:0001009) involving the application of phosphate (CHEBI:18367)." [CHEBI:18367, PECO:cooperl]
+def: "A plant macronutrient exposure (PECO:0007240) involving the application of phosphate (CHEBI:18367)." [CHEBI:18367, PECO:cooperl]
 synonym: "phosphate treatment (narrow)" NARROW []
 xref: PECO_GIT:7
 is_a: PECO:0007240 ! plant macronutrient exposure
@@ -93,7 +93,7 @@ creation_date: 2013-04-10T15:26:58Z
 id: PECO:0001008
 name: sulfate exposure
 alt_id: EO:0001008
-def: "An inorganic anion exposure (PECO:0001009) involving the application of sulfate (CHEBI:35175)." [CHEBI:35175, PECO:cooperl]
+def: "A sulfur nutrient exposure (PECO:0007295) involving the application of sulfate (CHEBI:35175)." [CHEBI:35175, PECO:cooperl]
 synonym: "sulfate treatment (narrow)" NARROW []
 xref: PECO_GIT:8
 is_a: PECO:0007295 ! sulfur nutrient exposure
@@ -208,7 +208,7 @@ creation_date: 2013-04-12T11:48:32Z
 id: PECO:0001018
 name: cadmium exposure
 alt_id: EO:0001018
-def: "A mineral exposure (PECO:0007044) involving exposure of plant to cadmium (CHEBI:22977)." [CHEBI:22977, PECO:cooperl]
+def: "An inorganic cation exposure (PECO:0001016) involving exposure of plant to cadmium (CHEBI:22977)." [CHEBI:22977, PECO:cooperl]
 synonym: "cadmium treatment (narrow)" NARROW []
 xref: PECO_GIT:30
 is_a: PECO:0001004 ! inorganic chemical exposure
@@ -229,7 +229,7 @@ creation_date: 2013-04-12T12:38:49Z
 id: PECO:0001020
 name: carbon dioxide exposure
 alt_id: EO:0001020
-def: "A gaseous exposure that involves the application of carbon dioxide (CHEBI:16526)." [CHEBI:16526, PECO:cooperl]
+def: "A gaseous exposure (PECO:0007023) that involves the application of carbon dioxide (CHEBI:16526)." [CHEBI:16526, PECO:cooperl]
 synonym: "carbon dioxide treatment (narrow)" NARROW []
 xref: PECO_GIT:28
 is_a: PECO:0007023 ! gaseous exposure
@@ -297,7 +297,7 @@ creation_date: 2013-04-12T19:19:27Z
 id: PECO:0001026
 name: MTA nitrogen exposure
 alt_id: EO:0001026
-def: "A nitrogen macronutrient exposure (PECO:0007284) involving exposure of plant to 5'-S-methyl-5'-thioadenosine (MTA; CHEBI:17509) as the primary or sole source of nitrogen." [CHEBI:17509, PECO:cooperl]
+def: "A nitrogen exposure (PECO:0007102) involving the use of 5'-S-methyl-5'-thioadenosine (MTA; CHEBI:17509)." [CHEBI:17509, PECO:cooperl]
 synonym: "MTA nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
 is_a: PECO:0007102 ! nitrogen exposure
@@ -308,7 +308,7 @@ creation_date: 2013-04-12T19:23:02Z
 id: PECO:0001027
 name: alanine nitrogen exposure
 alt_id: EO:0001027
-def: "A nitrogen macronutrient exposure (PECO:0007284) involving exposure of plant to alanine (CHEBI:16449) as the primary or sole source of nitrogen." [CHEBI:16449, PECO:cooperl]
+def: "A nitrogen exposure (PECO:0007102) involving exposure of plant to alanine (CHEBI:16449)." [CHEBI:16449, PECO:cooperl]
 synonym: "alanine nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
 is_a: PECO:0007102 ! nitrogen exposure
@@ -319,7 +319,7 @@ creation_date: 2013-04-12T19:23:17Z
 id: PECO:0001028
 name: glutamate nitrogen exposure
 alt_id: EO:0001028
-def: "A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to glutamate (CHEBI:29987) as the primary or sole source of nitrogen." [CHEBI:29987, PECO:cooperl]
+def: "A nitrogen exposure (PECO:0007102) involving the use of glutamate (CHEBI:29987)." [CHEBI:29987, PECO:cooperl]
 synonym: "glutamate nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
 is_a: PECO:0007102 ! nitrogen exposure
@@ -330,7 +330,7 @@ creation_date: 2013-04-12T19:35:46Z
 id: PECO:0001029
 name: arginine nitrogen exposure
 alt_id: EO:0001029
-def: "A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to arginine (CHEBI:29016) as the primary or sole source of nitrogen." [CHEBI:29016, PECO:cooperl]
+def: "A nitrogen exposure (PECO:0007102) involving the use of arginine (CHEBI:29016)." [CHEBI:29016, PECO:cooperl]
 synonym: "arginine nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
 is_a: PECO:0007102 ! nitrogen exposure
@@ -341,7 +341,7 @@ creation_date: 2013-04-12T19:36:14Z
 id: PECO:0001030
 name: ornithine nitrogen exposure
 alt_id: EO:0001030
-def: "A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to ornithine (CHEBI:18257) as the primary or sole source of nitrogen." [CHEBI:18257, PECO:cooperl]
+def: "A nitrogen exposure (PECO:0007102) involving the use of ornithine (CHEBI:18257)." [CHEBI:18257, PECO:cooperl]
 synonym: "ornithine nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
 is_a: PECO:0007102 ! nitrogen exposure
@@ -352,7 +352,7 @@ creation_date: 2013-04-12T19:40:51Z
 id: PECO:0001031
 name: glutamine nitrogen exposure
 alt_id: EO:0001031
-def: "A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to glutamine (CHEBI:28300) as the primary or sole source of nitrogen." [CHEBI:28300, PECO:cooperl]
+def: "A nitrogen exposure (PECO:0007102) involving the use of glutamine (CHEBI:28300)." [CHEBI:28300, PECO:cooperl]
 synonym: "glutamine nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:3
 is_a: PECO:0007102 ! nitrogen exposure
@@ -564,7 +564,7 @@ creation_date: 2013-04-24T13:31:00Z
 id: PECO:0001050
 name: limited nitrogen exposure
 alt_id: EO:0001050
-def: "A nitrogen macronutrient exposure (PECO:0007284) involving exposure to limiting amounts or the absence of nitrogen (CHEBI:25555)." [CHEBI:25555, PECO:cooperl]
+def: "A nitrogen exposure (PECO:0007102) involving the use of limiting amounts or the absence of nitrogen." [CHEBI:25555, PECO:cooperl]
 synonym: "limited nitrogen treatment (narrow)" NARROW []
 xref: PECO_GIT:19
 xref: PECO_GIT:2
@@ -783,7 +783,8 @@ creation_date: 2019-03-22T21:10:04Z
 [Term]
 id: PECO:0001070
 name: calcium carbonate exposure
-def: "A salt exposure (PECO:0007185) which is a treatment with calcium carbonate (CHEBI:3311) in order to raise the pH of the growing media." [PECO:cooperl]
+def: "A calcium nutrient exposure (PECO:0007297) which is a treatment with calcium carbonate (CHEBI:3311)." [PECO:cooperl]
+comment: This may be done in order to raise the pH of the growing media.
 synonym: "lime exposure (broad)" BROAD []
 is_a: PECO:0007297 ! calcium nutrient exposure
 created_by: cooperl
@@ -1230,7 +1231,7 @@ is_a: PECO:0007241 ! plant nutrient exposure
 id: PECO:0007048
 name: sodium chloride exposure
 alt_id: EO:0007048
-def: "An exposure involving the use of sodium chloride salt in the growth media." [Gramene:pankaj_jaiswal, PECO:cooperl]
+def: "An inorganic chemical exposure (PECO:0001004) involving the use of sodium chloride salt in the growth media." [Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "NaCl treatment (related)" RELATED []
 synonym: "sodium chloride treatment (narrow)" NARROW []
 xref: CHEBI:26710
@@ -1609,7 +1610,7 @@ is_a: PECO:0007087 ! natural fertilizer exposure
 id: PECO:0007090
 name: ammonium nitrate exposure
 alt_id: EO:0007090
-def: "Treatment involving the use of ammonium nitrate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "A nitrogen exposure (PECO:0007102) involving the use of ammonium nitrate." [Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "ammonium nitrate treatment (narrow)" NARROW []
 is_a: PECO:0007102 ! nitrogen exposure
 
@@ -1649,7 +1650,7 @@ is_a: PECO:0007406 ! nitrate exposure
 id: PECO:0007095
 name: calcium nitrate exposure
 alt_id: EO:0007095
-def: "Treatment involving the use of calcium nitrate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "A nitrogen exposure (PECO:0007102) involving the use of calcium nitrate." [Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "calcium nitrate treatment (narrow)" NARROW []
 is_a: PECO:0007102 ! nitrogen exposure
 
@@ -1665,7 +1666,7 @@ is_a: PECO:0007406 ! nitrate exposure
 id: PECO:0007097
 name: ammonium sulfate exposure
 alt_id: EO:0007097
-def: "Treatment involving the use of ammonium sulfate supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "A nitrogen exposure (PECO:0007102) involving the use of ammonium sulfate." [Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "ammonium sulfate treatment (narrow)" NARROW []
 is_a: PECO:0007102 ! nitrogen exposure
 
@@ -1697,7 +1698,7 @@ is_a: PECO:0001006 ! phosphate exposure
 id: PECO:0007101
 name: urea exposure
 alt_id: EO:0007101
-def: "Treatment involving the use of urea as source of nitrogen supplement to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "A nitrogen exposure (PECO:0007102) involving the use of urea as source of nitrogen." [Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "urea treatment (narrow)" NARROW []
 is_a: PECO:0007102 ! nitrogen exposure
 
@@ -1705,7 +1706,7 @@ is_a: PECO:0007102 ! nitrogen exposure
 id: PECO:0007102
 name: nitrogen exposure
 alt_id: EO:0007102
-def: "Treatment involving the use of nitrogen fertilizer and its components as supplements to study various types of responses." [Gramene:pankaj_jaiswal]
+def: "A plant macronutrient exposure (PECO:0007240) involving the use of various nitrogen compounds." [Gramene:pankaj_jaiswal]
 synonym: "nitrogen fertilizer treatment (narrow)" NARROW []
 is_a: PECO:0007240 ! plant macronutrient exposure
 
@@ -3368,7 +3369,7 @@ is_a: PECO:0007183 ! herbicide exposure
 id: PECO:0007293
 name: potassium exposure
 alt_id: EO:0007293
-def: "The treatment involving exposure of plant to macronutrient potassium as supplement to study various types of responses." [CHEBI:26216, Gramene:pankaj_jaiswal]
+def: "A plant macronutrient exposure (PECO:0007240) involving exposure of a plant to potassium." [CHEBI:26216, Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "potassium nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007240 ! plant macronutrient exposure
 
@@ -4277,7 +4278,7 @@ is_a: PECO:0007064 ! ecological environment exposure
 id: PECO:0007397
 name: phosphorus nutrient exposure
 alt_id: EO:0007397
-def: "The treatment involving exposure of plant to macronutrient phosphorus as supplement to study various types of responses." [CHEBI:28659, Gramene:pankaj_jaiswal]
+def: "A plant macronutrient exposure (PECO:0007240) involving the use phosphorus." [CHEBI:28659, Gramene:pankaj_jaiswal, PECO:cooperl]
 synonym: "phosphorus nutrient treatment (narrow)" NARROW []
 is_a: PECO:0007240 ! plant macronutrient exposure
 
@@ -4353,7 +4354,7 @@ is_a: PECO:0007067 ! hydroponic plant culture media exposure
 id: PECO:0007406
 name: nitrate exposure
 alt_id: EO:0007406
-def: "A nitrogen fertilizer exposure (PECO:0007102) involving a treatment or exposure of a plant structure (PO:0009011) to nitrate." [PECO:cooperl]
+def: "A nitrogen exposure (PECO:0007102) involving the use of nitrate." [PECO:cooperl]
 synonym: "nitrate treatment (narrow)" NARROW []
 is_a: PECO:0007102 ! nitrogen exposure
 

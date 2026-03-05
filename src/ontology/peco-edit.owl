@@ -300,7 +300,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nickel exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007044"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-10T14:35:26Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mineral exposure (PECO:0007044) involving exposure of plant to nickel (CHEBI:28112).</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An inorganic cation exposure (PECO:0001016) involving exposure of plant to nickel (CHEBI:28112).</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001005</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0001005</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO_GIT:6</oboInOwl:hasDbXref>
@@ -309,7 +309,7 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mineral exposure (PECO:0007044) involving exposure of plant to nickel (CHEBI:28112).</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An inorganic cation exposure (PECO:0001016) involving exposure of plant to nickel (CHEBI:28112).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:28112</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -324,7 +324,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phosphate exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007240"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-10T14:54:09Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An inorganic anion exposure (PECO:0001009) involving the application of phosphate (CHEBI:18367).</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant macronutrient exposure (PECO:0007240) involving the application of phosphate (CHEBI:18367).</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001006</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0001006</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO_GIT:7</oboInOwl:hasDbXref>
@@ -333,7 +333,7 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An inorganic anion exposure (PECO:0001009) involving the application of phosphate (CHEBI:18367).</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant macronutrient exposure (PECO:0007240) involving the application of phosphate (CHEBI:18367).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:18367</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -372,7 +372,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sulfate exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007295"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-10T15:29:20Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An inorganic anion exposure (PECO:0001009) involving the application of sulfate (CHEBI:35175).</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sulfur nutrient exposure (PECO:0007295) involving the application of sulfate (CHEBI:35175).</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001008</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0001008</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO_GIT:8</oboInOwl:hasDbXref>
@@ -381,7 +381,7 @@
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sulfate treatment (narrow)</oboInOwl:hasNarrowSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An inorganic anion exposure (PECO:0001009) involving the application of sulfate (CHEBI:35175).</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sulfur nutrient exposure (PECO:0007295) involving the application of sulfate (CHEBI:35175).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:35175</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -616,7 +616,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cadmium exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001004"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-12T12:14:55Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mineral exposure (PECO:0007044) involving exposure of plant to cadmium (CHEBI:22977).</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An inorganic cation exposure (PECO:0001016) involving exposure of plant to cadmium (CHEBI:22977).</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001018</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0001018</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO_GIT:30</oboInOwl:hasDbXref>
@@ -625,7 +625,7 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mineral exposure (PECO:0007044) involving exposure of plant to cadmium (CHEBI:22977).</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An inorganic cation exposure (PECO:0001016) involving exposure of plant to cadmium (CHEBI:22977).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:22977</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -662,7 +662,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon dioxide exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007023"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-12T12:41:25Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gaseous exposure that involves the application of carbon dioxide (CHEBI:16526).</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gaseous exposure (PECO:0007023) that involves the application of carbon dioxide (CHEBI:16526).</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001020</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0001020</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO_GIT:28</oboInOwl:hasDbXref>
@@ -671,7 +671,7 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gaseous exposure that involves the application of carbon dioxide (CHEBI:16526).</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gaseous exposure (PECO:0007023) that involves the application of carbon dioxide (CHEBI:16526).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:16526</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -804,7 +804,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MTA nitrogen exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-12T19:23:02Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen macronutrient exposure (PECO:0007284) involving exposure of plant to 5&apos;-S-methyl-5&apos;-thioadenosine (MTA; CHEBI:17509) as the primary or sole source of nitrogen.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen exposure (PECO:0007102) involving the use of 5&apos;-S-methyl-5&apos;-thioadenosine (MTA; CHEBI:17509).</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001026</oboInOwl:hasAlternativeId>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MTA nitrogen treatment (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0001026</oboInOwl:id>
@@ -813,7 +813,7 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen macronutrient exposure (PECO:0007284) involving exposure of plant to 5&apos;-S-methyl-5&apos;-thioadenosine (MTA; CHEBI:17509) as the primary or sole source of nitrogen.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen exposure (PECO:0007102) involving the use of 5&apos;-S-methyl-5&apos;-thioadenosine (MTA; CHEBI:17509).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:17509</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -828,7 +828,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alanine nitrogen exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-12T19:23:17Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen macronutrient exposure (PECO:0007284) involving exposure of plant to alanine (CHEBI:16449) as the primary or sole source of nitrogen.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen exposure (PECO:0007102) involving exposure of plant to alanine (CHEBI:16449).</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001027</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0001027</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO_GIT:3</oboInOwl:hasDbXref>
@@ -837,7 +837,7 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen macronutrient exposure (PECO:0007284) involving exposure of plant to alanine (CHEBI:16449) as the primary or sole source of nitrogen.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen exposure (PECO:0007102) involving exposure of plant to alanine (CHEBI:16449).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:16449</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -852,7 +852,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glutamate nitrogen exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-12T19:35:46Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to glutamate (CHEBI:29987) as the primary or sole source of nitrogen.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen exposure (PECO:0007102) involving the use of glutamate (CHEBI:29987).</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001028</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0001028</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO_GIT:3</oboInOwl:hasDbXref>
@@ -861,7 +861,7 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to glutamate (CHEBI:29987) as the primary or sole source of nitrogen.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen exposure (PECO:0007102) involving the use of glutamate (CHEBI:29987).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:29987</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -876,7 +876,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arginine nitrogen exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-12T19:36:14Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to arginine (CHEBI:29016) as the primary or sole source of nitrogen.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen exposure (PECO:0007102) involving the use of arginine (CHEBI:29016).</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001029</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0001029</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO_GIT:3</oboInOwl:hasDbXref>
@@ -885,7 +885,7 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to arginine (CHEBI:29016) as the primary or sole source of nitrogen.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen exposure (PECO:0007102) involving the use of arginine (CHEBI:29016).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:29016</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -900,7 +900,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ornithine nitrogen exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-12T19:40:51Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to ornithine (CHEBI:18257) as the primary or sole source of nitrogen.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen exposure (PECO:0007102) involving the use of ornithine (CHEBI:18257).</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001030</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0001030</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO_GIT:3</oboInOwl:hasDbXref>
@@ -909,7 +909,7 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to ornithine (CHEBI:18257) as the primary or sole source of nitrogen.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen exposure (PECO:0007102) involving the use of ornithine (CHEBI:18257).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:18257</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -924,7 +924,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glutamine nitrogen exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-12T19:41:18Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to glutamine (CHEBI:28300) as the primary or sole source of nitrogen.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen exposure (PECO:0007102) involving the use of glutamine (CHEBI:28300).</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001031</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0001031</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO_GIT:3</oboInOwl:hasDbXref>
@@ -933,7 +933,7 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen macronutrient exposure (PECO:0007284)  involving exposure of plant to glutamine (CHEBI:28300) as the primary or sole source of nitrogen.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen exposure (PECO:0007102) involving the use of glutamine (CHEBI:28300).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:28300</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -1375,7 +1375,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">limited nitrogen exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-24T13:45:43Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen macronutrient exposure (PECO:0007284) involving exposure to limiting amounts or the absence of nitrogen (CHEBI:25555).</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen exposure (PECO:0007102) involving the use of limiting amounts or the absence of nitrogen.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0001050</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0001050</oboInOwl:id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO_GIT:19</oboInOwl:hasDbXref>
@@ -1386,7 +1386,7 @@
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen macronutrient exposure (PECO:0007284) involving exposure to limiting amounts or the absence of nitrogen (CHEBI:25555).</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen exposure (PECO:0007102) involving the use of limiting amounts or the absence of nitrogen.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:25555</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -1830,14 +1830,15 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">calcium carbonate exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007297"/>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-09-20T22:36:52Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A salt exposure (PECO:0007185) which is a treatment with calcium carbonate (CHEBI:3311) in order to raise the pH of the growing media.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A calcium nutrient exposure (PECO:0007297) which is a treatment with calcium carbonate (CHEBI:3311).</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0001070</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This may be done in order to raise the pH of the growing media.</rdfs:comment>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cooperl</oboInOwl:created_by>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lime exposure (broad)</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A salt exposure (PECO:0007185) which is a treatment with calcium carbonate (CHEBI:3311) in order to raise the pH of the growing media.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A calcium nutrient exposure (PECO:0007297) which is a treatment with calcium carbonate (CHEBI:3311).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0001070"/>
@@ -2909,7 +2910,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007048">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sodium chloride exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0001004"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure involving the use of sodium chloride salt in the growth media.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An inorganic chemical exposure (PECO:0001004) involving the use of sodium chloride salt in the growth media.</obo:IAO_0000115>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:26710</oboInOwl:hasDbXref>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007048</oboInOwl:hasAlternativeId>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NaCl treatment (related)</oboInOwl:hasRelatedSynonym>
@@ -2919,7 +2920,7 @@
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sodium chloride treatment (narrow)</oboInOwl:hasNarrowSynonym>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exposure involving the use of sodium chloride salt in the growth media.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An inorganic chemical exposure (PECO:0001004) involving the use of sodium chloride salt in the growth media.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -3799,15 +3800,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007090">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ammonium nitrate exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen exposure (PECO:0007102) involving the use of ammonium nitrate.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007090</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007090</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of ammonium nitrate supplement to study various types of responses.</obo:IAO_0000115>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ammonium nitrate treatment (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen exposure (PECO:0007102) involving the use of ammonium nitrate.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of ammonium nitrate supplement to study various types of responses.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007090"/>
     </owl:Axiom>
@@ -3881,15 +3883,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007095">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">calcium nitrate exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen exposure (PECO:0007102) involving the use of calcium nitrate.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007095</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007095</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of calcium nitrate supplement to study various types of responses.</obo:IAO_0000115>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">calcium nitrate treatment (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen exposure (PECO:0007102) involving the use of calcium nitrate.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of calcium nitrate supplement to study various types of responses.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007095"/>
     </owl:Axiom>
@@ -3921,15 +3924,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007097">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ammonium sulfate exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen exposure (PECO:0007102) involving the use of ammonium sulfate.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007097</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007097</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of ammonium sulfate supplement to study various types of responses.</obo:IAO_0000115>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ammonium sulfate treatment (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen exposure (PECO:0007102) involving the use of ammonium sulfate.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of ammonium sulfate supplement to study various types of responses.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007097"/>
     </owl:Axiom>
@@ -4001,15 +4005,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007101">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urea exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen exposure (PECO:0007102) involving the use of urea as source of nitrogen.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007101</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007101</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of urea as source of nitrogen supplement to study various types of responses.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urea treatment (narrow)</oboInOwl:hasNarrowSynonym>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen exposure (PECO:0007102) involving the use of urea as source of nitrogen.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of urea as source of nitrogen supplement to study various types of responses.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007101"/>
     </owl:Axiom>
@@ -4021,15 +4026,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007102">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007240"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant macronutrient exposure (PECO:0007240) involving the use of various nitrogen compounds.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007102</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007102</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of nitrogen fertilizer and its components as supplements to study various types of responses.</obo:IAO_0000115>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen fertilizer treatment (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant macronutrient exposure (PECO:0007240) involving the use of various nitrogen compounds.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment involving the use of nitrogen fertilizer and its components as supplements to study various types of responses.</owl:annotatedTarget>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
     </owl:Axiom>
@@ -8049,16 +8054,17 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007293">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">potassium exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007240"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant macronutrient exposure (PECO:0007240) involving exposure of a plant to potassium.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007293</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007293</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to macronutrient potassium as supplement to study various types of responses.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">potassium nutrient treatment (narrow)</oboInOwl:hasNarrowSynonym>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant macronutrient exposure (PECO:0007240) involving exposure of a plant to potassium.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:26216</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to macronutrient potassium as supplement to study various types of responses.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007293"/>
     </owl:Axiom>
@@ -10208,16 +10214,17 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007397">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phosphorus nutrient exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007240"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant macronutrient exposure (PECO:0007240) involving the use phosphorus.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007397</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007397</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to macronutrient phosphorus as supplement to study various types of responses.</obo:IAO_0000115>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phosphorus nutrient treatment (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant macronutrient exposure (PECO:0007240) involving the use phosphorus.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:28659</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gramene:pankaj_jaiswal</oboInOwl:hasDbXref>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving exposure of plant to macronutrient phosphorus as supplement to study various types of responses.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007397"/>
     </owl:Axiom>
@@ -10393,14 +10400,14 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PECO_0007406">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrate exposure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PECO_0007102"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen fertilizer exposure (PECO:0007102) involving a treatment or exposure of a plant structure (PO:0009011) to nitrate.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen exposure (PECO:0007102) involving the use of nitrate.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EO:0007406</oboInOwl:hasAlternativeId>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:0007406</oboInOwl:id>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrate treatment (narrow)</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant_experimental_conditions_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen fertilizer exposure (PECO:0007102) involving a treatment or exposure of a plant structure (PO:0009011) to nitrate.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A nitrogen exposure (PECO:0007102) involving the use of nitrate.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PECO:cooperl</oboInOwl:hasDbXref>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PECO_0007406"/>
